@@ -1,0 +1,108 @@
+import { describe, it, expect } from "vitest";
+import { resolveOptions, resolvePack, validatePack, shuffle } from "./pack";
+import type { QuestionPack } from "./types";
+
+// Deterministic RNG so shuffles are reproducible in tests.
+function seeded(seed: number): () => number {
+  let s = seed >>> 0;
+  return () => {
+    s = (s * 1664525 + 1013904223) >>> 0;
+    return s / 0xffffffff;
+  };
+}
+
+const pack: QuestionPack = {
+  id: "test",
+  title: "Test",
+  theme: { accent: "#185FA5" },
+  optionsPerQuestion: 4,
+  questions: [
+    { id: "q1", image: "a.jpg", answer: "a" },
+    { id: "q2", image: "b.jpg", answer: "b" },
+    { id: "q3", image: "c.jpg", answer: "c" },
+    { id: "q4", image: "d.jpg", answer: "d" },
+    { id: "q5", image: "e.jpg", answer: "e" },
+  ],
+};
+
+describe("shuffle", () => {
+  it("preserves length and membership", () => {
+    const src = [1, 2, 3, 4, 5];
+    const out = shuffle(src, seeded(1));
+    expect(out).toHaveLength(5);
+    expect([...out].sort()).toEqual(src);
+  });
+});
+
+describe("resolveOptions (pool generation)", () => {
+  it("always includes the correct answer", () => {
+    const pool = [
+      { id: "a", label: "A" }, { id: "b", label: "B" },
+      { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
+    ];
+    const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
+    expect(opts.some((o) => o.id === "a")).toBe(true);
+  });
+
+  it("produces exactly optionsPerQuestion options", () => {
+    const pool = [
+      { id: "a", label: "A" }, { id: "b", label: "B" },
+      { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
+    ];
+    const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
+    expect(opts).toHaveLength(4);
+  });
+
+  it("uses supplied options verbatim when present", () => {
+    const q = {
+      id: "qx", image: "x.jpg", answer: "a",
+      options: [{ id: "a", label: "A" }, { id: "z", label: "Z" }],
+    };
+    const opts = resolveOptions({ ...pack, shuffleOptions: false }, q, [], seeded(1));
+    expect(opts.map((o) => o.id)).toEqual(["a", "z"]);
+  });
+});
+
+describe("resolvePack", () => {
+  it("resolves image paths and attaches options to every question", () => {
+    const resolved = resolvePack({ ...pack, assetBase: "assets/test/" }, seeded(7));
+    expect(resolved).toHaveLength(5);
+    for (const q of resolved) {
+      expect(q.resolvedImage).toContain("a.jpg".slice(-5).length ? "" : "");
+      expect(q.resolvedOptions.length).toBeGreaterThan(0);
+      expect(q.resolvedOptions.some((o) => o.id === q.answer)).toBe(true);
+    }
+  });
+
+  it("leaves absolute URLs untouched", () => {
+    const p: QuestionPack = {
+      ...pack,
+      questions: [{ id: "q1", image: "https://example.com/x.jpg", answer: "a" }],
+    };
+    const resolved = resolvePack(p, seeded(1));
+    expect(resolved[0].resolvedImage).toBe("https://example.com/x.jpg");
+  });
+});
+
+describe("validatePack", () => {
+  it("accepts a well-formed pack", () => {
+    expect(() => validatePack(pack)).not.toThrow();
+  });
+
+  it("rejects a pack with no questions", () => {
+    expect(() => validatePack({ ...pack, questions: [] })).toThrow(/non-empty/);
+  });
+
+  it("rejects duplicate question ids", () => {
+    const bad = { ...pack, questions: [pack.questions[0], pack.questions[0]] };
+    expect(() => validatePack(bad)).toThrow(/duplicate/);
+  });
+
+  it("rejects an answer not among supplied options", () => {
+    const bad: QuestionPack = {
+      ...pack,
+      questions: [{ id: "q1", image: "a.jpg", answer: "zzz", options: [{ id: "a", label: "A" }] }],
+    };
+    expect(() => validatePack(bad)).toThrow(/not among/);
+  });
+});

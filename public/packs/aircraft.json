@@ -1,0 +1,50 @@
+{
+  "id": "aircraft",
+  "title": "Aircraft identification",
+  "description": "Name the airliner from its silhouette.",
+  "theme": { "accent": "#185FA5" },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "optionsPerQuestion": 4,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "ac-747-8",
+      "image": "747-8.svg",
+      "answer": "b747-8",
+      "caption": "Boeing 747-8 — note the raised upper deck and four engines.",
+      "alt": "Silhouette of a four-engine widebody airliner"
+    },
+    {
+      "id": "ac-a380",
+      "image": "a380.svg",
+      "answer": "a380",
+      "caption": "Airbus A380 — full-length double deck.",
+      "options": [
+        { "id": "a380", "label": "Airbus A380" },
+        { "id": "b747-8", "label": "Boeing 747-8" },
+        { "id": "b777-300er", "label": "Boeing 777-300ER" },
+        { "id": "a350", "label": "Airbus A350-1000" }
+      ]
+    },
+    {
+      "id": "ac-777",
+      "image": "777-300er.svg",
+      "answer": "b777-300er",
+      "caption": "Boeing 777-300ER — long twin, large GE90 engines."
+    },
+    {
+      "id": "ac-a350",
+      "image": "a350.svg",
+      "answer": "a350",
+      "caption": "Airbus A350-1000 — curved wingtips, twin engines."
+    },
+    {
+      "id": "ac-787",
+      "image": "787-9.svg",
+      "answer": "b787-9",
+      "caption": "Boeing 787-9 Dreamliner — raked wingtips."
+    }
+  ]
+}
