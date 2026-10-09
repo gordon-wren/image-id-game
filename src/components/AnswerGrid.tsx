@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import type { Option } from "../engine/types";
 
 interface AnswerGridProps {
@@ -16,9 +17,19 @@ export function AnswerGrid({
   locked,
   onChoose,
 }: AnswerGridProps) {
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (locked) return;
+      const i = ["1", "2", "3", "4"].indexOf(e.key);
+      if (i !== -1 && options[i]) onChoose(options[i].id);
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [locked, options, onChoose]);
+
   return (
     <div className="answers">
-      {options.map((opt) => {
+      {options.map((opt, i) => {
         let cls = "answer";
         if (locked) {
           if (opt.id === correctId) cls += " correct";
@@ -31,6 +42,7 @@ export function AnswerGrid({
             disabled={locked}
             onClick={() => onChoose(opt.id)}
           >
+            <span className="answer-key">{i + 1}</span>
             {opt.label}
           </button>
         );

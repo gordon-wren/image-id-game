@@ -1,0 +1,475 @@
+{
+  "id": "helicopters",
+  "title": "Helicopters",
+  "description": "Name the helicopter from its photo.",
+  "category": "Aviation",
+  "theme": {
+    "accent": "#0F6E56"
+  },
+  "assetBase": "assets/helicopters/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "helicopters-ah64",
+      "image": "ah64.jpg",
+      "answer": "ah64",
+      "options": [
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        },
+        {
+          "id": "md500",
+          "label": "MD 500 (Hughes 500)"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17 Hip"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-uh1",
+      "image": "uh1.jpg",
+      "answer": "uh1",
+      "options": [
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17 Hip"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ch47",
+      "image": "ch47.jpg",
+      "answer": "ch47",
+      "options": [
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17 Hip"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ch53",
+      "image": "ch53.jpg",
+      "answer": "ch53",
+      "options": [
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ah1",
+      "image": "ah1.jpg",
+      "answer": "ah1",
+      "options": [
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-mi24",
+      "image": "mi24.jpg",
+      "answer": "mi24",
+      "options": [
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24 Hind"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17 Hip"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-mi8",
+      "image": "mi8.jpg",
+      "answer": "mi8",
+      "options": [
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17 Hip"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ka52",
+      "image": "ka52.jpg",
+      "answer": "ka52",
+      "options": [
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24 Hind"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-r22",
+      "image": "r22.jpg",
+      "answer": "r22",
+      "options": [
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-bell206",
+      "image": "bell206.jpg",
+      "answer": "bell206",
+      "options": [
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24 Hind"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-h125",
+      "image": "h125.jpg",
+      "answer": "h125",
+      "options": [
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AStar)"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-s76",
+      "image": "s76.jpg",
+      "answer": "s76",
+      "options": [
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-h145",
+      "image": "h145.jpg",
+      "answer": "h145",
+      "options": [
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "aw101",
+          "label": "Leonardo AW101 Merlin"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-md500",
+      "image": "md500.jpg",
+      "answer": "md500",
+      "options": [
+        {
+          "id": "md500",
+          "label": "MD 500 (Hughes 500)"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-aw101",
+      "image": "aw101.jpg",
+      "answer": "aw101",
+      "options": [
+        {
+          "id": "aw101",
+          "label": "Leonardo AW101 Merlin"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "tiger",
+          "label": "Airbus Tiger"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-bell47",
+      "image": "bell47.jpg",
+      "answer": "bell47",
+      "options": [
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24 Hind"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AStar)"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ch54",
+      "image": "ch54.jpg",
+      "answer": "ch54",
+      "options": [
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AStar)"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        }
+      ]
+    },
+    {
+      "id": "helicopters-ka50",
+      "image": "ka50.jpg",
+      "answer": "ka50",
+      "options": [
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Skycrane"
+        }
+      ]
+    }
+  ]
+}

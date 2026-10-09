@@ -67,6 +67,20 @@ export interface QuestionPack {
   /** One-line description shown on the pack picker, e.g. "Name the airliner from its silhouette." */
   description?: string;
 
+  /**
+   * Display name of the superset this pack belongs to, e.g. "Aviation" or "Auto".
+   * Packs sharing a category are grouped together in the picker. Omitted packs
+   * are grouped under "Other".
+   */
+  category?: string;
+
+  /**
+   * One-line blurb shown under the category title on the top-level menu,
+   * e.g. "Airliners, fighters, and helicopters." Only needs to be set on one
+   * pack per category — the first non-empty one found wins.
+   */
+  categoryDescription?: string;
+
   theme: PackTheme;
 
   /**

@@ -9,11 +9,12 @@ import { ResultBanner } from "./ResultBanner";
 
 interface GameProps {
   pack: QuestionPack;
+  timerEnabled: boolean;
   onFinish: (results: RoundResult[]) => void;
   onQuit: () => void;
 }
 
-export function Game({ pack, onFinish, onQuit }: GameProps) {
+export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
   const roundMs = (pack.roundSeconds ?? DEFAULTS.roundSeconds) * 1000;
 
   // Resolve the pack once per game so shuffles are stable across re-renders.
@@ -24,6 +25,7 @@ export function Game({ pack, onFinish, onQuit }: GameProps) {
   const [locked, setLocked] = useState(false);
   const [roundResult, setRoundResult] = useState<RoundResult | null>(null);
   const [totalScore, setTotalScore] = useState(0);
+  const [streak, setStreak] = useState(0);
   const results = useRef<RoundResult[]>([]);
 
   const { remaining, start, stop, elapsed } = useTimer(roundMs);
@@ -55,14 +57,15 @@ export function Game({ pack, onFinish, onQuit }: GameProps) {
       results.current.push(r);
       setRoundResult(r);
       setTotalScore((s) => s + pts);
+      setStreak((s) => (correct ? s + 1 : 0));
     },
     [elapsed, q, roundMs, stop]
   );
 
-  // Auto-fail when the bar empties.
   useEffect(() => {
+    if (!timerEnabled) return;
     if (remaining <= 0 && !locked) finalizeRound(null, true);
-  }, [remaining, locked, finalizeRound]);
+  }, [timerEnabled, remaining, locked, finalizeRound]);
 
   const choose = (id: string) => {
     if (locked) return;
@@ -95,13 +98,18 @@ export function Game({ pack, onFinish, onQuit }: GameProps) {
           <span className="muted">
             {index + 1} / {questions.length}
           </span>
+          {streak >= 2 && (
+            <span className="streak" aria-label={`${streak} in a row`}>
+              🔥 {streak}
+            </span>
+          )}
           <span>
             ★ <span className="score-val">{totalScore.toLocaleString()}</span>
           </span>
         </div>
       </div>
 
-      <Timer remaining={remaining} roundMs={roundMs} />
+      {timerEnabled && <Timer remaining={remaining} roundMs={roundMs} />}
 
       <div className="hero">
         <img

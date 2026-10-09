@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import type { QuestionPack, RoundResult } from "../engine/types";
+import { setHighScore } from "../engine/highScores";
 
 interface SummaryProps {
   pack: QuestionPack;
@@ -10,6 +12,10 @@ interface SummaryProps {
 export function Summary({ pack, results, onPlayAgain, onMenu }: SummaryProps) {
   const total = results.reduce((s, r) => s + r.points, 0);
   const correct = results.filter((r) => r.correct).length;
+
+  useEffect(() => {
+    setHighScore(pack.id, total);
+  }, [pack.id, total]);
 
   return (
     <div className="stage" style={{ ["--accent" as string]: pack.theme.accent }}>

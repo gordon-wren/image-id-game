@@ -23,6 +23,8 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 2. `public/assets/yourgame/` (images)
 3. Add filename to `public/packs/index.json`
 
+**Category tree** — the menu is a two-level tree: a top-level `category` screen, then the packs within it. Each pack declares an optional `category` display string (e.g. `"Aviation"`, `"Auto"`); packs sharing a category are grouped together (`src/engine/categories.ts`), and packs without one land under "Other". To add a new superset, just give a pack's `category` field the new name — no other code changes needed. Optionally set `categoryDescription` on one pack per category for the one-line blurb shown under the category title.
+
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
 
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.

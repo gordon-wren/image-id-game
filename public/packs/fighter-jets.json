@@ -1,0 +1,475 @@
+{
+  "id": "fighter-jets",
+  "title": "Fighter Jets",
+  "description": "Name the fighter from its photo.",
+  "category": "Aviation",
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/fighter-jets/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "fighter-jets-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "F-22 Raptor"
+        },
+        {
+          "id": "f15",
+          "label": "F-15 Eagle"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f35",
+      "image": "f35.jpg",
+      "answer": "f35",
+      "options": [
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "F-16 Fighting Falcon"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "F/A-18 Hornet"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "F-15 Eagle"
+        },
+        {
+          "id": "mig29",
+          "label": "MiG-29 Fulcrum"
+        },
+        {
+          "id": "mig21",
+          "label": "MiG-21"
+        },
+        {
+          "id": "f14",
+          "label": "F-14 Tomcat"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "F-14 Tomcat"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27 Flanker"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "fa18",
+          "label": "F/A-18 Hornet"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-typhoon",
+      "image": "typhoon.jpg",
+      "answer": "typhoon",
+      "options": [
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27 Flanker"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-rafale",
+      "image": "rafale.jpg",
+      "answer": "rafale",
+      "options": [
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "f117",
+          "label": "F-117 Nighthawk"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-gripen",
+      "image": "gripen.jpg",
+      "answer": "gripen",
+      "options": [
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "f4",
+          "label": "F-4 Phantom II"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "f117",
+          "label": "F-117 Nighthawk"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-tornado",
+      "image": "tornado.jpg",
+      "answer": "tornado",
+      "options": [
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f16",
+          "label": "F-16 Fighting Falcon"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-su27",
+      "image": "su27.jpg",
+      "answer": "su27",
+      "options": [
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27 Flanker"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-su57",
+      "image": "su57.jpg",
+      "answer": "su57",
+      "options": [
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-mig29",
+      "image": "mig29.jpg",
+      "answer": "mig29",
+      "options": [
+        {
+          "id": "mig29",
+          "label": "MiG-29 Fulcrum"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-mig21",
+      "image": "mig21.jpg",
+      "answer": "mig21",
+      "options": [
+        {
+          "id": "mig21",
+          "label": "MiG-21"
+        },
+        {
+          "id": "f15",
+          "label": "F-15 Eagle"
+        },
+        {
+          "id": "f35",
+          "label": "F-35 Lightning II"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-j20",
+      "image": "j20.png",
+      "answer": "j20",
+      "options": [
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "f117",
+          "label": "F-117 Nighthawk"
+        },
+        {
+          "id": "f4",
+          "label": "F-4 Phantom II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-mirage2000",
+      "image": "mirage2000.jpg",
+      "answer": "mirage2000",
+      "options": [
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "f16",
+          "label": "F-16 Fighting Falcon"
+        },
+        {
+          "id": "f4",
+          "label": "F-4 Phantom II"
+        },
+        {
+          "id": "f22",
+          "label": "F-22 Raptor"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f4",
+      "image": "f4.jpg",
+      "answer": "f4",
+      "options": [
+        {
+          "id": "f4",
+          "label": "F-4 Phantom II"
+        },
+        {
+          "id": "f117",
+          "label": "F-117 Nighthawk"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "a10",
+          "label": "A-10 Thunderbolt II"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-f117",
+      "image": "f117.jpg",
+      "answer": "f117",
+      "options": [
+        {
+          "id": "f117",
+          "label": "F-117 Nighthawk"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f4",
+          "label": "F-4 Phantom II"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        }
+      ]
+    },
+    {
+      "id": "fighter-jets-harrier",
+      "image": "harrier.jpg",
+      "answer": "harrier",
+      "options": [
+        {
+          "id": "harrier",
+          "label": "Harrier"
+        },
+        {
+          "id": "mig21",
+          "label": "MiG-21"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f14",
+          "label": "F-14 Tomcat"
+        }
+      ]
+    }
+  ]
+}

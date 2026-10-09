@@ -1,7 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { QuestionPack, RoundResult } from "./engine/types";
 import { loadPack, loadPackIndex } from "./engine/pack";
+import { groupPacksByCategory, categoryIdForPack } from "./engine/categories";
 import { useTheme } from "./engine/useTheme";
+import { useTimerEnabled } from "./engine/useTimerEnabled";
+import { CategoryPicker } from "./components/CategoryPicker";
 import { Picker } from "./components/Picker";
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
@@ -9,14 +12,18 @@ import { Summary } from "./components/Summary";
 type Screen =
   | { name: "loading" }
   | { name: "error"; message: string }
-  | { name: "menu" }
+  | { name: "categories" }
+  | { name: "packs"; categoryId: string }
   | { name: "playing"; pack: QuestionPack }
   | { name: "summary"; pack: QuestionPack; results: RoundResult[] };
 
 export default function App() {
   const { theme, toggle } = useTheme();
+  const { timerEnabled, toggle: toggleTimer } = useTimerEnabled();
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
+
+  const categories = useMemo(() => groupPacksByCategory(packs), [packs]);
 
   useEffect(() => {
     (async () => {
@@ -24,7 +31,7 @@ export default function App() {
         const index = await loadPackIndex();
         const loaded = await Promise.all(index.map(loadPack));
         setPacks(loaded);
-        setScreen({ name: "menu" });
+        setScreen({ name: "categories" });
       } catch (e) {
         setScreen({
           name: "error",
@@ -34,14 +41,41 @@ export default function App() {
     })();
   }, []);
 
+  const packsScreen = (pack: QuestionPack): Screen => ({
+    name: "packs",
+    categoryId: categoryIdForPack(pack),
+  });
+
   return (
     <div className="app">
       <div className="shell">
         <div className="topbar">
-          <span className="brand">Spot ·</span>
-          <button className="icon-btn" onClick={toggle} aria-label="Toggle theme">
-            {theme === "light" ? "Dark" : "Light"}
-          </button>
+          {screen.name === "playing" || screen.name === "packs" ? (
+            <button
+              className="brand brand-link"
+              onClick={() => setScreen({ name: "categories" })}
+              aria-label="Exit to menu"
+            >
+              Spot ·
+            </button>
+          ) : (
+            <span className="brand">Spot ·</span>
+          )}
+          <div className="topbar-actions">
+            {(screen.name === "categories" || screen.name === "packs") && (
+              <button
+                className="icon-btn"
+                onClick={toggleTimer}
+                aria-pressed={timerEnabled}
+                aria-label="Toggle round timer"
+              >
+                Timer: {timerEnabled ? "On" : "Off"}
+              </button>
+            )}
+            <button className="icon-btn" onClick={toggle} aria-label="Toggle theme">
+              {theme === "light" ? "Dark" : "Light"}
+            </button>
+          </div>
         </div>
 
         {screen.name === "loading" && (
@@ -54,10 +88,25 @@ export default function App() {
           </div>
         )}
 
-        {screen.name === "menu" && (
+        {screen.name === "categories" && (
+          <CategoryPicker
+            categories={categories}
+            onPick={(category) =>
+              setScreen({ name: "packs", categoryId: category.id })
+            }
+          />
+        )}
+
+        {screen.name === "packs" && (
           <Picker
-            packs={packs}
+            title={
+              categories.find((c) => c.id === screen.categoryId)?.title ?? ""
+            }
+            packs={
+              categories.find((c) => c.id === screen.categoryId)?.packs ?? []
+            }
             onPick={(pack) => setScreen({ name: "playing", pack })}
+            onBack={() => setScreen({ name: "categories" })}
           />
         )}
 
@@ -65,10 +114,11 @@ export default function App() {
           <Game
             key={screen.pack.id + Math.random()}
             pack={screen.pack}
+            timerEnabled={timerEnabled}
             onFinish={(results) =>
               setScreen({ name: "summary", pack: screen.pack, results })
             }
-            onQuit={() => setScreen({ name: "menu" })}
+            onQuit={() => setScreen(packsScreen(screen.pack))}
           />
         )}
 
@@ -77,7 +127,7 @@ export default function App() {
             pack={screen.pack}
             results={screen.results}
             onPlayAgain={() => setScreen({ name: "playing", pack: screen.pack })}
-            onMenu={() => setScreen({ name: "menu" })}
+            onMenu={() => setScreen(packsScreen(screen.pack))}
           />
         )}
       </div>

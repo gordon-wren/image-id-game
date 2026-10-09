@@ -1,0 +1,476 @@
+{
+  "id": "large-airliners",
+  "title": "Large Airliners",
+  "description": "Name the widebody jet from its photo.",
+  "category": "Aviation",
+  "categoryDescription": "Airliners, fighters, and helicopters.",
+  "theme": {
+    "accent": "#185FA5"
+  },
+  "assetBase": "assets/large-airliners/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "large-airliners-a380",
+      "image": "a380.svg",
+      "answer": "a380",
+      "options": [
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "a340-600",
+          "label": "Airbus A340-600"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b747-8",
+      "image": "b747-8.svg",
+      "answer": "b747-8",
+      "options": [
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b767-300",
+          "label": "Boeing 767-300"
+        },
+        {
+          "id": "a330-300",
+          "label": "Airbus A330-300"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b747-400",
+      "image": "b747-400.svg",
+      "answer": "b747-400",
+      "options": [
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "a340-300",
+          "label": "Airbus A340-300"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "b787-9",
+          "label": "Boeing 787-9 Dreamliner"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b747sp",
+      "image": "b747sp.svg",
+      "answer": "b747sp",
+      "options": [
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        },
+        {
+          "id": "a330-200",
+          "label": "Airbus A330-200"
+        },
+        {
+          "id": "il96",
+          "label": "Ilyushin Il-96"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b777-300er",
+      "image": "b777-300er.svg",
+      "answer": "b777-300er",
+      "options": [
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        },
+        {
+          "id": "a330-300",
+          "label": "Airbus A330-300"
+        },
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "a330-200",
+          "label": "Airbus A330-200"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b777-200",
+      "image": "b777-200.svg",
+      "answer": "b777-200",
+      "options": [
+        {
+          "id": "b777-200",
+          "label": "Boeing 777-200"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "a330-200",
+          "label": "Airbus A330-200"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b787-9",
+      "image": "b787-9.svg",
+      "answer": "b787-9",
+      "options": [
+        {
+          "id": "b787-9",
+          "label": "Boeing 787-9 Dreamliner"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a350-1000",
+      "image": "a350-1000.svg",
+      "answer": "a350-1000",
+      "options": [
+        {
+          "id": "a350-1000",
+          "label": "Airbus A350-1000"
+        },
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a350-900",
+      "image": "a350-900.svg",
+      "answer": "a350-900",
+      "options": [
+        {
+          "id": "a350-900",
+          "label": "Airbus A350-900"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "b767-300",
+          "label": "Boeing 767-300"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a330-300",
+      "image": "a330-300.svg",
+      "answer": "a330-300",
+      "options": [
+        {
+          "id": "a330-300",
+          "label": "Airbus A330-300"
+        },
+        {
+          "id": "a350-1000",
+          "label": "Airbus A350-1000"
+        },
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "b787-9",
+          "label": "Boeing 787-9 Dreamliner"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a330-200",
+      "image": "a330-200.svg",
+      "answer": "a330-200",
+      "options": [
+        {
+          "id": "a330-200",
+          "label": "Airbus A330-200"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        },
+        {
+          "id": "a340-300",
+          "label": "Airbus A340-300"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a340-600",
+      "image": "a340-600.svg",
+      "answer": "a340-600",
+      "options": [
+        {
+          "id": "a340-600",
+          "label": "Airbus A340-600"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a340-300",
+      "image": "a340-300.svg",
+      "answer": "a340-300",
+      "options": [
+        {
+          "id": "a340-300",
+          "label": "Airbus A340-300"
+        },
+        {
+          "id": "a330-300",
+          "label": "Airbus A330-300"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-b767-300",
+      "image": "b767-300.svg",
+      "answer": "b767-300",
+      "options": [
+        {
+          "id": "b767-300",
+          "label": "Boeing 767-300"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b777-300er",
+          "label": "Boeing 777-300ER"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-md11",
+      "image": "md11.svg",
+      "answer": "md11",
+      "options": [
+        {
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "a350-1000",
+          "label": "Airbus A350-1000"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-l1011",
+      "image": "l1011.svg",
+      "answer": "l1011",
+      "options": [
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "b767-300",
+          "label": "Boeing 767-300"
+        },
+        {
+          "id": "b777-200",
+          "label": "Boeing 777-200"
+        },
+        {
+          "id": "il96",
+          "label": "Ilyushin Il-96"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-il96",
+      "image": "il96.svg",
+      "answer": "il96",
+      "options": [
+        {
+          "id": "il96",
+          "label": "Ilyushin Il-96"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "a330-300",
+          "label": "Airbus A330-300"
+        },
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-il86",
+      "image": "il86.svg",
+      "answer": "il86",
+      "options": [
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b777-200",
+          "label": "Boeing 777-200"
+        },
+        {
+          "id": "a340-600",
+          "label": "Airbus A340-600"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a300",
+      "image": "a300.svg",
+      "answer": "a300",
+      "options": [
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        },
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "a350-1000",
+          "label": "Airbus A350-1000"
+        },
+        {
+          "id": "b777-200",
+          "label": "Boeing 777-200"
+        }
+      ]
+    },
+    {
+      "id": "large-airliners-a310",
+      "image": "a310.svg",
+      "answer": "a310",
+      "options": [
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "b767-300",
+          "label": "Boeing 767-300"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        }
+      ]
+    }
+  ]
+}
