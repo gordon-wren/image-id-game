@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildPack, pickDistractors, selectAircraft, similarity } from "./generate.mjs";
+import { buildCatalog, buildPack, firstSentences, pickDistractors, selectAircraft, similarity } from "./generate.mjs";
 
 const plane = (id, label, group, country, firstFlight, manufacturer = [label.split(" ")[0]]) => ({
   id,
@@ -109,5 +109,58 @@ describe("buildPack", () => {
 
   it("refuses recipes that match too few aircraft", () => {
     expect(() => buildPack({ ...recipe, where: { group: "business-general" } }, fleet)).toThrow(/at least 5/);
+  });
+});
+
+describe("firstSentences", () => {
+  it("takes the first two sentences without splitting after initials", () => {
+    const text = "The C-130 is a U.S. transport. It first flew in 1954. It is still built.";
+    expect(firstSentences(text)).toBe("The C-130 is a U.S. transport. It first flew in 1954.");
+  });
+
+  it("returns short text whole and caps long text at a word", () => {
+    expect(firstSentences("Just one sentence")).toBe("Just one sentence");
+    const long = firstSentences("word ".repeat(200) + ".");
+    expect(long.length).toBeLessThanOrEqual(320);
+    expect(long.endsWith("…")).toBe(true);
+  });
+});
+
+describe("buildCatalog", () => {
+  const withSummary = fleet.map((a) => ({ ...a, name: a.label, summary: `${a.label} is a plane. It flies.`, wikipedia: { title: a.label, url: `https://w/${a.id}` } }));
+  const jets = { id: "jets", assetBase: "assets/aircraft/", questions: [{ id: "j1", image: "f15.jpg", answer: "f15" }, { id: "j2", image: "su27.jpg", answer: "su27" }] };
+  const russia = { id: "russia", assetBase: "assets/aircraft/", questions: [{ id: "r1", image: "su27.jpg", answer: "su27" }] };
+  const variants = {
+    id: "variants",
+    assetBase: "assets/variants/",
+    questions: [{ id: "v1", image: "777er.jpg", answer: "777er", caption: "Cap", credit: "Someone", options: [{ id: "777er", label: "Boeing 777-300ER" }] }],
+  };
+  const packs = [["jets.json", jets], ["russia.json", russia], ["variants.json", variants]];
+
+  it("makes one entry per aircraft, listing every pack it's in", () => {
+    const c = buildCatalog(packs, withSummary, null);
+    expect(Object.keys(c.entries)).toEqual(["f15", "su27", "variants/777er"]);
+    expect(c.entries.su27.packs).toEqual(["jets", "russia"]);
+    expect(c.aliases).toEqual({ "jets/f15": "f15", "jets/su27": "su27", "russia/su27": "su27", "variants/777er": "variants/777er" });
+  });
+
+  it("takes facts from the dataset and the rest from the question", () => {
+    const c = buildCatalog(packs, withSummary, null);
+    expect(c.entries.f15).toMatchObject({ name: "McDonnell Douglas F-15 Eagle", image: "assets/aircraft/f15.jpg", credit: "f15 credit" });
+    expect(c.entries.f15.facts).toMatchObject({ firstFlight: 1972, country: "United States", about: "McDonnell Douglas F-15 Eagle is a plane. It flies.", wikipedia: "https://w/f15" });
+    expect(c.entries["variants/777er"]).toEqual({
+      number: 3, name: "Boeing 777-300ER", image: "assets/variants/777er.jpg", credit: "Someone", packs: ["variants"], caption: "Cap",
+    });
+  });
+
+  it("keeps numbers permanent: existing ones stay, new ones append, removed ones are never reused", () => {
+    const first = buildCatalog(packs, withSummary, null);
+    expect(first.numbers).toEqual({ f15: 1, su27: 2, "variants/777er": 3 });
+    // Drop the jets pack and add a new aircraft in front of the rest.
+    const later = buildCatalog([["new.json", { id: "new", assetBase: "assets/aircraft/", questions: [{ id: "n1", image: "a380.jpg", answer: "a380" }] }], ...packs.slice(1)], withSummary, first);
+    expect(later.entries.su27.number).toBe(2);
+    expect(later.entries.a380.number).toBe(4);
+    expect(later.entries.f15).toBeUndefined();
+    expect(later.numbers.f15).toBe(1);
   });
 });

@@ -12,7 +12,8 @@
 //
 // Writes public/packs/<id>.json for every recipe, adds new ones to
 // public/packs/index.json, and removes packs it generated earlier whose recipe
-// is gone. Hand-written packs are never touched.
+// is gone. Hand-written packs are never touched. Also writes the aircraft
+// collection catalog, public/data/collection.json, covering every pack.
 
 import { readFile, writeFile, unlink } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
@@ -23,6 +24,7 @@ const root = resolve(here, "../..");
 const RECIPES = join(here, "recipes.json");
 const DATASET = join(root, "public/data/aircraft.json");
 const PACKS_DIR = join(root, "public/packs");
+const CATALOG = join(root, "public/data/collection.json");
 const GENERATED_FROM = "scripts/packs/recipes.json";
 const ASSET_BASE = "assets/aircraft/";
 const DISTRACTORS = 3;
@@ -189,6 +191,105 @@ export function buildPack(recipe, aircraft) {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Collection catalog
+// ---------------------------------------------------------------------------
+
+const ABOUT_MAX = 320;
+
+/** The first `count` sentences of a Wikipedia summary, not splitting after initials like "U.S.". */
+export function firstSentences(text, count = 2) {
+  if (!text) return null;
+  const out = [];
+  let start = 0;
+  const re = /[.!?](?=\s+[A-Z0-9"(])/g;
+  let m;
+  while (out.length < count && (m = re.exec(text))) {
+    const before = text.slice(Math.max(0, m.index - 3), m.index + 1);
+    if (/(^|[\s.])[A-Z]\.$/.test(before)) continue; // "U.S." / "J. Smith"
+    out.push(text.slice(start, m.index + 1).trim());
+    start = m.index + 1;
+  }
+  if (out.length < count && start < text.length) out.push(text.slice(start).trim());
+  const about = out.join(" ");
+  return about.length > ABOUT_MAX ? about.slice(0, ABOUT_MAX - 1).replace(/\s+\S*$/, "") + "…" : about;
+}
+
+/** Up to two manufacturer names, leaving out Wikidata ids that never resolved to a label ("Q928183"). */
+function manufacturers(list) {
+  const names = list.filter((m) => !/^Q\d+$/.test(m)).slice(0, 2);
+  return names.length ? names.join(", ") : null;
+}
+
+/** A question's answer label: its own option, then any option in the pack naming that id, then the id. */
+function questionLabel(pack, q) {
+  const own = q.options?.find((o) => o.id === q.answer)?.label;
+  if (own) return own;
+  for (const other of pack.questions) {
+    const label = other.options?.find((o) => o.id === q.answer)?.label;
+    if (label) return label;
+  }
+  return q.answer;
+}
+
+/**
+ * The aircraft collection: one entry per aircraft across every pack. A dataset
+ * aircraft is keyed by its id, so it is one entry however many packs include
+ * it; anything else is keyed "<pack>/<answer>". Numbers are permanent: every
+ * key ever numbered keeps its number in `numbers`, and new keys are appended.
+ *
+ * @param packs     [file, pack] pairs in menu order
+ * @param previous  the last catalog, for its numbers (or null)
+ */
+export function buildCatalog(packs, aircraft, previous) {
+  const byId = new Map(aircraft.map((a) => [a.id, a]));
+  const numbers = { ...(previous?.numbers ?? {}) };
+  let next = Math.max(0, ...Object.values(numbers)) + 1;
+  const entries = {};
+  const aliases = {};
+
+  for (const [, pack] of packs) {
+    for (const q of pack.questions) {
+      const a = byId.get(q.answer);
+      const key = a ? a.id : `${pack.id}/${q.answer}`;
+      aliases[`${pack.id}/${q.answer}`] = key;
+      if (entries[key]) {
+        if (!entries[key].packs.includes(pack.id)) entries[key].packs.push(pack.id);
+        continue;
+      }
+      numbers[key] ??= next++;
+      entries[key] = a?.photo?.file
+        ? {
+            number: numbers[key],
+            name: a.label,
+            image: a.photo.file,
+            credit: a.photo.credit,
+            packs: [pack.id],
+            facts: {
+              description: a.description ? a.description[0].toUpperCase() + a.description.slice(1) : null,
+              role: a.role ?? null,
+              manufacturer: manufacturers(a.manufacturer),
+              firstFlight: a.firstFlight ? Number(String(a.firstFlight).slice(0, 4)) : null,
+              country: a.countryOfOrigin.length ? a.countryOfOrigin.join(" / ") : null,
+              // An aircraft sharing a relative's article (Ka-52 → Ka-50) would get the relative's summary.
+              about: a.wikipedia?.title === a.name ? firstSentences(a.summary) : null,
+              wikipedia: a.wikipedia?.url ?? null,
+            },
+          }
+        : {
+            number: numbers[key],
+            name: questionLabel(pack, q),
+            image: /^(https?:|data:)/.test(q.image) ? q.image : `${pack.assetBase ?? ""}${q.image}`,
+            credit: q.credit ?? null,
+            packs: [pack.id],
+            ...(q.caption ? { caption: q.caption } : {}),
+          };
+    }
+  }
+
+  return { generatedFrom: GENERATED_FROM, numbers, entries, aliases };
+}
+
 async function readJson(path) {
   return JSON.parse(await readFile(path, "utf8"));
 }
@@ -221,6 +322,12 @@ async function main() {
     console.log(`wrote ${recipe.id}.json (${pack.questions.length} questions)`);
   }
   await writeFile(indexPath, JSON.stringify(kept) + "\n");
+
+  const packs = await Promise.all(kept.map(async (file) => [file, await readJson(join(PACKS_DIR, file))]));
+  const previous = await readJson(CATALOG).catch(() => null);
+  const catalog = buildCatalog(packs, aircraft, previous);
+  await writeFile(CATALOG, JSON.stringify(catalog, null, 2) + "\n");
+  console.log(`wrote collection.json (${Object.keys(catalog.entries).length} entries)`);
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
