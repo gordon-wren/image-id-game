@@ -2,7 +2,7 @@
   "id": "helicopters",
   "title": "Helicopters",
   "description": "Name the helicopter from its photo.",
-  "category": "Aviation",
+  "path": ["Aviation", "Helicopters"],
   "theme": {
     "accent": "#0F6E56"
   },
