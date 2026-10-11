@@ -1069,5 +1069,20 @@
     "id": "s92",
     "wikipediaTitle": "Sikorsky S-92",
     "group": "helicopter"
+  },
+  {
+    "id": "as365",
+    "wikipediaTitle": "Eurocopter AS365 Dauphin",
+    "label": "Airbus Helicopters AS365 Dauphin",
+    "group": "helicopter"
+  },
+  {
+    "id": "ec155",
+    "wikipediaTitle": "Eurocopter EC155",
+    "label": "Airbus H155 (EC155)",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ec155"
+    ]
   }
 ]

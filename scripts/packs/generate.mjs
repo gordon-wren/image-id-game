@@ -130,9 +130,11 @@ export function similarity(a, b) {
  */
 export function pickDistractors(answer, pool, seed, count = DISTRACTORS) {
   const rng = rngFor(seed);
+  // Each pair gets its own tie-break, so adding an aircraft to the dataset only
+  // changes the questions it actually ranks for, not every pack.
   const ranked = pool
     .filter((c) => c.id !== answer.id && !overlaps(c, answer))
-    .map((c) => ({ c, score: similarity(answer, c), tie: rng() }))
+    .map((c) => ({ c, score: similarity(answer, c), tie: rngFor(`${seed}|${c.id}`)() }))
     .sort((x, y) => y.score - x.score || x.tie - y.tie);
   // Weak matches only make the shortlist when there aren't enough strong ones.
   const floor = (ranked[0]?.score ?? 0) / 2;

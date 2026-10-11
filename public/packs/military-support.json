@@ -30,12 +30,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "u2",
+          "label": "Lockheed U-2"
         }
       ],
       "caption": "American military transport aircraft. First flew 1954.",
@@ -55,12 +55,12 @@
           "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "b717",
-          "label": "Boeing 717"
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "American four engine military transport aircraft. First flew 1991.",
@@ -80,8 +80,8 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         },
         {
           "id": "c17",
@@ -105,12 +105,12 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "kawasaki-c2",
-          "label": "Kawasaki C-2"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -130,12 +130,12 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -155,12 +155,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -180,12 +180,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "il86",
-          "label": "Ilyushin Il-86"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -201,16 +201,16 @@
           "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
-        },
-        {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
-        },
-        {
           "id": "p3",
           "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "US military aerial refueling and transport aircraft. First flew 1956.",
@@ -230,12 +230,12 @@
           "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
@@ -251,16 +251,16 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
         },
         {
           "id": "v22",
           "label": "Bell–Boeing V-22 Osprey"
-        },
-        {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "American maritime patrol aircraft. First flew 2009.",
@@ -276,12 +276,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "u2",
+          "label": "Lockheed U-2"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
           "id": "sr71",
@@ -305,12 +305,12 @@
           "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         }
       ],
       "caption": "Military transport tiltrotor. First flew 1989.",
@@ -330,12 +330,12 @@
           "label": "Airbus A400M Atlas"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "erj",
+          "label": "Embraer ERJ"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "ejet-e2",
+          "label": "Embraer E-Jet E2"
         }
       ],
       "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
@@ -351,16 +351,16 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "a400m",
-          "label": "Airbus A400M Atlas"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
           "id": "mq9",
           "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 2010.",
@@ -376,16 +376,16 @@
           "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
-        },
-        {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         },
         {
           "id": "e3",
           "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
         }
       ],
       "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
@@ -405,12 +405,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
-        },
-        {
           "id": "sr71",
           "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         }
       ],
       "caption": "American reconnaissance aircraft. First flew 1955.",
@@ -426,16 +426,16 @@
           "label": "General Atomics MQ-9 Reaper"
         },
         {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
           "id": "p8",
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
-        },
-        {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         }
       ],
       "caption": "American unmanned aerial vehicle. First flew 2001.",
@@ -451,12 +451,12 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
           "id": "mq9",

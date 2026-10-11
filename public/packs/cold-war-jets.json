@@ -54,12 +54,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "American strategic bomber. First flew 1974.",
@@ -79,12 +79,12 @@
           "label": "Northrop Grumman B-21 Raider"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         }
       ],
       "caption": "American heavy strategic bomber. First flew 1989.",
@@ -129,12 +129,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -150,16 +150,16 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "tu160",
-          "label": "Tupolev Tu-160"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -175,16 +175,16 @@
           "label": "Avro Vulcan"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         },
         {
           "id": "lancaster",
           "label": "Avro Lancaster"
         },
         {
-          "id": "hawk",
-          "label": "BAE Systems Hawk"
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
@@ -200,16 +200,16 @@
           "label": "General Dynamics F-16 Fighting Falcon"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
-        },
-        {
           "id": "f15",
           "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "f117",
-          "label": "Lockheed F-117 Nighthawk"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         }
       ],
       "caption": "American multi-role fighter aircraft. First flew 1974.",
@@ -229,12 +229,12 @@
           "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "f117",
-          "label": "Lockheed F-117 Nighthawk"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
         }
       ],
       "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
@@ -254,12 +254,12 @@
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "f4",
-          "label": "McDonnell Douglas F-4 Phantom II"
-        },
-        {
           "id": "f117",
           "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         }
       ],
       "caption": "Multirole and air superiority fighter family. First flew 1972.",
@@ -275,8 +275,8 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
           "id": "f16",
@@ -300,16 +300,16 @@
           "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         },
         {
           "id": "fa18",
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "f5",
-          "label": "Northrop F-5"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         }
       ],
       "caption": "American close air support attack aircraft. First flew 1972.",
@@ -329,12 +329,12 @@
           "label": "Dassault Mirage 2000"
         },
         {
-          "id": "gripen",
-          "label": "Saab JAS 39 Gripen"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "typhoon",
-          "label": "Eurofighter Typhoon"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         }
       ],
       "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
@@ -354,12 +354,12 @@
           "label": "Saab 37 Viggen"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "typhoon",
-          "label": "Eurofighter Typhoon"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
         }
       ],
       "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
@@ -383,8 +383,8 @@
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "mirage2000",
-          "label": "Dassault Mirage 2000"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
         }
       ],
       "caption": "Family of multi-role combat aircraft. First flew 1974.",
@@ -400,16 +400,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
           "id": "su57",
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -433,8 +433,8 @@
           "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -454,12 +454,12 @@
           "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "j20",
-          "label": "Chengdu J-20"
-        },
-        {
           "id": "mig29",
           "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -479,12 +479,12 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         },
         {
-          "id": "f5",
-          "label": "Northrop F-5"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -504,12 +504,12 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mirage2000",
-          "label": "Dassault Mirage 2000"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -529,12 +529,12 @@
           "label": "Dassault Rafale"
         },
         {
-          "id": "f14",
-          "label": "Grumman F-14 Tomcat"
-        },
-        {
           "id": "tornado",
           "label": "Panavia Tornado"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "French jet fighter aircraft. First flew 1978.",
@@ -550,16 +550,16 @@
           "label": "McDonnell Douglas F-4 Phantom II"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         },
         {
           "id": "f5",
           "label": "Northrop F-5"
-        },
-        {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
         }
       ],
       "caption": "Fighter aircraft family developed from 1958. First flew 1958.",
@@ -575,16 +575,16 @@
           "label": "Lockheed F-117 Nighthawk"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         },
         {
           "id": "f14",
           "label": "Grumman F-14 Tomcat"
-        },
-        {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
         }
       ],
       "caption": "American stealth ground-attack aircraft. First flew 1981.",
@@ -604,12 +604,12 @@
           "label": "Panavia Tornado"
         },
         {
-          "id": "f14",
-          "label": "Grumman F-14 Tomcat"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
         }
       ],
       "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
@@ -629,12 +629,12 @@
           "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         }
       ],
       "caption": "1967 Swedish fighter aircraft family. First flew 1967.",
@@ -654,12 +654,12 @@
           "label": "McDonnell Douglas F-4 Phantom II"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
-        },
-        {
           "id": "f14",
           "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
         }
       ],
       "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
