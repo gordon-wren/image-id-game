@@ -22,7 +22,7 @@ export function withBase(path: string): string {
   return base.replace(/\/+$/, "/") + clean;
 }
 
-function isAbsoluteUrl(s: string): boolean {
+export function isAbsoluteUrl(s: string): boolean {
   return /^https?:\/\//i.test(s) || s.startsWith("data:");
 }
 

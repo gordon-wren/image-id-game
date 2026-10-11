@@ -488,6 +488,113 @@ button { font-family: inherit; }
 
 .state-msg { padding: 24px; text-align: center; color: var(--text-muted); font-size: 14px; }
 
+/* Collection */
+.back-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.back-link:hover { color: var(--text); }
+.collection-head { margin-bottom: 20px; }
+.collection-title { font-size: 22px; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
+.collection-total { margin: 0 0 8px; font-size: 14px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.collection-filter { display: flex; gap: 6px; margin-top: 12px; }
+.collection-filter .icon-btn.active { background: var(--text); border-color: var(--text); color: var(--bg); }
+.collection-section { margin-bottom: 24px; }
+.collection-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+.collection-section-head h2 { font-size: 15px; font-weight: 600; margin: 0; }
+.collection-count { font-size: 13px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.collection-grid {
+  display: grid;
+  /* 3+ columns on a 375px phone: (375 - 2 × 16px gutter - 2 × 8px gap) / 3 ≈ 109px */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+.dex-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0 0 8px;
+  border-radius: var(--radius);
+  border: 0.5px solid var(--card-border);
+  background: var(--card);
+  color: var(--card-text);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+.dex-card:hover { border-color: var(--accent); }
+.dex-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.dex-thumb { position: relative; aspect-ratio: 4 / 3; background: var(--hero); }
+.dex-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.dex-card.uncaught .dex-thumb {
+  /* A tint of the pack colour, so uncaught cards still read as part of their section. */
+  background: color-mix(in srgb, var(--accent) 14%, var(--card));
+}
+.dex-placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.6;
+}
+.dex-new {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.dex-number { display: block; margin: 6px 8px 0; font-size: 11px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.dex-name {
+  margin: 1px 8px 0;
+  font-size: 12px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dex-card.uncaught .dex-name { color: var(--text-muted); }
+.collection-reset { margin: 8px 0 24px; }
+
+.dex-detail {
+  width: min(520px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  border: 0.5px solid var(--card-border);
+  border-radius: var(--round-radius);
+  background: var(--stage);
+  color: var(--text);
+}
+.dex-detail::backdrop { background: rgb(0 0 0 / 0.5); }
+.dex-detail-body { position: relative; padding: 20px; }
+.dex-detail-close { position: absolute; top: 12px; right: 12px; }
+.dex-detail-img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: var(--hero); border-radius: var(--radius); margin: 28px 0 12px; }
+.dex-detail .dex-number { margin: 0; }
+.dex-detail-name { font-size: 20px; font-weight: 600; margin: 2px 0 6px; padding-right: 64px; }
+.dex-detail-desc { margin: 0 0 12px; color: var(--text-muted); font-size: 14px; }
+.dex-facts { margin: 0 0 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.dex-about { font-size: 14px; line-height: 1.5; margin: 0 0 12px; }
+.dex-about a { color: var(--text-muted); white-space: nowrap; }
+.dex-detail-meta { font-size: 13px; color: var(--text-muted); margin: 0 0 8px; line-height: 1.6; }
+.dex-locked { font-size: 15px; font-weight: 500; margin: 8px 0; }
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
