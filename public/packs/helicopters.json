@@ -32,7 +32,8 @@
           "id": "mi8",
           "label": "Mil Mi-8/17 Hip"
         }
-      ]
+      ],
+      "credit": "U.S. Air Force photo by Tech. Sgt. Andy Dunaway (public domain)"
     },
     {
       "id": "helicopters-uh1",
@@ -262,7 +263,8 @@
           "id": "s76",
           "label": "Sikorsky S-76"
         }
-      ]
+      ],
+      "credit": "Photo: Jeroen Stroes"
     },
     {
       "id": "helicopters-bell206",
@@ -400,7 +402,8 @@
           "id": "tiger",
           "label": "Airbus Tiger"
         }
-      ]
+      ],
+      "credit": "Photo: Gian Marco Anzellotti"
     },
     {
       "id": "helicopters-bell47",

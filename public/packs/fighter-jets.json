@@ -78,7 +78,8 @@
           "id": "a10",
           "label": "A-10 Thunderbolt II"
         }
-      ]
+      ],
+      "credit": "U.S. Air Force photo by Staff Sgt. Aaron D. Allmon II (public domain)"
     },
     {
       "id": "fighter-jets-fa18",
@@ -101,7 +102,8 @@
           "id": "j20",
           "label": "Chengdu J-20"
         }
-      ]
+      ],
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. (public domain)"
     },
     {
       "id": "fighter-jets-f15",
@@ -124,7 +126,8 @@
           "id": "f14",
           "label": "F-14 Tomcat"
         }
-      ]
+      ],
+      "credit": "U.S. Air Force photo by Tech. Sgt. Bob Williams (public domain)"
     },
     {
       "id": "fighter-jets-f14",
@@ -147,7 +150,8 @@
           "id": "harrier",
           "label": "Harrier"
         }
-      ]
+      ],
+      "credit": "Photo: Franklin V. Baker"
     },
     {
       "id": "fighter-jets-a10",
@@ -262,7 +266,8 @@
           "id": "a10",
           "label": "A-10 Thunderbolt II"
         }
-      ]
+      ],
+      "credit": "Photo: Cpl Mike Jones / © Crown copyright"
     },
     {
       "id": "fighter-jets-su27",
@@ -400,7 +405,8 @@
           "id": "f22",
           "label": "F-22 Raptor"
         }
-      ]
+      ],
+      "credit": "U.S. Air Force photo by Senior Airman Greg L. Davis (public domain)"
     },
     {
       "id": "fighter-jets-f4",
