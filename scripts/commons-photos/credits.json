@@ -1,0 +1,270 @@
+{
+  "medical-helicopters": {
+    "h135": {
+      "file": "File:DRF Eurocopter EC135 Christoph 44 D-HDRK Göttingen 2017 03.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DRF_Eurocopter_EC135_Christoph_44_D-HDRK_G%C3%B6ttingen_2017_03.jpg",
+      "width": 4096,
+      "height": 2731,
+      "author": "Julian Herzog (Website)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "description": "DRF Luftrettung Eurocopter EC135 P2 \"Christoph 44\" air ambulance helicopter (reg. D-HDRK, s/n 0477) during takeoff in Göttingen, Germany. Christoph 44 is called through PSAP Göttingen and stationed at the university hospital of the Georg-August-University of Göttingen.",
+      "credit": "Julian Herzog (Website) / CC BY 4.0 / via Wikimedia Commons"
+    },
+    "h145": {
+      "file": "File:G-DAAS Eurocopter EC145 Helicopter (Devon Air Ambulance).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:G-DAAS_Eurocopter_EC145_Helicopter_(Devon_Air_Ambulance).jpg",
+      "width": 4288,
+      "height": 3216,
+      "author": "James",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "Airbus H145 helicopter belonging to Devon Air Ambulance at Gloucestershire Airport.",
+      "credit": "James / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    "bk117": {
+      "file": "File:ADAC MBB BK-117 D-HMUM Kirchheim 2015 01.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ADAC_MBB_BK-117_D-HMUM_Kirchheim_2015_01.jpg",
+      "width": 2800,
+      "height": 1575,
+      "author": "Julian Herzog (Website)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "description": "ADAC MBB BK-117 (reg. D-HMUM, c/n 7080) in flight near Kirchheim b. München.",
+      "credit": "Julian Herzog (Website) / CC BY 4.0 / via Wikimedia Commons"
+    },
+    "aw139": {
+      "file": "File:Australian Helicopters (VH-YXH) AgustaWestland AW139 at Wagga Wagga Airport (1).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Australian_Helicopters_(VH-YXH)_AgustaWestland_AW139_at_Wagga_Wagga_Airport_(1).jpg",
+      "width": 2000,
+      "height": 1333,
+      "author": "Bidgee",
+      "license": "CC BY-SA 3.0 au",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+      "description": "Australian Helicopters (VH-YXH), operated for Ambulance Victoria, AgustaWestland AW139 at Wagga Wagga Airport.",
+      "credit": "Bidgee / CC BY-SA 3.0 au / via Wikimedia Commons"
+    },
+    "aw169": {
+      "file": "File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:G-EHAT_-_Leonardo_AW169_-_Essex_%26_Herts_Air_Ambulance,_Witham_FC_270726_B.jpg",
+      "width": 1725,
+      "height": 690,
+      "author": "Steve Knight",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "description": "Responding to a call in central Witham",
+      "credit": "Steve Knight / CC BY 4.0 / via Wikimedia Commons"
+    },
+    "aw109": {
+      "file": "File:Pilatus Agusta A109 Flug.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pilatus_Agusta_A109_Flug.jpg",
+      "width": 3322,
+      "height": 2215,
+      "author": "Ikiwaner",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "A rescue helicopter type Agusta A109K2 leaves Mount Pilatus after recovering a patient.",
+      "credit": "Ikiwaner / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    "bell407": {
+      "file": "File:CareFlite Bell 407GX in Hill County, Texas..jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:CareFlite_Bell_407GX_in_Hill_County,_Texas..jpg",
+      "width": 1826,
+      "height": 1179,
+      "author": "Ja42baker",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "CareFlite Bell 407GX in Hill County, Texas.",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    "bell429": {
+      "file": "File:N428CF at Harris Methodist.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:N428CF_at_Harris_Methodist.jpg",
+      "width": 1275,
+      "height": 793,
+      "author": "Ja42baker",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Bell 429 in CareFlite livery over Fort Worth, TX",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    "bell412": {
+      "file": "File:Christoph Thüringen (7703141994).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Christoph_Th%C3%BCringen_(7703141994).jpg",
+      "width": 2587,
+      "height": 1456,
+      "author": "Tobias Nordhausen from Sondershausen, Deutschland",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "description": "24-h-Intensivtransporthubschrauber \"Christoph Thüringen\", eine Bell 412 von der DRF Luftrettungsstation Bad Berka, am 03.08.2012 auf dem Hubschrauberlandeplatz am DRK-Krankenhaus in Sondershausen. Dieser Intensivtransporthubschrauber ist der einzige, der in Thüringen rund um die Uhr im Einsatz ist. ",
+      "credit": "Tobias Nordhausen from Sondershausen, Deutschland / CC BY 2.0 / via Wikimedia Commons"
+    },
+    "h125": {
+      "file": "File:Évacuation médicale - Airbus Helicopters H125 - Val d'Isère.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%C3%89vacuation_m%C3%A9dicale_-_Airbus_Helicopters_H125_-_Val_d%27Is%C3%A8re.jpg",
+      "width": 3925,
+      "height": 2065,
+      "author": "Julian Povey from Bournemouth, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "description": "Services médicaux aériens : évacuation médicale par Airbus Helicopters H125 / Eurocopter AS350 B3 (HB-ZSL). Val d'Isère (38) France.",
+      "credit": "Julian Povey from Bournemouth, UK / CC BY 2.0 / via Wikimedia Commons"
+    },
+    "s76": {
+      "file": "File:BC Ambulance Service Helijet.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BC_Ambulance_Service_Helijet.jpg",
+      "width": 1024,
+      "height": 768,
+      "author": "Crcsheedy",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "description": "British Columbia Ambulance Helijet",
+      "credit": "Crcsheedy / Public domain / via Wikimedia Commons"
+    },
+    "md902": {
+      "file": "File:G-LNDN McDonnell Douglas Explorer 902 Helicopter (London Air Ambulance) (32804249708).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:G-LNDN_McDonnell_Douglas_Explorer_902_Helicopter_(London_Air_Ambulance)_(32804249708).jpg",
+      "width": 4288,
+      "height": 3216,
+      "author": "James from Cheltenham, Gloucestershire",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "At Gloucestershire Airport.",
+      "credit": "James from Cheltenham, Gloucestershire / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    "uh60": {
+      "file": "File:U.S. Army Reserve Officer Training Corps cadets enrolled in the Nursing Summer Training Program at Womack Army Medical Center practice loading patients on litters into an HH-60M Medical Evacuation (Medevac) 130718-A-EM852-048.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:U.S._Army_Reserve_Officer_Training_Corps_cadets_enrolled_in_the_Nursing_Summer_Training_Program_at_Womack_Army_Medical_Center_practice_loading_patients_on_litters_into_an_HH-60M_Medical_Evacuation_(Medevac)_130718-A-EM852-048.jpg",
+      "width": 4288,
+      "height": 2848,
+      "author": "Staff Sgt. April Campbell",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "description": "U.S. Army Reserve Officer Training Corps cadets enrolled in the Nursing Summer Training Program at Womack Army Medical Center practice loading patients on litters into an HH-60M Medical Evacuation (Medevac) Black Hawk helicopter during a training session with aviators from the 82nd Combat Aviation B",
+      "credit": "Staff Sgt. April Campbell / Public domain / via Wikimedia Commons"
+    }
+  },
+  "medical-planes": {
+    "pc12": {
+      "file": "File:Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Royal_Flying_Doctor_Service_of_Australia_(VH-OWR)_Pilatus_PC-12_NG_at_Esperance_Airport.jpg",
+      "width": 4032,
+      "height": 3024,
+      "author": "DaHuzyBru",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport",
+      "credit": "DaHuzyBru / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    "pc24": {
+      "file": "File:Royal Flying Doctor Service of Australia (Western Operations) (VH-NWO) Pilatus PC-24 \"Ningaloo\", operating as FD626J, taxiing at Wagga Wagga Airport.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Royal_Flying_Doctor_Service_of_Australia_(Western_Operations)_(VH-NWO)_Pilatus_PC-24_%22Ningaloo%22,_operating_as_FD626J,_taxiing_at_Wagga_Wagga_Airport.jpg",
+      "width": 3000,
+      "height": 1999,
+      "author": "Robert Myers",
+      "license": "CC BY-SA 3.0 au",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+      "description": "Royal Flying Doctor Service of Australia (Western Operations) (VH-NWO) Pilatus PC-24 \"Ningaloo\", operating as FD626J, taxiing at Wagga Wagga Airport.",
+      "credit": "Robert Myers / CC BY-SA 3.0 au / via Wikimedia Commons"
+    },
+    "kingair200": {
+      "file": "File:A2-MED Beechcraft King Air 200 Air Ambulance (7690030730).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A2-MED_Beechcraft_King_Air_200_Air_Ambulance_(7690030730).jpg",
+      "width": 1536,
+      "height": 1024,
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "At Lanseria International Airport",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    "kingair350": {
+      "file": "File:NSW Ambulance VH-AMD Beechcraft King Air 350 Sydney Kingsford Smith International Airport (SYD YSSY) (52126570471).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NSW_Ambulance_VH-AMD_Beechcraft_King_Air_350_Sydney_Kingsford_Smith_International_Airport_(SYD_YSSY)_(52126570471).jpg",
+      "width": 6000,
+      "height": 3515,
+      "author": "Mitchul Hope",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "Operator: NSW Ambulance ( /AM) – Australia Aircraft: Beechcraft King Air 350 – VH-AMD – MSN: FM-88 Flight Number: 239 No Callsign Date: 02/06/2022 Route: Sydney Kingsford Smith International Airport (SYD/YSSY) – Taree Airport (TRO/YTRE) © Mitchell R Hope",
+      "credit": "Mitchul Hope / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    "learjet35": {
+      "file": "File:BIRMINGHAM 10 SEPT 1986 SWISS AIR AMBULANCE LEARJET 35 HB-VEM (22507901307).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BIRMINGHAM_10_SEPT_1986_SWISS_AIR_AMBULANCE_LEARJET_35_HB-VEM_(22507901307).jpg",
+      "width": 1571,
+      "height": 1111,
+      "author": "simon butler from halesowen, uk",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "description": "BIRMINGHAM 10 SEPT 1986 SWISS AIR AMBULANCE LEARJET 35 HB-VEM",
+      "credit": "simon butler from halesowen, uk / CC BY 2.0 / via Wikimedia Commons"
+    },
+    "learjet45": {
+      "file": "File:LX-ONE, LearJet 45 LJ45 - Luxenbourg Air Ambulance (19082541971).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LX-ONE,_LearJet_45_LJ45_-_Luxenbourg_Air_Ambulance_(19082541971).jpg",
+      "width": 3625,
+      "height": 2417,
+      "author": "Markus Eigenheer from Genève",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "GVA 29.05.2015",
+      "credit": "Markus Eigenheer from Genève / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    "learjet60": {
+      "file": "File:D-CFAZ Learjet 60 - FAI Air Ambulance STN 280123.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:D-CFAZ_Learjet_60_-_FAI_Air_Ambulance_STN_280123.jpg",
+      "width": 3751,
+      "height": 1781,
+      "author": "kitmasterbloke",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "description": "Aerozone morning at London Stansted - January overcast and rather grey with a surface temperature of 3C. The UAE Globemaster II was already in and the 767 was hangared, but as the morning wore on things got busier with some interesting movements.",
+      "credit": "kitmasterbloke / CC BY 2.0 / via Wikimedia Commons"
+    },
+    "challenger604": {
+      "file": "File:Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (21880668998).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Swiss_Air_Ambulance_Bombardier_Challenger_604_(CL-600-2B16)_HB-JRA_(21880668998).jpg",
+      "width": 1600,
+      "height": 1067,
+      "author": "Martin Oertle",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "description": "Zürich (- Kloten) (ZRH / LSZH) Switzerland 4.2013",
+      "credit": "Martin Oertle / CC BY 2.0 / via Wikimedia Commons"
+    },
+    "citation2": {
+      "file": "File:ZS-EDA Cessna Citation IIS Netcare Air Ambulance (7684861298).jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:ZS-EDA_Cessna_Citation_IIS_Netcare_Air_Ambulance_(7684861298).jpg",
+      "width": 1536,
+      "height": 1024,
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "At Lanseria International Airport",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    "c9": {
+      "file": "File:C-9A Nightingale aeromedical airlift transport aircraft.JPEG",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:C-9A_Nightingale_aeromedical_airlift_transport_aircraft.JPEG",
+      "width": 2840,
+      "height": 1910,
+      "author": "Jose Lopez JR, U.S. Air Force",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "description": "A C-9A Nightingale aeromedical airlift transport aircraft on display during an open house at the Berlin-Tempelhof Airport.",
+      "credit": "Jose Lopez JR, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    "c130": {
+      "file": "File:Members of the 146th Aeromedical Evacuation Squadron transfer \"patients\" from a Military Airlift Command (MAC) C-130 Hercules aircraft to an ambulance during the joint U.S.-South Korean Exercise Team Spirit DF-ST-84-11564.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Members_of_the_146th_Aeromedical_Evacuation_Squadron_transfer_%22patients%22_from_a_Military_Airlift_Command_(MAC)_C-130_Hercules_aircraft_to_an_ambulance_during_the_joint_U.S.-South_Korean_Exercise_Team_Spirit_DF-ST-84-11564.jpg",
+      "width": 3000,
+      "height": 2000,
+      "author": "Ken Hackman, USAF",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "description": "Members of the 146th Aeromedical Evacuation Squadron transfer \"patients\" from a Military Airlift Command (MAC) C-130 Hercules aircraft to an ambulance during the joint U.S./South Korean Exercise Team Spirit '84.",
+      "credit": "Ken Hackman, USAF / Public domain / via Wikimedia Commons"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "packs": {
+    "medical-helicopters": [
+      {
+        "id": "h135",
+        "label": "Airbus H135 (EC135)",
+        "search": "EC135 air ambulance",
+        "file": "File:DRF Eurocopter EC135 Christoph 44 D-HDRK Göttingen 2017 03.jpg"
+      },
+      {
+        "id": "h145",
+        "label": "Airbus H145 (EC145)",
+        "search": "EC145 air ambulance",
+        "file": "File:G-DAAS Eurocopter EC145 Helicopter (Devon Air Ambulance).jpg"
+      },
+      {
+        "id": "bk117",
+        "label": "MBB/Kawasaki BK 117",
+        "search": "BK 117 air ambulance",
+        "file": "File:ADAC MBB BK-117 D-HMUM Kirchheim 2015 01.jpg"
+      },
+      {
+        "id": "aw139",
+        "label": "AgustaWestland AW139",
+        "search": "AW139 air ambulance",
+        "file": "File:Australian Helicopters (VH-YXH) AgustaWestland AW139 at Wagga Wagga Airport (1).jpg"
+      },
+      {
+        "id": "aw169",
+        "label": "Leonardo AW169",
+        "search": "AW169 air ambulance",
+        "file": "File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg"
+      },
+      {
+        "id": "aw109",
+        "label": "Leonardo AW109",
+        "search": "AW109 air ambulance",
+        "file": "File:Pilatus Agusta A109 Flug.jpg"
+      },
+      {
+        "id": "bell407",
+        "label": "Bell 407",
+        "search": "Bell 407 air ambulance",
+        "file": "File:CareFlite Bell 407GX in Hill County, Texas..jpg"
+      },
+      {
+        "id": "bell429",
+        "label": "Bell 429 GlobalRanger",
+        "search": "Bell 429 air ambulance",
+        "file": "File:N428CF at Harris Methodist.jpg"
+      },
+      {
+        "id": "bell412",
+        "label": "Bell 412",
+        "search": "Bell 412 air ambulance",
+        "file": "File:Christoph Thüringen (7703141994).jpg"
+      },
+      {
+        "id": "h125",
+        "label": "Airbus H125 (AS350 Écureuil)",
+        "search": "AS350 air ambulance",
+        "file": "File:Évacuation médicale - Airbus Helicopters H125 - Val d'Isère.jpg"
+      },
+      {
+        "id": "s76",
+        "label": "Sikorsky S-76",
+        "search": "S-76 air ambulance",
+        "file": "File:BC Ambulance Service Helijet.jpg"
+      },
+      {
+        "id": "md902",
+        "label": "MD 902 Explorer",
+        "search": "MD 902 Explorer air ambulance",
+        "file": "File:G-LNDN McDonnell Douglas Explorer 902 Helicopter (London Air Ambulance) (32804249708).jpg"
+      },
+      {
+        "id": "uh60",
+        "label": "Sikorsky UH-60 Black Hawk",
+        "search": "HH-60M MEDEVAC",
+        "file": "File:U.S. Army Reserve Officer Training Corps cadets enrolled in the Nursing Summer Training Program at Womack Army Medical Center practice loading patients on litters into an HH-60M Medical Evacuation (Medevac) 130718-A-EM852-048.jpg"
+      }
+    ],
+    "medical-planes": [
+      {
+        "id": "pc12",
+        "label": "Pilatus PC-12",
+        "search": "PC-12 Royal Flying Doctor Service",
+        "file": "File:Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport.jpg"
+      },
+      {
+        "id": "pc24",
+        "label": "Pilatus PC-24",
+        "search": "PC-24 Royal Flying Doctor Service",
+        "file": "File:Royal Flying Doctor Service of Australia (Western Operations) (VH-NWO) Pilatus PC-24 \"Ningaloo\", operating as FD626J, taxiing at Wagga Wagga Airport.jpg"
+      },
+      {
+        "id": "kingair200",
+        "label": "Beechcraft King Air 200",
+        "search": "King Air 200 air ambulance",
+        "file": "File:A2-MED Beechcraft King Air 200 Air Ambulance (7690030730).jpg"
+      },
+      {
+        "id": "kingair350",
+        "label": "Beechcraft King Air 350",
+        "search": "King Air 350 air ambulance",
+        "file": "File:NSW Ambulance VH-AMD Beechcraft King Air 350 Sydney Kingsford Smith International Airport (SYD YSSY) (52126570471).jpg"
+      },
+      {
+        "id": "learjet35",
+        "label": "Learjet 35",
+        "search": "Learjet 35 air ambulance",
+        "file": "File:BIRMINGHAM 10 SEPT 1986 SWISS AIR AMBULANCE LEARJET 35 HB-VEM (22507901307).jpg"
+      },
+      {
+        "id": "learjet45",
+        "label": "Learjet 45",
+        "search": "Learjet 45 air ambulance",
+        "file": "File:LX-ONE, LearJet 45 LJ45 - Luxenbourg Air Ambulance (19082541971).jpg"
+      },
+      {
+        "id": "learjet60",
+        "label": "Learjet 60",
+        "search": "Learjet 60 ambulance",
+        "file": "File:D-CFAZ Learjet 60 - FAI Air Ambulance STN 280123.jpg"
+      },
+      {
+        "id": "challenger604",
+        "label": "Bombardier Challenger 604",
+        "search": "Challenger 604 air ambulance",
+        "file": "File:Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (21880668998).jpg"
+      },
+      {
+        "id": "citation2",
+        "label": "Cessna Citation II",
+        "search": "Cessna Citation II ambulance",
+        "file": "File:ZS-EDA Cessna Citation IIS Netcare Air Ambulance (7684861298).jpg"
+      },
+      {
+        "id": "c9",
+        "label": "McDonnell Douglas C-9 Nightingale",
+        "search": "C-9A Nightingale",
+        "file": "File:C-9A Nightingale aeromedical airlift transport aircraft.JPEG"
+      },
+      {
+        "id": "c130",
+        "label": "Lockheed C-130 Hercules",
+        "search": "C-130 aeromedical evacuation",
+        "file": "File:Members of the 146th Aeromedical Evacuation Squadron transfer \"patients\" from a Military Airlift Command (MAC) C-130 Hercules aircraft to an ambulance during the joint U.S.-South Korean Exercise Team Spirit DF-ST-84-11564.jpg"
+      }
+    ]
+  }
+}

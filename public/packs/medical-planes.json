@@ -1,0 +1,305 @@
+{
+  "id": "medical-planes",
+  "title": "Medical Transport Planes",
+  "description": "Name the air ambulance plane from its photo.",
+  "path": [
+    "Aviation",
+    "Planes",
+    "Medical transport"
+  ],
+  "theme": {
+    "accent": "#B5452B"
+  },
+  "assetBase": "assets/medical-planes/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "medical-planes-pc12",
+      "image": "pc12.jpg",
+      "answer": "pc12",
+      "options": [
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "pc24",
+          "label": "Pilatus PC-24"
+        },
+        {
+          "id": "kingair350",
+          "label": "Beechcraft King Air 350"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        }
+      ],
+      "caption": "Royal Flying Doctor Service, Esperance, Western Australia.",
+      "credit": "DaHuzyBru / CC BY-SA 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-pc24",
+      "image": "pc24.jpg",
+      "answer": "pc24",
+      "options": [
+        {
+          "id": "pc24",
+          "label": "Pilatus PC-24"
+        },
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "learjet45",
+          "label": "Learjet 45"
+        },
+        {
+          "id": "citation2",
+          "label": "Cessna Citation II"
+        }
+      ],
+      "caption": "Royal Flying Doctor Service \"Ningaloo\", Wagga Wagga, Australia.",
+      "credit": "Robert Myers / CC BY-SA 3.0 au / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-kingair200",
+      "image": "kingair200.jpg",
+      "answer": "kingair200",
+      "options": [
+        {
+          "id": "kingair200",
+          "label": "Beechcraft King Air 200"
+        },
+        {
+          "id": "kingair350",
+          "label": "Beechcraft King Air 350"
+        },
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        }
+      ],
+      "caption": "Air ambulance at Lanseria, South Africa.",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-kingair350",
+      "image": "kingair350.jpg",
+      "answer": "kingair350",
+      "options": [
+        {
+          "id": "kingair350",
+          "label": "Beechcraft King Air 350"
+        },
+        {
+          "id": "kingair200",
+          "label": "Beechcraft King Air 200"
+        },
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "b1900",
+          "label": "Beechcraft 1900D"
+        }
+      ],
+      "caption": "NSW Ambulance, Sydney, Australia.",
+      "credit": "Mitchul Hope / CC BY-SA 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-learjet35",
+      "image": "learjet35.jpg",
+      "answer": "learjet35",
+      "options": [
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        },
+        {
+          "id": "learjet45",
+          "label": "Learjet 45"
+        },
+        {
+          "id": "learjet60",
+          "label": "Learjet 60"
+        },
+        {
+          "id": "citation2",
+          "label": "Cessna Citation II"
+        }
+      ],
+      "caption": "Swiss Air Ambulance at Birmingham, 1986.",
+      "credit": "simon butler from halesowen, uk / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-learjet45",
+      "image": "learjet45.jpg",
+      "answer": "learjet45",
+      "options": [
+        {
+          "id": "learjet45",
+          "label": "Learjet 45"
+        },
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        },
+        {
+          "id": "learjet60",
+          "label": "Learjet 60"
+        },
+        {
+          "id": "challenger604",
+          "label": "Bombardier Challenger 604"
+        }
+      ],
+      "caption": "Luxembourg Air Ambulance.",
+      "credit": "Markus Eigenheer from Genève / CC BY-SA 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-learjet60",
+      "image": "learjet60.jpg",
+      "answer": "learjet60",
+      "options": [
+        {
+          "id": "learjet60",
+          "label": "Learjet 60"
+        },
+        {
+          "id": "learjet45",
+          "label": "Learjet 45"
+        },
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        },
+        {
+          "id": "challenger604",
+          "label": "Bombardier Challenger 604"
+        }
+      ],
+      "caption": "FAI Air Ambulance departing London Stansted.",
+      "credit": "kitmasterbloke / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-challenger604",
+      "image": "challenger604.jpg",
+      "answer": "challenger604",
+      "options": [
+        {
+          "id": "challenger604",
+          "label": "Bombardier Challenger 604"
+        },
+        {
+          "id": "learjet60",
+          "label": "Learjet 60"
+        },
+        {
+          "id": "learjet45",
+          "label": "Learjet 45"
+        },
+        {
+          "id": "pc24",
+          "label": "Pilatus PC-24"
+        }
+      ],
+      "caption": "Rega (Swiss Air-Rescue) at Zürich.",
+      "credit": "Martin Oertle / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-citation2",
+      "image": "citation2.jpg",
+      "answer": "citation2",
+      "options": [
+        {
+          "id": "citation2",
+          "label": "Cessna Citation II"
+        },
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        },
+        {
+          "id": "pc24",
+          "label": "Pilatus PC-24"
+        },
+        {
+          "id": "kingair200",
+          "label": "Beechcraft King Air 200"
+        }
+      ],
+      "caption": "Netcare 911 air ambulance, South Africa.",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-c9",
+      "image": "c9.jpg",
+      "answer": "c9",
+      "options": [
+        {
+          "id": "c9",
+          "label": "McDonnell Douglas C-9 Nightingale"
+        },
+        {
+          "id": "b727",
+          "label": "Boeing 727"
+        },
+        {
+          "id": "f100",
+          "label": "Fokker 100"
+        },
+        {
+          "id": "bac111",
+          "label": "BAC One-Eleven"
+        }
+      ],
+      "caption": "U.S. Air Force aeromedical airlifter, a militarised DC-9, at Berlin Tempelhof.",
+      "credit": "Jose Lopez JR, U.S. Air Force / Public domain / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    },
+    {
+      "id": "medical-planes-c130",
+      "image": "c130.jpg",
+      "answer": "c130",
+      "options": [
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "146th Aeromedical Evacuation Squadron, U.S. Air Force.",
+      "credit": "Ken Hackman, USAF / Public domain / via Wikimedia Commons",
+      "alt": "Medical transport aircraft"
+    }
+  ]
+}
