@@ -22,7 +22,9 @@ const wantPreviews = args.includes("--previews");
 const onlyArg = args[args.indexOf("--only") + 1];
 const only = args.includes("--only") ? new Set(onlyArg.split(",")) : null;
 
-const FREE = /^(CC0|CC BY(-SA)? \d|Public domain|PD|GFDL|OGL|Attribution)/i;
+// Licenses a credit line satisfies. GFDL-only files are left out: the GFDL wants
+// its full text shipped with the image.
+const FREE = /^(CC0|CC BY(-SA)? \d|Public domain|PD|OGL|Attribution)/i;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

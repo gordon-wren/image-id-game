@@ -13,6 +13,7 @@ const index = readJson("public/packs/index.json");
 const packs = index.map((file) => [file, readJson(`public/packs/${file}`)]);
 const { aircraft } = readJson("public/data/aircraft.json");
 const photos = new Map(aircraft.filter((a) => a.photo?.file).map((a) => [a.photo.file, a.photo]));
+const labels = new Map(aircraft.map((a) => [a.id, a.label]));
 const recipes = readJson("scripts/packs/recipes.json");
 
 describe.each(packs)("%s", (file, pack) => {
@@ -26,6 +27,16 @@ describe.each(packs)("%s", (file, pack) => {
       .map((q) => `${pack.assetBase ?? ""}${q.image}`)
       .filter((path) => !existsSync(join(root, "public", path)));
     expect(missing).toEqual([]);
+  });
+
+  it("names dataset aircraft the way the dataset does", () => {
+    // Typed mode compares answers by name, so "Airbus H145" here and
+    // "Airbus H145 (EC145)" in another pack would mark a right answer wrong.
+    const wrong = pack.questions
+      .flatMap((q) => q.options ?? [])
+      .filter((o) => labels.has(o.id) && o.label !== labels.get(o.id))
+      .map((o) => `${o.id}: "${o.label}" should be "${labels.get(o.id)}"`);
+    expect([...new Set(wrong)]).toEqual([]);
   });
 
   it("credits dataset photos the way the dataset does", () => {

@@ -21,7 +21,12 @@ node scripts/commons-photos/fetch.mjs --previews            # also save 320px pr
 ```
 
 It needs network access to `commons.wikimedia.org` and `upload.wikimedia.org`.
-Without that, push a change to `manifest.json` on a branch: the **Fetch Commons
-photos** workflow runs the script and commits the result. Create an empty
+Without that, open a pull request that changes `manifest.json`: the **Fetch
+Commons photos** workflow runs the script and commits the result to the PR's
+branch, so the photos are reviewed with it. It doesn't run on `main`, which only
+accepts changes through a PR.
+
+Only licenses a credit line satisfies are accepted (public domain, CC0, CC BY,
+CC BY-SA, OGL); GFDL-only files are skipped. Create an empty
 `scripts/commons-photos/PREVIEWS` file to have it save previews too, and delete
 it (and `candidates/`) once you've chosen.

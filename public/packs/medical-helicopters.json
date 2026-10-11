@@ -22,11 +22,11 @@
       "options": [
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         },
         {
           "id": "h145",
-          "label": "Airbus H145"
+          "label": "Airbus H145 (EC145)"
         },
         {
           "id": "bk117",
@@ -48,11 +48,11 @@
       "options": [
         {
           "id": "h145",
-          "label": "Airbus H145"
+          "label": "Airbus H145 (EC145)"
         },
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         },
         {
           "id": "bk117",
@@ -78,11 +78,11 @@
         },
         {
           "id": "h145",
-          "label": "Airbus H145"
+          "label": "Airbus H145 (EC145)"
         },
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         },
         {
           "id": "bell429",
@@ -100,7 +100,7 @@
       "options": [
         {
           "id": "aw139",
-          "label": "Leonardo AW139"
+          "label": "AgustaWestland AW139"
         },
         {
           "id": "aw169",
@@ -130,11 +130,11 @@
         },
         {
           "id": "aw139",
-          "label": "Leonardo AW139"
+          "label": "AgustaWestland AW139"
         },
         {
           "id": "h145",
-          "label": "Airbus H145"
+          "label": "Airbus H145 (EC145)"
         },
         {
           "id": "aw109",
@@ -182,7 +182,7 @@
         },
         {
           "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "label": "Bell 206"
         },
         {
           "id": "bell429",
@@ -190,7 +190,7 @@
         },
         {
           "id": "h125",
-          "label": "Airbus H125 (AStar)"
+          "label": "Airbus H125 (AS350 Écureuil)"
         }
       ],
       "caption": "CareFlite, Texas.",
@@ -216,7 +216,7 @@
         },
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         }
       ],
       "caption": "CareFlite over Fort Worth, Texas.",
@@ -238,7 +238,7 @@
         },
         {
           "id": "aw139",
-          "label": "Leonardo AW139"
+          "label": "AgustaWestland AW139"
         },
         {
           "id": "bell407",
@@ -256,7 +256,7 @@
       "options": [
         {
           "id": "h125",
-          "label": "Airbus H125 (AStar)"
+          "label": "Airbus H125 (AS350 Écureuil)"
         },
         {
           "id": "bell407",
@@ -264,11 +264,11 @@
         },
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         },
         {
           "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "label": "Bell 206"
         }
       ],
       "caption": "Medical evacuation at Val d'Isère, France.",
@@ -286,7 +286,7 @@
         },
         {
           "id": "aw139",
-          "label": "Leonardo AW139"
+          "label": "AgustaWestland AW139"
         },
         {
           "id": "s92",
@@ -312,7 +312,7 @@
         },
         {
           "id": "h135",
-          "label": "Airbus H135"
+          "label": "Airbus H135 (EC135)"
         },
         {
           "id": "bell429",
@@ -320,7 +320,7 @@
         },
         {
           "id": "md500",
-          "label": "MD 500 (Hughes 500)"
+          "label": "MD Helicopters MD 500"
         }
       ],
       "caption": "London's Air Ambulance. No tail rotor: it uses NOTAR.",
@@ -346,7 +346,7 @@
         },
         {
           "id": "aw101",
-          "label": "Leonardo AW101 Merlin"
+          "label": "AgustaWestland AW101"
         }
       ],
       "caption": "U.S. Army HH-60M MEDEVAC Black Hawk.",

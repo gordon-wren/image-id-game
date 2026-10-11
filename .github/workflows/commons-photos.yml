@@ -1,9 +1,11 @@
 name: Fetch Commons photos
 
+# Runs on pull requests that change the manifest, so the photos land in the PR and
+# are reviewed before merging. It can't run on main: main only accepts changes
+# through a PR, and main must never have a manifest entry without its photo.
 on:
   workflow_dispatch:
-  push:
-    branches-ignore: [main, gh-pages]
+  pull_request:
     paths:
       - scripts/commons-photos/manifest.json
       - scripts/commons-photos/fetch.mjs
@@ -13,14 +15,19 @@ permissions:
   contents: write
 
 concurrency:
-  group: commons-photos-${{ github.ref }}
+  group: commons-photos-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 
 jobs:
   fetch:
+    # It commits back to the PR's branch, which is only possible for branches in this repo.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The PR's branch itself, not the merge commit, so the result can be pushed to it.
+          ref: ${{ github.head_ref || github.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
