@@ -16,7 +16,7 @@ export const DEFAULTS = {
 } as const;
 
 /** Base-path-aware asset URL. import.meta.env.BASE_URL is "/" locally, "/repo/" on Pages. */
-function withBase(path: string): string {
+export function withBase(path: string): string {
   const base = import.meta.env.BASE_URL ?? "/";
   const clean = path.replace(/^\/+/, "");
   return base.replace(/\/+$/, "/") + clean;
