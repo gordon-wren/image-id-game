@@ -49,11 +49,11 @@ Search: `AW139 air ambulance`
 Search: `AW169 air ambulance`
 
 0. File:Cornwall Air Ambulance AW169.jpg — CC BY-SA 4.0
-1. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg — CC BY 4.0 **(chosen)**
-2. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance Witham FC 270726 B.jpg — CC BY 4.0
+1. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance Witham FC 270726 B.jpg — CC BY 4.0 **(chosen)**
+2. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg — CC BY 4.0
 3. File:G-KSST AgustaWestland AW169 Helicopter (Kent Air Ambulance).jpg — CC BY-SA 2.0
-4. File:Air Ambulance Kent Surrey Sussex Helicopter AW169.jpg — CC BY-SA 4.0
-5. File:G-EHAT - Leonardo AW169 - Gama Aviation East Anglian Air Ambulance at John Innes Centre Norwich.jpg — CC BY 2.0
+4. File:G-EHAT - Leonardo AW169 - Gama Aviation East Anglian Air Ambulance at John Innes Centre Norwich.jpg — CC BY 2.0
+5. File:Air Ambulance Kent Surrey Sussex Helicopter AW169.jpg — CC BY-SA 4.0
 
 ## medical-helicopters/aw109 — Leonardo AW109
 
@@ -90,8 +90,8 @@ Search: `Bell 412 air ambulance`
 
 0. File:Bell 412EP - N304FD.jpg — CC BY-SA 4.0
 1. File:Helicóptero Bell 412 (Inaer) del SUMMA 112 (EC-JXQ) 01.jpg — CC BY-SA 3.0 es
-2. File:Christoph Thüringen (8559676427).jpg — CC BY 2.0 **(chosen)**
-3. File:Christoph Thüringen (7703141994).jpg — CC BY 2.0
+2. File:Christoph Thüringen (7703141994).jpg — CC BY 2.0 **(chosen)**
+3. File:Christoph Thüringen (8559676427).jpg — CC BY 2.0
 
 ## medical-helicopters/h125 — Airbus H125 (AStar)
 
@@ -134,8 +134,8 @@ Search: `HH-60M MEDEVAC`
 Search: `PC-12 Royal Flying Doctor Service`
 
 0. File:Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport.jpg — CC BY-SA 4.0 **(chosen)**
-1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
-2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
 3. File:Pilatus PC-12 VH-FGT operated by the Royal Flying Doctor Service parked at Andamooka Airport, South Australia.jpg — CC BY 4.0
 4. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 04.jpg — CC BY-SA 4.0
 5. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 02.jpg — CC BY-SA 4.0
@@ -144,8 +144,8 @@ Search: `PC-12 Royal Flying Doctor Service`
 
 Search: `PC-24 Royal Flying Doctor Service`
 
-0. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
-1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+0. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
 2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 02.jpg — CC BY-SA 4.0
 3. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 04.jpg — CC BY-SA 4.0
 4. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 05.jpg — CC BY-SA 4.0
@@ -209,10 +209,10 @@ Search: `Challenger 604 air ambulance`
 
 0. File:Bombardier CL-600-2B16 Challenger 604, Swiss Air-Ambulance JP6771012.jpg — GFDL 1.2
 1. File:Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (21880668998).jpg — CC BY 2.0 **(chosen)**
-2. File:Canadair Challenger 604 Swiss Air-Ambulance, ZRH Zurich (Zurich-Kloten), Switzerland PP1265092154.jpg — GFDL 1.2
-3. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (22089925304).jpg — CC BY 2.0
-4. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (25682718934).jpg — CC BY 2.0
-5. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (26979355551).jpg — CC BY 2.0
+2. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (22089925304).jpg — CC BY 2.0
+3. File:Canadair Challenger 604 Swiss Air-Ambulance, ZRH Zurich (Zurich-Kloten), Switzerland PP1265092154.jpg — GFDL 1.2
+4. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (26979355551).jpg — CC BY 2.0
+5. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (21809326800).jpg — CC BY 2.0
 
 ## medical-planes/citation2 — Cessna Citation II
 
@@ -229,8 +229,8 @@ Search: `Cessna Citation II ambulance`
 
 Search: `C-9A Nightingale`
 
-0. File:20180214 C-9A Nightingale Air Mobility Command Museum-1.jpg — CC0
-1. File:20180214 C-9A Nightingale Air Mobility Command Museum-2.jpg — CC0
+0. File:20180214 C-9A Nightingale Air Mobility Command Museum-2.jpg — CC0
+1. File:20180214 C-9A Nightingale Air Mobility Command Museum-1.jpg — CC0
 2. File:USAF C-9A Nightingale 10880.jpg — CC BY 3.0
 3. File:C-9A Nightingale aeromedical airlift transport aircraft.JPEG — Public domain **(chosen)**
 4. File:USAF C-9A Nightingale 10881 2N.jpg — CC BY-SA 3.0
@@ -246,9 +246,3 @@ Search: `C-130 aeromedical evacuation`
 3. File:86th Aeromedical Evacuation Squadron trains with Tunisians at African Lion 2024 (8385467).jpg — Public domain
 4. File:C-130 supports aeromedical evacuation (14496975870).jpg — Public domain **(chosen)**
 5. File:Participants of an aeromedical evacuation subject matter expert exchange carry a simulated patient into a C-130.jpg — CC BY 2.0
-
-# Problems
-
-- medical-helicopters/h130: no usable result for "Eurocopter EC130 ambulance"
-- medical-planes/p180: no usable result for "Piaggio Avanti air ambulance"
-- medical-planes/hawker800: no usable result for "Hawker 800XP ambulance"
