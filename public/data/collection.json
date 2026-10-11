@@ -168,7 +168,9 @@
     "medical-planes/learjet60": 165,
     "medical-planes/challenger604": 166,
     "medical-planes/citation2": 167,
-    "medical-planes/c9": 168
+    "medical-planes/c9": 168,
+    "as365": 169,
+    "ec155": 170
   },
   "entries": {
     "a380": {
@@ -789,7 +791,7 @@
       "number": 39,
       "name": "Mikoyan MiG-31",
       "image": "assets/aircraft/mig31.jpg",
-      "credit": "Q139555801 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons",
       "packs": [
         "fighter-jets",
         "soviet-russian",
@@ -1468,6 +1470,43 @@
         "country": "United States",
         "about": "The Sikorsky S-92 is an American twin-engine medium-lift helicopter built by Sikorsky Aircraft for the civil and military helicopter markets. The S-92 was developed from the Sikorsky S-70 helicopter and has similar parts, such as flight control and rotor systems.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_S-92"
+      }
+    },
+    "as365": {
+      "number": 169,
+      "name": "Airbus Helicopters AS365 Dauphin",
+      "image": "assets/aircraft/as365.jpg",
+      "credit": "Mark Harkin / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Multi-role helicopter family by Aérospatiale",
+        "role": "Medium utility helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1975,
+        "country": "France",
+        "about": "The Eurocopter, later Airbus Helicopters AS365 Dauphin, originally known as the Aérospatiale SA 365 Dauphin 2, is a medium-weight multipurpose twin-engine helicopter produced by Airbus Helicopters. It was originally developed and manufactured by French firm Aérospatiale, which was merged into the multinational…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_AS365_Dauphin"
+      }
+    },
+    "ec155": {
+      "number": 170,
+      "name": "Airbus H155 (EC155)",
+      "image": "assets/aircraft/ec155.jpg",
+      "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Passenger transport helicopter",
+        "role": "Passenger transport helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1997,
+        "country": "Multinational",
+        "about": "The Airbus Helicopters H155 is a long-range medium-lift passenger transport helicopter developed by Eurocopter from its Dauphin family for civil aviation use. It is a twin-engined aircraft and can carry up to 13 passengers along with 1 or 2 crew, depending on customer configuration.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_EC155"
       }
     },
     "b52": {
@@ -3119,6 +3158,8 @@
     "helicopters/mi26": "mi26",
     "helicopters/sh60": "sh60",
     "helicopters/s92": "s92",
+    "helicopters/as365": "as365",
+    "helicopters/ec155": "ec155",
     "bombers/b52": "b52",
     "bombers/b1": "b1",
     "bombers/b2": "b2",
@@ -3258,6 +3299,7 @@
     "medical-helicopters/s76": "s76",
     "medical-helicopters/md902": "medical-helicopters/md902",
     "medical-helicopters/uh60": "uh60",
+    "medical-helicopters/ec155": "ec155",
     "medical-planes/pc12": "pc12",
     "medical-planes/pc24": "medical-planes/pc24",
     "medical-planes/kingair200": "medical-planes/kingair200",
