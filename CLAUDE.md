@@ -23,11 +23,13 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 2. `public/assets/yourgame/` (images)
 3. Add filename to `public/packs/index.json`
 
-**Category tree** — the menu is a two-level tree: a top-level `category` screen, then the packs within it. Each pack declares an optional `category` display string (e.g. `"Aviation"`, `"Auto"`); packs sharing a category are grouped together (`src/engine/categories.ts`), and packs without one land under "Other". To add a new superset, just give a pack's `category` field the new name — no other code changes needed. Optionally set `categoryDescription` on one pack per category for the one-line blurb shown under the category title.
+**Category tree / column browser** — the menu is a Finder-style column browser (`src/components/ColumnBrowser.tsx`): each column drills one level deeper, and selecting a pack opens a preview column with a Play button. Each pack declares an optional `path` array (e.g. `["Aviation", "Helicopters", "Military"]`); packs sharing a prefix share folders, and a folder can hold both sub-folders and packs (`src/engine/categories.ts`). `category` is shorthand for a one-level path; packs with neither land under "Other". New folders need no code changes — just use the name in a pack's `path`. Optionally set `categoryDescription` on one pack per top-level category for its blurb. On phones the browser shows one column at a time with a breadcrumb for going back.
 
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
 
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.
+
+**Answer modes** — a topbar toggle (`src/engine/useAnswerMode.ts`, persisted to `localStorage`) switches between the four-button grid and typed entry. Typed mode (`src/components/TypedAnswer.tsx`) fuzzy-searches a catalog of every option/answer label across *all* packs (`src/engine/names.ts`), so knowing the pack doesn't narrow the answer; answers are compared by normalized name, not id. Rounds get `DEFAULTS.typedTimeMultiplier` (2×) the pack's time.
 
 **Theming** — light/dark defined as CSS custom properties in `src/styles/global.css`, toggled via `data-theme` on `<html>`. Each pack supplies its own `theme.accent` hex color applied to the timer bar, selected state, and mode dot. Toggle persists to `localStorage`; respects system preference on first visit (`src/engine/useTheme.ts`).
 

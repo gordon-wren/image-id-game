@@ -3,25 +3,36 @@ import type { QuestionPack, ResolvedQuestion, RoundResult } from "../engine/type
 import { resolvePack, DEFAULTS } from "../engine/pack";
 import { score } from "../engine/scoring";
 import { useTimer } from "../engine/useTimer";
+import { sameName } from "../engine/names";
+import type { AnswerMode } from "../engine/useAnswerMode";
 import { Timer } from "./Timer";
 import { AnswerGrid } from "./AnswerGrid";
+import { TypedAnswer } from "./TypedAnswer";
 import { ResultBanner } from "./ResultBanner";
 
 interface GameProps {
   pack: QuestionPack;
   timerEnabled: boolean;
+  answerMode: AnswerMode;
+  /** Every name across every pack, for typed mode's suggestions. */
+  names: readonly string[];
   onFinish: (results: RoundResult[]) => void;
   onQuit: () => void;
 }
 
-export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
-  const roundMs = (pack.roundSeconds ?? DEFAULTS.roundSeconds) * 1000;
+export function Game({ pack, timerEnabled, answerMode, names, onFinish, onQuit }: GameProps) {
+  const typed = answerMode === "typed";
+  const roundMs =
+    (pack.roundSeconds ?? DEFAULTS.roundSeconds) *
+    (typed ? DEFAULTS.typedTimeMultiplier : 1) *
+    1000;
 
   // Resolve the pack once per game so shuffles are stable across re-renders.
   const questions = useMemo<ResolvedQuestion[]>(() => resolvePack(pack), [pack]);
 
   const [index, setIndex] = useState(0);
   const [answeredId, setAnsweredId] = useState<string | null>(null);
+  const [typedAnswer, setTypedAnswer] = useState<string | null>(null);
   const [locked, setLocked] = useState(false);
   const [roundResult, setRoundResult] = useState<RoundResult | null>(null);
   const [totalScore, setTotalScore] = useState(0);
@@ -34,6 +45,7 @@ export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
   // Start / restart the timer whenever we land on a new question.
   useEffect(() => {
     setAnsweredId(null);
+    setTypedAnswer(null);
     setLocked(false);
     setRoundResult(null);
     start();
@@ -73,6 +85,16 @@ export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
     finalizeRound(id, false);
   };
 
+  const correctLabel =
+    q.resolvedOptions.find((o) => o.id === q.answer)?.label ?? q.answer;
+
+  // Typed answers are matched by name, since the same object can have different ids across packs.
+  const submitTyped = (name: string) => {
+    if (locked) return;
+    setTypedAnswer(name);
+    finalizeRound(sameName(name, correctLabel) ? q.answer : null, false);
+  };
+
   const next = () => {
     if (index + 1 >= questions.length) {
       onFinish(results.current);
@@ -80,9 +102,6 @@ export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
       setIndex((i) => i + 1);
     }
   };
-
-  const correctLabel =
-    q.resolvedOptions.find((o) => o.id === q.answer)?.label ?? q.answer;
 
   return (
     <div className="stage" style={{ ["--accent" as string]: pack.theme.accent }}>
@@ -118,13 +137,24 @@ export function Game({ pack, timerEnabled, onFinish, onQuit }: GameProps) {
         />
       </div>
 
-      <AnswerGrid
-        options={q.resolvedOptions}
-        answeredId={answeredId}
-        correctId={q.answer}
-        locked={locked}
-        onChoose={choose}
-      />
+      {typed ? (
+        <TypedAnswer
+          key={q.id}
+          names={names}
+          correctLabel={correctLabel}
+          answered={typedAnswer}
+          locked={locked}
+          onSubmit={submitTyped}
+        />
+      ) : (
+        <AnswerGrid
+          options={q.resolvedOptions}
+          answeredId={answeredId}
+          correctId={q.answer}
+          locked={locked}
+          onChoose={choose}
+        />
+      )}
 
       {roundResult && (
         <>
