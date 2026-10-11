@@ -1,0 +1,295 @@
+{
+  "id": "regional-airliners",
+  "title": "Regional Airliners",
+  "description": "Regional jets and turboprops.",
+  "path": [
+    "Aviation",
+    "Planes",
+    "Commercial"
+  ],
+  "theme": {
+    "accent": "#3D8C9E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
+  "questions": [
+    {
+      "id": "regional-airliners-ejet",
+      "image": "ejet.jpg",
+      "answer": "ejet",
+      "options": [
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        },
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        },
+        {
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        }
+      ],
+      "caption": "Regional jet airliner family. First flew 2002.",
+      "credit": "Richard Vandervord / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-ejet-e2",
+      "image": "ejet-e2.jpg",
+      "answer": "ejet-e2",
+      "options": [
+        {
+          "id": "ejet-e2",
+          "label": "Embraer E-Jet E2"
+        },
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        }
+      ],
+      "caption": "Regional jet airliner family. First flew 2016.",
+      "credit": "Valentin Hintikka from Finland / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-erj",
+      "image": "erj.jpg",
+      "answer": "erj",
+      "options": [
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        },
+        {
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
+        }
+      ],
+      "caption": "Regional jet airliner family. First flew 1995.",
+      "credit": "Alf van Beem / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-crj200",
+      "image": "crj200.jpg",
+      "answer": "crj200",
+      "options": [
+        {
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        },
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        }
+      ],
+      "caption": "Regional jet airliner. First flew 1991.",
+      "credit": "ERIC SALARD from PARIS, FRANCE / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-crj700",
+      "image": "crj700.jpg",
+      "answer": "crj700",
+      "options": [
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        },
+        {
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        },
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        }
+      ],
+      "caption": "Regional jet airliner series. First flew 1999.",
+      "credit": "Mark Harkin / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-atr72",
+      "image": "atr72.jpg",
+      "answer": "atr72",
+      "options": [
+        {
+          "id": "atr72",
+          "label": "ATR 72"
+        },
+        {
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
+        },
+        {
+          "id": "erj",
+          "label": "Embraer ERJ"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        }
+      ],
+      "caption": "Regional turboprop airliner. First flew 1988.",
+      "credit": "Ken Fielding / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-dash8",
+      "image": "dash8.jpg",
+      "answer": "dash8",
+      "options": [
+        {
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
+        },
+        {
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        },
+        {
+          "id": "atr72",
+          "label": "ATR 72"
+        }
+      ],
+      "caption": "Canadian turboprop airliner. First flew 1983.",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-saab340",
+      "image": "saab340.jpg",
+      "answer": "saab340",
+      "options": [
+        {
+          "id": "saab340",
+          "label": "Saab 340"
+        },
+        {
+          "id": "atr72",
+          "label": "ATR 72"
+        },
+        {
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        }
+      ],
+      "caption": "Regional airliner. First flew 1983.",
+      "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-twin-otter",
+      "image": "twin-otter.jpg",
+      "answer": "twin-otter",
+      "options": [
+        {
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
+        },
+        {
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
+        },
+        {
+          "id": "atr72",
+          "label": "ATR 72"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        }
+      ],
+      "caption": "Utility transport aircraft family by de Havilland Canada. First flew 1965.",
+      "credit": "Tony Hisgett from Birmingham, UK / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-dc3",
+      "image": "dc3.jpg",
+      "answer": "dc3",
+      "options": [
+        {
+          "id": "dc3",
+          "label": "Douglas DC-3"
+        },
+        {
+          "id": "constellation",
+          "label": "Lockheed Constellation"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "atr72",
+          "label": "ATR 72"
+        }
+      ],
+      "caption": "Airliner and military transport aircraft family. First flew 1935.",
+      "credit": "Towpilot / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "regional-airliners-constellation",
+      "image": "constellation.jpg",
+      "answer": "constellation",
+      "options": [
+        {
+          "id": "constellation",
+          "label": "Lockheed Constellation"
+        },
+        {
+          "id": "dc3",
+          "label": "Douglas DC-3"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
+        }
+      ],
+      "caption": "Family of US airliners with 4 piston engines, 1943. First flew 1943.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    }
+  ]
+}
