@@ -5,10 +5,12 @@ import { buildCategoryTree, packPathIds } from "./engine/categories";
 import { useTheme } from "./engine/useTheme";
 import { useTimerSetting } from "./engine/useTimerSetting";
 import { useAnswerMode } from "./engine/useAnswerMode";
+import { usePlayMode } from "./engine/usePlayMode";
 import { buildNameCatalog } from "./engine/names";
 import { ColumnBrowser, type BrowserSelection } from "./components/ColumnBrowser";
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
+import { Study } from "./components/Study";
 import { TimerPicker } from "./components/TimerPicker";
 
 type Screen =
@@ -16,12 +18,14 @@ type Screen =
   | { name: "error"; message: string }
   | { name: "browse"; selection: BrowserSelection }
   | { name: "playing"; pack: QuestionPack }
+  | { name: "studying"; pack: QuestionPack; run: number }
   | { name: "summary"; pack: QuestionPack; results: RoundResult[] };
 
 export default function App() {
   const { theme, toggle } = useTheme();
   const { timer, setTimer } = useTimerSetting();
   const { answerMode, toggle: toggleAnswerMode } = useAnswerMode();
+  const { playMode, toggle: togglePlayMode } = usePlayMode();
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
 
@@ -54,7 +58,7 @@ export default function App() {
     <div className="app">
       <div className={`shell${screen.name === "browse" ? " wide" : ""}`}>
         <div className="topbar">
-          {screen.name === "playing" ? (
+          {screen.name === "playing" || screen.name === "studying" ? (
             <button
               className="brand brand-link"
               onClick={() => setScreen({ name: "browse", selection: { path: [] } })}
@@ -69,13 +73,24 @@ export default function App() {
             {screen.name === "browse" && (
               <button
                 className="icon-btn"
+                onClick={togglePlayMode}
+                aria-label="Toggle between playing and studying with flashcards"
+              >
+                Mode: {playMode === "study" ? "Study" : "Play"}
+              </button>
+            )}
+            {screen.name === "browse" && playMode === "play" && (
+              <button
+                className="icon-btn"
                 onClick={toggleAnswerMode}
                 aria-label="Toggle answer mode"
               >
                 Answer: {answerMode === "typed" ? "Typed" : "Choices"}
               </button>
             )}
-            {screen.name === "browse" && <TimerPicker value={timer} onChange={setTimer} />}
+            {screen.name === "browse" && playMode === "play" && (
+              <TimerPicker value={timer} onChange={setTimer} />
+            )}
             <button className="icon-btn" onClick={toggle} aria-label="Toggle theme">
               {theme === "light" ? "Dark" : "Light"}
             </button>
@@ -97,7 +112,14 @@ export default function App() {
             root={tree}
             selection={screen.selection}
             onSelect={(selection) => setScreen({ name: "browse", selection })}
-            onPlay={(pack) => setScreen({ name: "playing", pack })}
+            mode={playMode}
+            onStart={(pack) =>
+              setScreen(
+                playMode === "study"
+                  ? { name: "studying", pack, run: 0 }
+                  : { name: "playing", pack },
+              )
+            }
             timer={timer}
             answerMode={answerMode}
           />
@@ -112,6 +134,17 @@ export default function App() {
             names={names}
             onFinish={(results) =>
               setScreen({ name: "summary", pack: screen.pack, results })
+            }
+            onQuit={() => setScreen(browseScreen(screen.pack))}
+          />
+        )}
+
+        {screen.name === "studying" && (
+          <Study
+            key={`${screen.pack.id}-${screen.run}`}
+            pack={screen.pack}
+            onRestart={() =>
+              setScreen({ name: "studying", pack: screen.pack, run: screen.run + 1 })
             }
             onQuit={() => setScreen(browseScreen(screen.pack))}
           />

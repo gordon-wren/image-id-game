@@ -36,18 +36,39 @@ export function shuffle<T>(arr: readonly T[], rng: () => number = Math.random): 
   return out;
 }
 
+/** The first label any question's options give each id, so a question without options can borrow one. */
+export function answerLabels(pack: QuestionPack): Map<string, string> {
+  const labels = new Map<string, string>();
+  for (const q of pack.questions) {
+    for (const o of q.options ?? []) {
+      if (!labels.has(o.id)) labels.set(o.id, o.label);
+    }
+  }
+  return labels;
+}
+
+/** A question's answer label: its own option first, then any other question's (`answerLabels`), then the raw id. */
+export function answerLabel(q: Question, labels: Map<string, string>): string {
+  return q.options?.find((o) => o.id === q.answer)?.label ?? labels.get(q.answer) ?? q.answer;
+}
+
+/** The pack's questions in play order: shuffled unless the pack turns it off. */
+export function orderQuestions(pack: QuestionPack, rng: () => number = Math.random): Question[] {
+  const shouldShuffle = pack.shuffleQuestions ?? DEFAULTS.shuffleQuestions;
+  return shouldShuffle ? shuffle(pack.questions, rng) : pack.questions.slice();
+}
+
 /** Every distinct correct answer in the pack becomes a candidate distractor. */
 function buildPool(pack: QuestionPack): Option[] {
+  const labels = answerLabels(pack);
   const seen = new Map<string, Option>();
   for (const q of pack.questions) {
-    const label =
-      q.options?.find((o) => o.id === q.answer)?.label ?? q.answer;
-    if (!seen.has(q.answer)) seen.set(q.answer, { id: q.answer, label });
+    if (!seen.has(q.answer)) seen.set(q.answer, { id: q.answer, label: answerLabel(q, labels) });
   }
   return [...seen.values()];
 }
 
-function resolveImage(pack: QuestionPack, q: Question): string {
+export function resolveImage(pack: QuestionPack, q: Question): string {
   if (isAbsoluteUrl(q.image)) return q.image;
   const base = pack.assetBase ?? "";
   return withBase(base + q.image);
@@ -94,10 +115,7 @@ export function resolvePack(
   rng: () => number = Math.random
 ): ResolvedQuestion[] {
   const pool = buildPool(pack);
-  const shouldShuffleQ = pack.shuffleQuestions ?? DEFAULTS.shuffleQuestions;
-  const questions = shouldShuffleQ ? shuffle(pack.questions, rng) : pack.questions.slice();
-
-  return questions.map((q) => ({
+  return orderQuestions(pack, rng).map((q) => ({
     ...q,
     resolvedImage: resolveImage(pack, q),
     resolvedOptions: resolveOptions(pack, q, pool, rng),
