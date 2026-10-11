@@ -308,6 +308,17 @@ button { font-family: inherit; }
 .result.bad .result-text { color: var(--bad-text); }
 .result.neutral .result-text { color: var(--neutral-text); }
 .result-credit { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.catch-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  vertical-align: 1px;
+}
 
 .next-btn {
   margin-top: 14px;
@@ -462,6 +473,18 @@ button { font-family: inherit; }
   font-variant-numeric: tabular-nums;
 }
 .summary-label { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; }
+.summary-catches {
+  text-align: left;
+  margin: 0 0 20px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 0.5px solid var(--card-border);
+  background: var(--card);
+}
+.summary-catches-title { margin: 0 0 6px; font-size: 13px; font-weight: 600; color: var(--accent); }
+.summary-catches ul { margin: 0; padding: 0; list-style: none; font-size: 14px; line-height: 1.7; }
+.catch-number { color: var(--text-muted); font-variant-numeric: tabular-nums; margin-right: 4px; }
+.summary-catches-link { margin-top: 10px; }
 
 .state-msg { padding: 24px; text-align: center; color: var(--text-muted); font-size: 14px; }
 

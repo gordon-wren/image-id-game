@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { QuestionPack, RoundResult } from "./engine/types";
 import { loadPack, loadPackIndex } from "./engine/pack";
 import { buildCategoryTree, packPathIds } from "./engine/categories";
@@ -7,6 +7,8 @@ import { useTimerSetting } from "./engine/useTimerSetting";
 import { useAnswerMode } from "./engine/useAnswerMode";
 import { usePlayMode } from "./engine/usePlayMode";
 import { buildNameCatalog } from "./engine/names";
+import { entryKey, loadCatalog, type Catalog } from "./engine/collection";
+import { useCollection } from "./engine/useCollection";
 import { ColumnBrowser, type BrowserSelection } from "./components/ColumnBrowser";
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
@@ -17,9 +19,9 @@ type Screen =
   | { name: "loading" }
   | { name: "error"; message: string }
   | { name: "browse"; selection: BrowserSelection }
-  | { name: "playing"; pack: QuestionPack }
+  | { name: "playing"; pack: QuestionPack; run: number }
   | { name: "studying"; pack: QuestionPack; run: number }
-  | { name: "summary"; pack: QuestionPack; results: RoundResult[] };
+  | { name: "summary"; pack: QuestionPack; results: RoundResult[]; catches: string[]; run: number };
 
 export default function App() {
   const { theme, toggle } = useTheme();
@@ -28,11 +30,17 @@ export default function App() {
   const { playMode, toggle: togglePlayMode } = usePlayMode();
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
+  const [catalog, setCatalog] = useState<Catalog | null>(null);
+  const collection = useCollection();
+  /** Entries first caught during the current round, for the summary. */
+  const roundCatches = useRef<string[]>([]);
 
   const tree = useMemo(() => buildCategoryTree(packs), [packs]);
   const names = useMemo(() => buildNameCatalog(packs), [packs]);
 
   useEffect(() => {
+    // The collection is an extra: if its catalog fails to load, the game still plays.
+    loadCatalog().then(setCatalog, () => setCatalog(null));
     (async () => {
       try {
         const index = await loadPackIndex();
@@ -47,6 +55,20 @@ export default function App() {
       }
     })();
   }, []);
+
+  const play = (pack: QuestionPack, run = 0): Screen => {
+    roundCatches.current = [];
+    return { name: "playing", pack, run };
+  };
+
+  /** Records a finished question in the collection; returns the entry number if it was a new catch. */
+  const recordAnswer = (pack: QuestionPack, answerId: string, correct: boolean): number | null => {
+    const key = catalog && entryKey(catalog, pack.id, answerId);
+    if (!catalog || !key) return null;
+    if (!collection.answer(key, correct)) return null;
+    roundCatches.current.push(key);
+    return catalog.entries[key].number;
+  };
 
   // Return to the browser with the pack still selected, so "back" lands where you left off.
   const browseScreen = (pack: QuestionPack): Screen => ({
@@ -117,7 +139,7 @@ export default function App() {
               setScreen(
                 playMode === "study"
                   ? { name: "studying", pack, run: 0 }
-                  : { name: "playing", pack },
+                  : play(pack),
               )
             }
             timer={timer}
@@ -127,13 +149,20 @@ export default function App() {
 
         {screen.name === "playing" && (
           <Game
-            key={screen.pack.id + Math.random()}
+            key={`${screen.pack.id}-${screen.run}`}
             pack={screen.pack}
             timer={timer}
             answerMode={answerMode}
             names={names}
+            onAnswered={(answerId, correct) => recordAnswer(screen.pack, answerId, correct)}
             onFinish={(results) =>
-              setScreen({ name: "summary", pack: screen.pack, results })
+              setScreen({
+                name: "summary",
+                pack: screen.pack,
+                results,
+                catches: roundCatches.current,
+                run: screen.run,
+              })
             }
             onQuit={() => setScreen(browseScreen(screen.pack))}
           />
@@ -154,7 +183,8 @@ export default function App() {
           <Summary
             pack={screen.pack}
             results={screen.results}
-            onPlayAgain={() => setScreen({ name: "playing", pack: screen.pack })}
+            newCatches={catalog ? screen.catches.map((key) => catalog.entries[key]) : []}
+            onPlayAgain={() => setScreen(play(screen.pack, screen.run + 1))}
             onMenu={() => setScreen(browseScreen(screen.pack))}
           />
         )}

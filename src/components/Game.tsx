@@ -17,11 +17,16 @@ interface GameProps {
   answerMode: AnswerMode;
   /** Every name across every pack, for typed mode's suggestions. */
   names: readonly string[];
+  /**
+   * Called as each question finishes, so the collection can record it. Returns the
+   * entry number when it's a first catch, to show "New catch!" in the result banner.
+   */
+  onAnswered?: (answerId: string, correct: boolean) => number | null;
   onFinish: (results: RoundResult[]) => void;
   onQuit: () => void;
 }
 
-export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameProps) {
+export function Game({ pack, timer, answerMode, names, onAnswered, onFinish, onQuit }: GameProps) {
   const typed = answerMode === "typed";
   const timerEnabled = timer !== "off";
   const roundMs = roundSeconds(pack, timer, answerMode) * 1000;
@@ -34,6 +39,8 @@ export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameP
   const [typedAnswer, setTypedAnswer] = useState<string | null>(null);
   const [locked, setLocked] = useState(false);
   const [roundResult, setRoundResult] = useState<RoundResult | null>(null);
+  /** Entry number when this question was a first catch for the collection. */
+  const [newCatch, setNewCatch] = useState<number | null>(null);
   const [totalScore, setTotalScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const results = useRef<RoundResult[]>([]);
@@ -47,6 +54,7 @@ export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameP
     setTypedAnswer(null);
     setLocked(false);
     setRoundResult(null);
+    setNewCatch(null);
     start();
     return stop;
   }, [index, start, stop]);
@@ -67,10 +75,11 @@ export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameP
       };
       results.current.push(r);
       setRoundResult(r);
+      setNewCatch(onAnswered?.(q.answer, correct) ?? null);
       setTotalScore((s) => s + pts);
       setStreak((s) => (correct ? s + 1 : 0));
     },
-    [elapsed, q, roundMs, stop]
+    [elapsed, q, roundMs, stop, onAnswered]
   );
 
   useEffect(() => {
@@ -162,6 +171,7 @@ export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameP
             correctLabel={correctLabel}
             caption={q.caption}
             credit={q.credit}
+            newCatch={newCatch}
           />
           <button className="next-btn" onClick={next} autoFocus>
             {index + 1 >= questions.length ? "See results" : "Next"}
