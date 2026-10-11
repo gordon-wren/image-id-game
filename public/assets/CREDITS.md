@@ -51,7 +51,6 @@ Commons file pages.
 | ah64.jpg | Confirmed | U.S. Air Force photo by TSgt Andy Dunaway (VIRIN 051021-F-2828D-284). Public domain. |
 | aw101.jpg | Author only | Gian Marco Anzellotti. |
 | r22.jpg | Author only | Jeroen Stroes. |
-| hh101.jpg | Not used | Byte-for-byte copy of aw101.jpg. No question references it. |
 | ah1.jpg | Unknown | |
 | bell206.jpg | Unknown | |
 | bell47.jpg | Unknown | |
