@@ -2,7 +2,7 @@
   "id": "fighter-jets",
   "title": "Fighter Jets",
   "description": "Name the fighter from its photo.",
-  "category": "Aviation",
+  "path": ["Aviation", "Planes", "Military"],
   "theme": {
     "accent": "#A32D2D"
   },

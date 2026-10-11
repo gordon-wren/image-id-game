@@ -2,7 +2,7 @@
   "id": "large-airliners",
   "title": "Large Airliners",
   "description": "Name the widebody jet from its photo.",
-  "category": "Aviation",
+  "path": ["Aviation", "Planes", "Commercial"],
   "categoryDescription": "Airliners, fighters, and helicopters.",
   "theme": {
     "accent": "#185FA5"
