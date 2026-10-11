@@ -32,7 +32,9 @@ It needs network access to `en.wikipedia.org`, `www.wikidata.org` and
 workflow from the Actions tab; it rebuilds and commits the result to the branch
 it ran on.
 
-To add an aircraft, append an entry to `seed.json` and rebuild. Photos already
+To add an aircraft, append an entry to `seed.json` and rebuild. An entry can carry
+`overrides` (e.g. `{"countryOfOrigin": ["Austria"]}`) for facts the sources lack;
+those fields are listed in the record's `overridden`. Photos already
 downloaded are kept unless the article's lead image changes.
 
 ## Licensing

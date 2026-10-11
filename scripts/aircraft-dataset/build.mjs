@@ -17,7 +17,7 @@
 // Needs network access to en.wikipedia.org, www.wikidata.org,
 // commons.wikimedia.org and upload.wikimedia.org.
 
-import { readFile, writeFile, mkdir, stat } from "node:fs/promises";
+import { readFile, writeFile, mkdir, stat, readdir, unlink } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -68,13 +68,18 @@ function stripHtml(s) {
   return s
     .replace(/<br\s*\/?>/gi, "; ")
     .replace(/<[^>]+>/g, "")
+    .replace(/&#(\d+);?/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);?/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#0?39;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
+    .replace(/\[(?:citation needed|\d+|[a-z])\]/gi, "")
     .replace(/\s+/g, " ")
+    .replace(/\s+([;,])/g, "$1")
+    .replace(/,;/g, ";")
     .trim();
 }
 
@@ -291,6 +296,11 @@ async function buildOne(seed, previous) {
       if (!unchanged) await writeFile(localPath, await get(info.thumbUrl, { json: false }));
     }
   }
+  // Hand-checked values for facts neither Wikidata nor the infobox supplies.
+  if (seed.overrides) {
+    Object.assign(record, seed.overrides);
+    record.overridden = Object.keys(seed.overrides);
+  }
   return record;
 }
 
@@ -326,6 +336,11 @@ async function main() {
       if (prevById.has(s.id)) results.push(prevById.get(s.id));
     }
     await sleep(150);
+  }
+
+  if (!only) {
+    const keep = new Set(results.map((r) => r.photo?.file?.slice(IMG_PUBLIC_PREFIX.length)).filter(Boolean));
+    for (const f of await readdir(OUT_IMG_DIR)) if (!keep.has(f)) await unlink(join(OUT_IMG_DIR, f));
   }
 
   const out = {

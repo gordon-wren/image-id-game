@@ -329,7 +329,12 @@
   {
     "id": "da40",
     "wikipediaTitle": "Diamond DA40 Diamond Star",
-    "group": "business-general"
+    "group": "business-general",
+    "overrides": {
+      "countryOfOrigin": [
+        "Austria"
+      ]
+    }
   },
   {
     "id": "caravan",
@@ -354,17 +359,30 @@
   {
     "id": "learjet35",
     "wikipediaTitle": "Learjet 35",
-    "group": "business-general"
+    "group": "business-general",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
   },
   {
     "id": "citation-x",
     "wikipediaTitle": "Cessna Citation X",
-    "group": "business-general"
+    "group": "business-general",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
   },
   {
     "id": "global7500",
     "wikipediaTitle": "Bombardier Global 7500",
-    "group": "business-general"
+    "group": "business-general",
+    "overrides": {
+      "firstFlight": "2016-11-04"
+    }
   },
   {
     "id": "hondajet",
@@ -689,7 +707,10 @@
     "group": "fighter-attack",
     "packAnswerIds": [
       "harrier"
-    ]
+    ],
+    "overrides": {
+      "firstFlight": "1967-12-28"
+    }
   },
   {
     "id": "tejas",
@@ -856,19 +877,12 @@
     ]
   },
   {
-    "id": "ka52",
-    "wikipediaTitle": "Kamov Ka-52",
-    "group": "helicopter",
-    "packAnswerIds": [
-      "ka52"
-    ]
-  },
-  {
     "id": "ka50",
     "wikipediaTitle": "Kamov Ka-50",
     "group": "helicopter",
     "packAnswerIds": [
-      "ka50"
+      "ka50",
+      "ka52"
     ]
   },
   {
@@ -885,12 +899,22 @@
     "group": "helicopter",
     "packAnswerIds": [
       "r22"
-    ]
+    ],
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
   },
   {
     "id": "r44",
     "wikipediaTitle": "Robinson R44",
-    "group": "helicopter"
+    "group": "helicopter",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
   },
   {
     "id": "bell206",
@@ -964,7 +988,12 @@
     "group": "helicopter",
     "packAnswerIds": [
       "ch54"
-    ]
+    ],
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
   },
   {
     "id": "mi26",
