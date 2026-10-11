@@ -4,8 +4,9 @@ Fetches freely licensed photos from Wikimedia Commons for packs, with the
 attribution each license needs.
 
 - **Input:** [`manifest.json`](manifest.json) — per pack, each answer `id`, its `label` and a
-  Commons `search`. Add `"pick": N` to take the Nth usable result, or
-  `"file": "File:Name.jpg"` to pin one.
+  Commons `search`. Search ranking shifts between runs, so once you've chosen a
+  photo pin it with `"file": "File:Name.jpg"` (`"pick": N` takes the Nth usable
+  result of the current run).
 - **Output:** `public/assets/<pack>/<id>.jpg` and [`credits.json`](credits.json) (file, author,
   license, and a ready-made `credit` line to copy into the pack question).
 - **Last run:** [`REPORT.md`](REPORT.md) lists the top candidates per entry.
