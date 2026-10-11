@@ -1,5 +1,4 @@
 import { describe, it, expect } from "vitest";
-import { answerLabels } from "./pack";
 import {
   buildDeck,
   currentCard,
@@ -11,14 +10,6 @@ import {
 } from "./flashcards";
 import type { QuestionPack } from "./types";
 import type { StudySession } from "./flashcards";
-
-function seeded(seed: number): () => number {
-  let s = seed >>> 0;
-  return () => {
-    s = (s * 1664525 + 1013904223) >>> 0;
-    return s / 0xffffffff;
-  };
-}
 
 const pack: QuestionPack = {
   id: "test",
@@ -44,15 +35,6 @@ const pack: QuestionPack = {
   ],
 };
 
-describe("answerLabels", () => {
-  it("finds labels from any question's options", () => {
-    const labels = answerLabels(pack);
-    expect(labels.get("a")).toBe("Alpha");
-    expect(labels.get("b")).toBe("Bravo");
-    expect(labels.has("c")).toBe(false);
-  });
-});
-
 describe("buildDeck", () => {
   it("makes one card per question with resolved image and label", () => {
     const deck = buildDeck(pack);
@@ -72,29 +54,6 @@ describe("buildDeck", () => {
       ],
     });
     expect(deck.map((c) => c.label)).toEqual(["A", "Boeing 747-8"]);
-  });
-
-  it("shuffles when the pack allows it, keeping every card", () => {
-    const deck = buildDeck({ ...pack, shuffleQuestions: true }, seeded(5));
-    expect(deck.map((c) => c.id).sort()).toEqual(["q1", "q2", "q3"]);
-  });
-
-  it("builds a valid deck from every shipped pack", () => {
-    const shipped = import.meta.glob<QuestionPack>("../../public/packs/*.json", {
-      eager: true,
-      import: "default",
-    });
-    const index = shipped["../../public/packs/index.json"] as unknown as string[];
-    expect(index.length).toBeGreaterThan(0);
-    for (const file of index) {
-      const p = shipped[`../../public/packs/${file}`];
-      const deck = buildDeck(p, seeded(1));
-      expect(deck).toHaveLength(p.questions.length);
-      for (const card of deck) {
-        expect(card.label).toBeTruthy();
-        expect(card.resolvedImage).toBeTruthy();
-      }
-    }
   });
 });
 

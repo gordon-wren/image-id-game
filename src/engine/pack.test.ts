@@ -35,22 +35,14 @@ describe("shuffle", () => {
 });
 
 describe("resolveOptions (pool generation)", () => {
-  it("always includes the correct answer", () => {
-    const pool = [
-      { id: "a", label: "A" }, { id: "b", label: "B" },
-      { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
-    ];
-    const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
-    expect(opts.some((o) => o.id === "a")).toBe(true);
-  });
-
-  it("produces exactly optionsPerQuestion options", () => {
+  it("produces optionsPerQuestion options, always including the correct answer", () => {
     const pool = [
       { id: "a", label: "A" }, { id: "b", label: "B" },
       { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
     ];
     const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
     expect(opts).toHaveLength(4);
+    expect(opts.some((o) => o.id === "a")).toBe(true);
   });
 
   it("uses supplied options verbatim when present", () => {
