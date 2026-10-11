@@ -2,7 +2,7 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-11T20:10:22.315Z",
+  "generatedAt": "2026-10-11T22:00:56.909Z",
   "count": 162,
   "aircraft": [
     {
@@ -419,10 +419,6 @@
       "name": "Airbus A350",
       "label": "Airbus A350",
       "group": "airliner-widebody",
-      "packAnswerIds": [
-        "a350-900",
-        "a350-1000"
-      ],
       "description": "Large twin-aisle airliner family",
       "summary": "The Airbus A350 is a long-range, wide-body twin-engine airliner developed and produced by Airbus.\n\nThe initial A350 design, which was proposed in 2004 in response to the Boeing 787 Dreamliner, would have been a development of the Airbus A330 with composite wings, advanced winglets, and new efficient engines.\nDue to inadequate market support, Airbus switched in 2006 to a clean-sheet extra wide body (XWB) design, powered by two Rolls-Royce Trent XWB high bypass turbofan engines. The prototype first flew on 14 June 2013 from Toulouse, France. Type certification from the European Aviation Safety Agency (EASA) was obtained in September 2014, followed by certification from the Federal Aviation Administration (FAA) two months later.",
       "role": "Wide-body airliner",
@@ -466,7 +462,11 @@
         "chosenFrom": "seed",
         "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T20:10:14.272Z"
+      "retrievedAt": "2026-10-11T20:10:14.272Z",
+      "packAnswerIds": [
+        "a350-900",
+        "a350-1000"
+      ]
     },
     {
       "id": "a330",
@@ -4077,6 +4077,7 @@
     {
       "id": "rq4",
       "name": "Northrop Grumman RQ-4 Global Hawk",
+      "label": "Northrop Grumman RQ-4 Global Hawk",
       "group": "military-transport-special",
       "description": "Unmanned surveillance aircraft",
       "summary": "The Northrop Grumman RQ-4 Global Hawk is a high-altitude, remotely-piloted surveillance aircraft introduced in 2001. It was initially designed by Ryan Aeronautical, and known as Tier II+ during development. The RQ-4 provides a broad overview and systematic surveillance using high-resolution synthetic aperture radar (SAR) and electro-optical/infrared (EO/IR) sensors with long loiter times over target areas.",
@@ -4089,7 +4090,7 @@
         "Rolls-Royce North America",
         "Héroux-Devtek",
         "L3 Technologies",
-        "Q5893992"
+        "Honeywell Aerospace"
       ],
       "designer": null,
       "countryOfOrigin": [
@@ -4124,10 +4125,10 @@
         "free": true,
         "caption": "An RQ-4 Global Hawk unmanned aircraft like the one shown is currently flying non-military mapping missions over South, Central America and the Caribbean at the request of partner nations in the region.",
         "dateTaken": "2007-03-01",
+        "chosenFrom": "infobox",
         "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:33:22.719Z",
-      "label": "Northrop Grumman RQ-4 Global Hawk"
+      "retrievedAt": "2026-10-11T22:00:53.806Z"
     },
     {
       "id": "b52",
@@ -4628,14 +4629,18 @@
     {
       "id": "f16",
       "name": "General Dynamics F-16 Fighting Falcon",
+      "label": "General Dynamics F-16 Fighting Falcon",
       "group": "fighter-attack",
+      "packAnswerIds": [
+        "f16"
+      ],
       "description": "American multi-role fighter aircraft",
       "summary": "The General Dynamics F-16 Fighting Falcon is an American single-engine supersonic multirole fourth-generation fighter aircraft developed by General Dynamics and produced by multiple companies, including General Dynamics until 1993 and Lockheed Martin since. Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft with over 4,600 built since 1976.",
       "role": "Multirole fighter; air superiority fighter",
       "manufacturer": [
         "General Dynamics",
         "Lockheed Martin",
-        "Q928183",
+        "SABCA",
         "Fokker",
         "Turkish Aerospace Industries",
         "Samsung Aerospace",
@@ -4674,13 +4679,10 @@
         "free": true,
         "caption": "A U.S. Air Force F-16 Fighting Falcon Block 40 aircraft after receiving fuel from a KC-135 Stratotanker aircraft during a mission over Iraq on 10 June 2008. This F-16 is assigned to the 34th EFS Balad Air Base, Iraq and is deployed from the 388th Fighter Wing at Hill Air Force Base, Utah. (U.S. Air ",
         "dateTaken": "2008-06-10",
+        "chosenFrom": "infobox",
         "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:33:37.160Z",
-      "label": "General Dynamics F-16 Fighting Falcon",
-      "packAnswerIds": [
-        "f16"
-      ]
+      "retrievedAt": "2026-10-11T22:00:55.170Z"
     },
     {
       "id": "fa18",
@@ -5503,7 +5505,7 @@
         "originalWidth": 3877,
         "originalHeight": 2585,
         "mime": "image/jpeg",
-        "author": "Q139555801",
+        "author": "Сафаров, Марат Фаридович",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "attributionRequired": true,
@@ -5511,9 +5513,9 @@
         "caption": "Авиамузей на аэродроме Караишево",
         "dateTaken": "2025-06-22",
         "chosenFrom": "seed",
-        "credit": "Q139555801 / CC BY-SA 4.0 / via Wikimedia Commons"
+        "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T20:02:26.520Z"
+      "retrievedAt": "2026-10-11T22:00:56.599Z"
     },
     {
       "id": "j20",
