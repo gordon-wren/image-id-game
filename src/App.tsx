@@ -3,12 +3,13 @@ import type { QuestionPack, RoundResult } from "./engine/types";
 import { loadPack, loadPackIndex } from "./engine/pack";
 import { buildCategoryTree, packPathIds } from "./engine/categories";
 import { useTheme } from "./engine/useTheme";
-import { useTimerEnabled } from "./engine/useTimerEnabled";
+import { useTimerSetting } from "./engine/useTimerSetting";
 import { useAnswerMode } from "./engine/useAnswerMode";
 import { buildNameCatalog } from "./engine/names";
 import { ColumnBrowser, type BrowserSelection } from "./components/ColumnBrowser";
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
+import { TimerPicker } from "./components/TimerPicker";
 
 type Screen =
   | { name: "loading" }
@@ -19,7 +20,7 @@ type Screen =
 
 export default function App() {
   const { theme, toggle } = useTheme();
-  const { timerEnabled, toggle: toggleTimer } = useTimerEnabled();
+  const { timer, setTimer } = useTimerSetting();
   const { answerMode, toggle: toggleAnswerMode } = useAnswerMode();
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
@@ -74,16 +75,7 @@ export default function App() {
                 Answer: {answerMode === "typed" ? "Typed" : "Choices"}
               </button>
             )}
-            {screen.name === "browse" && (
-              <button
-                className="icon-btn"
-                onClick={toggleTimer}
-                aria-pressed={timerEnabled}
-                aria-label="Toggle round timer"
-              >
-                Timer: {timerEnabled ? "On" : "Off"}
-              </button>
-            )}
+            {screen.name === "browse" && <TimerPicker value={timer} onChange={setTimer} />}
             <button className="icon-btn" onClick={toggle} aria-label="Toggle theme">
               {theme === "light" ? "Dark" : "Light"}
             </button>
@@ -106,6 +98,8 @@ export default function App() {
             selection={screen.selection}
             onSelect={(selection) => setScreen({ name: "browse", selection })}
             onPlay={(pack) => setScreen({ name: "playing", pack })}
+            timer={timer}
+            answerMode={answerMode}
           />
         )}
 
@@ -113,7 +107,7 @@ export default function App() {
           <Game
             key={screen.pack.id + Math.random()}
             pack={screen.pack}
-            timerEnabled={timerEnabled}
+            timer={timer}
             answerMode={answerMode}
             names={names}
             onFinish={(results) =>

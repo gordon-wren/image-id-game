@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { QuestionPack, ResolvedQuestion, RoundResult } from "../engine/types";
-import { resolvePack, DEFAULTS } from "../engine/pack";
+import { resolvePack } from "../engine/pack";
 import { score } from "../engine/scoring";
 import { useTimer } from "../engine/useTimer";
 import { sameName } from "../engine/names";
 import type { AnswerMode } from "../engine/useAnswerMode";
+import { roundSeconds, type TimerSetting } from "../engine/timerSetting";
 import { Timer } from "./Timer";
 import { AnswerGrid } from "./AnswerGrid";
 import { TypedAnswer } from "./TypedAnswer";
@@ -12,7 +13,7 @@ import { ResultBanner } from "./ResultBanner";
 
 interface GameProps {
   pack: QuestionPack;
-  timerEnabled: boolean;
+  timer: TimerSetting;
   answerMode: AnswerMode;
   /** Every name across every pack, for typed mode's suggestions. */
   names: readonly string[];
@@ -20,12 +21,10 @@ interface GameProps {
   onQuit: () => void;
 }
 
-export function Game({ pack, timerEnabled, answerMode, names, onFinish, onQuit }: GameProps) {
+export function Game({ pack, timer, answerMode, names, onFinish, onQuit }: GameProps) {
   const typed = answerMode === "typed";
-  const roundMs =
-    (pack.roundSeconds ?? DEFAULTS.roundSeconds) *
-    (typed ? DEFAULTS.typedTimeMultiplier : 1) *
-    1000;
+  const timerEnabled = timer !== "off";
+  const roundMs = roundSeconds(pack, timer, answerMode) * 1000;
 
   // Resolve the pack once per game so shuffles are stable across re-renders.
   const questions = useMemo<ResolvedQuestion[]>(() => resolvePack(pack), [pack]);

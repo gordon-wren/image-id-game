@@ -121,6 +121,19 @@ button { font-family: inherit; }
 }
 .icon-btn:hover { border-color: var(--accent); }
 
+/* A pill with a native <select> laid invisibly over it: the whole pill opens the picker. */
+.select-pill { position: relative; display: inline-flex; align-items: center; gap: 4px; }
+.select-pill select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.select-pill:focus-within { border-color: var(--accent); outline: 2px solid var(--accent); outline-offset: 2px; }
+.select-caret { font-size: 10px; opacity: 0.6; }
+
 /* Stage */
 .stage {
   background: var(--stage);

@@ -7,6 +7,8 @@ import {
   nodeChain,
 } from "../engine/categories";
 import { getHighScore } from "../engine/highScores";
+import { formatSeconds, roundSeconds, type TimerSetting } from "../engine/timerSetting";
+import type { AnswerMode } from "../engine/useAnswerMode";
 
 /** What's selected: a chain of folder ids, plus optionally a pack in the last folder. */
 export interface BrowserSelection {
@@ -19,6 +21,9 @@ interface ColumnBrowserProps {
   selection: BrowserSelection;
   onSelect: (selection: BrowserSelection) => void;
   onPlay: (pack: QuestionPack) => void;
+  /** Shown in the pack preview as the time per round. */
+  timer: TimerSetting;
+  answerMode: AnswerMode;
 }
 
 type Entry =
@@ -32,7 +37,7 @@ function entriesOf(node: CategoryNode): Entry[] {
   ];
 }
 
-export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrowserProps) {
+export function ColumnBrowser({ root, selection, onSelect, onPlay, timer, answerMode }: ColumnBrowserProps) {
   const chain = nodeChain(root, selection.path);
   // Ignore stale ids so the columns always reflect a real position in the tree.
   const path = chain.slice(1).map((n) => n.id);
@@ -194,7 +199,12 @@ export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrows
         ))}
 
         {pack && (
-          <PackPreview pack={pack} current={currentColumn === chain.length} onPlay={onPlay} />
+          <PackPreview
+            pack={pack}
+            current={currentColumn === chain.length}
+            onPlay={onPlay}
+            perRound={timer === "off" ? "No limit" : formatSeconds(roundSeconds(pack, timer, answerMode))}
+          />
         )}
       </div>
     </div>
@@ -205,10 +215,12 @@ function PackPreview({
   pack,
   current,
   onPlay,
+  perRound,
 }: {
   pack: QuestionPack;
   current: boolean;
   onPlay: (pack: QuestionPack) => void;
+  perRound: string;
 }) {
   const hs = getHighScore(pack.id);
   return (
@@ -223,7 +235,7 @@ function PackPreview({
       {pack.description && <p className="pack-desc">{pack.description}</p>}
       <dl className="preview-meta">
         <div><dt>Questions</dt><dd>{pack.questions.length}</dd></div>
-        <div><dt>Per round</dt><dd>{pack.roundSeconds ?? 7}s</dd></div>
+        <div><dt>Per round</dt><dd>{perRound}</dd></div>
         <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
       </dl>
       <button className="next-btn" onClick={() => onPlay(pack)}>
