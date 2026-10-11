@@ -14,7 +14,7 @@
   "questions": [
     {
       "id": "large-airliners-a380",
-      "image": "a380.svg",
+      "image": "a380.jpg",
       "answer": "a380",
       "options": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "id": "large-airliners-b747-8",
-      "image": "b747-8.svg",
+      "image": "747-8.jpg",
       "answer": "b747-8",
       "options": [
         {
@@ -60,7 +60,7 @@
     },
     {
       "id": "large-airliners-b747-400",
-      "image": "b747-400.svg",
+      "image": "747-400.jpg",
       "answer": "b747-400",
       "options": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "id": "large-airliners-b747sp",
-      "image": "b747sp.svg",
+      "image": "747sp.jpg",
       "answer": "b747sp",
       "options": [
         {
@@ -106,7 +106,7 @@
     },
     {
       "id": "large-airliners-b777-300er",
-      "image": "b777-300er.svg",
+      "image": "777-300er.jpg",
       "answer": "b777-300er",
       "options": [
         {
@@ -125,11 +125,12 @@
           "id": "a330-200",
           "label": "Airbus A330-200"
         }
-      ]
+      ],
+      "credit": "Photo: J.O.S.O. Photos"
     },
     {
       "id": "large-airliners-b777-200",
-      "image": "b777-200.svg",
+      "image": "777-200.jpg",
       "answer": "b777-200",
       "options": [
         {
@@ -175,7 +176,7 @@
     },
     {
       "id": "large-airliners-a350-1000",
-      "image": "a350-1000.svg",
+      "image": "a350-1000.jpg",
       "answer": "a350-1000",
       "options": [
         {
@@ -198,7 +199,7 @@
     },
     {
       "id": "large-airliners-a350-900",
-      "image": "a350-900.svg",
+      "image": "a350-900-singapore.jpg",
       "answer": "a350-900",
       "options": [
         {
@@ -221,7 +222,7 @@
     },
     {
       "id": "large-airliners-a330-300",
-      "image": "a330-300.svg",
+      "image": "a330-300.jpg",
       "answer": "a330-300",
       "options": [
         {
@@ -244,7 +245,7 @@
     },
     {
       "id": "large-airliners-a330-200",
-      "image": "a330-200.svg",
+      "image": "a330-200.jpg",
       "answer": "a330-200",
       "options": [
         {
@@ -267,7 +268,7 @@
     },
     {
       "id": "large-airliners-a340-600",
-      "image": "a340-600.svg",
+      "image": "a340-600.jpg",
       "answer": "a340-600",
       "options": [
         {
@@ -290,7 +291,7 @@
     },
     {
       "id": "large-airliners-a340-300",
-      "image": "a340-300.svg",
+      "image": "a340-300.jpg",
       "answer": "a340-300",
       "options": [
         {
@@ -313,7 +314,7 @@
     },
     {
       "id": "large-airliners-b767-300",
-      "image": "b767-300.svg",
+      "image": "767-300.jpg",
       "answer": "b767-300",
       "options": [
         {
@@ -336,7 +337,7 @@
     },
     {
       "id": "large-airliners-md11",
-      "image": "md11.svg",
+      "image": "md11.jpg",
       "answer": "md11",
       "options": [
         {
@@ -359,7 +360,7 @@
     },
     {
       "id": "large-airliners-l1011",
-      "image": "l1011.svg",
+      "image": "l1011.jpg",
       "answer": "l1011",
       "options": [
         {
@@ -428,7 +429,7 @@
     },
     {
       "id": "large-airliners-a300",
-      "image": "a300.svg",
+      "image": "a300.jpg",
       "answer": "a300",
       "options": [
         {
@@ -451,7 +452,7 @@
     },
     {
       "id": "large-airliners-a310",
-      "image": "a310.svg",
+      "image": "a310.jpg",
       "answer": "a310",
       "options": [
         {
