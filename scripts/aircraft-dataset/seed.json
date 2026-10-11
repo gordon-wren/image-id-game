@@ -1,0 +1,984 @@
+[
+  {
+    "id": "a380",
+    "wikipediaTitle": "Airbus A380",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a380"
+    ]
+  },
+  {
+    "id": "b747",
+    "wikipediaTitle": "Boeing 747",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "b747-8",
+    "wikipediaTitle": "Boeing 747-8",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b747-8"
+    ]
+  },
+  {
+    "id": "b747-400",
+    "wikipediaTitle": "Boeing 747-400",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b747-400"
+    ]
+  },
+  {
+    "id": "b747sp",
+    "wikipediaTitle": "Boeing 747SP",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b747sp"
+    ]
+  },
+  {
+    "id": "b777",
+    "wikipediaTitle": "Boeing 777",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b777-200",
+      "b777-300er"
+    ]
+  },
+  {
+    "id": "b777x",
+    "wikipediaTitle": "Boeing 777X",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "b787",
+    "wikipediaTitle": "Boeing 787 Dreamliner",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b787-9"
+    ]
+  },
+  {
+    "id": "a350",
+    "wikipediaTitle": "Airbus A350",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a350-900",
+      "a350-1000"
+    ]
+  },
+  {
+    "id": "a330",
+    "wikipediaTitle": "Airbus A330",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a330-200",
+      "a330-300"
+    ]
+  },
+  {
+    "id": "a330neo",
+    "wikipediaTitle": "Airbus A330neo",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "a340",
+    "wikipediaTitle": "Airbus A340",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a340-300",
+      "a340-600"
+    ]
+  },
+  {
+    "id": "b767",
+    "wikipediaTitle": "Boeing 767",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "b767-300"
+    ]
+  },
+  {
+    "id": "md11",
+    "wikipediaTitle": "McDonnell Douglas MD-11",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "md11"
+    ]
+  },
+  {
+    "id": "dc10",
+    "wikipediaTitle": "McDonnell Douglas DC-10",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "l1011",
+    "wikipediaTitle": "Lockheed L-1011 TriStar",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "l1011"
+    ]
+  },
+  {
+    "id": "il96",
+    "wikipediaTitle": "Ilyushin Il-96",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "il96"
+    ]
+  },
+  {
+    "id": "il86",
+    "wikipediaTitle": "Ilyushin Il-86",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "il86"
+    ]
+  },
+  {
+    "id": "a300",
+    "wikipediaTitle": "Airbus A300",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a300"
+    ]
+  },
+  {
+    "id": "a310",
+    "wikipediaTitle": "Airbus A310",
+    "group": "airliner-widebody",
+    "packAnswerIds": [
+      "a310"
+    ]
+  },
+  {
+    "id": "concorde",
+    "wikipediaTitle": "Concorde",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "b707",
+    "wikipediaTitle": "Boeing 707",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "dc8",
+    "wikipediaTitle": "Douglas DC-8",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "vc10",
+    "wikipediaTitle": "Vickers VC10",
+    "group": "airliner-widebody"
+  },
+  {
+    "id": "b737-classic",
+    "wikipediaTitle": "Boeing 737 Classic",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "b737ng",
+    "wikipediaTitle": "Boeing 737 Next Generation",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "b737max",
+    "wikipediaTitle": "Boeing 737 MAX",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "b727",
+    "wikipediaTitle": "Boeing 727",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "b757",
+    "wikipediaTitle": "Boeing 757",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "b717",
+    "wikipediaTitle": "Boeing 717",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "a320",
+    "wikipediaTitle": "Airbus A320 family",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "a320neo",
+    "wikipediaTitle": "Airbus A320neo family",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "a220",
+    "wikipediaTitle": "Airbus A220",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "md80",
+    "wikipediaTitle": "McDonnell Douglas MD-80",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "tu154",
+    "wikipediaTitle": "Tupolev Tu-154",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "c919",
+    "wikipediaTitle": "Comac C919",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "ssj100",
+    "wikipediaTitle": "Sukhoi Superjet 100",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "f100",
+    "wikipediaTitle": "Fokker 100",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "bae146",
+    "wikipediaTitle": "British Aerospace 146",
+    "group": "airliner-narrowbody"
+  },
+  {
+    "id": "ejet",
+    "wikipediaTitle": "Embraer E-Jet family",
+    "group": "regional"
+  },
+  {
+    "id": "ejet-e2",
+    "wikipediaTitle": "Embraer E-Jet E2 family",
+    "group": "regional"
+  },
+  {
+    "id": "erj",
+    "wikipediaTitle": "Embraer ERJ family",
+    "group": "regional"
+  },
+  {
+    "id": "crj200",
+    "wikipediaTitle": "Bombardier CRJ100/200",
+    "group": "regional"
+  },
+  {
+    "id": "crj700",
+    "wikipediaTitle": "Bombardier CRJ700 series",
+    "group": "regional"
+  },
+  {
+    "id": "atr72",
+    "wikipediaTitle": "ATR 72",
+    "group": "regional"
+  },
+  {
+    "id": "dash8",
+    "wikipediaTitle": "De Havilland Canada Dash 8",
+    "group": "regional"
+  },
+  {
+    "id": "saab340",
+    "wikipediaTitle": "Saab 340",
+    "group": "regional"
+  },
+  {
+    "id": "twin-otter",
+    "wikipediaTitle": "de Havilland Canada DHC-6 Twin Otter",
+    "group": "regional"
+  },
+  {
+    "id": "dc3",
+    "wikipediaTitle": "Douglas DC-3",
+    "group": "regional"
+  },
+  {
+    "id": "constellation",
+    "wikipediaTitle": "Lockheed Constellation",
+    "group": "regional"
+  },
+  {
+    "id": "c172",
+    "wikipediaTitle": "Cessna 172",
+    "group": "business-general"
+  },
+  {
+    "id": "pa28",
+    "wikipediaTitle": "Piper PA-28 Cherokee",
+    "group": "business-general"
+  },
+  {
+    "id": "sr22",
+    "wikipediaTitle": "Cirrus SR22",
+    "group": "business-general"
+  },
+  {
+    "id": "bonanza",
+    "wikipediaTitle": "Beechcraft Bonanza",
+    "group": "business-general"
+  },
+  {
+    "id": "j3cub",
+    "wikipediaTitle": "Piper J-3 Cub",
+    "group": "business-general"
+  },
+  {
+    "id": "da40",
+    "wikipediaTitle": "Diamond DA40 Diamond Star",
+    "group": "business-general"
+  },
+  {
+    "id": "caravan",
+    "wikipediaTitle": "Cessna 208 Caravan",
+    "group": "business-general"
+  },
+  {
+    "id": "pc12",
+    "wikipediaTitle": "Pilatus PC-12",
+    "group": "business-general"
+  },
+  {
+    "id": "king-air",
+    "wikipediaTitle": "Beechcraft King Air",
+    "group": "business-general"
+  },
+  {
+    "id": "g650",
+    "wikipediaTitle": "Gulfstream G650",
+    "group": "business-general"
+  },
+  {
+    "id": "learjet35",
+    "wikipediaTitle": "Learjet 35",
+    "group": "business-general"
+  },
+  {
+    "id": "citation-x",
+    "wikipediaTitle": "Cessna Citation X",
+    "group": "business-general"
+  },
+  {
+    "id": "global7500",
+    "wikipediaTitle": "Bombardier Global 7500",
+    "group": "business-general"
+  },
+  {
+    "id": "hondajet",
+    "wikipediaTitle": "Honda HA-420 HondaJet",
+    "group": "business-general"
+  },
+  {
+    "id": "phenom300",
+    "wikipediaTitle": "Embraer Phenom 300",
+    "group": "business-general"
+  },
+  {
+    "id": "c130",
+    "wikipediaTitle": "Lockheed C-130 Hercules",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "c17",
+    "wikipediaTitle": "Boeing C-17 Globemaster III",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "c5",
+    "wikipediaTitle": "Lockheed C-5 Galaxy",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "a400m",
+    "wikipediaTitle": "Airbus A400M Atlas",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "an124",
+    "wikipediaTitle": "Antonov An-124 Ruslan",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "an225",
+    "wikipediaTitle": "Antonov An-225 Mriya",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "il76",
+    "wikipediaTitle": "Ilyushin Il-76",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "kc135",
+    "wikipediaTitle": "Boeing KC-135 Stratotanker",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "e3",
+    "wikipediaTitle": "Boeing E-3 Sentry",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "p8",
+    "wikipediaTitle": "Boeing P-8 Poseidon",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "p3",
+    "wikipediaTitle": "Lockheed P-3 Orion",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "v22",
+    "wikipediaTitle": "Bell Boeing V-22 Osprey",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "c390",
+    "wikipediaTitle": "Embraer C-390 Millennium",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "kawasaki-c2",
+    "wikipediaTitle": "Kawasaki C-2",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "sr71",
+    "wikipediaTitle": "Lockheed SR-71 Blackbird",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "u2",
+    "wikipediaTitle": "Lockheed U-2",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "mq9",
+    "wikipediaTitle": "General Atomics MQ-9 Reaper",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "rq4",
+    "wikipediaTitle": "Northrop Grumman RQ-4 Global Hawk",
+    "group": "military-transport-special"
+  },
+  {
+    "id": "b52",
+    "wikipediaTitle": "Boeing B-52 Stratofortress",
+    "group": "bomber"
+  },
+  {
+    "id": "b1",
+    "wikipediaTitle": "Rockwell B-1 Lancer",
+    "group": "bomber"
+  },
+  {
+    "id": "b2",
+    "wikipediaTitle": "Northrop B-2 Spirit",
+    "group": "bomber"
+  },
+  {
+    "id": "b21",
+    "wikipediaTitle": "Northrop Grumman B-21 Raider",
+    "group": "bomber"
+  },
+  {
+    "id": "tu95",
+    "wikipediaTitle": "Tupolev Tu-95",
+    "group": "bomber"
+  },
+  {
+    "id": "tu160",
+    "wikipediaTitle": "Tupolev Tu-160",
+    "group": "bomber"
+  },
+  {
+    "id": "tu22m",
+    "wikipediaTitle": "Tupolev Tu-22M",
+    "group": "bomber"
+  },
+  {
+    "id": "vulcan",
+    "wikipediaTitle": "Avro Vulcan",
+    "group": "bomber"
+  },
+  {
+    "id": "f22",
+    "wikipediaTitle": "Lockheed Martin F-22 Raptor",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f22"
+    ]
+  },
+  {
+    "id": "f35",
+    "wikipediaTitle": "Lockheed Martin F-35 Lightning II",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f35"
+    ]
+  },
+  {
+    "id": "f16",
+    "wikipediaTitle": "General Dynamics F-16 Fighting Falcon",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f16"
+    ]
+  },
+  {
+    "id": "fa18",
+    "wikipediaTitle": "McDonnell Douglas F/A-18 Hornet",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "fa18"
+    ]
+  },
+  {
+    "id": "fa18ef",
+    "wikipediaTitle": "Boeing F/A-18E/F Super Hornet",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "f15",
+    "wikipediaTitle": "McDonnell Douglas F-15 Eagle",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f15"
+    ]
+  },
+  {
+    "id": "f14",
+    "wikipediaTitle": "Grumman F-14 Tomcat",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f14"
+    ]
+  },
+  {
+    "id": "a10",
+    "wikipediaTitle": "Fairchild Republic A-10 Thunderbolt II",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "a10"
+    ]
+  },
+  {
+    "id": "typhoon",
+    "wikipediaTitle": "Eurofighter Typhoon",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "typhoon"
+    ]
+  },
+  {
+    "id": "rafale",
+    "wikipediaTitle": "Dassault Rafale",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "rafale"
+    ]
+  },
+  {
+    "id": "gripen",
+    "wikipediaTitle": "Saab JAS 39 Gripen",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "gripen"
+    ]
+  },
+  {
+    "id": "tornado",
+    "wikipediaTitle": "Panavia Tornado",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "tornado"
+    ]
+  },
+  {
+    "id": "su27",
+    "wikipediaTitle": "Sukhoi Su-27",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "su27"
+    ]
+  },
+  {
+    "id": "su35",
+    "wikipediaTitle": "Sukhoi Su-35",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "su57",
+    "wikipediaTitle": "Sukhoi Su-57",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "su57"
+    ]
+  },
+  {
+    "id": "mig29",
+    "wikipediaTitle": "Mikoyan MiG-29",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "mig29"
+    ]
+  },
+  {
+    "id": "mig21",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-21",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "mig21"
+    ]
+  },
+  {
+    "id": "mig25",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-25",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "mig31",
+    "wikipediaTitle": "Mikoyan MiG-31",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "j20",
+    "wikipediaTitle": "Chengdu J-20",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "j20"
+    ]
+  },
+  {
+    "id": "j10",
+    "wikipediaTitle": "Chengdu J-10",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "mirage2000",
+    "wikipediaTitle": "Dassault Mirage 2000",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "mirage2000"
+    ]
+  },
+  {
+    "id": "f4",
+    "wikipediaTitle": "McDonnell Douglas F-4 Phantom II",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f4"
+    ]
+  },
+  {
+    "id": "f117",
+    "wikipediaTitle": "Lockheed F-117 Nighthawk",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "f117"
+    ]
+  },
+  {
+    "id": "harrier",
+    "wikipediaTitle": "Harrier jump jet",
+    "group": "fighter-attack",
+    "packAnswerIds": [
+      "harrier"
+    ]
+  },
+  {
+    "id": "tejas",
+    "wikipediaTitle": "HAL Tejas",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "kf21",
+    "wikipediaTitle": "KAI KF-21 Boramae",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "viggen",
+    "wikipediaTitle": "Saab 37 Viggen",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "f5",
+    "wikipediaTitle": "Northrop F-5",
+    "group": "fighter-attack"
+  },
+  {
+    "id": "hawk",
+    "wikipediaTitle": "BAE Systems Hawk",
+    "group": "trainer"
+  },
+  {
+    "id": "l39",
+    "wikipediaTitle": "Aero L-39 Albatros",
+    "group": "trainer"
+  },
+  {
+    "id": "t38",
+    "wikipediaTitle": "Northrop T-38 Talon",
+    "group": "trainer"
+  },
+  {
+    "id": "alpha-jet",
+    "wikipediaTitle": "Dassault/Dornier Alpha Jet",
+    "group": "trainer"
+  },
+  {
+    "id": "wright-flyer",
+    "wikipediaTitle": "Wright Flyer",
+    "group": "historic"
+  },
+  {
+    "id": "spitfire",
+    "wikipediaTitle": "Supermarine Spitfire",
+    "group": "historic"
+  },
+  {
+    "id": "hurricane",
+    "wikipediaTitle": "Hawker Hurricane",
+    "group": "historic"
+  },
+  {
+    "id": "p51",
+    "wikipediaTitle": "North American P-51 Mustang",
+    "group": "historic"
+  },
+  {
+    "id": "bf109",
+    "wikipediaTitle": "Messerschmitt Bf 109",
+    "group": "historic"
+  },
+  {
+    "id": "a6m",
+    "wikipediaTitle": "Mitsubishi A6M Zero",
+    "group": "historic"
+  },
+  {
+    "id": "f4u",
+    "wikipediaTitle": "Vought F4U Corsair",
+    "group": "historic"
+  },
+  {
+    "id": "p38",
+    "wikipediaTitle": "Lockheed P-38 Lightning",
+    "group": "historic"
+  },
+  {
+    "id": "mosquito",
+    "wikipediaTitle": "de Havilland Mosquito",
+    "group": "historic"
+  },
+  {
+    "id": "b17",
+    "wikipediaTitle": "Boeing B-17 Flying Fortress",
+    "group": "historic"
+  },
+  {
+    "id": "b29",
+    "wikipediaTitle": "Boeing B-29 Superfortress",
+    "group": "historic"
+  },
+  {
+    "id": "lancaster",
+    "wikipediaTitle": "Avro Lancaster",
+    "group": "historic"
+  },
+  {
+    "id": "ah64",
+    "wikipediaTitle": "Boeing AH-64 Apache",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ah64"
+    ]
+  },
+  {
+    "id": "uh1",
+    "wikipediaTitle": "Bell UH-1 Iroquois",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "uh1"
+    ]
+  },
+  {
+    "id": "ch47",
+    "wikipediaTitle": "Boeing CH-47 Chinook",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ch47"
+    ]
+  },
+  {
+    "id": "uh60",
+    "wikipediaTitle": "Sikorsky UH-60 Black Hawk",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "uh60"
+    ]
+  },
+  {
+    "id": "ch53",
+    "wikipediaTitle": "Sikorsky CH-53 Sea Stallion",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ch53"
+    ]
+  },
+  {
+    "id": "ah1",
+    "wikipediaTitle": "Bell AH-1 Cobra",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ah1"
+    ]
+  },
+  {
+    "id": "mi24",
+    "wikipediaTitle": "Mil Mi-24",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "mi24"
+    ]
+  },
+  {
+    "id": "mi8",
+    "wikipediaTitle": "Mil Mi-8",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "mi8"
+    ]
+  },
+  {
+    "id": "ka52",
+    "wikipediaTitle": "Kamov Ka-52",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ka52"
+    ]
+  },
+  {
+    "id": "ka50",
+    "wikipediaTitle": "Kamov Ka-50",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ka50"
+    ]
+  },
+  {
+    "id": "tiger",
+    "wikipediaTitle": "Eurocopter Tiger",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "tiger"
+    ]
+  },
+  {
+    "id": "r22",
+    "wikipediaTitle": "Robinson R22",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "r22"
+    ]
+  },
+  {
+    "id": "r44",
+    "wikipediaTitle": "Robinson R44",
+    "group": "helicopter"
+  },
+  {
+    "id": "bell206",
+    "wikipediaTitle": "Bell 206",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "bell206"
+    ]
+  },
+  {
+    "id": "h125",
+    "wikipediaTitle": "Eurocopter AS350 Écureuil",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "h125"
+    ]
+  },
+  {
+    "id": "s76",
+    "wikipediaTitle": "Sikorsky S-76",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "s76"
+    ]
+  },
+  {
+    "id": "h145",
+    "wikipediaTitle": "Eurocopter EC145",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "h145"
+    ]
+  },
+  {
+    "id": "h135",
+    "wikipediaTitle": "Eurocopter EC135",
+    "group": "helicopter"
+  },
+  {
+    "id": "md500",
+    "wikipediaTitle": "MD Helicopters MD 500",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "md500"
+    ]
+  },
+  {
+    "id": "aw101",
+    "wikipediaTitle": "AgustaWestland AW101",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "aw101"
+    ]
+  },
+  {
+    "id": "aw139",
+    "wikipediaTitle": "AgustaWestland AW139",
+    "group": "helicopter"
+  },
+  {
+    "id": "bell47",
+    "wikipediaTitle": "Bell 47",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "bell47"
+    ]
+  },
+  {
+    "id": "ch54",
+    "wikipediaTitle": "Sikorsky CH-54 Tarhe",
+    "group": "helicopter",
+    "packAnswerIds": [
+      "ch54"
+    ]
+  },
+  {
+    "id": "mi26",
+    "wikipediaTitle": "Mil Mi-26",
+    "group": "helicopter"
+  },
+  {
+    "id": "sh60",
+    "wikipediaTitle": "Sikorsky SH-60 Seahawk",
+    "group": "helicopter"
+  },
+  {
+    "id": "s92",
+    "wikipediaTitle": "Sikorsky S-92",
+    "group": "helicopter"
+  }
+]
