@@ -7,6 +7,9 @@ import {
   nodeChain,
 } from "../engine/categories";
 import { getHighScore } from "../engine/highScores";
+import { formatSeconds, roundSeconds, type TimerSetting } from "../engine/timerSetting";
+import type { AnswerMode } from "../engine/useAnswerMode";
+import type { PlayMode } from "../engine/usePlayMode";
 
 /** What's selected: a chain of folder ids, plus optionally a pack in the last folder. */
 export interface BrowserSelection {
@@ -18,7 +21,13 @@ interface ColumnBrowserProps {
   root: CategoryNode;
   selection: BrowserSelection;
   onSelect: (selection: BrowserSelection) => void;
-  onPlay: (pack: QuestionPack) => void;
+  /** Whether opening a pack plays the game or studies it as flashcards. */
+  mode: PlayMode;
+  /** Opens the pack in the current mode (Play button, Enter or double-click). */
+  onStart: (pack: QuestionPack) => void;
+  /** Shown in the pack preview as the time per round. */
+  timer: TimerSetting;
+  answerMode: AnswerMode;
 }
 
 type Entry =
@@ -32,7 +41,7 @@ function entriesOf(node: CategoryNode): Entry[] {
   ];
 }
 
-export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrowserProps) {
+export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer, answerMode }: ColumnBrowserProps) {
   const chain = nodeChain(root, selection.path);
   // Ignore stale ids so the columns always reflect a real position in the tree.
   const path = chain.slice(1).map((n) => n.id);
@@ -109,7 +118,7 @@ export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrows
         break;
       }
       case "Enter":
-        if (pack) onPlay(pack);
+        if (pack) onStart(pack);
         else return;
         break;
       default:
@@ -167,7 +176,7 @@ export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrows
                   aria-selected={selected}
                   style={accent ? { ["--accent" as string]: accent } : undefined}
                   onClick={() => select(col, entry)}
-                  onDoubleClick={() => entry.kind === "pack" && onPlay(entry.pack)}
+                  onDoubleClick={() => entry.kind === "pack" && onStart(entry.pack)}
                 >
                   <span className="col-dot" aria-hidden />
                   <span className="col-label">
@@ -194,7 +203,13 @@ export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrows
         ))}
 
         {pack && (
-          <PackPreview pack={pack} current={currentColumn === chain.length} onPlay={onPlay} />
+          <PackPreview
+            pack={pack}
+            current={currentColumn === chain.length}
+            mode={mode}
+            onStart={onStart}
+            perRound={timer === "off" ? "No limit" : formatSeconds(roundSeconds(pack, timer, answerMode))}
+          />
         )}
       </div>
     </div>
@@ -204,11 +219,15 @@ export function ColumnBrowser({ root, selection, onSelect, onPlay }: ColumnBrows
 function PackPreview({
   pack,
   current,
-  onPlay,
+  mode,
+  onStart,
+  perRound,
 }: {
   pack: QuestionPack;
   current: boolean;
-  onPlay: (pack: QuestionPack) => void;
+  mode: PlayMode;
+  onStart: (pack: QuestionPack) => void;
+  perRound: string;
 }) {
   const hs = getHighScore(pack.id);
   return (
@@ -221,13 +240,24 @@ function PackPreview({
         <p className="pack-title">{pack.title}</p>
       </div>
       {pack.description && <p className="pack-desc">{pack.description}</p>}
-      <dl className="preview-meta">
-        <div><dt>Questions</dt><dd>{pack.questions.length}</dd></div>
-        <div><dt>Per round</dt><dd>{pack.roundSeconds ?? 7}s</dd></div>
-        <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
-      </dl>
-      <button className="next-btn" onClick={() => onPlay(pack)}>
-        Play
+      {mode === "study" ? (
+        <dl className="preview-meta">
+          <div><dt>Cards</dt><dd>{pack.questions.length}</dd></div>
+          <div><dt>Timer</dt><dd>None</dd></div>
+        </dl>
+      ) : (
+        <dl className="preview-meta">
+          <div><dt>Questions</dt><dd>{pack.questions.length}</dd></div>
+          <div><dt>Per round</dt><dd>{perRound}</dd></div>
+          <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
+        </dl>
+      )}
+      <button
+        className="next-btn"
+        onClick={() => onStart(pack)}
+        aria-label={mode === "study" ? `Study ${pack.title} with flashcards` : undefined}
+      >
+        {mode === "study" ? "Study" : "Play"}
       </button>
     </div>
   );

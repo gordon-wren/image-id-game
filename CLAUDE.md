@@ -8,6 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run dev        # dev server at http://localhost:5173
 npm test           # run engine unit tests (vitest, one-shot)
 npm run test:watch # vitest in watch mode
+npm run packs      # regenerate aircraft packs from the dataset + recipes
 npm run build      # tsc + vite build → dist/
 npm run deploy     # build + gh-pages push to gh-pages branch
 ```
@@ -23,9 +24,13 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 2. `public/assets/yourgame/` (images)
 3. Add filename to `public/packs/index.json`
 
+**Generated aircraft packs** — most aviation packs are built, not hand-written. `scripts/aircraft-dataset/build.mjs` scrapes Wikipedia/Wikidata/Commons into `public/data/aircraft.json` + `public/assets/aircraft/` (one photo per type, usable licenses only). `scripts/packs/generate.mjs` turns each entry of `scripts/packs/recipes.json` (filter by `group`, `country`, `firstFlight` range, `ids`) into a pack with curated, similarity-ranked distractors; it marks its output with `generatedFrom`. To add a quiz, add a recipe and run `npm run packs` — never edit a generated pack by hand. `scripts/packs/packs.test.mjs` fails if a generated pack is stale or any pack points at a missing image. `large-airliners.json` stays hand-written because it asks about variants (777-200 vs 777-300ER) the dataset doesn't split.
+
 **Category tree / column browser** — the menu is a Finder-style column browser (`src/components/ColumnBrowser.tsx`): each column drills one level deeper, and selecting a pack opens a preview column with a Play button. Each pack declares an optional `path` array (e.g. `["Aviation", "Helicopters", "Military"]`); packs sharing a prefix share folders, and a folder can hold both sub-folders and packs (`src/engine/categories.ts`). `category` is shorthand for a one-level path; packs with neither land under "Other". New folders need no code changes — just use the name in a pack's `path`. Optionally set `categoryDescription` on one pack per top-level category for its blurb. On phones the browser shows one column at a time with a breadcrumb for going back.
 
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
+
+**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, chosen with the **Mode: Play / Study** pill in the top bar (`src/engine/usePlayMode.ts`, persisted to `localStorage`); in Study mode the browser's main button, Enter and double-click open flashcards instead of the game, and the Answer and Timer pills are hidden. `buildDeck` turns a pack into image/label cards, sharing `orderQuestions` and `answerLabel` with the game (`pack.ts`) so both show the same names; the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
 
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.
 

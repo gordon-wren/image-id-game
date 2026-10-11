@@ -1,0 +1,395 @@
+{
+  "id": "general-aviation",
+  "title": "Business & General Aviation",
+  "description": "Light aircraft, turboprops and business jets.",
+  "path": [
+    "Aviation",
+    "Planes",
+    "General Aviation"
+  ],
+  "theme": {
+    "accent": "#B0721A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
+  "questions": [
+    {
+      "id": "general-aviation-c172",
+      "image": "c172.jpg",
+      "answer": "c172",
+      "options": [
+        {
+          "id": "c172",
+          "label": "Cessna 172"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "j3cub",
+          "label": "Piper J-3 Cub"
+        },
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        }
+      ],
+      "caption": "Propeller driven single engine aircraft. First flew 1955.",
+      "credit": "Ahunt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-pa28",
+      "image": "pa28.jpg",
+      "answer": "pa28",
+      "options": [
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        },
+        {
+          "id": "j3cub",
+          "label": "Piper J-3 Cub"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "c172",
+          "label": "Cessna 172"
+        }
+      ],
+      "caption": "Family of light single engine aircraft. First flew 1960.",
+      "credit": "Mike Burdett / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-sr22",
+      "image": "sr22.jpg",
+      "answer": "sr22",
+      "options": [
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "hondajet",
+          "label": "HondaJet"
+        },
+        {
+          "id": "king-air",
+          "label": "Beechcraft King Air"
+        },
+        {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        }
+      ],
+      "caption": "Single engine general aviation aircraft. First flew 2000.",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-bonanza",
+      "image": "bonanza.jpg",
+      "answer": "bonanza",
+      "options": [
+        {
+          "id": "bonanza",
+          "label": "Beechcraft Bonanza"
+        },
+        {
+          "id": "king-air",
+          "label": "Beechcraft King Air"
+        },
+        {
+          "id": "j3cub",
+          "label": "Piper J-3 Cub"
+        },
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        }
+      ],
+      "caption": "Single engine American light aircraft. First flew 1945.",
+      "credit": "Bill Larkins / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-j3cub",
+      "image": "j3cub.jpg",
+      "answer": "j3cub",
+      "options": [
+        {
+          "id": "j3cub",
+          "label": "Piper J-3 Cub"
+        },
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "citation-x",
+          "label": "Cessna Citation X"
+        }
+      ],
+      "caption": "Family of light aircraft. First flew 1938.",
+      "credit": "Huhu Uet / CC BY 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-da40",
+      "image": "da40.jpg",
+      "answer": "da40",
+      "options": [
+        {
+          "id": "da40",
+          "label": "Diamond DA40 Diamond Star"
+        },
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
+        }
+      ],
+      "caption": "Family of light aircraft. First flew 1997.",
+      "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-caravan",
+      "image": "caravan.jpg",
+      "answer": "caravan",
+      "options": [
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "citation-x",
+          "label": "Cessna Citation X"
+        },
+        {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        }
+      ],
+      "caption": "Family of utility transport aircraft. First flew 1982.",
+      "credit": "Lt. Col. Scott Voskovitch / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-pc12",
+      "image": "pc12.jpg",
+      "answer": "pc12",
+      "options": [
+        {
+          "id": "pc12",
+          "label": "Pilatus PC-12"
+        },
+        {
+          "id": "citation-x",
+          "label": "Cessna Citation X"
+        },
+        {
+          "id": "da40",
+          "label": "Diamond DA40 Diamond Star"
+        },
+        {
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
+        }
+      ],
+      "caption": "Swiss executive and utility transport aircraft. First flew 1991.",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-king-air",
+      "image": "king-air.jpg",
+      "answer": "king-air",
+      "options": [
+        {
+          "id": "king-air",
+          "label": "Beechcraft King Air"
+        },
+        {
+          "id": "bonanza",
+          "label": "Beechcraft Bonanza"
+        },
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        },
+        {
+          "id": "c172",
+          "label": "Cessna 172"
+        }
+      ],
+      "caption": "Twin engine turboprop aircraft family. First flew 1963.",
+      "credit": "海上自衛隊 / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-g650",
+      "image": "g650.jpg",
+      "answer": "g650",
+      "options": [
+        {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "c172",
+          "label": "Cessna 172"
+        },
+        {
+          "id": "hondajet",
+          "label": "HondaJet"
+        }
+      ],
+      "caption": "Executive jet aircraft. First flew 2009.",
+      "credit": "Rob Hodgkins / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-learjet35",
+      "image": "learjet35.jpg",
+      "answer": "learjet35",
+      "options": [
+        {
+          "id": "learjet35",
+          "label": "Learjet 35"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "bonanza",
+          "label": "Beechcraft Bonanza"
+        }
+      ],
+      "caption": "Executive business jet series. First flew 1973.",
+      "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-citation-x",
+      "image": "citation-x.jpg",
+      "answer": "citation-x",
+      "options": [
+        {
+          "id": "citation-x",
+          "label": "Cessna Citation X"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
+        }
+      ],
+      "caption": "American business jet. First flew 1993.",
+      "credit": "Riik@mctr / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-global7500",
+      "image": "global7500.png",
+      "answer": "global7500",
+      "options": [
+        {
+          "id": "global7500",
+          "label": "Bombardier Global 7500"
+        },
+        {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
+        }
+      ],
+      "caption": "Business jet. First flew 2016.",
+      "credit": "KeepPhlyingHigh / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-hondajet",
+      "image": "hondajet.jpg",
+      "answer": "hondajet",
+      "options": [
+        {
+          "id": "hondajet",
+          "label": "HondaJet"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
+        },
+        {
+          "id": "king-air",
+          "label": "Beechcraft King Air"
+        },
+        {
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        }
+      ],
+      "caption": "Very light business jet. First flew 2003.",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "general-aviation-phenom300",
+      "image": "phenom300.jpg",
+      "answer": "phenom300",
+      "options": [
+        {
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
+        },
+        {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
+          "id": "global7500",
+          "label": "Bombardier Global 7500"
+        },
+        {
+          "id": "ejet-e2",
+          "label": "Embraer E-Jet E2"
+        }
+      ],
+      "caption": "Light business jet. First flew 2008.",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
+    }
+  ]
+}

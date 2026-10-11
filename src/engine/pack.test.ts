@@ -35,22 +35,14 @@ describe("shuffle", () => {
 });
 
 describe("resolveOptions (pool generation)", () => {
-  it("always includes the correct answer", () => {
-    const pool = [
-      { id: "a", label: "A" }, { id: "b", label: "B" },
-      { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
-    ];
-    const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
-    expect(opts.some((o) => o.id === "a")).toBe(true);
-  });
-
-  it("produces exactly optionsPerQuestion options", () => {
+  it("produces optionsPerQuestion options, always including the correct answer", () => {
     const pool = [
       { id: "a", label: "A" }, { id: "b", label: "B" },
       { id: "c", label: "C" }, { id: "d", label: "D" }, { id: "e", label: "E" },
     ];
     const opts = resolveOptions(pack, pack.questions[0], pool, seeded(3));
     expect(opts).toHaveLength(4);
+    expect(opts.some((o) => o.id === "a")).toBe(true);
   });
 
   it("uses supplied options verbatim when present", () => {
@@ -64,6 +56,22 @@ describe("resolveOptions (pool generation)", () => {
 });
 
 describe("resolvePack", () => {
+  it("labels generated options from another question's options when a question has none", () => {
+    const resolved = resolvePack(
+      {
+        ...pack,
+        optionsPerQuestion: 2,
+        shuffleQuestions: false,
+        questions: [
+          { id: "q1", image: "a.jpg", answer: "a", options: [{ id: "a", label: "Alpha" }, { id: "b", label: "Bravo" }] },
+          { id: "q2", image: "b.jpg", answer: "b" },
+        ],
+      },
+      seeded(3),
+    );
+    expect(resolved[1].resolvedOptions.map((o) => o.label).sort()).toEqual(["Alpha", "Bravo"]);
+  });
+
   it("resolves image paths and attaches options to every question", () => {
     const resolved = resolvePack({ ...pack, assetBase: "assets/test/" }, seeded(7));
     expect(resolved).toHaveLength(5);

@@ -114,6 +114,12 @@ export interface QuestionPack {
   /** Shuffle question order at runtime. Default true. */
   shuffleQuestions?: boolean;
 
+  /**
+   * Set on packs written by scripts/packs/generate.mjs (to the recipes file it
+   * read). Such packs are overwritten on the next run — edit the recipe instead.
+   */
+  generatedFrom?: string;
+
   questions: Question[];
 }
 
@@ -137,4 +143,19 @@ export interface RoundResult {
   msElapsed: number;
   points: number;
   timedOut: boolean;
+}
+
+// ---- Flashcard study mode -------------------------------------------------
+
+/** One study card: the image on the front, the answer on the back. */
+export interface Flashcard {
+  /** The `Question.id` this card was built from. */
+  id: string;
+  /** Fully-resolved image URL for the front of the card. */
+  resolvedImage: string;
+  /** Answer text for the back of the card, e.g. "Boeing 747-8". */
+  label: string;
+  caption?: string;
+  credit?: string;
+  alt?: string;
 }
