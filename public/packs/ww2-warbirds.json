@@ -26,16 +26,16 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "lancaster",
-          "label": "Avro Lancaster"
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         },
         {
           "id": "b17",
           "label": "Boeing B-17 Flying Fortress"
-        },
-        {
-          "id": "f4u",
-          "label": "Vought F4U Corsair"
         }
       ],
       "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
@@ -51,16 +51,16 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "lancaster",
-          "label": "Avro Lancaster"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
           "id": "b29",
           "label": "Boeing B-29 Superfortress"
-        },
-        {
-          "id": "mosquito",
-          "label": "De Havilland Mosquito"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -84,8 +84,8 @@
           "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "b29",
-          "label": "Boeing B-29 Superfortress"
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
         }
       ],
       "caption": "American WWII-era fighter aircraft. First flew 1940.",
@@ -101,16 +101,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
           "id": "f4u",
           "label": "Vought F4U Corsair"
         },
         {
-          "id": "a6m",
-          "label": "Mitsubishi A6M Zero"
+          "id": "lancaster",
+          "label": "Avro Lancaster"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -126,16 +126,16 @@
           "label": "Mitsubishi A6M Zero"
         },
         {
-          "id": "p38",
-          "label": "Lockheed P-38 Lightning"
-        },
-        {
           "id": "bf109",
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         }
       ],
       "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
@@ -151,16 +151,16 @@
           "label": "Vought F4U Corsair"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "lancaster",
-          "label": "Avro Lancaster"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "wright-flyer",
-          "label": "Wright Flyer"
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
         }
       ],
       "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
@@ -176,16 +176,16 @@
           "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
-        },
-        {
-          "id": "a6m",
-          "label": "Mitsubishi A6M Zero"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
           "id": "f4u",
           "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American twin-engined fighter of WWII. First flew 1939.",
@@ -205,8 +205,8 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
           "id": "p51",
@@ -234,8 +234,8 @@
           "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "bf109",
-          "label": "Messerschmitt Bf 109"
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
         }
       ],
       "caption": "American heavy bomber aircraft. First flew 1935.",
@@ -255,12 +255,12 @@
           "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "wright-flyer",
-          "label": "Wright Flyer"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         }
       ],
       "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
@@ -280,12 +280,12 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",

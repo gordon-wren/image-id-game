@@ -26,16 +26,16 @@
           "label": "Cessna 172"
         },
         {
-          "id": "caravan",
-          "label": "Cessna 208 Caravan"
-        },
-        {
-          "id": "j3cub",
-          "label": "Piper J-3 Cub"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
           "id": "pa28",
           "label": "Piper PA-28 Cherokee"
+        },
+        {
+          "id": "king-air",
+          "label": "Beechcraft King Air"
         }
       ],
       "caption": "Propeller driven single engine aircraft. First flew 1955.",
@@ -55,12 +55,12 @@
           "label": "Piper J-3 Cub"
         },
         {
-          "id": "caravan",
-          "label": "Cessna 208 Caravan"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
-          "id": "c172",
-          "label": "Cessna 172"
+          "id": "hondajet",
+          "label": "HondaJet"
         }
       ],
       "caption": "Family of light single engine aircraft. First flew 1960.",
@@ -76,16 +76,16 @@
           "label": "Cirrus SR22"
         },
         {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
           "id": "hondajet",
           "label": "HondaJet"
         },
         {
-          "id": "king-air",
-          "label": "Beechcraft King Air"
-        },
-        {
-          "id": "g650",
-          "label": "Gulfstream G650"
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
         }
       ],
       "caption": "Single engine general aviation aircraft. First flew 2000.",
@@ -105,12 +105,12 @@
           "label": "Beechcraft King Air"
         },
         {
-          "id": "j3cub",
-          "label": "Piper J-3 Cub"
-        },
-        {
           "id": "pa28",
           "label": "Piper PA-28 Cherokee"
+        },
+        {
+          "id": "j3cub",
+          "label": "Piper J-3 Cub"
         }
       ],
       "caption": "Single engine American light aircraft. First flew 1945.",
@@ -130,12 +130,12 @@
           "label": "Piper PA-28 Cherokee"
         },
         {
-          "id": "caravan",
-          "label": "Cessna 208 Caravan"
+          "id": "c172",
+          "label": "Cessna 172"
         },
         {
-          "id": "citation-x",
-          "label": "Cessna Citation X"
+          "id": "king-air",
+          "label": "Beechcraft King Air"
         }
       ],
       "caption": "Family of light aircraft. First flew 1938.",
@@ -151,16 +151,16 @@
           "label": "Diamond DA40 Diamond Star"
         },
         {
-          "id": "pc12",
-          "label": "Pilatus PC-12"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
-          "id": "sr22",
-          "label": "Cirrus SR22"
+          "id": "global7500",
+          "label": "Bombardier Global 7500"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "learjet35",
+          "label": "Learjet 35"
         }
       ],
       "caption": "Family of light aircraft. First flew 1997.",
@@ -184,8 +184,8 @@
           "label": "Gulfstream G650"
         },
         {
-          "id": "learjet35",
-          "label": "Learjet 35"
+          "id": "c172",
+          "label": "Cessna 172"
         }
       ],
       "caption": "Family of utility transport aircraft. First flew 1982.",
@@ -201,16 +201,16 @@
           "label": "Pilatus PC-12"
         },
         {
-          "id": "citation-x",
-          "label": "Cessna Citation X"
-        },
-        {
           "id": "da40",
           "label": "Diamond DA40 Diamond Star"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
         }
       ],
       "caption": "Swiss executive and utility transport aircraft. First flew 1991.",
@@ -230,8 +230,8 @@
           "label": "Beechcraft Bonanza"
         },
         {
-          "id": "pa28",
-          "label": "Piper PA-28 Cherokee"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
           "id": "c172",
@@ -255,12 +255,12 @@
           "label": "Cirrus SR22"
         },
         {
-          "id": "c172",
-          "label": "Cessna 172"
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
         },
         {
-          "id": "hondajet",
-          "label": "HondaJet"
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
         }
       ],
       "caption": "Executive jet aircraft. First flew 2009.",
@@ -280,12 +280,12 @@
           "label": "Cessna 208 Caravan"
         },
         {
-          "id": "sr22",
-          "label": "Cirrus SR22"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
-          "id": "bonanza",
-          "label": "Beechcraft Bonanza"
+          "id": "hondajet",
+          "label": "HondaJet"
         }
       ],
       "caption": "Executive business jet series. First flew 1973.",
@@ -305,12 +305,12 @@
           "label": "Cessna 208 Caravan"
         },
         {
-          "id": "sr22",
-          "label": "Cirrus SR22"
+          "id": "g650",
+          "label": "Gulfstream G650"
         },
         {
-          "id": "pa28",
-          "label": "Piper PA-28 Cherokee"
+          "id": "learjet35",
+          "label": "Learjet 35"
         }
       ],
       "caption": "American business jet. First flew 1993.",
@@ -326,16 +326,16 @@
           "label": "Bombardier Global 7500"
         },
         {
-          "id": "g650",
-          "label": "Gulfstream G650"
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
         },
         {
-          "id": "sr22",
-          "label": "Cirrus SR22"
+          "id": "pc12",
+          "label": "Pilatus PC-12"
         },
         {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
+          "id": "da40",
+          "label": "Diamond DA40 Diamond Star"
         }
       ],
       "caption": "Business jet. First flew 2016.",
@@ -351,16 +351,16 @@
           "label": "HondaJet"
         },
         {
+          "id": "g650",
+          "label": "Gulfstream G650"
+        },
+        {
           "id": "sr22",
           "label": "Cirrus SR22"
         },
         {
           "id": "king-air",
           "label": "Beechcraft King Air"
-        },
-        {
-          "id": "caravan",
-          "label": "Cessna 208 Caravan"
         }
       ],
       "caption": "Very light business jet. First flew 2003.",
@@ -380,12 +380,12 @@
           "label": "Gulfstream G650"
         },
         {
-          "id": "global7500",
-          "label": "Bombardier Global 7500"
-        },
-        {
           "id": "ejet-e2",
           "label": "Embraer E-Jet E2"
+        },
+        {
+          "id": "sr22",
+          "label": "Cirrus SR22"
         }
       ],
       "caption": "Light business jet. First flew 2008.",
