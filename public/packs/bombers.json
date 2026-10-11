@@ -30,12 +30,12 @@
           "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         }
       ],
       "caption": "American strategic bomber aircraft. First flew 1952.",
@@ -55,12 +55,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "b747sp",
-          "label": "Boeing 747SP"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
         }
       ],
       "caption": "American strategic bomber. First flew 1974.",
@@ -80,12 +80,12 @@
           "label": "Northrop Grumman B-21 Raider"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "citation-x",
-          "label": "Cessna Citation X"
+          "id": "b757",
+          "label": "Boeing 757"
         }
       ],
       "caption": "American heavy strategic bomber. First flew 1989.",
@@ -105,12 +105,12 @@
           "label": "Northrop B-2 Spirit"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "b777x",
+          "label": "Boeing 777X"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "b737max",
+          "label": "Boeing 737 MAX"
         }
       ],
       "caption": "American stealth bomber aircraft. First flew 2023.",
@@ -130,12 +130,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         },
         {
-          "id": "tu160",
-          "label": "Tupolev Tu-160"
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -155,12 +155,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
-        },
-        {
           "id": "tu154",
           "label": "Tupolev Tu-154"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -180,12 +180,12 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -201,16 +201,16 @@
           "label": "Avro Vulcan"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",

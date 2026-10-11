@@ -143,9 +143,14 @@ async function wikidataLabels(ids) {
     const batch = missing.slice(i, i + 50);
     const res = await get(
       "https://www.wikidata.org/w/api.php?" +
-        new URLSearchParams({ action: "wbgetentities", ids: batch.join("|"), props: "labels", languages: "en", format: "json" }),
+        new URLSearchParams({ action: "wbgetentities", ids: batch.join("|"), props: "labels", format: "json" }),
     );
-    for (const id of batch) labelCache.set(id, res?.entities?.[id]?.labels?.en?.value ?? id);
+    // English if there is one, then the language-neutral label, then any language: some
+    // items (often photographers) are only labelled in their own language.
+    for (const id of batch) {
+      const labels = res?.entities?.[id]?.labels ?? {};
+      labelCache.set(id, (labels.en ?? labels.mul ?? Object.values(labels)[0])?.value ?? id);
+    }
   }
   return ids.map((id) => labelCache.get(id));
 }
@@ -205,7 +210,10 @@ async function photoInfo(fileName) {
   let license = meta.LicenseShortName ? stripHtml(String(meta.LicenseShortName)) : null;
   if (!license || /^gfdl/i.test(license)) license = ccFromCategories(meta.Categories) ?? license;
   const free = !meta.NonFree && Boolean(license && USABLE_LICENSE.test(license));
-  const author = meta.Artist ? stripHtml(String(meta.Artist)) : null;
+  let author = meta.Artist ? stripHtml(String(meta.Artist)) : null;
+  // Commons can name the author as a bare Wikidata item ("Q139555801") when it has no
+  // label in the wiki's language; look the name up so the credit names a person.
+  if (author && /^Q\d+$/.test(author)) author = (await wikidataLabels([author]))[0];
   return {
     sourceFile: `File:${fileName}`,
     sourcePage: ii.descriptionurl,

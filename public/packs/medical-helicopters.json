@@ -352,6 +352,32 @@
       "caption": "U.S. Army HH-60M MEDEVAC Black Hawk.",
       "credit": "Staff Sgt. April Campbell / Public domain / via Wikimedia Commons",
       "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-ec155",
+      "image": "ec155.jpg",
+      "answer": "ec155",
+      "options": [
+        {
+          "id": "ec155",
+          "label": "Airbus H155 (EC155)"
+        },
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        }
+      ],
+      "caption": "Penn State Health Life Lion (N906LL), Hershey, Pennsylvania.",
+      "credit": "Alex Harden / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
     }
   ]
 }

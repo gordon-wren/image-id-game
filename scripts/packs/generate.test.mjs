@@ -79,6 +79,15 @@ describe("pickDistractors", () => {
     }
   });
 
+  it("isn't reshuffled by adding an unrelated aircraft to the dataset", () => {
+    const f15 = fleet.find((a) => a.id === "f15");
+    const extra = plane("dc3", "Douglas DC-3", "regional", "United States", "1935-12-17");
+    for (const seed of ["a", "b", "c", "d", "e"]) {
+      const before = pickDistractors(f15, fleet, seed).map((x) => x.id);
+      expect(pickDistractors(f15, [extra, ...fleet], seed).map((x) => x.id)).toEqual(before);
+    }
+  });
+
   it("never pairs a type with its own variant", () => {
     const b747 = fleet.find((a) => a.id === "b747");
     for (const seed of ["a", "b", "c", "d", "e"]) {

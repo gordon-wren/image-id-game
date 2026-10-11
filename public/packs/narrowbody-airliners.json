@@ -26,12 +26,12 @@
           "label": "Boeing 737 Classic"
         },
         {
-          "id": "md80",
-          "label": "McDonnell Douglas MD-80"
-        },
-        {
           "id": "b757",
           "label": "Boeing 757"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
         },
         {
           "id": "b737ng",
@@ -55,12 +55,12 @@
           "label": "Boeing 757"
         },
         {
-          "id": "a320",
-          "label": "Airbus A320"
-        },
-        {
           "id": "md80",
           "label": "McDonnell Douglas MD-80"
+        },
+        {
+          "id": "b737max",
+          "label": "Boeing 737 MAX"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 1997.",
@@ -84,8 +84,8 @@
           "label": "Boeing 727"
         },
         {
-          "id": "a220",
-          "label": "Airbus A220"
+          "id": "b757",
+          "label": "Boeing 757"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 2016.",
@@ -101,16 +101,16 @@
           "label": "Boeing 727"
         },
         {
+          "id": "b757",
+          "label": "Boeing 757"
+        },
+        {
           "id": "md80",
           "label": "McDonnell Douglas MD-80"
         },
         {
-          "id": "b737-classic",
-          "label": "Boeing 737 Classic"
-        },
-        {
-          "id": "b717",
-          "label": "Boeing 717"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         }
       ],
       "caption": "Three-engined single-aisle airliner family. First flew 1963.",
@@ -126,16 +126,16 @@
           "label": "Boeing 757"
         },
         {
+          "id": "md80",
+          "label": "McDonnell Douglas MD-80"
+        },
+        {
+          "id": "f100",
+          "label": "Fokker 100"
+        },
+        {
           "id": "b737-classic",
           "label": "Boeing 737 Classic"
-        },
-        {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
-        },
-        {
-          "id": "b747sp",
-          "label": "Boeing 747SP"
         }
       ],
       "caption": "Large single-aisle airliner family. First flew 1982.",
@@ -155,12 +155,12 @@
           "label": "Boeing 737 MAX"
         },
         {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
+          "id": "b757",
+          "label": "Boeing 757"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "Small single-aisle airliner. First flew 1998.",
@@ -176,16 +176,16 @@
           "label": "Airbus A320"
         },
         {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
-        },
-        {
           "id": "bae146",
           "label": "British Aerospace 146"
         },
         {
-          "id": "a340",
-          "label": "Airbus A340"
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
+        },
+        {
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 1987.",
@@ -201,16 +201,16 @@
           "label": "Airbus A320neo"
         },
         {
+          "id": "c919",
+          "label": "Comac C919"
+        },
+        {
           "id": "b737max",
           "label": "Boeing 737 MAX"
         },
         {
-          "id": "ssj100",
-          "label": "Sukhoi Superjet 100"
-        },
-        {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
+          "id": "a350",
+          "label": "Airbus A350"
         }
       ],
       "caption": "Re-engined version of the A320 family. First flew 2014.",
@@ -226,16 +226,16 @@
           "label": "Airbus A220"
         },
         {
-          "id": "ssj100",
-          "label": "Sukhoi Superjet 100"
+          "id": "b737max",
+          "label": "Boeing 737 MAX"
         },
         {
           "id": "b737ng",
           "label": "Boeing 737 Next Generation"
         },
         {
-          "id": "a320",
-          "label": "Airbus A320"
+          "id": "c919",
+          "label": "Comac C919"
         }
       ],
       "caption": "Canadian narrow-body airliner family. First flew 2015.",
@@ -251,16 +251,16 @@
           "label": "McDonnell Douglas MD-80"
         },
         {
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
+        },
+        {
+          "id": "b717",
+          "label": "Boeing 717"
+        },
+        {
           "id": "b757",
           "label": "Boeing 757"
-        },
-        {
-          "id": "b747",
-          "label": "Boeing 747"
-        },
-        {
-          "id": "b747sp",
-          "label": "Boeing 747SP"
         }
       ],
       "caption": "Jet airliner model, series based on the DC-9. First flew 1979.",
@@ -276,16 +276,16 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "b727",
-          "label": "Boeing 727"
-        },
-        {
-          "id": "ssj100",
-          "label": "Sukhoi Superjet 100"
-        },
-        {
           "id": "tu22m",
           "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "f100",
+          "label": "Fokker 100"
+        },
+        {
+          "id": "b727",
+          "label": "Boeing 727"
         }
       ],
       "caption": "Soviet and Russian medium-range trijet airliner. First flew 1968.",
@@ -305,8 +305,8 @@
           "label": "Airbus A320neo"
         },
         {
-          "id": "md80",
-          "label": "McDonnell Douglas MD-80"
+          "id": "a220",
+          "label": "Airbus A220"
         },
         {
           "id": "b737ng",
@@ -326,16 +326,16 @@
           "label": "Sukhoi Superjet 100"
         },
         {
+          "id": "a220",
+          "label": "Airbus A220"
+        },
+        {
+          "id": "a320neo",
+          "label": "Airbus A320neo"
+        },
+        {
           "id": "su57",
           "label": "Sukhoi Su-57"
-        },
-        {
-          "id": "c919",
-          "label": "Comac C919"
-        },
-        {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
         }
       ],
       "caption": "Russian twin-engine regional jet. First flew 2008.",
@@ -351,16 +351,16 @@
           "label": "Fokker 100"
         },
         {
-          "id": "bae146",
-          "label": "British Aerospace 146"
-        },
-        {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
-        },
-        {
           "id": "md80",
           "label": "McDonnell Douglas MD-80"
+        },
+        {
+          "id": "a320",
+          "label": "Airbus A320"
+        },
+        {
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
         }
       ],
       "caption": "Twin-engine airliner produced 1986–1997. First flew 1986.",
@@ -384,8 +384,8 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "b717",
-          "label": "Boeing 717"
+          "id": "f100",
+          "label": "Fokker 100"
         }
       ],
       "caption": "Four-engined regional jet airliner family by British Aerospace, later BAE Systems. First flew 1981.",
