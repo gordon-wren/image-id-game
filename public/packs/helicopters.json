@@ -2,14 +2,18 @@
   "id": "helicopters",
   "title": "Helicopters",
   "description": "Name the helicopter from its photo.",
-  "path": ["Aviation", "Helicopters"],
+  "path": [
+    "Aviation",
+    "Helicopters"
+  ],
   "theme": {
     "accent": "#0F6E56"
   },
-  "assetBase": "assets/helicopters/",
+  "assetBase": "assets/aircraft/",
   "roundSeconds": 7,
   "shuffleOptions": true,
   "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
   "questions": [
     {
       "id": "helicopters-ah64",
@@ -21,18 +25,20 @@
           "label": "Boeing AH-64 Apache"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
+          "id": "bell206",
+          "label": "Bell 206"
         },
         {
-          "id": "md500",
-          "label": "MD 500 (Hughes 500)"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17 Hip"
+          "id": "s76",
+          "label": "Sikorsky S-76"
         }
-      ]
+      ],
+      "caption": "U.S. attack helicopter. First flew 1975.",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
     },
     {
       "id": "helicopters-uh1",
@@ -44,18 +50,20 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "r22",
-          "label": "Robinson R22"
+          "id": "bell206",
+          "label": "Bell 206"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17 Hip"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         },
         {
-          "id": "h145",
-          "label": "Airbus H145"
+          "id": "bell47",
+          "label": "Bell 47"
         }
-      ]
+      ],
+      "caption": "Huey family of American military utility helicopters. First flew 1956.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "helicopters-ch47",
@@ -67,18 +75,20 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17 Hip"
+          "id": "bell206",
+          "label": "Bell 206"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "bell47",
+          "label": "Bell 47"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
         }
-      ]
+      ],
+      "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
+      "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
     },
     {
       "id": "helicopters-uh60",
@@ -90,18 +100,20 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "tiger",
-          "label": "Airbus Tiger"
+          "id": "s76",
+          "label": "Sikorsky S-76"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
-      ]
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
     },
     {
       "id": "helicopters-ch53",
@@ -110,21 +122,23 @@
       "options": [
         {
           "id": "ch53",
-          "label": "Sikorsky CH-53"
-        },
-        {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        },
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
+          "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
           "id": "uh60",
           "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
         }
-      ]
+      ],
+      "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
+      "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
     },
     {
       "id": "helicopters-ah1",
@@ -136,18 +150,20 @@
           "label": "Bell AH-1 Cobra"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
-        },
-        {
           "id": "uh1",
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
         }
-      ]
+      ],
+      "caption": "Family of attack helicopters. First flew 1965.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
     },
     {
       "id": "helicopters-mi24",
@@ -156,21 +172,23 @@
       "options": [
         {
           "id": "mi24",
-          "label": "Mil Mi-24 Hind"
-        },
-        {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
-        },
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
+          "label": "Mil Mi-24"
         },
         {
           "id": "mi8",
-          "label": "Mil Mi-8/17 Hip"
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         }
-      ]
+      ],
+      "caption": "Family of assault and attack helicopters. First flew 1969.",
+      "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "helicopters-mi8",
@@ -179,274 +197,23 @@
       "options": [
         {
           "id": "mi8",
-          "label": "Mil Mi-8/17 Hip"
-        },
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        },
-        {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
-        },
-        {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-ka52",
-      "image": "ka52.jpg",
-      "answer": "ka52",
-      "options": [
-        {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
-        },
-        {
-          "id": "ch53",
-          "label": "Sikorsky CH-53"
+          "label": "Mil Mi-8/17"
         },
         {
           "id": "mi24",
-          "label": "Mil Mi-24 Hind"
-        },
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-tiger",
-      "image": "tiger.jpg",
-      "answer": "tiger",
-      "options": [
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
-        },
-        {
-          "id": "r22",
-          "label": "Robinson R22"
-        },
-        {
-          "id": "ah64",
-          "label": "Boeing AH-64 Apache"
-        },
-        {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-r22",
-      "image": "r22.jpg",
-      "answer": "r22",
-      "options": [
-        {
-          "id": "r22",
-          "label": "Robinson R22"
-        },
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
-        },
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        },
-        {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-bell206",
-      "image": "bell206.jpg",
-      "answer": "bell206",
-      "options": [
-        {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "label": "Mil Mi-24"
         },
         {
           "id": "ka50",
           "label": "Kamov Ka-50"
-        },
-        {
-          "id": "r22",
-          "label": "Robinson R22"
-        },
-        {
-          "id": "mi24",
-          "label": "Mil Mi-24 Hind"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-h125",
-      "image": "h125.jpg",
-      "answer": "h125",
-      "options": [
-        {
-          "id": "h125",
-          "label": "Airbus H125 (AStar)"
-        },
-        {
-          "id": "ch53",
-          "label": "Sikorsky CH-53"
-        },
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
-        },
-        {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-s76",
-      "image": "s76.jpg",
-      "answer": "s76",
-      "options": [
-        {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        },
-        {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
         },
         {
           "id": "ch47",
           "label": "Boeing CH-47 Chinook"
-        },
-        {
-          "id": "ah64",
-          "label": "Boeing AH-64 Apache"
         }
-      ]
-    },
-    {
-      "id": "helicopters-h145",
-      "image": "h145.jpg",
-      "answer": "h145",
-      "options": [
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        },
-        {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
-        },
-        {
-          "id": "bell47",
-          "label": "Bell 47"
-        },
-        {
-          "id": "aw101",
-          "label": "Leonardo AW101 Merlin"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-md500",
-      "image": "md500.jpg",
-      "answer": "md500",
-      "options": [
-        {
-          "id": "md500",
-          "label": "MD 500 (Hughes 500)"
-        },
-        {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
-        },
-        {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
-        },
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-aw101",
-      "image": "aw101.jpg",
-      "answer": "aw101",
-      "options": [
-        {
-          "id": "aw101",
-          "label": "Leonardo AW101 Merlin"
-        },
-        {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
-        },
-        {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
-        },
-        {
-          "id": "tiger",
-          "label": "Airbus Tiger"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-bell47",
-      "image": "bell47.jpg",
-      "answer": "bell47",
-      "options": [
-        {
-          "id": "bell47",
-          "label": "Bell 47"
-        },
-        {
-          "id": "mi24",
-          "label": "Mil Mi-24 Hind"
-        },
-        {
-          "id": "h125",
-          "label": "Airbus H125 (AStar)"
-        },
-        {
-          "id": "h145",
-          "label": "Airbus H145"
-        }
-      ]
-    },
-    {
-      "id": "helicopters-ch54",
-      "image": "ch54.jpg",
-      "answer": "ch54",
-      "options": [
-        {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
-        },
-        {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
-        },
-        {
-          "id": "h125",
-          "label": "Airbus H125 (AStar)"
-        },
-        {
-          "id": "bell47",
-          "label": "Bell 47"
-        }
-      ]
+      ],
+      "caption": "Family of transport helicopters. First flew 1961.",
+      "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
     },
     {
       "id": "helicopters-ka50",
@@ -458,18 +225,445 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206 JetRanger"
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
         },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        }
+      ],
+      "caption": "Attack helicopter. First flew 1982.",
+      "credit": "Tomasz Szulc / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-ka52",
+      "image": "ka52.jpg",
+      "answer": "ka52",
+      "options": [
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        }
+      ],
+      "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        }
+      ],
+      "caption": "European attack helicopter. First flew 1991.",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-r22",
+      "image": "r22.jpg",
+      "answer": "r22",
+      "options": [
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        }
+      ],
+      "caption": "American helicopter model. First flew 1975.",
+      "credit": "Jeroen Stroes Aviation Photography / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-r44",
+      "image": "r44.jpg",
+      "answer": "r44",
+      "options": [
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        }
+      ],
+      "caption": "Family of American light helicopters. First flew 1990.",
+      "credit": "D. Miller / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-bell206",
+      "image": "bell206.jpg",
+      "answer": "bell206",
+      "options": [
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        }
+      ],
+      "caption": "Utility helicopter family by Bell. First flew 1962.",
+      "credit": "Mfield - Matthew Field, http://www.photography.mattfield.com / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-h125",
+      "image": "h125.jpg",
+      "answer": "h125",
+      "options": [
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        }
+      ],
+      "caption": "Single engine series of the Ecureuil light helicopter family. First flew 1974.",
+      "credit": "Copeadope / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-s76",
+      "image": "s76.jpg",
+      "answer": "s76",
+      "options": [
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "American medium-size commercial utility helicopter. First flew 1977.",
+      "credit": "Contando Estrelas from Vigo, España / Spain / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-h145",
+      "image": "h145.jpg",
+      "answer": "h145",
+      "options": [
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        }
+      ],
+      "caption": "Twin-engine light utility helicopter. First flew 1999.",
+      "credit": "Greg Kramer / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-h135",
+      "image": "h135.jpg",
+      "answer": "h135",
+      "options": [
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        }
+      ],
+      "caption": "Small utility helicopter. First flew 1994.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-md500",
+      "image": "md500.jpg",
+      "answer": "md500",
+      "options": [
+        {
+          "id": "md500",
+          "label": "MD Helicopters MD 500"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        }
+      ],
+      "caption": "Light utility helicopter family. First flew 1963.",
+      "credit": "Adrian Pingstone (Arpingstone) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-aw101",
+      "image": "aw101.jpg",
+      "answer": "aw101",
+      "options": [
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        }
+      ],
+      "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
+      "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-aw139",
+      "image": "aw139.jpg",
+      "answer": "aw139",
+      "options": [
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        }
+      ],
+      "caption": "Twin-engined, medium-lift helicopter manufactured by Leonardo. First flew 2001.",
+      "credit": "Contando Estrelas / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-bell47",
+      "image": "bell47.jpg",
+      "answer": "bell47",
+      "options": [
         {
           "id": "bell47",
           "label": "Bell 47"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Skycrane"
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "md500",
+          "label": "MD Helicopters MD 500"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
         }
-      ]
+      ],
+      "caption": "1945 utility helicopter family by Bell. First flew 1945.",
+      "credit": "The original uploader was Meggar at English Wikipedia. / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-ch54",
+      "image": "ch54.jpg",
+      "answer": "ch54",
+      "options": [
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "American twin-engine heavy-lift helicopter. First flew 1962.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-mi26",
+      "image": "mi26.jpg",
+      "answer": "mi26",
+      "options": [
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ],
+      "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-sh60",
+      "image": "sh60.jpg",
+      "answer": "sh60",
+      "options": [
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        }
+      ],
+      "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "helicopters-s92",
+      "image": "s92.jpg",
+      "answer": "s92",
+      "options": [
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        }
+      ],
+      "caption": "Transport helicopter family by Sikorsky. First flew 1998.",
+      "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

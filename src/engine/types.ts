@@ -114,6 +114,12 @@ export interface QuestionPack {
   /** Shuffle question order at runtime. Default true. */
   shuffleQuestions?: boolean;
 
+  /**
+   * Set on packs written by scripts/packs/generate.mjs (to the recipes file it
+   * read). Such packs are overwritten on the next run — edit the recipe instead.
+   */
+  generatedFrom?: string;
+
   questions: Question[];
 }
 

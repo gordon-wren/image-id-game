@@ -1,0 +1,295 @@
+{
+  "id": "ww2-warbirds",
+  "title": "WWII Warbirds",
+  "description": "Fighters and bombers of the Second World War.",
+  "path": [
+    "Aviation",
+    "Planes",
+    "Historic"
+  ],
+  "theme": {
+    "accent": "#6B5B3E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
+  "questions": [
+    {
+      "id": "ww2-warbirds-spitfire",
+      "image": "spitfire.jpg",
+      "answer": "spitfire",
+      "options": [
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-hurricane",
+      "image": "hurricane.jpg",
+      "answer": "hurricane",
+      "options": [
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        }
+      ],
+      "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-p51",
+      "image": "p51.jpg",
+      "answer": "p51",
+      "options": [
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        }
+      ],
+      "caption": "American WWII-era fighter aircraft. First flew 1940.",
+      "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-bf109",
+      "image": "bf109.jpg",
+      "answer": "bf109",
+      "options": [
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        }
+      ],
+      "caption": "German single-engine fighter aircraft family. First flew 1935.",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-a6m",
+      "image": "a6m.jpg",
+      "answer": "a6m",
+      "options": [
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
+      "credit": "Japanese military personnel / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-f4u",
+      "image": "f4u.jpg",
+      "answer": "f4u",
+      "options": [
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "wright-flyer",
+          "label": "Wright Flyer"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
+      "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-p38",
+      "image": "p38.jpg",
+      "answer": "p38",
+      "options": [
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "American twin-engined fighter of WWII. First flew 1939.",
+      "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-mosquito",
+      "image": "mosquito.jpg",
+      "answer": "mosquito",
+      "options": [
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
+      "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-b17",
+      "image": "b17.jpg",
+      "answer": "b17",
+      "options": [
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        }
+      ],
+      "caption": "American heavy bomber aircraft. First flew 1935.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-b29",
+      "image": "b29.jpg",
+      "answer": "b29",
+      "options": [
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "wright-flyer",
+          "label": "Wright Flyer"
+        }
+      ],
+      "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
+      "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "ww2-warbirds-lancaster",
+      "image": "lancaster.jpg",
+      "answer": "lancaster",
+      "options": [
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "World War II British heavy bomber aircraft. First flew 1941.",
+      "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
+    }
+  ]
+}

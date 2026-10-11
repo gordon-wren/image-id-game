@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aircraft dataset",
+  "description": "Basic facts and a lead photo for each aircraft type, built from English Wikipedia, Wikidata and Wikimedia Commons by scripts/aircraft-dataset/build.mjs.",
+  "type": "object",
+  "required": [
+    "aircraft"
+  ],
+  "properties": {
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "aircraft": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/aircraft"
+      }
+    }
+  },
+  "$defs": {
+    "aircraft": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "label",
+        "group",
+        "wikipedia"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable slug, e.g. \"b747\". Used for the photo filename."
+        },
+        "name": {
+          "type": "string",
+          "description": "Wikipedia article title, e.g. \"Boeing 747\"."
+        },
+        "label": {
+          "type": "string",
+          "description": "Short display name for answer buttons, e.g. \"Airbus A320\" for the \"Airbus A320 family\" article. Set in seed.json; defaults to `name`."
+        },
+        "group": {
+          "type": "string",
+          "enum": [
+            "airliner-widebody",
+            "airliner-narrowbody",
+            "regional",
+            "business-general",
+            "military-transport-special",
+            "bomber",
+            "fighter-attack",
+            "trainer",
+            "historic",
+            "helicopter"
+          ]
+        },
+        "packAnswerIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Answer ids in existing packs that this entry covers."
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Wikipedia short description."
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Plain-text intro paragraph from Wikipedia."
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Infobox type/role, e.g. \"Wide-body jet airliner\"."
+        },
+        "manufacturer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "designer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "countryOfOrigin": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "firstFlight": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ISO date, YYYY-MM-DD, YYYY-MM or YYYY depending on precision."
+        },
+        "introduced": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numberBuilt": {
+          "type": [
+            "integer",
+            "string",
+            "null"
+          ]
+        },
+        "wikipedia": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "pageId": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "revisionId": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        "wikidataId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "photo": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "The article's lead photo. `file` is null when the image is not freely licensed and was not downloaded.",
+          "properties": {
+            "file": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Path under public/, e.g. \"assets/aircraft/b747.jpg\"."
+            },
+            "sourceFile": {
+              "type": "string"
+            },
+            "sourcePage": {
+              "type": "string",
+              "format": "uri"
+            },
+            "originalUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "thumbUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "author": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "license": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "licenseUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "attributionRequired": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "free": {
+              "type": "boolean"
+            },
+            "credit": {
+              "type": "string",
+              "description": "Ready-made attribution line, e.g. for a pack question's `credit`."
+            },
+            "caption": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "dateTaken": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "chosenFrom": {
+              "type": "string",
+              "enum": [
+                "seed",
+                "infobox",
+                "page image",
+                "article"
+              ],
+              "description": "Where the photo was picked: pinned in seed.json, the infobox, Wikipedia's preview image, or further down the article."
+            }
+          }
+        },
+        "retrievedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "overridden": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Fields set by hand in seed.json `overrides` because neither Wikidata nor the infobox had them."
+        }
+      }
+    }
+  }
+}
