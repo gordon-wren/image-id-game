@@ -1,0 +1,35 @@
+{
+  "packs": {
+    "medical-helicopters": [
+      { "id": "h135", "label": "Airbus H135", "search": "EC135 air ambulance" },
+      { "id": "h145", "label": "Airbus H145", "search": "EC145 air ambulance" },
+      { "id": "bk117", "label": "MBB/Kawasaki BK 117", "search": "BK 117 air ambulance" },
+      { "id": "aw139", "label": "Leonardo AW139", "search": "AW139 air ambulance" },
+      { "id": "aw169", "label": "Leonardo AW169", "search": "AW169 air ambulance" },
+      { "id": "aw109", "label": "Leonardo AW109", "search": "AW109 air ambulance" },
+      { "id": "bell407", "label": "Bell 407", "search": "Bell 407 air ambulance" },
+      { "id": "bell429", "label": "Bell 429 GlobalRanger", "search": "Bell 429 air ambulance" },
+      { "id": "bell412", "label": "Bell 412", "search": "Bell 412 air ambulance" },
+      { "id": "h125", "label": "Airbus H125 (AStar)", "search": "AS350 air ambulance" },
+      { "id": "h130", "label": "Airbus H130", "search": "EC130 air ambulance" },
+      { "id": "s76", "label": "Sikorsky S-76", "search": "S-76 air ambulance" },
+      { "id": "md902", "label": "MD 902 Explorer", "search": "MD 902 Explorer air ambulance" },
+      { "id": "uh60", "label": "Sikorsky UH-60 Black Hawk", "search": "HH-60M MEDEVAC" }
+    ],
+    "medical-planes": [
+      { "id": "pc12", "label": "Pilatus PC-12", "search": "PC-12 Royal Flying Doctor Service" },
+      { "id": "pc24", "label": "Pilatus PC-24", "search": "PC-24 Royal Flying Doctor Service" },
+      { "id": "kingair200", "label": "Beechcraft King Air 200", "search": "King Air 200 air ambulance" },
+      { "id": "kingair350", "label": "Beechcraft King Air 350", "search": "King Air 350 air ambulance" },
+      { "id": "learjet35", "label": "Learjet 35", "search": "Learjet 35 air ambulance" },
+      { "id": "learjet45", "label": "Learjet 45", "search": "Learjet 45 air ambulance" },
+      { "id": "learjet60", "label": "Learjet 60", "search": "Learjet 60 ambulance" },
+      { "id": "challenger604", "label": "Bombardier Challenger 604", "search": "Challenger 604 air ambulance" },
+      { "id": "p180", "label": "Piaggio P.180 Avanti", "search": "Piaggio P.180 Avanti ambulance" },
+      { "id": "hawker800", "label": "Hawker 800", "search": "Hawker 800 air ambulance" },
+      { "id": "citation2", "label": "Cessna Citation II", "search": "Cessna Citation II ambulance" },
+      { "id": "c9", "label": "McDonnell Douglas C-9 Nightingale", "search": "C-9A Nightingale" },
+      { "id": "c130", "label": "Lockheed C-130 Hercules", "search": "C-130 aeromedical evacuation" }
+    ]
+  }
+}
