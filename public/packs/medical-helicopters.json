@@ -1,0 +1,357 @@
+{
+  "id": "medical-helicopters",
+  "title": "Medical Transport Helicopters",
+  "description": "Name the air ambulance helicopter from its photo.",
+  "path": [
+    "Aviation",
+    "Helicopters",
+    "Medical transport"
+  ],
+  "theme": {
+    "accent": "#C62828"
+  },
+  "assetBase": "assets/medical-helicopters/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questions": [
+    {
+      "id": "medical-helicopters-h135",
+      "image": "h135.jpg",
+      "answer": "h135",
+      "options": [
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "bk117",
+          "label": "MBB/Kawasaki BK 117"
+        },
+        {
+          "id": "md902",
+          "label": "MD 902 Explorer"
+        }
+      ],
+      "caption": "DRF Luftrettung \"Christoph 44\", Göttingen, Germany.",
+      "credit": "Julian Herzog (Website) / CC BY 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-h145",
+      "image": "h145.jpg",
+      "answer": "h145",
+      "options": [
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        },
+        {
+          "id": "bk117",
+          "label": "MBB/Kawasaki BK 117"
+        },
+        {
+          "id": "aw169",
+          "label": "Leonardo AW169"
+        }
+      ],
+      "caption": "Devon Air Ambulance, England.",
+      "credit": "James / CC BY-SA 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-bk117",
+      "image": "bk117.jpg",
+      "answer": "bk117",
+      "options": [
+        {
+          "id": "bk117",
+          "label": "MBB/Kawasaki BK 117"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        },
+        {
+          "id": "bell429",
+          "label": "Bell 429 GlobalRanger"
+        }
+      ],
+      "caption": "ADAC air rescue near Munich, Germany. The H145 grew out of this design.",
+      "credit": "Julian Herzog (Website) / CC BY 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-aw139",
+      "image": "aw139.jpg",
+      "answer": "aw139",
+      "options": [
+        {
+          "id": "aw139",
+          "label": "Leonardo AW139"
+        },
+        {
+          "id": "aw169",
+          "label": "Leonardo AW169"
+        },
+        {
+          "id": "bell412",
+          "label": "Bell 412"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        }
+      ],
+      "caption": "Flown for Ambulance Victoria, Australia.",
+      "credit": "Bidgee / CC BY-SA 3.0 au / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-aw169",
+      "image": "aw169.jpg",
+      "answer": "aw169",
+      "options": [
+        {
+          "id": "aw169",
+          "label": "Leonardo AW169"
+        },
+        {
+          "id": "aw139",
+          "label": "Leonardo AW139"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145"
+        },
+        {
+          "id": "aw109",
+          "label": "Leonardo AW109"
+        }
+      ],
+      "caption": "Essex & Herts Air Ambulance, England.",
+      "credit": "Steve Knight / CC BY 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-aw109",
+      "image": "aw109.jpg",
+      "answer": "aw109",
+      "options": [
+        {
+          "id": "aw109",
+          "label": "Leonardo AW109"
+        },
+        {
+          "id": "aw169",
+          "label": "Leonardo AW169"
+        },
+        {
+          "id": "bell429",
+          "label": "Bell 429 GlobalRanger"
+        },
+        {
+          "id": "md902",
+          "label": "MD 902 Explorer"
+        }
+      ],
+      "caption": "Rega A109K2 lifting a patient off Mount Pilatus, Switzerland.",
+      "credit": "Ikiwaner / CC BY-SA 3.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-bell407",
+      "image": "bell407.jpg",
+      "answer": "bell407",
+      "options": [
+        {
+          "id": "bell407",
+          "label": "Bell 407"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        },
+        {
+          "id": "bell429",
+          "label": "Bell 429 GlobalRanger"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AStar)"
+        }
+      ],
+      "caption": "CareFlite, Texas.",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-bell429",
+      "image": "bell429.jpg",
+      "answer": "bell429",
+      "options": [
+        {
+          "id": "bell429",
+          "label": "Bell 429 GlobalRanger"
+        },
+        {
+          "id": "bell407",
+          "label": "Bell 407"
+        },
+        {
+          "id": "aw109",
+          "label": "Leonardo AW109"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        }
+      ],
+      "caption": "CareFlite over Fort Worth, Texas.",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-bell412",
+      "image": "bell412.jpg",
+      "answer": "bell412",
+      "options": [
+        {
+          "id": "bell412",
+          "label": "Bell 412"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "aw139",
+          "label": "Leonardo AW139"
+        },
+        {
+          "id": "bell407",
+          "label": "Bell 407"
+        }
+      ],
+      "caption": "DRF Luftrettung \"Christoph Thüringen\", Germany.",
+      "credit": "Tobias Nordhausen from Sondershausen, Deutschland / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-h125",
+      "image": "h125.jpg",
+      "answer": "h125",
+      "options": [
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AStar)"
+        },
+        {
+          "id": "bell407",
+          "label": "Bell 407"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206 JetRanger"
+        }
+      ],
+      "caption": "Medical evacuation at Val d'Isère, France.",
+      "credit": "Julian Povey from Bournemouth, UK / CC BY 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-s76",
+      "image": "s76.jpg",
+      "answer": "s76",
+      "options": [
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "aw139",
+          "label": "Leonardo AW139"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "bell412",
+          "label": "Bell 412"
+        }
+      ],
+      "caption": "Helijet, flying for BC Ambulance Service, Canada.",
+      "credit": "Crcsheedy / Public domain / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-md902",
+      "image": "md902.jpg",
+      "answer": "md902",
+      "options": [
+        {
+          "id": "md902",
+          "label": "MD 902 Explorer"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135"
+        },
+        {
+          "id": "bell429",
+          "label": "Bell 429 GlobalRanger"
+        },
+        {
+          "id": "md500",
+          "label": "MD 500 (Hughes 500)"
+        }
+      ],
+      "caption": "London's Air Ambulance. No tail rotor: it uses NOTAR.",
+      "credit": "James from Cheltenham, Gloucestershire / CC BY-SA 2.0 / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    },
+    {
+      "id": "medical-helicopters-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "bell412",
+          "label": "Bell 412"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "aw101",
+          "label": "Leonardo AW101 Merlin"
+        }
+      ],
+      "caption": "U.S. Army HH-60M MEDEVAC Black Hawk.",
+      "credit": "Staff Sgt. April Campbell / Public domain / via Wikimedia Commons",
+      "alt": "Medical transport helicopter"
+    }
+  ]
+}

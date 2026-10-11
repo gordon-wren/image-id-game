@@ -59,11 +59,6 @@
         "search": "AS350 air ambulance"
       },
       {
-        "id": "h130",
-        "label": "Airbus H130",
-        "search": "Eurocopter EC130 ambulance"
-      },
-      {
         "id": "s76",
         "label": "Sikorsky S-76",
         "search": "S-76 air ambulance",
@@ -128,16 +123,6 @@
         "label": "Bombardier Challenger 604",
         "search": "Challenger 604 air ambulance",
         "pick": 1
-      },
-      {
-        "id": "p180",
-        "label": "Piaggio P.180 Avanti",
-        "search": "Piaggio Avanti air ambulance"
-      },
-      {
-        "id": "hawker800",
-        "label": "Hawker 800",
-        "search": "Hawker 800XP ambulance"
       },
       {
         "id": "citation2",
