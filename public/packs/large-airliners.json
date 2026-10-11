@@ -2,19 +2,23 @@
   "id": "large-airliners",
   "title": "Large Airliners",
   "description": "Name the widebody jet from its photo.",
-  "category": "Aviation",
+  "path": [
+    "Aviation",
+    "Planes",
+    "Commercial"
+  ],
   "categoryDescription": "Airliners, fighters, and helicopters.",
   "theme": {
     "accent": "#185FA5"
   },
-  "assetBase": "assets/large-airliners/",
+  "assetBase": "assets/",
   "roundSeconds": 7,
   "shuffleOptions": true,
   "shuffleQuestions": true,
   "questions": [
     {
       "id": "large-airliners-a380",
-      "image": "a380.svg",
+      "image": "aircraft/a380.jpg",
       "answer": "a380",
       "options": [
         {
@@ -33,11 +37,12 @@
           "id": "a340-600",
           "label": "Airbus A340-600"
         }
-      ]
+      ],
+      "credit": "Maarten Visser from Capelle aan den IJssel, Nederland / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b747-8",
-      "image": "b747-8.svg",
+      "image": "aircraft/b747-8.jpg",
       "answer": "b747-8",
       "options": [
         {
@@ -56,11 +61,12 @@
           "id": "l1011",
           "label": "Lockheed L-1011 TriStar"
         }
-      ]
+      ],
+      "credit": "Juke Schweizer / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b747-400",
-      "image": "b747-400.svg",
+      "image": "aircraft/b747-400.jpg",
       "answer": "b747-400",
       "options": [
         {
@@ -79,11 +85,12 @@
           "id": "b787-9",
           "label": "Boeing 787-9 Dreamliner"
         }
-      ]
+      ],
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b747sp",
-      "image": "b747sp.svg",
+      "image": "aircraft/b747sp.jpg",
       "answer": "b747sp",
       "options": [
         {
@@ -102,11 +109,12 @@
           "id": "il96",
           "label": "Ilyushin Il-96"
         }
-      ]
+      ],
+      "credit": "NASA photo / Jim Ross / Public domain / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b777-300er",
-      "image": "b777-300er.svg",
+      "image": "large-airliners/777-300er.jpg",
       "answer": "b777-300er",
       "options": [
         {
@@ -129,7 +137,7 @@
     },
     {
       "id": "large-airliners-b777-200",
-      "image": "b777-200.svg",
+      "image": "aircraft/b777.jpg",
       "answer": "b777-200",
       "options": [
         {
@@ -148,11 +156,12 @@
           "id": "a330-200",
           "label": "Airbus A330-200"
         }
-      ]
+      ],
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b787-9",
-      "image": "b787-9.svg",
+      "image": "large-airliners/787-9.jpg",
       "answer": "b787-9",
       "options": [
         {
@@ -171,11 +180,12 @@
           "id": "l1011",
           "label": "Lockheed L-1011 TriStar"
         }
-      ]
+      ],
+      "credit": "New York-air / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-a350-1000",
-      "image": "a350-1000.svg",
+      "image": "large-airliners/a350-1000.jpg",
       "answer": "a350-1000",
       "options": [
         {
@@ -198,7 +208,7 @@
     },
     {
       "id": "large-airliners-a350-900",
-      "image": "a350-900.svg",
+      "image": "aircraft/a350.jpg",
       "answer": "a350-900",
       "options": [
         {
@@ -217,11 +227,12 @@
           "id": "b747-8",
           "label": "Boeing 747-8"
         }
-      ]
+      ],
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-a330-300",
-      "image": "a330-300.svg",
+      "image": "aircraft/a330.jpg",
       "answer": "a330-300",
       "options": [
         {
@@ -240,11 +251,12 @@
           "id": "b787-9",
           "label": "Boeing 787-9 Dreamliner"
         }
-      ]
+      ],
+      "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-a330-200",
-      "image": "a330-200.svg",
+      "image": "large-airliners/a330-200.jpg",
       "answer": "a330-200",
       "options": [
         {
@@ -267,7 +279,7 @@
     },
     {
       "id": "large-airliners-a340-600",
-      "image": "a340-600.svg",
+      "image": "large-airliners/a340-600.jpg",
       "answer": "a340-600",
       "options": [
         {
@@ -290,7 +302,7 @@
     },
     {
       "id": "large-airliners-a340-300",
-      "image": "a340-300.svg",
+      "image": "aircraft/a340.jpg",
       "answer": "a340-300",
       "options": [
         {
@@ -309,11 +321,12 @@
           "id": "md11",
           "label": "McDonnell Douglas MD-11"
         }
-      ]
+      ],
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-b767-300",
-      "image": "b767-300.svg",
+      "image": "aircraft/b767.jpg",
       "answer": "b767-300",
       "options": [
         {
@@ -332,11 +345,12 @@
           "id": "a380",
           "label": "Airbus A380"
         }
-      ]
+      ],
+      "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-md11",
-      "image": "md11.svg",
+      "image": "aircraft/md11.jpg",
       "answer": "md11",
       "options": [
         {
@@ -355,11 +369,12 @@
           "id": "b747-400",
           "label": "Boeing 747-400"
         }
-      ]
+      ],
+      "credit": "Björn Strey / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-l1011",
-      "image": "l1011.svg",
+      "image": "aircraft/l1011.jpg",
       "answer": "l1011",
       "options": [
         {
@@ -378,11 +393,12 @@
           "id": "il96",
           "label": "Ilyushin Il-96"
         }
-      ]
+      ],
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-il96",
-      "image": "il96.svg",
+      "image": "aircraft/il96.jpg",
       "answer": "il96",
       "options": [
         {
@@ -401,11 +417,12 @@
           "id": "a300",
           "label": "Airbus A300"
         }
-      ]
+      ],
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-il86",
-      "image": "il86.svg",
+      "image": "aircraft/il86.jpg",
       "answer": "il86",
       "options": [
         {
@@ -424,11 +441,12 @@
           "id": "a340-600",
           "label": "Airbus A340-600"
         }
-      ]
+      ],
+      "credit": "Dmitry A. Mottl / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-a300",
-      "image": "a300.svg",
+      "image": "aircraft/a300.jpg",
       "answer": "a300",
       "options": [
         {
@@ -447,11 +465,12 @@
           "id": "b777-200",
           "label": "Boeing 777-200"
         }
-      ]
+      ],
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
       "id": "large-airliners-a310",
-      "image": "a310.svg",
+      "image": "aircraft/a310.jpg",
       "answer": "a310",
       "options": [
         {
@@ -470,7 +489,8 @@
           "id": "l1011",
           "label": "Lockheed L-1011 TriStar"
         }
-      ]
+      ],
+      "credit": "Hugo LUC / CC BY-SA 4.0 / via Wikimedia Commons"
     }
   ]
 }

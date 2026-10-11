@@ -89,6 +89,11 @@ describe("validatePack", () => {
     expect(() => validatePack(pack)).not.toThrow();
   });
 
+  it("rejects a path with blank or non-string segments", () => {
+    expect(() => validatePack({ ...pack, path: ["Aviation", ""] })).toThrow(/path/);
+    expect(() => validatePack({ ...pack, path: "Aviation" as unknown as string[] })).toThrow(/path/);
+  });
+
   it("rejects a pack with no questions", () => {
     expect(() => validatePack({ ...pack, questions: [] })).toThrow(/non-empty/);
   });

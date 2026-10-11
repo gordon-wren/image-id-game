@@ -8,6 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run dev        # dev server at http://localhost:5173
 npm test           # run engine unit tests (vitest, one-shot)
 npm run test:watch # vitest in watch mode
+npm run packs      # regenerate aircraft packs from the dataset + recipes
 npm run build      # tsc + vite build → dist/
 npm run deploy     # build + gh-pages push to gh-pages branch
 ```
@@ -23,13 +24,17 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 2. `public/assets/yourgame/` (images)
 3. Add filename to `public/packs/index.json`
 
-**Category tree** — the menu is a two-level tree: a top-level `category` screen, then the packs within it. Each pack declares an optional `category` display string (e.g. `"Aviation"`, `"Auto"`); packs sharing a category are grouped together (`src/engine/categories.ts`), and packs without one land under "Other". To add a new superset, just give a pack's `category` field the new name — no other code changes needed. Optionally set `categoryDescription` on one pack per category for the one-line blurb shown under the category title.
+**Generated aircraft packs** — most aviation packs are built, not hand-written. `scripts/aircraft-dataset/build.mjs` scrapes Wikipedia/Wikidata/Commons into `public/data/aircraft.json` + `public/assets/aircraft/` (one photo per type, usable licenses only). `scripts/packs/generate.mjs` turns each entry of `scripts/packs/recipes.json` (filter by `group`, `country`, `firstFlight` range, `ids`) into a pack with curated, similarity-ranked distractors; it marks its output with `generatedFrom`. To add a quiz, add a recipe and run `npm run packs` — never edit a generated pack by hand. `scripts/packs/packs.test.mjs` fails if a generated pack is stale or any pack points at a missing image. `large-airliners.json` stays hand-written because it asks about variants (777-200 vs 777-300ER) the dataset doesn't split.
+
+**Category tree / column browser** — the menu is a Finder-style column browser (`src/components/ColumnBrowser.tsx`): each column drills one level deeper, and selecting a pack opens a preview column with a Play button. Each pack declares an optional `path` array (e.g. `["Aviation", "Helicopters", "Military"]`); packs sharing a prefix share folders, and a folder can hold both sub-folders and packs (`src/engine/categories.ts`). `category` is shorthand for a one-level path; packs with neither land under "Other". New folders need no code changes — just use the name in a pack's `path`. Optionally set `categoryDescription` on one pack per top-level category for its blurb. On phones the browser shows one column at a time with a breadcrumb for going back.
 
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
 
-**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, opened from the Study button in the picker. `buildDeck` turns a pack into image/label cards (labels looked up from any question's options); the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
+**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, opened from the Study button under Play in the column browser's pack preview. `buildDeck` turns a pack into image/label cards (labels looked up from any question's options); the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
 
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.
+
+**Answer modes** — a topbar toggle (`src/engine/useAnswerMode.ts`, persisted to `localStorage`) switches between the four-button grid and typed entry. Typed mode (`src/components/TypedAnswer.tsx`) fuzzy-searches a catalog of every option/answer label across *all* packs (`src/engine/names.ts`), so knowing the pack doesn't narrow the answer; answers are compared by normalized name, not id. Rounds get `DEFAULTS.typedTimeMultiplier` (2×) the pack's time.
 
 **Theming** — light/dark defined as CSS custom properties in `src/styles/global.css`, toggled via `data-theme` on `<html>`. Each pack supplies its own `theme.accent` hex color applied to the timer bar, selected state, and mode dot. Toggle persists to `localStorage`; respects system preference on first visit (`src/engine/useTheme.ts`).
 

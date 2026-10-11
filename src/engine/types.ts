@@ -75,9 +75,17 @@ export interface QuestionPack {
   category?: string;
 
   /**
-   * One-line blurb shown under the category title on the top-level menu,
-   * e.g. "Airliners, fighters, and helicopters." Only needs to be set on one
-   * pack per category — the first non-empty one found wins.
+   * Where this pack sits in the column browser, from broadest to most specific,
+   * e.g. ["Aviation", "Helicopters", "Military"]. Packs sharing a prefix share
+   * those folders. Takes precedence over `category`, which is shorthand for a
+   * one-level path.
+   */
+  path?: string[];
+
+  /**
+   * One-line blurb shown for this pack's top-level category (the first path
+   * segment), e.g. "Airliners, fighters, and helicopters." Only needs to be set
+   * on one pack per category — the first non-empty one found wins.
    */
   categoryDescription?: string;
 
@@ -105,6 +113,12 @@ export interface QuestionPack {
 
   /** Shuffle question order at runtime. Default true. */
   shuffleQuestions?: boolean;
+
+  /**
+   * Set on packs written by scripts/packs/generate.mjs (to the recipes file it
+   * read). Such packs are overwritten on the next run — edit the recipe instead.
+   */
+  generatedFrom?: string;
 
   questions: Question[];
 }

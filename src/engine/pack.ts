@@ -11,6 +11,8 @@ export const DEFAULTS = {
   optionsPerQuestion: 4,
   shuffleOptions: true,
   shuffleQuestions: true,
+  /** Typed answers take longer than tapping, so typed mode stretches the round by this factor. */
+  typedTimeMultiplier: 2,
 } as const;
 
 /** Base-path-aware asset URL. import.meta.env.BASE_URL is "/" locally, "/repo/" on Pages. */
@@ -108,6 +110,11 @@ export function validatePack(pack: QuestionPack): void {
   if (!pack.id) throw new Error(`${where}: missing "id".`);
   if (!pack.title) throw new Error(`${where}: missing "title".`);
   if (!pack.theme?.accent) throw new Error(`${where}: missing "theme.accent".`);
+  if (
+    pack.path !== undefined &&
+    !(Array.isArray(pack.path) && pack.path.every((s) => typeof s === "string" && s.trim()))
+  )
+    throw new Error(`${where}: "path" must be an array of non-empty strings.`);
   if (!Array.isArray(pack.questions) || pack.questions.length === 0)
     throw new Error(`${where}: "questions" must be a non-empty array.`);
 

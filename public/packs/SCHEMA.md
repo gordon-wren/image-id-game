@@ -18,12 +18,16 @@ No code changes. The app renders whatever packs the index lists.
 | `id`                 | string  | yes      | —       | Stable slug, e.g. `"aircraft"`. |
 | `title`              | string  | yes      | —       | Shown on the picker and in-game. |
 | `description`        | string  | no       | —       | One line on the picker. |
+| `path`               | array   | no       | —       | Where the pack sits in the column browser, broad → specific, e.g. `["Aviation", "Helicopters", "Military"]`. Packs sharing a prefix share folders. |
+| `category`           | string  | no       | `"Other"` | Shorthand for a one-level `path`. Ignored when `path` is set. |
+| `categoryDescription`| string  | no       | —       | Blurb for the top-level category (first path segment). One pack per category is enough. |
 | `theme.accent`       | string  | yes      | —       | Hex color for timer/selected/mode dot, e.g. `"#185FA5"`. |
 | `assetBase`          | string  | no       | `""`    | Prefix for non-absolute image paths, e.g. `"assets/aircraft/"`. Include trailing slash. |
 | `roundSeconds`       | number  | no       | `7`     | Time allowed per question. |
 | `optionsPerQuestion` | number  | no       | `4`     | Buttons per question when options are auto-generated. |
 | `shuffleOptions`     | boolean | no       | `true`  | Shuffle button order at runtime. |
 | `shuffleQuestions`   | boolean | no       | `true`  | Shuffle question order at runtime. |
+| `generatedFrom`      | string  | no       | —       | Set by `scripts/packs/generate.mjs`. Packs with it are overwritten on the next `npm run packs`; change `scripts/packs/recipes.json` instead. |
 | `questions`          | array   | yes      | —       | Non-empty list of questions (below). |
 
 ## Question fields

@@ -1,0 +1,220 @@
+{
+  "id": "bombers",
+  "title": "Bombers",
+  "description": "Strategic and stealth bombers, Cold War to today.",
+  "path": [
+    "Aviation",
+    "Planes",
+    "Military"
+  ],
+  "theme": {
+    "accent": "#5E3A8C"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
+  "questions": [
+    {
+      "id": "bombers-b52",
+      "image": "b52.jpg",
+      "answer": "b52",
+      "options": [
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "American strategic bomber aircraft. First flew 1952.",
+      "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "citation-x",
+          "label": "Cessna Citation X"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b21",
+      "image": "b21.jpg",
+      "answer": "b21",
+      "options": [
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "American stealth bomber aircraft. First flew 2023.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-tu95",
+      "image": "tu95.jpg",
+      "answer": "tu95",
+      "options": [
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1952.",
+      "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-tu160",
+      "image": "tu160.jpg",
+      "answer": "tu160",
+      "options": [
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-vulcan",
+      "image": "vulcan.jpg",
+      "answer": "vulcan",
+      "options": [
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    }
+  ]
+}
