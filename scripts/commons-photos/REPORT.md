@@ -8,8 +8,8 @@ Search: `EC135 air ambulance`
 1. File:Thames Valley Air Ambulances EC135 Helicopter.jpg — CC BY-SA 4.0
 2. File:Great Western Air Ambulances' EC135 taking off.jpg — CC BY-SA 4.0
 3. File:G-GWAC Eurocopter EC135 Helicopter Great Weston Air Ambulance (35698329766).jpg — CC BY-SA 2.0
-4. File:EC135 G-SPHU IMG 3718 (20690143220).jpg — CC BY-SA 2.0
-5. File:EC135 G-SPHU IMG 3299 (20257188693).jpg — CC BY-SA 2.0
+4. File:EC135 G-SPHU IMG 3299 (20257188693).jpg — CC BY-SA 2.0
+5. File:EC135 G-SPHU IMG 3718 (20690143220).jpg — CC BY-SA 2.0
 
 ## medical-helicopters/h145 — Airbus H145 (EC145)
 
@@ -49,11 +49,11 @@ Search: `AW139 air ambulance`
 Search: `AW169 air ambulance`
 
 0. File:Cornwall Air Ambulance AW169.jpg — CC BY-SA 4.0
-1. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance Witham FC 270726 B.jpg — CC BY 4.0
-2. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg — CC BY 4.0 **(chosen)**
+1. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance, Witham FC 270726 B.jpg — CC BY 4.0 **(chosen)**
+2. File:G-EHAT - Leonardo AW169 - Essex & Herts Air Ambulance Witham FC 270726 B.jpg — CC BY 4.0
 3. File:G-KSST AgustaWestland AW169 Helicopter (Kent Air Ambulance).jpg — CC BY-SA 2.0
-4. File:Air Ambulance Kent Surrey Sussex Helicopter AW169.jpg — CC BY-SA 4.0
-5. File:G-EHAT - Leonardo AW169 - Gama Aviation East Anglian Air Ambulance at John Innes Centre Norwich.jpg — CC BY 2.0
+4. File:G-EHAT - Leonardo AW169 - Gama Aviation East Anglian Air Ambulance at John Innes Centre Norwich.jpg — CC BY 2.0
+5. File:Air Ambulance Kent Surrey Sussex Helicopter AW169.jpg — CC BY-SA 4.0
 
 ## medical-helicopters/aw109 — Leonardo AW109
 
@@ -90,8 +90,8 @@ Search: `Bell 412 air ambulance`
 
 0. File:Bell 412EP - N304FD.jpg — CC BY-SA 4.0
 1. File:Helicóptero Bell 412 (Inaer) del SUMMA 112 (EC-JXQ) 01.jpg — CC BY-SA 3.0 es
-2. File:Christoph Thüringen (8559676427).jpg — CC BY 2.0
-3. File:Christoph Thüringen (7703141994).jpg — CC BY 2.0 **(chosen)**
+2. File:Christoph Thüringen (7703141994).jpg — CC BY 2.0 **(chosen)**
+3. File:Christoph Thüringen (8559676427).jpg — CC BY 2.0
 
 ## medical-helicopters/h125 — Airbus H125 (AS350 Écureuil)
 
@@ -135,18 +135,18 @@ Search: `Life Lion helicopter`
 
 0. File:N906LL Life Lion.jpg — CC BY 2.0 **(chosen)**
 1. File:Pro Palestine Protesters and a Helicopter Above Trafalgar Square (53261885875).jpg — CC BY-SA 2.0
-2. File:Sunset at Mountain Nemrut.jpg — CC BY-SA 4.0
-3. File:Ancient Ruins on Mountain Nemrut.jpg — CC BY-SA 4.0
-4. File:Giant Statues of Commagene Kingdom.jpg — CC BY-SA 4.0
-5. File:Ruins of Commagene Kingdom.jpg — CC BY-SA 4.0
+2. File:Ruins of Commagene Kingdom.jpg — CC BY-SA 4.0
+3. File:Giant Statues of Commagene Kingdom.jpg — CC BY-SA 4.0
+4. File:Sunset at Mountain Nemrut.jpg — CC BY-SA 4.0
+5. File:Light on Statues on Ruins of Commagene.jpg — CC BY-SA 4.0
 
 ## medical-planes/pc12 — Pilatus PC-12
 
 Search: `PC-12 Royal Flying Doctor Service`
 
 0. File:Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport.jpg — CC BY-SA 4.0 **(chosen)**
-1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
-2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
+2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
 3. File:Pilatus PC-12 VH-FGT operated by the Royal Flying Doctor Service parked at Andamooka Airport, South Australia.jpg — CC BY 4.0
 4. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 04.jpg — CC BY-SA 4.0
 5. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 02.jpg — CC BY-SA 4.0
@@ -193,7 +193,7 @@ Search: `Learjet 35 air ambulance`
 2. File:ZS-TOW Learjet 35A International SOS Air Ambulance (7690037572).jpg — CC BY-SA 3.0
 3. File:Learjet 35 at Fairbanks.jpg — CC BY-SA 3.0
 4. File:CMS Air Ambulance (VH-CXJ) Bombardier Learjet 45 taxiing at Wagga Wagga Airport.jpg — CC BY-SA 3.0 au
-5. File:CMS Air Ambulance (VH-CXJ) Bombardier Learjet 45 taxiing at Wagga Wagga Airport (2).jpg — CC BY-SA 3.0 au
+5. File:CMS Air Ambulance (VH-CXJ) Bombardier Learjet 45 taxiing at Wagga Wagga Airport (1).jpg — CC BY-SA 3.0 au
 
 ## medical-planes/learjet45 — Learjet 45
 
@@ -220,8 +220,8 @@ Search: `Challenger 604 air ambulance`
 0. File:Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (21880668998).jpg — CC BY 2.0 **(chosen)**
 1. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (22089925304).jpg — CC BY 2.0
 2. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRA (26979355551).jpg — CC BY 2.0
-3. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (25682718934).jpg — CC BY 2.0
-4. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (21809326800).jpg — CC BY 2.0
+3. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (21809326800).jpg — CC BY 2.0
+4. File:Rega - Swiss Air Ambulance Bombardier Challenger 604 (CL-600-2B16) HB-JRC (25682718934).jpg — CC BY 2.0
 5. File:Rega Swiss Air Ambulance Canadair CL-600-2B16 Challenger 604; HB-JRC@ZRH;17.03.2012 (6857192280).jpg — CC BY-SA 2.0
 
 ## medical-planes/citation2 — Cessna Citation II
@@ -239,8 +239,8 @@ Search: `Cessna Citation II ambulance`
 
 Search: `C-9A Nightingale`
 
-0. File:20180214 C-9A Nightingale Air Mobility Command Museum-1.jpg — CC0
-1. File:20180214 C-9A Nightingale Air Mobility Command Museum-2.jpg — CC0
+0. File:20180214 C-9A Nightingale Air Mobility Command Museum-2.jpg — CC0
+1. File:20180214 C-9A Nightingale Air Mobility Command Museum-1.jpg — CC0
 2. File:USAF C-9A Nightingale 10880.jpg — CC BY 3.0
 3. File:C-9A Nightingale aeromedical airlift transport aircraft.JPEG — Public domain **(chosen)**
 4. File:USAF C-9A Nightingale 10881 2N.jpg — CC BY-SA 3.0
@@ -253,6 +253,6 @@ Search: `C-130 aeromedical evacuation`
 0. File:165th AW C-130, Aeromedical Evacuation Transportation (5643985).jpg — Public domain
 1. File:10th Expeditionary Aeromedical Evacuation Flight Prepares Life-Saving Equipment for C-130 Missions at Camp Lemonnier (9114568).jpg — Public domain
 2. File:Flickr - DVIDSHUB - C-130 Aeromedical Evacuation Mission (Image 13 of 22).jpg — Public domain
-3. File:86th Aeromedical Evacuation Squadron trains with Tunisians at African Lion 2024 (8385467).jpg — Public domain
-4. File:C-130 supports aeromedical evacuation (14496975870).jpg — Public domain
+3. File:C-130 supports aeromedical evacuation (14496975870).jpg — Public domain
+4. File:86th Aeromedical Evacuation Squadron trains with Tunisians at African Lion 2024 (8385467).jpg — Public domain
 5. File:Participants of an aeromedical evacuation subject matter expert exchange carry a simulated patient into a C-130.jpg — CC BY 2.0
