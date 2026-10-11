@@ -34,7 +34,8 @@
     "group": "airliner-widebody",
     "packAnswerIds": [
       "b747sp"
-    ]
+    ],
+    "photo": "File:SOFIA ED10-0182-01 full.jpg"
   },
   {
     "id": "b777",
@@ -65,7 +66,8 @@
     "packAnswerIds": [
       "a350-900",
       "a350-1000"
-    ]
+    ],
+    "photo": "File:Lufthansa Airbus A350-941 D-AIXA STR 2016 01.jpg"
   },
   {
     "id": "a330",
@@ -79,7 +81,8 @@
   {
     "id": "a330neo",
     "wikipediaTitle": "Airbus A330neo",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "photo": "File:D-ANRD AIRCRAFT Airbus A330-941 -1d.jpg"
   },
   {
     "id": "a340",
@@ -117,7 +120,8 @@
     "group": "airliner-widebody",
     "packAnswerIds": [
       "l1011"
-    ]
+    ],
+    "photo": "File:Delta Air Lines Lockheed L-1011 TriStar 500; N753DA@FRA;27.12.1995 (5217505740).jpg"
   },
   {
     "id": "il96",
@@ -133,7 +137,8 @@
     "group": "airliner-widebody",
     "packAnswerIds": [
       "il86"
-    ]
+    ],
+    "photo": "File:S7 Il-86.jpg"
   },
   {
     "id": "a300",
@@ -149,7 +154,8 @@
     "group": "airliner-widebody",
     "packAnswerIds": [
       "a310"
-    ]
+    ],
+    "photo": "File:Airbus A310 - F-WNOV AirZeroG at LFBT airport.jpg"
   },
   {
     "id": "concorde",
@@ -159,7 +165,8 @@
   {
     "id": "b707",
     "wikipediaTitle": "Boeing 707",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "photo": "File:AME B707 T.17-3 23dec14 LFBO-1.jpg"
   },
   {
     "id": "dc8",
@@ -169,7 +176,8 @@
   {
     "id": "vc10",
     "wikipediaTitle": "Vickers VC10",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "photo": "File:Down but not out. . . (29481034602).jpg"
   },
   {
     "id": "b737-classic",
@@ -204,17 +212,21 @@
   {
     "id": "a320",
     "wikipediaTitle": "Airbus A320 family",
-    "group": "airliner-narrowbody"
+    "label": "Airbus A320",
+    "group": "airliner-narrowbody",
+    "photo": "File:Lufthansa Airbus A320-211 D-AIQT 01.jpg"
   },
   {
     "id": "a320neo",
     "wikipediaTitle": "Airbus A320neo family",
+    "label": "Airbus A320neo",
     "group": "airliner-narrowbody"
   },
   {
     "id": "a220",
     "wikipediaTitle": "Airbus A220",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "photo": "File:HB-JCC in Zürich.jpg"
   },
   {
     "id": "md80",
@@ -224,7 +236,8 @@
   {
     "id": "tu154",
     "wikipediaTitle": "Tupolev Tu-154",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "photo": "File:EW-85748 Tupolev Tu-154M Belavia parking at MSQ (3).jpg"
   },
   {
     "id": "c919",
@@ -234,7 +247,9 @@
   {
     "id": "ssj100",
     "wikipediaTitle": "Sukhoi Superjet 100",
-    "group": "airliner-narrowbody"
+    "label": "Sukhoi Superjet 100",
+    "group": "airliner-narrowbody",
+    "photo": "File:RA-89077 Suckhoi SSJ100 IrAero KZN 2024-07-19 2779.jpg"
   },
   {
     "id": "f100",
@@ -249,26 +264,32 @@
   {
     "id": "ejet",
     "wikipediaTitle": "Embraer E-Jet family",
+    "label": "Embraer E-Jet",
     "group": "regional"
   },
   {
     "id": "ejet-e2",
     "wikipediaTitle": "Embraer E-Jet E2 family",
+    "label": "Embraer E-Jet E2",
     "group": "regional"
   },
   {
     "id": "erj",
     "wikipediaTitle": "Embraer ERJ family",
-    "group": "regional"
+    "label": "Embraer ERJ",
+    "group": "regional",
+    "photo": "File:F-GRGF, landing at Schiphol on 2Feb2014 pic27.JPG"
   },
   {
     "id": "crj200",
     "wikipediaTitle": "Bombardier CRJ100/200",
+    "label": "Bombardier CRJ200",
     "group": "regional"
   },
   {
     "id": "crj700",
     "wikipediaTitle": "Bombardier CRJ700 series",
+    "label": "Bombardier CRJ700",
     "group": "regional"
   },
   {
@@ -289,7 +310,8 @@
   {
     "id": "twin-otter",
     "wikipediaTitle": "de Havilland Canada DHC-6 Twin Otter",
-    "group": "regional"
+    "group": "regional",
+    "photo": "File:Vancouver to Victoria. West Coast Air De Havilland DHC-6 Twin Otter floatplane -2.jpg"
   },
   {
     "id": "dc3",
@@ -304,7 +326,8 @@
   {
     "id": "c172",
     "wikipediaTitle": "Cessna 172",
-    "group": "business-general"
+    "group": "business-general",
+    "photo": "File:Cessna172Skyhawk1957model01.jpg"
   },
   {
     "id": "pa28",
@@ -314,7 +337,8 @@
   {
     "id": "sr22",
     "wikipediaTitle": "Cirrus SR22",
-    "group": "business-general"
+    "group": "business-general",
+    "photo": "File:AERO Friedrichshafen 2018, Friedrichshafen (1X7A4263).jpg"
   },
   {
     "id": "bonanza",
@@ -324,7 +348,8 @@
   {
     "id": "j3cub",
     "wikipediaTitle": "Piper J-3 Cub",
-    "group": "business-general"
+    "group": "business-general",
+    "photo": "File:Piper J3C Cub 04.jpg"
   },
   {
     "id": "da40",
@@ -344,7 +369,8 @@
   {
     "id": "pc12",
     "wikipediaTitle": "Pilatus PC-12",
-    "group": "business-general"
+    "group": "business-general",
+    "photo": "File:EBACE 2019, Le Grand-Saconnex (EB190163).jpg"
   },
   {
     "id": "king-air",
@@ -354,6 +380,7 @@
   {
     "id": "g650",
     "wikipediaTitle": "Gulfstream G650",
+    "label": "Gulfstream G650",
     "group": "business-general"
   },
   {
@@ -370,6 +397,7 @@
     "id": "citation-x",
     "wikipediaTitle": "Cessna Citation X",
     "group": "business-general",
+    "photo": "File:Cessna Citation X (D-BOOC) @ MAN, April 2017.jpg",
     "overrides": {
       "countryOfOrigin": [
         "United States"
@@ -387,12 +415,15 @@
   {
     "id": "hondajet",
     "wikipediaTitle": "Honda HA-420 HondaJet",
-    "group": "business-general"
+    "label": "HondaJet",
+    "group": "business-general",
+    "photo": "File:Hamburg Airport Honda HA-420 HondaJet D-IVVV (DSC03385).jpg"
   },
   {
     "id": "phenom300",
     "wikipediaTitle": "Embraer Phenom 300",
-    "group": "business-general"
+    "group": "business-general",
+    "photo": "File:ILA 2018, Schönefeld (1X7A5305).jpg"
   },
   {
     "id": "c130",
@@ -442,7 +473,8 @@
   {
     "id": "p8",
     "wikipediaTitle": "Boeing P-8 Poseidon",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "photo": "File:Royal Air Force Boeing Poseidon MRA1 P-8A ZP803 Royal International Air Tattoo 2025 01.jpg"
   },
   {
     "id": "p3",
@@ -591,7 +623,8 @@
     "group": "fighter-attack",
     "packAnswerIds": [
       "typhoon"
-    ]
+    ],
+    "photo": "File:31+07 German Air Force Eurofighter Typhoon EF2000 ILA Berlin 2016 04.jpg"
   },
   {
     "id": "rafale",
@@ -623,7 +656,8 @@
     "group": "fighter-attack",
     "packAnswerIds": [
       "su27"
-    ]
+    ],
+    "photo": "File:Su-27UBM Radom 2009 e.JPG"
   },
   {
     "id": "su35",
@@ -657,12 +691,14 @@
   {
     "id": "mig25",
     "wikipediaTitle": "Mikoyan-Gurevich MiG-25",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "photo": "File:Soviet Supersonic Interceptor Mikoyan-Gurevich MiG-25. Советский сверхзвуковой перехватчик МиГ-25.jpg"
   },
   {
     "id": "mig31",
     "wikipediaTitle": "Mikoyan MiG-31",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "photo": "File:Авиамузей на аэродроме Караишево (4).JPG"
   },
   {
     "id": "j20",
@@ -704,6 +740,7 @@
   {
     "id": "harrier",
     "wikipediaTitle": "Harrier jump jet",
+    "label": "Harrier Jump Jet",
     "group": "fighter-attack",
     "packAnswerIds": [
       "harrier"
@@ -780,7 +817,8 @@
   {
     "id": "a6m",
     "wikipediaTitle": "Mitsubishi A6M Zero",
-    "group": "historic"
+    "group": "historic",
+    "photo": "File:Zero Akagi Dec1941.jpg"
   },
   {
     "id": "f4u",
@@ -823,6 +861,7 @@
   {
     "id": "uh1",
     "wikipediaTitle": "Bell UH-1 Iroquois",
+    "label": "Bell UH-1 Huey",
     "group": "helicopter",
     "packAnswerIds": [
       "uh1"
@@ -871,6 +910,7 @@
   {
     "id": "mi8",
     "wikipediaTitle": "Mil Mi-8",
+    "label": "Mil Mi-8/17",
     "group": "helicopter",
     "packAnswerIds": [
       "mi8"
@@ -881,9 +921,24 @@
     "wikipediaTitle": "Kamov Ka-50",
     "group": "helicopter",
     "packAnswerIds": [
-      "ka50",
+      "ka50"
+    ],
+    "photo": "File:Ka-50 NTW 7 8 93.jpg"
+  },
+  {
+    "id": "ka52",
+    "wikipediaTitle": "Kamov Ka-50",
+    "label": "Kamov Ka-52 Alligator",
+    "group": "helicopter",
+    "packAnswerIds": [
       "ka52"
-    ]
+    ],
+    "wikidataId": "Q1723252",
+    "photo": "File:Ka-52 - MAKS-2013Firstpixflights19.jpg",
+    "overrides": {
+      "name": "Kamov Ka-52 Alligator",
+      "description": "Two-seat Russian attack helicopter, developed from the Ka-50"
+    }
   },
   {
     "id": "tiger",
@@ -927,10 +982,12 @@
   {
     "id": "h125",
     "wikipediaTitle": "Eurocopter AS350 Écureuil",
+    "label": "Airbus H125 (AS350 Écureuil)",
     "group": "helicopter",
     "packAnswerIds": [
       "h125"
-    ]
+    ],
+    "photo": "File:FIREFLIGHT.jpg"
   },
   {
     "id": "s76",
@@ -943,6 +1000,7 @@
   {
     "id": "h145",
     "wikipediaTitle": "Eurocopter EC145",
+    "label": "Airbus H145 (EC145)",
     "group": "helicopter",
     "packAnswerIds": [
       "h145"
@@ -951,6 +1009,7 @@
   {
     "id": "h135",
     "wikipediaTitle": "Eurocopter EC135",
+    "label": "Airbus H135 (EC135)",
     "group": "helicopter"
   },
   {
@@ -980,7 +1039,8 @@
     "group": "helicopter",
     "packAnswerIds": [
       "bell47"
-    ]
+    ],
+    "photo": "File:Bell47J.JPG"
   },
   {
     "id": "ch54",

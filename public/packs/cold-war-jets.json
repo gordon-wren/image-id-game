@@ -1,0 +1,669 @@
+{
+  "id": "cold-war-jets",
+  "title": "Cold War Military Jets",
+  "description": "Fighters and bombers that first flew between 1947 and 1991.",
+  "path": [
+    "Aviation",
+    "By Era"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "generatedFrom": "scripts/packs/recipes.json",
+  "questions": [
+    {
+      "id": "cold-war-jets-b52",
+      "image": "b52.jpg",
+      "answer": "b52",
+      "options": [
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "American strategic bomber aircraft. First flew 1952.",
+      "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-tu95",
+      "image": "tu95.jpg",
+      "answer": "tu95",
+      "options": [
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1952.",
+      "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-tu160",
+      "image": "tu160.jpg",
+      "answer": "tu160",
+      "options": [
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-vulcan",
+      "image": "vulcan.jpg",
+      "answer": "vulcan",
+      "options": [
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        }
+      ],
+      "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        }
+      ],
+      "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "American close air support attack aircraft. First flew 1972.",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-rafale",
+      "image": "rafale.jpg",
+      "answer": "rafale",
+      "options": [
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        }
+      ],
+      "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-gripen",
+      "image": "gripen.jpg",
+      "answer": "gripen",
+      "options": [
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        }
+      ],
+      "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
+      "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-tornado",
+      "image": "tornado.jpg",
+      "answer": "tornado",
+      "options": [
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        }
+      ],
+      "caption": "Family of multi-role combat aircraft. First flew 1974.",
+      "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-su27",
+      "image": "su27.jpg",
+      "answer": "su27",
+      "options": [
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        }
+      ],
+      "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
+      "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-mig29",
+      "image": "mig29.jpg",
+      "answer": "mig29",
+      "options": [
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        }
+      ],
+      "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
+      "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-mig21",
+      "image": "mig21.jpg",
+      "answer": "mig21",
+      "options": [
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        }
+      ],
+      "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
+      "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-mig25",
+      "image": "mig25.jpg",
+      "answer": "mig25",
+      "options": [
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
+      "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-mig31",
+      "image": "mig31.jpg",
+      "answer": "mig31",
+      "options": [
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        }
+      ],
+      "caption": "Interceptor aircraft. First flew 1975.",
+      "credit": "Q139555801 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-mirage2000",
+      "image": "mirage2000.jpg",
+      "answer": "mirage2000",
+      "options": [
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        }
+      ],
+      "caption": "French jet fighter aircraft. First flew 1978.",
+      "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f4",
+      "image": "f4.jpg",
+      "answer": "f4",
+      "options": [
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "Fighter aircraft family developed from 1958. First flew 1958.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f117",
+      "image": "f117.jpg",
+      "answer": "f117",
+      "options": [
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "American stealth ground-attack aircraft. First flew 1981.",
+      "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-harrier",
+      "image": "harrier.jpg",
+      "answer": "harrier",
+      "options": [
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        }
+      ],
+      "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
+      "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-viggen",
+      "image": "viggen.jpg",
+      "answer": "viggen",
+      "options": [
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        }
+      ],
+      "caption": "1967 Swedish fighter aircraft family. First flew 1967.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "cold-war-jets-f5",
+      "image": "f5.jpg",
+      "answer": "f5",
+      "options": [
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
+      "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
+    }
+  ]
+}

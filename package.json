@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "packs": "node scripts/packs/generate.mjs",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {

@@ -27,6 +27,7 @@
       "required": [
         "id",
         "name",
+        "label",
         "group",
         "wikipedia"
       ],
@@ -38,6 +39,10 @@
         "name": {
           "type": "string",
           "description": "Wikipedia article title, e.g. \"Boeing 747\"."
+        },
+        "label": {
+          "type": "string",
+          "description": "Short display name for answer buttons, e.g. \"Airbus A320\" for the \"Airbus A320 family\" article. Set in seed.json; defaults to `name`."
         },
         "group": {
           "type": "string",
@@ -233,6 +238,16 @@
                 "string",
                 "null"
               ]
+            },
+            "chosenFrom": {
+              "type": "string",
+              "enum": [
+                "seed",
+                "infobox",
+                "page image",
+                "article"
+              ],
+              "description": "Where the photo was picked: pinned in seed.json, the infobox, Wikipedia's preview image, or further down the article."
             }
           }
         },

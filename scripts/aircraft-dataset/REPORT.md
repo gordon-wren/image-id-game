@@ -1,5 +1,5 @@
 # Last build
 
-Generated 2026-10-11T19:35:12.841Z: 161 aircraft, 161 with a free lead photo.
+Generated 2026-10-11T20:10:22.315Z: 162 aircraft, 162 with a free lead photo.
 
 No gaps.

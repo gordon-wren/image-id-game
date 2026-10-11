@@ -100,6 +100,9 @@ function parseDate(s) {
   return null;
 }
 
+// Images that are rarely a clear photo of the whole aircraft.
+const NOT_A_PHOTO = /\.(svg|gif|tiff?)$|logo|flag|map|diagram|drawing|3[- ]?view|silhouette|cockpit|instrument|engine|insignia|roundel|emblem|seal|icon|patch|crest|badge|interior|cabin/i;
+
 /**
  * Reads label/value rows and the lead image out of the rendered infobox HTML.
  * The rendered page is used rather than wikitext because articles build their
@@ -121,8 +124,11 @@ function parseInfobox(html) {
     const value = stripHtml(m[2].replace(/<\/li>\s*<li[^>]*>/gi, "; ")).replace(/(;\s*)+/g, "; ").replace(/^[;,\s]+|[;,\s]+$/g, "");
     if (key && value && !fields[key]) fields[key] = value;
   }
-  const img = box.match(/href="\/wiki\/File:([^"#?]+)"/);
-  return { fields, image: img ? decodeURIComponent(img[1]).replace(/_/g, " ") : null };
+  // Some infoboxes lead with the type's logo; take the first image that looks like a photo.
+  const image = [...box.matchAll(/href="\/wiki\/File:([^"#?]+)"/g)]
+    .map((m) => decodeURIComponent(m[1]).replace(/_/g, " "))
+    .find((f) => !NOT_A_PHOTO.test(f));
+  return { fields, image: image ?? null };
 }
 
 // ---------------------------------------------------------------------------
@@ -173,7 +179,16 @@ function wdQuantity(entity, prop) {
 // Photo helpers
 // ---------------------------------------------------------------------------
 
-const FREE_LICENSE = /^(cc0|cc[ -]by|public domain|pd|gfdl|attribution|copyrighted free use|fal|free art)/i;
+// Licenses the game can honour with a credit line. GFDL-only photos are left
+// out: the GFDL asks for its full text to travel with the image.
+const USABLE_LICENSE = /^(cc0|cc[ -]by(-sa)?\b|public domain|pd\b|attribution|copyrighted free use|ogl|godl|kogl)/i;
+
+/** Commons often lists a GFDL/CC dual license as just "GFDL"; its categories name the CC one. */
+function ccFromCategories(categories) {
+  const m = String(categories ?? "").match(/(?:^|\|)CC-(BY(?:-SA)?)-([\d.]+)/i);
+  return m ? `CC ${m[1].toUpperCase()} ${m[2]}` : null;
+}
+
 
 async function photoInfo(fileName) {
   const res = await wpApi({
@@ -187,9 +202,9 @@ async function photoInfo(fileName) {
   const ii = page?.imageinfo?.[0];
   if (!ii) return null;
   const meta = Object.fromEntries(Object.entries(ii.extmetadata ?? {}).map(([k, v]) => [k, v?.value]));
-  const license = meta.LicenseShortName ? stripHtml(String(meta.LicenseShortName)) : null;
-  const onCommons = page.imagerepository === "shared";
-  const free = !meta.NonFree && (onCommons || (license && FREE_LICENSE.test(license)));
+  let license = meta.LicenseShortName ? stripHtml(String(meta.LicenseShortName)) : null;
+  if (!license || /^gfdl/i.test(license)) license = ccFromCategories(meta.Categories) ?? license;
+  const free = !meta.NonFree && Boolean(license && USABLE_LICENSE.test(license));
   const author = meta.Artist ? stripHtml(String(meta.Artist)) : null;
   return {
     sourceFile: `File:${fileName}`,
@@ -221,6 +236,31 @@ async function exists(p) {
 // Main
 // ---------------------------------------------------------------------------
 
+const MAX_ARTICLE_PHOTOS = 8;
+
+/** Files to try as the aircraft's photo, best first, with where each came from. */
+async function* photoCandidates(seed, infoboxImage, pageImage, title) {
+  if (seed.photo) {
+    yield { file: seed.photo.replace(/^File:/, ""), from: "seed" };
+    return;
+  }
+  const tried = new Set();
+  const fresh = (f) => {
+    const key = f?.replace(/_/g, " ");
+    if (!key || tried.has(key)) return null;
+    tried.add(key);
+    return key;
+  };
+  const infobox = fresh(infoboxImage);
+  if (infobox) yield { file: infobox, from: "infobox" };
+  const preview = pageImage && !NOT_A_PHOTO.test(pageImage) ? fresh(pageImage) : null;
+  if (preview) yield { file: preview, from: "page image" };
+
+  const res = await wpApi({ action: "parse", page: title, prop: "images", redirects: "1" });
+  const rest = (res?.parse?.images ?? []).filter((f) => !NOT_A_PHOTO.test(f)).map(fresh).filter(Boolean);
+  for (const file of rest.slice(0, MAX_ARTICLE_PHOTOS)) yield { file, from: "article" };
+}
+
 function splitList(s) {
   return s ? s.split(/;\s*|\s+and\s+|,\s+(?=[A-Z])/).map((x) => x.trim()).filter(Boolean) : [];
 }
@@ -239,9 +279,12 @@ async function buildOne(seed, previous) {
   const infobox = parseInfobox(parse?.parse?.text ?? "");
   const ib = (...keys) => keys.map((k) => infobox.fields[k]).find(Boolean) ?? null;
 
+  // A seed can name its own Wikidata item, for aircraft that share an article
+  // with a relative (the Ka-52 redirects to the Ka-50's).
+  const wikidataId = seed.wikidataId ?? summary.wikibase_item ?? null;
   let wd = null;
-  if (summary.wikibase_item) {
-    const ent = await get(`https://www.wikidata.org/wiki/Special:EntityData/${summary.wikibase_item}.json`);
+  if (wikidataId) {
+    const ent = await get(`https://www.wikidata.org/wiki/Special:EntityData/${wikidataId}.json`);
     wd = ent?.entities ? Object.values(ent.entities)[0] : null;
   }
   const [manufacturersWd, countriesWd, usesWd] = wd
@@ -255,6 +298,7 @@ async function buildOne(seed, previous) {
   const record = {
     id: seed.id,
     name: title,
+    label: seed.label ?? title,
     group: seed.group,
     ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
     description: summary.description ?? null,
@@ -273,17 +317,21 @@ async function buildOne(seed, previous) {
       pageId: page.pageid ?? summary.pageid ?? null,
       revisionId: page.revisions?.[0]?.revid ?? summary.revision ?? null,
     },
-    wikidataId: summary.wikibase_item ?? null,
+    wikidataId,
     photo: null,
     retrievedAt: new Date().toISOString(),
   };
 
-  // The "title photo" is the infobox image; fall back to the page image Wikipedia
-  // picks for previews (always a free image) when the infobox one is missing or non-free.
-  const infoboxImage = infobox.image;
-  let info = infoboxImage ? await photoInfo(infoboxImage) : null;
-  if ((!info || !info.free) && page.pageimage && page.pageimage.replace(/_/g, " ") !== infoboxImage?.replace(/_/g, " ")) {
-    info = (await photoInfo(page.pageimage)) ?? info;
+  // The "title photo" is the infobox image. When it is missing or its license
+  // isn't usable, try the page image Wikipedia picks for previews, then the
+  // article's other photos in order. A seed `photo` pins one file instead.
+  let info = null;
+  for await (const { file, from } of photoCandidates(seed, infobox.image, page.pageimage, title)) {
+    const candidate = await photoInfo(file);
+    if (candidate) candidate.chosenFrom = from;
+    info ??= candidate;
+    if (candidate?.free) { info = candidate; break; }
+    await sleep(150);
   }
   if (info) {
     const ext = extFor(info.mime);
@@ -304,6 +352,17 @@ async function buildOne(seed, previous) {
   return record;
 }
 
+/** A record that isn't re-fetched still takes the fields that come from the seed. */
+function reuse(record, seed) {
+  const { packAnswerIds, ...rest } = record;
+  return {
+    ...rest,
+    label: seed.label ?? record.name,
+    group: seed.group,
+    ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
+  };
+}
+
 async function main() {
   const seed = JSON.parse(await readFile(SEED, "utf8"));
   await mkdir(dirname(OUT_JSON), { recursive: true });
@@ -317,7 +376,7 @@ async function main() {
   const problems = [];
   for (const s of seed) {
     if (only && !only.has(s.id)) {
-      if (prevById.has(s.id)) results.push(prevById.get(s.id));
+      if (prevById.has(s.id)) results.push(reuse(prevById.get(s.id), s));
       continue;
     }
     try {
@@ -333,15 +392,15 @@ async function main() {
     } catch (e) {
       problems.push(`${s.id}: ERROR ${e.message}`);
       console.log(`FAIL ${s.id.padEnd(16)} ${e.message}`);
-      if (prevById.has(s.id)) results.push(prevById.get(s.id));
+      if (prevById.has(s.id)) results.push(reuse(prevById.get(s.id), s));
     }
     await sleep(150);
   }
 
-  if (!only) {
-    const keep = new Set(results.map((r) => r.photo?.file?.slice(IMG_PUBLIC_PREFIX.length)).filter(Boolean));
-    for (const f of await readdir(OUT_IMG_DIR)) if (!keep.has(f)) await unlink(join(OUT_IMG_DIR, f));
-  }
+  // `results` holds every seed entry (re-fetched or reused), so this also clears
+  // a photo replaced by one with a different extension during an --only run.
+  const keep = new Set(results.map((r) => r.photo?.file?.slice(IMG_PUBLIC_PREFIX.length)).filter(Boolean));
+  for (const f of await readdir(OUT_IMG_DIR)) if (!keep.has(f)) await unlink(join(OUT_IMG_DIR, f));
 
   const out = {
     $schema: "./aircraft.schema.json",
@@ -352,11 +411,17 @@ async function main() {
     aircraft: results,
   };
   await writeFile(OUT_JSON, JSON.stringify(out, null, 2) + "\n");
+  const unchecked = results.filter((r) => r.photo?.file && r.photo.chosenFrom === "article");
   await writeFile(
     join(here, "REPORT.md"),
     `# Last build\n\nGenerated ${out.generatedAt}: ${results.length} aircraft, ` +
       `${results.filter((r) => r.photo?.file).length} with a free lead photo.\n\n` +
-      (problems.length ? `## Gaps\n\n${problems.map((p) => `- ${p}`).join("\n")}\n` : "No gaps.\n"),
+      (problems.length ? `## Gaps\n\n${problems.map((p) => `- ${p}`).join("\n")}\n` : "No gaps.\n") +
+      (unchecked.length
+        ? `\n## Check these photos by eye\n\nThe lead photo wasn't usable, so these came from further down the article ` +
+          `and may show a prototype, a variant or a detail. Pin a better one with \`photo\` in seed.json.\n\n` +
+          unchecked.map((r) => `- ${r.id}: [${r.photo.sourceFile}](${r.photo.sourcePage})`).join("\n") + "\n"
+        : ""),
   );
   console.log(`\nWrote ${results.length} aircraft; ${problems.length} with gaps (see REPORT.md).`);
 }
