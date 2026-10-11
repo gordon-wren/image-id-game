@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-11T19:30:30.384Z",
-  "count": 162,
+  "generatedAt": "2026-10-11T19:35:12.841Z",
+  "count": 161,
   "aircraft": [
     {
       "id": "a380",
@@ -53,7 +53,7 @@
         "dateTaken": "2012-10-17",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:21.345Z"
+      "retrievedAt": "2026-10-11T19:31:37.323Z"
     },
     {
       "id": "b747",
@@ -100,7 +100,7 @@
         "dateTaken": "1980-04",
         "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:22.869Z"
+      "retrievedAt": "2026-10-11T19:31:38.768Z"
     },
     {
       "id": "b747-8",
@@ -150,7 +150,7 @@
         "dateTaken": "2018-09-30 09:27:49",
         "credit": "Juke Schweizer / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:23.483Z"
+      "retrievedAt": "2026-10-11T19:31:39.801Z"
     },
     {
       "id": "b747-400",
@@ -200,7 +200,7 @@
         "dateTaken": "2023-05-03 09:28:12",
         "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:24.301Z"
+      "retrievedAt": "2026-10-11T19:31:40.978Z"
     },
     {
       "id": "b747sp",
@@ -251,7 +251,7 @@
         "dateTaken": "18 August 2007",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:25.039Z"
+      "retrievedAt": "2026-10-11T19:31:42.132Z"
     },
     {
       "id": "b777",
@@ -302,7 +302,7 @@
         "dateTaken": "2025-02-06",
         "credit": "Great Brightstar / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:27.384Z"
+      "retrievedAt": "2026-10-11T19:31:43.196Z"
     },
     {
       "id": "b777x",
@@ -350,7 +350,7 @@
         "dateTaken": "2019-03-13 03:48",
         "credit": "Dan Nevill from Seattle, WA, United States / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:28.537Z"
+      "retrievedAt": "2026-10-11T19:31:44.390Z"
     },
     {
       "id": "b787",
@@ -400,7 +400,7 @@
         "dateTaken": null,
         "credit": "The Boeing Company / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:29.220Z"
+      "retrievedAt": "2026-10-11T19:31:45.423Z"
     },
     {
       "id": "a350",
@@ -452,7 +452,7 @@
         "dateTaken": "2012-10-17",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:30.806Z"
+      "retrievedAt": "2026-10-11T19:31:47.136Z"
     },
     {
       "id": "a330",
@@ -504,7 +504,7 @@
         "dateTaken": "2012-10-17",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:31.587Z"
+      "retrievedAt": "2026-10-11T19:31:48.330Z"
     },
     {
       "id": "a330neo",
@@ -552,7 +552,7 @@
         "dateTaken": "2021-05-05",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:32.357Z"
+      "retrievedAt": "2026-10-11T19:31:49.822Z"
     },
     {
       "id": "a340",
@@ -603,7 +603,7 @@
         "dateTaken": "2020-12-01",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:33.611Z"
+      "retrievedAt": "2026-10-11T19:31:51.053Z"
     },
     {
       "id": "b767",
@@ -653,7 +653,7 @@
         "dateTaken": "2011-08-05 01:42",
         "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:34.230Z"
+      "retrievedAt": "2026-10-11T19:31:52.015Z"
     },
     {
       "id": "md11",
@@ -704,7 +704,7 @@
         "dateTaken": "2008-07-24 08:36",
         "credit": "Björn Strey / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:35.537Z"
+      "retrievedAt": "2026-10-11T19:31:53.212Z"
     },
     {
       "id": "dc10",
@@ -751,7 +751,7 @@
         "dateTaken": "2 March 2010 (original upload date)",
         "credit": "Danielkang7744 at English Wikipedia / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:36.391Z"
+      "retrievedAt": "2026-10-11T19:31:54.369Z"
     },
     {
       "id": "l1011",
@@ -801,7 +801,7 @@
         "dateTaken": "3 August 2002",
         "credit": "Árpád Gordos / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:37.234Z"
+      "retrievedAt": "2026-10-11T19:31:55.445Z"
     },
     {
       "id": "il96",
@@ -852,7 +852,7 @@
         "dateTaken": "2018-11-07 11:45:29",
         "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:38.016Z"
+      "retrievedAt": "2026-10-11T19:31:56.750Z"
     },
     {
       "id": "il86",
@@ -903,7 +903,7 @@
         "dateTaken": "2005-01-14",
         "credit": "Konstantin von Wedelstaedt / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:38.752Z"
+      "retrievedAt": "2026-10-11T19:31:57.942Z"
     },
     {
       "id": "a300",
@@ -954,7 +954,7 @@
         "dateTaken": "2011-07-06 12:15",
         "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:39.414Z"
+      "retrievedAt": "2026-10-11T19:31:59.176Z"
     },
     {
       "id": "a310",
@@ -1005,7 +1005,7 @@
         "dateTaken": "8 August 2009",
         "credit": "Konstantin Von Wedelstaedt / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:40.281Z"
+      "retrievedAt": "2026-10-11T19:32:00.319Z"
     },
     {
       "id": "concorde",
@@ -1054,7 +1054,7 @@
         "dateTaken": "1986-05",
         "credit": "Eduard Marmet / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:41.312Z"
+      "retrievedAt": "2026-10-11T19:32:01.709Z"
     },
     {
       "id": "b707",
@@ -1101,7 +1101,7 @@
         "dateTaken": "1979-05-25",
         "credit": "Mike Freer / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:42.446Z"
+      "retrievedAt": "2026-10-11T19:32:02.845Z"
     },
     {
       "id": "dc8",
@@ -1149,7 +1149,7 @@
         "dateTaken": "1998-02-25",
         "credit": "NASA Photo by: Jim Ross / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:43.085Z"
+      "retrievedAt": "2026-10-11T19:32:03.946Z"
     },
     {
       "id": "vc10",
@@ -1196,7 +1196,7 @@
         "dateTaken": "2000-10-13",
         "credit": "Chris Lofting / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:44.009Z"
+      "retrievedAt": "2026-10-11T19:32:05.054Z"
     },
     {
       "id": "b737-classic",
@@ -1243,7 +1243,7 @@
         "dateTaken": "2007-08-15 16:50",
         "credit": "Dylan Ashe from San Jose, USA / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:44.816Z"
+      "retrievedAt": "2026-10-11T19:32:05.986Z"
     },
     {
       "id": "b737ng",
@@ -1262,7 +1262,7 @@
       "firstFlight": "1997-02-09",
       "introduced": "1997-12",
       "status": "In service, military variants in production",
-      "numberBuilt": null,
+      "numberBuilt": "7,123 as of June 2026[update]",
       "wikipedia": {
         "title": "Boeing 737 Next Generation",
         "url": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation",
@@ -1290,7 +1290,7 @@
         "dateTaken": "2025-06-20 17:36:22",
         "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:45.776Z"
+      "retrievedAt": "2026-10-11T19:32:07.051Z"
     },
     {
       "id": "b737max",
@@ -1338,7 +1338,7 @@
         "dateTaken": "Mar 05, 2023",
         "credit": "KirkXWB / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:46.796Z"
+      "retrievedAt": "2026-10-11T19:32:08.274Z"
     },
     {
       "id": "b727",
@@ -1386,7 +1386,7 @@
         "dateTaken": null,
         "credit": "Boeing / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:47.848Z"
+      "retrievedAt": "2026-10-11T19:32:09.567Z"
     },
     {
       "id": "b757",
@@ -1433,7 +1433,7 @@
         "dateTaken": "2024-12-24 14:50:35",
         "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:48.598Z"
+      "retrievedAt": "2026-10-11T19:32:10.629Z"
     },
     {
       "id": "b717",
@@ -1480,7 +1480,7 @@
         "dateTaken": null,
         "credit": "Boeing / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:49.302Z"
+      "retrievedAt": "2026-10-11T19:32:11.682Z"
     },
     {
       "id": "a320",
@@ -1527,7 +1527,7 @@
         "dateTaken": "Unknown date",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:50.462Z"
+      "retrievedAt": "2026-10-11T19:32:12.719Z"
     },
     {
       "id": "a320neo",
@@ -1575,7 +1575,7 @@
         "dateTaken": "2021-05-05",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:51.193Z"
+      "retrievedAt": "2026-10-11T19:32:14.078Z"
     },
     {
       "id": "a220",
@@ -1622,7 +1622,7 @@
         "dateTaken": "2020-12-01",
         "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:52.288Z"
+      "retrievedAt": "2026-10-11T19:32:15.526Z"
     },
     {
       "id": "md80",
@@ -1670,7 +1670,7 @@
         "dateTaken": "2020-01-14 13:39:35",
         "credit": "AKS.9955 / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:53.194Z"
+      "retrievedAt": "2026-10-11T19:32:16.395Z"
     },
     {
       "id": "tu154",
@@ -1718,7 +1718,7 @@
         "dateTaken": "13 January 2009",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:53.902Z"
+      "retrievedAt": "2026-10-11T19:32:17.472Z"
     },
     {
       "id": "c919",
@@ -1765,7 +1765,7 @@
         "dateTaken": "2025-03-06",
         "credit": "Comac / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:54.999Z"
+      "retrievedAt": "2026-10-11T19:32:18.507Z"
     },
     {
       "id": "ssj100",
@@ -1813,7 +1813,7 @@
         "dateTaken": "2010-06-05 16:07",
         "credit": "SuperJet International / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:55.918Z"
+      "retrievedAt": "2026-10-11T19:32:19.876Z"
     },
     {
       "id": "f100",
@@ -1860,7 +1860,7 @@
         "dateTaken": "2009-07-10 16:41",
         "credit": "Laurent ERRERA from L'Union, France / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:56.879Z"
+      "retrievedAt": "2026-10-11T19:32:20.900Z"
     },
     {
       "id": "bae146",
@@ -1909,7 +1909,7 @@
         "dateTaken": "2023-03-30",
         "credit": "BAE Systems / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:57.675Z"
+      "retrievedAt": "2026-10-11T19:32:21.980Z"
     },
     {
       "id": "ejet",
@@ -1956,7 +1956,7 @@
         "dateTaken": "2014-12-31",
         "credit": "Richard Vandervord / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:58.421Z"
+      "retrievedAt": "2026-10-11T19:32:23.247Z"
     },
     {
       "id": "ejet-e2",
@@ -1964,7 +1964,7 @@
       "group": "regional",
       "description": "Regional jet airliner family",
       "summary": "The Embraer E-Jet E2 family is a series of four-abreast narrow-body regional jet airliners designed and produced by the Brazilian aircraft manufacturer Embraer. The twinjet is an incremental development of the original E-Jet family, adopting the more fuel-efficient Pratt & Whitney PW1900G, a geared turbofan engine. The aircraft family comprises three variants that share the same fuselage cross-section with different lengths and feature three different redesigned wings, fly-by-wire controls with new avionics, and an updated cabin. The variants offer maximum take-off weights from 44.6 to 62.5 t, and cover a range of 2,000–3,000 nmi.",
-      "role": "Regional jet ; Narrow-body airliner",
+      "role": "Regional jet; Narrow-body airliner",
       "manufacturer": [
         "Embraer"
       ],
@@ -1975,7 +1975,7 @@
       "firstFlight": "2016-05-23",
       "introduced": "2018-04-24",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "224 (Q3 2026)",
       "wikipedia": {
         "title": "Embraer E-Jet E2 family",
         "url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_E2_family",
@@ -2003,7 +2003,7 @@
         "dateTaken": "2018-06-30 14:13",
         "credit": "Valentin Hintikka from Finland / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:59.109Z"
+      "retrievedAt": "2026-10-11T19:32:24.154Z"
     },
     {
       "id": "erj",
@@ -2022,7 +2022,7 @@
       "firstFlight": "1995-08-11",
       "introduced": "1996-12",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": 1231,
       "wikipedia": {
         "title": "Embraer ERJ family",
         "url": "https://en.wikipedia.org/wiki/Embraer_ERJ_family",
@@ -2050,7 +2050,7 @@
         "dateTaken": "25 July 2010",
         "credit": "Aldo Bidini / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:27:59.814Z"
+      "retrievedAt": "2026-10-11T19:32:25.114Z"
     },
     {
       "id": "crj200",
@@ -2069,7 +2069,7 @@
       "firstFlight": "1991-05-10",
       "introduced": "1992-10-19",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": 1021,
       "wikipedia": {
         "title": "Bombardier CRJ100/200",
         "url": "https://en.wikipedia.org/wiki/Bombardier_CRJ100%2F200",
@@ -2097,7 +2097,7 @@
         "dateTaken": "2015-04-14 12:26",
         "credit": "ERIC SALARD from PARIS, FRANCE / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:00.921Z"
+      "retrievedAt": "2026-10-11T19:32:26.269Z"
     },
     {
       "id": "crj700",
@@ -2116,7 +2116,7 @@
       "firstFlight": "1999-05-27",
       "introduced": "2001",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": 924,
       "wikipedia": {
         "title": "Bombardier CRJ700 series",
         "url": "https://en.wikipedia.org/wiki/Bombardier_CRJ700_series",
@@ -2144,7 +2144,7 @@
         "dateTaken": "2012-03-27 12:43",
         "credit": "Mark Harkin / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:01.633Z"
+      "retrievedAt": "2026-10-11T19:32:27.552Z"
     },
     {
       "id": "atr72",
@@ -2192,7 +2192,7 @@
         "dateTaken": "2011-08-30 11:01:54",
         "credit": "Ken Fielding / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:02.435Z"
+      "retrievedAt": "2026-10-11T19:32:28.648Z"
     },
     {
       "id": "dash8",
@@ -2211,7 +2211,7 @@
       "firstFlight": "1983-06-20",
       "introduced": "1984",
       "status": "Production suspended since 2022, pending new facility",
-      "numberBuilt": null,
+      "numberBuilt": "1,258 (as of March 31, 2019)",
       "wikipedia": {
         "title": "De Havilland Canada Dash 8",
         "url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
@@ -2239,7 +2239,7 @@
         "dateTaken": "2024-06-20 13:07:55",
         "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:03.275Z"
+      "retrievedAt": "2026-10-11T19:32:29.696Z"
     },
     {
       "id": "saab340",
@@ -2286,7 +2286,7 @@
         "dateTaken": "2014-01-02 14:22",
         "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:04.095Z"
+      "retrievedAt": "2026-10-11T19:32:31.486Z"
     },
     {
       "id": "twin-otter",
@@ -2335,7 +2335,7 @@
         "dateTaken": "2011-12-13",
         "credit": "Timo Breidenstein / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:04.790Z"
+      "retrievedAt": "2026-10-11T19:32:32.533Z"
     },
     {
       "id": "dc3",
@@ -2382,7 +2382,7 @@
         "dateTaken": "Taken in October 1989",
         "credit": "Towpilot / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:05.744Z"
+      "retrievedAt": "2026-10-11T19:32:33.497Z"
     },
     {
       "id": "constellation",
@@ -2429,7 +2429,7 @@
         "dateTaken": null,
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:06.364Z"
+      "retrievedAt": "2026-10-11T19:32:34.374Z"
     },
     {
       "id": "c172",
@@ -2476,7 +2476,7 @@
         "dateTaken": "2 April 2010",
         "credit": "Peter Bakema / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:07.121Z"
+      "retrievedAt": "2026-10-11T19:32:35.397Z"
     },
     {
       "id": "pa28",
@@ -2523,7 +2523,7 @@
         "dateTaken": "2021-11-08 13:37:32",
         "credit": "Mike Burdett / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:07.863Z"
+      "retrievedAt": "2026-10-11T19:32:36.423Z"
     },
     {
       "id": "sr22",
@@ -2542,7 +2542,7 @@
       "firstFlight": "2000",
       "introduced": null,
       "status": null,
-      "numberBuilt": null,
+      "numberBuilt": "8,785 through 2025",
       "wikipedia": {
         "title": "Cirrus SR22",
         "url": "https://en.wikipedia.org/wiki/Cirrus_SR22",
@@ -2570,7 +2570,7 @@
         "dateTaken": "25 September 2009",
         "credit": "Alan Lebeda / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:08.564Z"
+      "retrievedAt": "2026-10-11T19:32:37.550Z"
     },
     {
       "id": "bonanza",
@@ -2589,7 +2589,7 @@
       "firstFlight": "1945-12-22",
       "introduced": "1947",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "18,525 (at end of 2025)",
       "wikipedia": {
         "title": "Beechcraft Bonanza",
         "url": "https://en.wikipedia.org/wiki/Beechcraft_Bonanza",
@@ -2617,7 +2617,7 @@
         "dateTaken": "2008-05-08 11:07",
         "credit": "Bill Larkins / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:09.420Z"
+      "retrievedAt": "2026-10-11T19:32:38.779Z"
     },
     {
       "id": "j3cub",
@@ -2629,14 +2629,14 @@
       "manufacturer": [
         "Piper Aircraft"
       ],
-      "designer": "C. G. Taylor ; Walter Jamouneau",
+      "designer": "C. G. Taylor; Walter Jamouneau",
       "countryOfOrigin": [
         "United States"
       ],
       "firstFlight": "1938",
       "introduced": "1937",
       "status": null,
-      "numberBuilt": null,
+      "numberBuilt": "19,888 (US built); 150 (Canadian-built); 253 TG-8 gliders",
       "wikipedia": {
         "title": "Piper J-3 Cub",
         "url": "https://en.wikipedia.org/wiki/Piper_J-3_Cub",
@@ -2655,16 +2655,16 @@
         "originalWidth": 1710,
         "originalHeight": 899,
         "mime": "image/jpeg",
-        "author": "Huhu Uet",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-        "attributionRequired": true,
+        "author": null,
+        "license": null,
+        "licenseUrl": null,
+        "attributionRequired": null,
         "free": true,
-        "caption": "Gelbe Piper PA-18 Super Cub über dem Flugplatz Uetersen",
-        "dateTaken": "2010-10-10",
-        "credit": "Huhu Uet / CC BY 3.0 / via Wikimedia Commons"
+        "caption": null,
+        "dateTaken": null,
+        "credit": "Unknown author / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:10.573Z"
+      "retrievedAt": "2026-10-11T19:32:39.835Z"
     },
     {
       "id": "da40",
@@ -2677,11 +2677,13 @@
         "Diamond Aircraft Industries"
       ],
       "designer": null,
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "Austria"
+      ],
       "firstFlight": "1997-11-05",
       "introduced": null,
       "status": "In production",
-      "numberBuilt": null,
+      "numberBuilt": "2,200 (December 2020)",
       "wikipedia": {
         "title": "Diamond DA40 Diamond Star",
         "url": "https://en.wikipedia.org/wiki/Diamond_DA40_Diamond_Star",
@@ -2709,7 +2711,10 @@
         "dateTaken": "2013-05-13 10:49",
         "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:11.347Z"
+      "retrievedAt": "2026-10-11T19:32:40.792Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "caravan",
@@ -2756,7 +2761,7 @@
         "dateTaken": "2019-05-17",
         "credit": "Lt. Col. Scott Voskovitch / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:12.263Z"
+      "retrievedAt": "2026-10-11T19:32:41.784Z"
     },
     {
       "id": "pc12",
@@ -2775,7 +2780,7 @@
       "firstFlight": "1991-05-31",
       "introduced": "1994",
       "status": "In production",
-      "numberBuilt": null,
+      "numberBuilt": "2,000 (as of May 2023[update])",
       "wikipedia": {
         "title": "Pilatus PC-12",
         "url": "https://en.wikipedia.org/wiki/Pilatus_PC-12",
@@ -2803,7 +2808,7 @@
         "dateTaken": "30 July 2004",
         "credit": "Chris Finney / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:13.344Z"
+      "retrievedAt": "2026-10-11T19:32:42.852Z"
     },
     {
       "id": "king-air",
@@ -2822,7 +2827,7 @@
       "firstFlight": "1963-05",
       "introduced": "1964-09-09",
       "status": "Active service",
-      "numberBuilt": null,
+      "numberBuilt": 3207,
       "wikipedia": {
         "title": "Beechcraft King Air",
         "url": "https://en.wikipedia.org/wiki/Beechcraft_King_Air",
@@ -2850,7 +2855,7 @@
         "dateTaken": "2016-09-24",
         "credit": "海上自衛隊 / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:14.345Z"
+      "retrievedAt": "2026-10-11T19:32:43.819Z"
     },
     {
       "id": "g650",
@@ -2897,7 +2902,7 @@
         "dateTaken": "2016-05-05 12:59",
         "credit": "Rob Hodgkins / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:15.197Z"
+      "retrievedAt": "2026-10-11T19:32:45.050Z"
     },
     {
       "id": "learjet35",
@@ -2910,7 +2915,9 @@
         "Learjet"
       ],
       "designer": null,
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "United States"
+      ],
       "firstFlight": "1973-08-22",
       "introduced": "1973",
       "status": "Operational",
@@ -2942,7 +2949,10 @@
         "dateTaken": "14 May 2013, 21:06 (original upload date)",
         "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:16.105Z"
+      "retrievedAt": "2026-10-11T19:32:45.907Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "citation-x",
@@ -2955,7 +2965,9 @@
         "Cessna"
       ],
       "designer": null,
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "United States"
+      ],
       "firstFlight": "1993-12-21",
       "introduced": "1996-06",
       "status": "In service",
@@ -2987,7 +2999,10 @@
         "dateTaken": "2012-04-01 15:01",
         "credit": "Tomás Del Coro from Las Vegas, Nevada, USA / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:16.949Z"
+      "retrievedAt": "2026-10-11T19:32:46.953Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "global7500",
@@ -3003,10 +3018,10 @@
       "countryOfOrigin": [
         "Canada"
       ],
-      "firstFlight": null,
+      "firstFlight": "2016-11-04",
       "introduced": "2018-12-20",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "200 as of September 2024",
       "wikipedia": {
         "title": "Bombardier Global 7500",
         "url": "https://en.wikipedia.org/wiki/Bombardier_Global_7500",
@@ -3034,7 +3049,10 @@
         "dateTaken": "2023-12-08",
         "credit": "KeepPhlyingHigh / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:17.865Z"
+      "retrievedAt": "2026-10-11T19:32:47.983Z",
+      "overridden": [
+        "firstFlight"
+      ]
     },
     {
       "id": "hondajet",
@@ -3082,7 +3100,7 @@
         "dateTaken": "2005-07-28",
         "credit": "Sergey Ryabtsev / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:18.686Z"
+      "retrievedAt": "2026-10-11T19:33:01.128Z"
     },
     {
       "id": "phenom300",
@@ -3129,7 +3147,7 @@
         "dateTaken": "6 June 2013",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:19.353Z"
+      "retrievedAt": "2026-10-11T19:33:02.078Z"
     },
     {
       "id": "c130",
@@ -3176,7 +3194,7 @@
         "dateTaken": null,
         "credit": "U.S. Air Force photo by Tech. Sgt. Howard Blair / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:20.371Z"
+      "retrievedAt": "2026-10-11T19:33:03.301Z"
     },
     {
       "id": "c17",
@@ -3224,7 +3242,7 @@
         "dateTaken": "2007-03-22",
         "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:21.277Z"
+      "retrievedAt": "2026-10-11T19:33:04.320Z"
     },
     {
       "id": "c5",
@@ -3271,7 +3289,7 @@
         "dateTaken": null,
         "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:21.854Z"
+      "retrievedAt": "2026-10-11T19:33:05.322Z"
     },
     {
       "id": "a400m",
@@ -3320,7 +3338,7 @@
         "dateTaken": "2017-07-12 16:35",
         "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:22.677Z"
+      "retrievedAt": "2026-10-11T19:33:06.771Z"
     },
     {
       "id": "an124",
@@ -3369,7 +3387,7 @@
         "dateTaken": "26 July 2008",
         "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:23.511Z"
+      "retrievedAt": "2026-10-11T19:33:08.030Z"
     },
     {
       "id": "an225",
@@ -3387,7 +3405,7 @@
       ],
       "firstFlight": "1988-12-21",
       "introduced": "1989",
-      "status": "Destroyed ; February&#160; 27,&#160; 2022&#160; (2022-02-27)",
+      "status": "Destroyed; February 27, 2022 (2022-02-27)",
       "numberBuilt": 1,
       "wikipedia": {
         "title": "Antonov An-225 Mriya",
@@ -3416,7 +3434,7 @@
         "dateTaken": "2018-04-03",
         "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:24.321Z"
+      "retrievedAt": "2026-10-11T19:33:09.141Z"
     },
     {
       "id": "il76",
@@ -3465,7 +3483,7 @@
         "dateTaken": "Unidentified",
         "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:25.084Z"
+      "retrievedAt": "2026-10-11T19:33:10.285Z"
     },
     {
       "id": "kc135",
@@ -3512,7 +3530,7 @@
         "dateTaken": "Taken on 25 February 2010",
         "credit": "U.S. Air Force photo/Tech. Sgt. Angelique Perez / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:26.042Z"
+      "retrievedAt": "2026-10-11T19:33:11.564Z"
     },
     {
       "id": "e3",
@@ -3560,7 +3578,7 @@
         "dateTaken": "2019-10-04",
         "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:26.842Z"
+      "retrievedAt": "2026-10-11T19:33:12.606Z"
     },
     {
       "id": "p8",
@@ -3579,7 +3597,7 @@
       "firstFlight": "2009-04-25",
       "introduced": "2013-11",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "187 as of 31 January 2026",
       "wikipedia": {
         "title": "Boeing P-8 Poseidon",
         "url": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon",
@@ -3607,7 +3625,7 @@
         "dateTaken": "2014-03-22 16:55:55",
         "credit": "Darren Koch / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:27.487Z"
+      "retrievedAt": "2026-10-11T19:33:13.708Z"
     },
     {
       "id": "p3",
@@ -3656,7 +3674,7 @@
         "dateTaken": "2017-09-09",
         "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:28.163Z"
+      "retrievedAt": "2026-10-11T19:33:14.668Z"
     },
     {
       "id": "v22",
@@ -3705,7 +3723,7 @@
         "dateTaken": "2014-10-03",
         "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:29.297Z"
+      "retrievedAt": "2026-10-11T19:33:15.938Z"
     },
     {
       "id": "c390",
@@ -3752,7 +3770,7 @@
         "dateTaken": "2019-06-17",
         "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:30.257Z"
+      "retrievedAt": "2026-10-11T19:33:17.027Z"
     },
     {
       "id": "kawasaki-c2",
@@ -3771,7 +3789,7 @@
       "firstFlight": "2010-01-26",
       "introduced": "2016-06",
       "status": "In service, in production",
-      "numberBuilt": null,
+      "numberBuilt": 21,
       "wikipedia": {
         "title": "Kawasaki C-2",
         "url": "https://en.wikipedia.org/wiki/Kawasaki_C-2",
@@ -3799,7 +3817,7 @@
         "dateTaken": "2018-05-27",
         "credit": "Hunini / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:30.965Z"
+      "retrievedAt": "2026-10-11T19:33:18.039Z"
     },
     {
       "id": "sr71",
@@ -3846,7 +3864,7 @@
         "dateTaken": "1994-12",
         "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:32.253Z"
+      "retrievedAt": "2026-10-11T19:33:19.425Z"
     },
     {
       "id": "u2",
@@ -3893,7 +3911,7 @@
         "dateTaken": "between 1955 and 1998date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1955-00-00T00:00:00Z/9,P1326,+1998-00-00T00:00:00Z/9",
         "credit": "United States Department of the Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:33.095Z"
+      "retrievedAt": "2026-10-11T19:33:20.289Z"
     },
     {
       "id": "mq9",
@@ -3912,7 +3930,7 @@
       "firstFlight": "2001-02-02",
       "introduced": "2007-10",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "575 as of 2026[update]",
       "wikipedia": {
         "title": "General Atomics MQ-9 Reaper",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper",
@@ -3940,7 +3958,7 @@
         "dateTaken": "Taken on 29 November 2008",
         "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:34.301Z"
+      "retrievedAt": "2026-10-11T19:33:21.573Z"
     },
     {
       "id": "rq4",
@@ -3966,7 +3984,7 @@
       "firstFlight": "1998-02-28",
       "introduced": "2001-11",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "42 RQ-4Bs as of FY2013",
       "wikipedia": {
         "title": "Northrop Grumman RQ-4 Global Hawk",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk",
@@ -3994,7 +4012,7 @@
         "dateTaken": "2007-03-01",
         "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:35.373Z"
+      "retrievedAt": "2026-10-11T19:33:22.719Z"
     },
     {
       "id": "b52",
@@ -4041,7 +4059,7 @@
         "dateTaken": "2014-05-15",
         "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:28:36.456Z"
+      "retrievedAt": "2026-10-11T19:33:24.172Z"
     },
     {
       "id": "b1",
@@ -4089,7 +4107,7 @@
         "dateTaken": "2019-05-10",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:01.567Z"
+      "retrievedAt": "2026-10-11T19:33:25.461Z"
     },
     {
       "id": "b2",
@@ -4137,7 +4155,7 @@
         "dateTaken": "2019-08-29 14:16:58",
         "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:02.479Z"
+      "retrievedAt": "2026-10-11T19:33:26.746Z"
     },
     {
       "id": "b21",
@@ -4156,7 +4174,7 @@
       "firstFlight": "2023-11-10",
       "introduced": null,
       "status": "Low rate initial production",
-      "numberBuilt": null,
+      "numberBuilt": "3 (as of 2024)",
       "wikipedia": {
         "title": "Northrop Grumman B-21 Raider",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_B-21_Raider",
@@ -4184,7 +4202,7 @@
         "dateTaken": "2024-04-04",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:03.606Z"
+      "retrievedAt": "2026-10-11T19:33:27.866Z"
     },
     {
       "id": "tu95",
@@ -4233,7 +4251,7 @@
         "dateTaken": "2021-08-10",
         "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:04.395Z"
+      "retrievedAt": "2026-10-11T19:33:29.172Z"
     },
     {
       "id": "tu160",
@@ -4282,7 +4300,7 @@
         "dateTaken": "2014-05",
         "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:06.262Z"
+      "retrievedAt": "2026-10-11T19:33:30.611Z"
     },
     {
       "id": "tu22m",
@@ -4330,7 +4348,7 @@
         "dateTaken": "2015-07-02 17:16",
         "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:07.068Z"
+      "retrievedAt": "2026-10-11T19:33:31.875Z"
     },
     {
       "id": "vulcan",
@@ -4378,7 +4396,7 @@
         "dateTaken": "2015-10-11",
         "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:08.131Z"
+      "retrievedAt": "2026-10-11T19:33:33.030Z"
     },
     {
       "id": "f22",
@@ -4429,7 +4447,7 @@
         "dateTaken": "2009-02-18 21:40",
         "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:09.404Z"
+      "retrievedAt": "2026-10-11T19:33:34.292Z"
     },
     {
       "id": "f35",
@@ -4480,7 +4498,7 @@
         "dateTaken": "2013-05-15 00:44:57",
         "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:11.299Z"
+      "retrievedAt": "2026-10-11T19:33:35.679Z"
     },
     {
       "id": "f16",
@@ -4491,7 +4509,7 @@
       ],
       "description": "American multi-role fighter aircraft",
       "summary": "The General Dynamics F-16 Fighting Falcon is an American single-engine supersonic multirole fourth-generation fighter aircraft developed by General Dynamics and produced by multiple companies, including General Dynamics until 1993 and Lockheed Martin since. Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft with over 4,600 built since 1976.",
-      "role": "Multirole fighter, ; air superiority fighter",
+      "role": "Multirole fighter; air superiority fighter",
       "manufacturer": [
         "General Dynamics",
         "Lockheed Martin",
@@ -4536,7 +4554,7 @@
         "dateTaken": "2008-06-10",
         "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:12.156Z"
+      "retrievedAt": "2026-10-11T19:33:37.160Z"
     },
     {
       "id": "fa18",
@@ -4588,7 +4606,7 @@
         "dateTaken": "2009-10-15",
         "credit": "US Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:13.207Z"
+      "retrievedAt": "2026-10-11T19:33:38.462Z"
     },
     {
       "id": "fa18ef",
@@ -4609,7 +4627,7 @@
       "firstFlight": "1995-11-29",
       "introduced": "2001-09",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "≥632 as of April 2020",
       "wikipedia": {
         "title": "Boeing F/A-18E/F Super Hornet",
         "url": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet",
@@ -4637,7 +4655,7 @@
         "dateTaken": "Taken on 3 December 2007",
         "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:14.211Z"
+      "retrievedAt": "2026-10-11T19:33:39.746Z"
     },
     {
       "id": "f15",
@@ -4688,7 +4706,7 @@
         "dateTaken": "2023-08-01 12:10:16",
         "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:14.900Z"
+      "retrievedAt": "2026-10-11T19:33:40.763Z"
     },
     {
       "id": "f14",
@@ -4738,7 +4756,7 @@
         "dateTaken": "2005-11-05",
         "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:15.722Z"
+      "retrievedAt": "2026-10-11T19:33:41.836Z"
     },
     {
       "id": "a10",
@@ -4788,7 +4806,7 @@
         "dateTaken": "2011-05-08",
         "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:16.534Z"
+      "retrievedAt": "2026-10-11T19:33:43.197Z"
     },
     {
       "id": "typhoon",
@@ -4841,7 +4859,7 @@
         "dateTaken": "2007-03-08",
         "credit": "Chris Lofting / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:17.349Z"
+      "retrievedAt": "2026-10-11T19:33:44.346Z"
     },
     {
       "id": "rafale",
@@ -4891,7 +4909,7 @@
         "dateTaken": "2009-07-18 09:30",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:18.765Z"
+      "retrievedAt": "2026-10-11T19:33:45.692Z"
     },
     {
       "id": "gripen",
@@ -4941,7 +4959,7 @@
         "dateTaken": "2017-08-02",
         "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:20.158Z"
+      "retrievedAt": "2026-10-11T19:33:47.121Z"
     },
     {
       "id": "tornado",
@@ -4993,7 +5011,7 @@
         "dateTaken": "2012-10-12 13:38:56",
         "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:21.421Z"
+      "retrievedAt": "2026-10-11T19:33:48.392Z"
     },
     {
       "id": "su27",
@@ -5036,16 +5054,16 @@
         "originalWidth": 2170,
         "originalHeight": 1440,
         "mime": "image/jpeg",
-        "author": "Dmitriy Pichugin",
-        "license": "GFDL 1.2",
-        "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
-        "attributionRequired": true,
+        "author": null,
+        "license": null,
+        "licenseUrl": null,
+        "attributionRequired": null,
         "free": true,
-        "caption": "Sukhoi Su-27SKM multirole fighter at MAKS-2005 airshow",
-        "dateTaken": "Taken on 21 August 2005",
-        "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
+        "caption": null,
+        "dateTaken": null,
+        "credit": "Unknown author / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:22.255Z"
+      "retrievedAt": "2026-10-11T19:33:49.635Z"
     },
     {
       "id": "su35",
@@ -5065,7 +5083,7 @@
       "firstFlight": "2008-02-19",
       "introduced": "2014-02-12",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "Su-27M: 12; Su-35S: 155+",
       "wikipedia": {
         "title": "Sukhoi Su-35",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-35",
@@ -5093,7 +5111,7 @@
         "dateTaken": "Taken on 29 August 2019, 16:06",
         "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:23.105Z"
+      "retrievedAt": "2026-10-11T19:33:50.895Z"
     },
     {
       "id": "su57",
@@ -5143,7 +5161,7 @@
         "dateTaken": "2019-08-29 17:32",
         "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:24.574Z"
+      "retrievedAt": "2026-10-11T19:34:01.330Z"
     },
     {
       "id": "mig29",
@@ -5197,7 +5215,7 @@
         "dateTaken": "Taken on 6 August 2012, 16:30",
         "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:25.433Z"
+      "retrievedAt": "2026-10-11T19:34:02.704Z"
     },
     {
       "id": "mig21",
@@ -5225,7 +5243,7 @@
       "firstFlight": "1956-02-14",
       "introduced": "1959",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "11,496; (10,645 produced in the USSR, 840 in India, 194 in Czechoslovakia)",
       "wikipedia": {
         "title": "Mikoyan-Gurevich MiG-21",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21",
@@ -5253,7 +5271,7 @@
         "dateTaken": "2020-01-10",
         "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:26.302Z"
+      "retrievedAt": "2026-10-11T19:34:04.005Z"
     },
     {
       "id": "mig25",
@@ -5301,7 +5319,7 @@
         "dateTaken": "Taken on 23 August 2003",
         "credit": "Leonid Faerberg (transport-photo.com) / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:27.377Z"
+      "retrievedAt": "2026-10-11T19:34:05.498Z"
     },
     {
       "id": "mig31",
@@ -5309,7 +5327,7 @@
       "group": "fighter-attack",
       "description": "Interceptor aircraft",
       "summary": "The Mikoyan MiG-31 is a supersonic interceptor aircraft developed for the Soviet Air Forces by the Mikoyan design bureau as a replacement for the MiG-25 \"Foxbat\", on which it is based and with which it shares design elements.",
-      "role": "Interceptor aircraft, strike fighter&#91; citation needed&#93",
+      "role": "Interceptor aircraft, strike fighter",
       "manufacturer": [
         "Russian Aircraft Corporation MiG",
         "Sokol"
@@ -5349,7 +5367,7 @@
         "dateTaken": "2012-03-31",
         "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:28.212Z"
+      "retrievedAt": "2026-10-11T19:34:06.721Z"
     },
     {
       "id": "j20",
@@ -5371,7 +5389,7 @@
       "firstFlight": "2011-01-11",
       "introduced": "2017-03-09",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "500 (As of mid-2026)",
       "wikipedia": {
         "title": "Chengdu J-20",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-20",
@@ -5399,7 +5417,7 @@
         "dateTaken": "2022-08-27 10:34:24",
         "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:29.073Z"
+      "retrievedAt": "2026-10-11T19:34:07.804Z"
     },
     {
       "id": "j10",
@@ -5446,7 +5464,7 @@
         "dateTaken": "2018-11-01",
         "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:30.048Z"
+      "retrievedAt": "2026-10-11T19:34:08.988Z"
     },
     {
       "id": "mirage2000",
@@ -5496,7 +5514,7 @@
         "dateTaken": "1999-05-15",
         "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:30.998Z"
+      "retrievedAt": "2026-10-11T19:34:09.969Z"
     },
     {
       "id": "f4",
@@ -5547,7 +5565,7 @@
         "dateTaken": "2008-11-18",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:31.967Z"
+      "retrievedAt": "2026-10-11T19:34:11.471Z"
     },
     {
       "id": "f117",
@@ -5597,7 +5615,7 @@
         "dateTaken": "2002-08-06",
         "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:33.082Z"
+      "retrievedAt": "2026-10-11T19:34:12.707Z"
     },
     {
       "id": "harrier",
@@ -5616,7 +5634,7 @@
       "countryOfOrigin": [
         "United Kingdom"
       ],
-      "firstFlight": null,
+      "firstFlight": "1967-12-28",
       "introduced": "1969",
       "status": "In service",
       "numberBuilt": null,
@@ -5647,7 +5665,10 @@
         "dateTaken": "2015-09-19 11:50",
         "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:33.676Z"
+      "retrievedAt": "2026-10-11T19:34:13.674Z",
+      "overridden": [
+        "firstFlight"
+      ]
     },
     {
       "id": "tejas",
@@ -5666,7 +5687,7 @@
       "firstFlight": "2001-01-04",
       "introduced": "2016-07-01",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "45 (plus 17 prototypes)",
       "wikipedia": {
         "title": "HAL Tejas",
         "url": "https://en.wikipedia.org/wiki/HAL_Tejas",
@@ -5694,7 +5715,7 @@
         "dateTaken": "2023-06-30",
         "credit": "Goverrnment of India / GODL-India / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:34.620Z"
+      "retrievedAt": "2026-10-11T19:34:15.042Z"
     },
     {
       "id": "kf21",
@@ -5702,7 +5723,7 @@
       "group": "fighter-attack",
       "description": "South Korean fighter aircraft",
       "summary": "The KAI KF-21 Boramae is a South Korean twin-engine fighter aircraft. The initial goal of the program was to develop an indigenous multirole fighter for the Republic of Korea Air Force (ROKAF). The airframe of Blocks I and II adopts semi-stealth technology with partially embedded external weapons and MUM-T capabilities, while full stealth, including internal weapons bays is planned for the Block III or KF-21EX variant. As South Korea's second domestic fighter jet development program following the FA-50 series, the KF-21 makes the nation the fourth in the world—joining the United States, China, and Russia—to produce an aircraft featuring stealth avionic architecture.",
-      "role": "Block 1: Air superiority fighter ; Block 2: Multirole combat aircraft ; Block 3: Stealth multirole combat aircraft",
+      "role": "Block 1: Air superiority fighter; Block 2: Multirole combat aircraft; Block 3: Stealth multirole combat aircraft",
       "manufacturer": [
         "Korea Aerospace Industries"
       ],
@@ -5713,7 +5734,7 @@
       "firstFlight": "2022-07-19",
       "introduced": "2026-09-22",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "KAI: 6 prototypes; ROKAF: 1 (40 orders)",
       "wikipedia": {
         "title": "KAI KF-21 Boramae",
         "url": "https://en.wikipedia.org/wiki/KAI_KF-21_Boramae",
@@ -5741,7 +5762,7 @@
         "dateTaken": "2023.12.21",
         "credit": "대한민국 국방부 - Ministry of National Defense of the Republic of Korea / KOGL Type 1 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:35.528Z"
+      "retrievedAt": "2026-10-11T19:34:16.604Z"
     },
     {
       "id": "viggen",
@@ -5788,7 +5809,7 @@
         "dateTaken": "2022-07-15 14:35",
         "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:36.322Z"
+      "retrievedAt": "2026-10-11T19:34:17.745Z"
     },
     {
       "id": "f5",
@@ -5807,7 +5828,7 @@
       "firstFlight": "1959-07-30",
       "introduced": "1962",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "A/B/C/D: 1,204; E/F: 1,399",
       "wikipedia": {
         "title": "Northrop F-5",
         "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
@@ -5835,7 +5856,7 @@
         "dateTaken": "2012-10-01 00:00:00",
         "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:37.455Z"
+      "retrievedAt": "2026-10-11T19:34:18.834Z"
     },
     {
       "id": "hawk",
@@ -5885,7 +5906,7 @@
         "dateTaken": "2011-07-15 16:02",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:38.125Z"
+      "retrievedAt": "2026-10-11T19:34:19.928Z"
     },
     {
       "id": "l39",
@@ -5932,7 +5953,7 @@
         "dateTaken": "2014-08-06",
         "credit": "Milan Nykodym / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:38.948Z"
+      "retrievedAt": "2026-10-11T19:34:21.106Z"
     },
     {
       "id": "t38",
@@ -5979,7 +6000,7 @@
         "dateTaken": "2010-08-12",
         "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:39.956Z"
+      "retrievedAt": "2026-10-11T19:34:22.036Z"
     },
     {
       "id": "alpha-jet",
@@ -6027,7 +6048,7 @@
         "dateTaken": "2008-06-02 17:04",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:41.504Z"
+      "retrievedAt": "2026-10-11T19:34:22.981Z"
     },
     {
       "id": "wright-flyer",
@@ -6074,7 +6095,7 @@
         "dateTaken": "1903-12-17",
         "credit": "John T. Daniels / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:42.583Z"
+      "retrievedAt": "2026-10-11T19:34:24.093Z"
     },
     {
       "id": "spitfire",
@@ -6121,7 +6142,7 @@
         "dateTaken": "2018-05-15",
         "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:43.420Z"
+      "retrievedAt": "2026-10-11T19:34:25.283Z"
     },
     {
       "id": "hurricane",
@@ -6168,7 +6189,7 @@
         "dateTaken": "2017-05-07 15:52",
         "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:44.288Z"
+      "retrievedAt": "2026-10-11T19:34:26.317Z"
     },
     {
       "id": "p51",
@@ -6211,11 +6232,11 @@
         "licenseUrl": null,
         "attributionRequired": false,
         "free": true,
-        "caption": "P-51D-5NA Mustang 44-13357; Lt Vernon Richards, Tika IV 8th AF / 374th FS / 361s t FG. ; Was later assigned to Lt. Alfred B Cook Jr who renamed it Sailor Girl Shirl - KIA 16 Nov 44 - crashed near Little Walden.",
+        "caption": "P-51D-5NA Mustang 44-13357; Lt Vernon Richards, Tika IV 8th AF / 374th FS / 361s t FG.; Was later assigned to Lt. Alfred B Cook Jr who renamed it Sailor Girl Shirl - KIA 16 Nov 44 - crashed near Little Walden.",
         "dateTaken": null,
         "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:29:45.402Z"
+      "retrievedAt": "2026-10-11T19:34:27.584Z"
     },
     {
       "id": "bf109",
@@ -6234,7 +6255,7 @@
       "firstFlight": "1935-05",
       "introduced": "1937",
       "status": "Retired",
-      "numberBuilt": null,
+      "numberBuilt": "34,248; +603 Avia S-199; +239 HA-1112",
       "wikipedia": {
         "title": "Messerschmitt Bf 109",
         "url": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109",
@@ -6262,7 +6283,7 @@
         "dateTaken": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
         "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:01.404Z"
+      "retrievedAt": "2026-10-11T19:34:28.755Z"
     },
     {
       "id": "a6m",
@@ -6309,7 +6330,7 @@
         "dateTaken": "2007-09-29",
         "credit": "Kogo / GFDL / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:02.240Z"
+      "retrievedAt": "2026-10-11T19:34:30.051Z"
     },
     {
       "id": "f4u",
@@ -6358,7 +6379,7 @@
         "dateTaken": "2012-08-07",
         "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:03.003Z"
+      "retrievedAt": "2026-10-11T19:34:31.481Z"
     },
     {
       "id": "p38",
@@ -6405,7 +6426,7 @@
         "dateTaken": "2009-04-04 13:26:39",
         "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:04.231Z"
+      "retrievedAt": "2026-10-11T19:34:32.455Z"
     },
     {
       "id": "mosquito",
@@ -6452,7 +6473,7 @@
         "dateTaken": "between 1942 and 1943date QS:P,+1942-00-00T00:00:00Z/8,P1319,+1942-00-00T00:00:00Z/9,P1326,+1943-00-00T00:00:00Z/9",
         "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:05.377Z"
+      "retrievedAt": "2026-10-11T19:34:33.560Z"
     },
     {
       "id": "b17",
@@ -6499,7 +6520,7 @@
         "dateTaken": "2018-06-26",
         "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:06.163Z"
+      "retrievedAt": "2026-10-11T19:34:34.707Z"
     },
     {
       "id": "b29",
@@ -6546,7 +6567,7 @@
         "dateTaken": "2019-10-26 12:27:07",
         "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:07.166Z"
+      "retrievedAt": "2026-10-11T19:34:35.633Z"
     },
     {
       "id": "lancaster",
@@ -6593,7 +6614,7 @@
         "dateTaken": "2018-09-29",
         "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:07.869Z"
+      "retrievedAt": "2026-10-11T19:34:36.587Z"
     },
     {
       "id": "ah64",
@@ -6646,7 +6667,7 @@
         "dateTaken": "2005-12-05",
         "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:08.692Z"
+      "retrievedAt": "2026-10-11T19:34:37.656Z"
     },
     {
       "id": "uh1",
@@ -6696,7 +6717,7 @@
         "dateTaken": "2018-04-30 17:55",
         "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:09.401Z"
+      "retrievedAt": "2026-10-11T19:34:38.680Z"
     },
     {
       "id": "ch47",
@@ -6750,7 +6771,7 @@
         "dateTaken": "2017-05-25",
         "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:10.578Z"
+      "retrievedAt": "2026-10-11T19:34:39.831Z"
     },
     {
       "id": "uh60",
@@ -6800,7 +6821,7 @@
         "dateTaken": "2019-03-11",
         "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:11.447Z"
+      "retrievedAt": "2026-10-11T19:34:41.197Z"
     },
     {
       "id": "ch53",
@@ -6850,7 +6871,7 @@
         "dateTaken": "2012-05-26",
         "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:12.074Z"
+      "retrievedAt": "2026-10-11T19:34:42.179Z"
     },
     {
       "id": "ah1",
@@ -6900,7 +6921,7 @@
         "dateTaken": "2018-11-06 03:03:59",
         "credit": "US Army / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:12.914Z"
+      "retrievedAt": "2026-10-11T19:34:43.035Z"
     },
     {
       "id": "mi24",
@@ -6951,7 +6972,7 @@
         "dateTaken": "2002-06-22",
         "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:13.585Z"
+      "retrievedAt": "2026-10-11T19:34:44.186Z"
     },
     {
       "id": "mi8",
@@ -7003,64 +7024,15 @@
         "dateTaken": "2010-06-06",
         "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:14.508Z"
-    },
-    {
-      "id": "ka52",
-      "name": "Kamov Ka-50",
-      "group": "helicopter",
-      "packAnswerIds": [
-        "ka52"
-      ],
-      "description": "Attack helicopter",
-      "summary": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995. The Ka-50 is manufactured by the Progress company in Arsenyev. It is used as a heavily armed scout helicopter and has a rescue ejection system, rare for helicopters.",
-      "role": "Attack helicopter, scout helicopter",
-      "manufacturer": [
-        "Kamov"
-      ],
-      "designer": null,
-      "countryOfOrigin": [
-        "Soviet Union"
-      ],
-      "firstFlight": "1982-06-17",
-      "introduced": "1995-08-28",
-      "status": "In service",
-      "numberBuilt": 16,
-      "wikipedia": {
-        "title": "Kamov Ka-50",
-        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
-        "pageId": 16917,
-        "revisionId": 1378206786
-      },
-      "wikidataId": "Q269250",
-      "photo": {
-        "file": "assets/aircraft/ka52.jpg",
-        "sourceFile": "File:Russian Air Force Kamov Ka-50.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_Kamov_Ka-50.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Russian_Air_Force_Kamov_Ka-50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Russian_Air_Force_Kamov_Ka-50.jpg/960px-Russian_Air_Force_Kamov_Ka-50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "width": 960,
-        "height": 629,
-        "originalWidth": 1613,
-        "originalHeight": 1057,
-        "mime": "image/jpeg",
-        "author": "Dmitriy Pichugin",
-        "license": "GFDL 1.2",
-        "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
-        "attributionRequired": true,
-        "free": true,
-        "caption": "Russian Air Force Kamov Ka-50.",
-        "dateTaken": "Taken on 17 August 2005",
-        "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
-      },
-      "retrievedAt": "2026-10-11T19:30:15.460Z"
+      "retrievedAt": "2026-10-11T19:34:45.291Z"
     },
     {
       "id": "ka50",
       "name": "Kamov Ka-50",
       "group": "helicopter",
       "packAnswerIds": [
-        "ka50"
+        "ka50",
+        "ka52"
       ],
       "description": "Attack helicopter",
       "summary": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995. The Ka-50 is manufactured by the Progress company in Arsenyev. It is used as a heavily armed scout helicopter and has a rescue ejection system, rare for helicopters.",
@@ -7103,7 +7075,7 @@
         "dateTaken": "Taken on 17 August 2005",
         "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:16.205Z"
+      "retrievedAt": "2026-10-11T19:34:46.665Z"
     },
     {
       "id": "tiger",
@@ -7154,7 +7126,7 @@
         "dateTaken": "2017-07-30",
         "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:17.232Z"
+      "retrievedAt": "2026-10-11T19:34:47.841Z"
     },
     {
       "id": "r22",
@@ -7170,11 +7142,13 @@
         "Robinson Helicopter Company"
       ],
       "designer": "Frank D. Robinson",
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "United States"
+      ],
       "firstFlight": "1975",
       "introduced": "1979",
       "status": "In production",
-      "numberBuilt": null,
+      "numberBuilt": "over 4,800 (2019)",
       "wikipedia": {
         "title": "Robinson R22",
         "url": "https://en.wikipedia.org/wiki/Robinson_R22",
@@ -7202,7 +7176,10 @@
         "dateTaken": "2020-07-04",
         "credit": "Jeroen Stroes Aviation Photography / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:17.992Z"
+      "retrievedAt": "2026-10-11T19:34:48.765Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "r44",
@@ -7215,11 +7192,13 @@
         "Robinson Helicopter Company"
       ],
       "designer": "Frank D. Robinson",
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "United States"
+      ],
       "firstFlight": "1990-03-31",
       "introduced": "1993",
       "status": "In production",
-      "numberBuilt": null,
+      "numberBuilt": "6,866+ (through 2023)",
       "wikipedia": {
         "title": "Robinson R44",
         "url": "https://en.wikipedia.org/wiki/Robinson_R44",
@@ -7247,7 +7226,10 @@
         "dateTaken": "2009-09-05",
         "credit": "D. Miller / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:18.912Z"
+      "retrievedAt": "2026-10-11T19:34:49.553Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "bell206",
@@ -7299,7 +7281,7 @@
         "dateTaken": "2006-10-20",
         "credit": "Mfield - Matthew Field, http://www.photography.mattfield.com / CC BY 2.5 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:19.900Z"
+      "retrievedAt": "2026-10-11T19:34:50.415Z"
     },
     {
       "id": "h125",
@@ -7342,16 +7324,16 @@
         "originalWidth": 1600,
         "originalHeight": 1067,
         "mime": "image/jpeg",
-        "author": "fir0002 ; flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L",
+        "author": "fir0002; flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L",
         "license": "GFDL 1.2",
         "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
         "attributionRequired": true,
         "free": true,
         "caption": "RAN Squirrel Helicopter at the Melbourne GP. Taken in Victoria, Australia in March 2008",
         "dateTaken": "2008-03",
-        "credit": "fir0002 ; flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L / GFDL 1.2 / via Wikimedia Commons"
+        "credit": "fir0002; flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:21.024Z"
+      "retrievedAt": "2026-10-11T19:35:01.658Z"
     },
     {
       "id": "s76",
@@ -7401,7 +7383,7 @@
         "dateTaken": "2009-07-19 10:46",
         "credit": "Contando Estrelas from Vigo, España / Spain / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:21.810Z"
+      "retrievedAt": "2026-10-11T19:35:02.778Z"
     },
     {
       "id": "h145",
@@ -7425,7 +7407,7 @@
       "firstFlight": "1999-06-12",
       "introduced": "2002",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "1,600 (June 2023)",
       "wikipedia": {
         "title": "Eurocopter EC145",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_EC145",
@@ -7453,7 +7435,7 @@
         "dateTaken": "2013-12-11",
         "credit": "Greg Kramer / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:22.710Z"
+      "retrievedAt": "2026-10-11T19:35:03.820Z"
     },
     {
       "id": "h135",
@@ -7472,7 +7454,7 @@
       "firstFlight": "1994-02-01",
       "introduced": "1996-07-31",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "1,400 (Sep. 2020)",
       "wikipedia": {
         "title": "Eurocopter EC135",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_EC135",
@@ -7500,7 +7482,7 @@
         "dateTaken": "2011-07-13 12:02",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:23.308Z"
+      "retrievedAt": "2026-10-11T19:35:04.636Z"
     },
     {
       "id": "md500",
@@ -7522,7 +7504,7 @@
       "firstFlight": "1963",
       "introduced": "1967",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": 4700,
       "wikipedia": {
         "title": "MD Helicopters MD 500",
         "url": "https://en.wikipedia.org/wiki/MD_Helicopters_MD_500",
@@ -7550,7 +7532,7 @@
         "dateTaken": "2008-06",
         "credit": "Adrian Pingstone (Arpingstone) / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:23.906Z"
+      "retrievedAt": "2026-10-11T19:35:05.625Z"
     },
     {
       "id": "aw101",
@@ -7600,7 +7582,7 @@
         "dateTaken": "2015-09-04",
         "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:24.942Z"
+      "retrievedAt": "2026-10-11T19:35:06.651Z"
     },
     {
       "id": "aw139",
@@ -7643,11 +7625,11 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "attributionRequired": true,
         "free": true,
-        "caption": "An AW139 Spanish Maritime Rescue over Air Festival of La Coruña, Spain , 2014",
+        "caption": "An AW139 Spanish Maritime Rescue over Air Festival of La Coruña, Spain, 2014",
         "dateTaken": "2014-07-20 15:08:49",
         "credit": "Contando Estrelas / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:25.814Z"
+      "retrievedAt": "2026-10-11T19:35:07.650Z"
     },
     {
       "id": "bell47",
@@ -7700,7 +7682,7 @@
         "dateTaken": "2017-08-09",
         "credit": "Peter Bakema / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:26.950Z"
+      "retrievedAt": "2026-10-11T19:35:08.689Z"
     },
     {
       "id": "ch54",
@@ -7716,7 +7698,9 @@
         "Sikorsky Aircraft Corporation"
       ],
       "designer": null,
-      "countryOfOrigin": [],
+      "countryOfOrigin": [
+        "United States"
+      ],
       "firstFlight": "1962",
       "introduced": null,
       "status": "Retired",
@@ -7748,7 +7732,10 @@
         "dateTaken": null,
         "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:27.874Z"
+      "retrievedAt": "2026-10-11T19:35:09.571Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     },
     {
       "id": "mi26",
@@ -7797,7 +7784,7 @@
         "dateTaken": "2013-08-27 19:05:15",
         "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:28.571Z"
+      "retrievedAt": "2026-10-11T19:35:10.513Z"
     },
     {
       "id": "sh60",
@@ -7844,7 +7831,7 @@
         "dateTaken": null,
         "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:29.266Z"
+      "retrievedAt": "2026-10-11T19:35:11.563Z"
     },
     {
       "id": "s92",
@@ -7863,7 +7850,7 @@
       "firstFlight": "1998-12-23",
       "introduced": "2004",
       "status": "In service",
-      "numberBuilt": null,
+      "numberBuilt": "at least 300",
       "wikipedia": {
         "title": "Sikorsky S-92",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_S-92",
@@ -7891,7 +7878,7 @@
         "dateTaken": "2013-08-04",
         "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:30:30.165Z"
+      "retrievedAt": "2026-10-11T19:35:12.476Z"
     }
   ]
 }
