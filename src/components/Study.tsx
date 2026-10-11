@@ -26,19 +26,24 @@ export function Study({ pack, onRestart, onQuit }: StudyProps) {
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (done) return;
+      // Leave held keys and browser/OS shortcuts alone.
+      if (done || e.repeat || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === " " || e.key === "Enter") {
+        // Space/Enter on another control (Quit, theme, exit link) should press it, not flip the card.
+        const target = e.target as Element | null;
+        if (target?.closest("button, a, input, select, textarea") && !target.closest(".flashcard")) return;
         e.preventDefault();
         setSession(flip);
-      } else if (session.flipped && (e.key === "ArrowLeft" || e.key === "1")) {
+      } else if (e.key === "ArrowLeft" || e.key === "1") {
+        // `mark` ignores cards that haven't been flipped yet.
         setSession((s) => mark(s, false));
-      } else if (session.flipped && (e.key === "ArrowRight" || e.key === "2")) {
+      } else if (e.key === "ArrowRight" || e.key === "2") {
         setSession((s) => mark(s, true));
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [done, session.flipped]);
+  }, [done]);
 
   const accentStyle = { ["--accent" as string]: pack.theme.accent };
 
@@ -96,14 +101,14 @@ export function Study({ pack, onRestart, onQuit }: StudyProps) {
       </div>
 
       <button
-        key={card.id + session.queue.length}
+        key={session.step}
         className={`flashcard${session.flipped ? " flipped" : ""}`}
         onClick={() => setSession(flip)}
         aria-label={session.flipped ? `Answer: ${card.label}. Tap to flip back` : "Tap to reveal the answer"}
       >
         <div className="flashcard-inner">
           <div className="flashcard-face flashcard-front">
-            <img src={card.resolvedImage} alt={card.alt ?? "Identify this aircraft"} />
+            <img src={card.resolvedImage} alt={card.alt ?? "Identify this image"} />
           </div>
           <div className="flashcard-face flashcard-back" aria-live="polite">
             <p className="flashcard-label">{session.flipped ? card.label : ""}</p>

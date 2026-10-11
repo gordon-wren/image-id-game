@@ -30,7 +30,7 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
 
-**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, opened from the Study button under Play in the column browser's pack preview. `buildDeck` turns a pack into image/label cards (labels looked up from any question's options); the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
+**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, opened from the Study button under Play in the column browser's pack preview. `buildDeck` turns a pack into image/label cards, sharing `orderQuestions` and `answerLabel` with the game (`pack.ts`) so both show the same names; the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
 
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.
 
