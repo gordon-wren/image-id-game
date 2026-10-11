@@ -5,7 +5,7 @@
 // Sources, per aircraft:
 //   - Wikipedia REST summary  -> name, short description, intro extract, Wikidata id
 //   - Wikipedia pageimages    -> the article's lead ("title") photo, free images only
-//   - Wikipedia infobox       -> role/type, manufacturer, origin, first flight (fallbacks)
+//   - Wikipedia infobox       -> role/type, designer, status; lead photo; fallbacks for the rest
 //   - Wikidata                -> structured manufacturer, country, first flight, intro, number built
 //   - Commons imageinfo       -> photo URL, license, author, attribution
 //
@@ -78,72 +78,46 @@ function stripHtml(s) {
     .trim();
 }
 
-/** Parses a date template like {{start date|1969|2|9}} into an ISO-ish string. */
-function dateFromTemplate(s) {
-  const m = s.match(
-    /\{\{\s*(?:start[ _]date(?:[ _]and[ _]age)?|date|birth date)\s*\|(?:[a-z]+=[^|}]*\|)*\s*(\d{3,4})\s*(?:\|\s*(\d{1,2})\s*)?(?:\|\s*(\d{1,2})\s*)?/i,
-  );
-  if (!m) return null;
-  const [, y, mo, d] = m;
-  return [y.padStart(4, "0"), mo?.padStart(2, "0"), d?.padStart(2, "0")].filter(Boolean).join("-");
-}
+const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
-function cleanWikitext(s) {
-  let t = s
-    .replace(/<!--[\s\S]*?-->/g, "")
-    .replace(/<ref[^>]*\/>/gi, "")
-    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, "");
-  // Unwrap list templates: {{ubl|a|b}}, {{plainlist|* a * b}}, {{hlist|a|b}}.
-  t = t.replace(/\{\{\s*(?:ubl|unbulleted list|hlist|flatlist|plainlist|plain list)\s*\|([\s\S]*?)\}\}/gi, (_, inner) =>
-    inner.split(/\||\n\s*\*/).map((x) => x.replace(/^\s*\*\s*/, "").trim()).filter(Boolean).join("; "),
-  );
-  // Date templates -> ISO.
-  t = t.replace(/\{\{\s*(?:start[ _]date(?:[ _]and[ _]age)?|date)\s*\|[^{}]*\}\}/gi, (m) => dateFromTemplate(m) ?? "");
-  // Drop remaining templates (flags, cite, nowrap content kept when simple).
-  t = t.replace(/\{\{\s*nowrap\s*\|([^{}]*)\}\}/gi, "$1");
-  for (let i = 0; i < 5; i++) t = t.replace(/\{\{[^{}]*\}\}/g, "");
-  // Links.
-  t = t.replace(/\[\[(?:[^|\]]*\|)?([^\]]*)\]\]/g, "$1").replace(/\[https?:[^\s\]]+\s*([^\]]*)\]/g, "$1");
-  t = t.replace(/'''?/g, "").replace(/^\s*\*\s*/gm, "").replace(/\n+/g, "; ");
-  return stripHtml(t).replace(/^[;,\s]+|[;,\s]+$/g, "").replace(/(;\s*)+/g, "; ");
-}
-
-/** Pulls `| key = value` pairs out of the first {{Infobox aircraft ...}} block(s). */
-function parseInfobox(wikitext) {
-  const fields = {};
-  const re = /\{\{\s*Infobox[ _]aircraft[^|]*/gi;
+/** Finds the first date in free text ("9 February 1969", "February 9, 1969", "March 1959", "1938") as ISO. */
+function parseDate(s) {
+  if (!s) return null;
+  const mon = `(${MONTHS.join("|")})`;
+  const pad = (n) => String(n).padStart(2, "0");
+  const month = (m) => pad(MONTHS.indexOf(m.toLowerCase()) + 1);
   let m;
-  while ((m = re.exec(wikitext))) {
-    // Walk to the matching closing braces.
-    let depth = 0, i = m.index;
-    for (; i < wikitext.length - 1; i++) {
-      if (wikitext[i] === "{" && wikitext[i + 1] === "{") { depth++; i++; }
-      else if (wikitext[i] === "}" && wikitext[i + 1] === "}") { depth--; i++; if (depth === 0) break; }
-    }
-    const body = wikitext.slice(m.index + m[0].length, i - 1);
-    // Split on top-level pipes only.
-    const parts = [];
-    let d = 0, sq = 0, cur = "";
-    for (let j = 0; j < body.length; j++) {
-      const c = body[j], n = body[j + 1];
-      if (c === "{" && n === "{") { d++; cur += "{{"; j++; continue; }
-      if (c === "}" && n === "}") { d--; cur += "}}"; j++; continue; }
-      if (c === "[" && n === "[") { sq++; cur += "[["; j++; continue; }
-      if (c === "]" && n === "]") { sq--; cur += "]]"; j++; continue; }
-      if (c === "|" && d === 0 && sq === 0) { parts.push(cur); cur = ""; continue; }
-      cur += c;
-    }
-    parts.push(cur);
-    for (const p of parts) {
-      const eq = p.indexOf("=");
-      if (eq < 0) continue;
-      const key = p.slice(0, eq).trim().toLowerCase().replace(/_/g, " ");
-      const raw = p.slice(eq + 1).trim();
-      if (!key || !raw || fields[key]) continue;
-      fields[key] = { raw, text: cleanWikitext(raw) };
-    }
+  if ((m = s.match(/\b(\d{4})-(\d\d)(?:-(\d\d))?\b/))) return [m[1], m[2], m[3]].filter(Boolean).join("-");
+  if ((m = s.match(new RegExp(`\\b(\\d{1,2})\\s+${mon}\\s+(\\d{4})`, "i")))) return `${m[3]}-${month(m[2])}-${pad(m[1])}`;
+  if ((m = s.match(new RegExp(`\\b${mon}\\s+(\\d{1,2}),?\\s+(\\d{4})`, "i")))) return `${m[3]}-${month(m[1])}-${pad(m[2])}`;
+  if ((m = s.match(new RegExp(`\\b${mon}\\s+(\\d{4})`, "i")))) return `${m[2]}-${month(m[1])}`;
+  if ((m = s.match(/\b(1[89]\d\d|20\d\d)\b/))) return m[1];
+  return null;
+}
+
+/**
+ * Reads label/value rows and the lead image out of the rendered infobox HTML.
+ * The rendered page is used rather than wikitext because articles build their
+ * infoboxes from many different templates; the HTML always has the same shape.
+ */
+function parseInfobox(html) {
+  const start = html.search(/<table[^>]*class="[^"]*\binfobox\b/);
+  if (start < 0) return { fields: {}, image: null };
+  const end = html.indexOf("</table>", start);
+  const box = html.slice(start, end < 0 ? undefined : end)
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<sup[^>]*class="[^"]*reference[^"]*"[\s\S]*?<\/sup>/gi, "")
+    .replace(/<span[^>]*class="[^"]*(?:noprint|sortkey)[^"]*"[\s\S]*?<\/span>/gi, "");
+  const fields = {};
+  const rowRe = /<th[^>]*class="[^"]*infobox-label[^"]*"[^>]*>([\s\S]*?)<\/th>\s*<td[^>]*class="[^"]*infobox-data[^"]*"[^>]*>([\s\S]*?)<\/td>/gi;
+  let m;
+  while ((m = rowRe.exec(box))) {
+    const key = stripHtml(m[1]).toLowerCase().replace(/\s+/g, " ").trim();
+    const value = stripHtml(m[2].replace(/<\/li>\s*<li[^>]*>/gi, "; ")).replace(/(;\s*)+/g, "; ").replace(/^[;,\s]+|[;,\s]+$/g, "");
+    if (key && value && !fields[key]) fields[key] = value;
   }
-  return fields;
+  const img = box.match(/href="\/wiki\/File:([^"#?]+)"/);
+  return { fields, image: img ? decodeURIComponent(img[1]).replace(/_/g, " ") : null };
 }
 
 // ---------------------------------------------------------------------------
@@ -253,12 +227,12 @@ async function buildOne(seed, previous) {
   const title = summary.title;
 
   const [parse, pi] = await Promise.all([
-    wpApi({ action: "parse", page: title, prop: "wikitext", section: "0", redirects: "1" }),
+    wpApi({ action: "parse", page: title, prop: "text", section: "0", redirects: "1", disablelimitreport: "1", disableeditsection: "1" }),
     wpApi({ action: "query", titles: title, prop: "pageimages|info|revisions", piprop: "name", pilicense: "free", rvprop: "ids|timestamp", redirects: "1" }),
   ]);
   const page = pi?.query?.pages?.[0] ?? {};
-  const infobox = parseInfobox(parse?.parse?.wikitext ?? "");
-  const ib = (k) => infobox[k]?.text || null;
+  const infobox = parseInfobox(parse?.parse?.text ?? "");
+  const ib = (...keys) => keys.map((k) => infobox.fields[k]).find(Boolean) ?? null;
 
   let wd = null;
   if (summary.wikibase_item) {
@@ -269,8 +243,8 @@ async function buildOne(seed, previous) {
     ? await Promise.all([itemIds(wd, "P176"), itemIds(wd, "P495"), itemIds(wd, "P366")].map(wikidataLabels))
     : [[], [], []];
 
-  const firstFlightIb = infobox["first flight"] ? dateFromTemplate(infobox["first flight"].raw) ?? ib("first flight") : null;
-  const introIb = infobox["introduction"] ? dateFromTemplate(infobox["introduction"].raw) ?? ib("introduction") : null;
+  const firstFlightIb = ib("first flight");
+  const introIb = ib("introduction", "introduction date", "introduced");
   const numberBuiltIb = ib("number built");
 
   const record = {
@@ -280,12 +254,12 @@ async function buildOne(seed, previous) {
     ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
     description: summary.description ?? null,
     summary: summary.extract ?? null,
-    role: ib("type") ?? ib("role") ?? (usesWd.length ? usesWd.join("; ") : null),
+    role: ib("type", "role") ?? (usesWd.length ? usesWd.join("; ") : null),
     manufacturer: manufacturersWd.length ? manufacturersWd : splitList(ib("manufacturer")),
-    designer: ib("designer") ?? ib("designer group"),
-    countryOfOrigin: countriesWd.length ? countriesWd : splitList(ib("national origin")),
-    firstFlight: (wd && wdTime(wd, "P606")) ?? firstFlightIb,
-    introduced: (wd && wdTime(wd, "P729")) ?? introIb,
+    designer: ib("designer", "designer group", "designers"),
+    countryOfOrigin: countriesWd.length ? countriesWd : splitList(ib("national origin", "country of origin", "origin")),
+    firstFlight: (wd && wdTime(wd, "P606")) ?? parseDate(firstFlightIb) ?? firstFlightIb,
+    introduced: (wd && wdTime(wd, "P729")) ?? parseDate(introIb) ?? introIb,
     status: ib("status"),
     numberBuilt: (wd && wdQuantity(wd, "P1092")) ?? (numberBuiltIb && /^\d[\d,]*$/.test(numberBuiltIb) ? Number(numberBuiltIb.replace(/,/g, "")) : numberBuiltIb),
     wikipedia: {
@@ -301,9 +275,7 @@ async function buildOne(seed, previous) {
 
   // The "title photo" is the infobox image; fall back to the page image Wikipedia
   // picks for previews (always a free image) when the infobox one is missing or non-free.
-  const infoboxImage = infobox["image"]?.raw
-    .replace(/^\[\[/, "").replace(/\|[\s\S]*$/, "").replace(/\]\]$/, "")
-    .replace(/^(?:File|Image):/i, "").trim();
+  const infoboxImage = infobox.image;
   let info = infoboxImage ? await photoInfo(infoboxImage) : null;
   if ((!info || !info.free) && page.pageimage && page.pageimage.replace(/_/g, " ") !== infoboxImage?.replace(/_/g, " ")) {
     info = (await photoInfo(page.pageimage)) ?? info;
