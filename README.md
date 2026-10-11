@@ -73,7 +73,7 @@ to a `gh-pages` branch).
 
 ## Flashcard study mode
 
-Every pack also has a **Study** button under **Play** in its preview column. Study mode turns
+Switch the **Mode** pill in the top bar from **Play** to **Study**, then open any pack. Study mode turns
 the pack into flip cards: the image on the front, the answer on the back. After
 flipping, mark the card **Got it** or **Still learning**; cards still being
 learned go to the back of the deck and come round again until every card is
