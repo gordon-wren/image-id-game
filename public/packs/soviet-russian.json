@@ -29,12 +29,12 @@
           "label": "Ilyushin Il-86"
         },
         {
-          "id": "a310",
-          "label": "Airbus A310"
+          "id": "b747-400",
+          "label": "Boeing 747-400"
         },
         {
-          "id": "a330",
-          "label": "Airbus A330"
+          "id": "b777",
+          "label": "Boeing 777"
         }
       ],
       "caption": "Russian four-engined long-range wide-body jet airliner. First flew 1988.",
@@ -54,12 +54,12 @@
           "label": "Ilyushin Il-96"
         },
         {
-          "id": "b767",
-          "label": "Boeing 767"
-        },
-        {
           "id": "a310",
           "label": "Airbus A310"
+        },
+        {
+          "id": "b747",
+          "label": "Boeing 747"
         }
       ],
       "caption": "Soviet four-engined wide-body jet airliner. First flew 1976.",
@@ -75,16 +75,16 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "ssj100",
-          "label": "Sukhoi Superjet 100"
+          "id": "b727",
+          "label": "Boeing 727"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "b757",
+          "label": "Boeing 757"
         },
         {
-          "id": "tu160",
-          "label": "Tupolev Tu-160"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         }
       ],
       "caption": "Soviet and Russian medium-range trijet airliner. First flew 1968.",
@@ -100,16 +100,16 @@
           "label": "Sukhoi Superjet 100"
         },
         {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "a320neo",
+          "label": "Airbus A320neo"
+        },
+        {
           "id": "a220",
           "label": "Airbus A220"
-        },
-        {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
-        },
-        {
-          "id": "c919",
-          "label": "Comac C919"
         }
       ],
       "caption": "Russian twin-engine regional jet. First flew 2008.",
@@ -129,12 +129,12 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "il76",
+          "label": "Ilyushin Il-76"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -154,12 +154,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -179,12 +179,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
-        },
-        {
           "id": "an225",
           "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -204,12 +204,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
-        },
-        {
           "id": "b52",
           "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -229,8 +229,8 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
           "id": "tu154",
@@ -254,12 +254,12 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
-        },
-        {
           "id": "tu154",
           "label": "Tupolev Tu-154"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -275,16 +275,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "su57",
+          "label": "Sukhoi Su-57"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -304,12 +304,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "ssj100",
+          "label": "Sukhoi Superjet 100"
         },
         {
-          "id": "j20",
-          "label": "Chengdu J-20"
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -329,12 +329,12 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
-        },
-        {
           "id": "mig21",
           "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
         }
       ],
       "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
@@ -354,12 +354,12 @@
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "mirage2000",
-          "label": "Dassault Mirage 2000"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         },
         {
-          "id": "tornado",
-          "label": "Panavia Tornado"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -379,12 +379,12 @@
           "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "f4",
-          "label": "McDonnell Douglas F-4 Phantom II"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         },
         {
-          "id": "j20",
-          "label": "Chengdu J-20"
+          "id": "f5",
+          "label": "Northrop F-5"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -404,12 +404,12 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
-        },
-        {
           "id": "mig31",
           "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -429,12 +429,12 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -450,16 +450,16 @@
           "label": "Mil Mi-24"
         },
         {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
           "id": "mi8",
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
-        },
-        {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -479,12 +479,12 @@
           "label": "Mil Mi-24"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "md500",
+          "label": "MD Helicopters MD 500"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         }
       ],
       "caption": "Family of transport helicopters. First flew 1961.",
@@ -504,12 +504,12 @@
           "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
         },
         {
-          "id": "h125",
-          "label": "Airbus H125 (AS350 Écureuil)"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -529,12 +529,12 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "mi24",
+          "label": "Mil Mi-24"
         },
         {
-          "id": "r44",
-          "label": "Robinson R44"
+          "id": "ec155",
+          "label": "Airbus H155 (EC155)"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -554,12 +554,12 @@
           "label": "Mil Mi-24"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",

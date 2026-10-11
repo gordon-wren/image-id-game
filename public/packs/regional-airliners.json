@@ -30,8 +30,8 @@
           "label": "Embraer ERJ"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "saab340",
+          "label": "Saab 340"
         },
         {
           "id": "crj700",
@@ -55,12 +55,12 @@
           "label": "Embraer ERJ"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         },
         {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
+          "id": "phenom300",
+          "label": "Embraer Phenom 300"
         }
       ],
       "caption": "Regional jet airliner family. First flew 2016.",
@@ -80,12 +80,12 @@
           "label": "Embraer E-Jet"
         },
         {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
+          "id": "saab340",
+          "label": "Saab 340"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "atr72",
+          "label": "ATR 72"
         }
       ],
       "caption": "Regional jet airliner family. First flew 1995.",
@@ -105,12 +105,12 @@
           "label": "Bombardier CRJ700"
         },
         {
-          "id": "erj",
-          "label": "Embraer ERJ"
+          "id": "ejet-e2",
+          "label": "Embraer E-Jet E2"
         },
         {
-          "id": "ejet",
-          "label": "Embraer E-Jet"
+          "id": "atr72",
+          "label": "ATR 72"
         }
       ],
       "caption": "Regional jet airliner. First flew 1991.",
@@ -130,12 +130,12 @@
           "label": "Bombardier CRJ200"
         },
         {
-          "id": "ejet",
-          "label": "Embraer E-Jet"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "erj",
-          "label": "Embraer ERJ"
+          "id": "ejet-e2",
+          "label": "Embraer E-Jet E2"
         }
       ],
       "caption": "Regional jet airliner series. First flew 1999.",
@@ -159,8 +159,8 @@
           "label": "Embraer ERJ"
         },
         {
-          "id": "ejet",
-          "label": "Embraer E-Jet"
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
         }
       ],
       "caption": "Regional turboprop airliner. First flew 1988.",
@@ -180,12 +180,12 @@
           "label": "De Havilland Canada DHC-6 Twin Otter"
         },
         {
-          "id": "ejet",
-          "label": "Embraer E-Jet"
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         }
       ],
       "caption": "Canadian turboprop airliner. First flew 1983.",
@@ -201,16 +201,16 @@
           "label": "Saab 340"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
-        },
-        {
           "id": "dash8",
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "gripen",
-          "label": "Saab JAS 39 Gripen"
+          "id": "atr72",
+          "label": "ATR 72"
+        },
+        {
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
         }
       ],
       "caption": "Regional airliner. First flew 1983.",
@@ -230,8 +230,8 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         },
         {
           "id": "crj700",
@@ -255,8 +255,8 @@
           "label": "Lockheed Constellation"
         },
         {
-          "id": "p38",
-          "label": "Lockheed P-38 Lightning"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         },
         {
           "id": "atr72",
@@ -280,12 +280,12 @@
           "label": "Douglas DC-3"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         }
       ],
       "caption": "Family of US airliners with 4 piston engines, 1943. First flew 1943.",

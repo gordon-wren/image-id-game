@@ -8,8 +8,8 @@ Search: `EC135 air ambulance`
 1. File:Thames Valley Air Ambulances EC135 Helicopter.jpg — CC BY-SA 4.0
 2. File:Great Western Air Ambulances' EC135 taking off.jpg — CC BY-SA 4.0
 3. File:G-GWAC Eurocopter EC135 Helicopter Great Weston Air Ambulance (35698329766).jpg — CC BY-SA 2.0
-4. File:EC135 G-SPHU IMG 3299 (20257188693).jpg — CC BY-SA 2.0
-5. File:EC135 G-SPHU IMG 3718 (20690143220).jpg — CC BY-SA 2.0
+4. File:EC135 G-SPHU IMG 3718 (20690143220).jpg — CC BY-SA 2.0
+5. File:EC135 G-SPHU IMG 3299 (20257188693).jpg — CC BY-SA 2.0
 
 ## medical-helicopters/h145 — Airbus H145 (EC145)
 
@@ -129,13 +129,24 @@ Search: `HH-60M MEDEVAC`
 4. File:A U.S. Army HH-60M Blackhawk medical evacuation (medevac) helicopter (foreground) of Army Task Force Lift "Dust Off", Charlie Company 1-171, Aviation Regiment, returns after mission, Forward Operating Base 111209-M-CL319-203.jpg — Public domain
 5. File:A U.S. Marine Corps UH-1Y Venom helicopter (top) of Marine Light Attack Helicopter Squadron 369 (HMLA-369) returns after aiding a U.S. Army HH-60M Blackhawk medical evacuation (medevac) helicopter of Army Task 111209-M-CL319-198.jpg — Public domain
 
+## medical-helicopters/ec155 — Airbus H155 (EC155)
+
+Search: `Life Lion helicopter`
+
+0. File:N906LL Life Lion.jpg — CC BY 2.0 **(chosen)**
+1. File:Pro Palestine Protesters and a Helicopter Above Trafalgar Square (53261885875).jpg — CC BY-SA 2.0
+2. File:Sunset at Mountain Nemrut.jpg — CC BY-SA 4.0
+3. File:Ancient Ruins on Mountain Nemrut.jpg — CC BY-SA 4.0
+4. File:Giant Statues of Commagene Kingdom.jpg — CC BY-SA 4.0
+5. File:Ruins of Commagene Kingdom.jpg — CC BY-SA 4.0
+
 ## medical-planes/pc12 — Pilatus PC-12
 
 Search: `PC-12 Royal Flying Doctor Service`
 
 0. File:Royal Flying Doctor Service of Australia (VH-OWR) Pilatus PC-12 NG at Esperance Airport.jpg — CC BY-SA 4.0 **(chosen)**
-1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
-2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
+1. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 01.jpg — CC BY-SA 4.0
+2. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 03.jpg — CC BY-SA 4.0
 3. File:Pilatus PC-12 VH-FGT operated by the Royal Flying Doctor Service parked at Andamooka Airport, South Australia.jpg — CC BY 4.0
 4. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 04.jpg — CC BY-SA 4.0
 5. File:Air ambulances of the Royal Flying Doctor Service at Jandakot Airport, November 2021 02.jpg — CC BY-SA 4.0

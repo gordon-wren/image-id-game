@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-11T20:10:22.315Z",
-  "count": 162,
+  "generatedAt": "2026-10-11T22:11:43.965Z",
+  "count": 164,
   "aircraft": [
     {
       "id": "a380",
@@ -419,10 +419,6 @@
       "name": "Airbus A350",
       "label": "Airbus A350",
       "group": "airliner-widebody",
-      "packAnswerIds": [
-        "a350-900",
-        "a350-1000"
-      ],
       "description": "Large twin-aisle airliner family",
       "summary": "The Airbus A350 is a long-range, wide-body twin-engine airliner developed and produced by Airbus.\n\nThe initial A350 design, which was proposed in 2004 in response to the Boeing 787 Dreamliner, would have been a development of the Airbus A330 with composite wings, advanced winglets, and new efficient engines.\nDue to inadequate market support, Airbus switched in 2006 to a clean-sheet extra wide body (XWB) design, powered by two Rolls-Royce Trent XWB high bypass turbofan engines. The prototype first flew on 14 June 2013 from Toulouse, France. Type certification from the European Aviation Safety Agency (EASA) was obtained in September 2014, followed by certification from the Federal Aviation Administration (FAA) two months later.",
       "role": "Wide-body airliner",
@@ -466,7 +462,11 @@
         "chosenFrom": "seed",
         "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T20:10:14.272Z"
+      "retrievedAt": "2026-10-11T20:10:14.272Z",
+      "packAnswerIds": [
+        "a350-900",
+        "a350-1000"
+      ]
     },
     {
       "id": "a330",
@@ -8135,6 +8135,107 @@
       },
       "retrievedAt": "2026-10-11T19:35:12.476Z",
       "label": "Sikorsky S-92"
+    },
+    {
+      "id": "as365",
+      "name": "Eurocopter AS365 Dauphin",
+      "label": "Airbus Helicopters AS365 Dauphin",
+      "group": "helicopter",
+      "description": "Multi-role helicopter family by Aérospatiale",
+      "summary": "The Eurocopter, later Airbus Helicopters AS365 Dauphin, originally known as the Aérospatiale SA 365 Dauphin 2, is a medium-weight multipurpose twin-engine helicopter produced by Airbus Helicopters. It was originally developed and manufactured by French firm Aérospatiale, which was merged into the multinational Eurocopter company during the 1990s, and since 2014 Eurocopter was renamed Airbus Helicopters. Since entering production in 1975, the type has been in continuous production for more than 40 years, with the last delivery in 2021. The intended successor to the Dauphin is the Airbus Helicopters H160, which entered operational service in 2021.",
+      "role": "Medium utility helicopter",
+      "manufacturer": [
+        "Airbus Helicopters"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "France"
+      ],
+      "firstFlight": "1975-01-24",
+      "introduced": "1989",
+      "status": "In service",
+      "numberBuilt": 1098,
+      "wikipedia": {
+        "title": "Eurocopter AS365 Dauphin",
+        "url": "https://en.wikipedia.org/wiki/Eurocopter_AS365_Dauphin",
+        "pageId": 490378,
+        "revisionId": 1374336555
+      },
+      "wikidataId": "Q39663",
+      "photo": {
+        "file": "assets/aircraft/as365.jpg",
+        "sourceFile": "File:ZJ780 8490634574 (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:ZJ780_8490634574_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/ZJ780_8490634574_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/ZJ780_8490634574_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 605,
+        "originalWidth": 874,
+        "originalHeight": 551,
+        "mime": "image/jpeg",
+        "author": "Mark Harkin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "ZJ780 AS365 Dauphin II Army Air Corps at Glasgow",
+        "dateTaken": "2010-09-08",
+        "chosenFrom": "infobox",
+        "credit": "Mark Harkin / CC BY-SA 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-11T22:11:42.759Z"
+    },
+    {
+      "id": "ec155",
+      "name": "Eurocopter EC155",
+      "label": "Airbus H155 (EC155)",
+      "group": "helicopter",
+      "packAnswerIds": [
+        "ec155"
+      ],
+      "description": "Passenger transport helicopter",
+      "summary": "The Airbus Helicopters H155 is a long-range medium-lift passenger transport helicopter developed by Eurocopter from its Dauphin family for civil aviation use. It is a twin-engined aircraft and can carry up to 13 passengers along with 1 or 2 crew, depending on customer configuration. The helicopter is marketed for passenger transport, offshore support, VIP corporate transport and casualty transport duties. In 2015, the EC155 was formally renamed to the H155, in line with Eurocopter's corporate rebranding as Airbus Helicopters. It was succeeded in the product line by the Airbus Helicopters H160.",
+      "role": "Passenger transport helicopter",
+      "manufacturer": [
+        "Airbus Helicopters"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Multinational"
+      ],
+      "firstFlight": "1997-06-17",
+      "introduced": "1999-03",
+      "status": "Active",
+      "numberBuilt": null,
+      "wikipedia": {
+        "title": "Eurocopter EC155",
+        "url": "https://en.wikipedia.org/wiki/Eurocopter_EC155",
+        "pageId": 9966891,
+        "revisionId": 1368046182
+      },
+      "wikidataId": "Q1374889",
+      "photo": {
+        "file": "assets/aircraft/ec155.jpg",
+        "sourceFile": "File:Eurocopter EC 155B1 Dauphin, Germany - Police JP7199794.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Eurocopter_EC_155B1_Dauphin,_Germany_-_Police_JP7199794.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eurocopter_EC_155B1_Dauphin%2C_Germany_-_Police_JP7199794.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Eurocopter_EC_155B1_Dauphin%2C_Germany_-_Police_JP7199794.jpg/960px-Eurocopter_EC_155B1_Dauphin%2C_Germany_-_Police_JP7199794.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 631,
+        "originalWidth": 984,
+        "originalHeight": 647,
+        "mime": "image/jpeg",
+        "author": "Pedro Aragão",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": null,
+        "dateTaken": "7 July 2011",
+        "chosenFrom": "infobox",
+        "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-11T22:11:43.623Z"
     }
   ]
 }
