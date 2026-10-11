@@ -2,7 +2,7 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-11T22:11:43.965Z",
+  "generatedAt": "2026-10-11T22:24:19.272Z",
   "count": 164,
   "aircraft": [
     {
@@ -4077,6 +4077,7 @@
     {
       "id": "rq4",
       "name": "Northrop Grumman RQ-4 Global Hawk",
+      "label": "Northrop Grumman RQ-4 Global Hawk",
       "group": "military-transport-special",
       "description": "Unmanned surveillance aircraft",
       "summary": "The Northrop Grumman RQ-4 Global Hawk is a high-altitude, remotely-piloted surveillance aircraft introduced in 2001. It was initially designed by Ryan Aeronautical, and known as Tier II+ during development. The RQ-4 provides a broad overview and systematic surveillance using high-resolution synthetic aperture radar (SAR) and electro-optical/infrared (EO/IR) sensors with long loiter times over target areas.",
@@ -4089,7 +4090,7 @@
         "Rolls-Royce North America",
         "Héroux-Devtek",
         "L3 Technologies",
-        "Q5893992"
+        "Honeywell Aerospace"
       ],
       "designer": null,
       "countryOfOrigin": [
@@ -4124,10 +4125,10 @@
         "free": true,
         "caption": "An RQ-4 Global Hawk unmanned aircraft like the one shown is currently flying non-military mapping missions over South, Central America and the Caribbean at the request of partner nations in the region.",
         "dateTaken": "2007-03-01",
+        "chosenFrom": "infobox",
         "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:33:22.719Z",
-      "label": "Northrop Grumman RQ-4 Global Hawk"
+      "retrievedAt": "2026-10-11T22:24:16.587Z"
     },
     {
       "id": "b52",
@@ -4628,14 +4629,18 @@
     {
       "id": "f16",
       "name": "General Dynamics F-16 Fighting Falcon",
+      "label": "General Dynamics F-16 Fighting Falcon",
       "group": "fighter-attack",
+      "packAnswerIds": [
+        "f16"
+      ],
       "description": "American multi-role fighter aircraft",
       "summary": "The General Dynamics F-16 Fighting Falcon is an American single-engine supersonic multirole fourth-generation fighter aircraft developed by General Dynamics and produced by multiple companies, including General Dynamics until 1993 and Lockheed Martin since. Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft with over 4,600 built since 1976.",
       "role": "Multirole fighter; air superiority fighter",
       "manufacturer": [
         "General Dynamics",
         "Lockheed Martin",
-        "Q928183",
+        "SABCA",
         "Fokker",
         "Turkish Aerospace Industries",
         "Samsung Aerospace",
@@ -4674,13 +4679,10 @@
         "free": true,
         "caption": "A U.S. Air Force F-16 Fighting Falcon Block 40 aircraft after receiving fuel from a KC-135 Stratotanker aircraft during a mission over Iraq on 10 June 2008. This F-16 is assigned to the 34th EFS Balad Air Base, Iraq and is deployed from the 388th Fighter Wing at Hill Air Force Base, Utah. (U.S. Air ",
         "dateTaken": "2008-06-10",
+        "chosenFrom": "infobox",
         "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:33:37.160Z",
-      "label": "General Dynamics F-16 Fighting Falcon",
-      "packAnswerIds": [
-        "f16"
-      ]
+      "retrievedAt": "2026-10-11T22:24:17.718Z"
     },
     {
       "id": "fa18",
@@ -5503,7 +5505,7 @@
         "originalWidth": 3877,
         "originalHeight": 2585,
         "mime": "image/jpeg",
-        "author": "Q139555801",
+        "author": "Сафаров, Марат Фаридович",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "attributionRequired": true,
@@ -5511,9 +5513,9 @@
         "caption": "Авиамузей на аэродроме Караишево",
         "dateTaken": "2025-06-22",
         "chosenFrom": "seed",
-        "credit": "Q139555801 / CC BY-SA 4.0 / via Wikimedia Commons"
+        "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T20:02:26.520Z"
+      "retrievedAt": "2026-10-11T22:24:18.932Z"
     },
     {
       "id": "j20",
@@ -8190,9 +8192,6 @@
       "name": "Eurocopter EC155",
       "label": "Airbus H155 (EC155)",
       "group": "helicopter",
-      "packAnswerIds": [
-        "ec155"
-      ],
       "description": "Passenger transport helicopter",
       "summary": "The Airbus Helicopters H155 is a long-range medium-lift passenger transport helicopter developed by Eurocopter from its Dauphin family for civil aviation use. It is a twin-engined aircraft and can carry up to 13 passengers along with 1 or 2 crew, depending on customer configuration. The helicopter is marketed for passenger transport, offshore support, VIP corporate transport and casualty transport duties. In 2015, the EC155 was formally renamed to the H155, in line with Eurocopter's corporate rebranding as Airbus Helicopters. It was succeeded in the product line by the Airbus Helicopters H160.",
       "role": "Passenger transport helicopter",
@@ -8235,7 +8234,10 @@
         "chosenFrom": "infobox",
         "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T22:11:43.623Z"
+      "retrievedAt": "2026-10-11T22:11:43.623Z",
+      "packAnswerIds": [
+        "ec155"
+      ]
     }
   ]
 }
