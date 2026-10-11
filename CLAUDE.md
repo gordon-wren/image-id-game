@@ -27,6 +27,8 @@ Run a single test file: `npx vitest run src/engine/scoring.test.ts`
 
 **Pack loading & resolution** (`src/engine/pack.ts`) — fetches, validates, and resolves packs at runtime: prepends `assetBase` + Vite's `base` path to relative image URLs, generates distractor options from the pool of all distinct `answer` ids in the pack when a question omits `options`.
 
+**Flashcard study mode** (`src/engine/flashcards.ts`, `src/components/Study.tsx`) — a second way to use any pack, opened from the Study button in the picker. `buildDeck` turns a pack into image/label cards (labels looked up from any question's options); the study session is a pure state object advanced by `flip` and `mark`, with "Still learning" cards re-queued at the back until all are known.
+
 **Scoring** (`src/engine/scoring.ts`) — pure function: `base (300)` for correct + up to `speedBonus (700)` scaled by time remaining. Tune both constants here.
 
 **Theming** — light/dark defined as CSS custom properties in `src/styles/global.css`, toggled via `data-theme` on `<html>`. Each pack supplies its own `theme.accent` hex color applied to the timer bar, selected state, and mode dot. Toggle persists to `localStorage`; respects system preference on first visit (`src/engine/useTheme.ts`).

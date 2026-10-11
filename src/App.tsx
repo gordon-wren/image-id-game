@@ -8,6 +8,7 @@ import { CategoryPicker } from "./components/CategoryPicker";
 import { Picker } from "./components/Picker";
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
+import { Study } from "./components/Study";
 
 type Screen =
   | { name: "loading" }
@@ -15,6 +16,7 @@ type Screen =
   | { name: "categories" }
   | { name: "packs"; categoryId: string }
   | { name: "playing"; pack: QuestionPack }
+  | { name: "studying"; pack: QuestionPack; run: number }
   | { name: "summary"; pack: QuestionPack; results: RoundResult[] };
 
 export default function App() {
@@ -50,7 +52,7 @@ export default function App() {
     <div className="app">
       <div className="shell">
         <div className="topbar">
-          {screen.name === "playing" || screen.name === "packs" ? (
+          {screen.name === "playing" || screen.name === "studying" || screen.name === "packs" ? (
             <button
               className="brand brand-link"
               onClick={() => setScreen({ name: "categories" })}
@@ -106,6 +108,7 @@ export default function App() {
               categories.find((c) => c.id === screen.categoryId)?.packs ?? []
             }
             onPick={(pack) => setScreen({ name: "playing", pack })}
+            onStudy={(pack) => setScreen({ name: "studying", pack, run: 0 })}
             onBack={() => setScreen({ name: "categories" })}
           />
         )}
@@ -117,6 +120,17 @@ export default function App() {
             timerEnabled={timerEnabled}
             onFinish={(results) =>
               setScreen({ name: "summary", pack: screen.pack, results })
+            }
+            onQuit={() => setScreen(packsScreen(screen.pack))}
+          />
+        )}
+
+        {screen.name === "studying" && (
+          <Study
+            key={`${screen.pack.id}-${screen.run}`}
+            pack={screen.pack}
+            onRestart={() =>
+              setScreen({ name: "studying", pack: screen.pack, run: screen.run + 1 })
             }
             onQuit={() => setScreen(packsScreen(screen.pack))}
           />

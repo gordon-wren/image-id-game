@@ -5,10 +5,11 @@ interface PickerProps {
   title: string;
   packs: QuestionPack[];
   onPick: (pack: QuestionPack) => void;
+  onStudy: (pack: QuestionPack) => void;
   onBack: () => void;
 }
 
-export function Picker({ title, packs, onPick, onBack }: PickerProps) {
+export function Picker({ title, packs, onPick, onStudy, onBack }: PickerProps) {
   return (
     <div className="panel">
       <div className="picker-head">
@@ -19,21 +20,31 @@ export function Picker({ title, packs, onPick, onBack }: PickerProps) {
       </div>
       {packs.map((pack) => {
         const hs = getHighScore(pack.id);
+        const accentStyle = { ["--accent" as string]: pack.theme.accent };
         return (
-          <button
-            key={pack.id}
-            className="pack-card"
-            style={{ ["--accent" as string]: pack.theme.accent }}
-            onClick={() => onPick(pack)}
-          >
-            <div className="pack-card-row">
-              <p className="pack-title">{pack.title}</p>
-              {hs !== null && (
-                <span className="pack-hs">★ {hs.toLocaleString()}</span>
-              )}
-            </div>
-            {pack.description && <p className="pack-desc">{pack.description}</p>}
-          </button>
+          <div key={pack.id} className="pack-row">
+            <button
+              className="pack-card"
+              style={accentStyle}
+              onClick={() => onPick(pack)}
+            >
+              <div className="pack-card-row">
+                <p className="pack-title">{pack.title}</p>
+                {hs !== null && (
+                  <span className="pack-hs">★ {hs.toLocaleString()}</span>
+                )}
+              </div>
+              {pack.description && <p className="pack-desc">{pack.description}</p>}
+            </button>
+            <button
+              className="study-btn"
+              style={accentStyle}
+              onClick={() => onStudy(pack)}
+              aria-label={`Study ${pack.title} with flashcards`}
+            >
+              Study
+            </button>
+          </div>
         );
       })}
     </div>

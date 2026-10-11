@@ -130,3 +130,18 @@ export interface RoundResult {
   points: number;
   timedOut: boolean;
 }
+
+// ---- Flashcard study mode -------------------------------------------------
+
+/** One study card: the image on the front, the answer on the back. */
+export interface Flashcard {
+  /** The `Question.id` this card was built from. */
+  id: string;
+  /** Fully-resolved image URL for the front of the card. */
+  resolvedImage: string;
+  /** Answer text for the back of the card, e.g. "Boeing 747-8". */
+  label: string;
+  caption?: string;
+  credit?: string;
+  alt?: string;
+}

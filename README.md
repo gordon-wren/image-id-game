@@ -34,9 +34,10 @@ src/
     types.ts       the pack/question contract
     scoring.ts     score(correct, msElapsed, roundMs) -> points
     pack.ts        load, validate, resolve packs; option generation
+    flashcards.ts  study deck + flip/mark session for flashcard mode
     useTimer.ts    wall-clock countdown hook
     useTheme.ts    light/dark toggle, persisted
-  components/    Game, Picker, Summary, Timer, AnswerGrid, ResultBanner
+  components/    Game, Study, Picker, Summary, Timer, AnswerGrid, ResultBanner
   styles/        global.css — both themes as CSS custom properties
 public/
   packs/         *.json packs + index.json + SCHEMA.md
@@ -69,6 +70,16 @@ system preference on first visit.
 
 Manual alternative: `npm run deploy` (uses the `gh-pages` package to push `dist/`
 to a `gh-pages` branch).
+
+## Flashcard study mode
+
+Every pack also has a **Study** button next to it in the picker. Study mode turns
+the pack into flip cards: the image on the front, the answer on the back. After
+flipping, mark the card **Got it** or **Still learning**; cards still being
+learned go to the back of the deck and come round again until every card is
+known. Keyboard: Space/Enter flips, 1 (or ←) is still learning, 2 (or →) is
+got it. No timer and no score; it reuses the same pack files, so new packs get
+a flashcard deck for free.
 
 ## Scoring
 

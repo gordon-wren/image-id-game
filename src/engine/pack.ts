@@ -45,7 +45,7 @@ function buildPool(pack: QuestionPack): Option[] {
   return [...seen.values()];
 }
 
-function resolveImage(pack: QuestionPack, q: Question): string {
+export function resolveImage(pack: QuestionPack, q: Question): string {
   if (isAbsoluteUrl(q.image)) return q.image;
   const base = pack.assetBase ?? "";
   return withBase(base + q.image);
