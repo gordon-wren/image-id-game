@@ -2,7 +2,7 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-11T19:25:21.986Z",
+  "generatedAt": "2026-10-11T19:30:30.384Z",
   "count": 162,
   "aircraft": [
     {
@@ -14,7 +14,7 @@
       ],
       "description": "European wide-body airliner",
       "summary": "The Airbus A380 is a large wide-body airliner, developed and produced by Airbus from 2003 to 2021. It is the world's largest passenger airliner and the only full-length double-deck jet airliner.",
-      "role": "airliner",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -35,25 +35,25 @@
       "wikidataId": "Q5830",
       "photo": {
         "file": "assets/aircraft/a380.jpg",
-        "sourceFile": "File:A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/960px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A380.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A380.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Logo_Airbus_A380.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Logo_Airbus_A380.svg/960px-Logo_Airbus_A380.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 1632,
-        "originalHeight": 1088,
-        "mime": "image/jpeg",
-        "author": "Maarten Visser from Capelle aan den IJssel, Nederland",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "attributionRequired": true,
+        "height": 126,
+        "originalWidth": 800,
+        "originalHeight": 105,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "New York JFK",
-        "dateTaken": "2013-01-31 18:27",
-        "credit": "Maarten Visser from Capelle aan den IJssel, Nederland / CC BY-SA 2.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A380.",
+        "dateTaken": "2012-10-17",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:49.684Z"
+      "retrievedAt": "2026-10-11T19:27:21.345Z"
     },
     {
       "id": "b747",
@@ -61,7 +61,7 @@
       "group": "airliner-widebody",
       "description": "American wide-body four-engined jet long-range aircraft",
       "summary": "The Boeing 747 is a long-range wide-body airliner designed and manufactured by Boeing Commercial Airplanes in the United States between 1968 and 2023.\n\nIt was conceived in response to the demand of Pan Am for a jet 2+1⁄2 times the size of the 707, which had been introduced in October 1958, to reduce the airline's seat cost by 30%. The design team was led by Joe Sutter, who left the 737 development program in 1965 to design the 747. In April 1966, Pan Am ordered 25 Boeing 747-100 aircraft, and in late 1966, Pratt & Whitney agreed to develop the JT9D engine, a high-bypass turbofan. On September 30, 1968, the first 747 was rolled out of the purpose-built Everett Plant, the world's largest building by volume. The 747's first flight took place on February 9, 1969, and the 747 was certified in December 1969. It entered service with Pan Am on January 22, 1970. The 747 was the first airplane called a \"Jumbo Jet\" as the first wide-body airliner.",
-      "role": "commercial aviation",
+      "role": "Wide-body jet airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes"
       ],
@@ -82,7 +82,7 @@
       "wikidataId": "Q179",
       "photo": {
         "file": "assets/aircraft/b747.jpg",
-        "sourceFile": "File:B-747_Iberia.jpg",
+        "sourceFile": "File:B-747 Iberia.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/B-747_Iberia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/960px-B-747_Iberia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -100,7 +100,7 @@
         "dateTaken": "1980-04",
         "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:51.006Z"
+      "retrievedAt": "2026-10-11T19:27:22.869Z"
     },
     {
       "id": "b747-8",
@@ -132,7 +132,7 @@
       "wikidataId": "Q8791",
       "photo": {
         "file": "assets/aircraft/b747-8.jpg",
-        "sourceFile": "File:D-ABYT_at_FRA.jpg",
+        "sourceFile": "File:D-ABYT at FRA.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:D-ABYT_at_FRA.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/D-ABYT_at_FRA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/D-ABYT_at_FRA.jpg/960px-D-ABYT_at_FRA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -150,7 +150,7 @@
         "dateTaken": "2018-09-30 09:27:49",
         "credit": "Juke Schweizer / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:51.735Z"
+      "retrievedAt": "2026-10-11T19:27:23.483Z"
     },
     {
       "id": "b747-400",
@@ -182,7 +182,7 @@
       "wikidataId": "Q906937",
       "photo": {
         "file": "assets/aircraft/b747-400.jpg",
-        "sourceFile": "File:Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_(DSC09727).jpg",
+        "sourceFile": "File:Frankfurt Airport Lufthansa Boeing 747-430 D-ABVY (DSC09727).jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_(DSC09727).jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg/960px-Frankfurt_Airport_Lufthansa_Boeing_747-430_D-ABVY_%28DSC09727%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -200,7 +200,7 @@
         "dateTaken": "2023-05-03 09:28:12",
         "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:52.636Z"
+      "retrievedAt": "2026-10-11T19:27:24.301Z"
     },
     {
       "id": "b747sp",
@@ -251,7 +251,7 @@
         "dateTaken": "18 August 2007",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:53.447Z"
+      "retrievedAt": "2026-10-11T19:27:25.039Z"
     },
     {
       "id": "b777",
@@ -263,7 +263,7 @@
       ],
       "description": "Large twin-aisle airliner family",
       "summary": "The Boeing 777, commonly referred to as the Triple Seven, is an American long-range wide-body airliner developed and manufactured by Boeing Commercial Airplanes. The 777 is the world's largest twinjet and the most-built wide-body airliner.\n\nThe jetliner was designed to bridge the gap between Boeing's other wide body airplanes, the twin-engined 767 and quad-engined 747, and to replace aging DC-10 and L-1011 trijets. Developed in consultation with eight major airlines, the 777 program was launched in October 1990, with an order from United Airlines. The prototype aircraft rolled out in April 1994, and first flew that June. The 777 entered service with the launch operator United Airlines in June 1995. Longer-range variants were launched in 2000, and first delivered in 2004. Over 2,300 Boeing 777 aircraft have been ordered, with over 70 operators worldwide.",
-      "role": "airliner",
+      "role": "Wide-body jet airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes"
       ],
@@ -284,25 +284,25 @@
       "wikidataId": "Q6425",
       "photo": {
         "file": "assets/aircraft/b777.jpg",
-        "sourceFile": "File:Cathay_Pacific_Boeing_777-200;_B-HNL@HKG.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_Boeing_777-200;_B-HNL@HKG.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/960px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Boeing 777 logo.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Boeing_777_logo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Boeing_777_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Boeing_777_logo.svg/960px-Boeing_777_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 3038,
-        "originalHeight": 2026,
-        "mime": "image/jpeg",
-        "author": "Aero Icarus from Zürich, Switzerland",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "attributionRequired": true,
+        "height": 109,
+        "originalWidth": 308,
+        "originalHeight": 35,
+        "mime": "image/svg+xml",
+        "author": "Great Brightstar",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Cathay Pacific Boeing 777-200; B-HNL@HKG;31.07.2011/614sr",
-        "dateTaken": "2011-07-31 16:08",
-        "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
+        "caption": "Logo for the Boeing 777",
+        "dateTaken": "2025-02-06",
+        "credit": "Great Brightstar / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:54.249Z"
+      "retrievedAt": "2026-10-11T19:27:27.384Z"
     },
     {
       "id": "b777x",
@@ -310,7 +310,7 @@
       "group": "airliner-widebody",
       "description": "Next generation of the Boeing 777",
       "summary": "The Boeing 777X is an American long-range, wide-body, twin-engine airliner built by Boeing Commercial Airplanes, undergoing flight testing as of 2026. A substantial development from the original Boeing 777, changes for the 777X include General Electric GE9X engines, composite wings with folding wingtips, greater cabin width and seating capacity, and technologies from the Boeing 787 Dreamliner. The 777X program was launched in November 2013 to develop two variants: the 777-8 and the 777-9. The 777-8 provides seating for 350 to 425 passengers and has a range of 9,500 nautical miles [nmi], while the 777-9 has seating for 375 to 450 passengers and a range of 8,000 nmi.",
-      "role": "wide-body airliner",
+      "role": "Wide-body jet airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes",
         "Boeing"
@@ -350,7 +350,7 @@
         "dateTaken": "2019-03-13 03:48",
         "credit": "Dan Nevill from Seattle, WA, United States / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:55.193Z"
+      "retrievedAt": "2026-10-11T19:27:28.537Z"
     },
     {
       "id": "b787",
@@ -382,25 +382,25 @@
       "wikidataId": "Q6428",
       "photo": {
         "file": "assets/aircraft/b787.jpg",
-        "sourceFile": "File:Boeing 787 N1015B ANA Airlines (27611880663) (cropped).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Boeing_787_N1015B_ANA_Airlines_(27611880663)_(cropped).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/960px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Dreamliner logo.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dreamliner_logo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Dreamliner_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Dreamliner_logo.svg/960px-Dreamliner_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 618,
-        "originalWidth": 2639,
-        "originalHeight": 1700,
-        "mime": "image/jpeg",
-        "author": "pjs2005 from Hampshire, UK",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "attributionRequired": true,
+        "height": 254,
+        "originalWidth": 1058,
+        "originalHeight": 280,
+        "mime": "image/svg+xml",
+        "author": "The Boeing Company",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Taken from back garden validating for Farnborough Airshow",
-        "dateTaken": "2016-07-07 13:42",
-        "credit": "pjs2005 from Hampshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+        "caption": "Logo of the Boeing 787 Dreamliner.",
+        "dateTaken": null,
+        "credit": "The Boeing Company / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:55.995Z"
+      "retrievedAt": "2026-10-11T19:27:29.220Z"
     },
     {
       "id": "a350",
@@ -412,7 +412,7 @@
       ],
       "description": "Large twin-aisle airliner family",
       "summary": "The Airbus A350 is a long-range, wide-body twin-engine airliner developed and produced by Airbus.\n\nThe initial A350 design, which was proposed in 2004 in response to the Boeing 787 Dreamliner, would have been a development of the Airbus A330 with composite wings, advanced winglets, and new efficient engines.\nDue to inadequate market support, Airbus switched in 2006 to a clean-sheet extra wide body (XWB) design, powered by two Rolls-Royce Trent XWB high bypass turbofan engines. The prototype first flew on 14 June 2013 from Toulouse, France. Type certification from the European Aviation Safety Agency (EASA) was obtained in September 2014, followed by certification from the Federal Aviation Administration (FAA) two months later.",
-      "role": "airliner",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -434,25 +434,25 @@
       "wikidataId": "Q6484",
       "photo": {
         "file": "assets/aircraft/a350.jpg",
-        "sourceFile": "File:EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/960px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A350.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A350.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Logo_Airbus_A350.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_Airbus_A350.svg/960px-Logo_Airbus_A350.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 4370,
-        "originalHeight": 2914,
-        "mime": "image/jpeg",
-        "author": "Steve Lynes",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "attributionRequired": true,
+        "height": 126,
+        "originalWidth": 800,
+        "originalHeight": 105,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Farnborough International Airshow, Hampshire",
-        "dateTaken": "2014-07-16 14:36:23",
-        "credit": "Steve Lynes / CC BY 2.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A350.",
+        "dateTaken": "2012-10-17",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:57.296Z"
+      "retrievedAt": "2026-10-11T19:27:30.806Z"
     },
     {
       "id": "a330",
@@ -464,7 +464,7 @@
       ],
       "description": "Twin-aisle airliner family",
       "summary": "The Airbus A330 is a wide-body airliner developed and produced by Airbus.\n\nAirbus began developing larger A300 derivatives in the mid–1970s, giving rise to the A330 twinjet as well as the Airbus A340 quadjet, and launched both designs along with their first orders in June 1987. The A330-300, the first variant, took its maiden flight in November 1992 and entered service with Air Inter in January 1994. The A330-200, a shortened longer-range variant, followed in 1998 with Canada 3000 as the launch operator.",
-      "role": "passenger air transport",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -486,25 +486,25 @@
       "wikidataId": "Q6478",
       "photo": {
         "file": "assets/aircraft/a330.jpg",
-        "sourceFile": "File:Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg/960px-Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A330.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A330.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Airbus_A330.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Logo_Airbus_A330.svg/960px-Logo_Airbus_A330.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 540,
-        "originalWidth": 6961,
-        "originalHeight": 3918,
-        "mime": "image/jpeg",
-        "author": "4300streetcar",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "attributionRequired": true,
+        "height": 126,
+        "originalWidth": 800,
+        "originalHeight": 105,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Delta Air Lines Airbus A330-300 N830NW, operating flight 112 to Rome, departs Boston from runway 33L.",
-        "dateTaken": "2026-07-19 18:17:39",
-        "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A330.",
+        "dateTaken": "2012-10-17",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:58.290Z"
+      "retrievedAt": "2026-10-11T19:27:31.587Z"
     },
     {
       "id": "a330neo",
@@ -512,7 +512,7 @@
       "group": "airliner-widebody",
       "description": "Wide-body jet airliner developed from A330",
       "summary": "The Airbus A330neo is a wide-body airliner developed by Airbus from the original Airbus A330. A new version with modern engines comparable with those developed for the Boeing 787 was called for by operators of the A330ceo. It was launched on 14 July 2014 at the Farnborough Airshow, promising 14% better fuel economy per seat. It is exclusively powered by the Rolls-Royce Trent 7000 which has double the bypass ratio of its predecessor.",
-      "role": "commercial aviation",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -534,25 +534,25 @@
       "wikidataId": "Q18084618",
       "photo": {
         "file": "assets/aircraft/a330neo.jpg",
-        "sourceFile": "File:Airbus A330neo F-WTTN 37.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Airbus_A330neo_F-WTTN_37.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Airbus_A330neo_F-WTTN_37.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Airbus_A330neo_F-WTTN_37.jpg/960px-Airbus_A330neo_F-WTTN_37.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A330neo.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A330neo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_Airbus_A330neo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Logo_Airbus_A330neo.svg/960px-Logo_Airbus_A330neo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 539,
-        "originalWidth": 4522,
-        "originalHeight": 2537,
-        "mime": "image/jpeg",
-        "author": "New York-air",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "attributionRequired": true,
+        "height": 96,
+        "originalWidth": 953,
+        "originalHeight": 95,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Paris Air Show 2019",
-        "dateTaken": "2019-06-17 13:28",
-        "credit": "New York-air / CC BY-SA 4.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A330neo.",
+        "dateTaken": "2021-05-05",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:59.152Z"
+      "retrievedAt": "2026-10-11T19:27:32.357Z"
     },
     {
       "id": "a340",
@@ -564,7 +564,7 @@
       ],
       "description": "Four-engined twin-aisle airliner family",
       "summary": "The Airbus A340 is a long-range, wide-body passenger airliner that was developed and produced by Airbus.",
-      "role": "airliner",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -585,25 +585,25 @@
       "wikidataId": "Q6481",
       "photo": {
         "file": "assets/aircraft/a340.jpg",
-        "sourceFile": "File:Frankfurt Airport Lufthansa Airbus A340-313 D-AIGY (DSC02566).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_(DSC02566).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg/960px-Frankfurt_Airport_Lufthansa_Airbus_A340-313_D-AIGY_%28DSC02566%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A340.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A340.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Logo_Airbus_A340.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Logo_Airbus_A340.svg/960px-Logo_Airbus_A340.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 540,
-        "originalWidth": 5897,
-        "originalHeight": 3319,
-        "mime": "image/jpeg",
-        "author": "MarcelX42",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "attributionRequired": true,
+        "height": 126,
+        "originalWidth": 800,
+        "originalHeight": 105,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Der Airbus A340-313 der Fluggesellschaft Lufthansa mit dem Kennzeichen D-AIGY im Landeanflug auf die Bahn 07L des Flughafens Frankfurt Main. Das Flugzeug führte einen Flug von Boston (Logan International Airport) nach Frankfurt am Main durch.",
-        "dateTaken": "2023-05-04 11:07:52",
-        "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A340.",
+        "dateTaken": "2020-12-01",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:21:59.989Z"
+      "retrievedAt": "2026-10-11T19:27:33.611Z"
     },
     {
       "id": "b767",
@@ -614,7 +614,7 @@
       ],
       "description": "Twin-aisle airliner family",
       "summary": "The Boeing 767 is an American wide-body airliner developed and manufactured by Boeing Commercial Airplanes.\n\nThe airliner design was launched as the 7X7 program on July 14, 1978, the prototype first flew on September 26, 1981, and it was certified on July 30, 1982. The initial 767-200 variant entered service on September 8, 1982, with United Airlines, and the extended-range 767-200ER in 1984. It was stretched into the 767-300 in October 1986, followed by the extended-range 767-300ER in 1988, the most popular variant. The 767-300F, a production freighter version, debuted in October 1995. It was stretched again into the 767-400ER from September 2000.",
-      "role": "commercial aviation",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes"
       ],
@@ -623,7 +623,7 @@
         "United States"
       ],
       "firstFlight": "1981-09-26",
-      "introduced": "September 8, 1982 with United Airlines",
+      "introduced": "1982-09-08",
       "status": "In service; cargo and military variants in production",
       "numberBuilt": 1326,
       "wikipedia": {
@@ -635,7 +635,7 @@
       "wikidataId": "Q6423",
       "photo": {
         "file": "assets/aircraft/b767.jpg",
-        "sourceFile": "File:Delta_Air_Lines_B767-332_N130DL.jpg",
+        "sourceFile": "File:Delta Air Lines B767-332 N130DL.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_B767-332_N130DL.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Delta_Air_Lines_B767-332_N130DL.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Delta_Air_Lines_B767-332_N130DL.jpg/960px-Delta_Air_Lines_B767-332_N130DL.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -653,7 +653,7 @@
         "dateTaken": "2011-08-05 01:42",
         "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:00.742Z"
+      "retrievedAt": "2026-10-11T19:27:34.230Z"
     },
     {
       "id": "md11",
@@ -686,7 +686,7 @@
       "wikidataId": "Q62161",
       "photo": {
         "file": "assets/aircraft/md11.jpg",
-        "sourceFile": "File:McDonnell_Douglas_MD-11P_KLM_PH-KCC.jpg",
+        "sourceFile": "File:McDonnell Douglas MD-11P KLM PH-KCC.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-11P_KLM_PH-KCC.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/McDonnell_Douglas_MD-11P_KLM_PH-KCC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/McDonnell_Douglas_MD-11P_KLM_PH-KCC.jpg/960px-McDonnell_Douglas_MD-11P_KLM_PH-KCC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -704,7 +704,7 @@
         "dateTaken": "2008-07-24 08:36",
         "credit": "Björn Strey / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:01.718Z"
+      "retrievedAt": "2026-10-11T19:27:35.537Z"
     },
     {
       "id": "dc10",
@@ -712,7 +712,7 @@
       "group": "airliner-widebody",
       "description": "Wide-body three-engine airliner",
       "summary": "The McDonnell Douglas DC-10 is an American trijet wide-body aircraft manufactured by McDonnell Douglas.\n\nThe DC-10 was intended to succeed the DC-8 for long-range flights. It first flew on August 29, 1970; it was introduced on August 5, 1971, by American Airlines.",
-      "role": "airliner",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "McDonnell Douglas"
       ],
@@ -733,7 +733,7 @@
       "wikidataId": "Q208075",
       "photo": {
         "file": "assets/aircraft/dc10.jpg",
-        "sourceFile": "File:Continental_Airlines_DC-10.jpg",
+        "sourceFile": "File:Continental Airlines DC-10.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Continental_Airlines_DC-10.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Continental_Airlines_DC-10.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Continental_Airlines_DC-10.jpg/960px-Continental_Airlines_DC-10.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -751,7 +751,7 @@
         "dateTaken": "2 March 2010 (original upload date)",
         "credit": "Danielkang7744 at English Wikipedia / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:02.609Z"
+      "retrievedAt": "2026-10-11T19:27:36.391Z"
     },
     {
       "id": "l1011",
@@ -762,7 +762,7 @@
       ],
       "description": "American wide-body trijet airliner",
       "summary": "The Lockheed L-1011 TriStar is an American medium-to-long-range, wide-body trijet airliner built by the Lockheed Corporation. It was the third wide-body airliner to enter commercial operations, after the Boeing 747 and the McDonnell Douglas DC-10. The airliner has a seating capacity of up to 400 passengers and a range of over 4,000 nautical miles. Its trijet configuration has three Rolls-Royce RB211 engines with one engine under each wing, and a third engine center-mounted in the rear fuselage with an S-duct air inlet on the top of the fuselage. The aircraft has an autoland capability, an automated descent control system, and available lower deck galley and lounge facilities.",
-      "role": "airliner",
+      "role": "Wide-body jet airliner",
       "manufacturer": [
         "Lockheed Corporation"
       ],
@@ -783,7 +783,7 @@
       "wikidataId": "Q852",
       "photo": {
         "file": "assets/aircraft/l1011.jpg",
-        "sourceFile": "File:Lockheed_L-1011-385-1-15_TriStar_250,_Hewa_Bora_Airways_AN0302242.jpg",
+        "sourceFile": "File:Lockheed L-1011-385-1-15 TriStar 250, Hewa Bora Airways AN0302242.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Lockheed_L-1011-385-1-15_TriStar_250,_Hewa_Bora_Airways_AN0302242.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lockheed_L-1011-385-1-15_TriStar_250%2C_Hewa_Bora_Airways_AN0302242.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lockheed_L-1011-385-1-15_TriStar_250%2C_Hewa_Bora_Airways_AN0302242.jpg/960px-Lockheed_L-1011-385-1-15_TriStar_250%2C_Hewa_Bora_Airways_AN0302242.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -801,7 +801,7 @@
         "dateTaken": "3 August 2002",
         "credit": "Árpád Gordos / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:03.486Z"
+      "retrievedAt": "2026-10-11T19:27:37.234Z"
     },
     {
       "id": "il96",
@@ -816,7 +816,7 @@
       "manufacturer": [
         "Voronezh Aircraft Production Association"
       ],
-      "designer": null,
+      "designer": "Ilyushin",
       "countryOfOrigin": [
         "Russia",
         "Soviet Union"
@@ -852,7 +852,7 @@
         "dateTaken": "2018-11-07 11:45:29",
         "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:04.540Z"
+      "retrievedAt": "2026-10-11T19:27:38.016Z"
     },
     {
       "id": "il86",
@@ -868,7 +868,7 @@
         "Ilyushin",
         "Voronezh Aircraft Production Association"
       ],
-      "designer": null,
+      "designer": "Ilyushin",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -903,7 +903,7 @@
         "dateTaken": "2005-01-14",
         "credit": "Konstantin von Wedelstaedt / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:05.380Z"
+      "retrievedAt": "2026-10-11T19:27:38.752Z"
     },
     {
       "id": "a300",
@@ -914,7 +914,7 @@
       ],
       "description": "World's first twin-engine widebody jet airliner",
       "summary": "The Airbus A300 is Airbus' first production aircraft and the world's first twin-engine, wide-body airliner. It was developed by Airbus Industrie GIE, now merged into Airbus, and manufactured from 1971 to 2007.",
-      "role": "air transport",
+      "role": "Wide-body airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -954,7 +954,7 @@
         "dateTaken": "2011-07-06 12:15",
         "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:06.183Z"
+      "retrievedAt": "2026-10-11T19:27:39.414Z"
     },
     {
       "id": "a310",
@@ -965,7 +965,7 @@
       ],
       "description": "Short-fuselage derivative of the Airbus A300 airliner",
       "summary": "The Airbus A310 is a wide-body airliner designed and manufactured by Airbus Industrie GIE, then a consortium of European aerospace manufacturers.\n\nAirbus had identified a demand for an aircraft smaller than the A300, the first twin-jet wide-body. On 7 July 1978, the A310 was launched with orders from Swissair and Lufthansa. On 3 April 1982, the first prototype conducted its maiden flight, and the A310 received its type certificate on 11 March 1983.",
-      "role": "airliner",
+      "role": "Wide-body aircraft",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -975,7 +975,7 @@
         "Germany"
       ],
       "firstFlight": "1982-04-03",
-      "introduced": "April 1983 with Swissair",
+      "introduced": "1983-04",
       "status": "In limited service",
       "numberBuilt": 255,
       "wikipedia": {
@@ -987,7 +987,7 @@
       "wikidataId": "Q6471",
       "photo": {
         "file": "assets/aircraft/a310.jpg",
-        "sourceFile": "File:Air_Transat_A310_(C-GTSF)_@_LHR,_Aug_2009.jpg",
+        "sourceFile": "File:Air Transat A310 (C-GTSF) @ LHR, Aug 2009.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Air_Transat_A310_(C-GTSF)_@_LHR,_Aug_2009.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg/960px-Air_Transat_A310_%28C-GTSF%29_%40_LHR%2C_Aug_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1005,7 +1005,7 @@
         "dateTaken": "8 August 2009",
         "credit": "Konstantin Von Wedelstaedt / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:06.947Z"
+      "retrievedAt": "2026-10-11T19:27:40.281Z"
     },
     {
       "id": "concorde",
@@ -1013,7 +1013,7 @@
       "group": "airliner-widebody",
       "description": "British–French supersonic airliner",
       "summary": "Concorde is a retired Anglo-French supersonic airliner jointly developed and manufactured by Sud Aviation and the British Aircraft Corporation (BAC).\n\nStudies began in 1954 and a UK–France treaty followed in 1962, as the programme cost was estimated at £70 million .\nConstruction of six prototypes began in February 1965, with the first flight from Toulouse on 2 March 1969.\n\nThe market forecast was 350 aircraft, with manufacturers receiving up to 100 options from major airlines.\nOn 9 October 1975, it received its French certificate of airworthiness, and was certified by the UK CAA on 5 December.",
-      "role": null,
+      "role": "Supersonic airliner",
       "manufacturer": [
         "Sud-Aviation",
         "British Aircraft Corporation"
@@ -1054,7 +1054,7 @@
         "dateTaken": "1986-05",
         "credit": "Eduard Marmet / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:08.017Z"
+      "retrievedAt": "2026-10-11T19:27:41.312Z"
     },
     {
       "id": "b707",
@@ -1062,7 +1062,7 @@
       "group": "airliner-widebody",
       "description": "Four-engined single-aisle airliner family",
       "summary": "The Boeing 707 is an early American long-range narrow-body airliner, the first jetliner developed and produced by Boeing Commercial Airplanes.\n\nDeveloped from the Boeing 367-80 prototype, the initial 707-120 first flew on December 20, 1957. Pan Am, the launch customer, began regular service with the 707 on October 26, 1958.\n\nWith versions produced until 1979, the 707 is a swept wing quadjet with podded engines. Its larger fuselage cross-section allowed six-abreast economy seating, retained in the later 720, 727, and 737 models.",
-      "role": "commercial aviation; airliner; airplane with 4 jet engines",
+      "role": "Narrow-body airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes"
       ],
@@ -1101,7 +1101,7 @@
         "dateTaken": "1979-05-25",
         "credit": "Mike Freer / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:08.918Z"
+      "retrievedAt": "2026-10-11T19:27:42.446Z"
     },
     {
       "id": "dc8",
@@ -1149,7 +1149,7 @@
         "dateTaken": "1998-02-25",
         "credit": "NASA Photo by: Jim Ross / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:09.627Z"
+      "retrievedAt": "2026-10-11T19:27:43.085Z"
     },
     {
       "id": "vc10",
@@ -1196,7 +1196,7 @@
         "dateTaken": "2000-10-13",
         "credit": "Chris Lofting / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:10.569Z"
+      "retrievedAt": "2026-10-11T19:27:44.009Z"
     },
     {
       "id": "b737-classic",
@@ -1213,7 +1213,7 @@
         "United States"
       ],
       "firstFlight": "1984-02-24",
-      "introduced": "November 28, 1984, with USAir",
+      "introduced": "1984-11-28",
       "status": "In service",
       "numberBuilt": 1988,
       "wikipedia": {
@@ -1225,7 +1225,7 @@
       "wikidataId": "Q2355950",
       "photo": {
         "file": "assets/aircraft/b737-classic.jpg",
-        "sourceFile": "File:Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
+        "sourceFile": "File:Classic Colors Southwest Airlines N648SW Boeing 737-3H4 SJC.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg/960px-Classic_Colors_Southwest_Airlines_N648SW_Boeing_737-3H4_SJC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1243,7 +1243,7 @@
         "dateTaken": "2007-08-15 16:50",
         "credit": "Dylan Ashe from San Jose, USA / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:11.291Z"
+      "retrievedAt": "2026-10-11T19:27:44.816Z"
     },
     {
       "id": "b737ng",
@@ -1262,7 +1262,7 @@
       "firstFlight": "1997-02-09",
       "introduced": "1997-12",
       "status": "In service, military variants in production",
-      "numberBuilt": 7123,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Boeing 737 Next Generation",
         "url": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation",
@@ -1290,7 +1290,7 @@
         "dateTaken": "2025-06-20 17:36:22",
         "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:12.158Z"
+      "retrievedAt": "2026-10-11T19:27:45.776Z"
     },
     {
       "id": "b737max",
@@ -1320,7 +1320,7 @@
       "wikidataId": "Q139289",
       "photo": {
         "file": "assets/aircraft/b737max.jpg",
-        "sourceFile": "File:Alaska_737_Max_9.jpg",
+        "sourceFile": "File:Alaska 737 Max 9.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Alaska_737_Max_9.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Alaska_737_Max_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Alaska_737_Max_9.jpg/960px-Alaska_737_Max_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1338,7 +1338,7 @@
         "dateTaken": "Mar 05, 2023",
         "credit": "KirkXWB / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:13.051Z"
+      "retrievedAt": "2026-10-11T19:27:46.796Z"
     },
     {
       "id": "b727",
@@ -1346,7 +1346,7 @@
       "group": "airliner-narrowbody",
       "description": "Three-engined single-aisle airliner family",
       "summary": "The Boeing 727 is an American narrow-body trijet that was developed and produced by Boeing Commercial Airplanes. After the heavier 707 quadjet was introduced in 1958, Boeing addressed the demand for shorter flight lengths from smaller airports. On December 5, 1960, the 727 was launched with 40 orders each from United Airlines and Eastern Air Lines. The first 727-100 rolled out on November 27, 1962, first flew on February 9, 1963, and entered service with Eastern on February 1, 1964.",
-      "role": "airliner",
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes",
         "Boeing"
@@ -1368,25 +1368,25 @@
       "wikidataId": "Q6409",
       "photo": {
         "file": "assets/aircraft/b727.jpg",
-        "sourceFile": "File:B-727 Iberia (cropped).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:B-727_Iberia_(cropped).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/B-727_Iberia_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/B-727_Iberia_%28cropped%29.jpg/960px-B-727_Iberia_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:B727.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:B727.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/B727.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/B727.svg/960px-B727.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 2315,
-        "originalHeight": 1543,
-        "mime": "image/jpeg",
-        "author": "Iberia Airlines",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "attributionRequired": true,
+        "height": 112,
+        "originalWidth": 300,
+        "originalHeight": 35,
+        "mime": "image/svg+xml",
+        "author": "Boeing",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "EC-DCC",
-        "dateTaken": "2008-07-11 11:33:44",
-        "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons"
+        "caption": "This is the logo of the Boeing 727.",
+        "dateTaken": null,
+        "credit": "Boeing / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:13.976Z"
+      "retrievedAt": "2026-10-11T19:27:47.848Z"
     },
     {
       "id": "b757",
@@ -1394,7 +1394,7 @@
       "group": "airliner-narrowbody",
       "description": "Large single-aisle airliner family",
       "summary": "The Boeing 757 is an American narrow-body airliner designed and built by Boeing Commercial Airplanes.\n\nThe then-named 7N7, a twinjet successor to the trijet 727, received its first orders in August 1978.\nThe prototype made its maiden flight on February 19, 1982, and it was certified by the Federal Aviation Administration (FAA) on December 21, 1982.\nEastern Air Lines placed the initial 757-200 variant in commercial service on January 1, 1983.\nA package freighter (PF) variant entered service in September 1987 followed by a combi model in September 1988.\nThe stretched 757-300 was launched in September 1996 and began service in March 1999. \nAfter 1,050 had been built for 54 customers, production ended in October 2004, as Boeing offered the largest 737 Next Generation variants as a successor to the -200.",
-      "role": "airliner",
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Boeing Commercial Airplanes"
       ],
@@ -1433,7 +1433,7 @@
         "dateTaken": "2024-12-24 14:50:35",
         "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:14.808Z"
+      "retrievedAt": "2026-10-11T19:27:48.598Z"
     },
     {
       "id": "b717",
@@ -1441,11 +1441,11 @@
       "group": "airliner-narrowbody",
       "description": "Small single-aisle airliner",
       "summary": "The Boeing 717 is an American five-abreast narrow-body airliner produced by Boeing Commercial Airplanes. The twin-engine airliner was developed for the 100-seat market and originally marketed by McDonnell Douglas in the early 1990s as the McDonnell Douglas MD-95 until the company merged with Boeing in August 1997. It was a shortened derivative of McDonnell Douglas’ successful airliner, the MD-80, and part of the company's broader DC-9 family. Capable of seating up to 134 passengers, the 717 has a design range of 2,060 nautical miles [nmi]. It is powered by two Rolls-Royce BR715 turbofan engines mounted at the rear of the fuselage.",
-      "role": "commercial aviation",
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Boeing"
       ],
-      "designer": null,
+      "designer": "McDonnell Douglas",
       "countryOfOrigin": [
         "United States"
       ],
@@ -1462,25 +1462,25 @@
       "wikidataId": "Q6401",
       "photo": {
         "file": "assets/aircraft/b717.jpg",
-        "sourceFile": "File:Delta_Air_Lines,_N991AT,_Boeing_717-23S_(49593115578).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines,_N991AT,_Boeing_717-23S_(49593115578).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Delta_Air_Lines%2C_N991AT%2C_Boeing_717-23S_%2849593115578%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Delta_Air_Lines%2C_N991AT%2C_Boeing_717-23S_%2849593115578%29.jpg/960px-Delta_Air_Lines%2C_N991AT%2C_Boeing_717-23S_%2849593115578%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:B717.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:B717.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/B717.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/B717.svg/960px-B717.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 1200,
-        "originalHeight": 800,
-        "mime": "image/jpeg",
-        "author": "Anna Zvereva from Tallinn, Estonia",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "attributionRequired": true,
+        "height": 112,
+        "originalWidth": 300,
+        "originalHeight": 35,
+        "mime": "image/svg+xml",
+        "author": "Boeing",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Delta Air Lines, N991AT, Boeing 717-23S",
-        "dateTaken": "2019-07-22 01:14",
-        "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+        "caption": "Logo for the Boeing 717",
+        "dateTaken": null,
+        "credit": "Boeing / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:15.477Z"
+      "retrievedAt": "2026-10-11T19:27:49.302Z"
     },
     {
       "id": "a320",
@@ -1488,7 +1488,7 @@
       "group": "airliner-narrowbody",
       "description": "Single-aisle airliner family",
       "summary": "The Airbus A320 family is a series of narrow-body airliners developed and produced by Airbus, and is the best-selling airliner ever built. The A320 aircraft programme was launched in March 1984, first flew on 22 February 1987, and was introduced in April 1988 by Air France.\nThe first member of the family was followed by the stretched A321, the shorter A319, and the shortest variant, the A318 .\nFinal assembly takes place in Toulouse in France; Hamburg in Germany; Tianjin in China since 2009; and Mobile, Alabama, in the United States since April 2016.",
-      "role": "commercial aviation",
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -1509,25 +1509,25 @@
       "wikidataId": "Q6475",
       "photo": {
         "file": "assets/aircraft/a320.jpg",
-        "sourceFile": "File:Airbus_A320-214,_Airbus_Industrie_JP7617615.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214,_Airbus_Industrie_JP7617615.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg/960px-Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:A320 Family logo.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A320_Family_logo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/A320_Family_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/A320_Family_logo.svg/960px-A320_Family_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 1200,
-        "originalHeight": 800,
-        "mime": "image/jpeg",
-        "author": "Pedro Aragão",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "attributionRequired": true,
+        "height": 114,
+        "originalWidth": 512,
+        "originalHeight": 61,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": null,
-        "dateTaken": "5 September 2012",
-        "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons"
+        "caption": "Logo of Airbus A320 family",
+        "dateTaken": "Unknown date",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:16.350Z"
+      "retrievedAt": "2026-10-11T19:27:50.462Z"
     },
     {
       "id": "a320neo",
@@ -1535,7 +1535,7 @@
       "group": "airliner-narrowbody",
       "description": "Re-engined version of the A320 family",
       "summary": "The Airbus A320neo family is an incremental development of the A320 family of narrow-body airliners produced by Airbus.\n\nThe A320neo family is based on the enhanced variant of the previous generation A319, A320, and A321, which was then retroactively renamed the A320ceo family.",
-      "role": "commercial aviation",
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Airbus Commercial Aircraft"
       ],
@@ -1557,25 +1557,25 @@
       "wikidataId": "Q6488",
       "photo": {
         "file": "assets/aircraft/a320neo.jpg",
-        "sourceFile": "File:IndiGo_Airbus_A320neo_F-WWDG_(to_VT-ITI)_(28915135713).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IndiGo_Airbus_A320neo_F-WWDG_(to_VT-ITI)_(28915135713).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg/960px-IndiGo_Airbus_A320neo_F-WWDG_%28to_VT-ITI%29_%2828915135713%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A320neo.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A320neo.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_Airbus_A320neo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_Airbus_A320neo.svg/960px-Logo_Airbus_A320neo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 5215,
-        "originalHeight": 3476,
-        "mime": "image/jpeg",
-        "author": "BriYYZ from Toronto, Canada",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "attributionRequired": true,
+        "height": 96,
+        "originalWidth": 951,
+        "originalHeight": 95,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Arriving TLS after a test flight.",
-        "dateTaken": "2016-09-06 12:35",
-        "credit": "BriYYZ from Toronto, Canada / CC BY-SA 2.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A320neo.",
+        "dateTaken": "2021-05-05",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:17.231Z"
+      "retrievedAt": "2026-10-11T19:27:51.193Z"
     },
     {
       "id": "a220",
@@ -1583,7 +1583,7 @@
       "group": "airliner-narrowbody",
       "description": "Canadian narrow-body airliner family",
       "summary": "The Airbus A220 is a family of five-abreast narrow-body airliners by Airbus Canada Limited Partnership (ACLP). It was initially developed by Bombardier Aviation with the program launched on 13 July 2008 and had two years in-service as the Bombardier CSeries.\n\nThe smaller A220-100 first flew on 16 September 2013, received an initial type certificate from Transport Canada on 18 December 2015, and entered service on 15 July 2016 with Swiss International Air Lines. The longer A220-300 first flew on 27 February 2015, received an initial type certificate on 11 July 2016, and entered service with airBaltic on 14 December 2016. Both launch operators recorded better-than-expected fuel burn and dispatch reliability, as well as positive feedback from passengers and crew.",
-      "role": "airliner",
+      "role": "Narrow-body airliner",
       "manufacturer": [
         "Airbus Canada"
       ],
@@ -1604,25 +1604,25 @@
       "wikidataId": "Q426074",
       "photo": {
         "file": "assets/aircraft/a220.jpg",
-        "sourceFile": "File:Airbus A220-300.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Airbus_A220-300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Airbus_A220-300.jpg/960px-Airbus_A220-300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceFile": "File:Logo Airbus A220.svg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Airbus_A220.svg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Airbus_A220.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Logo_Airbus_A220.svg/960px-Logo_Airbus_A220.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "width": 960,
-        "height": 640,
-        "originalWidth": 3832,
-        "originalHeight": 2555,
-        "mime": "image/jpeg",
-        "author": "Romain COUPY",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "attributionRequired": true,
+        "height": 126,
+        "originalWidth": 800,
+        "originalHeight": 105,
+        "mime": "image/svg+xml",
+        "author": "Airbus",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Previously knowed as CS300, the FTV8 (Flight Test Vehicle) performed a low-pass at Toulouse-Blagnac airport on 10 July 2018, for the official presentation at Airbus' headquarters with her new name.",
-        "dateTaken": "10 July 2018, 12:30:01",
-        "credit": "Romain COUPY / CC BY-SA 4.0 / via Wikimedia Commons"
+        "caption": "Logo of the Airbus A220.",
+        "dateTaken": "2020-12-01",
+        "credit": "Airbus / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:18.217Z"
+      "retrievedAt": "2026-10-11T19:27:52.288Z"
     },
     {
       "id": "md80",
@@ -1670,7 +1670,7 @@
         "dateTaken": "2020-01-14 13:39:35",
         "credit": "AKS.9955 / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:18.917Z"
+      "retrievedAt": "2026-10-11T19:27:53.194Z"
     },
     {
       "id": "tu154",
@@ -1718,7 +1718,7 @@
         "dateTaken": "13 January 2009",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:19.768Z"
+      "retrievedAt": "2026-10-11T19:27:53.902Z"
     },
     {
       "id": "c919",
@@ -1726,7 +1726,7 @@
       "group": "airliner-narrowbody",
       "description": "Chinese medium-range narrowbody airliner",
       "summary": "The Comac C919 is a narrow-body airliner developed by Chinese state owned aircraft manufacturer Comac.\nThe development program was launched in 2008 as a competitor to the Airbus A320 and Boeing 737. Production began in December 2011, with the first prototype being rolled out on 2 November 2015; the maiden flight took place on 5 May 2017. On 29 September 2022 the C919 received its CAAC type certificate. The first production airframe was delivered to China Eastern Airlines on 9 December 2022 and was put into commercial passenger service on 28 May 2023.",
-      "role": null,
+      "role": "Narrow-body jet airliner",
       "manufacturer": [
         "Comac"
       ],
@@ -1746,26 +1746,26 @@
       },
       "wikidataId": "Q429894",
       "photo": {
-        "file": "assets/aircraft/c919.jpg",
-        "sourceFile": "File:B-919A@PEK_(20221226151722).jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:B-919A@PEK_(20221226151722).jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/B-919A%40PEK_%2820221226151722%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/B-919A%40PEK_%2820221226151722%29.jpg/960px-B-919A%40PEK_%2820221226151722%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file": "assets/aircraft/c919.png",
+        "sourceFile": "File:Logo Comac C919.png",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_Comac_C919.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo_Comac_C919.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo_Comac_C919.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "width": 960,
-        "height": 640,
-        "originalWidth": 5755,
-        "originalHeight": 3837,
-        "mime": "image/jpeg",
-        "author": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "attributionRequired": true,
+        "height": 365,
+        "originalWidth": 266,
+        "originalHeight": 101,
+        "mime": "image/png",
+        "author": "Comac",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
         "free": true,
-        "caption": "Dongfang 7801 from Shanghai-Hongqiao, landing at 36R as part of its 100-hour validation.",
-        "dateTaken": "2022-12-26 15:17:22",
-        "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
+        "caption": "Logo Comac C919.",
+        "dateTaken": "2025-03-06",
+        "credit": "Comac / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:20.745Z"
+      "retrievedAt": "2026-10-11T19:27:54.999Z"
     },
     {
       "id": "ssj100",
@@ -1778,7 +1778,7 @@
         "Komsomolsk-on-Amur Aircraft Production Association",
         "Yakovlev Corporation"
       ],
-      "designer": null,
+      "designer": "Sukhoi",
       "countryOfOrigin": [
         "Russia"
       ],
@@ -1795,7 +1795,7 @@
       "wikidataId": "Q486066",
       "photo": {
         "file": "assets/aircraft/ssj100.jpg",
-        "sourceFile": "File:Sukhoi_Superjet_100_(5096752902)_(cropped).jpg",
+        "sourceFile": "File:Sukhoi Superjet 100 (5096752902) (cropped).jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhoi_Superjet_100_(5096752902)_(cropped).jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg/960px-Sukhoi_Superjet_100_%285096752902%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1813,7 +1813,7 @@
         "dateTaken": "2010-06-05 16:07",
         "credit": "SuperJet International / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:21.857Z"
+      "retrievedAt": "2026-10-11T19:27:55.918Z"
     },
     {
       "id": "f100",
@@ -1860,7 +1860,7 @@
         "dateTaken": "2009-07-10 16:41",
         "credit": "Laurent ERRERA from L'Union, France / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:22.789Z"
+      "retrievedAt": "2026-10-11T19:27:56.879Z"
     },
     {
       "id": "bae146",
@@ -1879,7 +1879,7 @@
         "United Kingdom"
       ],
       "firstFlight": "1981-09-03",
-      "introduced": "May 1983",
+      "introduced": "1983-05",
       "status": "In service",
       "numberBuilt": 394,
       "wikipedia": {
@@ -1891,7 +1891,7 @@
       "wikidataId": "Q589498",
       "photo": {
         "file": "assets/aircraft/bae146.jpg",
-        "sourceFile": "File:Logo_BAE_Avro_RJ.jpg",
+        "sourceFile": "File:Logo BAE Avro RJ.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_BAE_Avro_RJ.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_BAE_Avro_RJ.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_BAE_Avro_RJ.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -1909,7 +1909,7 @@
         "dateTaken": "2023-03-30",
         "credit": "BAE Systems / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:23.555Z"
+      "retrievedAt": "2026-10-11T19:27:57.675Z"
     },
     {
       "id": "ejet",
@@ -1956,7 +1956,7 @@
         "dateTaken": "2014-12-31",
         "credit": "Richard Vandervord / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:24.496Z"
+      "retrievedAt": "2026-10-11T19:27:58.421Z"
     },
     {
       "id": "ejet-e2",
@@ -1964,7 +1964,7 @@
       "group": "regional",
       "description": "Regional jet airliner family",
       "summary": "The Embraer E-Jet E2 family is a series of four-abreast narrow-body regional jet airliners designed and produced by the Brazilian aircraft manufacturer Embraer. The twinjet is an incremental development of the original E-Jet family, adopting the more fuel-efficient Pratt & Whitney PW1900G, a geared turbofan engine. The aircraft family comprises three variants that share the same fuselage cross-section with different lengths and feature three different redesigned wings, fly-by-wire controls with new avionics, and an updated cabin. The variants offer maximum take-off weights from 44.6 to 62.5 t, and cover a range of 2,000–3,000 nmi.",
-      "role": null,
+      "role": "Regional jet ; Narrow-body airliner",
       "manufacturer": [
         "Embraer"
       ],
@@ -1973,9 +1973,9 @@
         "Brazil"
       ],
       "firstFlight": "2016-05-23",
-      "introduced": "24 April 2018 with Widerøe",
+      "introduced": "2018-04-24",
       "status": "In service",
-      "numberBuilt": "224 (Q3 2026)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Embraer E-Jet E2 family",
         "url": "https://en.wikipedia.org/wiki/Embraer_E-Jet_E2_family",
@@ -2003,7 +2003,7 @@
         "dateTaken": "2018-06-30 14:13",
         "credit": "Valentin Hintikka from Finland / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:25.158Z"
+      "retrievedAt": "2026-10-11T19:27:59.109Z"
     },
     {
       "id": "erj",
@@ -2022,7 +2022,7 @@
       "firstFlight": "1995-08-11",
       "introduced": "1996-12",
       "status": "In service",
-      "numberBuilt": 1231,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Embraer ERJ family",
         "url": "https://en.wikipedia.org/wiki/Embraer_ERJ_family",
@@ -2032,7 +2032,7 @@
       "wikidataId": "Q109423211",
       "photo": {
         "file": "assets/aircraft/erj.jpg",
-        "sourceFile": "File:Embraer_ERJ-145LU,_Air_France_(Regional_Compagnie_Aerienne)_JP6914566.jpg",
+        "sourceFile": "File:Embraer ERJ-145LU, Air France (Regional Compagnie Aerienne) JP6914566.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Embraer_ERJ-145LU,_Air_France_(Regional_Compagnie_Aerienne)_JP6914566.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Embraer_ERJ-145LU%2C_Air_France_%28Regional_Compagnie_Aerienne%29_JP6914566.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Embraer_ERJ-145LU%2C_Air_France_%28Regional_Compagnie_Aerienne%29_JP6914566.jpg/960px-Embraer_ERJ-145LU%2C_Air_France_%28Regional_Compagnie_Aerienne%29_JP6914566.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2050,7 +2050,7 @@
         "dateTaken": "25 July 2010",
         "credit": "Aldo Bidini / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:25.925Z"
+      "retrievedAt": "2026-10-11T19:27:59.814Z"
     },
     {
       "id": "crj200",
@@ -2067,9 +2067,9 @@
         "Canada"
       ],
       "firstFlight": "1991-05-10",
-      "introduced": "19 October 1992 with Lufthansa CityLine",
+      "introduced": "1992-10-19",
       "status": "In service",
-      "numberBuilt": 1021,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Bombardier CRJ100/200",
         "url": "https://en.wikipedia.org/wiki/Bombardier_CRJ100%2F200",
@@ -2097,7 +2097,7 @@
         "dateTaken": "2015-04-14 12:26",
         "credit": "ERIC SALARD from PARIS, FRANCE / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:26.715Z"
+      "retrievedAt": "2026-10-11T19:28:00.921Z"
     },
     {
       "id": "crj700",
@@ -2144,7 +2144,7 @@
         "dateTaken": "2012-03-27 12:43",
         "credit": "Mark Harkin / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:27.601Z"
+      "retrievedAt": "2026-10-11T19:28:01.633Z"
     },
     {
       "id": "atr72",
@@ -2192,7 +2192,7 @@
         "dateTaken": "2011-08-30 11:01:54",
         "credit": "Ken Fielding / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:28.404Z"
+      "retrievedAt": "2026-10-11T19:28:02.435Z"
     },
     {
       "id": "dash8",
@@ -2211,7 +2211,7 @@
       "firstFlight": "1983-06-20",
       "introduced": "1984",
       "status": "Production suspended since 2022, pending new facility",
-      "numberBuilt": "1,258 (as of March 31, 2019)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "De Havilland Canada Dash 8",
         "url": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8",
@@ -2239,7 +2239,7 @@
         "dateTaken": "2024-06-20 13:07:55",
         "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:29.296Z"
+      "retrievedAt": "2026-10-11T19:28:03.275Z"
     },
     {
       "id": "saab340",
@@ -2286,7 +2286,7 @@
         "dateTaken": "2014-01-02 14:22",
         "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:30.170Z"
+      "retrievedAt": "2026-10-11T19:28:04.095Z"
     },
     {
       "id": "twin-otter",
@@ -2335,7 +2335,7 @@
         "dateTaken": "2011-12-13",
         "credit": "Timo Breidenstein / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:30.925Z"
+      "retrievedAt": "2026-10-11T19:28:04.790Z"
     },
     {
       "id": "dc3",
@@ -2343,7 +2343,7 @@
       "group": "regional",
       "description": "Airliner and military transport aircraft family",
       "summary": "The Douglas DC-3 is a propeller-driven airliner that was manufactured by the Douglas Aircraft Company. It had a lasting effect on the airline industry from the 1930s through World War II.\n\nIt was developed as a larger, improved, 14-bed sleeper version of the Douglas DC-2.\n\nIt is a low-wing metal monoplane with conventional landing gear, powered by two radial piston engines of 1,000–1,200 hp (750–890 kW). Although the DC-3s originally built for civil service had the Wright R-1820 Cyclone, later civilian DC-3s used the Pratt & Whitney R-1830 Twin Wasp engine.\n\nThe DC-3 has a cruising speed of 207 mph (333 km/h), a capacity of 21 to 32 passengers or 6,000 lb (2,700 kg) of cargo, and a range of 1,500 mi (2,400 km); it can operate from short runways.",
-      "role": null,
+      "role": "Airliner and transport aircraft",
       "manufacturer": [
         "Douglas"
       ],
@@ -2382,7 +2382,7 @@
         "dateTaken": "Taken in October 1989",
         "credit": "Towpilot / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:31.675Z"
+      "retrievedAt": "2026-10-11T19:28:05.744Z"
     },
     {
       "id": "constellation",
@@ -2429,7 +2429,7 @@
         "dateTaken": null,
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:32.267Z"
+      "retrievedAt": "2026-10-11T19:28:06.364Z"
     },
     {
       "id": "c172",
@@ -2437,7 +2437,7 @@
       "group": "business-general",
       "description": "Propeller driven single engine aircraft",
       "summary": "The Cessna 172 Skyhawk is an American four-seat, single-engine, high wing, fixed-wing aircraft made by the Cessna Aircraft Company. First flown in 1955, more 172s have been built than any other aircraft. It was developed from the Cessna 170, which was first manufactured in 1948, but with tricycle landing gear rather than conventional landing gear. The Skyhawk name was originally used for a trim package, but was later applied to all standard-production 172 aircraft; in the 1980s, the 172 was briefly marketed as the Cutlass. The 172 was also produced under license in France by Reims Aviation. The 172 was developed into the more powerful but less successful Cessna 175; after that aircraft's discontinuation, Cessna and Reims used the 175 type certificate to develop the R172 series, which includes several aircraft marketed as 172 variants.",
-      "role": "utility aircraft",
+      "role": "Civil utility aircraft",
       "manufacturer": [
         "Cessna"
       ],
@@ -2476,7 +2476,7 @@
         "dateTaken": "2 April 2010",
         "credit": "Peter Bakema / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:33.230Z"
+      "retrievedAt": "2026-10-11T19:28:07.121Z"
     },
     {
       "id": "pa28",
@@ -2484,7 +2484,7 @@
       "group": "business-general",
       "description": "Family of light single engine aircraft",
       "summary": "The Piper PA-28 Cherokee is a family of two-seat or four-seat light aircraft built by Piper Aircraft and designed for flight training, air taxi, and personal use. The PA-28 family of aircraft comprises all-metal, unpressurized, single piston-engined airplanes with low mounted wings and tricycle landing gear. They have a single door on the right side, which is entered by stepping on the wing.",
-      "role": null,
+      "role": "Civil utility aircraft",
       "manufacturer": [
         "Piper Aircraft"
       ],
@@ -2523,7 +2523,7 @@
         "dateTaken": "2021-11-08 13:37:32",
         "credit": "Mike Burdett / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:22:34.081Z"
+      "retrievedAt": "2026-10-11T19:28:07.863Z"
     },
     {
       "id": "sr22",
@@ -2542,7 +2542,7 @@
       "firstFlight": "2000",
       "introduced": null,
       "status": null,
-      "numberBuilt": "8,785 through 2025",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Cirrus SR22",
         "url": "https://en.wikipedia.org/wiki/Cirrus_SR22",
@@ -2570,7 +2570,7 @@
         "dateTaken": "25 September 2009",
         "credit": "Alan Lebeda / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:01.051Z"
+      "retrievedAt": "2026-10-11T19:28:08.564Z"
     },
     {
       "id": "bonanza",
@@ -2589,7 +2589,7 @@
       "firstFlight": "1945-12-22",
       "introduced": "1947",
       "status": "In service",
-      "numberBuilt": "18,525 (at end of 2025)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Beechcraft Bonanza",
         "url": "https://en.wikipedia.org/wiki/Beechcraft_Bonanza",
@@ -2617,7 +2617,7 @@
         "dateTaken": "2008-05-08 11:07",
         "credit": "Bill Larkins / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:02.001Z"
+      "retrievedAt": "2026-10-11T19:28:09.420Z"
     },
     {
       "id": "j3cub",
@@ -2636,7 +2636,7 @@
       "firstFlight": "1938",
       "introduced": "1937",
       "status": null,
-      "numberBuilt": "19,888 (US built); 150 (Canadian-built); 253 TG-8 gliders",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Piper J-3 Cub",
         "url": "https://en.wikipedia.org/wiki/Piper_J-3_Cub",
@@ -2655,16 +2655,16 @@
         "originalWidth": 1710,
         "originalHeight": 899,
         "mime": "image/jpeg",
-        "author": null,
-        "license": null,
-        "licenseUrl": null,
-        "attributionRequired": null,
+        "author": "Huhu Uet",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "attributionRequired": true,
         "free": true,
-        "caption": null,
-        "dateTaken": null,
-        "credit": "Unknown author / via Wikimedia Commons"
+        "caption": "Gelbe Piper PA-18 Super Cub über dem Flugplatz Uetersen",
+        "dateTaken": "2010-10-10",
+        "credit": "Huhu Uet / CC BY 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:02.868Z"
+      "retrievedAt": "2026-10-11T19:28:10.573Z"
     },
     {
       "id": "da40",
@@ -2681,7 +2681,7 @@
       "firstFlight": "1997-11-05",
       "introduced": null,
       "status": "In production",
-      "numberBuilt": "2,200 (December 2020)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Diamond DA40 Diamond Star",
         "url": "https://en.wikipedia.org/wiki/Diamond_DA40_Diamond_Star",
@@ -2709,7 +2709,7 @@
         "dateTaken": "2013-05-13 10:49",
         "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:03.575Z"
+      "retrievedAt": "2026-10-11T19:28:11.347Z"
     },
     {
       "id": "caravan",
@@ -2756,7 +2756,7 @@
         "dateTaken": "2019-05-17",
         "credit": "Lt. Col. Scott Voskovitch / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:04.324Z"
+      "retrievedAt": "2026-10-11T19:28:12.263Z"
     },
     {
       "id": "pc12",
@@ -2775,7 +2775,7 @@
       "firstFlight": "1991-05-31",
       "introduced": "1994",
       "status": "In production",
-      "numberBuilt": "2,000 ()",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Pilatus PC-12",
         "url": "https://en.wikipedia.org/wiki/Pilatus_PC-12",
@@ -2803,7 +2803,7 @@
         "dateTaken": "30 July 2004",
         "credit": "Chris Finney / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:05.129Z"
+      "retrievedAt": "2026-10-11T19:28:13.344Z"
     },
     {
       "id": "king-air",
@@ -2822,7 +2822,7 @@
       "firstFlight": "1963-05",
       "introduced": "1964-09-09",
       "status": "Active service",
-      "numberBuilt": 3207,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Beechcraft King Air",
         "url": "https://en.wikipedia.org/wiki/Beechcraft_King_Air",
@@ -2850,7 +2850,7 @@
         "dateTaken": "2016-09-24",
         "credit": "海上自衛隊 / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:05.897Z"
+      "retrievedAt": "2026-10-11T19:28:14.345Z"
     },
     {
       "id": "g650",
@@ -2858,7 +2858,7 @@
       "group": "business-general",
       "description": "Executive jet aircraft",
       "summary": "The Gulfstream G650, G700, and G800 are large business jets produced by the American company Gulfstream Aerospace.",
-      "role": null,
+      "role": "Business jet",
       "manufacturer": [
         "Gulfstream Aerospace"
       ],
@@ -2897,7 +2897,7 @@
         "dateTaken": "2016-05-05 12:59",
         "credit": "Rob Hodgkins / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:06.702Z"
+      "retrievedAt": "2026-10-11T19:28:15.197Z"
     },
     {
       "id": "learjet35",
@@ -2924,7 +2924,7 @@
       "wikidataId": "Q667988",
       "photo": {
         "file": "assets/aircraft/learjet35.jpg",
-        "sourceFile": "File:Learjet_35_(8738280921).jpg",
+        "sourceFile": "File:Learjet 35 (8738280921).jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Learjet_35_(8738280921).jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Learjet_35_%288738280921%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Learjet_35_%288738280921%29.jpg/960px-Learjet_35_%288738280921%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2942,7 +2942,7 @@
         "dateTaken": "14 May 2013, 21:06 (original upload date)",
         "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:07.447Z"
+      "retrievedAt": "2026-10-11T19:28:16.105Z"
     },
     {
       "id": "citation-x",
@@ -2987,7 +2987,7 @@
         "dateTaken": "2012-04-01 15:01",
         "credit": "Tomás Del Coro from Las Vegas, Nevada, USA / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:08.231Z"
+      "retrievedAt": "2026-10-11T19:28:16.949Z"
     },
     {
       "id": "global7500",
@@ -2995,7 +2995,7 @@
       "group": "business-general",
       "description": "Business jet",
       "summary": "The Bombardier Global 7500 and Global 8000 are ultra long-range business jets developed by Bombardier Aviation. The Global 7500, originally named the Global 7000, made its first flight on November 4, 2016, was type certified by Transport Canada on September 28, 2018, and entered service on 20 December 2018.",
-      "role": null,
+      "role": "Business jet",
       "manufacturer": [
         "Bombardier Aerospace"
       ],
@@ -3003,10 +3003,10 @@
       "countryOfOrigin": [
         "Canada"
       ],
-      "firstFlight": "7500: November 4, 2016",
-      "introduced": "7500: December 20, 2018; 8000: December 8, 2025",
+      "firstFlight": null,
+      "introduced": "2018-12-20",
       "status": "In service",
-      "numberBuilt": "200 as of September 2024",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Bombardier Global 7500",
         "url": "https://en.wikipedia.org/wiki/Bombardier_Global_7500",
@@ -3034,7 +3034,7 @@
         "dateTaken": "2023-12-08",
         "credit": "KeepPhlyingHigh / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:09.019Z"
+      "retrievedAt": "2026-10-11T19:28:17.865Z"
     },
     {
       "id": "hondajet",
@@ -3082,7 +3082,7 @@
         "dateTaken": "2005-07-28",
         "credit": "Sergey Ryabtsev / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:09.948Z"
+      "retrievedAt": "2026-10-11T19:28:18.686Z"
     },
     {
       "id": "phenom300",
@@ -3129,7 +3129,7 @@
         "dateTaken": "6 June 2013",
         "credit": "Aktug Ates / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:10.649Z"
+      "retrievedAt": "2026-10-11T19:28:19.353Z"
     },
     {
       "id": "c130",
@@ -3176,7 +3176,7 @@
         "dateTaken": null,
         "credit": "U.S. Air Force photo by Tech. Sgt. Howard Blair / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:11.560Z"
+      "retrievedAt": "2026-10-11T19:28:20.371Z"
     },
     {
       "id": "c17",
@@ -3184,7 +3184,7 @@
       "group": "military-transport-special",
       "description": "American four engine military transport aircraft",
       "summary": "The McDonnell Douglas/Boeing C-17 Globemaster III is a large military transport aircraft developed for the United States Air Force (USAF) during the 1980s and the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster and the Douglas C-124 Globemaster II.",
-      "role": "airlift",
+      "role": "Strategic and tactical airlifter",
       "manufacturer": [
         "Boeing",
         "McDonnell Douglas"
@@ -3224,7 +3224,7 @@
         "dateTaken": "2007-03-22",
         "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:12.196Z"
+      "retrievedAt": "2026-10-11T19:28:21.277Z"
     },
     {
       "id": "c5",
@@ -3232,7 +3232,7 @@
       "group": "military-transport-special",
       "description": "American heavy military transport aircraft",
       "summary": "The Lockheed C-5 Galaxy is a large four-engine military transport aircraft designed and built by Lockheed Corporation, and now maintained and upgraded by its successor, Lockheed Martin. It provides the United States Air Force (USAF) with a heavy intercontinental-range strategic airlift capability, one that can carry outsized and oversized loads, including all air-certifiable cargo. The Galaxy has many similarities to the smaller Lockheed C-141 Starlifter and the later Boeing C-17 Globemaster III. The C-5 is among the largest military aircraft in the world. All 52 in-service aircraft have been upgraded to the C-5M Super Galaxy with new engines and modernized avionics designed to extend its service life to 2040 and beyond.",
-      "role": "airlift",
+      "role": "Strategic airlifter",
       "manufacturer": [
         "Lockheed Martin"
       ],
@@ -3253,7 +3253,7 @@
       "wikidataId": "Q182012",
       "photo": {
         "file": "assets/aircraft/c5.jpg",
-        "sourceFile": "File:Usaf.c5.galaxy.750pix.jpg",
+        "sourceFile": "File:USAF C-5 Galaxy in flight.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:USAF_C-5_Galaxy_in_flight.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/USAF_C-5_Galaxy_in_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/USAF_C-5_Galaxy_in_flight.jpg/960px-USAF_C-5_Galaxy_in_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3271,7 +3271,7 @@
         "dateTaken": null,
         "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:12.877Z"
+      "retrievedAt": "2026-10-11T19:28:21.854Z"
     },
     {
       "id": "a400m",
@@ -3320,7 +3320,7 @@
         "dateTaken": "2017-07-12 16:35",
         "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:13.711Z"
+      "retrievedAt": "2026-10-11T19:28:22.677Z"
     },
     {
       "id": "an124",
@@ -3334,7 +3334,7 @@
         "Antonov Serial Production Plant",
         "Ulyanovsk Aviation Industrial Complex"
       ],
-      "designer": null,
+      "designer": "Antonov",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -3369,7 +3369,7 @@
         "dateTaken": "26 July 2008",
         "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:14.593Z"
+      "retrievedAt": "2026-10-11T19:28:23.511Z"
     },
     {
       "id": "an225",
@@ -3377,17 +3377,17 @@
       "group": "military-transport-special",
       "description": "Soviet/Ukrainian heavy strategic cargo aircraft",
       "summary": "The Antonov An-225 Mriya was a large strategic airlift cargo aircraft designed and produced by the Antonov Design Bureau in the Soviet Union.",
-      "role": "outsize cargo transport",
+      "role": "Outsize cargo freight aircraft",
       "manufacturer": [
         "Antonov Serial Production Plant"
       ],
-      "designer": null,
+      "designer": "Antonov",
       "countryOfOrigin": [
         "Soviet Union"
       ],
       "firstFlight": "1988-12-21",
       "introduced": "1989",
-      "status": "Destroyed",
+      "status": "Destroyed ; February&#160; 27,&#160; 2022&#160; (2022-02-27)",
       "numberBuilt": 1,
       "wikipedia": {
         "title": "Antonov An-225 Mriya",
@@ -3398,7 +3398,7 @@
       "wikidataId": "Q178351",
       "photo": {
         "file": "assets/aircraft/an225.jpg",
-        "sourceFile": "File:Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_(EDDP-LEJ).jpg",
+        "sourceFile": "File:Antonov Design Bureau Antonov An-225 Mriya at Leipzig Halle (EDDP-LEJ).jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_(EDDP-LEJ).jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_%28EDDP-LEJ%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_%28EDDP-LEJ%29.jpg/960px-Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_%28EDDP-LEJ%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3416,7 +3416,7 @@
         "dateTaken": "2018-04-03",
         "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:15.418Z"
+      "retrievedAt": "2026-10-11T19:28:24.321Z"
     },
     {
       "id": "il76",
@@ -3430,7 +3430,7 @@
         "Tashkent Mechanical Plant",
         "Aviastar-SP"
       ],
-      "designer": null,
+      "designer": "Ilyushin",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -3465,7 +3465,7 @@
         "dateTaken": "Unidentified",
         "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:16.205Z"
+      "retrievedAt": "2026-10-11T19:28:25.084Z"
     },
     {
       "id": "kc135",
@@ -3473,7 +3473,7 @@
       "group": "military-transport-special",
       "description": "US military aerial refueling and transport aircraft",
       "summary": "The Boeing KC-135 Stratotanker is an American military aerial refueling tanker aircraft that was developed from the Boeing 367-80 prototype, alongside the Boeing 707 airliner. It has a narrower fuselage and is shorter than the 707. Boeing gave the aircraft the internal designation of Model 717, with the number later assigned to a different Boeing aircraft.",
-      "role": "aerial refuelling",
+      "role": "Aerial refueling tanker and transport aircraft",
       "manufacturer": [
         "Boeing"
       ],
@@ -3512,7 +3512,7 @@
         "dateTaken": "Taken on 25 February 2010",
         "credit": "U.S. Air Force photo/Tech. Sgt. Angelique Perez / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:17.118Z"
+      "retrievedAt": "2026-10-11T19:28:26.042Z"
     },
     {
       "id": "e3",
@@ -3520,7 +3520,7 @@
       "group": "military-transport-special",
       "description": "Airborne early warning and control aircraft based on Boeing 707 airframe",
       "summary": "The Boeing E-3 Sentry is an American airborne early warning and control (AEW&C) aircraft developed by Boeing. E-3s are commonly known as AWACS. Derived from the Boeing 707 airliner, it provides all-weather surveillance, command, control, and communications, and is used by the United States Air Force, NATO, French Air and Space Force, Royal Saudi Air Force and Chilean Air Force. The E-3 has a distinctive rotating radar dome (rotodome) above the fuselage. Production ended in 1992 after 68 aircraft had been built.",
-      "role": "airborne early warning and command system",
+      "role": "Airborne early warning and control (AEW&C)",
       "manufacturer": [
         "Boeing Defense, Space & Security",
         "Westinghouse Electric Corporation"
@@ -3542,7 +3542,7 @@
       "wikidataId": "Q261384",
       "photo": {
         "file": "assets/aircraft/e3.jpg",
-        "sourceFile": "File:E-3_Sentry_Airborne_Warning_and_Control_System_(AWACS)_conducts_a_mission.jpg",
+        "sourceFile": "File:E-3 Sentry Airborne Warning and Control System (AWACS) conducts a mission.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:E-3_Sentry_Airborne_Warning_and_Control_System_(AWACS)_conducts_a_mission.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg/960px-E-3_Sentry_Airborne_Warning_and_Control_System_%28AWACS%29_conducts_a_mission.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3560,7 +3560,7 @@
         "dateTaken": "2019-10-04",
         "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:17.962Z"
+      "retrievedAt": "2026-10-11T19:28:26.842Z"
     },
     {
       "id": "p8",
@@ -3579,7 +3579,7 @@
       "firstFlight": "2009-04-25",
       "introduced": "2013-11",
       "status": "In service",
-      "numberBuilt": "187 as of 31 January 2026",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Boeing P-8 Poseidon",
         "url": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon",
@@ -3607,7 +3607,7 @@
         "dateTaken": "2014-03-22 16:55:55",
         "credit": "Darren Koch / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:18.829Z"
+      "retrievedAt": "2026-10-11T19:28:27.487Z"
     },
     {
       "id": "p3",
@@ -3615,7 +3615,7 @@
       "group": "military-transport-special",
       "description": "Maritime patrol and anti-submarine aircraft family",
       "summary": "The Lockheed P-3 Orion is a four-engined, turboprop anti-submarine and maritime surveillance aircraft developed for the United States Navy and introduced in the 1960s. It is based on the L-188 Electra commercial airliner by Lockheed; it is easily distinguished from the Electra by its distinctive tail stinger or \"MAD\" boom, used for the magnetic anomaly detection (MAD) of submarines.",
-      "role": "maritime patrol; anti-submarine warfare",
+      "role": "Maritime patrol aircraft",
       "manufacturer": [
         "Lockheed Corporation",
         "Lockheed Martin",
@@ -3656,7 +3656,7 @@
         "dateTaken": "2017-09-09",
         "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:19.580Z"
+      "retrievedAt": "2026-10-11T19:28:28.163Z"
     },
     {
       "id": "v22",
@@ -3664,7 +3664,7 @@
       "group": "military-transport-special",
       "description": "Military transport tiltrotor",
       "summary": "The Bell Boeing V-22 Osprey is an American multi-use, tiltrotor military transport and cargo aircraft with both vertical takeoff and landing (VTOL) and short takeoff and landing (STOL) capabilities. As the first production aircraft of its type, it is designed to combine the functionality of a conventional helicopter with the long-range, high-speed cruise performance of a turboprop aircraft, and is operated by the United States and Japan. It first flew in 1989, and after a long development was fielded in 2007.",
-      "role": null,
+      "role": "Tiltrotor military transport aircraft",
       "manufacturer": [
         "Bell Textron",
         "Boeing",
@@ -3705,7 +3705,7 @@
         "dateTaken": "2014-10-03",
         "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:20.563Z"
+      "retrievedAt": "2026-10-11T19:28:29.297Z"
     },
     {
       "id": "c390",
@@ -3752,7 +3752,7 @@
         "dateTaken": "2019-06-17",
         "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:21.423Z"
+      "retrievedAt": "2026-10-11T19:28:30.257Z"
     },
     {
       "id": "kawasaki-c2",
@@ -3771,7 +3771,7 @@
       "firstFlight": "2010-01-26",
       "introduced": "2016-06",
       "status": "In service, in production",
-      "numberBuilt": 21,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Kawasaki C-2",
         "url": "https://en.wikipedia.org/wiki/Kawasaki_C-2",
@@ -3799,7 +3799,7 @@
         "dateTaken": "2018-05-27",
         "credit": "Hunini / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:22.159Z"
+      "retrievedAt": "2026-10-11T19:28:30.965Z"
     },
     {
       "id": "sr71",
@@ -3811,7 +3811,7 @@
       "manufacturer": [
         "Skunk Works"
       ],
-      "designer": "Clarence \"Kelly\" Johnson",
+      "designer": "Lockheed Skunk Works Clarence \"Kelly\" Johnson (Designer)",
       "countryOfOrigin": [
         "United States"
       ],
@@ -3846,7 +3846,7 @@
         "dateTaken": "1994-12",
         "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:23.197Z"
+      "retrievedAt": "2026-10-11T19:28:32.253Z"
     },
     {
       "id": "u2",
@@ -3875,7 +3875,7 @@
       "wikidataId": "Q189064",
       "photo": {
         "file": "assets/aircraft/u2.jpg",
-        "sourceFile": "File:usaf.u2.750pix.jpg",
+        "sourceFile": "File:Usaf.u2.750pix.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Usaf.u2.750pix.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Usaf.u2.750pix.jpg/960px-Usaf.u2.750pix.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3893,7 +3893,7 @@
         "dateTaken": "between 1955 and 1998date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1955-00-00T00:00:00Z/9,P1326,+1998-00-00T00:00:00Z/9",
         "credit": "United States Department of the Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:23.901Z"
+      "retrievedAt": "2026-10-11T19:28:33.095Z"
     },
     {
       "id": "mq9",
@@ -3912,7 +3912,7 @@
       "firstFlight": "2001-02-02",
       "introduced": "2007-10",
       "status": "In service",
-      "numberBuilt": 575,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "General Atomics MQ-9 Reaper",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper",
@@ -3940,7 +3940,7 @@
         "dateTaken": "Taken on 29 November 2008",
         "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:24.763Z"
+      "retrievedAt": "2026-10-11T19:28:34.301Z"
     },
     {
       "id": "rq4",
@@ -3948,7 +3948,7 @@
       "group": "military-transport-special",
       "description": "Unmanned surveillance aircraft",
       "summary": "The Northrop Grumman RQ-4 Global Hawk is a high-altitude, remotely-piloted surveillance aircraft introduced in 2001. It was initially designed by Ryan Aeronautical, and known as Tier II+ during development. The RQ-4 provides a broad overview and systematic surveillance using high-resolution synthetic aperture radar (SAR) and electro-optical/infrared (EO/IR) sensors with long loiter times over target areas.",
-      "role": null,
+      "role": "Unmanned surveillance and reconnaissance aerial vehicle",
       "manufacturer": [
         "Northrop Grumman Corporation",
         "Raytheon",
@@ -3966,7 +3966,7 @@
       "firstFlight": "1998-02-28",
       "introduced": "2001-11",
       "status": "In service",
-      "numberBuilt": "42 RQ-4Bs as of FY2013",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Northrop Grumman RQ-4 Global Hawk",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk",
@@ -3994,7 +3994,7 @@
         "dateTaken": "2007-03-01",
         "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:25.567Z"
+      "retrievedAt": "2026-10-11T19:28:35.373Z"
     },
     {
       "id": "b52",
@@ -4002,7 +4002,7 @@
       "group": "bomber",
       "description": "American strategic bomber aircraft",
       "summary": "The Boeing B-52 Stratofortress is an American nuclear-capable subsonic jet-powered strategic bomber. The B-52 was designed and built by Boeing, which has continued to provide support and upgrades. It has been operated by the United States Air Force (USAF) since 1955 and was flown by NASA from 1959 to 2007. The bomber can carry up to 70,000 pounds (32,000 kg) of weapons and has a typical combat range of around 8,800 miles without aerial refueling.",
-      "role": "strategic bombing",
+      "role": "Strategic heavy bomber",
       "manufacturer": [
         "Boeing"
       ],
@@ -4041,7 +4041,7 @@
         "dateTaken": "2014-05-15",
         "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:26.715Z"
+      "retrievedAt": "2026-10-11T19:28:36.456Z"
     },
     {
       "id": "b1",
@@ -4049,7 +4049,7 @@
       "group": "bomber",
       "description": "American strategic bomber",
       "summary": "The Rockwell B-1 Lancer is a supersonic variable-sweep wing heavy bomber used by the United States Air Force. It has been nicknamed the \"Bone\". As of 2026, it is one of the U.S. Air Force's three strategic bombers, along with the B-2 Spirit and the B-52 Stratofortress. It carries up to a 75,000-pound (34,000 kg) payload.",
-      "role": null,
+      "role": "Supersonic strategic heavy bomber",
       "manufacturer": [
         "Rockwell International",
         "Boeing"
@@ -4089,7 +4089,7 @@
         "dateTaken": "2019-05-10",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:27.571Z"
+      "retrievedAt": "2026-10-11T19:29:01.567Z"
     },
     {
       "id": "b2",
@@ -4097,7 +4097,7 @@
       "group": "bomber",
       "description": "American heavy strategic bomber",
       "summary": "The Northrop B-2 Spirit is an American nuclear-capable subsonic stealth strategic bomber, often referred to as a \"stealth bomber\", solely operated by the United States Air Force. A four-engined flying wing and lambda wing with a crew of two to three, it is designed with stealth technology to penetrate sophisticated air defenses.",
-      "role": null,
+      "role": "Stealth strategic heavy bomber",
       "manufacturer": [
         "Northrop Grumman Corporation",
         "Northrop"
@@ -4137,7 +4137,7 @@
         "dateTaken": "2019-08-29 14:16:58",
         "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:28.601Z"
+      "retrievedAt": "2026-10-11T19:29:02.479Z"
     },
     {
       "id": "b21",
@@ -4145,7 +4145,7 @@
       "group": "bomber",
       "description": "American stealth bomber aircraft",
       "summary": "The Northrop Grumman B-21 Raider is an American nuclear-capable subsonic stealth strategic bomber in development for the United States Air Force (USAF) by Northrop Grumman. Part of the Long Range Strike Bomber (LRS-B) program, it is to be an intercontinental strategic bomber that can deliver conventional and thermonuclear weapons. Named \"Raider\" after the Doolittle Raiders of World War II, the B-21 is meant to complement the Rockwell B-1 Lancer and Northrop B-2 Spirit, replace them by 2040, and possibly replace the 1950s Boeing B-52 Stratofortress after that.",
-      "role": null,
+      "role": "Stealth strategic bomber",
       "manufacturer": [
         "Northrop Grumman Corporation"
       ],
@@ -4156,7 +4156,7 @@
       "firstFlight": "2023-11-10",
       "introduced": null,
       "status": "Low rate initial production",
-      "numberBuilt": "3 (as of 2024)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Northrop Grumman B-21 Raider",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_B-21_Raider",
@@ -4184,7 +4184,7 @@
         "dateTaken": "2024-04-04",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:29.321Z"
+      "retrievedAt": "2026-10-11T19:29:03.606Z"
     },
     {
       "id": "tu95",
@@ -4198,7 +4198,7 @@
         "Aviakor",
         "Taganrog aviation"
       ],
-      "designer": null,
+      "designer": "Tupolev",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -4233,7 +4233,7 @@
         "dateTaken": "2021-08-10",
         "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:30.134Z"
+      "retrievedAt": "2026-10-11T19:29:04.395Z"
     },
     {
       "id": "tu160",
@@ -4246,7 +4246,7 @@
         "Kazan Aircraft Production Association",
         "Tupolev"
       ],
-      "designer": null,
+      "designer": "Tupolev",
       "countryOfOrigin": [
         "Soviet Union",
         "Russia"
@@ -4282,7 +4282,7 @@
         "dateTaken": "2014-05",
         "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:31.101Z"
+      "retrievedAt": "2026-10-11T19:29:06.262Z"
     },
     {
       "id": "tu22m",
@@ -4330,7 +4330,7 @@
         "dateTaken": "2015-07-02 17:16",
         "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:31.894Z"
+      "retrievedAt": "2026-10-11T19:29:07.068Z"
     },
     {
       "id": "vulcan",
@@ -4338,7 +4338,7 @@
       "group": "bomber",
       "description": "British jet-powered delta wing strategic bomber",
       "summary": "The Avro Vulcan is a jet-powered, delta-wing, high-altitude strategic bomber, which was operated by the Royal Air Force (RAF) from 1956 until 1984. Aircraft manufacturer A.V. Roe and Company (Avro) designed the Vulcan in response to Specification B.35/46. Of the three V bombers produced, the Vulcan was considered the most technically advanced, and therefore the riskiest option. Several reduced-scale aircraft, designated Avro 707s, were produced to test and refine the delta-wing design principles.",
-      "role": "strategic bomber",
+      "role": "Strategic bomber",
       "manufacturer": [
         "Avro",
         "Hawker Siddeley"
@@ -4378,7 +4378,7 @@
         "dateTaken": "2015-10-11",
         "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:32.743Z"
+      "retrievedAt": "2026-10-11T19:29:08.131Z"
     },
     {
       "id": "f22",
@@ -4429,7 +4429,7 @@
         "dateTaken": "2009-02-18 21:40",
         "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:33.610Z"
+      "retrievedAt": "2026-10-11T19:29:09.404Z"
     },
     {
       "id": "f35",
@@ -4440,7 +4440,7 @@
       ],
       "description": "American stealth multirole fighter aircraft",
       "summary": "The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, supersonic stealth strike fighters. A multirole combat aircraft designed for air superiority and strike missions, it also has electronic warfare and intelligence, surveillance, and reconnaissance capabilities. Lockheed Martin is the prime contractor, with partners Northrop Grumman and BAE Systems. The aircraft has three main variants: the conventional takeoff and landing F-35A, the short take-off and vertical-landing F-35B, and the catapult-assisted take-off but arrested recovery F-35C. With 883 aircraft in service as of 2025, it is the world's fourth-most-numerous military aircraft, and most-numerous stealth aircraft.",
-      "role": "aerial warfare",
+      "role": "Multirole strike fighter",
       "manufacturer": [
         "Lockheed Martin Aeronautics",
         "Lockheed Martin"
@@ -4480,7 +4480,7 @@
         "dateTaken": "2013-05-15 00:44:57",
         "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:34.839Z"
+      "retrievedAt": "2026-10-11T19:29:11.299Z"
     },
     {
       "id": "f16",
@@ -4536,7 +4536,7 @@
         "dateTaken": "2008-06-10",
         "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:23:35.779Z"
+      "retrievedAt": "2026-10-11T19:29:12.156Z"
     },
     {
       "id": "fa18",
@@ -4547,7 +4547,7 @@
       ],
       "description": "American carrier-capable multirole strike aircraft",
       "summary": "The McDonnell Douglas F/A-18 Hornet is an all-weather supersonic, twin-engined, carrier-capable, multirole combat aircraft, designed as both a fighter and ground attack aircraft. Designed by McDonnell Douglas and Northrop, the F/A-18 was derived from the YF-17 that lost against the YF-16 in the United States Air Force's lightweight fighter program. The United States Navy selected the YF-17 for the Navy Air Combat Fighter program, further developed the design and renamed it F/A-18; the United States Marine Corps would also adopt the aircraft. The Hornet is also used by the air forces of several other nations, and formerly by the U.S. Navy's Flight Demonstration Squadron, the Blue Angels.",
-      "role": null,
+      "role": "Multirole fighter",
       "manufacturer": [
         "McDonnell Douglas",
         "Boeing Defense, Space & Security",
@@ -4588,7 +4588,7 @@
         "dateTaken": "2009-10-15",
         "credit": "US Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:01.744Z"
+      "retrievedAt": "2026-10-11T19:29:13.207Z"
     },
     {
       "id": "fa18ef",
@@ -4609,7 +4609,7 @@
       "firstFlight": "1995-11-29",
       "introduced": "2001-09",
       "status": "In service",
-      "numberBuilt": "≥632 as of April 2020",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Boeing F/A-18E/F Super Hornet",
         "url": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet",
@@ -4619,7 +4619,7 @@
       "wikidataId": "Q223318",
       "photo": {
         "file": "assets/aircraft/fa18ef.jpg",
-        "sourceFile": "File:US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
+        "sourceFile": "File:US Navy 071203-N-8923M-074 An F-A-18F Super Hornet, from the Red Rippers of Strike Fighter Squadron (VFA) 11, makes a sharp turn above the flight deck aboard the Nimitz-class nuclear-powered aircraft carrier USS Harry S. Truman.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg/960px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -4637,7 +4637,7 @@
         "dateTaken": "Taken on 3 December 2007",
         "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:02.618Z"
+      "retrievedAt": "2026-10-11T19:29:14.211Z"
     },
     {
       "id": "f15",
@@ -4648,7 +4648,7 @@
       ],
       "description": "Multirole and air superiority fighter family",
       "summary": "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather fighter aircraft designed by McDonnell Douglas. Following reviews of proposals, the United States Air Force (USAF) selected McDonnell Douglas's design in 1969 to meet the service's need for a dedicated air superiority fighter. The Eagle took its maiden flight in July 1972, and entered service in 1976. It is among the most successful modern fighters, with over 104 victories and no losses in air-to-air combat.",
-      "role": null,
+      "role": "Air superiority fighter",
       "manufacturer": [
         "McDonnell Douglas",
         "Boeing"
@@ -4670,7 +4670,7 @@
       "wikidataId": "Q29251",
       "photo": {
         "file": "assets/aircraft/f15.jpg",
-        "sourceFile": "File:F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15,_2019.jpg",
+        "sourceFile": "File:F-15C Eagle from the 44th Fighter Squadron flies during a routine training exercise April 15, 2019.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15,_2019.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg/960px-F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15%2C_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -4688,7 +4688,7 @@
         "dateTaken": "2023-08-01 12:10:16",
         "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:03.498Z"
+      "retrievedAt": "2026-10-11T19:29:14.900Z"
     },
     {
       "id": "f14",
@@ -4699,7 +4699,7 @@
       ],
       "description": "Carrier-based multi-role fighter aircraft family",
       "summary": "The Grumman F-14 Tomcat is an American carrier-capable supersonic, twin-engine, tandem two-seat, twin-tail, all-weather-capable variable-sweep wing fighter aircraft. The Tomcat was developed for the United States Navy's Naval Fighter Experimental (VFX) program after the collapse of the General Dynamics-Grumman F-111B project. A large and well-equipped fighter, the F-14 was the first of the American Teen Series fighters that were designed incorporating air combat experience against smaller, more maneuverable MiG fighters during the Vietnam War.",
-      "role": "interceptor; multi-role combat aircraft; air superiority fighter",
+      "role": "Interceptor, air superiority, and multirole fighter",
       "manufacturer": [
         "Grumman"
       ],
@@ -4738,7 +4738,7 @@
         "dateTaken": "2005-11-05",
         "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:04.543Z"
+      "retrievedAt": "2026-10-11T19:29:15.722Z"
     },
     {
       "id": "a10",
@@ -4788,7 +4788,7 @@
         "dateTaken": "2011-05-08",
         "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:05.415Z"
+      "retrievedAt": "2026-10-11T19:29:16.534Z"
     },
     {
       "id": "typhoon",
@@ -4799,7 +4799,7 @@
       ],
       "description": "1994 multi-role combat aircraft family by Eurofighter",
       "summary": "The Eurofighter Typhoon is a European multinational twin-engine, supersonic, canard delta wing, multirole fighter. The Typhoon was designed originally as an air-superiority fighter and is manufactured by a consortium of Airbus, BAE Systems and Leonardo that conducts the majority of the project through a joint holding company, Eurofighter Jagdflugzeug GmbH. The NATO Eurofighter and Tornado Management Agency, representing the UK, Germany, Italy and Spain, manages the project and is the prime customer.",
-      "role": "multi-role combat aircraft",
+      "role": "Air superiority fighter with multirole capabilities",
       "manufacturer": [
         "Eurofighter Jagdflugzeug GmbH"
       ],
@@ -4841,7 +4841,7 @@
         "dateTaken": "2007-03-08",
         "credit": "Chris Lofting / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:06.310Z"
+      "retrievedAt": "2026-10-11T19:29:17.349Z"
     },
     {
       "id": "rafale",
@@ -4852,7 +4852,7 @@
       ],
       "description": "Multi-role combat aircraft family by Dassault",
       "summary": "The Dassault Rafale is a French twin-engine, canard delta wing, multirole fighter aircraft designed and built by Dassault Aviation. Equipped with a wide range of weapons, the Rafale is intended to perform air supremacy, interdiction, aerial reconnaissance, ground support, in-depth strike, anti-ship strike and nuclear deterrence missions. Dassault markets the aircraft as an \"omnirole\" fighter due to its ability to perform multiple distinct mission roles during a single sortie.",
-      "role": "multi-role combat aircraft",
+      "role": "Multirole fighter",
       "manufacturer": [
         "Dassault Aviation"
       ],
@@ -4873,7 +4873,7 @@
       "wikidataId": "Q190973",
       "photo": {
         "file": "assets/aircraft/rafale.jpg",
-        "sourceFile": "File:Rafale_-_RIAT_2009_(3751416421).jpg",
+        "sourceFile": "File:Rafale - RIAT 2009 (3751416421).jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Rafale_-_RIAT_2009_(3751416421).jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rafale_-_RIAT_2009_%283751416421%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Rafale_-_RIAT_2009_%283751416421%29.jpg/960px-Rafale_-_RIAT_2009_%283751416421%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -4891,7 +4891,7 @@
         "dateTaken": "2009-07-18 09:30",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:07.329Z"
+      "retrievedAt": "2026-10-11T19:29:18.765Z"
     },
     {
       "id": "gripen",
@@ -4902,11 +4902,11 @@
       ],
       "description": "Light single-engined multirole fighter aircraft from Sweden",
       "summary": "The Saab JAS 39 Gripen is a light single-engine supersonic multirole fighter aircraft manufactured by the Swedish aerospace and defence company Saab AB. The Gripen has a delta wing and canard configuration with relaxed stability design and fly-by-wire flight controls. Later aircraft are fully NATO interoperable. As of 2025, more than 280 Gripens of all models, A–F, have been delivered.",
-      "role": "airstrike",
+      "role": "Multirole fighter",
       "manufacturer": [
         "Saab Group"
       ],
-      "designer": null,
+      "designer": "Industrigruppen JAS, FMV",
       "countryOfOrigin": [
         "Sweden"
       ],
@@ -4923,7 +4923,7 @@
       "wikidataId": "Q150088",
       "photo": {
         "file": "assets/aircraft/gripen.jpg",
-        "sourceFile": "File:Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show,_June_2017_(altered)_copy.jpg",
+        "sourceFile": "File:Saab JAS 39 Gripen at Kaivopuisto Air Show, June 2017 (altered) copy.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show,_June_2017_(altered)_copy.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show%2C_June_2017_%28altered%29_copy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show%2C_June_2017_%28altered%29_copy.jpg/960px-Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show%2C_June_2017_%28altered%29_copy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -4941,7 +4941,7 @@
         "dateTaken": "2017-08-02",
         "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:08.271Z"
+      "retrievedAt": "2026-10-11T19:29:20.158Z"
     },
     {
       "id": "tornado",
@@ -4952,7 +4952,7 @@
       ],
       "description": "Family of multi-role combat aircraft",
       "summary": "The Panavia Tornado is a family of twin-engine, variable-sweep wing multi-role combat aircraft, jointly developed and manufactured by Italy, the United Kingdom, and Germany. There are three primary Tornado variants: the Tornado IDS (interdictor/strike) fighter-bomber, the Tornado ECR SEAD aircraft, and the Tornado ADV interceptor aircraft.",
-      "role": "multi-role combat aircraft",
+      "role": "Multirole aircraft, strike aircraft",
       "manufacturer": [
         "Panavia Aircraft GmbH"
       ],
@@ -4993,7 +4993,7 @@
         "dateTaken": "2012-10-12 13:38:56",
         "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:09.184Z"
+      "retrievedAt": "2026-10-11T19:29:21.421Z"
     },
     {
       "id": "su27",
@@ -5004,7 +5004,7 @@
       ],
       "description": "Soviet 4th generation fighter aircraft",
       "summary": "The Sukhoi Su-27 is a Soviet twin-engine supersonic supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large US fourth-generation jet fighters such as the Grumman F-14 Tomcat and McDonnell Douglas F-15 Eagle, with 3,530-kilometre (1,910 nmi) range, heavy aircraft ordnance, sophisticated avionics and high maneuverability. The Su-27 was designed for air superiority missions, and subsequent variants are able to perform almost all aerial warfare operations. It was designed with the Mikoyan MiG-29 as its complement.",
-      "role": null,
+      "role": "Multirole fighter, air superiority fighter",
       "manufacturer": [
         "Sukhoi",
         "Komsomolsk-on-Amur Aircraft Production Association"
@@ -5027,7 +5027,7 @@
       "wikidataId": "Q173680",
       "photo": {
         "file": "assets/aircraft/su27.jpg",
-        "sourceFile": "File:Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg",
+        "sourceFile": "File:Sukhoi Su-27SKM at MAKS-2005 airshow.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg/960px-Sukhoi_Su-27SKM_at_MAKS-2005_airshow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -5036,16 +5036,16 @@
         "originalWidth": 2170,
         "originalHeight": 1440,
         "mime": "image/jpeg",
-        "author": null,
-        "license": null,
-        "licenseUrl": null,
-        "attributionRequired": null,
+        "author": "Dmitriy Pichugin",
+        "license": "GFDL 1.2",
+        "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+        "attributionRequired": true,
         "free": true,
-        "caption": null,
-        "dateTaken": null,
-        "credit": "Unknown author / via Wikimedia Commons"
+        "caption": "Sukhoi Su-27SKM multirole fighter at MAKS-2005 airshow",
+        "dateTaken": "Taken on 21 August 2005",
+        "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:10.074Z"
+      "retrievedAt": "2026-10-11T19:29:22.255Z"
     },
     {
       "id": "su35",
@@ -5058,14 +5058,14 @@
         "Sukhoi",
         "Komsomolsk-on-Amur Aircraft Production Association"
       ],
-      "designer": null,
+      "designer": "Sukhoi Design Bureau",
       "countryOfOrigin": [
         "Soviet Union (Russia since 1991)"
       ],
       "firstFlight": "2008-02-19",
       "introduced": "2014-02-12",
       "status": "In service",
-      "numberBuilt": "Su-27M: 12 ; Su-35S: 155+",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Sukhoi Su-35",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-35",
@@ -5093,7 +5093,7 @@
         "dateTaken": "Taken on 29 August 2019, 16:06",
         "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:11.189Z"
+      "retrievedAt": "2026-10-11T19:29:23.105Z"
     },
     {
       "id": "su57",
@@ -5108,7 +5108,7 @@
       "manufacturer": [
         "Komsomolsk-on-Amur Aircraft Production Association"
       ],
-      "designer": null,
+      "designer": "Sukhoi",
       "countryOfOrigin": [
         "Russia"
       ],
@@ -5143,7 +5143,7 @@
         "dateTaken": "2019-08-29 17:32",
         "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:12.147Z"
+      "retrievedAt": "2026-10-11T19:29:24.574Z"
     },
     {
       "id": "mig29",
@@ -5162,7 +5162,7 @@
         "Soviet Union",
         "Russia"
       ],
-      "designer": null,
+      "designer": "Mikoyan",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -5197,7 +5197,7 @@
         "dateTaken": "Taken on 6 August 2012, 16:30",
         "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:13.185Z"
+      "retrievedAt": "2026-10-11T19:29:25.433Z"
     },
     {
       "id": "mig21",
@@ -5208,7 +5208,7 @@
       ],
       "description": "1956 Soviet fighter aircraft family",
       "summary": "The Mikoyan-Gurevich MiG-21 is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union. Its nicknames include: \"Balalaika\", because its planform resembles the stringed musical instrument of the same name; \"Ołówek\", Polish for \"pencil\", due to the shape of its fuselage, and \"Én Bạc\", meaning \"silver swallow\", in Vietnamese.",
-      "role": "multi-role combat aircraft",
+      "role": "Fighter and interceptor aircraft",
       "manufacturer": [
         "Russian Aircraft Corporation MiG",
         "Sokol",
@@ -5218,14 +5218,14 @@
         "Hindustan Aeronautics Limited",
         "Chengdu Aircraft Industry Group"
       ],
-      "designer": null,
+      "designer": "Mikoyan-Gurevich",
       "countryOfOrigin": [
         "Soviet Union"
       ],
       "firstFlight": "1956-02-14",
       "introduced": "1959",
       "status": "In service",
-      "numberBuilt": "11,496; (10,645 produced in the USSR, 840 in India, 194 in Czechoslovakia)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Mikoyan-Gurevich MiG-21",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21",
@@ -5253,7 +5253,7 @@
         "dateTaken": "2020-01-10",
         "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:14.107Z"
+      "retrievedAt": "2026-10-11T19:29:26.302Z"
     },
     {
       "id": "mig25",
@@ -5301,7 +5301,7 @@
         "dateTaken": "Taken on 23 August 2003",
         "credit": "Leonid Faerberg (transport-photo.com) / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:15.069Z"
+      "retrievedAt": "2026-10-11T19:29:27.377Z"
     },
     {
       "id": "mig31",
@@ -5309,7 +5309,7 @@
       "group": "fighter-attack",
       "description": "Interceptor aircraft",
       "summary": "The Mikoyan MiG-31 is a supersonic interceptor aircraft developed for the Soviet Air Forces by the Mikoyan design bureau as a replacement for the MiG-25 \"Foxbat\", on which it is based and with which it shares design elements.",
-      "role": "Interceptor aircraft, strike fighter",
+      "role": "Interceptor aircraft, strike fighter&#91; citation needed&#93",
       "manufacturer": [
         "Russian Aircraft Corporation MiG",
         "Sokol"
@@ -5331,7 +5331,7 @@
       "wikidataId": "Q150050",
       "photo": {
         "file": "assets/aircraft/mig31.jpg",
-        "sourceFile": "File:Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg",
+        "sourceFile": "File:Russian Air Force Mikoyan-Gurevich MiG-31P.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg/960px-Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -5349,7 +5349,7 @@
         "dateTaken": "2012-03-31",
         "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:15.980Z"
+      "retrievedAt": "2026-10-11T19:29:28.212Z"
     },
     {
       "id": "j20",
@@ -5360,7 +5360,7 @@
       ],
       "description": "Chinese stealth fighter aircraft",
       "summary": "The Chengdu J-20, also known as Weilong, is a twin-engine all-weather stealth fighter developed by China's Chengdu Aircraft Corporation between 2011 and 2018 for the People's Liberation Army Air Force (PLAAF). The J-20 is designed as an air superiority fighter with precision strike capability. The aircraft has three notable variants: the initial production model, the revised airframe variant with new engines and thrust-vectoring control, and the aircraft-teaming capable twin-seat variant.",
-      "role": "stealth aircraft; air superiority fighter",
+      "role": "Stealth air superiority fighter",
       "manufacturer": [
         "Chengdu Aircraft Industry Group"
       ],
@@ -5371,7 +5371,7 @@
       "firstFlight": "2011-01-11",
       "introduced": "2017-03-09",
       "status": "In service",
-      "numberBuilt": "500 (As of mid-2026)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Chengdu J-20",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-20",
@@ -5399,7 +5399,7 @@
         "dateTaken": "2022-08-27 10:34:24",
         "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:16.942Z"
+      "retrievedAt": "2026-10-11T19:29:29.073Z"
     },
     {
       "id": "j10",
@@ -5407,11 +5407,11 @@
       "group": "fighter-attack",
       "description": "Chinese multi-role fighter aircraft family",
       "summary": "The Chengdu J-10, also known as Menglong is a Chinese medium-weight, single-engine, multirole combat aircraft using a delta wing and canard design, with a maximum speed of Mach 1.8. It is produced by the Chengdu Aircraft Corporation (CAC) for the People's Liberation Army Air Force (PLAAF) of China, and exported to the Pakistan Air Force (PAF) and the Uzbekistan Air and Air Defence Forces.",
-      "role": "multi-role combat aircraft",
+      "role": "Multirole combat aircraft",
       "manufacturer": [
         "Chengdu Aircraft Industry Group"
       ],
-      "designer": null,
+      "designer": "Chengdu Aircraft Design Institute",
       "countryOfOrigin": [
         "People's Republic of China"
       ],
@@ -5446,7 +5446,7 @@
         "dateTaken": "2018-11-01",
         "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:17.793Z"
+      "retrievedAt": "2026-10-11T19:29:30.048Z"
     },
     {
       "id": "mirage2000",
@@ -5496,7 +5496,7 @@
         "dateTaken": "1999-05-15",
         "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:18.487Z"
+      "retrievedAt": "2026-10-11T19:29:30.998Z"
     },
     {
       "id": "f4",
@@ -5507,7 +5507,7 @@
       ],
       "description": "Fighter aircraft family developed from 1958",
       "summary": "The McDonnell Douglas F-4 Phantom II is an American tandem two-seat, twin-engined, all-weather, long-range supersonic jet interceptor and fighter-bomber that was developed by McDonnell Aircraft for the United States Navy. It entered service with the Navy in 1961, then was adopted by the United States Marine Corps and the United States Air Force, and within a few years became a major part of their air arms. In total, 5,195 Phantoms were built from 1958 to 1981, making it the most-produced American supersonic military aircraft in history and a signature combat aircraft of the Cold War.",
-      "role": "aerial interception; air supremacy; tactical bombing",
+      "role": "Interceptor, fighter-bomber",
       "manufacturer": [
         "McDonnell Aircraft Corporation",
         "McDonnell Douglas"
@@ -5547,7 +5547,7 @@
         "dateTaken": "2008-11-18",
         "credit": "USAF / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:19.569Z"
+      "retrievedAt": "2026-10-11T19:29:31.967Z"
     },
     {
       "id": "f117",
@@ -5558,7 +5558,7 @@
       ],
       "description": "American stealth ground-attack aircraft",
       "summary": "The Lockheed F-117 Nighthawk is a retired American single-seat, subsonic, twin-engined stealth attack aircraft developed by Lockheed's Skunk Works division and operated by the United States Air Force (USAF). It was the first operational aircraft to be designed with stealth technology.",
-      "role": null,
+      "role": "Stealth attack aircraft",
       "manufacturer": [
         "Skunk Works"
       ],
@@ -5597,7 +5597,7 @@
         "dateTaken": "2002-08-06",
         "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:20.505Z"
+      "retrievedAt": "2026-10-11T19:29:33.082Z"
     },
     {
       "id": "harrier",
@@ -5616,7 +5616,7 @@
       "countryOfOrigin": [
         "United Kingdom"
       ],
-      "firstFlight": "28 December 1967",
+      "firstFlight": null,
       "introduced": "1969",
       "status": "In service",
       "numberBuilt": null,
@@ -5647,7 +5647,7 @@
         "dateTaken": "2015-09-19 11:50",
         "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:21.125Z"
+      "retrievedAt": "2026-10-11T19:29:33.676Z"
     },
     {
       "id": "tejas",
@@ -5659,14 +5659,14 @@
       "manufacturer": [
         "Hindustan Aeronautics Limited"
       ],
-      "designer": null,
+      "designer": "Aeronautical Development Agency; Aircraft Research and Design Centre (HAL)",
       "countryOfOrigin": [
         "India"
       ],
       "firstFlight": "2001-01-04",
       "introduced": "2016-07-01",
       "status": "In service",
-      "numberBuilt": "45 (plus 17 prototypes)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "HAL Tejas",
         "url": "https://en.wikipedia.org/wiki/HAL_Tejas",
@@ -5694,7 +5694,7 @@
         "dateTaken": "2023-06-30",
         "credit": "Goverrnment of India / GODL-India / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:22.265Z"
+      "retrievedAt": "2026-10-11T19:29:34.620Z"
     },
     {
       "id": "kf21",
@@ -5702,18 +5702,18 @@
       "group": "fighter-attack",
       "description": "South Korean fighter aircraft",
       "summary": "The KAI KF-21 Boramae is a South Korean twin-engine fighter aircraft. The initial goal of the program was to develop an indigenous multirole fighter for the Republic of Korea Air Force (ROKAF). The airframe of Blocks I and II adopts semi-stealth technology with partially embedded external weapons and MUM-T capabilities, while full stealth, including internal weapons bays is planned for the Block III or KF-21EX variant. As South Korea's second domestic fighter jet development program following the FA-50 series, the KF-21 makes the nation the fourth in the world—joining the United States, China, and Russia—to produce an aircraft featuring stealth avionic architecture.",
-      "role": "Block 1: Air superiority fighter ; Block 2: Multirole combat aircraft; Block 3: Stealth multirole combat aircraft",
+      "role": "Block 1: Air superiority fighter ; Block 2: Multirole combat aircraft ; Block 3: Stealth multirole combat aircraft",
       "manufacturer": [
         "Korea Aerospace Industries"
       ],
-      "designer": null,
+      "designer": "Agency for Defense Development",
       "countryOfOrigin": [
         "South Korea"
       ],
       "firstFlight": "2022-07-19",
-      "introduced": "22 September 2026",
+      "introduced": "2026-09-22",
       "status": "In service",
-      "numberBuilt": "KAI: 6 prototypes; ROKAF: 1 (40 orders)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "KAI KF-21 Boramae",
         "url": "https://en.wikipedia.org/wiki/KAI_KF-21_Boramae",
@@ -5741,7 +5741,7 @@
         "dateTaken": "2023.12.21",
         "credit": "대한민국 국방부 - Ministry of National Defense of the Republic of Korea / KOGL Type 1 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:23.335Z"
+      "retrievedAt": "2026-10-11T19:29:35.528Z"
     },
     {
       "id": "viggen",
@@ -5749,7 +5749,7 @@
       "group": "fighter-attack",
       "description": "1967 Swedish fighter aircraft family",
       "summary": "Saab 37 Viggen is a single-seat, single-engine multirole combat aircraft designed and produced by the Swedish aircraft manufacturer Saab. It was the first canard-equipped aircraft to be produced in quantity and the first to carry an airborne digital central computer with integrated circuits for its avionics, arguably making it the most modern/advanced combat aircraft in Europe at the time of introduction. The digital central computer was the first of its kind in the world, automating and taking over tasks previously requiring a navigator/copilot, facilitating handling in tactical situations where, among other things, high speeds and short decision times determined whether attacks would be successful or not, a system not surpassed until the introduction of the Panavia Tornado into operational service in 1981.",
-      "role": "interceptor; ground attack aircraft; reconnaissance aircraft; maritime patrol aircraft; jet trainer",
+      "role": "Multirole combat aircraft AJ 37: Fighter bomber; SF 37: Photo reconnaissance; SH 37: Maritime patrol; JA 37: Strike fighter; SK 37: Trainer aircraft",
       "manufacturer": [
         "Saab Group"
       ],
@@ -5788,7 +5788,7 @@
         "dateTaken": "2022-07-15 14:35",
         "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:24.268Z"
+      "retrievedAt": "2026-10-11T19:29:36.322Z"
     },
     {
       "id": "f5",
@@ -5796,7 +5796,7 @@
       "group": "fighter-attack",
       "description": "US lightweight low-cost fighter aircraft",
       "summary": "The Northrop F-5 is a family of supersonic light fighter aircraft initially designed as a privately funded project in the late 1950s by Northrop Corporation. There are two main models: the original F-5A and F-5B Freedom Fighter variants, and the extensively updated F-5E and F-5F Tiger II variants. The design team wrapped a small, highly aerodynamic fighter around two compact General Electric J85 engines, focusing on performance and a low cost of maintenance. Smaller and simpler than contemporaries such as the McDonnell Douglas F-4 Phantom II, the F-5 costs less to procure and operate, making it a popular export aircraft. Though primarily designed for a day air superiority role, the aircraft is also a capable ground-attack platform. The F-5A entered service in the early 1960s. During the Cold War, over 800 were produced through 1972 for US allies. Despite the United States Air Force (USAF) not needing a light fighter at the time, it did procure approximately 1,200 Northrop T-38 Talon trainer aircraft, which were based on Northrop's N-156 fighter design.",
-      "role": "multi-role combat aircraft",
+      "role": "Light fighter",
       "manufacturer": [
         "Northrop"
       ],
@@ -5807,7 +5807,7 @@
       "firstFlight": "1959-07-30",
       "introduced": "1962",
       "status": "In service",
-      "numberBuilt": "A/B/C/D: 1,204; E/F: 1,399",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Northrop F-5",
         "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
@@ -5835,7 +5835,7 @@
         "dateTaken": "2012-10-01 00:00:00",
         "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:25.185Z"
+      "retrievedAt": "2026-10-11T19:29:37.455Z"
     },
     {
       "id": "hawk",
@@ -5885,7 +5885,7 @@
         "dateTaken": "2011-07-15 16:02",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:25.879Z"
+      "retrievedAt": "2026-10-11T19:29:38.125Z"
     },
     {
       "id": "l39",
@@ -5932,7 +5932,7 @@
         "dateTaken": "2014-08-06",
         "credit": "Milan Nykodym / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:26.760Z"
+      "retrievedAt": "2026-10-11T19:29:38.948Z"
     },
     {
       "id": "t38",
@@ -5979,7 +5979,7 @@
         "dateTaken": "2010-08-12",
         "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:27.573Z"
+      "retrievedAt": "2026-10-11T19:29:39.956Z"
     },
     {
       "id": "alpha-jet",
@@ -6027,7 +6027,7 @@
         "dateTaken": "2008-06-02 17:04",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:28.226Z"
+      "retrievedAt": "2026-10-11T19:29:41.504Z"
     },
     {
       "id": "wright-flyer",
@@ -6074,7 +6074,7 @@
         "dateTaken": "1903-12-17",
         "credit": "John T. Daniels / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:28.972Z"
+      "retrievedAt": "2026-10-11T19:29:42.583Z"
     },
     {
       "id": "spitfire",
@@ -6082,7 +6082,7 @@
       "group": "historic",
       "description": "British single-seat WWII fighter aircraft",
       "summary": "The Supermarine Spitfire is a British single-seat fighter aircraft that was used by the Royal Air Force and other Allied countries before, during, and after World War II. It was the only British fighter produced continuously throughout the war. The Spitfire was a short-range, high-performance interceptor aircraft designed by R. J. Mitchell, chief designer at Supermarine Aviation Works, which operated as a subsidiary of Vickers-Armstrong from 1928. Mitchell modified the Spitfire's distinctive elliptical wing with innovative sunken rivets to have the thinnest possible cross-section, achieving a potential top speed greater than that of several contemporary fighter aircraft, including the Hawker Hurricane. Mitchell continued to refine the design until his death from cancer in 1937, whereupon his colleague Joseph Smith took over as chief designer.",
-      "role": null,
+      "role": "Fighter / Interceptor aircraft",
       "manufacturer": [
         "Supermarine"
       ],
@@ -6121,7 +6121,7 @@
         "dateTaken": "2018-05-15",
         "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:29.848Z"
+      "retrievedAt": "2026-10-11T19:29:43.420Z"
     },
     {
       "id": "hurricane",
@@ -6129,7 +6129,7 @@
       "group": "historic",
       "description": "British fighter aircraft of the 1930s and 40s",
       "summary": "The Hawker Hurricane is a British single-seat fighter aircraft of the 1930s–40s which was designed and predominantly built by Hawker Aircraft Ltd. for service with the Royal Air Force (RAF). It was overshadowed in the public consciousness by the Supermarine Spitfire during the Battle of Britain in 1940, but the Hurricane inflicted 60% of the losses sustained by the Luftwaffe in the campaign and fought in all the major theatres of the Second World War.",
-      "role": "multi-role combat aircraft",
+      "role": "Fighter aircraft",
       "manufacturer": [
         "Hawker Aircraft"
       ],
@@ -6168,7 +6168,7 @@
         "dateTaken": "2017-05-07 15:52",
         "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:30.653Z"
+      "retrievedAt": "2026-10-11T19:29:44.288Z"
     },
     {
       "id": "p51",
@@ -6215,7 +6215,7 @@
         "dateTaken": null,
         "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:31.554Z"
+      "retrievedAt": "2026-10-11T19:29:45.402Z"
     },
     {
       "id": "bf109",
@@ -6234,7 +6234,7 @@
       "firstFlight": "1935-05",
       "introduced": "1937",
       "status": "Retired",
-      "numberBuilt": "34,248 ; +603 Avia S-199; +239 HA-1112",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Messerschmitt Bf 109",
         "url": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109",
@@ -6262,7 +6262,7 @@
         "dateTaken": "1943date QS:P571,+1943-00-00T00:00:00Z/9",
         "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:32.377Z"
+      "retrievedAt": "2026-10-11T19:30:01.404Z"
     },
     {
       "id": "a6m",
@@ -6270,7 +6270,7 @@
       "group": "historic",
       "description": "Japanese carrier-based fighter aircraft",
       "summary": "The Mitsubishi A6M \"Zero\" is a long-range carrier-capable fighter aircraft that was manufactured by Mitsubishi Aircraft Company, which was part of Mitsubishi Heavy Industries. It was operated by the Imperial Japanese Navy (IJN) from 1940 to 1945. The A6M was designated as the Mitsubishi Navy Type 0 carrier fighter , or the Mitsubishi A6M Rei-sen. The A6M was usually referred to by its pilots as the Reisen, \"0\" being the last digit of the imperial year 2600 (1940) when it entered service with the IJN. The official Allied reporting name was \"Zeke\", although the name \"Zero\" was used more commonly.",
-      "role": "carrier-capable fighter",
+      "role": "Carrier-capable fighter aircraft",
       "manufacturer": [
         "Mitsubishi Heavy Industries"
       ],
@@ -6309,7 +6309,7 @@
         "dateTaken": "2007-09-29",
         "credit": "Kogo / GFDL / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:33.751Z"
+      "retrievedAt": "2026-10-11T19:30:02.240Z"
     },
     {
       "id": "f4u",
@@ -6317,7 +6317,7 @@
       "group": "historic",
       "description": "1940 fighter aircraft family by Chance Vought",
       "summary": "The Vought F4U Corsair is an American fighter aircraft that saw service primarily in World War II and the Korean War. Designed and initially manufactured by Chance Vought, the Corsair was soon in great demand; additional production contracts were given to Goodyear, whose Corsairs were designated FG, and Brewster, designated F3A.",
-      "role": "air superiority fighter; close air support",
+      "role": "Carrier-based fighter-bomber",
       "manufacturer": [
         "Vought",
         "Goodyear Aerospace",
@@ -6358,7 +6358,7 @@
         "dateTaken": "2012-08-07",
         "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:34.565Z"
+      "retrievedAt": "2026-10-11T19:30:03.003Z"
     },
     {
       "id": "p38",
@@ -6366,7 +6366,7 @@
       "group": "historic",
       "description": "American twin-engined fighter of WWII",
       "summary": "The Lockheed P-38 Lightning is an American single-seat, twin-engined fighter aircraft that was used during World War II. Developed for the United States Army Air Corps (USAAC) by the Lockheed Corporation, the P-38 incorporated a distinctive twin boom design with a central nacelle containing the cockpit and armament. Along with its use as a general fighter, the P-38 was used in various aerial warfare roles, including as a fighter-bomber, a night fighter, and a long-range escort fighter when equipped with drop tanks. The P-38 was also used as a bomber-pathfinder, guiding streams of medium and heavy bombers, or even other P-38s equipped with bombs, to their targets. Although it was not designated a heavy fighter or a bomber destroyer by the USAAC, the P-38 filled those roles and more; unlike German heavy fighters crewed by two or three airmen, the P-38, with its lone pilot, was nimble enough to compete with single-engined fighters.",
-      "role": null,
+      "role": "Fighter; Fighter-bomber; Aerial reconnaissance",
       "manufacturer": [
         "Lockheed Corporation"
       ],
@@ -6405,7 +6405,7 @@
         "dateTaken": "2009-04-04 13:26:39",
         "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:35.378Z"
+      "retrievedAt": "2026-10-11T19:30:04.231Z"
     },
     {
       "id": "mosquito",
@@ -6413,7 +6413,7 @@
       "group": "historic",
       "description": "British multi-role combat aircraft of WW2",
       "summary": "The de Havilland DH.98 Mosquito was a British twin-engined, multi-role combat aircraft, introduced during the Second World War. Unusual in that its airframe was constructed mostly of wood, it was nicknamed the \"Wooden Wonder\", or \"Mossie\". In 1941, it was one of the fastest operational aircraft in the world.",
-      "role": null,
+      "role": "Light bomber; Fighter-bomber; Night fighter; Maritime strike aircraft; Photo-reconnaissance aircraft",
       "manufacturer": [
         "de Havilland Aircraft Company"
       ],
@@ -6452,7 +6452,7 @@
         "dateTaken": "between 1942 and 1943date QS:P,+1942-00-00T00:00:00Z/8,P1319,+1942-00-00T00:00:00Z/9,P1326,+1943-00-00T00:00:00Z/9",
         "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:36.234Z"
+      "retrievedAt": "2026-10-11T19:30:05.377Z"
     },
     {
       "id": "b17",
@@ -6460,7 +6460,7 @@
       "group": "historic",
       "description": "American heavy bomber aircraft",
       "summary": "The Boeing B-17 Flying Fortress is an American four-engined heavy bomber aircraft that was developed in the mid-1930s for the United States Army Air Corps (USAAC). A fast and high-flying bomber used primarily in the European Theater of Operations, the B-17 dropped more bombs than any other aircraft during World War II. It is the third-most produced bomber in history, behind the American four-engined Consolidated B-24 Liberator and the German multirole, twin-engined Junkers Ju 88. The B-17 was also employed in transport, anti-submarine warfare, and search and rescue roles.",
-      "role": "airstrike",
+      "role": "Heavy bomber",
       "manufacturer": [
         "Boeing"
       ],
@@ -6499,7 +6499,7 @@
         "dateTaken": "2018-06-26",
         "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:37.021Z"
+      "retrievedAt": "2026-10-11T19:30:06.163Z"
     },
     {
       "id": "b29",
@@ -6507,7 +6507,7 @@
       "group": "historic",
       "description": "US heavy bomber aircraft (1944–1960)",
       "summary": "The Boeing B-29 Superfortress is a retired American four-engined propeller-driven heavy bomber, designed by Boeing and flown primarily by the USAAF and USAF during World War II and the Korean War. Named in allusion to its predecessor, the Boeing B-17 Flying Fortress, the Superfortress was designed for high-altitude strategic bombing, but also excelled in low-altitude night incendiary bombing and in dropping naval mines to blockade Japan. Silverplate B-29s dropped the atomic bombs on Hiroshima and Nagasaki, and remain the only system to deliver nuclear weapons in combat.",
-      "role": "airstrike",
+      "role": "Strategic bomber, heavy bomber",
       "manufacturer": [
         "Boeing"
       ],
@@ -6546,7 +6546,7 @@
         "dateTaken": "2019-10-26 12:27:07",
         "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:37.794Z"
+      "retrievedAt": "2026-10-11T19:30:07.166Z"
     },
     {
       "id": "lancaster",
@@ -6554,7 +6554,7 @@
       "group": "historic",
       "description": "World War II British heavy bomber aircraft",
       "summary": "The Avro Lancaster, commonly known as the Lancaster Bomber, is a British World War II heavy bomber. It was designed and manufactured by Avro as a contemporary of the Handley Page Halifax, both bombers having been developed to the same specification, as well as the Short Stirling, all three aircraft being four-engine heavy bombers adopted by the Royal Air Force (RAF) during the same era.",
-      "role": null,
+      "role": "Heavy bomber",
       "manufacturer": [
         "Avro"
       ],
@@ -6563,7 +6563,7 @@
         "United Kingdom"
       ],
       "firstFlight": "1941-01-09",
-      "introduced": "February 1942",
+      "introduced": "1942-02",
       "status": null,
       "numberBuilt": 7377,
       "wikipedia": {
@@ -6593,7 +6593,7 @@
         "dateTaken": "2018-09-29",
         "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:24:38.501Z"
+      "retrievedAt": "2026-10-11T19:30:07.869Z"
     },
     {
       "id": "ah64",
@@ -6604,7 +6604,7 @@
       ],
       "description": "U.S. attack helicopter",
       "summary": "The Hughes/McDonnell Douglas/Boeing AH-64 Apache is an American twin-turboshaft attack helicopter with a tailwheel-type landing gear and a tandem cockpit for a crew of two. Nose-mounted sensors help acquire targets and provide night vision. It carries a 30 mm (1.18 in) M230 chain gun under its forward fuselage and four hardpoints on stub-wing pylons for armament and stores, typically AGM-114 Hellfire missiles and Hydra 70 rocket pods. Redundant systems help it survive combat damage.",
-      "role": null,
+      "role": "Attack helicopter",
       "manufacturer": [
         "Hughes Helicopters",
         "McDonnell Douglas",
@@ -6646,7 +6646,7 @@
         "dateTaken": "2005-12-05",
         "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:01.597Z"
+      "retrievedAt": "2026-10-11T19:30:08.692Z"
     },
     {
       "id": "uh1",
@@ -6657,7 +6657,7 @@
       ],
       "description": "Huey family of American military utility helicopters",
       "summary": "The Bell UH-1 Iroquois is a utility military helicopter designed and produced by the American aerospace company Bell Helicopter. It is the first member of the prolific Huey family, as well as the first turbine-powered helicopter in service with the United States military.",
-      "role": "utility helicopter",
+      "role": "Utility helicopter",
       "manufacturer": [
         "Bell Textron"
       ],
@@ -6696,7 +6696,7 @@
         "dateTaken": "2018-04-30 17:55",
         "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:02.558Z"
+      "retrievedAt": "2026-10-11T19:30:09.401Z"
     },
     {
       "id": "ch47",
@@ -6707,7 +6707,7 @@
       ],
       "description": "American tandem-rotor helicopter introduced in 1962 during the Cold War",
       "summary": "The Boeing CH-47 Chinook is a tandem-rotor helicopter originally developed by American rotorcraft company Vertol and now manufactured by Boeing Defense, Space & Security. The Chinook is the second-heaviest-lifting Western heavy-lift helicopter, behind the Sikorsky CH-53. Its name comes from the Chinook people, who are indigenous to the Pacific Northwest of the United States.",
-      "role": "airlift",
+      "role": "Transport helicopter",
       "manufacturer": [
         "Boeing Defense, Space & Security",
         "Boeing",
@@ -6750,7 +6750,7 @@
         "dateTaken": "2017-05-25",
         "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:03.444Z"
+      "retrievedAt": "2026-10-11T19:30:10.578Z"
     },
     {
       "id": "uh60",
@@ -6761,7 +6761,7 @@
       ],
       "description": "Series of military utility transport helicopters",
       "summary": "The Sikorsky UH-60 Black Hawk is a four-blade, twin-engine, medium-lift military utility helicopter manufactured by Sikorsky Aircraft. Sikorsky submitted a design for the United States Army's Utility Tactical Transport Aircraft System (UTTAS) competition in 1972. The Army designated the prototype as the YUH-60A and selected the Black Hawk as the winner of the program in 1976, after a fly-off competition with the Boeing Vertol YUH-61.",
-      "role": "military aviation",
+      "role": "Utility helicopter",
       "manufacturer": [
         "Sikorsky Aircraft Corporation"
       ],
@@ -6800,7 +6800,7 @@
         "dateTaken": "2019-03-11",
         "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:04.257Z"
+      "retrievedAt": "2026-10-11T19:30:11.447Z"
     },
     {
       "id": "ch53",
@@ -6850,7 +6850,7 @@
         "dateTaken": "2012-05-26",
         "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:04.928Z"
+      "retrievedAt": "2026-10-11T19:30:12.074Z"
     },
     {
       "id": "ah1",
@@ -6861,7 +6861,7 @@
       ],
       "description": "Family of attack helicopters",
       "summary": "The Bell AH-1 Cobra is a single-engined attack helicopter developed and manufactured by the American rotorcraft manufacturer Bell Helicopter. A member of the prolific Huey family, the AH-1 is also referred to as the HueyCobra or Snake.",
-      "role": null,
+      "role": "Attack helicopter",
       "manufacturer": [
         "Bell Textron"
       ],
@@ -6900,7 +6900,7 @@
         "dateTaken": "2018-11-06 03:03:59",
         "credit": "US Army / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:05.556Z"
+      "retrievedAt": "2026-10-11T19:30:12.914Z"
     },
     {
       "id": "mi24",
@@ -6933,7 +6933,7 @@
       "wikidataId": "Q155651",
       "photo": {
         "file": "assets/aircraft/mi24.jpg",
-        "sourceFile": "File:Mi24CP_(modified)_b.jpg",
+        "sourceFile": "File:Mi24CP (modified) b.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Mi24CP_(modified)_b.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mi24CP_%28modified%29_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mi24CP_%28modified%29_b.jpg/960px-Mi24CP_%28modified%29_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -6951,7 +6951,7 @@
         "dateTaken": "2002-06-22",
         "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:06.497Z"
+      "retrievedAt": "2026-10-11T19:30:13.585Z"
     },
     {
       "id": "mi8",
@@ -6968,7 +6968,7 @@
         "Kazan Helicopters",
         "Ulan-Ude Aviation Plant"
       ],
-      "designer": null,
+      "designer": "Mil Moscow Helicopter Plant",
       "countryOfOrigin": [
         "Soviet Union"
       ],
@@ -7003,7 +7003,7 @@
         "dateTaken": "2010-06-06",
         "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:07.419Z"
+      "retrievedAt": "2026-10-11T19:30:14.508Z"
     },
     {
       "id": "ka52",
@@ -7014,7 +7014,7 @@
       ],
       "description": "Attack helicopter",
       "summary": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995. The Ka-50 is manufactured by the Progress company in Arsenyev. It is used as a heavily armed scout helicopter and has a rescue ejection system, rare for helicopters.",
-      "role": null,
+      "role": "Attack helicopter, scout helicopter",
       "manufacturer": [
         "Kamov"
       ],
@@ -7053,7 +7053,7 @@
         "dateTaken": "Taken on 17 August 2005",
         "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:08.484Z"
+      "retrievedAt": "2026-10-11T19:30:15.460Z"
     },
     {
       "id": "ka50",
@@ -7064,7 +7064,7 @@
       ],
       "description": "Attack helicopter",
       "summary": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995. The Ka-50 is manufactured by the Progress company in Arsenyev. It is used as a heavily armed scout helicopter and has a rescue ejection system, rare for helicopters.",
-      "role": null,
+      "role": "Attack helicopter, scout helicopter",
       "manufacturer": [
         "Kamov"
       ],
@@ -7103,7 +7103,7 @@
         "dateTaken": "Taken on 17 August 2005",
         "credit": "Dmitriy Pichugin / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:09.236Z"
+      "retrievedAt": "2026-10-11T19:30:16.205Z"
     },
     {
       "id": "tiger",
@@ -7154,7 +7154,7 @@
         "dateTaken": "2017-07-30",
         "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:10.188Z"
+      "retrievedAt": "2026-10-11T19:30:17.232Z"
     },
     {
       "id": "r22",
@@ -7174,7 +7174,7 @@
       "firstFlight": "1975",
       "introduced": "1979",
       "status": "In production",
-      "numberBuilt": "over 4,800 (2019)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Robinson R22",
         "url": "https://en.wikipedia.org/wiki/Robinson_R22",
@@ -7202,7 +7202,7 @@
         "dateTaken": "2020-07-04",
         "credit": "Jeroen Stroes Aviation Photography / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:10.961Z"
+      "retrievedAt": "2026-10-11T19:30:17.992Z"
     },
     {
       "id": "r44",
@@ -7219,7 +7219,7 @@
       "firstFlight": "1990-03-31",
       "introduced": "1993",
       "status": "In production",
-      "numberBuilt": "6,866+ (through 2023)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Robinson R44",
         "url": "https://en.wikipedia.org/wiki/Robinson_R44",
@@ -7247,7 +7247,7 @@
         "dateTaken": "2009-09-05",
         "credit": "D. Miller / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:11.658Z"
+      "retrievedAt": "2026-10-11T19:30:18.912Z"
     },
     {
       "id": "bell206",
@@ -7299,7 +7299,7 @@
         "dateTaken": "2006-10-20",
         "credit": "Mfield - Matthew Field, http://www.photography.mattfield.com / CC BY 2.5 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:12.356Z"
+      "retrievedAt": "2026-10-11T19:30:19.900Z"
     },
     {
       "id": "h125",
@@ -7351,7 +7351,7 @@
         "dateTaken": "2008-03",
         "credit": "fir0002 ; flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:13.297Z"
+      "retrievedAt": "2026-10-11T19:30:21.024Z"
     },
     {
       "id": "s76",
@@ -7401,7 +7401,7 @@
         "dateTaken": "2009-07-19 10:46",
         "credit": "Contando Estrelas from Vigo, España / Spain / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:14.059Z"
+      "retrievedAt": "2026-10-11T19:30:21.810Z"
     },
     {
       "id": "h145",
@@ -7425,7 +7425,7 @@
       "firstFlight": "1999-06-12",
       "introduced": "2002",
       "status": "In service",
-      "numberBuilt": "1,600 (June 2023)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Eurocopter EC145",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_EC145",
@@ -7453,7 +7453,7 @@
         "dateTaken": "2013-12-11",
         "credit": "Greg Kramer / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:14.781Z"
+      "retrievedAt": "2026-10-11T19:30:22.710Z"
     },
     {
       "id": "h135",
@@ -7472,7 +7472,7 @@
       "firstFlight": "1994-02-01",
       "introduced": "1996-07-31",
       "status": "In service",
-      "numberBuilt": "1,400 (Sep. 2020)",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Eurocopter EC135",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_EC135",
@@ -7500,7 +7500,7 @@
         "dateTaken": "2011-07-13 12:02",
         "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:15.503Z"
+      "retrievedAt": "2026-10-11T19:30:23.308Z"
     },
     {
       "id": "md500",
@@ -7522,7 +7522,7 @@
       "firstFlight": "1963",
       "introduced": "1967",
       "status": "In service",
-      "numberBuilt": 4700,
+      "numberBuilt": null,
       "wikipedia": {
         "title": "MD Helicopters MD 500",
         "url": "https://en.wikipedia.org/wiki/MD_Helicopters_MD_500",
@@ -7550,7 +7550,7 @@
         "dateTaken": "2008-06",
         "credit": "Adrian Pingstone (Arpingstone) / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:16.269Z"
+      "retrievedAt": "2026-10-11T19:30:23.906Z"
     },
     {
       "id": "aw101",
@@ -7600,7 +7600,7 @@
         "dateTaken": "2015-09-04",
         "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:17.024Z"
+      "retrievedAt": "2026-10-11T19:30:24.942Z"
     },
     {
       "id": "aw139",
@@ -7647,7 +7647,7 @@
         "dateTaken": "2014-07-20 15:08:49",
         "credit": "Contando Estrelas / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:17.756Z"
+      "retrievedAt": "2026-10-11T19:30:25.814Z"
     },
     {
       "id": "bell47",
@@ -7700,7 +7700,7 @@
         "dateTaken": "2017-08-09",
         "credit": "Peter Bakema / GFDL 1.2 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:18.649Z"
+      "retrievedAt": "2026-10-11T19:30:26.950Z"
     },
     {
       "id": "ch54",
@@ -7748,7 +7748,7 @@
         "dateTaken": null,
         "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:19.537Z"
+      "retrievedAt": "2026-10-11T19:30:27.874Z"
     },
     {
       "id": "mi26",
@@ -7761,7 +7761,7 @@
         "Mil Moscow Helicopter Plant",
         "Rostvertol"
       ],
-      "designer": null,
+      "designer": "Mil Moscow Helicopter Plant",
       "countryOfOrigin": [
         "Soviet Union",
         "Russia"
@@ -7797,7 +7797,7 @@
         "dateTaken": "2013-08-27 19:05:15",
         "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:20.282Z"
+      "retrievedAt": "2026-10-11T19:30:28.571Z"
     },
     {
       "id": "sh60",
@@ -7826,7 +7826,7 @@
       "wikidataId": "Q831667",
       "photo": {
         "file": "assets/aircraft/sh60.jpg",
-        "sourceFile": "File:SH-60B_Seahawk2.jpg",
+        "sourceFile": "File:SH-60B Seahawk2.jpg",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:SH-60B_Seahawk2.jpg",
         "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/SH-60B_Seahawk2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
         "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/SH-60B_Seahawk2.jpg/960px-SH-60B_Seahawk2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -7844,7 +7844,7 @@
         "dateTaken": null,
         "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:20.939Z"
+      "retrievedAt": "2026-10-11T19:30:29.266Z"
     },
     {
       "id": "s92",
@@ -7863,7 +7863,7 @@
       "firstFlight": "1998-12-23",
       "introduced": "2004",
       "status": "In service",
-      "numberBuilt": "at least 300",
+      "numberBuilt": null,
       "wikipedia": {
         "title": "Sikorsky S-92",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_S-92",
@@ -7891,7 +7891,7 @@
         "dateTaken": "2013-08-04",
         "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:25:21.716Z"
+      "retrievedAt": "2026-10-11T19:30:30.165Z"
     }
   ]
 }
