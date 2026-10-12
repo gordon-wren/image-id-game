@@ -1,0 +1,3315 @@
+{
+  "generatedFrom": "scripts/packs/recipes.json",
+  "numbers": {
+    "a380": 1,
+    "b747-8": 2,
+    "b747-400": 3,
+    "b747sp": 4,
+    "large-airliners/b777-300er": 5,
+    "large-airliners/b777-200": 6,
+    "large-airliners/b787-9": 7,
+    "large-airliners/a350-1000": 8,
+    "large-airliners/a350-900": 9,
+    "large-airliners/a330-300": 10,
+    "large-airliners/a330-200": 11,
+    "large-airliners/a340-600": 12,
+    "large-airliners/a340-300": 13,
+    "large-airliners/b767-300": 14,
+    "md11": 15,
+    "l1011": 16,
+    "il96": 17,
+    "il86": 18,
+    "a300": 19,
+    "a310": 20,
+    "f22": 21,
+    "f35": 22,
+    "f16": 23,
+    "fa18": 24,
+    "fa18ef": 25,
+    "f15": 26,
+    "f14": 27,
+    "a10": 28,
+    "typhoon": 29,
+    "rafale": 30,
+    "gripen": 31,
+    "tornado": 32,
+    "su27": 33,
+    "su35": 34,
+    "su57": 35,
+    "mig29": 36,
+    "mig21": 37,
+    "mig25": 38,
+    "mig31": 39,
+    "j20": 40,
+    "j10": 41,
+    "mirage2000": 42,
+    "f4": 43,
+    "f117": 44,
+    "harrier": 45,
+    "tejas": 46,
+    "kf21": 47,
+    "viggen": 48,
+    "f5": 49,
+    "ah64": 50,
+    "uh1": 51,
+    "ch47": 52,
+    "uh60": 53,
+    "ch53": 54,
+    "ah1": 55,
+    "mi24": 56,
+    "mi8": 57,
+    "ka50": 58,
+    "ka52": 59,
+    "tiger": 60,
+    "r22": 61,
+    "r44": 62,
+    "bell206": 63,
+    "h125": 64,
+    "s76": 65,
+    "h145": 66,
+    "h135": 67,
+    "md500": 68,
+    "aw101": 69,
+    "aw139": 70,
+    "bell47": 71,
+    "ch54": 72,
+    "mi26": 73,
+    "sh60": 74,
+    "s92": 75,
+    "b52": 76,
+    "b1": 77,
+    "b2": 78,
+    "b21": 79,
+    "tu95": 80,
+    "tu160": 81,
+    "tu22m": 82,
+    "vulcan": 83,
+    "c130": 84,
+    "c17": 85,
+    "c5": 86,
+    "a400m": 87,
+    "an124": 88,
+    "an225": 89,
+    "il76": 90,
+    "kc135": 91,
+    "e3": 92,
+    "p8": 93,
+    "p3": 94,
+    "v22": 95,
+    "c390": 96,
+    "kawasaki-c2": 97,
+    "sr71": 98,
+    "u2": 99,
+    "mq9": 100,
+    "rq4": 101,
+    "b737-classic": 102,
+    "b737ng": 103,
+    "b737max": 104,
+    "b727": 105,
+    "b757": 106,
+    "b717": 107,
+    "a320": 108,
+    "a320neo": 109,
+    "a220": 110,
+    "md80": 111,
+    "tu154": 112,
+    "c919": 113,
+    "ssj100": 114,
+    "f100": 115,
+    "bae146": 116,
+    "ejet": 117,
+    "ejet-e2": 118,
+    "erj": 119,
+    "crj200": 120,
+    "crj700": 121,
+    "atr72": 122,
+    "dash8": 123,
+    "saab340": 124,
+    "twin-otter": 125,
+    "dc3": 126,
+    "constellation": 127,
+    "c172": 128,
+    "pa28": 129,
+    "sr22": 130,
+    "bonanza": 131,
+    "j3cub": 132,
+    "da40": 133,
+    "caravan": 134,
+    "pc12": 135,
+    "king-air": 136,
+    "g650": 137,
+    "learjet35": 138,
+    "citation-x": 139,
+    "global7500": 140,
+    "hondajet": 141,
+    "phenom300": 142,
+    "spitfire": 143,
+    "hurricane": 144,
+    "p51": 145,
+    "bf109": 146,
+    "a6m": 147,
+    "f4u": 148,
+    "p38": 149,
+    "mosquito": 150,
+    "b17": 151,
+    "b29": 152,
+    "lancaster": 153,
+    "medical-helicopters/bk117": 154,
+    "medical-helicopters/aw169": 155,
+    "medical-helicopters/aw109": 156,
+    "medical-helicopters/bell407": 157,
+    "medical-helicopters/bell429": 158,
+    "medical-helicopters/bell412": 159,
+    "medical-helicopters/md902": 160,
+    "medical-planes/pc24": 161,
+    "medical-planes/kingair200": 162,
+    "medical-planes/kingair350": 163,
+    "medical-planes/learjet45": 164,
+    "medical-planes/learjet60": 165,
+    "medical-planes/challenger604": 166,
+    "medical-planes/citation2": 167,
+    "medical-planes/c9": 168,
+    "as365": 169,
+    "ec155": 170
+  },
+  "entries": {
+    "a380": {
+      "number": 1,
+      "name": "Airbus A380",
+      "image": "assets/aircraft/a380.jpg",
+      "credit": "Maarten Visser from Capelle aan den IJssel, Nederland / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "European wide-body airliner",
+        "role": "Wide-body airliner",
+        "manufacturer": "Airbus Commercial Aircraft",
+        "firstFlight": 2005,
+        "country": "France",
+        "about": "The Airbus A380 is a large wide-body airliner, developed and produced by Airbus from 2003 to 2021. It is the world's largest passenger airliner and the only full-length double-deck jet airliner.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A380"
+      }
+    },
+    "b747-8": {
+      "number": 2,
+      "name": "Boeing 747-8",
+      "image": "assets/aircraft/b747-8.jpg",
+      "credit": "Juke Schweizer / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "Wide-body airliner, last production series of the 747",
+        "role": "Wide-body jet airliner",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": 2010,
+        "country": "United States",
+        "about": "The Boeing 747-8 is the last member of the Boeing 747 family, a series of large, long-range wide-body airliners built by Boeing Commercial Airplanes. It is the largest model of the 747 and Boeing's largest aircraft overall.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_747-8"
+      }
+    },
+    "b747-400": {
+      "number": 3,
+      "name": "Boeing 747-400",
+      "image": "assets/aircraft/b747-400.jpg",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "Wide-body airliner, improved production series of the 747",
+        "role": "Wide-body airliner",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": 1988,
+        "country": "United States",
+        "about": "The Boeing 747-400 is a large, long-range wide-body airliner produced by Boeing Commercial Airplanes, as an advanced version of the original Boeing 747. The model, first introduced as the Advanced Series 300, was announced at the September 1984 Farnborough Airshow, targeting a 10% cost reduction with more efficient…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_747-400"
+      }
+    },
+    "b747sp": {
+      "number": 4,
+      "name": "Boeing 747SP",
+      "image": "assets/aircraft/b747sp.jpg",
+      "credit": "NASA photo / Jim Ross / Public domain / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "Shortened version of the Boeing 747",
+        "role": "Wide-body jet airliner",
+        "manufacturer": "Boeing Commercial Airplanes, Boeing",
+        "firstFlight": 1975,
+        "country": "United States",
+        "about": "The Boeing 747SP is a shortened version of the Boeing 747 wide-body airliner, designed for a longer range. It is the highest flying subsonic passenger airliner, with a service ceiling of 45,100 feet (13,700 m).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_747SP"
+      }
+    },
+    "large-airliners/b777-300er": {
+      "number": 5,
+      "name": "Boeing 777-300ER",
+      "image": "assets/large-airliners/777-300er.jpg",
+      "credit": null,
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/b777-200": {
+      "number": 6,
+      "name": "Boeing 777-200",
+      "image": "assets/aircraft/b777.jpg",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/b787-9": {
+      "number": 7,
+      "name": "Boeing 787-9 Dreamliner",
+      "image": "assets/large-airliners/787-9.jpg",
+      "credit": "New York-air / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a350-1000": {
+      "number": 8,
+      "name": "Airbus A350-1000",
+      "image": "assets/large-airliners/a350-1000.jpg",
+      "credit": null,
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a350-900": {
+      "number": 9,
+      "name": "Airbus A350-900",
+      "image": "assets/aircraft/a350.jpg",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a330-300": {
+      "number": 10,
+      "name": "Airbus A330-300",
+      "image": "assets/aircraft/a330.jpg",
+      "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a330-200": {
+      "number": 11,
+      "name": "Airbus A330-200",
+      "image": "assets/large-airliners/a330-200.jpg",
+      "credit": null,
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a340-600": {
+      "number": 12,
+      "name": "Airbus A340-600",
+      "image": "assets/large-airliners/a340-600.jpg",
+      "credit": null,
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/a340-300": {
+      "number": 13,
+      "name": "Airbus A340-300",
+      "image": "assets/aircraft/a340.jpg",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "large-airliners/b767-300": {
+      "number": 14,
+      "name": "Boeing 767-300",
+      "image": "assets/aircraft/b767.jpg",
+      "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ]
+    },
+    "md11": {
+      "number": 15,
+      "name": "McDonnell Douglas MD-11",
+      "image": "assets/aircraft/md11.jpg",
+      "credit": "Björn Strey / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "Wide body airliners developed from the DC-10",
+        "role": "Wide-body jet airliner",
+        "manufacturer": "McDonnell Douglas, Boeing",
+        "firstFlight": 1990,
+        "country": "United States",
+        "about": "The McDonnell Douglas MD-11 is an American trijet wide-body airliner which was manufactured by McDonnell Douglas and later by Boeing. The MD-11 is the largest trijet ever built.",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_MD-11"
+      }
+    },
+    "l1011": {
+      "number": 16,
+      "name": "Lockheed L-1011 TriStar",
+      "image": "assets/aircraft/l1011.jpg",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "American wide-body trijet airliner",
+        "role": "Wide-body jet airliner",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1970,
+        "country": "United States",
+        "about": "The Lockheed L-1011 TriStar is an American medium-to-long-range, wide-body trijet airliner built by the Lockheed Corporation. It was the third wide-body airliner to enter commercial operations, after the Boeing 747 and the McDonnell Douglas DC-10.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_L-1011_TriStar"
+      }
+    },
+    "il96": {
+      "number": 17,
+      "name": "Ilyushin Il-96",
+      "image": "assets/aircraft/il96.jpg",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Russian four-engined long-range wide-body jet airliner",
+        "role": "Widebody jet airliner",
+        "manufacturer": "Voronezh Aircraft Production Association",
+        "firstFlight": 1988,
+        "country": "Russia / Soviet Union",
+        "about": "The Ilyushin Il-96 is a Russian four-engined long-haul wide-body jet airliner designed by Ilyushin in the former Soviet Union and manufactured by the Voronezh Aircraft Production Association in Voronezh, Russia. It is powered by four high-bypass Aviadvigatel PS-90 twin-spool turbofan engines.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-96"
+      }
+    },
+    "il86": {
+      "number": 18,
+      "name": "Ilyushin Il-86",
+      "image": "assets/aircraft/il86.jpg",
+      "credit": "Dmitry A. Mottl / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Soviet four-engined wide-body jet airliner",
+        "role": "Wide-body airliner",
+        "manufacturer": "Ilyushin, Voronezh Aircraft Production Association",
+        "firstFlight": 1976,
+        "country": "Soviet Union",
+        "about": "The Ilyushin Il-86 is a retired short- to medium-range wide-body jet airliner that served as the USSR's first wide-bodied aircraft. Designed and tested by the Ilyushin design bureau in the 1970s, it was certified by the Soviet aircraft industry, manufactured and marketed by the USSR.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-86"
+      }
+    },
+    "a300": {
+      "number": 19,
+      "name": "Airbus A300",
+      "image": "assets/aircraft/a300.jpg",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "World's first twin-engine widebody jet airliner",
+        "role": "Wide-body airliner",
+        "manufacturer": "Airbus Commercial Aircraft",
+        "firstFlight": 1972,
+        "country": "France / Germany",
+        "about": "The Airbus A300 is Airbus' first production aircraft and the world's first twin-engine, wide-body airliner. It was developed by Airbus Industrie GIE, now merged into Airbus, and manufactured from 1971 to 2007.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A300"
+      }
+    },
+    "a310": {
+      "number": 20,
+      "name": "Airbus A310",
+      "image": "assets/aircraft/a310.jpg",
+      "credit": "Hugo LUC / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "large-airliners"
+      ],
+      "facts": {
+        "description": "Short-fuselage derivative of the Airbus A300 airliner",
+        "role": "Wide-body aircraft",
+        "manufacturer": "Airbus Commercial Aircraft",
+        "firstFlight": 1982,
+        "country": "France / Germany",
+        "about": "The Airbus A310 is a wide-body airliner designed and manufactured by Airbus Industrie GIE, then a consortium of European aerospace manufacturers. Airbus had identified a demand for an aircraft smaller than the A300, the first twin-jet wide-body.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A310"
+      }
+    },
+    "f22": {
+      "number": 21,
+      "name": "Lockheed Martin F-22 Raptor",
+      "image": "assets/aircraft/f22.jpg",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "American stealth air superiority fighter",
+        "role": "Air superiority fighter",
+        "manufacturer": "Lockheed Martin Aeronautics, Boeing Defense, Space & Security",
+        "firstFlight": 1997,
+        "country": "United States",
+        "about": "The Lockheed Martin–Boeing F-22 Raptor is an American twin-engine, jet-powered, all-weather, supersonic stealth fighter aircraft. As a product of the United States Air Force's (USAF) Advanced Tactical Fighter (ATF) program, the aircraft was designed as an air superiority fighter, but also incorporates ground attack,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor"
+      }
+    },
+    "f35": {
+      "number": 22,
+      "name": "Lockheed Martin F-35 Lightning II",
+      "image": "assets/aircraft/f35.jpg",
+      "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "American stealth multirole fighter aircraft",
+        "role": "Multirole strike fighter",
+        "manufacturer": "Lockheed Martin Aeronautics, Lockheed Martin",
+        "firstFlight": 2006,
+        "country": "United States",
+        "about": "The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, supersonic stealth strike fighters. A multirole combat aircraft designed for air superiority and strike missions, it also has electronic warfare and intelligence, surveillance, and reconnaissance capabilities.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+      }
+    },
+    "f16": {
+      "number": 23,
+      "name": "General Dynamics F-16 Fighting Falcon",
+      "image": "assets/aircraft/f16.jpg",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American multi-role fighter aircraft",
+        "role": "Multirole fighter; air superiority fighter",
+        "manufacturer": "General Dynamics, Lockheed Martin",
+        "firstFlight": 1974,
+        "country": "United States",
+        "about": "The General Dynamics F-16 Fighting Falcon is an American single-engine supersonic multirole fourth-generation fighter aircraft developed by General Dynamics and produced by multiple companies, including General Dynamics until 1993 and Lockheed Martin since. Designed as an air superiority day fighter, it evolved into…",
+        "wikipedia": "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon"
+      }
+    },
+    "fa18": {
+      "number": 24,
+      "name": "McDonnell Douglas F/A-18 Hornet",
+      "image": "assets/aircraft/fa18.jpg",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American carrier-capable multirole strike aircraft",
+        "role": "Multirole fighter",
+        "manufacturer": "McDonnell Douglas, Boeing Defense, Space & Security",
+        "firstFlight": 1978,
+        "country": "United States",
+        "about": "The McDonnell Douglas F/A-18 Hornet is an all-weather supersonic, twin-engined, carrier-capable, multirole combat aircraft, designed as both a fighter and ground attack aircraft. Designed by McDonnell Douglas and Northrop, the F/A-18 was derived from the YF-17 that lost against the YF-16 in the United States Air…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F%2FA-18_Hornet"
+      }
+    },
+    "fa18ef": {
+      "number": 25,
+      "name": "Boeing F/A-18E/F Super Hornet",
+      "image": "assets/aircraft/fa18ef.jpg",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "Series of carrier-based multirole combat aircraft",
+        "role": "Carrier-based multirole fighter",
+        "manufacturer": "McDonnell Douglas, Boeing Defense, Space & Security",
+        "firstFlight": 1995,
+        "country": "United States",
+        "about": "The Boeing F/A-18E and F/A-18F Super Hornet are a series of American supersonic twin-engine, carrier-capable, multirole fighter aircraft derived from the McDonnell Douglas F/A-18 Hornet. The Super Hornet is in service with the armed forces of the United States, Australia, and Kuwait.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet"
+      }
+    },
+    "f15": {
+      "number": 26,
+      "name": "McDonnell Douglas F-15 Eagle",
+      "image": "assets/aircraft/f15.jpg",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Multirole and air superiority fighter family",
+        "role": "Air superiority fighter",
+        "manufacturer": "McDonnell Douglas, Boeing",
+        "firstFlight": 1972,
+        "country": "United States",
+        "about": "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather fighter aircraft designed by McDonnell Douglas. Following reviews of proposals, the United States Air Force (USAF) selected McDonnell Douglas's design in 1969 to meet the service's need for a dedicated air superiority fighter.",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle"
+      }
+    },
+    "f14": {
+      "number": 27,
+      "name": "Grumman F-14 Tomcat",
+      "image": "assets/aircraft/f14.jpg",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Carrier-based multi-role fighter aircraft family",
+        "role": "Interceptor, air superiority, and multirole fighter",
+        "manufacturer": "Grumman",
+        "firstFlight": 1970,
+        "country": "United States",
+        "about": "The Grumman F-14 Tomcat is an American carrier-capable supersonic, twin-engine, tandem two-seat, twin-tail, all-weather-capable variable-sweep wing fighter aircraft. The Tomcat was developed for the United States Navy's Naval Fighter Experimental (VFX) program after the collapse of the General Dynamics-Grumman F-111B…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F-14_Tomcat"
+      }
+    },
+    "a10": {
+      "number": 28,
+      "name": "Fairchild Republic A-10 Thunderbolt II",
+      "image": "assets/aircraft/a10.jpg",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American close air support attack aircraft",
+        "role": "Close air support attack aircraft",
+        "manufacturer": "Fairchild Republic",
+        "firstFlight": 1972,
+        "country": "United States",
+        "about": "The Fairchild Republic A-10 Thunderbolt II, also widely known by the nickname Warthog, is a single-seat, twin-turbofan, straight-wing, subsonic attack aircraft developed by Fairchild Republic for the United States Air Force (USAF). In service since 1977, it is named after the Republic P-47 Thunderbolt strike-fighter…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II"
+      }
+    },
+    "typhoon": {
+      "number": 29,
+      "name": "Eurofighter Typhoon",
+      "image": "assets/aircraft/typhoon.jpg",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "1994 multi-role combat aircraft family by Eurofighter",
+        "role": "Air superiority fighter with multirole capabilities",
+        "manufacturer": "Eurofighter Jagdflugzeug GmbH",
+        "firstFlight": 1994,
+        "country": "United Kingdom / Germany / Italy / Spain",
+        "about": "The Eurofighter Typhoon is a European multinational twin-engine, supersonic, canard delta wing, multirole fighter. The Typhoon was designed originally as an air-superiority fighter and is manufactured by a consortium of Airbus, BAE Systems and Leonardo that conducts the majority of the project through a joint holding…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurofighter_Typhoon"
+      }
+    },
+    "rafale": {
+      "number": 30,
+      "name": "Dassault Rafale",
+      "image": "assets/aircraft/rafale.jpg",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Multi-role combat aircraft family by Dassault",
+        "role": "Multirole fighter",
+        "manufacturer": "Dassault Aviation",
+        "firstFlight": 1986,
+        "country": "France",
+        "about": "The Dassault Rafale is a French twin-engine, canard delta wing, multirole fighter aircraft designed and built by Dassault Aviation. Equipped with a wide range of weapons, the Rafale is intended to perform air supremacy, interdiction, aerial reconnaissance, ground support, in-depth strike, anti-ship strike and nuclear…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dassault_Rafale"
+      }
+    },
+    "gripen": {
+      "number": 31,
+      "name": "Saab JAS 39 Gripen",
+      "image": "assets/aircraft/gripen.jpg",
+      "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Light single-engined multirole fighter aircraft from Sweden",
+        "role": "Multirole fighter",
+        "manufacturer": "Saab Group",
+        "firstFlight": 1988,
+        "country": "Sweden",
+        "about": "The Saab JAS 39 Gripen is a light single-engine supersonic multirole fighter aircraft manufactured by the Swedish aerospace and defence company Saab AB. The Gripen has a delta wing and canard configuration with relaxed stability design and fly-by-wire flight controls.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen"
+      }
+    },
+    "tornado": {
+      "number": 32,
+      "name": "Panavia Tornado",
+      "image": "assets/aircraft/tornado.jpg",
+      "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Family of multi-role combat aircraft",
+        "role": "Multirole aircraft, strike aircraft",
+        "manufacturer": "Panavia Aircraft GmbH",
+        "firstFlight": 1974,
+        "country": "United Kingdom / West Germany / Italy",
+        "about": "The Panavia Tornado is a family of twin-engine, variable-sweep wing multi-role combat aircraft, jointly developed and manufactured by Italy, the United Kingdom, and Germany. There are three primary Tornado variants: the Tornado IDS (interdictor/strike) fighter-bomber, the Tornado ECR SEAD aircraft, and the Tornado…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Panavia_Tornado"
+      }
+    },
+    "su27": {
+      "number": 33,
+      "name": "Sukhoi Su-27",
+      "image": "assets/aircraft/su27.jpg",
+      "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Soviet 4th generation fighter aircraft",
+        "role": "Multirole fighter, air superiority fighter",
+        "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
+        "firstFlight": 1977,
+        "country": "Soviet Union / Russia",
+        "about": "The Sukhoi Su-27 is a Soviet twin-engine supersonic supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large US fourth-generation jet fighters such as the Grumman F-14 Tomcat and McDonnell Douglas F-15 Eagle, with 3,530-kilometre (1,910 nmi) range, heavy aircraft…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-27"
+      }
+    },
+    "su35": {
+      "number": 34,
+      "name": "Sukhoi Su-35",
+      "image": "assets/aircraft/su35.jpg",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Upgraded series of the Su-27 fighter aircraft",
+        "role": "Multirole fighter",
+        "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
+        "firstFlight": 2008,
+        "country": "Soviet Union (Russia since 1991)",
+        "about": "The Sukhoi Su-35 is the designation for two improved derivatives of the Russian Su-27 air superiority fighter. They are single-seat, twin-engine, supermaneuverable, 4.5 generation air superiority fighters, designed by the Sukhoi Design Bureau and built by Sukhoi.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-35"
+      }
+    },
+    "su57": {
+      "number": 35,
+      "name": "Sukhoi Su-57",
+      "image": "assets/aircraft/su57.jpg",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Russian stealth multirole fighter aircraft",
+        "role": "Stealth multirole fighter",
+        "manufacturer": "Komsomolsk-on-Amur Aircraft Production Association",
+        "firstFlight": 2010,
+        "country": "Russia",
+        "about": "The Sukhoi Su-57 is a twin-engine stealth multirole fighter aircraft developed by Sukhoi. It is the product of the PAK FA programme, which was initiated in 1999 as a more modern and affordable alternative to the MFI.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-57"
+      }
+    },
+    "mig29": {
+      "number": 36,
+      "name": "Mikoyan MiG-29",
+      "image": "assets/aircraft/mig29.jpg",
+      "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Soviet twin-engine jet fighter aircraft",
+        "role": "Air superiority fighter, multirole fighter",
+        "manufacturer": "Russian Aircraft Corporation MiG, Dux Factory",
+        "firstFlight": 1977,
+        "country": "Soviet Union",
+        "about": "The Mikoyan MiG-29 is a twin-engine fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter U.S. fighters such as the McDonnell Douglas F-15 Eagle and the General…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29"
+      }
+    },
+    "mig21": {
+      "number": 37,
+      "name": "Mikoyan-Gurevich MiG-21",
+      "image": "assets/aircraft/mig21.jpg",
+      "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1956 Soviet fighter aircraft family",
+        "role": "Fighter and interceptor aircraft",
+        "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
+        "firstFlight": 1956,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-21 is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union. Its nicknames include: \"Balalaika\", because its planform resembles the stringed musical instrument of the same name; \"Ołówek\", Polish for \"pencil\", due to the shape of…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21"
+      }
+    },
+    "mig25": {
+      "number": 38,
+      "name": "Mikoyan-Gurevich MiG-25",
+      "image": "assets/aircraft/mig25.jpg",
+      "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Family of interceptor and reconnaissance aircraft",
+        "role": "Interceptor and reconnaissance aircraft",
+        "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
+        "firstFlight": 1964,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-25 is a supersonic interceptor and reconnaissance aircraft that is among the fastest military aircraft to enter service. Designed by the Soviet Union's Mikoyan-Gurevich bureau, it is an aircraft built primarily using a nickel-steel alloy.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-25"
+      }
+    },
+    "mig31": {
+      "number": 39,
+      "name": "Mikoyan MiG-31",
+      "image": "assets/aircraft/mig31.jpg",
+      "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Interceptor aircraft",
+        "role": "Interceptor aircraft, strike fighter",
+        "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
+        "firstFlight": 1975,
+        "country": "Soviet Union",
+        "about": "The Mikoyan MiG-31 is a supersonic interceptor aircraft developed for the Soviet Air Forces by the Mikoyan design bureau as a replacement for the MiG-25 \"Foxbat\", on which it is based and with which it shares design elements.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31"
+      }
+    },
+    "j20": {
+      "number": 40,
+      "name": "Chengdu J-20",
+      "image": "assets/aircraft/j20.jpg",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "Chinese stealth fighter aircraft",
+        "role": "Stealth air superiority fighter",
+        "manufacturer": "Chengdu Aircraft Industry Group",
+        "firstFlight": 2011,
+        "country": "People's Republic of China",
+        "about": "The Chengdu J-20, also known as Weilong, is a twin-engine all-weather stealth fighter developed by China's Chengdu Aircraft Corporation between 2011 and 2018 for the People's Liberation Army Air Force (PLAAF). The J-20 is designed as an air superiority fighter with precision strike capability.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chengdu_J-20"
+      }
+    },
+    "j10": {
+      "number": 41,
+      "name": "Chengdu J-10",
+      "image": "assets/aircraft/j10.jpg",
+      "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "Chinese multi-role fighter aircraft family",
+        "role": "Multirole combat aircraft",
+        "manufacturer": "Chengdu Aircraft Industry Group",
+        "firstFlight": 1998,
+        "country": "People's Republic of China",
+        "about": "The Chengdu J-10, also known as Menglong is a Chinese medium-weight, single-engine, multirole combat aircraft using a delta wing and canard design, with a maximum speed of Mach 1.8. It is produced by the Chengdu Aircraft Corporation (CAC) for the People's Liberation Army Air Force (PLAAF) of China, and exported to…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Chengdu_J-10"
+      }
+    },
+    "mirage2000": {
+      "number": 42,
+      "name": "Dassault Mirage 2000",
+      "image": "assets/aircraft/mirage2000.jpg",
+      "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "French jet fighter aircraft",
+        "role": "Multirole fighter aircraft",
+        "manufacturer": "Dassault Aviation",
+        "firstFlight": 1978,
+        "country": "France",
+        "about": "The Dassault Mirage 2000 is a multirole, single-engine, delta wing, fourth-generation jet fighter designed and produced by the French aircraft manufacturer Dassault Aviation.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000"
+      }
+    },
+    "f4": {
+      "number": 43,
+      "name": "McDonnell Douglas F-4 Phantom II",
+      "image": "assets/aircraft/f4.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Fighter aircraft family developed from 1958",
+        "role": "Interceptor, fighter-bomber",
+        "manufacturer": "McDonnell Aircraft Corporation, McDonnell Douglas",
+        "firstFlight": 1958,
+        "country": "United States",
+        "about": "The McDonnell Douglas F-4 Phantom II is an American tandem two-seat, twin-engined, all-weather, long-range supersonic jet interceptor and fighter-bomber that was developed by McDonnell Aircraft for the United States Navy. It entered service with the Navy in 1961, then was adopted by the United States Marine Corps and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-4_Phantom_II"
+      }
+    },
+    "f117": {
+      "number": 44,
+      "name": "Lockheed F-117 Nighthawk",
+      "image": "assets/aircraft/f117.jpg",
+      "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American stealth ground-attack aircraft",
+        "role": "Stealth attack aircraft",
+        "manufacturer": "Skunk Works",
+        "firstFlight": 1981,
+        "country": "United States",
+        "about": "The Lockheed F-117 Nighthawk is a retired American single-seat, subsonic, twin-engined stealth attack aircraft developed by Lockheed's Skunk Works division and operated by the United States Air Force (USAF). It was the first operational aircraft to be designed with stealth technology.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_F-117_Nighthawk"
+      }
+    },
+    "harrier": {
+      "number": 45,
+      "name": "Harrier Jump Jet",
+      "image": "assets/aircraft/harrier.jpg",
+      "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace",
+        "role": "V/STOL strike aircraft",
+        "manufacturer": "Hawker Siddeley",
+        "firstFlight": 1967,
+        "country": "United Kingdom",
+        "about": "The Harrier, informally referred to as the Harrier jump jet, is a family of jet-powered attack aircraft capable of vertical/short takeoff and landing operations (V/STOL). Named after the bird of prey, it was originally developed by British manufacturer Hawker Siddeley in the 1960s.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Harrier_jump_jet"
+      }
+    },
+    "tejas": {
+      "number": 46,
+      "name": "HAL Tejas",
+      "image": "assets/aircraft/tejas.jpg",
+      "credit": "Goverrnment of India / GODL-India / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "Indian combat aircraft",
+        "role": "Multirole light fighter",
+        "manufacturer": "Hindustan Aeronautics Limited",
+        "firstFlight": 2001,
+        "country": "India",
+        "about": "The HAL Tejas is an Indian single-engine, 4.5 generation, delta wing, multirole combat aircraft designed by the Aeronautical Development Agency and manufactured by Hindustan Aeronautics Limited (HAL) for the Indian Air Force (IAF) and the Indian Navy. The aircraft made its first flight in 2001 and entered into…",
+        "wikipedia": "https://en.wikipedia.org/wiki/HAL_Tejas"
+      }
+    },
+    "kf21": {
+      "number": 47,
+      "name": "KAI KF-21 Boramae",
+      "image": "assets/aircraft/kf21.jpg",
+      "credit": "대한민국 국방부 - Ministry of National Defense of the Republic of Korea / KOGL Type 1 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "South Korean fighter aircraft",
+        "role": "Block 1: Air superiority fighter; Block 2: Multirole combat aircraft; Block 3: Stealth multirole combat aircraft",
+        "manufacturer": "Korea Aerospace Industries",
+        "firstFlight": 2022,
+        "country": "South Korea",
+        "about": "The KAI KF-21 Boramae is a South Korean twin-engine fighter aircraft. The initial goal of the program was to develop an indigenous multirole fighter for the Republic of Korea Air Force (ROKAF).",
+        "wikipedia": "https://en.wikipedia.org/wiki/KAI_KF-21_Boramae"
+      }
+    },
+    "viggen": {
+      "number": 48,
+      "name": "Saab 37 Viggen",
+      "image": "assets/aircraft/viggen.jpg",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1967 Swedish fighter aircraft family",
+        "role": "Multirole combat aircraft AJ 37: Fighter bomber; SF 37: Photo reconnaissance; SH 37: Maritime patrol; JA 37: Strike fighter; SK 37: Trainer aircraft",
+        "manufacturer": "Saab Group",
+        "firstFlight": 1967,
+        "country": "Sweden",
+        "about": "Saab 37 Viggen is a single-seat, single-engine multirole combat aircraft designed and produced by the Swedish aircraft manufacturer Saab. It was the first canard-equipped aircraft to be produced in quantity and the first to carry an airborne digital central computer with integrated circuits for its avionics, arguably…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Saab_37_Viggen"
+      }
+    },
+    "f5": {
+      "number": 49,
+      "name": "Northrop F-5",
+      "image": "assets/aircraft/f5.jpg",
+      "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "US lightweight low-cost fighter aircraft",
+        "role": "Light fighter",
+        "manufacturer": "Northrop",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Northrop F-5 is a family of supersonic light fighter aircraft initially designed as a privately funded project in the late 1950s by Northrop Corporation. There are two main models: the original F-5A and F-5B Freedom Fighter variants, and the extensively updated F-5E and F-5F Tiger II variants.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_F-5"
+      }
+    },
+    "ah64": {
+      "number": 50,
+      "name": "Boeing AH-64 Apache",
+      "image": "assets/aircraft/ah64.jpg",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "U.S. attack helicopter",
+        "role": "Attack helicopter",
+        "manufacturer": "Hughes Helicopters, McDonnell Douglas",
+        "firstFlight": 1975,
+        "country": "United States",
+        "about": "The Hughes/McDonnell Douglas/Boeing AH-64 Apache is an American twin-turboshaft attack helicopter with a tailwheel-type landing gear and a tandem cockpit for a crew of two. Nose-mounted sensors help acquire targets and provide night vision.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache"
+      }
+    },
+    "uh1": {
+      "number": 51,
+      "name": "Bell UH-1 Huey",
+      "image": "assets/aircraft/uh1.jpg",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Huey family of American military utility helicopters",
+        "role": "Utility helicopter",
+        "manufacturer": "Bell Textron",
+        "firstFlight": 1956,
+        "country": "United States",
+        "about": "The Bell UH-1 Iroquois is a utility military helicopter designed and produced by the American aerospace company Bell Helicopter. It is the first member of the prolific Huey family, as well as the first turbine-powered helicopter in service with the United States military.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois"
+      }
+    },
+    "ch47": {
+      "number": 52,
+      "name": "Boeing CH-47 Chinook",
+      "image": "assets/aircraft/ch47.jpg",
+      "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American tandem-rotor helicopter introduced in 1962 during the Cold War",
+        "role": "Transport helicopter",
+        "manufacturer": "Boeing Defense, Space & Security, Boeing",
+        "firstFlight": 1961,
+        "country": "United States",
+        "about": "The Boeing CH-47 Chinook is a tandem-rotor helicopter originally developed by American rotorcraft company Vertol and now manufactured by Boeing Defense, Space & Security. The Chinook is the second-heaviest-lifting Western heavy-lift helicopter, behind the Sikorsky CH-53.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook"
+      }
+    },
+    "uh60": {
+      "number": 53,
+      "name": "Sikorsky UH-60 Black Hawk",
+      "image": "assets/aircraft/uh60.jpg",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Series of military utility transport helicopters",
+        "role": "Utility helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1974,
+        "country": "United States",
+        "about": "The Sikorsky UH-60 Black Hawk is a four-blade, twin-engine, medium-lift military utility helicopter manufactured by Sikorsky Aircraft. Sikorsky submitted a design for the United States Army's Utility Tactical Transport Aircraft System (UTTAS) competition in 1972.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk"
+      }
+    },
+    "ch53": {
+      "number": 54,
+      "name": "Sikorsky CH-53 Sea Stallion",
+      "image": "assets/aircraft/ch53.jpg",
+      "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "1964 transport helicopter family by Sikorsky",
+        "role": "Heavy-lift cargo helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1964,
+        "country": "United States",
+        "about": "The CH-53 Sea Stallion is a family of American heavy-lift transport helicopters designed and built by the American manufacturer Sikorsky Aircraft. The Sea Stallion was developed in response to a March 1962 request from the United States Navy's Bureau of Naval Weapons for a replacement for the Sikorsky CH-37 Mojave…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_CH-53_Sea_Stallion"
+      }
+    },
+    "ah1": {
+      "number": 55,
+      "name": "Bell AH-1 Cobra",
+      "image": "assets/aircraft/ah1.jpg",
+      "credit": "US Army / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Family of attack helicopters",
+        "role": "Attack helicopter",
+        "manufacturer": "Bell Textron",
+        "firstFlight": 1965,
+        "country": "United States",
+        "about": "The Bell AH-1 Cobra is a single-engined attack helicopter developed and manufactured by the American rotorcraft manufacturer Bell Helicopter. A member of the prolific Huey family, the AH-1 is also referred to as the HueyCobra or Snake.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_AH-1_Cobra"
+      }
+    },
+    "mi24": {
+      "number": 56,
+      "name": "Mil Mi-24",
+      "image": "assets/aircraft/mi24.jpg",
+      "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Family of assault and attack helicopters",
+        "role": "Attack helicopter with transport capabilities, helicopter gunship",
+        "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
+        "firstFlight": 1969,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-24 is a large helicopter gunship, attack helicopter and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and was introduced by the Soviet Air Force in 1972.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-24"
+      }
+    },
+    "mi8": {
+      "number": 57,
+      "name": "Mil Mi-8/17",
+      "image": "assets/aircraft/mi8.jpg",
+      "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Family of transport helicopters",
+        "role": "Transport helicopter (also several armed versions)",
+        "manufacturer": "Mil Moscow Helicopter Plant, Kazan Helicopters",
+        "firstFlight": 1961,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-8 is a family of medium twin-turbine helicopters, originally designed by the Soviet Central Aerohydrodynamic Institute (TsAGI) in the 1960s and introduced into the Soviet Air Force in 1968. As of 2024, Russian production of the aircraft model continues.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-8"
+      }
+    },
+    "ka50": {
+      "number": 58,
+      "name": "Kamov Ka-50",
+      "image": "assets/aircraft/ka50.jpg",
+      "credit": "Tomasz Szulc / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Attack helicopter",
+        "role": "Attack helicopter, scout helicopter",
+        "manufacturer": "Kamov",
+        "firstFlight": 1982,
+        "country": "Soviet Union",
+        "about": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-50"
+      }
+    },
+    "ka52": {
+      "number": 59,
+      "name": "Kamov Ka-52 Alligator",
+      "image": "assets/aircraft/ka52.jpg",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Two-seat Russian attack helicopter, developed from the Ka-50",
+        "role": "Attack helicopter, scout helicopter",
+        "manufacturer": "Kamov, Progress (aviation plant, Arseniev)",
+        "firstFlight": 1997,
+        "country": "Russia",
+        "about": null,
+        "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-50"
+      }
+    },
+    "tiger": {
+      "number": 60,
+      "name": "Eurocopter Tiger",
+      "image": "assets/aircraft/tiger.jpg",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "European attack helicopter",
+        "role": "Attack helicopter; Anti-tank helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1991,
+        "country": "France / Germany",
+        "about": "The Eurocopter EC665 Tiger, is a four-blade, twin-engine attack helicopter which first entered service in 2003. It is manufactured by Airbus Helicopters, formerly Eurocopter, which arose from the merger of Aérospatiale's and DASA's respective helicopter divisions.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_Tiger"
+      }
+    },
+    "r22": {
+      "number": 61,
+      "name": "Robinson R22",
+      "image": "assets/aircraft/r22.jpg",
+      "credit": "Jeroen Stroes Aviation Photography / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American helicopter model",
+        "role": "Light utility and trainer helicopter",
+        "manufacturer": "Robinson Helicopter Company",
+        "firstFlight": 1975,
+        "country": "United States",
+        "about": "The Robinson R22 is a two-seat, two-bladed, single-engined, light utility helicopter manufactured by Robinson Helicopter Company. It was designed in 1973 by Frank D. Robinson, and has been in production since 1979.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Robinson_R22"
+      }
+    },
+    "r44": {
+      "number": 62,
+      "name": "Robinson R44",
+      "image": "assets/aircraft/r44.jpg",
+      "credit": "D. Miller / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Family of American light helicopters",
+        "role": "Light utility and trainer helicopter",
+        "manufacturer": "Robinson Helicopter Company",
+        "firstFlight": 1990,
+        "country": "United States",
+        "about": "The Robinson R44 is a four-seat light helicopter produced by Robinson Helicopter Company since 1992. Derived from the company's two-seat Robinson R22, the R44 features hydraulically assisted flight controls and a larger engine.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Robinson_R44"
+      }
+    },
+    "bell206": {
+      "number": 63,
+      "name": "Bell 206",
+      "image": "assets/aircraft/bell206.jpg",
+      "credit": "Mfield - Matthew Field, http://www.photography.mattfield.com / CC BY 2.5 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Utility helicopter family by Bell",
+        "role": "Multipurpose utility helicopter",
+        "manufacturer": "Bell Textron, AgustaWestland",
+        "firstFlight": 1962,
+        "country": "United States / Canada",
+        "about": "The Bell 206 is a family of two-bladed, single- and twin-engined helicopters, manufactured by Bell Helicopter at its Mirabel, Quebec, plant. Originally developed as the Bell YOH-4 for the United States Army's Light Observation Helicopter program, it was not selected by the Army.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_206"
+      }
+    },
+    "h125": {
+      "number": 64,
+      "name": "Airbus H125 (AS350 Écureuil)",
+      "image": "assets/aircraft/h125.jpg",
+      "credit": "Copeadope / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Single engine series of the Ecureuil light helicopter family",
+        "role": "Light utility helicopter",
+        "manufacturer": "Airbus Helicopters, Aérospatiale",
+        "firstFlight": 1974,
+        "country": "France",
+        "about": "The Airbus Helicopters H125 Écureuil, or Squirrel, is a single-engine light utility helicopter designed and originally manufactured by the French corporation Aérospatiale, later by Eurocopter, which became Airbus Helicopters. In North America, the H125 is marketed as the AStar.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_AS350_%C3%89cureuil"
+      }
+    },
+    "s76": {
+      "number": 65,
+      "name": "Sikorsky S-76",
+      "image": "assets/aircraft/s76.jpg",
+      "credit": "Contando Estrelas from Vigo, España / Spain / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "American medium-size commercial utility helicopter",
+        "role": "Utility helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1977,
+        "country": "United States",
+        "about": "The Sikorsky S-76 is a medium-size commercial utility helicopter designed and produced by the American helicopter manufacturer Sikorsky Aircraft. It is the company's first helicopter specifically developed for the civilian market.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_S-76"
+      }
+    },
+    "h145": {
+      "number": 66,
+      "name": "Airbus H145 (EC145)",
+      "image": "assets/aircraft/h145.jpg",
+      "credit": "Greg Kramer / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Twin-engine light utility helicopter",
+        "role": "Light utility helicopter",
+        "manufacturer": "Airbus Helicopters, Kawasaki Heavy Industries",
+        "firstFlight": 1999,
+        "country": "Multinational",
+        "about": "The Airbus Helicopters H145 is a twin-engine light utility helicopter developed and manufactured by Airbus Helicopters. Originally designated as the BK 117, the H145 is based upon the MBB/Kawasaki BK 117 C1, which became a part of the combined Eurocopter line-up in 1992 with the merger of Messerschmitt-Bölkow-Blohm's…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_EC145"
+      }
+    },
+    "h135": {
+      "number": 67,
+      "name": "Airbus H135 (EC135)",
+      "image": "assets/aircraft/h135.jpg",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Small utility helicopter",
+        "role": "Light utility helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1994,
+        "country": "Germany",
+        "about": "The Airbus Helicopters H135 is a twin-engine civil light utility helicopter produced by Airbus Helicopters. It is capable of flight under instrument flight rules and is outfitted with a digital automatic flight control system.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_EC135"
+      }
+    },
+    "md500": {
+      "number": 68,
+      "name": "MD Helicopters MD 500",
+      "image": "assets/aircraft/md500.jpg",
+      "credit": "Adrian Pingstone (Arpingstone) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Light utility helicopter family",
+        "role": "Light utility helicopter",
+        "manufacturer": "MD Helicopters",
+        "firstFlight": 1963,
+        "country": "United States",
+        "about": "The MD Helicopters MD 500 series is an American family of light utility civilian and military helicopters. The MD 500 was developed from the Hughes 500, a civilian version of the US Army's OH-6A Cayuse/Loach.",
+        "wikipedia": "https://en.wikipedia.org/wiki/MD_Helicopters_MD_500"
+      }
+    },
+    "aw101": {
+      "number": 69,
+      "name": "AgustaWestland AW101",
+      "image": "assets/aircraft/aw101.jpg",
+      "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Multi-role helicopter family by AgustaWestland",
+        "role": "Anti-submarine warfare, medium-lift transport, search and rescue and utility helicopter",
+        "manufacturer": "Leonardo",
+        "firstFlight": 1987,
+        "country": "Italy",
+        "about": "The AgustaWestland AW101 is a medium-lift helicopter in military and civil use. First flown in 1987, it was developed by a joint venture between Westland Helicopters in the United Kingdom and Agusta in Italy in response to national requirements for a modern naval utility helicopter.",
+        "wikipedia": "https://en.wikipedia.org/wiki/AgustaWestland_AW101"
+      }
+    },
+    "aw139": {
+      "number": 70,
+      "name": "AgustaWestland AW139",
+      "image": "assets/aircraft/aw139.jpg",
+      "credit": "Contando Estrelas / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Twin-engined, medium-lift helicopter manufactured by Leonardo",
+        "role": "Medium-lift SAR/utility helicopter",
+        "manufacturer": "AgustaWestland",
+        "firstFlight": 2001,
+        "country": "Italy / UK",
+        "about": "The AgustaWestland AW139, now known as the Leonardo AW139, is a 15-seat medium-sized twin-engined helicopter developed and produced by the Italian helicopter manufacturer AgustaWestland, now part of Leonardo. It is marketed at several different roles, including VIP/corporate transport, military use, offshore…",
+        "wikipedia": "https://en.wikipedia.org/wiki/AgustaWestland_AW139"
+      }
+    },
+    "bell47": {
+      "number": 71,
+      "name": "Bell 47",
+      "image": "assets/aircraft/bell47.jpg",
+      "credit": "The original uploader was Meggar at English Wikipedia. / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "1945 utility helicopter family by Bell",
+        "role": "Multipurpose light helicopter",
+        "manufacturer": "Bell Aircraft Corporation, AgustaWestland",
+        "firstFlight": 1945,
+        "country": "United States",
+        "about": "The Bell 47 is a single-rotor single-engine light helicopter manufactured by Bell Helicopter. It was based on the third Bell 30 prototype, which was the company's first helicopter designed by Arthur M. Young.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_47"
+      }
+    },
+    "ch54": {
+      "number": 72,
+      "name": "Sikorsky CH-54 Tarhe",
+      "image": "assets/aircraft/ch54.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American twin-engine heavy-lift helicopter",
+        "role": "Heavy-lift cargo helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1962,
+        "country": "United States",
+        "about": "The Sikorsky CH-54 Tarhe is an American twin-engine heavy-lift helicopter designed by Sikorsky Aircraft for the United States Army. It is named after Tarhe, an 18th-century chief of the Wyandot Indian tribe whose nickname was \"The Crane\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_CH-54_Tarhe"
+      }
+    },
+    "mi26": {
+      "number": 73,
+      "name": "Mil Mi-26",
+      "image": "assets/aircraft/mi26.jpg",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Soviet/Russian heavy transport helicopter",
+        "role": "Heavy lift transport helicopter",
+        "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
+        "firstFlight": 1977,
+        "country": "Soviet Union / Russia",
+        "about": "The Mil Mi-26 is a Soviet/Russian heavy transport helicopter. Its product code is Izdeliye 90.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-26"
+      }
+    },
+    "sh60": {
+      "number": 74,
+      "name": "Sikorsky SH-60 Seahawk",
+      "image": "assets/aircraft/sh60.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Naval helicopter series of the H-60/S-70 family",
+        "role": "Utility maritime helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1979,
+        "country": "United States",
+        "about": "The Sikorsky SH-60/MH-60 Seahawk is a twin turboshaft engine, multi-mission United States Navy helicopter based on the United States Army UH-60 Black Hawk and a member of the Sikorsky S-70 family. The most significant modifications are the folding main rotor blades and a hinged tail to reduce its footprint aboard…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_SH-60_Seahawk"
+      }
+    },
+    "s92": {
+      "number": 75,
+      "name": "Sikorsky S-92",
+      "image": "assets/aircraft/s92.jpg",
+      "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Transport helicopter family by Sikorsky",
+        "role": "Medium-lift transport/utility helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1998,
+        "country": "United States",
+        "about": "The Sikorsky S-92 is an American twin-engine medium-lift helicopter built by Sikorsky Aircraft for the civil and military helicopter markets. The S-92 was developed from the Sikorsky S-70 helicopter and has similar parts, such as flight control and rotor systems.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_S-92"
+      }
+    },
+    "as365": {
+      "number": 169,
+      "name": "Airbus Helicopters AS365 Dauphin",
+      "image": "assets/aircraft/as365.jpg",
+      "credit": "Mark Harkin / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Multi-role helicopter family by Aérospatiale",
+        "role": "Medium utility helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1975,
+        "country": "France",
+        "about": "The Eurocopter, later Airbus Helicopters AS365 Dauphin, originally known as the Aérospatiale SA 365 Dauphin 2, is a medium-weight multipurpose twin-engine helicopter produced by Airbus Helicopters. It was originally developed and manufactured by French firm Aérospatiale, which was merged into the multinational…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_AS365_Dauphin"
+      }
+    },
+    "ec155": {
+      "number": 170,
+      "name": "Airbus H155 (EC155)",
+      "image": "assets/aircraft/ec155.jpg",
+      "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "helicopters",
+        "medical-helicopters"
+      ],
+      "facts": {
+        "description": "Passenger transport helicopter",
+        "role": "Passenger transport helicopter",
+        "manufacturer": "Airbus Helicopters",
+        "firstFlight": 1997,
+        "country": "Multinational",
+        "about": "The Airbus Helicopters H155 is a long-range medium-lift passenger transport helicopter developed by Eurocopter from its Dauphin family for civil aviation use. It is a twin-engined aircraft and can carry up to 13 passengers along with 1 or 2 crew, depending on customer configuration.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_EC155"
+      }
+    },
+    "b52": {
+      "number": 76,
+      "name": "Boeing B-52 Stratofortress",
+      "image": "assets/aircraft/b52.jpg",
+      "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American strategic bomber aircraft",
+        "role": "Strategic heavy bomber",
+        "manufacturer": "Boeing",
+        "firstFlight": 1952,
+        "country": "United States",
+        "about": "The Boeing B-52 Stratofortress is an American nuclear-capable subsonic jet-powered strategic bomber. The B-52 was designed and built by Boeing, which has continued to provide support and upgrades.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress"
+      }
+    },
+    "b1": {
+      "number": 77,
+      "name": "Rockwell B-1 Lancer",
+      "image": "assets/aircraft/b1.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American strategic bomber",
+        "role": "Supersonic strategic heavy bomber",
+        "manufacturer": "Rockwell International, Boeing",
+        "firstFlight": 1974,
+        "country": "United States",
+        "about": "The Rockwell B-1 Lancer is a supersonic variable-sweep wing heavy bomber used by the United States Air Force. It has been nicknamed the \"Bone\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rockwell_B-1_Lancer"
+      }
+    },
+    "b2": {
+      "number": 78,
+      "name": "Northrop B-2 Spirit",
+      "image": "assets/aircraft/b2.jpg",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American heavy strategic bomber",
+        "role": "Stealth strategic heavy bomber",
+        "manufacturer": "Northrop Grumman Corporation, Northrop",
+        "firstFlight": 1989,
+        "country": "United States",
+        "about": "The Northrop B-2 Spirit is an American nuclear-capable subsonic stealth strategic bomber, often referred to as a \"stealth bomber\", solely operated by the United States Air Force. A four-engined flying wing and lambda wing with a crew of two to three, it is designed with stealth technology to penetrate sophisticated…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_B-2_Spirit"
+      }
+    },
+    "b21": {
+      "number": 79,
+      "name": "Northrop Grumman B-21 Raider",
+      "image": "assets/aircraft/b21.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers"
+      ],
+      "facts": {
+        "description": "American stealth bomber aircraft",
+        "role": "Stealth strategic bomber",
+        "manufacturer": "Northrop Grumman Corporation",
+        "firstFlight": 2023,
+        "country": "United States",
+        "about": "The Northrop Grumman B-21 Raider is an American nuclear-capable subsonic stealth strategic bomber in development for the United States Air Force (USAF) by Northrop Grumman. Part of the Long Range Strike Bomber (LRS-B) program, it is to be an intercontinental strategic bomber that can deliver conventional and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_Grumman_B-21_Raider"
+      }
+    },
+    "tu95": {
+      "number": 80,
+      "name": "Tupolev Tu-95",
+      "image": "assets/aircraft/tu95.jpg",
+      "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Russian strategic bomber aircraft",
+        "role": "Strategic heavy nuclear bomber",
+        "manufacturer": "Tupolev, Aviakor",
+        "firstFlight": 1952,
+        "country": "Soviet Union",
+        "about": "The Tupolev Tu-95 is a large Soviet nuclear-capable, four-engine turboprop strategic bomber and missile launch platform. First flown in 1952, the Tu-95 entered service with the Long-Range Aviation of the Soviet Air Forces in 1956 and was first used in combat in 2015.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-95"
+      }
+    },
+    "tu160": {
+      "number": 81,
+      "name": "Tupolev Tu-160",
+      "image": "assets/aircraft/tu160.jpg",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Russian strategic bomber aircraft",
+        "role": "Supersonic strategic heavy bomber",
+        "manufacturer": "Kazan Aircraft Production Association, Tupolev",
+        "firstFlight": 1981,
+        "country": "Soviet Union / Russia",
+        "about": "The Tupolev Tu-160 is a Soviet/Russian nuclear-capable supersonic, variable-sweep wing heavy strategic bomber and airborne missile platform designed by the Tupolev Design Bureau in the 1970s. The aircraft is large, longer than a Boeing B-52 Stratofortress at 54 m, with wingspan 56 m when spread, 36 m when swept back.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-160"
+      }
+    },
+    "tu22m": {
+      "number": 82,
+      "name": "Tupolev Tu-22M",
+      "image": "assets/aircraft/tu22m.jpg",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "soviet-russian",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Russian long-range supersonic strategic bomber",
+        "role": "Strategic bomber/Maritime strike",
+        "manufacturer": "Tupolev, Kazan Aircraft Production Association",
+        "firstFlight": 1969,
+        "country": "Soviet Union",
+        "about": "The Tupolev Tu-22M is a Soviet nuclear capable, supersonic, variable-sweep wing, long-range strategic and maritime strike bomber developed by the Tupolev Design Bureau in the 1960s. The bomber was reported as being designated Tu-26 by Western intelligence at one time.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M"
+      }
+    },
+    "vulcan": {
+      "number": 83,
+      "name": "Avro Vulcan",
+      "image": "assets/aircraft/vulcan.jpg",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "British jet-powered delta wing strategic bomber",
+        "role": "Strategic bomber",
+        "manufacturer": "Avro, Hawker Siddeley",
+        "firstFlight": 1952,
+        "country": "United Kingdom",
+        "about": "The Avro Vulcan is a jet-powered, delta-wing, high-altitude strategic bomber, which was operated by the Royal Air Force (RAF) from 1956 until 1984. Aircraft manufacturer A.V. Roe and Company (Avro) designed the Vulcan in response to Specification B.35/46.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Avro_Vulcan"
+      }
+    },
+    "c130": {
+      "number": 84,
+      "name": "Lockheed C-130 Hercules",
+      "image": "assets/aircraft/c130.jpg",
+      "credit": "U.S. Air Force photo by Tech. Sgt. Howard Blair / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support",
+        "medical-planes"
+      ],
+      "facts": {
+        "description": "American military transport aircraft",
+        "role": "Tactical airlifter",
+        "manufacturer": "Lockheed Martin",
+        "firstFlight": 1954,
+        "country": "United States",
+        "about": "The Lockheed C-130 Hercules is an American, four-engined, turboprop, military transport aircraft designed and built by Lockheed. Capable of using unprepared runways for takeoffs and landings, the C-130 was designed as a troop, medical evacuation, and cargo transport aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules"
+      }
+    },
+    "c17": {
+      "number": 85,
+      "name": "Boeing C-17 Globemaster III",
+      "image": "assets/aircraft/c17.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American four engine military transport aircraft",
+        "role": "Strategic and tactical airlifter",
+        "manufacturer": "Boeing, McDonnell Douglas",
+        "firstFlight": 1991,
+        "country": "United States",
+        "about": "The McDonnell Douglas/Boeing C-17 Globemaster III is a large military transport aircraft developed for the United States Air Force (USAF) during the 1980s and the early 1990s by McDonnell Douglas. The C-17 carries forward the name of two previous piston-engined military cargo aircraft, the Douglas C-74 Globemaster…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III"
+      }
+    },
+    "c5": {
+      "number": 86,
+      "name": "Lockheed C-5 Galaxy",
+      "image": "assets/aircraft/c5.jpg",
+      "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American heavy military transport aircraft",
+        "role": "Strategic airlifter",
+        "manufacturer": "Lockheed Martin",
+        "firstFlight": 1968,
+        "country": "United States",
+        "about": "The Lockheed C-5 Galaxy is a large four-engine military transport aircraft designed and built by Lockheed Corporation, and now maintained and upgraded by its successor, Lockheed Martin. It provides the United States Air Force (USAF) with a heavy intercontinental-range strategic airlift capability, one that can carry…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_C-5_Galaxy"
+      }
+    },
+    "a400m": {
+      "number": 87,
+      "name": "Airbus A400M Atlas",
+      "image": "assets/aircraft/a400m.jpg",
+      "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Multi-national four-engine turboprop military transport aircraft",
+        "role": "Strategic/tactical airlift / Aerial refueling",
+        "manufacturer": "Airbus Military",
+        "firstFlight": 2009,
+        "country": "France / Germany / Spain",
+        "about": "The Airbus A400M Atlas is a European four-engine turboprop military transport aircraft. It was designed by Airbus Military, now Airbus Defence and Space, as a tactical airlifter with strategic capabilities to replace older transport aircraft such as the Transall C-160 and the Lockheed C-130 Hercules.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas"
+      }
+    },
+    "an124": {
+      "number": 88,
+      "name": "Antonov An-124 Ruslan",
+      "image": "assets/aircraft/an124.jpg",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Soviet military transport aircraft",
+        "role": "Heavy transport aircraft",
+        "manufacturer": "Aviastar-SP, Antonov Serial Production Plant",
+        "firstFlight": 1982,
+        "country": "Soviet Union",
+        "about": "The Antonov An-124 Ruslan is a large, strategic airlift, four-engined aircraft that was designed in the 1980s by the Antonov Design Bureau in the Ukrainian SSR of the Soviet Union (USSR). The An-124 is the world's second heaviest gross weight production cargo airplane and heaviest operating cargo aircraft, behind the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-124_Ruslan"
+      }
+    },
+    "an225": {
+      "number": 89,
+      "name": "Antonov An-225 Mriya",
+      "image": "assets/aircraft/an225.jpg",
+      "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Soviet/Ukrainian heavy strategic cargo aircraft",
+        "role": "Outsize cargo freight aircraft",
+        "manufacturer": "Antonov Serial Production Plant",
+        "firstFlight": 1988,
+        "country": "Soviet Union",
+        "about": "The Antonov An-225 Mriya was a large strategic airlift cargo aircraft designed and produced by the Antonov Design Bureau in the Soviet Union.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-225_Mriya"
+      }
+    },
+    "il76": {
+      "number": 90,
+      "name": "Ilyushin Il-76",
+      "image": "assets/aircraft/il76.jpg",
+      "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Russian heavy four-engined military transport jet aircraft",
+        "role": "Strategic and tactical airlifter",
+        "manufacturer": "Ilyushin, Tashkent Mechanical Plant",
+        "firstFlight": 1971,
+        "country": "Soviet Union",
+        "about": "The Ilyushin Il-76 is a multi-purpose, fixed-wing, four-engine turbofan strategic airlifter designed by the Soviet Union's Ilyushin design bureau as a commercial freighter in 1967, to replace the Antonov An-12. It was developed to deliver heavy machinery to remote and poorly served areas.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-76"
+      }
+    },
+    "kc135": {
+      "number": 91,
+      "name": "Boeing KC-135 Stratotanker",
+      "image": "assets/aircraft/kc135.jpg",
+      "credit": "U.S. Air Force photo/Tech. Sgt. Angelique Perez / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "US military aerial refueling and transport aircraft",
+        "role": "Aerial refueling tanker and transport aircraft",
+        "manufacturer": "Boeing",
+        "firstFlight": 1956,
+        "country": "United States",
+        "about": "The Boeing KC-135 Stratotanker is an American military aerial refueling tanker aircraft that was developed from the Boeing 367-80 prototype, alongside the Boeing 707 airliner. It has a narrower fuselage and is shorter than the 707.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_KC-135_Stratotanker"
+      }
+    },
+    "e3": {
+      "number": 92,
+      "name": "Boeing E-3 Sentry",
+      "image": "assets/aircraft/e3.jpg",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Airborne early warning and control aircraft based on Boeing 707 airframe",
+        "role": "Airborne early warning and control (AEW&C)",
+        "manufacturer": "Boeing Defense, Space & Security, Westinghouse Electric Corporation",
+        "firstFlight": 1972,
+        "country": "United States",
+        "about": "The Boeing E-3 Sentry is an American airborne early warning and control (AEW&C) aircraft developed by Boeing. E-3s are commonly known as AWACS.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry"
+      }
+    },
+    "p8": {
+      "number": 93,
+      "name": "Boeing P-8 Poseidon",
+      "image": "assets/aircraft/p8.jpg",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American maritime patrol aircraft",
+        "role": "Maritime patrol aircraft",
+        "manufacturer": "Boeing Defense, Space & Security",
+        "firstFlight": 2009,
+        "country": "United States",
+        "about": "The Boeing P-8 Poseidon is an American maritime patrol and reconnaissance aircraft developed and produced by Boeing Defense, Space & Security. It was developed for the United States Navy as a derivative of the civilian Boeing 737 Next Generation airliner.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon"
+      }
+    },
+    "p3": {
+      "number": 94,
+      "name": "Lockheed P-3 Orion",
+      "image": "assets/aircraft/p3.jpg",
+      "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Maritime patrol and anti-submarine aircraft family",
+        "role": "Maritime patrol aircraft",
+        "manufacturer": "Lockheed Corporation, Lockheed Martin",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Lockheed P-3 Orion is a four-engined, turboprop anti-submarine and maritime surveillance aircraft developed for the United States Navy and introduced in the 1960s. It is based on the L-188 Electra commercial airliner by Lockheed; it is easily distinguished from the Electra by its distinctive tail stinger or \"MAD\"…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_P-3_Orion"
+      }
+    },
+    "v22": {
+      "number": 95,
+      "name": "Bell–Boeing V-22 Osprey",
+      "image": "assets/aircraft/v22.jpg",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Military transport tiltrotor",
+        "role": "Tiltrotor military transport aircraft",
+        "manufacturer": "Bell Textron, Boeing",
+        "firstFlight": 1989,
+        "country": "United States",
+        "about": "The Bell Boeing V-22 Osprey is an American multi-use, tiltrotor military transport and cargo aircraft with both vertical takeoff and landing (VTOL) and short takeoff and landing (STOL) capabilities. As the first production aircraft of its type, it is designed to combine the functionality of a conventional helicopter…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell%E2%80%93Boeing_V-22_Osprey"
+      }
+    },
+    "c390": {
+      "number": 96,
+      "name": "Embraer C-390 Millennium",
+      "image": "assets/aircraft/c390.jpg",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Brazilian military transport aircraft/tanker",
+        "role": "Military transport, aerial refuelling aircraft",
+        "manufacturer": "Embraer",
+        "firstFlight": 2015,
+        "country": "Brazil",
+        "about": "The Embraer C-390 Millennium is a medium-size, twin-engine, jet-powered military transport aircraft designed and produced by Brazilian aerospace manufacturer Embraer. It is the heaviest aircraft the company has built to date.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Embraer_C-390_Millennium"
+      }
+    },
+    "kawasaki-c2": {
+      "number": 97,
+      "name": "Kawasaki C-2",
+      "image": "assets/aircraft/kawasaki-c2.jpg",
+      "credit": "Hunini / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Japanese military transport aircraft",
+        "role": "Military transport aircraft",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 2010,
+        "country": "Japan",
+        "about": "The Kawasaki C-2 is a mid-size, twin-turbofan engine, long range, high speed military transport aircraft developed and manufactured by Kawasaki Aerospace Company. Designed to replace the older Kawasaki C-1, the C-2 formally entered service with the Japan Air Self-Defense Force (JASDF) in June 2016.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_C-2"
+      }
+    },
+    "sr71": {
+      "number": 98,
+      "name": "Lockheed SR-71 Blackbird",
+      "image": "assets/aircraft/sr71.jpg",
+      "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "US Air Force supersonic aircraft, 1964–1998",
+        "role": "Strategic reconnaissance aircraft",
+        "manufacturer": "Skunk Works",
+        "firstFlight": 1964,
+        "country": "United States",
+        "about": "The Lockheed SR-71 \"Blackbird\" is a retired long-range, high-altitude, Mach 3+ strategic reconnaissance aircraft that was developed and manufactured by the American aerospace company Lockheed Corporation. Its nicknames include \"Blackbird\" and \"Habu\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird"
+      }
+    },
+    "u2": {
+      "number": 99,
+      "name": "Lockheed U-2",
+      "image": "assets/aircraft/u2.jpg",
+      "credit": "United States Department of the Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American reconnaissance aircraft",
+        "role": "High-altitude reconnaissance aircraft",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1955,
+        "country": "United States",
+        "about": "The Lockheed U-2, nicknamed the \"Dragon Lady\", is an American single-engine, high–altitude reconnaissance aircraft operated by the United States Air Force (USAF) and the Central Intelligence Agency (CIA) since the 1950s. Designed for all-weather, day-and-night intelligence gathering at altitudes above 70,000 feet,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_U-2"
+      }
+    },
+    "mq9": {
+      "number": 100,
+      "name": "General Atomics MQ-9 Reaper",
+      "image": "assets/aircraft/mq9.jpg",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American unmanned aerial vehicle",
+        "role": "Unmanned combat aerial vehicle",
+        "manufacturer": "General Atomics Aeronautical Systems",
+        "firstFlight": 2001,
+        "country": "United States",
+        "about": "The General Atomics MQ-9 Reaper is a medium-altitude long-endurance unmanned aerial vehicle capable of remotely controlled or autonomous flight operations, developed by General Atomics Aeronautical Systems (GA-ASI) primarily for the United States Air Force (USAF). The MQ-9 and other UAVs are referred to as Remotely…",
+        "wikipedia": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper"
+      }
+    },
+    "rq4": {
+      "number": 101,
+      "name": "Northrop Grumman RQ-4 Global Hawk",
+      "image": "assets/aircraft/rq4.jpg",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Unmanned surveillance aircraft",
+        "role": "Unmanned surveillance and reconnaissance aerial vehicle",
+        "manufacturer": "Northrop Grumman Corporation, Raytheon",
+        "firstFlight": 1998,
+        "country": "United States",
+        "about": "The Northrop Grumman RQ-4 Global Hawk is a high-altitude, remotely-piloted surveillance aircraft introduced in 2001. It was initially designed by Ryan Aeronautical, and known as Tier II+ during development.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk"
+      }
+    },
+    "b737-classic": {
+      "number": 102,
+      "name": "Boeing 737 Classic",
+      "image": "assets/aircraft/b737-classic.jpg",
+      "credit": "Dylan Ashe from San Jose, USA / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Single-aisle airliner family",
+        "role": "Narrow-body aircraft",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": 1984,
+        "country": "United States",
+        "about": "The Boeing 737 Classic is a series of narrow-body airliners produced by Boeing Commercial Airplanes, the second generation of the Boeing 737 series of aircraft. Development began in 1979 and the first variant, the 737-300, first flew in February 1984 and entered service that December.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_737_Classic"
+      }
+    },
+    "b737ng": {
+      "number": 103,
+      "name": "Boeing 737 Next Generation",
+      "image": "assets/aircraft/b737ng.jpg",
+      "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Single-aisle airliner family",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": 1997,
+        "country": "United States",
+        "about": "The Boeing 737 Next Generation, commonly abbreviated as 737NG, or 737 Next Gen, is a twin-engined narrow-body aircraft produced by Boeing Commercial Airplanes. Launched in 1993 as the third-generation derivative of the Boeing 737, it has been produced since 1997.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation"
+      }
+    },
+    "b737max": {
+      "number": 104,
+      "name": "Boeing 737 MAX",
+      "image": "assets/aircraft/b737max.jpg",
+      "credit": "KirkXWB / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Single-aisle airliner family",
+        "role": "Narrow-body airliner",
+        "manufacturer": "Boeing Commercial Airplanes, Boeing",
+        "firstFlight": 2016,
+        "country": "United States",
+        "about": "The Boeing 737 MAX is a series of narrow-body aircraft developed by Boeing Commercial Airplanes as the fourth generation of the Boeing 737. It succeeds the Boeing 737 Next Generation and incorporates more efficient CFM International LEAP engines, aerodynamic improvements such as split-tip winglets, and structural…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_737_MAX"
+      }
+    },
+    "b727": {
+      "number": 105,
+      "name": "Boeing 727",
+      "image": "assets/aircraft/b727.jpg",
+      "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Three-engined single-aisle airliner family",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Boeing Commercial Airplanes, Boeing",
+        "firstFlight": 1963,
+        "country": "United States",
+        "about": "The Boeing 727 is an American narrow-body trijet that was developed and produced by Boeing Commercial Airplanes. After the heavier 707 quadjet was introduced in 1958, Boeing addressed the demand for shorter flight lengths from smaller airports.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_727"
+      }
+    },
+    "b757": {
+      "number": 106,
+      "name": "Boeing 757",
+      "image": "assets/aircraft/b757.jpg",
+      "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Large single-aisle airliner family",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": 1982,
+        "country": "United States",
+        "about": "The Boeing 757 is an American narrow-body airliner designed and built by Boeing Commercial Airplanes. The then-named 7N7, a twinjet successor to the trijet 727, received its first orders in August 1978.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_757"
+      }
+    },
+    "b717": {
+      "number": 107,
+      "name": "Boeing 717",
+      "image": "assets/aircraft/b717.jpg",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Small single-aisle airliner",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Boeing",
+        "firstFlight": 1998,
+        "country": "United States",
+        "about": "The Boeing 717 is an American five-abreast narrow-body airliner produced by Boeing Commercial Airplanes. The twin-engine airliner was developed for the 100-seat market and originally marketed by McDonnell Douglas in the early 1990s as the McDonnell Douglas MD-95 until the company merged with Boeing in August 1997.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_717"
+      }
+    },
+    "a320": {
+      "number": 108,
+      "name": "Airbus A320",
+      "image": "assets/aircraft/a320.jpg",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Single-aisle airliner family",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Airbus Commercial Aircraft",
+        "firstFlight": 1987,
+        "country": "Multi-national",
+        "about": "The Airbus A320 family is a series of narrow-body airliners developed and produced by Airbus, and is the best-selling airliner ever built. The A320 aircraft programme was launched in March 1984, first flew on 22 February 1987, and was introduced in April 1988 by Air France.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A320_family"
+      }
+    },
+    "a320neo": {
+      "number": 109,
+      "name": "Airbus A320neo",
+      "image": "assets/aircraft/a320neo.jpg",
+      "credit": "BriYYZ from Toronto, Canada / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Re-engined version of the A320 family",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Airbus Commercial Aircraft",
+        "firstFlight": 2014,
+        "country": "France / Germany",
+        "about": "The Airbus A320neo family is an incremental development of the A320 family of narrow-body airliners produced by Airbus. The A320neo family is based on the enhanced variant of the previous generation A319, A320, and A321, which was then retroactively renamed the A320ceo family.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A320neo_family"
+      }
+    },
+    "a220": {
+      "number": 110,
+      "name": "Airbus A220",
+      "image": "assets/aircraft/a220.jpg",
+      "credit": "The Cosmonaut / CC BY-SA 2.5 ca / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Canadian narrow-body airliner family",
+        "role": "Narrow-body airliner",
+        "manufacturer": "Airbus Canada",
+        "firstFlight": 2015,
+        "country": "Canada",
+        "about": "The Airbus A220 is a family of five-abreast narrow-body airliners by Airbus Canada Limited Partnership (ACLP). It was initially developed by Bombardier Aviation with the program launched on 13 July 2008 and had two years in-service as the Bombardier CSeries.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Airbus_A220"
+      }
+    },
+    "md80": {
+      "number": 111,
+      "name": "McDonnell Douglas MD-80",
+      "image": "assets/aircraft/md80.jpg",
+      "credit": "AKS.9955 / CC0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Jet airliner model, series based on the DC-9",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "McDonnell Douglas, Boeing Commercial Airplanes",
+        "firstFlight": 1979,
+        "country": "United States",
+        "about": "The McDonnell Douglas MD-80 is a series of five-abreast single-aisle airliners developed by McDonnell Douglas. It was produced by the developer company until August 1997 and then by Boeing Commercial Airplanes.",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_MD-80"
+      }
+    },
+    "tu154": {
+      "number": 112,
+      "name": "Tupolev Tu-154",
+      "image": "assets/aircraft/tu154.jpg",
+      "credit": "Vasyatka1 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Soviet and Russian medium-range trijet airliner",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Tupolev",
+        "firstFlight": 1968,
+        "country": "Soviet Union / Russia",
+        "about": "The Tupolev Tu-154 is a three-engined, medium-range, narrow-body airliner designed in the mid-1960s and manufactured by Tupolev. A workhorse of Soviet and (subsequently) Russian airlines for several decades, it carried half of all passengers flown by Aeroflot and its subsidiaries, remaining the standard…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-154"
+      }
+    },
+    "c919": {
+      "number": 113,
+      "name": "Comac C919",
+      "image": "assets/aircraft/c919.jpg",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Chinese medium-range narrowbody airliner",
+        "role": "Narrow-body jet airliner",
+        "manufacturer": "Comac",
+        "firstFlight": 2017,
+        "country": "People's Republic of China",
+        "about": "The Comac C919 is a narrow-body airliner developed by Chinese state owned aircraft manufacturer Comac. The development program was launched in 2008 as a competitor to the Airbus A320 and Boeing 737.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Comac_C919"
+      }
+    },
+    "ssj100": {
+      "number": 114,
+      "name": "Sukhoi Superjet 100",
+      "image": "assets/aircraft/ssj100.jpg",
+      "credit": "Mike1979 Russia / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners",
+        "soviet-russian"
+      ],
+      "facts": {
+        "description": "Russian twin-engine regional jet",
+        "role": "Regional jet",
+        "manufacturer": "Komsomolsk-on-Amur Aircraft Production Association, Yakovlev Corporation",
+        "firstFlight": 2008,
+        "country": "Russia",
+        "about": "The Yakovlev SJ-100 is a regional jet originally designed by the now-merged Russian aircraft company Sukhoi Civil Aircraft, a division of the United Aircraft Corporation. With development starting in 2000, it made its maiden flight on 19 May 2008 and its first commercial flight on 21 April 2011 with Armavia.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_SJ-100"
+      }
+    },
+    "f100": {
+      "number": 115,
+      "name": "Fokker 100",
+      "image": "assets/aircraft/f100.jpg",
+      "credit": "Laurent ERRERA from L'Union, France / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Twin-engine airliner produced 1986–1997",
+        "role": "Regional jet",
+        "manufacturer": "Fokker",
+        "firstFlight": 1986,
+        "country": "Netherlands",
+        "about": "The Fokker 100 is a regional jet that was produced by Fokker in the Netherlands. The Fokker 100 was based on the Fokker F28 with a fuselage stretched by 5.7 m (18.8 ft) to seat up to 109 passengers, up from 85.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fokker_100"
+      }
+    },
+    "bae146": {
+      "number": 116,
+      "name": "British Aerospace 146",
+      "image": "assets/aircraft/bae146.jpg",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons",
+      "packs": [
+        "narrowbody-airliners"
+      ],
+      "facts": {
+        "description": "Four-engined regional jet airliner family by British Aerospace, later BAE Systems",
+        "role": "Regional Jet; Airliner",
+        "manufacturer": "British Aerospace, BAE Systems",
+        "firstFlight": 1981,
+        "country": "United Kingdom",
+        "about": "The British Aerospace 146 is a short-haul and regional airliner that was manufactured in the United Kingdom by British Aerospace, later part of BAE Systems. Production ran from 1983 until 2001.",
+        "wikipedia": "https://en.wikipedia.org/wiki/British_Aerospace_146"
+      }
+    },
+    "ejet": {
+      "number": 117,
+      "name": "Embraer E-Jet",
+      "image": "assets/aircraft/ejet.jpg",
+      "credit": "Richard Vandervord / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional jet airliner family",
+        "role": "Regional jet; Narrow-body airliner",
+        "manufacturer": "Embraer",
+        "firstFlight": 2002,
+        "country": "Brazil",
+        "about": "The Embraer E-Jet family is a series of four-abreast, narrow-body, short- to medium-range, twin-engined regional jet airliners designed and produced by Brazilian aerospace manufacturer Embraer.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Embraer_E-Jet_family"
+      }
+    },
+    "ejet-e2": {
+      "number": 118,
+      "name": "Embraer E-Jet E2",
+      "image": "assets/aircraft/ejet-e2.jpg",
+      "credit": "Valentin Hintikka from Finland / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional jet airliner family",
+        "role": "Regional jet; Narrow-body airliner",
+        "manufacturer": "Embraer",
+        "firstFlight": 2016,
+        "country": "Brazil",
+        "about": "The Embraer E-Jet E2 family is a series of four-abreast narrow-body regional jet airliners designed and produced by the Brazilian aircraft manufacturer Embraer. The twinjet is an incremental development of the original E-Jet family, adopting the more fuel-efficient Pratt & Whitney PW1900G, a geared turbofan engine.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Embraer_E-Jet_E2_family"
+      }
+    },
+    "erj": {
+      "number": 119,
+      "name": "Embraer ERJ",
+      "image": "assets/aircraft/erj.jpg",
+      "credit": "Alf van Beem / CC0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional jet airliner family",
+        "role": "Regional jet",
+        "manufacturer": "Embraer",
+        "firstFlight": 1995,
+        "country": "Brazil",
+        "about": "The Embraer ERJ family are regional jets designed and produced by the Brazilian aerospace company Embraer. The family includes the ERJ 135, ERJ 140, and ERJ 145, as well as the Legacy 600 business jet and the R-99 family of military aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Embraer_ERJ_family"
+      }
+    },
+    "crj200": {
+      "number": 120,
+      "name": "Bombardier CRJ200",
+      "image": "assets/aircraft/crj200.jpg",
+      "credit": "ERIC SALARD from PARIS, FRANCE / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional jet airliner",
+        "role": "Regional jet",
+        "manufacturer": "Bombardier",
+        "firstFlight": 1991,
+        "country": "Canada",
+        "about": "The Bombardier CRJ100 and CRJ200 are regional jets designed and manufactured by Bombardier Aerospace between 1991 and 2006, the first of the Bombardier CRJ family.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombardier_CRJ100%2F200"
+      }
+    },
+    "crj700": {
+      "number": 121,
+      "name": "Bombardier CRJ700",
+      "image": "assets/aircraft/crj700.jpg",
+      "credit": "Mark Harkin / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional jet airliner series",
+        "role": "Regional jet",
+        "manufacturer": "Bombardier Aerospace",
+        "firstFlight": 1999,
+        "country": "Canada",
+        "about": "The Bombardier CRJ700 series is a family of regional jet airliners that were designed and manufactured by Canadian transportation conglomerate Bombardier. Officially launched in 1997, the CRJ700 made its maiden flight on 27 May 1999 and was soon followed by the stretched CRJ900 variant.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombardier_CRJ700_series"
+      }
+    },
+    "atr72": {
+      "number": 122,
+      "name": "ATR 72",
+      "image": "assets/aircraft/atr72.jpg",
+      "credit": "Ken Fielding / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional turboprop airliner",
+        "role": "Turboprop regional airliner",
+        "manufacturer": "ATR",
+        "firstFlight": 1988,
+        "country": "France / Italy",
+        "about": "The ATR 72 is a twin-engine turboprop, short-haul regional airliner developed and produced in France and Italy by aircraft manufacturer ATR. The number \"72\" in its name is derived from the aircraft's typical standard seating capacity of 72 passengers.",
+        "wikipedia": "https://en.wikipedia.org/wiki/ATR_72"
+      }
+    },
+    "dash8": {
+      "number": 123,
+      "name": "De Havilland Canada Dash 8",
+      "image": "assets/aircraft/dash8.jpg",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Canadian turboprop airliner",
+        "role": "Turboprop regional airliner",
+        "manufacturer": "de Havilland Canada",
+        "firstFlight": 1983,
+        "country": "Canada",
+        "about": "The De Havilland Canada DHC-8, commonly known as the Dash 8, is a series of turboprop-powered regional airliners, introduced by de Havilland Canada (DHC) in 1984. DHC was bought by Boeing in 1986, then by Bombardier in 1992, then by Longview Aviation Capital in 2019, which revived the De Havilland Canada brand.",
+        "wikipedia": "https://en.wikipedia.org/wiki/De_Havilland_Canada_Dash_8"
+      }
+    },
+    "saab340": {
+      "number": 124,
+      "name": "Saab 340",
+      "image": "assets/aircraft/saab340.jpg",
+      "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Regional airliner",
+        "role": "Turboprop regional airliner",
+        "manufacturer": "Saab Group",
+        "firstFlight": 1983,
+        "country": "Sweden",
+        "about": "The Saab 340 is a joint Swedish and American twin-engine turboprop aircraft designed and initially produced by Saab AB and Fairchild Aircraft. It is designed to seat 30–36 passengers and, as of 2023, over 250 operational aircraft remained in active service worldwide.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Saab_340"
+      }
+    },
+    "twin-otter": {
+      "number": 125,
+      "name": "De Havilland Canada DHC-6 Twin Otter",
+      "image": "assets/aircraft/twin-otter.jpg",
+      "credit": "Tony Hisgett from Birmingham, UK / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Utility transport aircraft family by de Havilland Canada",
+        "role": "Utility aircraft",
+        "manufacturer": "de Havilland Canada, Viking Air",
+        "firstFlight": 1965,
+        "country": "Canada",
+        "about": "The de Havilland Canada DHC-6 Twin Otter is a Canadian STOL utility aircraft developed by de Havilland Canada in the mid-1960s and still in production. It was built by De Havilland Canada from 1965 to 1988.",
+        "wikipedia": "https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-6_Twin_Otter"
+      }
+    },
+    "dc3": {
+      "number": 126,
+      "name": "Douglas DC-3",
+      "image": "assets/aircraft/dc3.jpg",
+      "credit": "Towpilot / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Airliner and military transport aircraft family",
+        "role": "Airliner and transport aircraft",
+        "manufacturer": "Douglas",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Douglas DC-3 is a propeller-driven airliner that was manufactured by the Douglas Aircraft Company. It had a lasting effect on the airline industry from the 1930s through World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_DC-3"
+      }
+    },
+    "constellation": {
+      "number": 127,
+      "name": "Lockheed Constellation",
+      "image": "assets/aircraft/constellation.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "regional-airliners"
+      ],
+      "facts": {
+        "description": "Family of US airliners with 4 piston engines, 1943",
+        "role": "Airliner and transport",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1943,
+        "country": "United States",
+        "about": "The Lockheed Constellation (\"Connie\") is a propeller-driven, four-engined airliner built by Lockheed Corporation starting in 1943. The Constellation series was the first civil airliner family to enter widespread use equipped with a pressurized cabin, enabling it to fly well above most bad weather, thus improving the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_Constellation"
+      }
+    },
+    "c172": {
+      "number": 128,
+      "name": "Cessna 172",
+      "image": "assets/aircraft/c172.jpg",
+      "credit": "Ahunt / Public domain / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Propeller driven single engine aircraft",
+        "role": "Civil utility aircraft",
+        "manufacturer": "Cessna",
+        "firstFlight": 1955,
+        "country": "United States",
+        "about": "The Cessna 172 Skyhawk is an American four-seat, single-engine, high wing, fixed-wing aircraft made by the Cessna Aircraft Company. First flown in 1955, more 172s have been built than any other aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cessna_172"
+      }
+    },
+    "pa28": {
+      "number": 129,
+      "name": "Piper PA-28 Cherokee",
+      "image": "assets/aircraft/pa28.jpg",
+      "credit": "Mike Burdett / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Family of light single engine aircraft",
+        "role": "Civil utility aircraft",
+        "manufacturer": "Piper Aircraft",
+        "firstFlight": 1960,
+        "country": "United States",
+        "about": "The Piper PA-28 Cherokee is a family of two-seat or four-seat light aircraft built by Piper Aircraft and designed for flight training, air taxi, and personal use. The PA-28 family of aircraft comprises all-metal, unpressurized, single piston-engined airplanes with low mounted wings and tricycle landing gear.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Piper_PA-28_Cherokee"
+      }
+    },
+    "sr22": {
+      "number": 130,
+      "name": "Cirrus SR22",
+      "image": "assets/aircraft/sr22.jpg",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Single engine general aviation aircraft",
+        "role": "Civil utility aircraft",
+        "manufacturer": "Cirrus Aircraft Corporation",
+        "firstFlight": 2000,
+        "country": "United States",
+        "about": "The Cirrus SR22 is a single-engine four- or five-seat composite aircraft built since 2001 by Cirrus Aircraft of Duluth, Minnesota, United States.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cirrus_SR22"
+      }
+    },
+    "bonanza": {
+      "number": 131,
+      "name": "Beechcraft Bonanza",
+      "image": "assets/aircraft/bonanza.jpg",
+      "credit": "Bill Larkins / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Single engine American light aircraft",
+        "role": "Civil utility aircraft",
+        "manufacturer": "Beechcraft",
+        "firstFlight": 1945,
+        "country": "United States",
+        "about": "The Beechcraft Bonanza is an American general aviation aircraft introduced in 1947 by Beech Aircraft Corporation of Wichita, Kansas. The four-to-six seat, single-engined aircraft has been in continuous production longer than any other aircraft in history.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beechcraft_Bonanza"
+      }
+    },
+    "j3cub": {
+      "number": 132,
+      "name": "Piper J-3 Cub",
+      "image": "assets/aircraft/j3cub.jpg",
+      "credit": "Huhu Uet / CC BY 3.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Family of light aircraft",
+        "role": "Trainer/light aircraft",
+        "manufacturer": "Piper Aircraft",
+        "firstFlight": 1938,
+        "country": "United States",
+        "about": "The Piper J-3 Cub is an American light aircraft that was built between 1938 and 1947 by Piper Aircraft. The aircraft has a simple, lightweight design, which gives it good low-speed handling properties and short-field performance.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Piper_J-3_Cub"
+      }
+    },
+    "da40": {
+      "number": 133,
+      "name": "Diamond DA40 Diamond Star",
+      "image": "assets/aircraft/da40.jpg",
+      "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Family of light aircraft",
+        "role": "Light aircraft",
+        "manufacturer": "Diamond Aircraft Industries",
+        "firstFlight": 1997,
+        "country": "Austria",
+        "about": "The Diamond DA40 Diamond Star is an Austrian four-seat, single-engine, light aircraft constructed from composite materials. Built in both Austria and Canada, it was developed as a four-seat version of the earlier DA20 by Diamond Aircraft Industries.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Diamond_DA40_Diamond_Star"
+      }
+    },
+    "caravan": {
+      "number": 134,
+      "name": "Cessna 208 Caravan",
+      "image": "assets/aircraft/caravan.jpg",
+      "credit": "Lt. Col. Scott Voskovitch / Public domain / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Family of utility transport aircraft",
+        "role": "Regional airliner, utility aircraft",
+        "manufacturer": "Cessna",
+        "firstFlight": 1982,
+        "country": "United States",
+        "about": "The Cessna 208 Caravan is a utility aircraft produced by Cessna. The project was commenced on November 20, 1981, and the prototype first flew on December 9, 1982.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cessna_208_Caravan"
+      }
+    },
+    "pc12": {
+      "number": 135,
+      "name": "Pilatus PC-12",
+      "image": "assets/aircraft/pc12.jpg",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation",
+        "medical-planes"
+      ],
+      "facts": {
+        "description": "Swiss executive and utility transport aircraft",
+        "role": "Passenger and cargo aircraft",
+        "manufacturer": "Pilatus Aircraft",
+        "firstFlight": 1991,
+        "country": "Switzerland",
+        "about": "The Pilatus PC-12 is a pressurized, single-engine turboprop aircraft manufactured by Pilatus Aircraft of Stans, Switzerland since 1991. It was designed as a high-performance utility aircraft that incorporates a large aft cargo door in addition to the main passenger door.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pilatus_PC-12"
+      }
+    },
+    "king-air": {
+      "number": 136,
+      "name": "Beechcraft King Air",
+      "image": "assets/aircraft/king-air.jpg",
+      "credit": "海上自衛隊 / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Twin engine turboprop aircraft family",
+        "role": "Civil utility aircraft",
+        "manufacturer": "Beechcraft",
+        "firstFlight": 1963,
+        "country": "United States",
+        "about": "The Beechcraft King Air is a line of American utility aircraft produced by Beechcraft. The King Air line comprises a number of twin-turboprop models that have been divided into two families.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beechcraft_King_Air"
+      }
+    },
+    "g650": {
+      "number": 137,
+      "name": "Gulfstream G650",
+      "image": "assets/aircraft/g650.jpg",
+      "credit": "Rob Hodgkins / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Executive jet aircraft",
+        "role": "Business jet",
+        "manufacturer": "Gulfstream Aerospace",
+        "firstFlight": 2009,
+        "country": "United States",
+        "about": "The Gulfstream G650, G700, and G800 are large business jets produced by the American company Gulfstream Aerospace.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gulfstream_G650%2FG700%2FG800"
+      }
+    },
+    "learjet35": {
+      "number": 138,
+      "name": "Learjet 35",
+      "image": "assets/aircraft/learjet35.jpg",
+      "credit": "bomberpilot / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation",
+        "medical-planes"
+      ],
+      "facts": {
+        "description": "Executive business jet series",
+        "role": "Business jet",
+        "manufacturer": "Learjet",
+        "firstFlight": 1973,
+        "country": "United States",
+        "about": "The Learjet Model 35 and Model 36 are a series of American multi-role business jets and military transport aircraft manufactured by Learjet between 1973 and 1993. When used by the United States Air Force, they carry the designation C-21A.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Learjet_35"
+      }
+    },
+    "citation-x": {
+      "number": 139,
+      "name": "Cessna Citation X",
+      "image": "assets/aircraft/citation-x.jpg",
+      "credit": "Riik@mctr / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "American business jet",
+        "role": "Business Jet",
+        "manufacturer": "Cessna",
+        "firstFlight": 1993,
+        "country": "United States",
+        "about": "The Cessna 750 Citation X is an American mid-size business jet produced by Cessna; it is part of the Citation family. Announced at the October 1990 NBAA convention, the Model 750 made its maiden flight on December 21, 1993, received its type certification on June 3, 1996, and was first delivered in July 1996.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cessna_Citation_X"
+      }
+    },
+    "global7500": {
+      "number": 140,
+      "name": "Bombardier Global 7500",
+      "image": "assets/aircraft/global7500.png",
+      "credit": "KeepPhlyingHigh / CC0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Business jet",
+        "role": "Business jet",
+        "manufacturer": "Bombardier Aerospace",
+        "firstFlight": 2016,
+        "country": "Canada",
+        "about": "The Bombardier Global 7500 and Global 8000 are ultra long-range business jets developed by Bombardier Aviation. The Global 7500, originally named the Global 7000, made its first flight on November 4, 2016, was type certified by Transport Canada on September 28, 2018, and entered service on 20 December 2018.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombardier_Global_7500"
+      }
+    },
+    "hondajet": {
+      "number": 141,
+      "name": "HondaJet",
+      "image": "assets/aircraft/hondajet.jpg",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Very light business jet",
+        "role": "Light business jet",
+        "manufacturer": "Honda Aircraft Company",
+        "firstFlight": 2003,
+        "country": "United States / Japan",
+        "about": "The Honda HA-420 HondaJet is a light business jet produced by the Honda Aircraft Company of Greensboro, North Carolina, United States. Original concepts of the aircraft started in 1997 and were completed in 1999.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Honda_HA-420_HondaJet"
+      }
+    },
+    "phenom300": {
+      "number": 142,
+      "name": "Embraer Phenom 300",
+      "image": "assets/aircraft/phenom300.jpg",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "general-aviation"
+      ],
+      "facts": {
+        "description": "Light business jet",
+        "role": "Light business jet",
+        "manufacturer": "Embraer",
+        "firstFlight": 2008,
+        "country": "Brazil",
+        "about": "The Embraer EMB-505 Phenom 300 is a light business jet designed and produced by the Brazilian aerospace manufacturer Embraer. Certified for single-pilot operations, it can carry up to 11 occupants.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Embraer_Phenom_300"
+      }
+    },
+    "spitfire": {
+      "number": 143,
+      "name": "Supermarine Spitfire",
+      "image": "assets/aircraft/spitfire.jpg",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "British single-seat WWII fighter aircraft",
+        "role": "Fighter / Interceptor aircraft",
+        "manufacturer": "Supermarine",
+        "firstFlight": 1936,
+        "country": "United Kingdom",
+        "about": "The Supermarine Spitfire is a British single-seat fighter aircraft that was used by the Royal Air Force and other Allied countries before, during, and after World War II. It was the only British fighter produced continuously throughout the war.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Supermarine_Spitfire"
+      }
+    },
+    "hurricane": {
+      "number": 144,
+      "name": "Hawker Hurricane",
+      "image": "assets/aircraft/hurricane.jpg",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "British fighter aircraft of the 1930s and 40s",
+        "role": "Fighter aircraft",
+        "manufacturer": "Hawker Aircraft",
+        "firstFlight": 1935,
+        "country": "United Kingdom",
+        "about": "The Hawker Hurricane is a British single-seat fighter aircraft of the 1930s–40s which was designed and predominantly built by Hawker Aircraft Ltd. for service with the Royal Air Force (RAF). It was overshadowed in the public consciousness by the Supermarine Spitfire during the Battle of Britain in 1940, but the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hawker_Hurricane"
+      }
+    },
+    "p51": {
+      "number": 145,
+      "name": "North American P-51 Mustang",
+      "image": "assets/aircraft/p51.jpg",
+      "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American WWII-era fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "North American Aviation",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The North American Aviation P-51 Mustang is an American long-range, single-seat fighter and fighter-bomber used during World War II and the Korean War, among other conflicts. The Mustang was designed in 1940 by a team headed by James H. Kindelberger of North American Aviation (NAA) in response to a request from the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_P-51_Mustang"
+      }
+    },
+    "bf109": {
+      "number": 146,
+      "name": "Messerschmitt Bf 109",
+      "image": "assets/aircraft/bf109.jpg",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "German single-engine fighter aircraft family",
+        "role": "Fighter",
+        "manufacturer": "Messerschmitt",
+        "firstFlight": 1935,
+        "country": "German Reich",
+        "about": "The Messerschmitt Bf 109 is a monoplane fighter aircraft that was designed and initially produced by the German aircraft manufacturer Bayerische Flugzeugwerke (BFW). Together with the Focke-Wulf Fw 190, the Bf 109 formed the backbone of the Luftwaffe's fighter force during the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109"
+      }
+    },
+    "a6m": {
+      "number": 147,
+      "name": "Mitsubishi A6M Zero",
+      "image": "assets/aircraft/a6m.jpg",
+      "credit": "Japanese military personnel / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "Japanese carrier-based fighter aircraft",
+        "role": "Carrier-capable fighter aircraft",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1939,
+        "country": "Empire of Japan",
+        "about": "The Mitsubishi A6M \"Zero\" is a long-range carrier-capable fighter aircraft that was manufactured by Mitsubishi Aircraft Company, which was part of Mitsubishi Heavy Industries. It was operated by the Imperial Japanese Navy (IJN) from 1940 to 1945.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+      }
+    },
+    "f4u": {
+      "number": 148,
+      "name": "Vought F4U Corsair",
+      "image": "assets/aircraft/f4u.jpg",
+      "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1940 fighter aircraft family by Chance Vought",
+        "role": "Carrier-based fighter-bomber",
+        "manufacturer": "Vought, Goodyear Aerospace",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The Vought F4U Corsair is an American fighter aircraft that saw service primarily in World War II and the Korean War. Designed and initially manufactured by Chance Vought, the Corsair was soon in great demand; additional production contracts were given to Goodyear, whose Corsairs were designated FG, and Brewster,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vought_F4U_Corsair"
+      }
+    },
+    "p38": {
+      "number": 149,
+      "name": "Lockheed P-38 Lightning",
+      "image": "assets/aircraft/p38.jpg",
+      "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American twin-engined fighter of WWII",
+        "role": "Fighter; Fighter-bomber; Aerial reconnaissance",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1939,
+        "country": "United States",
+        "about": "The Lockheed P-38 Lightning is an American single-seat, twin-engined fighter aircraft that was used during World War II. Developed for the United States Army Air Corps (USAAC) by the Lockheed Corporation, the P-38 incorporated a distinctive twin boom design with a central nacelle containing the cockpit and armament.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning"
+      }
+    },
+    "mosquito": {
+      "number": 150,
+      "name": "De Havilland Mosquito",
+      "image": "assets/aircraft/mosquito.jpg",
+      "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "British multi-role combat aircraft of WW2",
+        "role": "Light bomber; Fighter-bomber; Night fighter; Maritime strike aircraft; Photo-reconnaissance aircraft",
+        "manufacturer": "de Havilland Aircraft Company",
+        "firstFlight": 1940,
+        "country": "United Kingdom",
+        "about": "The de Havilland DH.98 Mosquito was a British twin-engined, multi-role combat aircraft, introduced during the Second World War. Unusual in that its airframe was constructed mostly of wood, it was nicknamed the \"Wooden Wonder\", or \"Mossie\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+      }
+    },
+    "b17": {
+      "number": 151,
+      "name": "Boeing B-17 Flying Fortress",
+      "image": "assets/aircraft/b17.jpg",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American heavy bomber aircraft",
+        "role": "Heavy bomber",
+        "manufacturer": "Boeing",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Boeing B-17 Flying Fortress is an American four-engined heavy bomber aircraft that was developed in the mid-1930s for the United States Army Air Corps (USAAC). A fast and high-flying bomber used primarily in the European Theater of Operations, the B-17 dropped more bombs than any other aircraft during World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_B-17_Flying_Fortress"
+      }
+    },
+    "b29": {
+      "number": 152,
+      "name": "Boeing B-29 Superfortress",
+      "image": "assets/aircraft/b29.jpg",
+      "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "US heavy bomber aircraft (1944–1960)",
+        "role": "Strategic bomber, heavy bomber",
+        "manufacturer": "Boeing",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Boeing B-29 Superfortress is a retired American four-engined propeller-driven heavy bomber, designed by Boeing and flown primarily by the USAAF and USAF during World War II and the Korean War. Named in allusion to its predecessor, the Boeing B-17 Flying Fortress, the Superfortress was designed for high-altitude…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+      }
+    },
+    "lancaster": {
+      "number": 153,
+      "name": "Avro Lancaster",
+      "image": "assets/aircraft/lancaster.jpg",
+      "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "World War II British heavy bomber aircraft",
+        "role": "Heavy bomber",
+        "manufacturer": "Avro",
+        "firstFlight": 1941,
+        "country": "United Kingdom",
+        "about": "The Avro Lancaster, commonly known as the Lancaster Bomber, is a British World War II heavy bomber. It was designed and manufactured by Avro as a contemporary of the Handley Page Halifax, both bombers having been developed to the same specification, as well as the Short Stirling, all three aircraft being four-engine…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Avro_Lancaster"
+      }
+    },
+    "medical-helicopters/bk117": {
+      "number": 154,
+      "name": "MBB/Kawasaki BK 117",
+      "image": "assets/medical-helicopters/bk117.jpg",
+      "credit": "Julian Herzog (Website) / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "ADAC air rescue near Munich, Germany. The H145 grew out of this design."
+    },
+    "medical-helicopters/aw169": {
+      "number": 155,
+      "name": "Leonardo AW169",
+      "image": "assets/medical-helicopters/aw169.jpg",
+      "credit": "Steve Knight / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "Essex & Herts Air Ambulance, England."
+    },
+    "medical-helicopters/aw109": {
+      "number": 156,
+      "name": "Leonardo AW109",
+      "image": "assets/medical-helicopters/aw109.jpg",
+      "credit": "Ikiwaner / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "Rega A109K2 lifting a patient off Mount Pilatus, Switzerland."
+    },
+    "medical-helicopters/bell407": {
+      "number": 157,
+      "name": "Bell 407",
+      "image": "assets/medical-helicopters/bell407.jpg",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "CareFlite, Texas."
+    },
+    "medical-helicopters/bell429": {
+      "number": 158,
+      "name": "Bell 429 GlobalRanger",
+      "image": "assets/medical-helicopters/bell429.jpg",
+      "credit": "Ja42baker / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "CareFlite over Fort Worth, Texas."
+    },
+    "medical-helicopters/bell412": {
+      "number": 159,
+      "name": "Bell 412",
+      "image": "assets/medical-helicopters/bell412.jpg",
+      "credit": "Tobias Nordhausen from Sondershausen, Deutschland / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "DRF Luftrettung \"Christoph Thüringen\", Germany."
+    },
+    "medical-helicopters/md902": {
+      "number": 160,
+      "name": "MD 902 Explorer",
+      "image": "assets/medical-helicopters/md902.jpg",
+      "credit": "James from Cheltenham, Gloucestershire / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-helicopters"
+      ],
+      "caption": "London's Air Ambulance. No tail rotor: it uses NOTAR."
+    },
+    "medical-planes/pc24": {
+      "number": 161,
+      "name": "Pilatus PC-24",
+      "image": "assets/medical-planes/pc24.jpg",
+      "credit": "Robert Myers / CC BY-SA 3.0 au / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "Royal Flying Doctor Service \"Ningaloo\", Wagga Wagga, Australia."
+    },
+    "medical-planes/kingair200": {
+      "number": 162,
+      "name": "Beechcraft King Air 200",
+      "image": "assets/medical-planes/kingair200.jpg",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "Air ambulance at Lanseria, South Africa."
+    },
+    "medical-planes/kingair350": {
+      "number": 163,
+      "name": "Beechcraft King Air 350",
+      "image": "assets/medical-planes/kingair350.jpg",
+      "credit": "Mitchul Hope / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "NSW Ambulance, Sydney, Australia."
+    },
+    "medical-planes/learjet45": {
+      "number": 164,
+      "name": "Learjet 45",
+      "image": "assets/medical-planes/learjet45.jpg",
+      "credit": "Markus Eigenheer from Genève / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "Luxembourg Air Ambulance."
+    },
+    "medical-planes/learjet60": {
+      "number": 165,
+      "name": "Learjet 60",
+      "image": "assets/medical-planes/learjet60.jpg",
+      "credit": "kitmasterbloke / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "FAI Air Ambulance departing London Stansted."
+    },
+    "medical-planes/challenger604": {
+      "number": 166,
+      "name": "Bombardier Challenger 604",
+      "image": "assets/medical-planes/challenger604.jpg",
+      "credit": "Martin Oertle / CC BY 2.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "Rega (Swiss Air-Rescue) at Zürich."
+    },
+    "medical-planes/citation2": {
+      "number": 167,
+      "name": "Cessna Citation II",
+      "image": "assets/medical-planes/citation2.jpg",
+      "credit": "Aeroprints.com / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "Netcare 911 air ambulance, South Africa."
+    },
+    "medical-planes/c9": {
+      "number": 168,
+      "name": "McDonnell Douglas C-9 Nightingale",
+      "image": "assets/medical-planes/c9.jpg",
+      "credit": "Jose Lopez JR, U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "medical-planes"
+      ],
+      "caption": "U.S. Air Force aeromedical airlifter, a militarised DC-9, at Berlin Tempelhof."
+    }
+  },
+  "aliases": {
+    "large-airliners/a380": "a380",
+    "large-airliners/b747-8": "b747-8",
+    "large-airliners/b747-400": "b747-400",
+    "large-airliners/b747sp": "b747sp",
+    "large-airliners/b777-300er": "large-airliners/b777-300er",
+    "large-airliners/b777-200": "large-airliners/b777-200",
+    "large-airliners/b787-9": "large-airliners/b787-9",
+    "large-airliners/a350-1000": "large-airliners/a350-1000",
+    "large-airliners/a350-900": "large-airliners/a350-900",
+    "large-airliners/a330-300": "large-airliners/a330-300",
+    "large-airliners/a330-200": "large-airliners/a330-200",
+    "large-airliners/a340-600": "large-airliners/a340-600",
+    "large-airliners/a340-300": "large-airliners/a340-300",
+    "large-airliners/b767-300": "large-airliners/b767-300",
+    "large-airliners/md11": "md11",
+    "large-airliners/l1011": "l1011",
+    "large-airliners/il96": "il96",
+    "large-airliners/il86": "il86",
+    "large-airliners/a300": "a300",
+    "large-airliners/a310": "a310",
+    "fighter-jets/f22": "f22",
+    "fighter-jets/f35": "f35",
+    "fighter-jets/f16": "f16",
+    "fighter-jets/fa18": "fa18",
+    "fighter-jets/fa18ef": "fa18ef",
+    "fighter-jets/f15": "f15",
+    "fighter-jets/f14": "f14",
+    "fighter-jets/a10": "a10",
+    "fighter-jets/typhoon": "typhoon",
+    "fighter-jets/rafale": "rafale",
+    "fighter-jets/gripen": "gripen",
+    "fighter-jets/tornado": "tornado",
+    "fighter-jets/su27": "su27",
+    "fighter-jets/su35": "su35",
+    "fighter-jets/su57": "su57",
+    "fighter-jets/mig29": "mig29",
+    "fighter-jets/mig21": "mig21",
+    "fighter-jets/mig25": "mig25",
+    "fighter-jets/mig31": "mig31",
+    "fighter-jets/j20": "j20",
+    "fighter-jets/j10": "j10",
+    "fighter-jets/mirage2000": "mirage2000",
+    "fighter-jets/f4": "f4",
+    "fighter-jets/f117": "f117",
+    "fighter-jets/harrier": "harrier",
+    "fighter-jets/tejas": "tejas",
+    "fighter-jets/kf21": "kf21",
+    "fighter-jets/viggen": "viggen",
+    "fighter-jets/f5": "f5",
+    "helicopters/ah64": "ah64",
+    "helicopters/uh1": "uh1",
+    "helicopters/ch47": "ch47",
+    "helicopters/uh60": "uh60",
+    "helicopters/ch53": "ch53",
+    "helicopters/ah1": "ah1",
+    "helicopters/mi24": "mi24",
+    "helicopters/mi8": "mi8",
+    "helicopters/ka50": "ka50",
+    "helicopters/ka52": "ka52",
+    "helicopters/tiger": "tiger",
+    "helicopters/r22": "r22",
+    "helicopters/r44": "r44",
+    "helicopters/bell206": "bell206",
+    "helicopters/h125": "h125",
+    "helicopters/s76": "s76",
+    "helicopters/h145": "h145",
+    "helicopters/h135": "h135",
+    "helicopters/md500": "md500",
+    "helicopters/aw101": "aw101",
+    "helicopters/aw139": "aw139",
+    "helicopters/bell47": "bell47",
+    "helicopters/ch54": "ch54",
+    "helicopters/mi26": "mi26",
+    "helicopters/sh60": "sh60",
+    "helicopters/s92": "s92",
+    "helicopters/as365": "as365",
+    "helicopters/ec155": "ec155",
+    "bombers/b52": "b52",
+    "bombers/b1": "b1",
+    "bombers/b2": "b2",
+    "bombers/b21": "b21",
+    "bombers/tu95": "tu95",
+    "bombers/tu160": "tu160",
+    "bombers/tu22m": "tu22m",
+    "bombers/vulcan": "vulcan",
+    "military-support/c130": "c130",
+    "military-support/c17": "c17",
+    "military-support/c5": "c5",
+    "military-support/a400m": "a400m",
+    "military-support/an124": "an124",
+    "military-support/an225": "an225",
+    "military-support/il76": "il76",
+    "military-support/kc135": "kc135",
+    "military-support/e3": "e3",
+    "military-support/p8": "p8",
+    "military-support/p3": "p3",
+    "military-support/v22": "v22",
+    "military-support/c390": "c390",
+    "military-support/kawasaki-c2": "kawasaki-c2",
+    "military-support/sr71": "sr71",
+    "military-support/u2": "u2",
+    "military-support/mq9": "mq9",
+    "military-support/rq4": "rq4",
+    "narrowbody-airliners/b737-classic": "b737-classic",
+    "narrowbody-airliners/b737ng": "b737ng",
+    "narrowbody-airliners/b737max": "b737max",
+    "narrowbody-airliners/b727": "b727",
+    "narrowbody-airliners/b757": "b757",
+    "narrowbody-airliners/b717": "b717",
+    "narrowbody-airliners/a320": "a320",
+    "narrowbody-airliners/a320neo": "a320neo",
+    "narrowbody-airliners/a220": "a220",
+    "narrowbody-airliners/md80": "md80",
+    "narrowbody-airliners/tu154": "tu154",
+    "narrowbody-airliners/c919": "c919",
+    "narrowbody-airliners/ssj100": "ssj100",
+    "narrowbody-airliners/f100": "f100",
+    "narrowbody-airliners/bae146": "bae146",
+    "regional-airliners/ejet": "ejet",
+    "regional-airliners/ejet-e2": "ejet-e2",
+    "regional-airliners/erj": "erj",
+    "regional-airliners/crj200": "crj200",
+    "regional-airliners/crj700": "crj700",
+    "regional-airliners/atr72": "atr72",
+    "regional-airliners/dash8": "dash8",
+    "regional-airliners/saab340": "saab340",
+    "regional-airliners/twin-otter": "twin-otter",
+    "regional-airliners/dc3": "dc3",
+    "regional-airliners/constellation": "constellation",
+    "general-aviation/c172": "c172",
+    "general-aviation/pa28": "pa28",
+    "general-aviation/sr22": "sr22",
+    "general-aviation/bonanza": "bonanza",
+    "general-aviation/j3cub": "j3cub",
+    "general-aviation/da40": "da40",
+    "general-aviation/caravan": "caravan",
+    "general-aviation/pc12": "pc12",
+    "general-aviation/king-air": "king-air",
+    "general-aviation/g650": "g650",
+    "general-aviation/learjet35": "learjet35",
+    "general-aviation/citation-x": "citation-x",
+    "general-aviation/global7500": "global7500",
+    "general-aviation/hondajet": "hondajet",
+    "general-aviation/phenom300": "phenom300",
+    "ww2-warbirds/spitfire": "spitfire",
+    "ww2-warbirds/hurricane": "hurricane",
+    "ww2-warbirds/p51": "p51",
+    "ww2-warbirds/bf109": "bf109",
+    "ww2-warbirds/a6m": "a6m",
+    "ww2-warbirds/f4u": "f4u",
+    "ww2-warbirds/p38": "p38",
+    "ww2-warbirds/mosquito": "mosquito",
+    "ww2-warbirds/b17": "b17",
+    "ww2-warbirds/b29": "b29",
+    "ww2-warbirds/lancaster": "lancaster",
+    "soviet-russian/il96": "il96",
+    "soviet-russian/il86": "il86",
+    "soviet-russian/tu154": "tu154",
+    "soviet-russian/ssj100": "ssj100",
+    "soviet-russian/an124": "an124",
+    "soviet-russian/an225": "an225",
+    "soviet-russian/il76": "il76",
+    "soviet-russian/tu95": "tu95",
+    "soviet-russian/tu160": "tu160",
+    "soviet-russian/tu22m": "tu22m",
+    "soviet-russian/su27": "su27",
+    "soviet-russian/su35": "su35",
+    "soviet-russian/su57": "su57",
+    "soviet-russian/mig29": "mig29",
+    "soviet-russian/mig21": "mig21",
+    "soviet-russian/mig25": "mig25",
+    "soviet-russian/mig31": "mig31",
+    "soviet-russian/mi24": "mi24",
+    "soviet-russian/mi8": "mi8",
+    "soviet-russian/ka50": "ka50",
+    "soviet-russian/ka52": "ka52",
+    "soviet-russian/mi26": "mi26",
+    "cold-war-jets/b52": "b52",
+    "cold-war-jets/b1": "b1",
+    "cold-war-jets/b2": "b2",
+    "cold-war-jets/tu95": "tu95",
+    "cold-war-jets/tu160": "tu160",
+    "cold-war-jets/tu22m": "tu22m",
+    "cold-war-jets/vulcan": "vulcan",
+    "cold-war-jets/f16": "f16",
+    "cold-war-jets/fa18": "fa18",
+    "cold-war-jets/f15": "f15",
+    "cold-war-jets/f14": "f14",
+    "cold-war-jets/a10": "a10",
+    "cold-war-jets/rafale": "rafale",
+    "cold-war-jets/gripen": "gripen",
+    "cold-war-jets/tornado": "tornado",
+    "cold-war-jets/su27": "su27",
+    "cold-war-jets/mig29": "mig29",
+    "cold-war-jets/mig21": "mig21",
+    "cold-war-jets/mig25": "mig25",
+    "cold-war-jets/mig31": "mig31",
+    "cold-war-jets/mirage2000": "mirage2000",
+    "cold-war-jets/f4": "f4",
+    "cold-war-jets/f117": "f117",
+    "cold-war-jets/harrier": "harrier",
+    "cold-war-jets/viggen": "viggen",
+    "cold-war-jets/f5": "f5",
+    "medical-helicopters/h135": "h135",
+    "medical-helicopters/h145": "h145",
+    "medical-helicopters/bk117": "medical-helicopters/bk117",
+    "medical-helicopters/aw139": "aw139",
+    "medical-helicopters/aw169": "medical-helicopters/aw169",
+    "medical-helicopters/aw109": "medical-helicopters/aw109",
+    "medical-helicopters/bell407": "medical-helicopters/bell407",
+    "medical-helicopters/bell429": "medical-helicopters/bell429",
+    "medical-helicopters/bell412": "medical-helicopters/bell412",
+    "medical-helicopters/h125": "h125",
+    "medical-helicopters/s76": "s76",
+    "medical-helicopters/md902": "medical-helicopters/md902",
+    "medical-helicopters/uh60": "uh60",
+    "medical-helicopters/ec155": "ec155",
+    "medical-planes/pc12": "pc12",
+    "medical-planes/pc24": "medical-planes/pc24",
+    "medical-planes/kingair200": "medical-planes/kingair200",
+    "medical-planes/kingair350": "medical-planes/kingair350",
+    "medical-planes/learjet35": "learjet35",
+    "medical-planes/learjet45": "medical-planes/learjet45",
+    "medical-planes/learjet60": "medical-planes/learjet60",
+    "medical-planes/challenger604": "medical-planes/challenger604",
+    "medical-planes/citation2": "medical-planes/citation2",
+    "medical-planes/c9": "medical-planes/c9",
+    "medical-planes/c130": "c130"
+  }
+}

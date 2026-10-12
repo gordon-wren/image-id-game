@@ -1,13 +1,16 @@
 import type { RoundResult } from "../engine/types";
+import { formatNumber } from "../engine/collection";
 
 interface ResultBannerProps {
   result: RoundResult;
   correctLabel: string;
   caption?: string;
   credit?: string;
+  /** Collection entry number when this answer was a first catch. */
+  newCatch?: number | null;
 }
 
-export function ResultBanner({ result, correctLabel, caption, credit }: ResultBannerProps) {
+export function ResultBanner({ result, correctLabel, caption, credit, newCatch }: ResultBannerProps) {
   const { correct, timedOut, points, msElapsed } = result;
 
   let cls = "result ";
@@ -27,7 +30,10 @@ export function ResultBanner({ result, correctLabel, caption, credit }: ResultBa
 
   return (
     <div className={cls} role="status">
-      <div className="result-text">{text}</div>
+      <div className="result-text">
+        {text}
+        {newCatch != null && <span className="catch-badge">New catch! {formatNumber(newCatch)}</span>}
+      </div>
       {caption && <div className="result-credit">{caption}</div>}
       {credit && <div className="result-credit">{credit}</div>}
     </div>
