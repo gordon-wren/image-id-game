@@ -306,9 +306,7 @@ async function buildOne(seed, previous) {
   const record = {
     id: seed.id,
     name: title,
-    label: seed.label ?? title,
-    group: seed.group,
-    ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
+    ...fromSeed(seed, title),
     description: summary.description ?? null,
     summary: summary.extract ?? null,
     role: ib("type", "role") ?? (usesWd.length ? usesWd.join("; ") : null),
@@ -360,15 +358,25 @@ async function buildOne(seed, previous) {
   return record;
 }
 
-/** A record that isn't re-fetched still takes the fields that come from the seed. */
-function reuse(record, seed) {
-  const { packAnswerIds, ...rest } = record;
+/** Fields curated in seed.json rather than fetched: they always follow the seed. */
+function fromSeed(seed, name) {
   return {
-    ...rest,
-    label: seed.label ?? record.name,
+    label: seed.label ?? name,
     group: seed.group,
+    use: seed.use,
+    category: seed.category,
+    engine: seed.engine,
     ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
   };
+}
+
+/** A record that isn't re-fetched still takes the fields that come from the seed. */
+function reuse(record, seed) {
+  const { packAnswerIds, label, group, use, category, engine, ...rest } = record;
+  const { label: l, group: g, use: u, category: c, engine: e, packAnswerIds: p } = fromSeed(seed, record.name);
+  // Keep the curated fields next to the name, where a fresh build puts them.
+  const { id, name, ...facts } = rest;
+  return { id, name, label: l, group: g, use: u, category: c, engine: e, ...(p ? { packAnswerIds: p } : {}), ...facts };
 }
 
 async function main() {

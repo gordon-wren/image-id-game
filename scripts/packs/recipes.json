@@ -5,7 +5,7 @@
     "description": "Name the fighter from its photo.",
     "path": ["Aviation", "Planes", "Military"],
     "accent": "#A32D2D",
-    "where": { "group": "fighter-attack" }
+    "where": { "group": "fighter-attack", "engine": "jet" }
   },
   {
     "id": "helicopters",
@@ -77,6 +77,6 @@
     "description": "Fighters and bombers that first flew between 1947 and 1991.",
     "path": ["Aviation", "By Era"],
     "accent": "#46607A",
-    "where": { "group": ["fighter-attack", "bomber"], "firstFlight": [1947, 1991] }
+    "where": { "group": ["fighter-attack", "bomber"], "engine": "jet", "firstFlight": [1947, 1991] }
   }
 ]

@@ -3,6 +3,9 @@
     "id": "a380",
     "wikipediaTitle": "Airbus A380",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a380"
     ]
@@ -10,12 +13,18 @@
   {
     "id": "b747",
     "wikipediaTitle": "Boeing 747",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b747-8",
     "wikipediaTitle": "Boeing 747-8",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b747-8"
     ]
@@ -24,6 +33,9 @@
     "id": "b747-400",
     "wikipediaTitle": "Boeing 747-400",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b747-400"
     ]
@@ -32,6 +44,9 @@
     "id": "b747sp",
     "wikipediaTitle": "Boeing 747SP",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b747sp"
     ],
@@ -41,6 +56,9 @@
     "id": "b777",
     "wikipediaTitle": "Boeing 777",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b777-200",
       "b777-300er"
@@ -49,12 +67,18 @@
   {
     "id": "b777x",
     "wikipediaTitle": "Boeing 777X",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b787",
     "wikipediaTitle": "Boeing 787 Dreamliner",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b787-9"
     ]
@@ -63,6 +87,9 @@
     "id": "a350",
     "wikipediaTitle": "Airbus A350",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a350-900",
       "a350-1000"
@@ -73,6 +100,9 @@
     "id": "a330",
     "wikipediaTitle": "Airbus A330",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a330-200",
       "a330-300"
@@ -82,12 +112,18 @@
     "id": "a330neo",
     "wikipediaTitle": "Airbus A330neo",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:D-ANRD AIRCRAFT Airbus A330-941 -1d.jpg"
   },
   {
     "id": "a340",
     "wikipediaTitle": "Airbus A340",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a340-300",
       "a340-600"
@@ -97,6 +133,9 @@
     "id": "b767",
     "wikipediaTitle": "Boeing 767",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "b767-300"
     ]
@@ -105,6 +144,9 @@
     "id": "md11",
     "wikipediaTitle": "McDonnell Douglas MD-11",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "md11"
     ]
@@ -112,12 +154,18 @@
   {
     "id": "dc10",
     "wikipediaTitle": "McDonnell Douglas DC-10",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "l1011",
     "wikipediaTitle": "Lockheed L-1011 TriStar",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "l1011"
     ],
@@ -127,6 +175,9 @@
     "id": "il96",
     "wikipediaTitle": "Ilyushin Il-96",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "il96"
     ]
@@ -135,6 +186,9 @@
     "id": "il86",
     "wikipediaTitle": "Ilyushin Il-86",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "il86"
     ],
@@ -144,6 +198,9 @@
     "id": "a300",
     "wikipediaTitle": "Airbus A300",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a300"
     ]
@@ -152,6 +209,9 @@
     "id": "a310",
     "wikipediaTitle": "Airbus A310",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "packAnswerIds": [
       "a310"
     ],
@@ -160,201 +220,309 @@
   {
     "id": "concorde",
     "wikipediaTitle": "Concorde",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b707",
     "wikipediaTitle": "Boeing 707",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:AME B707 T.17-3 23dec14 LFBO-1.jpg"
   },
   {
     "id": "dc8",
     "wikipediaTitle": "Douglas DC-8",
-    "group": "airliner-widebody"
+    "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "vc10",
     "wikipediaTitle": "Vickers VC10",
     "group": "airliner-widebody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:Down but not out. . . (29481034602).jpg"
   },
   {
     "id": "b737-classic",
     "wikipediaTitle": "Boeing 737 Classic",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b737ng",
     "wikipediaTitle": "Boeing 737 Next Generation",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b737max",
     "wikipediaTitle": "Boeing 737 MAX",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b727",
     "wikipediaTitle": "Boeing 727",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b757",
     "wikipediaTitle": "Boeing 757",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "b717",
     "wikipediaTitle": "Boeing 717",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "a320",
     "wikipediaTitle": "Airbus A320 family",
     "label": "Airbus A320",
     "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:Lufthansa Airbus A320-211 D-AIQT 01.jpg"
   },
   {
     "id": "a320neo",
     "wikipediaTitle": "Airbus A320neo family",
     "label": "Airbus A320neo",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "a220",
     "wikipediaTitle": "Airbus A220",
     "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:HB-JCC in Zürich.jpg"
   },
   {
     "id": "md80",
     "wikipediaTitle": "McDonnell Douglas MD-80",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "tu154",
     "wikipediaTitle": "Tupolev Tu-154",
     "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:EW-85748 Tupolev Tu-154M Belavia parking at MSQ (3).jpg"
   },
   {
     "id": "c919",
     "wikipediaTitle": "Comac C919",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "ssj100",
     "wikipediaTitle": "Sukhoi Superjet 100",
     "label": "Sukhoi Superjet 100",
     "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:RA-89077 Suckhoi SSJ100 IrAero KZN 2024-07-19 2779.jpg"
   },
   {
     "id": "f100",
     "wikipediaTitle": "Fokker 100",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "bae146",
     "wikipediaTitle": "British Aerospace 146",
-    "group": "airliner-narrowbody"
+    "group": "airliner-narrowbody",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "ejet",
     "wikipediaTitle": "Embraer E-Jet family",
     "label": "Embraer E-Jet",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "ejet-e2",
     "wikipediaTitle": "Embraer E-Jet E2 family",
     "label": "Embraer E-Jet E2",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "erj",
     "wikipediaTitle": "Embraer ERJ family",
     "label": "Embraer ERJ",
     "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet",
     "photo": "File:F-GRGF, landing at Schiphol on 2Feb2014 pic27.JPG"
   },
   {
     "id": "crj200",
     "wikipediaTitle": "Bombardier CRJ100/200",
     "label": "Bombardier CRJ200",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "crj700",
     "wikipediaTitle": "Bombardier CRJ700 series",
     "label": "Bombardier CRJ700",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "jet"
   },
   {
     "id": "atr72",
     "wikipediaTitle": "ATR 72",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "turboprop"
   },
   {
     "id": "dash8",
     "wikipediaTitle": "De Havilland Canada Dash 8",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "turboprop"
   },
   {
     "id": "saab340",
     "wikipediaTitle": "Saab 340",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "turboprop"
   },
   {
     "id": "twin-otter",
     "wikipediaTitle": "de Havilland Canada DHC-6 Twin Otter",
     "group": "regional",
+    "use": "civil",
+    "category": "utility",
+    "engine": "turboprop",
     "photo": "File:Vancouver to Victoria. West Coast Air De Havilland DHC-6 Twin Otter floatplane -2.jpg"
   },
   {
     "id": "dc3",
     "wikipediaTitle": "Douglas DC-3",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "piston"
   },
   {
     "id": "constellation",
     "wikipediaTitle": "Lockheed Constellation",
-    "group": "regional"
+    "group": "regional",
+    "use": "civil",
+    "category": "airliner",
+    "engine": "piston"
   },
   {
     "id": "c172",
     "wikipediaTitle": "Cessna 172",
     "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston",
     "photo": "File:Cessna172Skyhawk1957model01.jpg"
   },
   {
     "id": "pa28",
     "wikipediaTitle": "Piper PA-28 Cherokee",
-    "group": "business-general"
+    "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston"
   },
   {
     "id": "sr22",
     "wikipediaTitle": "Cirrus SR22",
     "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston",
     "photo": "File:AERO Friedrichshafen 2018, Friedrichshafen (1X7A4263).jpg"
   },
   {
     "id": "bonanza",
     "wikipediaTitle": "Beechcraft Bonanza",
-    "group": "business-general"
+    "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston"
   },
   {
     "id": "j3cub",
     "wikipediaTitle": "Piper J-3 Cub",
     "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston",
     "photo": "File:Piper J3C Cub 04.jpg"
   },
   {
     "id": "da40",
     "wikipediaTitle": "Diamond DA40 Diamond Star",
     "group": "business-general",
+    "use": "civil",
+    "category": "light",
+    "engine": "piston",
     "overrides": {
       "countryOfOrigin": [
         "Austria"
@@ -364,29 +532,44 @@
   {
     "id": "caravan",
     "wikipediaTitle": "Cessna 208 Caravan",
-    "group": "business-general"
+    "group": "business-general",
+    "use": "civil",
+    "category": "utility",
+    "engine": "turboprop"
   },
   {
     "id": "pc12",
     "wikipediaTitle": "Pilatus PC-12",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "turboprop",
     "photo": "File:EBACE 2019, Le Grand-Saconnex (EB190163).jpg"
   },
   {
     "id": "king-air",
     "wikipediaTitle": "Beechcraft King Air",
-    "group": "business-general"
+    "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "turboprop"
   },
   {
     "id": "g650",
     "wikipediaTitle": "Gulfstream G650",
     "label": "Gulfstream G650",
-    "group": "business-general"
+    "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet"
   },
   {
     "id": "learjet35",
     "wikipediaTitle": "Learjet 35",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet",
     "overrides": {
       "countryOfOrigin": [
         "United States"
@@ -397,6 +580,9 @@
     "id": "citation-x",
     "wikipediaTitle": "Cessna Citation X",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet",
     "photo": "File:Cessna Citation X (D-BOOC) @ MAN, April 2017.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -408,6 +594,9 @@
     "id": "global7500",
     "wikipediaTitle": "Bombardier Global 7500",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet",
     "overrides": {
       "firstFlight": "2016-11-04"
     }
@@ -417,149 +606,236 @@
     "wikipediaTitle": "Honda HA-420 HondaJet",
     "label": "HondaJet",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet",
     "photo": "File:Hamburg Airport Honda HA-420 HondaJet D-IVVV (DSC03385).jpg"
   },
   {
     "id": "phenom300",
     "wikipediaTitle": "Embraer Phenom 300",
     "group": "business-general",
+    "use": "civil",
+    "category": "business",
+    "engine": "jet",
     "photo": "File:ILA 2018, Schönefeld (1X7A5305).jpg"
   },
   {
     "id": "c130",
     "wikipediaTitle": "Lockheed C-130 Hercules",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop"
   },
   {
     "id": "c17",
     "wikipediaTitle": "Boeing C-17 Globemaster III",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "c5",
     "wikipediaTitle": "Lockheed C-5 Galaxy",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "a400m",
     "wikipediaTitle": "Airbus A400M Atlas",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop"
   },
   {
     "id": "an124",
     "wikipediaTitle": "Antonov An-124 Ruslan",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "an225",
     "wikipediaTitle": "Antonov An-225 Mriya",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "il76",
     "wikipediaTitle": "Ilyushin Il-76",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "kc135",
     "wikipediaTitle": "Boeing KC-135 Stratotanker",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "tanker",
+    "engine": "jet"
   },
   {
     "id": "e3",
     "wikipediaTitle": "Boeing E-3 Sentry",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "airborne-early-warning",
+    "engine": "jet"
   },
   {
     "id": "p8",
     "wikipediaTitle": "Boeing P-8 Poseidon",
     "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "jet",
     "photo": "File:Royal Air Force Boeing Poseidon MRA1 P-8A ZP803 Royal International Air Tattoo 2025 01.jpg"
   },
   {
     "id": "p3",
     "wikipediaTitle": "Lockheed P-3 Orion",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "turboprop"
   },
   {
     "id": "v22",
     "wikipediaTitle": "Bell Boeing V-22 Osprey",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboshaft"
   },
   {
     "id": "c390",
     "wikipediaTitle": "Embraer C-390 Millennium",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "kawasaki-c2",
     "wikipediaTitle": "Kawasaki C-2",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet"
   },
   {
     "id": "sr71",
     "wikipediaTitle": "Lockheed SR-71 Blackbird",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "jet"
   },
   {
     "id": "u2",
     "wikipediaTitle": "Lockheed U-2",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "jet"
   },
   {
     "id": "mq9",
     "wikipediaTitle": "General Atomics MQ-9 Reaper",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "turboprop"
   },
   {
     "id": "rq4",
     "wikipediaTitle": "Northrop Grumman RQ-4 Global Hawk",
-    "group": "military-transport-special"
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "jet"
   },
   {
     "id": "b52",
     "wikipediaTitle": "Boeing B-52 Stratofortress",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "b1",
     "wikipediaTitle": "Rockwell B-1 Lancer",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "b2",
     "wikipediaTitle": "Northrop B-2 Spirit",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "b21",
     "wikipediaTitle": "Northrop Grumman B-21 Raider",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "tu95",
     "wikipediaTitle": "Tupolev Tu-95",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "turboprop"
   },
   {
     "id": "tu160",
     "wikipediaTitle": "Tupolev Tu-160",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "tu22m",
     "wikipediaTitle": "Tupolev Tu-22M",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "vulcan",
     "wikipediaTitle": "Avro Vulcan",
-    "group": "bomber"
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet"
   },
   {
     "id": "f22",
     "wikipediaTitle": "Lockheed Martin F-22 Raptor",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f22"
     ]
@@ -568,6 +844,9 @@
     "id": "f35",
     "wikipediaTitle": "Lockheed Martin F-35 Lightning II",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f35"
     ]
@@ -576,6 +855,9 @@
     "id": "f16",
     "wikipediaTitle": "General Dynamics F-16 Fighting Falcon",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f16"
     ]
@@ -584,6 +866,9 @@
     "id": "fa18",
     "wikipediaTitle": "McDonnell Douglas F/A-18 Hornet",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "fa18"
     ]
@@ -591,12 +876,18 @@
   {
     "id": "fa18ef",
     "wikipediaTitle": "Boeing F/A-18E/F Super Hornet",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "f15",
     "wikipediaTitle": "McDonnell Douglas F-15 Eagle",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f15"
     ]
@@ -605,6 +896,9 @@
     "id": "f14",
     "wikipediaTitle": "Grumman F-14 Tomcat",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f14"
     ]
@@ -613,6 +907,9 @@
     "id": "a10",
     "wikipediaTitle": "Fairchild Republic A-10 Thunderbolt II",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
     "packAnswerIds": [
       "a10"
     ]
@@ -621,6 +918,9 @@
     "id": "typhoon",
     "wikipediaTitle": "Eurofighter Typhoon",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "typhoon"
     ],
@@ -630,6 +930,9 @@
     "id": "rafale",
     "wikipediaTitle": "Dassault Rafale",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "rafale"
     ]
@@ -638,6 +941,9 @@
     "id": "gripen",
     "wikipediaTitle": "Saab JAS 39 Gripen",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "gripen"
     ]
@@ -646,6 +952,9 @@
     "id": "tornado",
     "wikipediaTitle": "Panavia Tornado",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "tornado"
     ]
@@ -654,6 +963,9 @@
     "id": "su27",
     "wikipediaTitle": "Sukhoi Su-27",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "su27"
     ],
@@ -662,12 +974,18 @@
   {
     "id": "su35",
     "wikipediaTitle": "Sukhoi Su-35",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "su57",
     "wikipediaTitle": "Sukhoi Su-57",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "su57"
     ]
@@ -676,6 +994,9 @@
     "id": "mig29",
     "wikipediaTitle": "Mikoyan MiG-29",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "mig29"
     ]
@@ -684,6 +1005,9 @@
     "id": "mig21",
     "wikipediaTitle": "Mikoyan-Gurevich MiG-21",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "mig21"
     ]
@@ -692,18 +1016,27 @@
     "id": "mig25",
     "wikipediaTitle": "Mikoyan-Gurevich MiG-25",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "photo": "File:Soviet Supersonic Interceptor Mikoyan-Gurevich MiG-25. Советский сверхзвуковой перехватчик МиГ-25.jpg"
   },
   {
     "id": "mig31",
     "wikipediaTitle": "Mikoyan MiG-31",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "photo": "File:Авиамузей на аэродроме Караишево (4).JPG"
   },
   {
     "id": "j20",
     "wikipediaTitle": "Chengdu J-20",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "j20"
     ]
@@ -711,12 +1044,18 @@
   {
     "id": "j10",
     "wikipediaTitle": "Chengdu J-10",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "mirage2000",
     "wikipediaTitle": "Dassault Mirage 2000",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "mirage2000"
     ]
@@ -725,6 +1064,9 @@
     "id": "f4",
     "wikipediaTitle": "McDonnell Douglas F-4 Phantom II",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
     "packAnswerIds": [
       "f4"
     ]
@@ -733,6 +1075,9 @@
     "id": "f117",
     "wikipediaTitle": "Lockheed F-117 Nighthawk",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
     "packAnswerIds": [
       "f117"
     ]
@@ -742,6 +1087,9 @@
     "wikipediaTitle": "Harrier jump jet",
     "label": "Harrier Jump Jet",
     "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
     "packAnswerIds": [
       "harrier"
     ],
@@ -752,108 +1100,171 @@
   {
     "id": "tejas",
     "wikipediaTitle": "HAL Tejas",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "kf21",
     "wikipediaTitle": "KAI KF-21 Boramae",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "viggen",
     "wikipediaTitle": "Saab 37 Viggen",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "f5",
     "wikipediaTitle": "Northrop F-5",
-    "group": "fighter-attack"
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet"
   },
   {
     "id": "hawk",
     "wikipediaTitle": "BAE Systems Hawk",
-    "group": "trainer"
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet"
   },
   {
     "id": "l39",
     "wikipediaTitle": "Aero L-39 Albatros",
-    "group": "trainer"
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet"
   },
   {
     "id": "t38",
     "wikipediaTitle": "Northrop T-38 Talon",
-    "group": "trainer"
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet"
   },
   {
     "id": "alpha-jet",
     "wikipediaTitle": "Dassault/Dornier Alpha Jet",
-    "group": "trainer"
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet"
   },
   {
     "id": "wright-flyer",
     "wikipediaTitle": "Wright Flyer",
-    "group": "historic"
+    "group": "historic",
+    "use": "civil",
+    "category": "experimental",
+    "engine": "piston"
   },
   {
     "id": "spitfire",
     "wikipediaTitle": "Supermarine Spitfire",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "hurricane",
     "wikipediaTitle": "Hawker Hurricane",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "p51",
     "wikipediaTitle": "North American P-51 Mustang",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "bf109",
     "wikipediaTitle": "Messerschmitt Bf 109",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "a6m",
     "wikipediaTitle": "Mitsubishi A6M Zero",
     "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
     "photo": "File:Zero Akagi Dec1941.jpg"
   },
   {
     "id": "f4u",
     "wikipediaTitle": "Vought F4U Corsair",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "p38",
     "wikipediaTitle": "Lockheed P-38 Lightning",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston"
   },
   {
     "id": "mosquito",
     "wikipediaTitle": "de Havilland Mosquito",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston"
   },
   {
     "id": "b17",
     "wikipediaTitle": "Boeing B-17 Flying Fortress",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston"
   },
   {
     "id": "b29",
     "wikipediaTitle": "Boeing B-29 Superfortress",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston"
   },
   {
     "id": "lancaster",
     "wikipediaTitle": "Avro Lancaster",
-    "group": "historic"
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston"
   },
   {
     "id": "ah64",
     "wikipediaTitle": "Boeing AH-64 Apache",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ah64"
     ]
@@ -863,6 +1274,9 @@
     "wikipediaTitle": "Bell UH-1 Iroquois",
     "label": "Bell UH-1 Huey",
     "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "uh1"
     ]
@@ -871,6 +1285,9 @@
     "id": "ch47",
     "wikipediaTitle": "Boeing CH-47 Chinook",
     "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ch47"
     ]
@@ -879,6 +1296,9 @@
     "id": "uh60",
     "wikipediaTitle": "Sikorsky UH-60 Black Hawk",
     "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "uh60"
     ]
@@ -887,6 +1307,9 @@
     "id": "ch53",
     "wikipediaTitle": "Sikorsky CH-53 Sea Stallion",
     "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ch53"
     ]
@@ -895,6 +1318,9 @@
     "id": "ah1",
     "wikipediaTitle": "Bell AH-1 Cobra",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ah1"
     ]
@@ -903,6 +1329,9 @@
     "id": "mi24",
     "wikipediaTitle": "Mil Mi-24",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "mi24"
     ]
@@ -912,6 +1341,9 @@
     "wikipediaTitle": "Mil Mi-8",
     "label": "Mil Mi-8/17",
     "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "mi8"
     ]
@@ -920,6 +1352,9 @@
     "id": "ka50",
     "wikipediaTitle": "Kamov Ka-50",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ka50"
     ],
@@ -930,6 +1365,9 @@
     "wikipediaTitle": "Kamov Ka-50",
     "label": "Kamov Ka-52 Alligator",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ka52"
     ],
@@ -944,6 +1382,9 @@
     "id": "tiger",
     "wikipediaTitle": "Eurocopter Tiger",
     "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "tiger"
     ]
@@ -952,6 +1393,9 @@
     "id": "r22",
     "wikipediaTitle": "Robinson R22",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "piston",
     "packAnswerIds": [
       "r22"
     ],
@@ -965,6 +1409,9 @@
     "id": "r44",
     "wikipediaTitle": "Robinson R44",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "piston",
     "overrides": {
       "countryOfOrigin": [
         "United States"
@@ -975,6 +1422,9 @@
     "id": "bell206",
     "wikipediaTitle": "Bell 206",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "bell206"
     ]
@@ -984,6 +1434,9 @@
     "wikipediaTitle": "Eurocopter AS350 Écureuil",
     "label": "Airbus H125 (AS350 Écureuil)",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "h125"
     ],
@@ -993,6 +1446,9 @@
     "id": "s76",
     "wikipediaTitle": "Sikorsky S-76",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "s76"
     ]
@@ -1002,6 +1458,9 @@
     "wikipediaTitle": "Eurocopter EC145",
     "label": "Airbus H145 (EC145)",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "h145"
     ]
@@ -1010,12 +1469,18 @@
     "id": "h135",
     "wikipediaTitle": "Eurocopter EC135",
     "label": "Airbus H135 (EC135)",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "md500",
     "wikipediaTitle": "MD Helicopters MD 500",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "md500"
     ]
@@ -1024,6 +1489,9 @@
     "id": "aw101",
     "wikipediaTitle": "AgustaWestland AW101",
     "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "aw101"
     ]
@@ -1031,12 +1499,18 @@
   {
     "id": "aw139",
     "wikipediaTitle": "AgustaWestland AW139",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "bell47",
     "wikipediaTitle": "Bell 47",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "piston",
     "packAnswerIds": [
       "bell47"
     ],
@@ -1046,6 +1520,9 @@
     "id": "ch54",
     "wikipediaTitle": "Sikorsky CH-54 Tarhe",
     "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ch54"
     ],
@@ -1058,31 +1535,1222 @@
   {
     "id": "mi26",
     "wikipediaTitle": "Mil Mi-26",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "sh60",
     "wikipediaTitle": "Sikorsky SH-60 Seahawk",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "s92",
     "wikipediaTitle": "Sikorsky S-92",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "as365",
     "wikipediaTitle": "Eurocopter AS365 Dauphin",
     "label": "Airbus Helicopters AS365 Dauphin",
-    "group": "helicopter"
+    "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft"
   },
   {
     "id": "ec155",
     "wikipediaTitle": "Eurocopter EC155",
     "label": "Airbus H155 (EC155)",
     "group": "helicopter",
+    "use": "civil",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
     "packAnswerIds": [
       "ec155"
     ]
+  },
+  {
+    "id": "jn4",
+    "wikipediaTitle": "Curtiss JN Jenny",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Flying jenny cropped.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "thomas-morse-s4",
+    "wikipediaTitle": "Thomas-Morse S-4",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Thomas Morse S-4c Scout.jpg",
+    "overrides": {
+      "introduced": "1917"
+    }
+  },
+  {
+    "id": "curtiss-nc",
+    "wikipediaTitle": "Curtiss NC",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Curtiss NC-1 3 October 1918- initial three engine configuration.jpg",
+    "overrides": {
+      "introduced": "1919"
+    }
+  },
+  {
+    "id": "martin-mb1",
+    "wikipediaTitle": "Martin MB-1",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Martin MB-1 front right quarter SN AS 39059 P104 040315-F-9999G-013.jpg"
+  },
+  {
+    "id": "dh4-us",
+    "wikipediaTitle": "Airco DH.4",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:De Havilland DH4 ExCC.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "curtiss-h16",
+    "wikipediaTitle": "Curtiss Model H",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Curtiss America 001.jpg",
+    "overrides": {
+      "introduced": "1918",
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "martin-mb2",
+    "wikipediaTitle": "Martin NBS-1",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Martin MB-2 061219-F-1234S-014.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "curtiss-p1",
+    "wikipediaTitle": "Curtiss P-1 Hawk",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Curtiss P-1B Hawk.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "boeing-pw9",
+    "wikipediaTitle": "Boeing Model 15",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Boeing FB-5(2).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "douglas-o2",
+    "wikipediaTitle": "Douglas O-2",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Douglas O-2H 119th Sqn New Jersey NG 1930.jpg",
+    "overrides": {
+      "introduced": "1925",
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "douglas-world-cruiser",
+    "wikipediaTitle": "Douglas World Cruiser",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Douglas World Cruiser.jpg",
+    "overrides": {
+      "introduced": "1924",
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "vought-o2u",
+    "wikipediaTitle": "Vought O2U Corsair",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Vought O2U.jpg"
+  },
+  {
+    "id": "boeing-p12",
+    "wikipediaTitle": "Boeing P-12",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Boeing P-12E USAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "curtiss-f8c",
+    "wikipediaTitle": "Curtiss Falcon",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Curtiss A-3 Falcon (SN 27-243).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "keystone-b3",
+    "wikipediaTitle": "Keystone B-3",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Keystone B-3A (SN 30-281).jpg",
+    "overrides": {
+      "introduced": "1930",
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "consolidated-pt1",
+    "wikipediaTitle": "Consolidated PT-1 Trusty",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Consolidated PT-1 Trusty.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "p26",
+    "wikipediaTitle": "Boeing P-26 Peashooter",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Peashooter.arp.750pix.jpg",
+    "overrides": {
+      "introduced": "1933"
+    }
+  },
+  {
+    "id": "martin-b10",
+    "wikipediaTitle": "Martin B-10",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Martin-B-10B.jpg"
+  },
+  {
+    "id": "grumman-f3f",
+    "wikipediaTitle": "Grumman F3F",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:F3F-1 4-F-7 Jax.jpg"
+  },
+  {
+    "id": "p35",
+    "wikipediaTitle": "Seversky P-35",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Seversky P-35A USAF.jpg"
+  },
+  {
+    "id": "p36",
+    "wikipediaTitle": "Curtiss P-36 Hawk",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:RAF Mohawk IV India2 1943.jpg"
+  },
+  {
+    "id": "tbd",
+    "wikipediaTitle": "Douglas TBD Devastator",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Douglas TBD-1 VT-6 in flight c1938.jpeg"
+  },
+  {
+    "id": "f2a",
+    "wikipediaTitle": "Brewster F2A Buffalo",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Brewster F2A-3 Buffalo in flight near NAS Miami, Florida (USA), on 2 August 1942 (NH 97540).jpg"
+  },
+  {
+    "id": "a17",
+    "wikipediaTitle": "Northrop A-17",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Northrop A-17 front three-quarters view.jpg"
+  },
+  {
+    "id": "b18",
+    "wikipediaTitle": "Douglas B-18 Bolo",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:071030-F-1234S-027.jpg"
+  },
+  {
+    "id": "sb2u",
+    "wikipediaTitle": "Vought SB2U Vindicator",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Vought SB2U-3 Vindicator VS-1 1-S-16 (16140609435).jpg"
+  },
+  {
+    "id": "pby",
+    "wikipediaTitle": "Consolidated PBY Catalina",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:RIHB 2022 PBY Catalina.jpg"
+  },
+  {
+    "id": "stearman",
+    "wikipediaTitle": "Boeing-Stearman Model 75",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:N2S-2 NAS Corpus Christi 1943.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "t6",
+    "wikipediaTitle": "North American T-6 Texan",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:AT-6C Texans in flight 1943.jpg"
+  },
+  {
+    "id": "p40",
+    "wikipediaTitle": "Curtiss P-40 Warhawk",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Curtiss XP-40 in flight, circa in 1939.jpg"
+  },
+  {
+    "id": "f4f",
+    "wikipediaTitle": "Grumman F4F Wildcat",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:F4F-3 new pitot tube of later model.jpg"
+  },
+  {
+    "id": "sbd",
+    "wikipediaTitle": "Douglas SBD Dauntless",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Northrop XBT-1 and XBT-2 comparison.jpg"
+  },
+  {
+    "id": "p39",
+    "wikipediaTitle": "Bell P-39 Airacobra",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:P-39N Airacobra of the 357th Fighter Group at Hamilton Field in July 1943.jpg"
+  },
+  {
+    "id": "p47",
+    "wikipediaTitle": "Republic P-47 Thunderbolt",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Republic P-47N Thunderbolt in flight (cropped).jpg"
+  },
+  {
+    "id": "f6f",
+    "wikipediaTitle": "Grumman F6F Hellcat",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Hellcats F6F-3, May 1943.jpg"
+  },
+  {
+    "id": "tbf",
+    "wikipediaTitle": "Grumman TBF Avenger",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:TBM on USS Randolph 1945.jpg"
+  },
+  {
+    "id": "sb2c",
+    "wikipediaTitle": "Curtiss SB2C Helldiver",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Curtiss SB2C-5 Helldiver warbird in flight.jpg"
+  },
+  {
+    "id": "b24",
+    "wikipediaTitle": "Consolidated B-24 Liberator",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Maxwell B-24 (cropped).jpg"
+  },
+  {
+    "id": "b25",
+    "wikipediaTitle": "North American B-25 Mitchell",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:B-25A Mitchell in flight c1941.jpg"
+  },
+  {
+    "id": "b26",
+    "wikipediaTitle": "Martin B-26 Marauder",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:B 26.jpg"
+  },
+  {
+    "id": "a20",
+    "wikipediaTitle": "Douglas A-20 Havoc",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Douglas A-20G Havoc.jpg"
+  },
+  {
+    "id": "a26",
+    "wikipediaTitle": "Douglas A-26 Invader",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Douglas A-26 & B-027.jpg"
+  },
+  {
+    "id": "c47",
+    "wikipediaTitle": "Douglas C-47 Skytrain",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:C-47 in flight ca. 1943.jpg",
+    "overrides": {
+      "introduced": "1942"
+    }
+  },
+  {
+    "id": "c46",
+    "wikipediaTitle": "Curtiss C-46 Commando",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:C-46 Commando.jpg"
+  },
+  {
+    "id": "c54",
+    "wikipediaTitle": "Douglas C-54 Skymaster",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:An USAF C-54 Skymaster.jpg"
+  },
+  {
+    "id": "p61",
+    "wikipediaTitle": "Northrop P-61 Black Widow",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Northrop P-61 green airborne.jpg"
+  },
+  {
+    "id": "p59",
+    "wikipediaTitle": "Bell P-59 Airacomet",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Bell P-59B Airacomet at the National Museum of the United States Air Force.jpg",
+    "overrides": {
+      "introduced": "1944"
+    }
+  },
+  {
+    "id": "p80",
+    "wikipediaTitle": "Lockheed P-80 Shooting Star",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:P80-1 300 (cropped).jpg"
+  },
+  {
+    "id": "f8f",
+    "wikipediaTitle": "Grumman F8F Bearcat",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Grumman F6F-3 Hellcat of VF-1 in flight over California (USA), in 1943 (80-G-K-605).jpg"
+  },
+  {
+    "id": "ad-skyraider",
+    "wikipediaTitle": "Douglas A-1 Skyraider",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Douglas XBT2D-1 Skyraider prototype NACA.jpg"
+  },
+  {
+    "id": "r4",
+    "wikipediaTitle": "Sikorsky R-4",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "piston",
+    "photo": "File:Sikorsky R-4 USAAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "b36",
+    "wikipediaTitle": "Convair B-36 Peacemaker",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Convair B-36 Peacemaker.jpg"
+  },
+  {
+    "id": "f9f",
+    "wikipediaTitle": "Grumman F9F Panther",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Grumman F9F-2 Panther of VF-112 in flight, circa in 1951 (1564-78).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "f84",
+    "wikipediaTitle": "Republic F-84 Thunderjet",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-84E of 9th Fighter-Bomber Squadron in Korea.jpg"
+  },
+  {
+    "id": "f86",
+    "wikipediaTitle": "North American F-86 Sabre",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-86 Sabre hertiage flight.jpg"
+  },
+  {
+    "id": "b47",
+    "wikipediaTitle": "Boeing B-47 Stratojet",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:NNSA-NSO-990.jpg"
+  },
+  {
+    "id": "f94",
+    "wikipediaTitle": "Lockheed F-94 Starfire",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Lockheed YF-97 Starfire (sn 50-955).jpg"
+  },
+  {
+    "id": "t33",
+    "wikipediaTitle": "Lockheed T-33",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:Arctic Thunder 160729-F-YH552-021 - edit1.jpg",
+    "overrides": {
+      "introduced": "1949",
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "c119",
+    "wikipediaTitle": "Fairchild C-119 Flying Boxcar",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Fairchild C-119B of the 314th Troop Carrier Group in flight, 1952 (021001-O-9999G-016).jpg"
+  },
+  {
+    "id": "c124",
+    "wikipediaTitle": "Douglas C-124 Globemaster II",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:C-124C Globemaster II.jpg"
+  },
+  {
+    "id": "hu16",
+    "wikipediaTitle": "Grumman HU-16 Albatross",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:U.S. Navy Grumman HU-16.jpg"
+  },
+  {
+    "id": "h19",
+    "wikipediaTitle": "Sikorsky H-19 Chickasaw",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "piston",
+    "photo": "File:Sikorsky S-55 rescue hover bw.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "h21",
+    "wikipediaTitle": "Piasecki H-21",
+    "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "piston",
+    "photo": "File:Piasecki H-21 (modified).jpg"
+  },
+  {
+    "id": "o1",
+    "wikipediaTitle": "Cessna O-1 Bird Dog",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Cessna O-1A Bird Dog US Army in flight.jpg"
+  },
+  {
+    "id": "f2h",
+    "wikipediaTitle": "McDonnell F2H Banshee",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:McDonnell F2H-2 Banshee in flight (colour).jpg"
+  },
+  {
+    "id": "b57",
+    "wikipediaTitle": "Martin B-57 Canberra",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Martin B-57E 55-4241 4577 DSES.jpg"
+  },
+  {
+    "id": "a3",
+    "wikipediaTitle": "Douglas A-3 Skywarrior",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:EA-3B VQ-1 in flight South China Sea 1974.jpeg"
+  },
+  {
+    "id": "f100-super-sabre",
+    "wikipediaTitle": "North American F-100 Super Sabre",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:North American F-100A Super Sabre at Rogers.jpg"
+  },
+  {
+    "id": "a4",
+    "wikipediaTitle": "Douglas A-4 Skyhawk",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Douglas A-4E Skyhawk of VA-164 in flight over Vietnam on 21 November 1967 (6430101).jpg"
+  },
+  {
+    "id": "f101",
+    "wikipediaTitle": "McDonnell F-101 Voodoo",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-101B New York ANG in flight 1978.jpeg"
+  },
+  {
+    "id": "f102",
+    "wikipediaTitle": "Convair F-102 Delta Dagger",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Convair YF-102 FC-782.jpg"
+  },
+  {
+    "id": "f104",
+    "wikipediaTitle": "Lockheed F-104 Starfighter",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Lockheed F-104A-15-LO 060928-F-1234S-008.jpg"
+  },
+  {
+    "id": "f8",
+    "wikipediaTitle": "Vought F-8 Crusader",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-8E VMF-212 CVA-34 1965 (cropped).jpg"
+  },
+  {
+    "id": "f105",
+    "wikipediaTitle": "Republic F-105 Thunderchief",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Republic F-105D-30-RE (SN 62-4234) in flight with full bomb load 060901-F-1234S-013.jpg"
+  },
+  {
+    "id": "f106",
+    "wikipediaTitle": "Convair F-106 Delta Dart",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-106A Chase Dart.JPEG"
+  },
+  {
+    "id": "b58",
+    "wikipediaTitle": "Convair B-58 Hustler",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:B-58 (modified).jpg"
+  },
+  {
+    "id": "t37",
+    "wikipediaTitle": "Cessna T-37 Tweet",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-37 021203-O-9999G-003.jpg"
+  },
+  {
+    "id": "sh3",
+    "wikipediaTitle": "Sikorsky SH-3 Sea King",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:SH3H HS15 CVW15 1995 (cropped).jpg"
+  },
+  {
+    "id": "a5",
+    "wikipediaTitle": "North American A-5 Vigilante",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:A-5 Vigilante ECN-231.jpg"
+  },
+  {
+    "id": "a6",
+    "wikipediaTitle": "Grumman A-6 Intruder",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Grumman KA-6D Intruder of VA-34 in flight, in 1988.jpg"
+  },
+  {
+    "id": "e2",
+    "wikipediaTitle": "Grumman E-2 Hawkeye",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "airborne-early-warning",
+    "engine": "turboprop",
+    "photo": "File:E-2D Advanced Hawkeye aircraft conduct a test flight.jpg"
+  },
+  {
+    "id": "ov1",
+    "wikipediaTitle": "Grumman OV-1 Mohawk",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "turboprop",
+    "photo": "File:Mohawk OV-1 Factsheet (cropped).jpg"
+  },
+  {
+    "id": "c141",
+    "wikipediaTitle": "Lockheed C-141 Starlifter",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet",
+    "photo": "File:C-141 Starlifter 58-4561.jpg"
+  },
+  {
+    "id": "f111",
+    "wikipediaTitle": "General Dynamics F-111 Aardvark",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:AFR F-111 air to air refueling.jpg"
+  },
+  {
+    "id": "a7",
+    "wikipediaTitle": "LTV A-7 Corsair II",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:A-7E Corsair II of VA-146 in flight on 16 November 1974 (NNAM.1996.253.7100.039).jpg"
+  },
+  {
+    "id": "a37",
+    "wikipediaTitle": "Cessna A-37 Dragonfly",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:OA-37B-1 (centered).jpg"
+  },
+  {
+    "id": "ov10",
+    "wikipediaTitle": "North American Rockwell OV-10 Bronco",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "turboprop",
+    "photo": "File:NASA OV-10.jpg"
+  },
+  {
+    "id": "sh2",
+    "wikipediaTitle": "Kaman SH-2 Seasprite",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:SH-2F Seasprite landing on the USS Nicholson (cropped).jpg"
+  },
+  {
+    "id": "hh3",
+    "wikipediaTitle": "Sikorsky S-61R",
+    "label": "Sikorsky HH-3 (S-61R)",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:HH-3F Pelican from Coast Guard Air Station San Francisco (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "s3",
+    "wikipediaTitle": "Lockheed S-3 Viking",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "jet",
+    "photo": "File:S-3A (cropped).jpg"
+  },
+  {
+    "id": "ea6b",
+    "wikipediaTitle": "Grumman EA-6B Prowler",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "electronic-warfare",
+    "engine": "jet",
+    "photo": "File:Prowler Final Flight division flight (cropped).jpg"
+  },
+  {
+    "id": "e4",
+    "wikipediaTitle": "Boeing E-4",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "airborne-command",
+    "engine": "jet",
+    "photo": "File:US Air force E-4B.jpg"
+  },
+  {
+    "id": "ch53e",
+    "wikipediaTitle": "Sikorsky CH-53E Super Stallion",
+    "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:A CH-53E Super Stallion with the 22nd Marine Expeditionary Unit.jpg"
+  },
+  {
+    "id": "kc10",
+    "wikipediaTitle": "McDonnell Douglas KC-10 Extender",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "tanker",
+    "engine": "jet",
+    "photo": "File:KC-10 Extender (2151957820).jpg"
+  },
+  {
+    "id": "av8b",
+    "wikipediaTitle": "McDonnell Douglas AV-8B Harrier II",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:US Navy 030127-N-0000A-001 An AV-8 Harrier approaches the ship's flight deck.jpg"
+  },
+  {
+    "id": "f15e",
+    "wikipediaTitle": "McDonnell Douglas F-15E Strike Eagle",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-15E takes on fuel from KC-10.jpg"
+  },
+  {
+    "id": "e6",
+    "wikipediaTitle": "Boeing E-6 Mercury",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "airborne-command",
+    "engine": "jet",
+    "photo": "File:United States Navy Boeing E-6B Mercury of Strategic Communications Wing ONE, Task Group 114.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "t45",
+    "wikipediaTitle": "McDonnell Douglas T-45 Goshawk",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-45A Goshawk 03.jpg"
+  },
+  {
+    "id": "e8",
+    "wikipediaTitle": "Northrop Grumman E-8 Joint STARS",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "jet",
+    "photo": "File:E-8 JSTARS 18061F484519-913.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "t1",
+    "wikipediaTitle": "Raytheon T-1 Jayhawk",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-1A Jayhawk.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States"
+      ]
+    }
+  },
+  {
+    "id": "mq1",
+    "wikipediaTitle": "General Atomics MQ-1 Predator",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "piston",
+    "photo": "File:MQ-1 Predator, armed with AGM-114 Hellfire missiles.jpg"
+  },
+  {
+    "id": "c130j",
+    "wikipediaTitle": "Lockheed Martin C-130J Super Hercules",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop",
+    "photo": "File:C-130J 135th AS Maryland ANG in flight.jpg"
+  },
+  {
+    "id": "t6-texan-ii",
+    "wikipediaTitle": "Beechcraft T-6 Texan II",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "turboprop",
+    "photo": "File:T-6A Texan II.jpg"
+  },
+  {
+    "id": "rq7",
+    "wikipediaTitle": "AAI RQ-7 Shadow",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "piston",
+    "photo": "File:USMC-01522.jpg"
+  },
+  {
+    "id": "uh72",
+    "wikipediaTitle": "Eurocopter UH-72 Lakota",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:UH-72 Volk field.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "United States",
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "uh1y",
+    "wikipediaTitle": "Bell UH-1Y Venom",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:UH-1Y Venom.jpg"
+  },
+  {
+    "id": "mq8",
+    "wikipediaTitle": "Northrop Grumman MQ-8 Fire Scout",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "turboshaft",
+    "photo": "File:US Navy 110930-N-JQ696-401 An MQ-8B Fire Scout unmanned aerial vehicle (cropped).jpg"
+  },
+  {
+    "id": "ea18g",
+    "wikipediaTitle": "Boeing EA-18G Growler",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "electronic-warfare",
+    "engine": "jet",
+    "photo": "File:U.S. Navy EA-18G Growler breaks away from a U.S. Air Force KC-135 (altered).jpg"
+  },
+  {
+    "id": "ah1z",
+    "wikipediaTitle": "Bell AH-1Z Viper",
+    "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:AH-1Z attack helicopter with Marine Light Attack Helicopter Squadron 775 Group 41, execute pre-flight checks and procedures (cropped).jpg"
+  },
+  {
+    "id": "kc46",
+    "wikipediaTitle": "Boeing KC-46 Pegasus",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "tanker",
+    "engine": "jet",
+    "photo": "File:KC-46 Pegasus prepares to refuel C-17 (cropped).jpg"
+  },
+  {
+    "id": "hh60w",
+    "wikipediaTitle": "Sikorsky HH-60 Pave Hawk",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:HH-60G Pave Hawk helicopter operated by the 56th Rescue Squadron.jpg"
+  },
+  {
+    "id": "ch53k",
+    "wikipediaTitle": "Sikorsky CH-53K King Stallion",
+    "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:CH-53K-King-Stallion-induction-NAS-Patuxent-River- cropped.jpg"
+  },
+  {
+    "id": "f15ex",
+    "wikipediaTitle": "Boeing F-15EX Eagle II",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:F-15EX Eagle II.jpg"
+  },
+  {
+    "id": "t7",
+    "wikipediaTitle": "Boeing–Saab T-7 Red Hawk",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-7A Red Hawk over Edwards Air Force Base.jpg"
+  },
+  {
+    "id": "mq25",
+    "wikipediaTitle": "Boeing MQ-25 Stingray",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "uav",
+    "engine": "jet",
+    "photo": "File:MQ-25 refuels F-35C (cropped).jpg"
+  },
+  {
+    "id": "mh139",
+    "wikipediaTitle": "Boeing MH-139 Grey Wolf",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:MH-139 Grey Wolf conducts flight training in Camp Guernsey, Wyoming.png"
   }
 ]

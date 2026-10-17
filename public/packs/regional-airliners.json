@@ -255,12 +255,12 @@
           "label": "Lockheed Constellation"
         },
         {
-          "id": "dash8",
-          "label": "De Havilland Canada Dash 8"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         }
       ],
       "caption": "Airliner and military transport aircraft family. First flew 1935.",
@@ -280,12 +280,12 @@
           "label": "Douglas DC-3"
         },
         {
-          "id": "p38",
-          "label": "Lockheed P-38 Lightning"
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
         },
         {
-          "id": "dash8",
-          "label": "De Havilland Canada Dash 8"
+          "id": "twin-otter",
+          "label": "De Havilland Canada DHC-6 Twin Otter"
         }
       ],
       "caption": "Family of US airliners with 4 piston engines, 1943. First flew 1943.",

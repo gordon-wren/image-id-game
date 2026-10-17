@@ -26,16 +26,16 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
         },
         {
-          "id": "b29",
-          "label": "Boeing B-29 Superfortress"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         }
       ],
       "caption": "American strategic bomber aircraft. First flew 1952.",
@@ -55,12 +55,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b21",
-          "label": "Northrop Grumman B-21 Raider"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
         }
       ],
       "caption": "American strategic bomber. First flew 1974.",
@@ -84,8 +84,8 @@
           "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "b757",
-          "label": "Boeing 757"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         }
       ],
       "caption": "American heavy strategic bomber. First flew 1989.",
@@ -105,12 +105,12 @@
           "label": "Northrop B-2 Spirit"
         },
         {
-          "id": "b777x",
-          "label": "Boeing 777X"
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
         },
         {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
         }
       ],
       "caption": "American stealth bomber aircraft. First flew 2023.",
@@ -130,12 +130,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -159,8 +159,8 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -180,8 +180,8 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
         },
         {
           "id": "b52",
@@ -205,16 +205,116 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "hawk",
-          "label": "BAE Systems Hawk"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
       "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b36",
+      "image": "b36.jpg",
+      "answer": "b36",
+      "options": [
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b47",
+      "image": "b47.jpg",
+      "answer": "b47",
+      "options": [
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        }
+      ],
+      "caption": "Cold War-era American jet bomber. First flew 1947.",
+      "credit": "National Nuclear Security Administration / Nevada Site Office / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b57",
+      "image": "b57.jpg",
+      "answer": "b57",
+      "options": [
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "US license-built version of the British English Electric Canberra bomber. First flew 1953.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "bombers-b58",
+      "image": "b58.jpg",
+      "answer": "b58",
+      "options": [
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        }
+      ],
+      "caption": "Cold War-era American supersonic bomber. First flew 1956.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
     }
   ]
 }

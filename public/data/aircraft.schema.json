@@ -29,7 +29,10 @@
         "name",
         "label",
         "group",
-        "wikipedia"
+        "wikipedia",
+        "use",
+        "category",
+        "engine"
       ],
       "properties": {
         "id": {
@@ -58,6 +61,50 @@
             "historic",
             "helicopter"
           ]
+        },
+        "use": {
+          "type": "string",
+          "enum": [
+            "military",
+            "civil"
+          ],
+          "description": "Who mainly operates the type. Set in seed.json."
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "airborne-command",
+            "airborne-early-warning",
+            "airliner",
+            "attack",
+            "attack-helicopter",
+            "bomber",
+            "business",
+            "cargo-helicopter",
+            "electronic-warfare",
+            "experimental",
+            "fighter",
+            "light",
+            "patrol",
+            "reconnaissance",
+            "tanker",
+            "trainer",
+            "transport",
+            "uav",
+            "utility",
+            "utility-helicopter"
+          ],
+          "description": "What the aircraft is for, e.g. fighter, tanker, utility-helicopter. Set in seed.json; packs filter on it."
+        },
+        "engine": {
+          "type": "string",
+          "enum": [
+            "piston",
+            "jet",
+            "turboprop",
+            "turboshaft"
+          ],
+          "description": "Engine type. Set in seed.json; e.g. the Fighter Jets pack only takes jet."
         },
         "packAnswerIds": {
           "type": "array",
