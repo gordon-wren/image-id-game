@@ -81,32 +81,19 @@ function overlaps(a, b) {
 // ---------------------------------------------------------------------------
 
 /**
- * Aircraft matching a recipe's `where`. Every given condition must hold:
- *   group:       one group or a list
+ * Aircraft matching a `where` filter. Every given condition must hold:
+ *   group:                 one group or a list
  *   use, category, engine: one value or a list each (see aircraft.schema.json)
- *   country:     any countryOfOrigin containing one of these (case-insensitive)
- *   firstFlight: [fromYear, toYear], inclusive; either end may be null
- *   ids:         only these aircraft
- *   exclude:     never these aircraft
+ *   ids:                   only these aircraft
  */
 export function selectAircraft(aircraft, where = {}) {
   const groups = asList(where.group);
   const attrs = ["use", "category", "engine"].map((k) => [k, asList(where[k])]).filter(([, v]) => v.length);
-  const countries = asList(where.country).map((c) => c.toLowerCase());
   const ids = asList(where.ids);
-  const exclude = new Set(asList(where.exclude));
-  const [from, to] = where.firstFlight ?? [null, null];
   return aircraft.filter((a) => {
-    if (exclude.has(a.id)) return false;
     if (ids.length && !ids.includes(a.id)) return false;
     if (groups.length && !groups.includes(a.group)) return false;
-    if (attrs.some(([k, v]) => !v.includes(a[k]))) return false;
-    if (countries.length && !a.countryOfOrigin.some((c) => countries.some((w) => c.toLowerCase().includes(w)))) return false;
-    if (from != null || to != null) {
-      const y = year(a);
-      if (y == null || (from != null && y < from) || (to != null && y > to)) return false;
-    }
-    return true;
+    return !attrs.some(([k, v]) => !v.includes(a[k]));
   });
 }
 

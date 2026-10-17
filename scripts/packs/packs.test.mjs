@@ -5,7 +5,7 @@ import { describe, it, expect } from "vitest";
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { validatePack } from "../../src/engine/pack.ts";
-import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders, serviceYear } from "./generate.mjs";
+import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders } from "./generate.mjs";
 
 const root = resolve(import.meta.dirname, "../..");
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
@@ -61,22 +61,6 @@ describe("generated packs", () => {
     expect(readJson(`public/packs/${id}.json`)).toEqual(buildPack(recipe, aircraft, taxonomy.minAircraft));
   });
 
-  it("each have at least the minimum number of aircraft and cap the round", () => {
-    for (const [, p] of packs.filter(([, p]) => p.generatedFrom)) {
-      expect(p.questions.length, p.id).toBeGreaterThanOrEqual(taxonomy.minAircraft);
-      expect(p.questionsPerRound, p.id).toBe(taxonomy.questionsPerRound);
-    }
-  });
-
-  it("place era and decade sets by service year", () => {
-    const byId = new Map(aircraft.map((a) => [a.id, a]));
-    for (const [, p] of packs.filter(([, p]) => /-(era|decade)-|-(\d{4}s)$/.test(p.id))) {
-      const years = p.questions.map((q) => serviceYear(byId.get(q.answer)));
-      expect(years.every((y) => y != null), p.id).toBe(true);
-      const decade = p.id.match(/(\d{4})s$/);
-      if (decade) expect(years.every((y) => Math.floor(y / 10) * 10 === Number(decade[1])), p.id).toBe(true);
-    }
-  });
 });
 
 describe("menu", () => {

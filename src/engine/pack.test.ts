@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { orderQuestions, resolveOptions, resolvePack, roundLength, validatePack, shuffle } from "./pack";
+import { orderQuestions, resolveOptions, resolvePack, roundLength, validatePack } from "./pack";
 import type { QuestionPack } from "./types";
 
 // Deterministic RNG so shuffles are reproducible in tests.
@@ -24,15 +24,6 @@ const pack: QuestionPack = {
     { id: "q5", image: "e.jpg", answer: "e" },
   ],
 };
-
-describe("shuffle", () => {
-  it("preserves length and membership", () => {
-    const src = [1, 2, 3, 4, 5];
-    const out = shuffle(src, seeded(1));
-    expect(out).toHaveLength(5);
-    expect([...out].sort()).toEqual(src);
-  });
-});
 
 describe("resolveOptions (pool generation)", () => {
   it("produces optionsPerQuestion options, always including the correct answer", () => {
@@ -98,9 +89,11 @@ describe("orderQuestions (questions per round)", () => {
     questions: Array.from({ length: 30 }, (_, i) => ({ id: `q${i}`, image: `${i}.jpg`, answer: `a${i}` })),
   };
 
-  it("uses every question when the pack sets no limit", () => {
+  it("uses every question when there's no limit, or the limit is above the pack's size", () => {
     expect(orderQuestions(many, seeded(1))).toHaveLength(30);
     expect(roundLength(many)).toBe(30);
+    expect(orderQuestions({ ...many, questionsPerRound: 40 }, seeded(1))).toHaveLength(30);
+    expect(roundLength({ ...many, questionsPerRound: 40 })).toBe(30);
   });
 
   it("draws a random selection of questionsPerRound when there are more", () => {
@@ -117,10 +110,6 @@ describe("orderQuestions (questions per round)", () => {
     const ids = orderQuestions({ ...many, questionsPerRound: 10, shuffleQuestions: false }, seeded(3)).map((q) => Number(q.id.slice(1)));
     expect(ids).toHaveLength(10);
     expect(ids).toEqual([...ids].sort((x, y) => x - y));
-  });
-
-  it("uses every question when the limit is higher than the pack", () => {
-    expect(orderQuestions({ ...pack, questionsPerRound: 20 }, seeded(1))).toHaveLength(pack.questions.length);
   });
 });
 

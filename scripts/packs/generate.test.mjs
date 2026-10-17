@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildCatalog, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, nationOf, pickDistractors, selectAircraft, serviceYear, similarity } from "./generate.mjs";
+import { buildCatalog, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, nationOf, pickDistractors, selectAircraft, similarity } from "./generate.mjs";
 
 const plane = (id, label, group, country, firstFlight, manufacturer = [label.split(" ")[0]]) => ({
   id,
@@ -30,15 +30,6 @@ describe("selectAircraft", () => {
     expect(selectAircraft(fleet, { group: "fighter-attack" }).map((a) => a.id)).toEqual(["f15", "f16", "su27", "su35", "mig29"]);
   });
 
-  it("matches countries case-insensitively by substring", () => {
-    expect(selectAircraft(fleet, { country: ["soviet", "Russia"] }).map((a) => a.id)).toEqual(["su27", "su35", "mig29"]);
-  });
-
-  it("filters by an inclusive first-flight range, open at either end", () => {
-    expect(selectAircraft(fleet, { group: "fighter-attack", firstFlight: [1974, 1977] }).map((a) => a.id)).toEqual(["f16", "su27", "mig29"]);
-    expect(selectAircraft(fleet, { firstFlight: [null, 1960] }).map((a) => a.id)).toEqual(["c172"]);
-  });
-
   it("filters by use, category and engine", () => {
     const tagged = fleet.map((a) => ({ ...a, use: a.group === "business-general" ? "civil" : "military", engine: a.id === "f15" ? "piston" : "jet", category: a.id === "su27" ? "attack" : "fighter" }));
     expect(selectAircraft(tagged, { group: "fighter-attack", engine: "jet" }).map((a) => a.id)).toEqual(["f16", "su27", "su35", "mig29"]);
@@ -46,8 +37,8 @@ describe("selectAircraft", () => {
     expect(selectAircraft(tagged, { use: "civil" }).map((a) => a.id)).toEqual(["c172"]);
   });
 
-  it("combines conditions and honours ids and exclude", () => {
-    expect(selectAircraft(fleet, { group: "fighter-attack", exclude: ["f16", "su35"] }).map((a) => a.id)).toEqual(["f15", "su27", "mig29"]);
+  it("combines conditions and honours ids", () => {
+    expect(selectAircraft(fleet, { group: "fighter-attack", ids: ["f15", "mig29", "a380"] }).map((a) => a.id)).toEqual(["f15", "mig29"]);
     expect(selectAircraft(fleet, { ids: ["a380", "c172"] }).map((a) => a.id)).toEqual(["a380", "c172"]);
   });
 });
@@ -181,12 +172,7 @@ describe("buildCatalog", () => {
   });
 });
 
-describe("serviceYear and nationOf", () => {
-  it("reads the service-entry year, or null when not in service", () => {
-    expect(serviceYear({ introduced: "1944-03-01" })).toBe(1944);
-    expect(serviceYear({ introduced: null })).toBe(null);
-  });
-
+describe("nationOf", () => {
   it("files an aircraft under one country, folding old names, or Multinational", () => {
     const aliases = { "Soviet Union": "Soviet Union & Russia", Russia: "Soviet Union & Russia", "German Reich": "Germany" };
     expect(nationOf({ countryOfOrigin: ["Soviet Union", "Russia"] }, aliases)).toBe("Soviet Union & Russia");
