@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { resolveOptions, resolvePack, validatePack, shuffle } from "./pack";
+import { orderQuestions, resolveOptions, resolvePack, roundLength, validatePack, shuffle } from "./pack";
 import type { QuestionPack } from "./types";
 
 // Deterministic RNG so shuffles are reproducible in tests.
@@ -92,6 +92,38 @@ describe("resolvePack", () => {
   });
 });
 
+describe("orderQuestions (questions per round)", () => {
+  const many: QuestionPack = {
+    ...pack,
+    questions: Array.from({ length: 30 }, (_, i) => ({ id: `q${i}`, image: `${i}.jpg`, answer: `a${i}` })),
+  };
+
+  it("uses every question when the pack sets no limit", () => {
+    expect(orderQuestions(many, seeded(1))).toHaveLength(30);
+    expect(roundLength(many)).toBe(30);
+  });
+
+  it("draws a random selection of questionsPerRound when there are more", () => {
+    const capped = { ...many, questionsPerRound: 20 };
+    const a = orderQuestions(capped, seeded(1)).map((q) => q.id);
+    const b = orderQuestions(capped, seeded(2)).map((q) => q.id);
+    expect(a).toHaveLength(20);
+    expect(new Set(a).size).toBe(20);
+    expect(a).not.toEqual(b);
+    expect(roundLength(capped)).toBe(20);
+  });
+
+  it("keeps the pack's order for the selection when shuffling is off", () => {
+    const ids = orderQuestions({ ...many, questionsPerRound: 10, shuffleQuestions: false }, seeded(3)).map((q) => Number(q.id.slice(1)));
+    expect(ids).toHaveLength(10);
+    expect(ids).toEqual([...ids].sort((x, y) => x - y));
+  });
+
+  it("uses every question when the limit is higher than the pack", () => {
+    expect(orderQuestions({ ...pack, questionsPerRound: 20 }, seeded(1))).toHaveLength(pack.questions.length);
+  });
+});
+
 describe("validatePack", () => {
   it("accepts a well-formed pack", () => {
     expect(() => validatePack(pack)).not.toThrow();
@@ -100,6 +132,11 @@ describe("validatePack", () => {
   it("rejects a path with blank or non-string segments", () => {
     expect(() => validatePack({ ...pack, path: ["Aviation", ""] })).toThrow(/path/);
     expect(() => validatePack({ ...pack, path: "Aviation" as unknown as string[] })).toThrow(/path/);
+  });
+
+  it("rejects a questionsPerRound that isn't a positive whole number", () => {
+    expect(() => validatePack({ ...pack, questionsPerRound: 0 })).toThrow(/questionsPerRound/);
+    expect(() => validatePack({ ...pack, questionsPerRound: 2.5 })).toThrow(/questionsPerRound/);
   });
 
   it("rejects a pack with no questions", () => {
