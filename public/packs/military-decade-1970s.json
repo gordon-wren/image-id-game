@@ -1,0 +1,446 @@
+{
+  "id": "military-decade-1970s",
+  "title": "1970s",
+  "description": "Military aircraft that entered service in the 1970s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1970s-c5",
+      "image": "c5.jpg",
+      "answer": "c5",
+      "options": [
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "American heavy military transport aircraft. First flew 1968.",
+      "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-il76",
+      "image": "il76.jpg",
+      "answer": "il76",
+      "options": [
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
+      "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-e3",
+      "image": "e3.jpg",
+      "answer": "e3",
+      "options": [
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        }
+      ],
+      "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "American close air support attack aircraft. First flew 1972.",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-mig25",
+      "image": "mig25.jpg",
+      "answer": "mig25",
+      "options": [
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
+      "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-viggen",
+      "image": "viggen.jpg",
+      "answer": "viggen",
+      "options": [
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "1967 Swedish fighter aircraft family. First flew 1967.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-hawk",
+      "image": "hawk.jpg",
+      "answer": "hawk",
+      "options": [
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "bae146",
+          "label": "British Aerospace 146"
+        }
+      ],
+      "caption": "Military training aircraft family. First flew 1974.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-l39",
+      "image": "l39.jpg",
+      "answer": "l39",
+      "options": [
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        }
+      ],
+      "caption": "Trainer aircraft family by Aero. First flew 1968.",
+      "credit": "Milan Nykodym / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-alpha-jet",
+      "image": "alpha-jet.jpg",
+      "answer": "alpha-jet",
+      "options": [
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        }
+      ],
+      "caption": "French light attack fighter. First flew 1973.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-s3",
+      "image": "s3.jpg",
+      "answer": "s3",
+      "options": [
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        }
+      ],
+      "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-ea6b",
+      "image": "ea6b.jpg",
+      "answer": "ea6b",
+      "options": [
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
+      "credit": "Cpl. Neysa Huertas Quinones / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-e4",
+      "image": "e4.jpg",
+      "answer": "e4",
+      "options": [
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
+      "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

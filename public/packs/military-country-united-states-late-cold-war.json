@@ -1,0 +1,447 @@
+{
+  "id": "military-country-united-states-late-cold-war",
+  "title": "United States: Late Cold War",
+  "description": "Military aircraft from the United States that entered service 1976–1991.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-late-cold-war-e3",
+      "image": "e3.jpg",
+      "answer": "e3",
+      "options": [
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "American close air support attack aircraft. First flew 1972.",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-f117",
+      "image": "f117.jpg",
+      "answer": "f117",
+      "options": [
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        }
+      ],
+      "caption": "American stealth ground-attack aircraft. First flew 1981.",
+      "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-ah64",
+      "image": "ah64.jpg",
+      "answer": "ah64",
+      "options": [
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "U.S. attack helicopter. First flew 1975.",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        }
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-sh60",
+      "image": "sh60.jpg",
+      "answer": "sh60",
+      "options": [
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-ch53e",
+      "image": "ch53e.jpg",
+      "answer": "ch53e",
+      "options": [
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
+      "credit": "Sgt. Seth Starr / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-kc10",
+      "image": "kc10.jpg",
+      "answer": "kc10",
+      "options": [
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        }
+      ],
+      "caption": "US aerial refueling tanker aircraft. First flew 1980.",
+      "credit": "U.S. Air Force photo by Staff Sgt. Jerry Morrison / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-av8b",
+      "image": "av8b.jpg",
+      "answer": "av8b",
+      "options": [
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Anglo-American VSTOL ground-attack aircraft. First flew 1978.",
+      "credit": "U.S. Navy photo by Signalman 3rd Class Matthew A. Alvarado. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-f15e",
+      "image": "f15e.jpg",
+      "answer": "f15e",
+      "options": [
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        }
+      ],
+      "caption": "American all-weather multirole fighter aircraft. First flew 1986.",
+      "credit": "Staff Sgt. Sean Carnes / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-e6",
+      "image": "e6.jpg",
+      "answer": "e6",
+      "options": [
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        }
+      ],
+      "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
+      "credit": "USAF Greg L. Davis / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-e8",
+      "image": "e8.jpg",
+      "answer": "e8",
+      "options": [
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-late-cold-war-hh60w",
+      "image": "hh60w.jpg",
+      "answer": "hh60w",
+      "options": [
+        {
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "American medium-lift military helicopter.",
+      "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

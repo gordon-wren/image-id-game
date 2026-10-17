@@ -1,0 +1,196 @@
+{
+  "id": "military-country-united-kingdom",
+  "title": "United Kingdom",
+  "description": "Military aircraft from the United Kingdom.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-kingdom-vulcan",
+      "image": "vulcan.jpg",
+      "answer": "vulcan",
+      "options": [
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        }
+      ],
+      "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-harrier",
+      "image": "harrier.jpg",
+      "answer": "harrier",
+      "options": [
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        }
+      ],
+      "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
+      "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-hawk",
+      "image": "hawk.jpg",
+      "answer": "hawk",
+      "options": [
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        }
+      ],
+      "caption": "Military training aircraft family. First flew 1974.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-spitfire",
+      "image": "spitfire.jpg",
+      "answer": "spitfire",
+      "options": [
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        }
+      ],
+      "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-hurricane",
+      "image": "hurricane.jpg",
+      "answer": "hurricane",
+      "options": [
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        }
+      ],
+      "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-mosquito",
+      "image": "mosquito.jpg",
+      "answer": "mosquito",
+      "options": [
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
+      "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-lancaster",
+      "image": "lancaster.jpg",
+      "answer": "lancaster",
+      "options": [
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        }
+      ],
+      "caption": "World War II British heavy bomber aircraft. First flew 1941.",
+      "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
+    }
+  ]
+}

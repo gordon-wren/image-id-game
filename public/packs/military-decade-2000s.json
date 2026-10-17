@@ -1,0 +1,446 @@
+{
+  "id": "military-decade-2000s",
+  "title": "2000s",
+  "description": "Military aircraft that entered service in the 2000s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-2000s-v22",
+      "image": "v22.jpg",
+      "answer": "v22",
+      "options": [
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        }
+      ],
+      "caption": "Military transport tiltrotor. First flew 1989.",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-mq9",
+      "image": "mq9.jpg",
+      "answer": "mq9",
+      "options": [
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 2001.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-rq4",
+      "image": "rq4.jpg",
+      "answer": "rq4",
+      "options": [
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "Unmanned surveillance aircraft. First flew 1998.",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "American stealth air superiority fighter. First flew 1997.",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-fa18ef",
+      "image": "fa18ef.jpg",
+      "answer": "fa18ef",
+      "options": [
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        }
+      ],
+      "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-typhoon",
+      "image": "typhoon.jpg",
+      "answer": "typhoon",
+      "options": [
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-rafale",
+      "image": "rafale.jpg",
+      "answer": "rafale",
+      "options": [
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        }
+      ],
+      "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-j10",
+      "image": "j10.jpg",
+      "answer": "j10",
+      "options": [
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
+      "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-ka52",
+      "image": "ka52.jpg",
+      "answer": "ka52",
+      "options": [
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        }
+      ],
+      "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        }
+      ],
+      "caption": "European attack helicopter. First flew 1991.",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-aw101",
+      "image": "aw101.jpg",
+      "answer": "aw101",
+      "options": [
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        }
+      ],
+      "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
+      "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-t6-texan-ii",
+      "image": "t6-texan-ii.jpg",
+      "answer": "t6-texan-ii",
+      "options": [
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        }
+      ],
+      "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
+      "credit": "U.S. Air Force photo by Master Sgt. David Richards / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-rq7",
+      "image": "rq7.jpg",
+      "answer": "rq7",
+      "options": [
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 1991.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-uh72",
+      "image": "uh72.jpg",
+      "answer": "uh72",
+      "options": [
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "Light utility multipurpose helicopter. First flew 2006.",
+      "credit": "Senior Master Sgt. David Lipp / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-uh1y",
+      "image": "uh1y.jpg",
+      "answer": "uh1y",
+      "options": [
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "Military utility helicopter model by Bell. First flew 2001.",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-mq8",
+      "image": "mq8.jpg",
+      "answer": "mq8",
+      "options": [
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-ea18g",
+      "image": "ea18g.jpg",
+      "answer": "ea18g",
+      "options": [
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "American electronic warfare aircraft. First flew 2006.",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

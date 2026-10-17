@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildCatalog, buildPack, firstSentences, pickDistractors, selectAircraft, similarity } from "./generate.mjs";
+import { buildCatalog, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, nationOf, pickDistractors, selectAircraft, serviceYear, similarity } from "./generate.mjs";
 
 const plane = (id, label, group, country, firstFlight, manufacturer = [label.split(" ")[0]]) => ({
   id,
@@ -114,7 +114,7 @@ describe("buildPack", () => {
 
   it("builds a valid pack with curated options, caption and credit", () => {
     const pack = buildPack(recipe, fleet);
-    expect(pack).toMatchObject({ id: "jets", assetBase: "assets/aircraft/", theme: { accent: "#123456" }, generatedFrom: "scripts/packs/recipes.json" });
+    expect(pack).toMatchObject({ id: "jets", assetBase: "assets/aircraft/", theme: { accent: "#123456" }, generatedFrom: "scripts/packs/taxonomy.json" });
     expect(pack.questions).toHaveLength(5);
     const q = pack.questions.find((x) => x.answer === "f15");
     expect(q).toMatchObject({ id: "jets-f15", image: "f15.jpg", credit: "f15 credit" });
@@ -178,5 +178,88 @@ describe("buildCatalog", () => {
     expect(later.entries.a380.number).toBe(4);
     expect(later.entries.f15).toBeUndefined();
     expect(later.numbers.f15).toBe(1);
+  });
+});
+
+describe("serviceYear and nationOf", () => {
+  it("reads the service-entry year, or null when not in service", () => {
+    expect(serviceYear({ introduced: "1944-03-01" })).toBe(1944);
+    expect(serviceYear({ introduced: null })).toBe(null);
+  });
+
+  it("files an aircraft under one country, folding old names, or Multinational", () => {
+    const aliases = { "Soviet Union": "Soviet Union & Russia", Russia: "Soviet Union & Russia", "German Reich": "Germany" };
+    expect(nationOf({ countryOfOrigin: ["Soviet Union", "Russia"] }, aliases)).toBe("Soviet Union & Russia");
+    expect(nationOf({ countryOfOrigin: ["German Reich"] }, aliases)).toBe("Germany");
+    expect(nationOf({ countryOfOrigin: ["France", "Germany"] }, aliases)).toBe("Multinational");
+    expect(nationOf({ countryOfOrigin: ["Italy / UK"] }, aliases)).toBe("Multinational");
+    expect(nationOf({ countryOfOrigin: [] }, aliases)).toBe(null);
+  });
+});
+
+describe("expandTaxonomy", () => {
+  // Six US fighters in the 1940s, two in the 1950s, five Soviet ones in the 1950s.
+  const jet = (id, country, introduced, category = "fighter") => ({
+    ...plane(id, `Plane ${id}`, "fighter-attack", country, `${introduced}-01-01`), introduced: `${introduced}-06-01`, use: "military", category,
+  });
+  const corpus = [
+    ...["a", "b", "c", "d", "e", "f"].map((x) => jet(`us4${x}`, "United States", 1943)),
+    jet("us5a", "United States", 1953), jet("us5b", "United States", 1955),
+    ...["a", "b", "c", "d", "e"].map((x) => jet(`ru5${x}`, "Soviet Union", 1955)),
+    { ...jet("future", "United States", 2030), introduced: null },
+  ];
+  const taxonomy = {
+    minAircraft: 5,
+    questionsPerRound: 20,
+    eras: [{ id: "wwii", name: "WWII", from: 1939, to: 1945 }, { id: "postwar", name: "Postwar", from: 1946 }],
+    nationAliases: { "Soviet Union": "Soviet Union & Russia" },
+    menus: [
+      { id: "m-era", path: ["Aviation", "By Era"], where: { use: "military" }, by: "era", accent: "#111111" },
+      { id: "m-decade", path: ["Aviation", "By Decade"], where: { use: "military" }, by: "decade", accent: "#222222" },
+      { id: "m-country", path: ["Aviation", "By Country"], where: { use: "military" }, by: "nation", then: "era", accent: "#333333" },
+      { id: "m-role", path: ["Aviation", "By Role"], where: { use: "military" }, accent: "#444444", sets: [
+        { id: "fighters", name: "Fighters", description: "Fighters.", where: { category: "fighter" } },
+        { id: "bombers", name: "Bombers", description: "Bombers.", where: { category: "bomber" } },
+      ] },
+    ],
+  };
+  const recipes = expandTaxonomy(taxonomy, corpus);
+  const byId = Object.fromEntries(recipes.map((r) => [r.id, r]));
+
+  it("keeps only sets with enough aircraft, placing them by service year", () => {
+    expect(byId["m-era-wwii"].where.ids).toHaveLength(6);
+    expect(byId["m-era-postwar"].where.ids).toHaveLength(7);
+    expect(byId["m-decade-1940s"].where.ids).toHaveLength(6);
+    expect(byId["m-decade-1950s"].where.ids).toHaveLength(7);
+    expect(recipes.some((r) => r.where.ids.includes("future") && /era|decade/.test(r.id))).toBe(false);
+    expect(byId["m-role-bombers"]).toBeUndefined();
+    expect(byId["m-era-wwii"]).toMatchObject({ title: "WWII", path: ["Aviation", "By Era"], questionsPerRound: 20, description: "Military aircraft that entered service 1939–1945." });
+  });
+
+  it("nests a country's era sets in a folder only when they qualify", () => {
+    // US: 9 in all, but only WWII (6) has enough for an era set.
+    expect(byId["m-country-united-states"]).toMatchObject({ title: "United States: all eras", path: ["Aviation", "By Country", "United States"] });
+    expect(byId["m-country-united-states-wwii"]).toMatchObject({ title: "United States: WWII", path: ["Aviation", "By Country", "United States"] });
+    // Soviet: 5, and no era split qualifies, so a single set.
+    expect(byId["m-country-soviet-union-and-russia"]).toMatchObject({ title: "Soviet Union & Russia", path: ["Aviation", "By Country"] });
+  });
+});
+
+describe("foldSingleItemFolders", () => {
+  const r = (id, path) => ({ id, path });
+
+  it("moves a folder's only item up into its parent", () => {
+    const out = foldSingleItemFolders([r("a", ["Top", "Mid", "Leaf"]), r("b", ["Top", "Other"]), r("c", ["Top", "Other"])]);
+    expect(out.find((x) => x.id === "a").path).toEqual(["Top"]);
+  });
+
+  it("folds a folder whose only item is a sub-folder", () => {
+    const out = foldSingleItemFolders([r("a", ["Top", "Mid", "Leaf"]), r("b", ["Top", "Mid", "Leaf"]), r("c", ["Top", "Other"]), r("d", ["Top", "Other"])]);
+    expect(out.find((x) => x.id === "a").path).toEqual(["Top", "Leaf"]);
+  });
+
+  it("leaves top-level folders and folders holding a hand-written pack", () => {
+    const out = foldSingleItemFolders([r("a", ["Solo"]), r("b", ["Top", "Hand"])], [["Top", "Hand"]]);
+    expect(out.map((x) => x.path)).toEqual([["Solo"], ["Top", "Hand"]]);
   });
 });

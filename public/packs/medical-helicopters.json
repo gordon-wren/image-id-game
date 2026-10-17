@@ -4,7 +4,6 @@
   "description": "Name the air ambulance helicopter from its photo.",
   "path": [
     "Aviation",
-    "Helicopters",
     "Medical transport"
   ],
   "theme": {

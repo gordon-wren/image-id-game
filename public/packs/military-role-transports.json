@@ -1,0 +1,521 @@
+{
+  "id": "military-role-transports",
+  "title": "Transports & tankers",
+  "description": "Airlifters and aerial refuelling tankers.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-transports-c130",
+      "image": "c130.jpg",
+      "answer": "c130",
+      "options": [
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "American military transport aircraft. First flew 1954.",
+      "credit": "U.S. Air Force photo by Tech. Sgt. Howard Blair / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c17",
+      "image": "c17.jpg",
+      "answer": "c17",
+      "options": [
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "American four engine military transport aircraft. First flew 1991.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c5",
+      "image": "c5.jpg",
+      "answer": "c5",
+      "options": [
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        }
+      ],
+      "caption": "American heavy military transport aircraft. First flew 1968.",
+      "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-a400m",
+      "image": "a400m.jpg",
+      "answer": "a400m",
+      "options": [
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
+      "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an124",
+      "image": "an124.jpg",
+      "answer": "an124",
+      "options": [
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "Soviet military transport aircraft. First flew 1982.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an225",
+      "image": "an225.jpg",
+      "answer": "an225",
+      "options": [
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        }
+      ],
+      "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
+      "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-il76",
+      "image": "il76.jpg",
+      "answer": "il76",
+      "options": [
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
+      "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-kc135",
+      "image": "kc135.jpg",
+      "answer": "kc135",
+      "options": [
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        }
+      ],
+      "caption": "US military aerial refueling and transport aircraft. First flew 1956.",
+      "credit": "U.S. Air Force photo/Tech. Sgt. Angelique Perez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-v22",
+      "image": "v22.jpg",
+      "answer": "v22",
+      "options": [
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "Military transport tiltrotor. First flew 1989.",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c390",
+      "image": "c390.jpg",
+      "answer": "c390",
+      "options": [
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        }
+      ],
+      "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-kawasaki-c2",
+      "image": "kawasaki-c2.jpg",
+      "answer": "kawasaki-c2",
+      "options": [
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "Japanese military transport aircraft. First flew 2010.",
+      "credit": "Hunini / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c47",
+      "image": "c47.jpg",
+      "answer": "c47",
+      "options": [
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c46",
+      "image": "c46.jpg",
+      "answer": "c46",
+      "options": [
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "U.S. military transport aircraft with 2 piston engines, 1940. First flew 1940.",
+      "credit": "usaf / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c54",
+      "image": "c54.jpg",
+      "answer": "c54",
+      "options": [
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
+      "credit": "en:User:Signaleer first uploaded to English WP, User:Alaniaris re-uploaded it here / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c119",
+      "image": "c119.jpg",
+      "answer": "c119",
+      "options": [
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        }
+      ],
+      "caption": "American military transport aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c124",
+      "image": "c124.jpg",
+      "answer": "c124",
+      "options": [
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "American heavy lift military aircraft with 4 piston engines, 1946. First flew 1949.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c141",
+      "image": "c141.jpg",
+      "answer": "c141",
+      "options": [
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-kc10",
+      "image": "kc10.jpg",
+      "answer": "kc10",
+      "options": [
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "US aerial refueling tanker aircraft. First flew 1980.",
+      "credit": "U.S. Air Force photo by Staff Sgt. Jerry Morrison / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-c130j",
+      "image": "c130j.jpg",
+      "answer": "c130j",
+      "options": [
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "Military transport aircraft. First flew 1996.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-kc46",
+      "image": "kc46.jpg",
+      "answer": "kc46",
+      "options": [
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
+      "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

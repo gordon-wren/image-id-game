@@ -1,0 +1,771 @@
+{
+  "id": "military-era-late-cold-war",
+  "title": "Late Cold War",
+  "description": "Military aircraft that entered service 1976–1991.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Era"
+  ],
+  "theme": {
+    "accent": "#6B5B3E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-era-late-cold-war-an124",
+      "image": "an124.jpg",
+      "answer": "an124",
+      "options": [
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        }
+      ],
+      "caption": "Soviet military transport aircraft. First flew 1982.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-an225",
+      "image": "an225.jpg",
+      "answer": "an225",
+      "options": [
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
+      "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-e3",
+      "image": "e3.jpg",
+      "answer": "e3",
+      "options": [
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-tu160",
+      "image": "tu160.jpg",
+      "answer": "tu160",
+      "options": [
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        }
+      ],
+      "caption": "American close air support attack aircraft. First flew 1972.",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-tornado",
+      "image": "tornado.jpg",
+      "answer": "tornado",
+      "options": [
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        }
+      ],
+      "caption": "Family of multi-role combat aircraft. First flew 1974.",
+      "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-su27",
+      "image": "su27.jpg",
+      "answer": "su27",
+      "options": [
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
+      "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-mig29",
+      "image": "mig29.jpg",
+      "answer": "mig29",
+      "options": [
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
+      "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-mig31",
+      "image": "mig31.jpg",
+      "answer": "mig31",
+      "options": [
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Interceptor aircraft. First flew 1975.",
+      "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-mirage2000",
+      "image": "mirage2000.jpg",
+      "answer": "mirage2000",
+      "options": [
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "French jet fighter aircraft. First flew 1978.",
+      "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-f117",
+      "image": "f117.jpg",
+      "answer": "f117",
+      "options": [
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "American stealth ground-attack aircraft. First flew 1981.",
+      "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-hawk",
+      "image": "hawk.jpg",
+      "answer": "hawk",
+      "options": [
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "Military training aircraft family. First flew 1974.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-alpha-jet",
+      "image": "alpha-jet.jpg",
+      "answer": "alpha-jet",
+      "options": [
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        }
+      ],
+      "caption": "French light attack fighter. First flew 1973.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-ah64",
+      "image": "ah64.jpg",
+      "answer": "ah64",
+      "options": [
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "U.S. attack helicopter. First flew 1975.",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        }
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-mi26",
+      "image": "mi26.jpg",
+      "answer": "mi26",
+      "options": [
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ],
+      "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-sh60",
+      "image": "sh60.jpg",
+      "answer": "sh60",
+      "options": [
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        }
+      ],
+      "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-ch53e",
+      "image": "ch53e.jpg",
+      "answer": "ch53e",
+      "options": [
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
+      "credit": "Sgt. Seth Starr / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-kc10",
+      "image": "kc10.jpg",
+      "answer": "kc10",
+      "options": [
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        }
+      ],
+      "caption": "US aerial refueling tanker aircraft. First flew 1980.",
+      "credit": "U.S. Air Force photo by Staff Sgt. Jerry Morrison / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-av8b",
+      "image": "av8b.jpg",
+      "answer": "av8b",
+      "options": [
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        }
+      ],
+      "caption": "Anglo-American VSTOL ground-attack aircraft. First flew 1978.",
+      "credit": "U.S. Navy photo by Signalman 3rd Class Matthew A. Alvarado. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-f15e",
+      "image": "f15e.jpg",
+      "answer": "f15e",
+      "options": [
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "American all-weather multirole fighter aircraft. First flew 1986.",
+      "credit": "Staff Sgt. Sean Carnes / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-e6",
+      "image": "e6.jpg",
+      "answer": "e6",
+      "options": [
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        }
+      ],
+      "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
+      "credit": "USAF Greg L. Davis / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-t45",
+      "image": "t45.jpg",
+      "answer": "t45",
+      "options": [
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        }
+      ],
+      "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
+      "credit": "Lt. j.g. John A. Ivancic / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-e8",
+      "image": "e8.jpg",
+      "answer": "e8",
+      "options": [
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-hh60w",
+      "image": "hh60w.jpg",
+      "answer": "hh60w",
+      "options": [
+        {
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        }
+      ],
+      "caption": "American medium-lift military helicopter.",
+      "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

@@ -151,15 +151,16 @@ Then check:
   flights are acceptable; leave them empty rather than guess.
 - `npm run packs` regenerates every generated pack and the collection catalog.
   Existing collection numbers never change; new aircraft get the next ones.
-- Aircraft only reach the game through a pack. Types no recipe matches yet (in
-  the first round: trainers, and WWI and 1920s types) sit in the dataset until a
-  recipe covers them.
+- Aircraft reach the game through the generated menu (`scripts/packs/taxonomy.json`):
+  new aircraft join the era, decade, role and country sets they qualify for, and
+  a new set appears once it has at least 5 aircraft. Types without a
+  service-entry year (not yet in service) only join role and country sets.
 
 ## Attributes
 
 Every aircraft carries three curated fields, set in `seed.json` and validated by
-`public/data/aircraft.schema.json`. Pack recipes in
-`scripts/packs/recipes.json` can filter on all three.
+`public/data/aircraft.schema.json`. The menu definition in
+`scripts/packs/taxonomy.json` can filter on all three.
 
 | Field | Values |
 |---|---|
@@ -170,12 +171,12 @@ Every aircraft carries three curated fields, set in `seed.json` and validated by
 The decade of an aircraft comes from `introduced` (service entry), not a
 separate field.
 
-`group` is the older, coarser field the existing recipes use. `apply.mjs` sets it
+`group` is an older, coarser field; the taxonomy still uses it to split civil
+airliners into widebody, narrowbody and regional. `apply.mjs` sets it
 from the attributes: helicopters → `helicopter`; trainers → `trainer`; piston
 fighters, attack aircraft and bombers up to 1945 → `historic`; other fighters
 and attack aircraft → `fighter-attack`; bombers → `bomber`; everything else →
-`military-transport-special`. Recipes that mean "jets" also filter on
-`engine: "jet"`, so piston types such as the Skyraider stay out of Fighter Jets.
+`military-transport-special`.
 
 ## Notes for the next rounds
 

@@ -4,7 +4,6 @@
   "description": "Name the air ambulance plane from its photo.",
   "path": [
     "Aviation",
-    "Planes",
     "Medical transport"
   ],
   "theme": {

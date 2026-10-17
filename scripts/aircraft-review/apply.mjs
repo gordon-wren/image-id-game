@@ -24,9 +24,9 @@ const review = JSON.parse(await readFile(join(dir, "review.json"), "utf8"));
 const wanted = only ? new Set(only.split(",")) : null;
 const approved = review.filter((a) => !a.dropped && !a.error && (!wanted || wanted.has(a.id)));
 
-// `group` drives the existing pack recipes. Piston fighters, attack aircraft and
-// bombers up to 1945 are "historic" (the WWII Warbirds pack); jets and later
-// types go by role.
+// `group` is the older, coarser field (the menu now uses use/category/engine and
+// service year). Kept consistent: piston fighters, attack aircraft and bombers up
+// to 1945 are "historic"; jets and later types go by role.
 function groupFor(a) {
   if (/helicopter/.test(a.category)) return "helicopter";
   if (a.category === "trainer") return "trainer";

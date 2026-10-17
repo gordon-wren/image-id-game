@@ -1,0 +1,221 @@
+{
+  "id": "military-country-multinational",
+  "title": "Multinational",
+  "description": "Military aircraft built jointly by more than one country.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-multinational-a400m",
+      "image": "a400m.jpg",
+      "answer": "a400m",
+      "options": [
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
+      "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-typhoon",
+      "image": "typhoon.jpg",
+      "answer": "typhoon",
+      "options": [
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-tornado",
+      "image": "tornado.jpg",
+      "answer": "tornado",
+      "options": [
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        }
+      ],
+      "caption": "Family of multi-role combat aircraft. First flew 1974.",
+      "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        }
+      ],
+      "caption": "European attack helicopter. First flew 1991.",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-t45",
+      "image": "t45.jpg",
+      "answer": "t45",
+      "options": [
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        }
+      ],
+      "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
+      "credit": "Lt. j.g. John A. Ivancic / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-uh72",
+      "image": "uh72.jpg",
+      "answer": "uh72",
+      "options": [
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        }
+      ],
+      "caption": "Light utility multipurpose helicopter. First flew 2006.",
+      "credit": "Senior Master Sgt. David Lipp / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-t7",
+      "image": "t7.jpg",
+      "answer": "t7",
+      "options": [
+        {
+          "id": "t7",
+          "label": "Boeing–Saab T-7 Red Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        }
+      ],
+      "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",
+      "credit": "Air Force photo by Bryce Bennett / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-multinational-mh139",
+      "image": "mh139.png",
+      "answer": "mh139",
+      "options": [
+        {
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        }
+      ],
+      "caption": "Military utility helicopter model by Boeing. First flew 2019.",
+      "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

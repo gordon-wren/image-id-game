@@ -1,0 +1,571 @@
+{
+  "id": "military-role-special-mission",
+  "title": "Patrol, recon & special mission",
+  "description": "Maritime patrol, reconnaissance, early warning, electronic warfare and airborne command aircraft.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-special-mission-e3",
+      "image": "e3.jpg",
+      "answer": "e3",
+      "options": [
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-p8",
+      "image": "p8.jpg",
+      "answer": "p8",
+      "options": [
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "American maritime patrol aircraft. First flew 2009.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-p3",
+      "image": "p3.jpg",
+      "answer": "p3",
+      "options": [
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        }
+      ],
+      "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
+      "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-sr71",
+      "image": "sr71.jpg",
+      "answer": "sr71",
+      "options": [
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        }
+      ],
+      "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
+      "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-u2",
+      "image": "u2.jpg",
+      "answer": "u2",
+      "options": [
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "American reconnaissance aircraft. First flew 1955.",
+      "credit": "United States Department of the Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-curtiss-nc",
+      "image": "curtiss-nc.jpg",
+      "answer": "curtiss-nc",
+      "options": [
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        }
+      ],
+      "caption": "American flying boat. First flew 1918.",
+      "credit": "Courtesy of the U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-curtiss-h16",
+      "image": "curtiss-h16.jpg",
+      "answer": "curtiss-h16",
+      "options": [
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        }
+      ],
+      "caption": "American 1914 long range flying boat. First flew 1914.",
+      "credit": "MoD Photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-douglas-o2",
+      "image": "douglas-o2.jpg",
+      "answer": "douglas-o2",
+      "options": [
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "Observation aircraft family by Douglas.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-douglas-world-cruiser",
+      "image": "douglas-world-cruiser.jpg",
+      "answer": "douglas-world-cruiser",
+      "options": [
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        }
+      ],
+      "caption": "Aircraft developed to fly around the world. First flew 1923.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-vought-o2u",
+      "image": "vought-o2u.jpg",
+      "answer": "vought-o2u",
+      "options": [
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        }
+      ],
+      "caption": "1926 naval observation aircraft family.",
+      "credit": "U.S. Navy Photo; The original uploader was Colputt at English Wikipedia., 2007-07-02 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-pby",
+      "image": "pby.jpg",
+      "answer": "pby",
+      "options": [
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "American 1930s flying boat. First flew 1935.",
+      "credit": "Filipe Sousa / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-hu16",
+      "image": "hu16.jpg",
+      "answer": "hu16",
+      "options": [
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        }
+      ],
+      "caption": "American seaplane. First flew 1949.",
+      "credit": "Dylan Agbagni / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-o1",
+      "image": "o1.jpg",
+      "answer": "o1",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        }
+      ],
+      "caption": "Military liaison and observation aircraft. First flew 1949.",
+      "credit": "U.S. Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-e2",
+      "image": "e2.jpg",
+      "answer": "e2",
+      "options": [
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft. First flew 1960.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ov1",
+      "image": "ov1.jpg",
+      "answer": "ov1",
+      "options": [
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        }
+      ],
+      "caption": "Battlefield reconnaissance and forward air control aircraft. First flew 1959.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ov10",
+      "image": "ov10.jpg",
+      "answer": "ov10",
+      "options": [
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "Observation and light attack aircraft. First flew 1965.",
+      "credit": "NASA / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-s3",
+      "image": "s3.jpg",
+      "answer": "s3",
+      "options": [
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        }
+      ],
+      "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ea6b",
+      "image": "ea6b.jpg",
+      "answer": "ea6b",
+      "options": [
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
+      "credit": "Cpl. Neysa Huertas Quinones / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-e4",
+      "image": "e4.jpg",
+      "answer": "e4",
+      "options": [
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        }
+      ],
+      "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
+      "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-e6",
+      "image": "e6.jpg",
+      "answer": "e6",
+      "options": [
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
+      "credit": "USAF Greg L. Davis / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-e8",
+      "image": "e8.jpg",
+      "answer": "e8",
+      "options": [
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        }
+      ],
+      "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ea18g",
+      "image": "ea18g.jpg",
+      "answer": "ea18g",
+      "options": [
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "American electronic warfare aircraft. First flew 2006.",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

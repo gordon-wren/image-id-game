@@ -1,0 +1,622 @@
+{
+  "id": "military-country-united-states-vietnam",
+  "title": "United States: Vietnam era",
+  "description": "Military aircraft from the United States that entered service 1960–1975.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-vietnam-c5",
+      "image": "c5.jpg",
+      "answer": "c5",
+      "options": [
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "American heavy military transport aircraft. First flew 1968.",
+      "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-p3",
+      "image": "p3.jpg",
+      "answer": "p3",
+      "options": [
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        }
+      ],
+      "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
+      "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-sr71",
+      "image": "sr71.jpg",
+      "answer": "sr71",
+      "options": [
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
+      "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-f5",
+      "image": "f5.jpg",
+      "answer": "f5",
+      "options": [
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        }
+      ],
+      "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
+      "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-t38",
+      "image": "t38.jpg",
+      "answer": "t38",
+      "options": [
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        }
+      ],
+      "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-ch47",
+      "image": "ch47.jpg",
+      "answer": "ch47",
+      "options": [
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        }
+      ],
+      "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
+      "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-ch53",
+      "image": "ch53.jpg",
+      "answer": "ch53",
+      "options": [
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        }
+      ],
+      "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
+      "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-ah1",
+      "image": "ah1.jpg",
+      "answer": "ah1",
+      "options": [
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        }
+      ],
+      "caption": "Family of attack helicopters. First flew 1965.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-b58",
+      "image": "b58.jpg",
+      "answer": "b58",
+      "options": [
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        }
+      ],
+      "caption": "Cold War-era American supersonic bomber. First flew 1956.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-sh3",
+      "image": "sh3.jpg",
+      "answer": "sh3",
+      "options": [
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        }
+      ],
+      "caption": "American anti-submarine helicopter. First flew 1959.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-a5",
+      "image": "a5.jpg",
+      "answer": "a5",
+      "options": [
+        {
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        }
+      ],
+      "caption": "Cold War-era U.S. carrier-based supersonic bomber. First flew 1958.",
+      "credit": "NASA Dryden Flight Research Center / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-a6",
+      "image": "a6.jpg",
+      "answer": "a6",
+      "options": [
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        }
+      ],
+      "caption": "1960 attack strike aircraft family by Grumman. First flew 1960.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-e2",
+      "image": "e2.jpg",
+      "answer": "e2",
+      "options": [
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft. First flew 1960.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-c141",
+      "image": "c141.jpg",
+      "answer": "c141",
+      "options": [
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-f111",
+      "image": "f111.jpg",
+      "answer": "f111",
+      "options": [
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        }
+      ],
+      "caption": "Family of strike aircraft developed in 1960s. First flew 1964.",
+      "credit": "Master Sgt. Patrick Nugent / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-a7",
+      "image": "a7.jpg",
+      "answer": "a7",
+      "options": [
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        }
+      ],
+      "caption": "American attack aircraft family. First flew 1965.",
+      "credit": "Robert L. Lawson, U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-a37",
+      "image": "a37.jpg",
+      "answer": "a37",
+      "options": [
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "American light attack aircraft developed from the T-37 Tweet basic trainer. First flew 1963.",
+      "credit": "TSGT KEN HAMMOND / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-ov10",
+      "image": "ov10.jpg",
+      "answer": "ov10",
+      "options": [
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        }
+      ],
+      "caption": "Observation and light attack aircraft. First flew 1965.",
+      "credit": "NASA / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-sh2",
+      "image": "sh2.jpg",
+      "answer": "sh2",
+      "options": [
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
+      "credit": "PH2 Wiggin, USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-hh3",
+      "image": "hh3.jpg",
+      "answer": "hh3",
+      "options": [
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
+      "credit": "United States Coast Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-s3",
+      "image": "s3.jpg",
+      "answer": "s3",
+      "options": [
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-ea6b",
+      "image": "ea6b.jpg",
+      "answer": "ea6b",
+      "options": [
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
+      "credit": "Cpl. Neysa Huertas Quinones / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vietnam-e4",
+      "image": "e4.jpg",
+      "answer": "e4",
+      "options": [
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        }
+      ],
+      "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
+      "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

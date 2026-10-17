@@ -1,0 +1,89 @@
+{
+  "minAircraft": 5,
+  "questionsPerRound": 20,
+
+  "eras": [
+    { "id": "wwi", "name": "WWI and earlier", "to": 1918 },
+    { "id": "interwar", "name": "Between the wars", "from": 1919, "to": 1938 },
+    { "id": "wwii", "name": "WWII", "from": 1939, "to": 1945 },
+    { "id": "early-cold-war", "name": "Early Cold War", "from": 1946, "to": 1959 },
+    { "id": "vietnam", "name": "Vietnam era", "from": 1960, "to": 1975 },
+    { "id": "late-cold-war", "name": "Late Cold War", "from": 1976, "to": 1991 },
+    { "id": "post-cold-war", "name": "Post-Cold War", "from": 1992, "to": 2009 },
+    { "id": "modern", "name": "Modern", "from": 2010 }
+  ],
+
+  "nationAliases": {
+    "Soviet Union": "Soviet Union & Russia",
+    "Russia": "Soviet Union & Russia",
+    "Soviet Union (Russia since 1991)": "Soviet Union & Russia",
+    "German Reich": "Germany",
+    "West Germany": "Germany",
+    "Empire of Japan": "Japan",
+    "People's Republic of China": "China",
+    "UK": "United Kingdom",
+    "Multi-national": "Multinational"
+  },
+
+  "menus": [
+    {
+      "id": "military-era",
+      "path": ["Aviation", "Military", "By Era"],
+      "where": { "use": "military" },
+      "by": "era",
+      "accent": "#6B5B3E"
+    },
+    {
+      "id": "military-decade",
+      "path": ["Aviation", "Military", "By Decade"],
+      "where": { "use": "military" },
+      "by": "decade",
+      "accent": "#46607A"
+    },
+    {
+      "id": "military-role",
+      "path": ["Aviation", "Military", "By Role"],
+      "where": { "use": "military" },
+      "accent": "#A32D2D",
+      "sets": [
+        { "id": "fighters", "name": "Fighters", "description": "Military fighters from every era.", "where": { "category": "fighter" } },
+        { "id": "attack", "name": "Attack aircraft", "description": "Ground-attack and strike aircraft.", "where": { "category": "attack" } },
+        { "id": "bombers", "name": "Bombers", "description": "Bombers from the biplane era to stealth.", "where": { "category": "bomber" } },
+        { "id": "transports", "name": "Transports & tankers", "description": "Airlifters and aerial refuelling tankers.", "where": { "category": ["transport", "tanker"] } },
+        { "id": "special-mission", "name": "Patrol, recon & special mission", "description": "Maritime patrol, reconnaissance, early warning, electronic warfare and airborne command aircraft.", "where": { "category": ["patrol", "reconnaissance", "airborne-early-warning", "electronic-warfare", "airborne-command"] } },
+        { "id": "drones", "name": "Drones", "description": "Uncrewed military aircraft.", "where": { "category": "uav" } },
+        { "id": "trainers", "name": "Trainers", "description": "Aircraft that taught military pilots to fly.", "where": { "category": "trainer" } },
+        { "id": "helicopters", "name": "Military helicopters", "description": "Attack, utility and heavy-lift military helicopters.", "where": { "category": ["attack-helicopter", "utility-helicopter", "cargo-helicopter"] } }
+      ]
+    },
+    {
+      "id": "military-country",
+      "path": ["Aviation", "Military", "By Country"],
+      "where": { "use": "military" },
+      "by": "nation",
+      "then": "era",
+      "accent": "#B23A3A"
+    },
+    {
+      "id": "civil-airliners",
+      "path": ["Aviation", "Civil", "Airliners"],
+      "where": { "use": "civil", "category": "airliner" },
+      "accent": "#185FA5",
+      "sets": [
+        { "id": "widebody", "name": "Widebody airliners", "description": "Twin-aisle jets, from the 707 era to the A350.", "where": { "group": "airliner-widebody" } },
+        { "id": "narrowbody", "name": "Narrowbody airliners", "description": "Single-aisle jets, from the 727 to the A320neo.", "where": { "group": "airliner-narrowbody" } },
+        { "id": "regional", "name": "Regional airliners", "description": "Regional jets and turboprops.", "where": { "group": "regional" } }
+      ]
+    },
+    {
+      "id": "civil",
+      "path": ["Aviation", "Civil"],
+      "where": { "use": "civil" },
+      "accent": "#B0721A",
+      "sets": [
+        { "id": "business-general-aviation", "name": "Business & general aviation", "description": "Light aircraft, utility turboprops and business jets.", "where": { "category": ["business", "light", "utility"] } },
+        { "id": "helicopters", "name": "Civil helicopters", "description": "Training, utility and offshore helicopters.", "where": { "category": "utility-helicopter" } }
+      ]
+    }
+  ]
+}

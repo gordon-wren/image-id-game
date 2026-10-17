@@ -1,23 +1,24 @@
 {
-  "id": "narrowbody-airliners",
-  "title": "Narrowbody Airliners",
+  "id": "civil-airliners-narrowbody",
+  "title": "Narrowbody airliners",
   "description": "Single-aisle jets, from the 727 to the A320neo.",
   "path": [
     "Aviation",
-    "Planes",
-    "Commercial"
+    "Civil",
+    "Airliners"
   ],
   "theme": {
-    "accent": "#2B7BB9"
+    "accent": "#185FA5"
   },
   "assetBase": "assets/aircraft/",
   "roundSeconds": 7,
   "shuffleOptions": true,
   "shuffleQuestions": true,
-  "generatedFrom": "scripts/packs/recipes.json",
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
   "questions": [
     {
-      "id": "narrowbody-airliners-b737-classic",
+      "id": "civil-airliners-narrowbody-b737-classic",
       "image": "b737-classic.jpg",
       "answer": "b737-classic",
       "options": [
@@ -30,19 +31,19 @@
           "label": "Boeing 757"
         },
         {
-          "id": "b747sp",
-          "label": "Boeing 747SP"
+          "id": "a320",
+          "label": "Airbus A320"
         },
         {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
+          "id": "b727",
+          "label": "Boeing 727"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 1984.",
       "credit": "Dylan Ashe from San Jose, USA / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-b737ng",
+      "id": "civil-airliners-narrowbody-b737ng",
       "image": "b737ng.jpg",
       "answer": "b737ng",
       "options": [
@@ -51,23 +52,23 @@
           "label": "Boeing 737 Next Generation"
         },
         {
-          "id": "b757",
-          "label": "Boeing 757"
-        },
-        {
-          "id": "md80",
-          "label": "McDonnell Douglas MD-80"
-        },
-        {
           "id": "b737max",
           "label": "Boeing 737 MAX"
+        },
+        {
+          "id": "a320",
+          "label": "Airbus A320"
+        },
+        {
+          "id": "b757",
+          "label": "Boeing 757"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 1997.",
       "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-b737max",
+      "id": "civil-airliners-narrowbody-b737max",
       "image": "b737max.jpg",
       "answer": "b737max",
       "options": [
@@ -80,19 +81,19 @@
           "label": "Boeing 717"
         },
         {
-          "id": "b727",
-          "label": "Boeing 727"
+          "id": "b737ng",
+          "label": "Boeing 737 Next Generation"
         },
         {
-          "id": "b757",
-          "label": "Boeing 757"
+          "id": "md80",
+          "label": "McDonnell Douglas MD-80"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 2016.",
       "credit": "KirkXWB / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-b727",
+      "id": "civil-airliners-narrowbody-b727",
       "image": "b727.jpg",
       "answer": "b727",
       "options": [
@@ -101,23 +102,23 @@
           "label": "Boeing 727"
         },
         {
-          "id": "b757",
-          "label": "Boeing 757"
-        },
-        {
           "id": "md80",
           "label": "McDonnell Douglas MD-80"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
+        },
+        {
+          "id": "b717",
+          "label": "Boeing 717"
         }
       ],
       "caption": "Three-engined single-aisle airliner family. First flew 1963.",
       "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-b757",
+      "id": "civil-airliners-narrowbody-b757",
       "image": "b757.jpg",
       "answer": "b757",
       "options": [
@@ -126,23 +127,23 @@
           "label": "Boeing 757"
         },
         {
-          "id": "md80",
-          "label": "McDonnell Douglas MD-80"
-        },
-        {
-          "id": "f100",
-          "label": "Fokker 100"
-        },
-        {
           "id": "b737-classic",
           "label": "Boeing 737 Classic"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b717",
+          "label": "Boeing 717"
         }
       ],
       "caption": "Large single-aisle airliner family. First flew 1982.",
       "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-b717",
+      "id": "civil-airliners-narrowbody-b717",
       "image": "b717.jpg",
       "answer": "b717",
       "options": [
@@ -155,19 +156,19 @@
           "label": "Boeing 737 MAX"
         },
         {
-          "id": "b757",
-          "label": "Boeing 757"
+          "id": "b727",
+          "label": "Boeing 727"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
         }
       ],
       "caption": "Small single-aisle airliner. First flew 1998.",
       "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-a320",
+      "id": "civil-airliners-narrowbody-a320",
       "image": "a320.jpg",
       "answer": "a320",
       "options": [
@@ -176,23 +177,23 @@
           "label": "Airbus A320"
         },
         {
+          "id": "b757",
+          "label": "Boeing 757"
+        },
+        {
+          "id": "b737ng",
+          "label": "Boeing 737 Next Generation"
+        },
+        {
           "id": "bae146",
           "label": "British Aerospace 146"
-        },
-        {
-          "id": "b737-classic",
-          "label": "Boeing 737 Classic"
-        },
-        {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
         }
       ],
       "caption": "Single-aisle airliner family. First flew 1987.",
       "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-a320neo",
+      "id": "civil-airliners-narrowbody-a320neo",
       "image": "a320neo.jpg",
       "answer": "a320neo",
       "options": [
@@ -205,19 +206,19 @@
           "label": "Comac C919"
         },
         {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
+          "id": "ssj100",
+          "label": "Sukhoi Superjet 100"
         },
         {
-          "id": "a350",
-          "label": "Airbus A350"
+          "id": "a220",
+          "label": "Airbus A220"
         }
       ],
       "caption": "Re-engined version of the A320 family. First flew 2014.",
       "credit": "BriYYZ from Toronto, Canada / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-a220",
+      "id": "civil-airliners-narrowbody-a220",
       "image": "a220.jpg",
       "answer": "a220",
       "options": [
@@ -226,23 +227,23 @@
           "label": "Airbus A220"
         },
         {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
+          "id": "a320neo",
+          "label": "Airbus A320neo"
         },
         {
           "id": "b737ng",
           "label": "Boeing 737 Next Generation"
         },
         {
-          "id": "c919",
-          "label": "Comac C919"
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
         }
       ],
       "caption": "Canadian narrow-body airliner family. First flew 2015.",
       "credit": "The Cosmonaut / CC BY-SA 2.5 ca / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-md80",
+      "id": "civil-airliners-narrowbody-md80",
       "image": "md80.jpg",
       "answer": "md80",
       "options": [
@@ -251,23 +252,23 @@
           "label": "McDonnell Douglas MD-80"
         },
         {
-          "id": "b737-classic",
-          "label": "Boeing 737 Classic"
-        },
-        {
-          "id": "b717",
-          "label": "Boeing 717"
-        },
-        {
           "id": "b757",
           "label": "Boeing 757"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "b737-classic",
+          "label": "Boeing 737 Classic"
         }
       ],
       "caption": "Jet airliner model, series based on the DC-9. First flew 1979.",
       "credit": "AKS.9955 / CC0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-tu154",
+      "id": "civil-airliners-narrowbody-tu154",
       "image": "tu154.jpg",
       "answer": "tu154",
       "options": [
@@ -276,23 +277,23 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
-        },
-        {
-          "id": "f100",
-          "label": "Fokker 100"
-        },
-        {
           "id": "b727",
           "label": "Boeing 727"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
         }
       ],
       "caption": "Soviet and Russian medium-range trijet airliner. First flew 1968.",
       "credit": "Vasyatka1 / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-c919",
+      "id": "civil-airliners-narrowbody-c919",
       "image": "c919.jpg",
       "answer": "c919",
       "options": [
@@ -301,23 +302,23 @@
           "label": "Comac C919"
         },
         {
-          "id": "a320neo",
-          "label": "Airbus A320neo"
+          "id": "ssj100",
+          "label": "Sukhoi Superjet 100"
         },
         {
-          "id": "a220",
-          "label": "Airbus A220"
+          "id": "a320",
+          "label": "Airbus A320"
         },
         {
-          "id": "b737ng",
-          "label": "Boeing 737 Next Generation"
+          "id": "tu154",
+          "label": "Tupolev Tu-154"
         }
       ],
       "caption": "Chinese medium-range narrowbody airliner. First flew 2017.",
       "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-ssj100",
+      "id": "civil-airliners-narrowbody-ssj100",
       "image": "ssj100.jpg",
       "answer": "ssj100",
       "options": [
@@ -326,23 +327,23 @@
           "label": "Sukhoi Superjet 100"
         },
         {
-          "id": "a220",
-          "label": "Airbus A220"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         },
         {
-          "id": "a320neo",
-          "label": "Airbus A320neo"
+          "id": "c919",
+          "label": "Comac C919"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
+          "id": "b737max",
+          "label": "Boeing 737 MAX"
         }
       ],
       "caption": "Russian twin-engine regional jet. First flew 2008.",
       "credit": "Mike1979 Russia / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-f100",
+      "id": "civil-airliners-narrowbody-f100",
       "image": "f100.jpg",
       "answer": "f100",
       "options": [
@@ -351,23 +352,23 @@
           "label": "Fokker 100"
         },
         {
-          "id": "md80",
-          "label": "McDonnell Douglas MD-80"
-        },
-        {
           "id": "a320",
           "label": "Airbus A320"
         },
         {
           "id": "b737-classic",
           "label": "Boeing 737 Classic"
+        },
+        {
+          "id": "ssj100",
+          "label": "Sukhoi Superjet 100"
         }
       ],
       "caption": "Twin-engine airliner produced 1986–1997. First flew 1986.",
       "credit": "Laurent ERRERA from L'Union, France / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "narrowbody-airliners-bae146",
+      "id": "civil-airliners-narrowbody-bae146",
       "image": "bae146.jpg",
       "answer": "bae146",
       "options": [
@@ -376,16 +377,16 @@
           "label": "British Aerospace 146"
         },
         {
-          "id": "b737-classic",
-          "label": "Boeing 737 Classic"
+          "id": "md80",
+          "label": "McDonnell Douglas MD-80"
         },
         {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
+          "id": "b737ng",
+          "label": "Boeing 737 Next Generation"
         },
         {
-          "id": "f100",
-          "label": "Fokker 100"
+          "id": "a320",
+          "label": "Airbus A320"
         }
       ],
       "caption": "Four-engined regional jet airliner family by British Aerospace, later BAE Systems. First flew 1981.",

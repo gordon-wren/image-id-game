@@ -1,0 +1,221 @@
+{
+  "id": "military-decade-1920s",
+  "title": "1920s",
+  "description": "Military aircraft that entered service in the 1920s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1920s-martin-mb2",
+      "image": "martin-mb2.jpg",
+      "answer": "martin-mb2",
+      "options": [
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        }
+      ],
+      "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-curtiss-p1",
+      "image": "curtiss-p1.jpg",
+      "answer": "curtiss-p1",
+      "options": [
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        }
+      ],
+      "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-boeing-pw9",
+      "image": "boeing-pw9.jpg",
+      "answer": "boeing-pw9",
+      "options": [
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1923.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-douglas-o2",
+      "image": "douglas-o2.jpg",
+      "answer": "douglas-o2",
+      "options": [
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "Observation aircraft family by Douglas.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-douglas-world-cruiser",
+      "image": "douglas-world-cruiser.jpg",
+      "answer": "douglas-world-cruiser",
+      "options": [
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        }
+      ],
+      "caption": "Aircraft developed to fly around the world. First flew 1923.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-vought-o2u",
+      "image": "vought-o2u.jpg",
+      "answer": "vought-o2u",
+      "options": [
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        }
+      ],
+      "caption": "1926 naval observation aircraft family.",
+      "credit": "U.S. Navy Photo; The original uploader was Colputt at English Wikipedia., 2007-07-02 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-curtiss-f8c",
+      "image": "curtiss-f8c.jpg",
+      "answer": "curtiss-f8c",
+      "options": [
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "wright-flyer",
+          "label": "Wright Flyer"
+        }
+      ],
+      "caption": "American multirole aircraft.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-consolidated-pt1",
+      "image": "consolidated-pt1.jpg",
+      "answer": "consolidated-pt1",
+      "options": [
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        }
+      ],
+      "caption": "US military trainer aircraft.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    }
+  ]
+}
