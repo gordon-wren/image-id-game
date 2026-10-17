@@ -31,12 +31,12 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "mq25",
-          "label": "Boeing MQ-25 Stingray"
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -52,16 +52,16 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "mq25",
-          "label": "Boeing MQ-25 Stingray"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
         }
       ],
       "caption": "American maritime patrol aircraft. First flew 2009.",
@@ -77,16 +77,16 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
           "id": "kawasaki-c2",
           "label": "Kawasaki C-2"
-        },
-        {
-          "id": "ejet-e2",
-          "label": "Embraer E-Jet E2"
         }
       ],
       "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
@@ -106,12 +106,12 @@
           "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 2010.",
@@ -127,16 +127,16 @@
           "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "su57",
+          "label": "Sukhoi Su-57"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         },
         {
-          "id": "av8b",
-          "label": "McDonnell Douglas AV-8B Harrier II"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "American stealth multirole fighter aircraft. First flew 2006.",
@@ -156,12 +156,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "tejas",
+          "label": "HAL Tejas"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -185,8 +185,8 @@
           "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "j20",
+          "label": "Chengdu J-20"
         }
       ],
       "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
@@ -202,8 +202,8 @@
           "label": "Chengdu J-20"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "tejas",
+          "label": "HAL Tejas"
         },
         {
           "id": "f35",
@@ -227,16 +227,16 @@
           "label": "HAL Tejas"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
         },
         {
           "id": "su35",
           "label": "Sukhoi Su-35"
-        },
-        {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
         }
       ],
       "caption": "Indian combat aircraft. First flew 2001.",
@@ -252,16 +252,16 @@
           "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         }
       ],
       "caption": "American attack helicopter. First flew 2000.",
@@ -277,16 +277,16 @@
           "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         }
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",

@@ -27,16 +27,16 @@
           "label": "Airbus A400M Atlas"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "kawasaki-c2",
-          "label": "Kawasaki C-2"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -56,12 +56,12 @@
           "label": "Panavia Tornado"
         },
         {
-          "id": "f15e",
-          "label": "McDonnell Douglas F-15E Strike Eagle"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
@@ -77,16 +77,16 @@
           "label": "Panavia Tornado"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
-        },
-        {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
-        },
-        {
           "id": "typhoon",
           "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "Family of multi-role combat aircraft. First flew 1974.",
@@ -102,16 +102,16 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "as365",
-          "label": "Airbus Helicopters AS365 Dauphin"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -127,16 +127,16 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "hawk",
-          "label": "BAE Systems Hawk"
+          "id": "t7",
+          "label": "Boeing–Saab T-7 Red Hawk"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -152,16 +152,16 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "h145",
-          "label": "Airbus H145 (EC145)"
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -181,12 +181,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
         }
       ],
       "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",
@@ -202,16 +202,16 @@
           "label": "Boeing MH-139 Grey Wolf"
         },
         {
-          "id": "ch53k",
-          "label": "Sikorsky CH-53K King Stallion"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "aw139",
-          "label": "AgustaWestland AW139"
+          "id": "t7",
+          "label": "Boeing–Saab T-7 Red Hawk"
         }
       ],
       "caption": "Military utility helicopter model by Boeing. First flew 2019.",

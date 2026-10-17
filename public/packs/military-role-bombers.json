@@ -31,8 +31,8 @@
           "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         },
         {
           "id": "b58",
@@ -181,8 +181,8 @@
           "label": "Tupolev Tu-160"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
         },
         {
           "id": "b1",
@@ -206,8 +206,8 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
           "id": "b57",
@@ -227,16 +227,16 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
-        },
-        {
-          "id": "b29",
-          "label": "Boeing B-29 Superfortress"
-        },
-        {
           "id": "lancaster",
           "label": "Avro Lancaster"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
         }
       ],
       "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
@@ -252,16 +252,16 @@
           "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
-        },
-        {
           "id": "b29",
           "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "tbf",
-          "label": "Grumman TBF Avenger"
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         }
       ],
       "caption": "American heavy bomber aircraft. First flew 1935.",
@@ -281,12 +281,12 @@
           "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         }
       ],
       "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
@@ -306,12 +306,12 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "f8f",
-          "label": "Grumman F8F Bearcat"
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",
@@ -331,8 +331,8 @@
           "label": "Martin NBS-1"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         },
         {
           "id": "b26",
@@ -352,16 +352,16 @@
           "label": "Airco DH.4"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         },
         {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "British bomber used during the First World War. First flew 1916.",
@@ -381,12 +381,12 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
@@ -402,16 +402,16 @@
           "label": "Keystone B-3"
         },
         {
-          "id": "curtiss-f8c",
-          "label": "Curtiss Falcon"
-        },
-        {
           "id": "b18",
           "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         }
       ],
       "caption": "Bomber aircraft family by Keystone.",
@@ -431,8 +431,8 @@
           "label": "Martin B-26 Marauder"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
           "id": "martin-mb1",
@@ -452,16 +452,16 @@
           "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         },
         {
-          "id": "sbd",
-          "label": "Douglas SBD Dauntless"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American twin-engined medium bomber aircraft in service 1936-1946. First flew 1935.",
@@ -477,16 +477,16 @@
           "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
-        },
-        {
-          "id": "a26",
-          "label": "Douglas A-26 Invader"
-        },
-        {
           "id": "b25",
           "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         }
       ],
       "caption": "1939 bomber aircraft family by Consolidated Aircraft. First flew 1939.",
@@ -502,16 +502,16 @@
           "label": "North American B-25 Mitchell"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         }
       ],
       "caption": "American WWII medium bomber. First flew 1940.",
@@ -531,8 +531,8 @@
           "label": "Martin B-10"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         },
         {
           "id": "martin-mb1",
@@ -556,8 +556,8 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "f106",
-          "label": "Convair F-106 Delta Dart"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         },
         {
           "id": "b2",
@@ -585,8 +585,8 @@
           "label": "Martin B-57 Canberra"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         }
       ],
       "caption": "Cold War-era American jet bomber. First flew 1947.",
@@ -635,8 +635,8 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "Cold War-era American supersonic bomber. First flew 1956.",

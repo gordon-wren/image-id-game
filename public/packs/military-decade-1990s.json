@@ -27,16 +27,16 @@
           "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
-        },
-        {
-          "id": "e4",
-          "label": "Boeing E-4"
-        },
-        {
           "id": "e8",
           "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         }
       ],
       "caption": "American four engine military transport aircraft. First flew 1991.",
@@ -52,16 +52,16 @@
           "label": "Northrop B-2 Spirit"
         },
         {
-          "id": "b21",
-          "label": "Northrop Grumman B-21 Raider"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "American heavy strategic bomber. First flew 1989.",
@@ -77,16 +77,16 @@
           "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         },
         {
-          "id": "av8b",
-          "label": "McDonnell Douglas AV-8B Harrier II"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "saab340",
-          "label": "Saab 340"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
@@ -102,16 +102,16 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -127,16 +127,16 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "hawk",
-          "label": "BAE Systems Hawk"
-        },
-        {
           "id": "t1",
           "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -152,16 +152,16 @@
           "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
-        },
-        {
-          "id": "kc10",
-          "label": "McDonnell Douglas KC-10 Extender"
-        },
-        {
           "id": "mq1",
           "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
@@ -177,16 +177,16 @@
           "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         }
       ],
       "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
@@ -202,16 +202,16 @@
           "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
-        },
-        {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
           "id": "e8",
           "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         }
       ],
       "caption": "Family of unmanned aerial vehicles. First flew 1994.",
@@ -231,12 +231,12 @@
           "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "mq8",
-          "label": "Northrop Grumman MQ-8 Fire Scout"
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         }
       ],
       "caption": "Military transport aircraft. First flew 1996.",

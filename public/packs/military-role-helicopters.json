@@ -31,12 +31,12 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
         }
       ],
       "caption": "U.S. attack helicopter. First flew 1975.",
@@ -52,16 +52,16 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         },
         {
-          "id": "md500",
-          "label": "MD Helicopters MD 500"
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "h21",
+          "label": "Piasecki H-21"
         }
       ],
       "caption": "Huey family of American military utility helicopters. First flew 1956.",
@@ -77,16 +77,16 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
-        },
-        {
-          "id": "sh2",
-          "label": "Kaman SH-2 Seasprite"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         },
         {
           "id": "h21",
           "label": "Piasecki H-21"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         }
       ],
       "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
@@ -102,16 +102,16 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        },
-        {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
-        },
-        {
           "id": "ch53",
           "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         }
       ],
       "caption": "Series of military utility transport helicopters. First flew 1974.",
@@ -156,12 +156,12 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "r22",
-          "label": "Robinson R22"
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Family of attack helicopters. First flew 1965.",
@@ -181,12 +181,12 @@
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -235,8 +235,8 @@
           "label": "Mil Mi-24"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -260,8 +260,8 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -277,16 +277,16 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "h145",
-          "label": "Airbus H145 (EC145)"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -302,16 +302,16 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "ka50",
+          "label": "Kamov Ka-50"
         },
         {
-          "id": "r44",
-          "label": "Robinson R44"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "mi26",
-          "label": "Mil Mi-26"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
@@ -360,8 +360,8 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
@@ -377,16 +377,16 @@
           "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        },
-        {
-          "id": "s92",
-          "label": "Sikorsky S-92"
-        },
-        {
           "id": "uh60",
           "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
         }
       ],
       "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
@@ -410,8 +410,8 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "h21",
+          "label": "Piasecki H-21"
         }
       ],
       "caption": "Two-seat military helicopter of the 1940s. First flew 1942.",
@@ -456,12 +456,12 @@
           "label": "Sikorsky SH-3 Sea King"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
         }
       ],
       "caption": "American military transport helicopter family. First flew 1952.",
@@ -481,12 +481,12 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "r4",
+          "label": "Sikorsky R-4"
         }
       ],
       "caption": "American anti-submarine helicopter. First flew 1959.",
@@ -510,8 +510,8 @@
           "label": "Sikorsky SH-3 Sea King"
         },
         {
-          "id": "md500",
-          "label": "MD Helicopters MD 500"
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
         }
       ],
       "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
@@ -552,16 +552,16 @@
           "label": "Sikorsky CH-53E Super Stallion"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
         }
       ],
       "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
@@ -577,16 +577,16 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "ch53k",
-          "label": "Sikorsky CH-53K King Stallion"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -606,12 +606,12 @@
           "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
-        },
-        {
           "id": "sh60",
           "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
         }
       ],
       "caption": "Military utility helicopter model by Bell. First flew 2001.",
@@ -631,12 +631,12 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         }
       ],
       "caption": "American attack helicopter. First flew 2000.",
@@ -656,12 +656,12 @@
           "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "md500",
-          "label": "MD Helicopters MD 500"
-        },
-        {
           "id": "h21",
           "label": "Piasecki H-21"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
         }
       ],
       "caption": "American medium-lift military helicopter.",
@@ -677,16 +677,16 @@
           "label": "Sikorsky CH-53K King Stallion"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
         }
       ],
       "caption": "Heavy transport helicopter. First flew 2015.",
@@ -706,12 +706,12 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "Military utility helicopter model by Boeing. First flew 2019.",

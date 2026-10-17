@@ -114,6 +114,23 @@ describe("buildPack", () => {
     expect(q.caption).toBe("McDonnell Douglas F-15 Eagle description. First flew 1972.");
   });
 
+  it("draws wrong answers only from the set's own aircraft", () => {
+    const pack = buildPack({ ...recipe, where: { ids: ["f15", "f16", "su27", "mig29", "a380"] } }, fleet);
+    const members = new Set(["f15", "f16", "su27", "mig29", "a380"]);
+    for (const q of pack.questions) expect(q.options.every((o) => members.has(o.id)), q.id).toBe(true);
+  });
+
+  it("tops up from the wider dataset only when the set has too few candidates", () => {
+    // For the 747 only the 777 and A380 qualify: the 747-8 is its own variant.
+    const pack = buildPack({ ...recipe, where: { ids: ["b747", "b747-8", "b777", "a380"] } }, fleet, 4);
+    const q = pack.questions.find((x) => x.answer === "b747");
+    const wrong = q.options.filter((o) => o.id !== "b747").map((o) => o.id);
+    expect(wrong).toHaveLength(3);
+    expect(wrong).toEqual(expect.arrayContaining(["b777", "a380"]));
+    expect(wrong).not.toContain("b747-8");
+    expect(wrong.filter((id) => !["b747-8", "b777", "a380"].includes(id))).toHaveLength(1);
+  });
+
   it("refuses recipes that match too few aircraft", () => {
     expect(() => buildPack({ ...recipe, where: { group: "business-general" } }, fleet)).toThrow(/at least 5/);
   });

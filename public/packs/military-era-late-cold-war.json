@@ -31,8 +31,8 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "kc10",
-          "label": "McDonnell Douglas KC-10 Extender"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         },
         {
           "id": "e8",
@@ -56,12 +56,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "rq7",
-          "label": "AAI RQ-7 Shadow"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -77,16 +77,16 @@
           "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         }
       ],
       "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
@@ -102,16 +102,16 @@
           "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
         },
         {
-          "id": "b21",
-          "label": "Northrop Grumman B-21 Raider"
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
         }
       ],
       "caption": "American strategic bomber. First flew 1974.",
@@ -131,12 +131,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
-        },
-        {
           "id": "b1",
           "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -152,16 +152,16 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
-        },
-        {
           "id": "tu160",
           "label": "Tupolev Tu-160"
         },
         {
           "id": "b1",
           "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -177,16 +177,16 @@
           "label": "General Dynamics F-16 Fighting Falcon"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
-        },
-        {
           "id": "fa18",
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         }
       ],
       "caption": "American multi-role fighter aircraft. First flew 1974.",
@@ -206,8 +206,8 @@
           "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
           "id": "av8b",
@@ -231,12 +231,12 @@
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "f15e",
-          "label": "McDonnell Douglas F-15E Strike Eagle"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
         }
       ],
       "caption": "Multirole and air superiority fighter family. First flew 1972.",
@@ -252,16 +252,16 @@
           "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
-        },
-        {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
-        },
-        {
           "id": "f117",
           "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         }
       ],
       "caption": "American close air support attack aircraft. First flew 1972.",
@@ -277,16 +277,16 @@
           "label": "Panavia Tornado"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
-        },
-        {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
-        },
-        {
           "id": "f117",
           "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
         }
       ],
       "caption": "Family of multi-role combat aircraft. First flew 1974.",
@@ -302,16 +302,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "av8b",
-          "label": "McDonnell Douglas AV-8B Harrier II"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -331,12 +331,12 @@
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -356,12 +356,12 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
-        },
-        {
           "id": "su27",
           "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -377,16 +377,16 @@
           "label": "Dassault Mirage 2000"
         },
         {
-          "id": "rafale",
-          "label": "Dassault Rafale"
-        },
-        {
           "id": "mig29",
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "f14",
-          "label": "Grumman F-14 Tomcat"
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "French jet fighter aircraft. First flew 1978.",
@@ -431,12 +431,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "tornado",
+          "label": "Panavia Tornado"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -456,12 +456,12 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -477,16 +477,16 @@
           "label": "Boeing AH-64 Apache"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
         }
       ],
       "caption": "U.S. attack helicopter. First flew 1975.",
@@ -502,16 +502,16 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
         },
         {
-          "id": "sh3",
-          "label": "Sikorsky SH-3 Sea King"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         }
       ],
       "caption": "Series of military utility transport helicopters. First flew 1974.",
@@ -527,16 +527,16 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
-        },
-        {
           "id": "ch53e",
           "label": "Sikorsky CH-53E Super Stallion"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
@@ -552,16 +552,16 @@
           "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
-        },
-        {
           "id": "uh60",
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
         }
       ],
       "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
@@ -581,12 +581,12 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "ch53",
-          "label": "Sikorsky CH-53 Sea Stallion"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
         }
       ],
       "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
@@ -602,16 +602,16 @@
           "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
         }
       ],
       "caption": "US aerial refueling tanker aircraft. First flew 1980.",
@@ -631,12 +631,12 @@
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
-        },
-        {
           "id": "f117",
           "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         }
       ],
       "caption": "Anglo-American VSTOL ground-attack aircraft. First flew 1978.",
@@ -652,16 +652,16 @@
           "label": "McDonnell Douglas F-15E Strike Eagle"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
-        },
-        {
           "id": "fa18",
           "label": "McDonnell Douglas F/A-18 Hornet"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
         }
       ],
       "caption": "American all-weather multirole fighter aircraft. First flew 1986.",
@@ -677,16 +677,16 @@
           "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
         }
       ],
       "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
@@ -706,12 +706,12 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -727,16 +727,16 @@
           "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "mq1",
-          "label": "General Atomics MQ-1 Predator"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         }
       ],
       "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
@@ -752,16 +752,16 @@
           "label": "Sikorsky HH-60 Pave Hawk"
         },
         {
-          "id": "r44",
-          "label": "Robinson R44"
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "sh2",
-          "label": "Kaman SH-2 Seasprite"
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
         }
       ],
       "caption": "American medium-lift military helicopter.",

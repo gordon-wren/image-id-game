@@ -32,12 +32,12 @@
           "label": "Boeing P-12"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
-        },
-        {
           "id": "a17",
           "label": "Northrop A-17"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         }
       ],
       "caption": "American heavy bomber aircraft. First flew 1935.",
@@ -53,16 +53,16 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "curtiss-h16",
-          "label": "Curtiss Model H"
-        },
-        {
           "id": "pby",
           "label": "Consolidated PBY Catalina"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
         }
       ],
       "caption": "American flying boat. First flew 1918.",
@@ -78,16 +78,16 @@
           "label": "Martin NBS-1"
         },
         {
-          "id": "martin-mb1",
-          "label": "Martin MB-1"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         }
       ],
       "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
@@ -103,16 +103,16 @@
           "label": "Curtiss P-1 Hawk"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         },
         {
-          "id": "martin-mb1",
-          "label": "Martin MB-1"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         }
       ],
       "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
@@ -136,8 +136,8 @@
           "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         }
       ],
       "caption": "American fighter aircraft. First flew 1923.",
@@ -153,16 +153,16 @@
           "label": "Douglas O-2"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
         }
       ],
       "caption": "Observation aircraft family by Douglas.",
@@ -178,16 +178,16 @@
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
         },
         {
-          "id": "c119",
-          "label": "Fairchild C-119 Flying Boxcar"
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
         }
       ],
       "caption": "Aircraft developed to fly around the world. First flew 1923.",
@@ -203,16 +203,16 @@
           "label": "Vought O2U Corsair"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
         }
       ],
       "caption": "1926 naval observation aircraft family.",
@@ -232,12 +232,12 @@
           "label": "Boeing P-26 Peashooter"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
-        },
-        {
           "id": "p36",
           "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         }
       ],
       "caption": "US military fighter aircraft in service 1930-1941. First flew 1928.",
@@ -253,16 +253,16 @@
           "label": "Curtiss Falcon"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
         },
         {
-          "id": "a26",
-          "label": "Douglas A-26 Invader"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American multirole aircraft.",
@@ -278,16 +278,16 @@
           "label": "Keystone B-3"
         },
         {
-          "id": "tbf",
-          "label": "Grumman TBF Avenger"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         }
       ],
       "caption": "Bomber aircraft family by Keystone.",
@@ -303,16 +303,16 @@
           "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "t6",
+          "label": "North American T-6 Texan"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
         }
       ],
       "caption": "US military trainer aircraft.",
@@ -332,12 +332,12 @@
           "label": "Boeing Model 15"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
         },
         {
-          "id": "tbf",
-          "label": "Grumman TBF Avenger"
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
         }
       ],
       "caption": "Fighter aircraft series. First flew 1932.",
@@ -353,16 +353,16 @@
           "label": "Martin B-10"
         },
         {
-          "id": "b26",
-          "label": "Martin B-26 Marauder"
-        },
-        {
-          "id": "martin-mb1",
-          "label": "Martin MB-1"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         },
         {
           "id": "boeing-pw9",
           "label": "Boeing Model 15"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         }
       ],
       "caption": "American bomber aircraft. First flew 1932.",
@@ -378,16 +378,16 @@
           "label": "Grumman F3F"
         },
         {
-          "id": "tbf",
-          "label": "Grumman TBF Avenger"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         },
         {
-          "id": "f4u",
-          "label": "Vought F4U Corsair"
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
         },
         {
-          "id": "f4f",
-          "label": "Grumman F4F Wildcat"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         }
       ],
       "caption": "US Navy biplane. First flew 1935.",
@@ -403,16 +403,16 @@
           "label": "Seversky P-35"
         },
         {
-          "id": "p47",
-          "label": "Republic P-47 Thunderbolt"
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "a17",
+          "label": "Northrop A-17"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "1935 fighter aircraft series by Seversky. First flew 1935.",
@@ -428,16 +428,16 @@
           "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         },
         {
           "id": "b18",
           "label": "Douglas B-18 Bolo"
-        },
-        {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
         }
       ],
       "caption": "American fighter aircraft. First flew 1935.",
@@ -453,16 +453,16 @@
           "label": "Douglas TBD Devastator"
         },
         {
-          "id": "a26",
-          "label": "Douglas A-26 Invader"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
         }
       ],
       "caption": "US Navy carrier-based torpedo bomber in service 1937-1942. First flew 1935.",
@@ -478,16 +478,16 @@
           "label": "Northrop A-17"
         },
         {
-          "id": "p61",
-          "label": "Northrop P-61 Black Widow"
-        },
-        {
           "id": "p36",
           "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         }
       ],
       "caption": "American attack aircraft. First flew 1934.",
@@ -503,16 +503,16 @@
           "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         },
         {
-          "id": "a26",
-          "label": "Douglas A-26 Invader"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
         }
       ],
       "caption": "American twin-engined medium bomber aircraft in service 1936-1946. First flew 1935.",
@@ -528,16 +528,16 @@
           "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "f4u",
-          "label": "Vought F4U Corsair"
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
         },
         {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "b25",
-          "label": "North American B-25 Mitchell"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         }
       ],
       "caption": "US Navy dive bomber. First flew 1936.",
@@ -557,12 +557,12 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
         }
       ],
       "caption": "American 1930s flying boat. First flew 1935.",
@@ -582,12 +582,12 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -607,12 +607,12 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
+          "id": "a17",
+          "label": "Northrop A-17"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "p35",
+          "label": "Seversky P-35"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -628,16 +628,16 @@
           "label": "Curtiss P-40 Warhawk"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
-        },
-        {
           "id": "p36",
           "label": "Curtiss P-36 Hawk"
         },
         {
           "id": "tbd",
           "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         }
       ],
       "caption": "American WWII fighter. First flew 1938.",

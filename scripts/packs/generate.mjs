@@ -9,10 +9,11 @@
 // into its parent, and each round draws at most `questionsPerRound` questions
 // at random, so every menu entry is populated however the dataset grows.
 //
-// Every question gets three curated wrong answers chosen from the whole
-// dataset for being similar (same group, country, era, manufacturer), so a
-// Su-27 is paired with a MiG-29 rather than a Cessna. Choices are seeded by
-// question id, so re-running gives the same packs.
+// Every question gets three curated wrong answers drawn from the same set and
+// ranked by similarity (same group, country, era, manufacturer), so a Su-27 is
+// paired with a MiG-29 rather than a Cessna, and a set never offers aircraft it
+// doesn't contain. Choices are seeded by question id, so re-running gives the
+// same packs.
 //
 // Usage: node scripts/packs/generate.mjs        (or: npm run packs)
 //
@@ -71,7 +72,7 @@ const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
  * "Airbus A330" / "Airbus A330neo"). A photo of one is arguably also the other,
  * so they never appear as each other's wrong answer.
  */
-function overlaps(a, b) {
+export function overlaps(a, b) {
   const x = norm(a.label), y = norm(b.label);
   return x.startsWith(y) || y.startsWith(x);
 }
@@ -164,7 +165,14 @@ export function buildPack(recipe, aircraft, minimum = MIN_QUESTIONS) {
   }
   const questions = members.map((a) => {
     const id = `${recipe.id}-${a.id}`;
-    const wrong = pickDistractors(a, aircraft, id);
+    // Wrong answers come from the set itself, so a Soviet set only offers Soviet
+    // aircraft. Only if the set can't supply enough (after leaving out the
+    // answer's own variants) are the rest drawn from the wider dataset.
+    let wrong = pickDistractors(a, members, id);
+    if (wrong.length < DISTRACTORS) {
+      const outside = aircraft.filter((x) => !members.includes(x));
+      wrong = [...wrong, ...pickDistractors(a, outside, `${id}|outside`, DISTRACTORS - wrong.length)];
+    }
     return {
       id,
       image: a.photo.file.slice(ASSET_BASE.length),

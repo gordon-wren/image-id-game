@@ -30,12 +30,12 @@
           "label": "Robinson R44"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
       ],
       "caption": "American helicopter model. First flew 1975.",
@@ -55,12 +55,12 @@
           "label": "Robinson R22"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "s76",
+          "label": "Sikorsky S-76"
         },
         {
-          "id": "ch53e",
-          "label": "Sikorsky CH-53E Super Stallion"
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
         }
       ],
       "caption": "Family of American light helicopters. First flew 1990.",
@@ -76,16 +76,16 @@
           "label": "Bell 206"
         },
         {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
-        },
-        {
           "id": "bell47",
           "label": "Bell 47"
         },
         {
-          "id": "ah64",
-          "label": "Boeing AH-64 Apache"
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
         }
       ],
       "caption": "Utility helicopter family by Bell. First flew 1962.",
@@ -105,12 +105,12 @@
           "label": "Airbus Helicopters AS365 Dauphin"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "r22",
+          "label": "Robinson R22"
         },
         {
-          "id": "tiger",
-          "label": "Eurocopter Tiger"
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
         }
       ],
       "caption": "Single engine series of the Ecureuil light helicopter family. First flew 1974.",
@@ -126,16 +126,16 @@
           "label": "Sikorsky S-76"
         },
         {
-          "id": "ch53e",
-          "label": "Sikorsky CH-53E Super Stallion"
-        },
-        {
           "id": "s92",
           "label": "Sikorsky S-92"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
         }
       ],
       "caption": "American medium-size commercial utility helicopter. First flew 1977.",
@@ -155,12 +155,12 @@
           "label": "Airbus H155 (EC155)"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
         }
       ],
       "caption": "Twin-engine light utility helicopter. First flew 1999.",
@@ -176,16 +176,16 @@
           "label": "Airbus H135 (EC135)"
         },
         {
-          "id": "tiger",
-          "label": "Eurocopter Tiger"
-        },
-        {
           "id": "ec155",
           "label": "Airbus H155 (EC155)"
         },
         {
-          "id": "h125",
-          "label": "Airbus H125 (AS350 Écureuil)"
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
       ],
       "caption": "Small utility helicopter. First flew 1994.",
@@ -205,12 +205,12 @@
           "label": "Bell 206"
         },
         {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         },
         {
-          "id": "ch53",
-          "label": "Sikorsky CH-53 Sea Stallion"
+          "id": "r44",
+          "label": "Robinson R44"
         }
       ],
       "caption": "Light utility helicopter family. First flew 1963.",
@@ -226,16 +226,16 @@
           "label": "AgustaWestland AW139"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "bell206",
+          "label": "Bell 206"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "bell47",
+          "label": "Bell 47"
         }
       ],
       "caption": "Twin-engined, medium-lift helicopter manufactured by Leonardo. First flew 2001.",
@@ -251,16 +251,16 @@
           "label": "Bell 47"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "bell206",
+          "label": "Bell 206"
         },
         {
-          "id": "r4",
-          "label": "Sikorsky R-4"
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
       ],
       "caption": "1945 utility helicopter family by Bell. First flew 1945.",
@@ -276,16 +276,16 @@
           "label": "Sikorsky S-92"
         },
         {
-          "id": "ch53k",
-          "label": "Sikorsky CH-53K King Stallion"
-        },
-        {
           "id": "s76",
           "label": "Sikorsky S-76"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
         }
       ],
       "caption": "Transport helicopter family by Sikorsky. First flew 1998.",
@@ -305,12 +305,12 @@
           "label": "Airbus H125 (AS350 Écureuil)"
         },
         {
-          "id": "mi26",
-          "label": "Mil Mi-26"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         },
         {
-          "id": "h145",
-          "label": "Airbus H145 (EC145)"
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
         }
       ],
       "caption": "Multi-role helicopter family by Aérospatiale. First flew 1975.",
@@ -330,12 +330,12 @@
           "label": "Airbus H145 (EC145)"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "r22",
+          "label": "Robinson R22"
         },
         {
-          "id": "h125",
-          "label": "Airbus H125 (AS350 Écureuil)"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
       ],
       "caption": "Passenger transport helicopter. First flew 1997.",

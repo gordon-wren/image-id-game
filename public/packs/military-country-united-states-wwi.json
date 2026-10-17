@@ -32,12 +32,12 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         }
       ],
       "caption": "American biplane trainer aircraft (1915–1927).",
@@ -53,16 +53,16 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         }
       ],
       "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
@@ -78,16 +78,16 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
-        },
-        {
           "id": "dh4-us",
           "label": "Airco DH.4"
         },
         {
-          "id": "b26",
-          "label": "Martin B-26 Marauder"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "American large biplane bomber. First flew 1918.",
@@ -107,12 +107,12 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "curtiss-p1",
-          "label": "Curtiss P-1 Hawk"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "British bomber used during the First World War. First flew 1916.",
@@ -128,16 +128,16 @@
           "label": "Curtiss Model H"
         },
         {
-          "id": "curtiss-nc",
-          "label": "Curtiss NC"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "American 1914 long range flying boat. First flew 1914.",

@@ -31,12 +31,12 @@
           "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "rq7",
-          "label": "AAI RQ-7 Shadow"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         }
       ],
       "caption": "American unmanned aerial vehicle. First flew 2001.",
@@ -52,16 +52,16 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
         }
       ],
       "caption": "Unmanned surveillance aircraft. First flew 1998.",
@@ -81,12 +81,12 @@
           "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         },
         {
-          "id": "mq8",
-          "label": "Northrop Grumman MQ-8 Fire Scout"
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
         }
       ],
       "caption": "Family of unmanned aerial vehicles. First flew 1994.",
@@ -102,16 +102,16 @@
           "label": "AAI RQ-7 Shadow"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
         },
         {
-          "id": "mq8",
-          "label": "Northrop Grumman MQ-8 Fire Scout"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         }
       ],
       "caption": "American unmanned aerial vehicle. First flew 1991.",
@@ -131,12 +131,12 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "p8",
-          "label": "Boeing P-8 Poseidon"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         }
       ],
       "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
@@ -152,16 +152,16 @@
           "label": "Boeing MQ-25 Stingray"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
         }
       ],
       "caption": "American military aerial refueling drone. First flew 2019.",

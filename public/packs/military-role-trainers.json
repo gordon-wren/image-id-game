@@ -31,12 +31,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "bae146",
-          "label": "British Aerospace 146"
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -81,8 +81,8 @@
           "label": "Cessna T-37 Tweet"
         },
         {
-          "id": "f5",
-          "label": "Northrop F-5"
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
         },
         {
           "id": "t33",
@@ -106,12 +106,12 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -260,8 +260,8 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "p80",
-          "label": "Lockheed P-80 Shooting Star"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -281,12 +281,12 @@
           "label": "Northrop T-38 Talon"
         },
         {
-          "id": "a37",
-          "label": "Cessna A-37 Dragonfly"
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "o1",
-          "label": "Cessna O-1 Bird Dog"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "Family of military training aircraft (1954–2009). First flew 1954.",
@@ -310,8 +310,8 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "kc10",
-          "label": "McDonnell Douglas KC-10 Extender"
+          "id": "t6",
+          "label": "North American T-6 Texan"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -381,12 +381,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "b737max",
-          "label": "Boeing 737 MAX"
+          "id": "t33",
+          "label": "Lockheed T-33"
         },
         {
-          "id": "mq25",
-          "label": "Boeing MQ-25 Stingray"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",

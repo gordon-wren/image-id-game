@@ -52,16 +52,16 @@
           "label": "Mitsubishi A6M Zero"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
-        },
-        {
-          "id": "f4f",
-          "label": "Grumman F4F Wildcat"
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
         },
         {
           "id": "f4u",
           "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
         }
       ],
       "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
@@ -77,16 +77,16 @@
           "label": "Vought F4U Corsair"
         },
         {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
         },
         {
           "id": "b29",
           "label": "Boeing B-29 Superfortress"
-        },
-        {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
         }
       ],
       "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
@@ -102,16 +102,16 @@
           "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
         },
         {
-          "id": "b25",
-          "label": "North American B-25 Mitchell"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
         }
       ],
       "caption": "American twin-engined fighter of WWII. First flew 1939.",
@@ -127,16 +127,16 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "lancaster",
+          "label": "Avro Lancaster"
         },
         {
-          "id": "f8f",
-          "label": "Grumman F8F Bearcat"
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
         }
       ],
       "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
@@ -152,16 +152,16 @@
           "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
@@ -177,16 +177,16 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
         },
         {
-          "id": "f8f",
-          "label": "Grumman F8F Bearcat"
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",
@@ -202,16 +202,16 @@
           "label": "Grumman F4F Wildcat"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
         },
         {
           "id": "sb2c",
           "label": "Curtiss SB2C Helldiver"
-        },
-        {
-          "id": "f6f",
-          "label": "Grumman F6F Hellcat"
         }
       ],
       "caption": "United States Navy World War II era fighter plane. First flew 1937.",
@@ -227,16 +227,16 @@
           "label": "Douglas SBD Dauntless"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
         },
         {
           "id": "p61",
           "label": "Northrop P-61 Black Widow"
-        },
-        {
-          "id": "a26",
-          "label": "Douglas A-26 Invader"
         }
       ],
       "caption": "Scout and dive bomber aircraft. First flew 1940.",
@@ -256,8 +256,8 @@
           "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "a17",
-          "label": "Northrop A-17"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         },
         {
           "id": "tbf",
@@ -277,16 +277,16 @@
           "label": "Republic P-47 Thunderbolt"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
         }
       ],
       "caption": "Family of fighter aircraft. First flew 1941.",
@@ -310,8 +310,8 @@
           "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "United States Navy fighter airplane. First flew 1942.",
@@ -331,12 +331,12 @@
           "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
         }
       ],
       "caption": "American naval torpedo bomber. First flew 1941.",
@@ -352,16 +352,16 @@
           "label": "Curtiss SB2C Helldiver"
         },
         {
-          "id": "p36",
-          "label": "Curtiss P-36 Hawk"
-        },
-        {
-          "id": "curtiss-p1",
-          "label": "Curtiss P-1 Hawk"
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
         },
         {
           "id": "f4f",
           "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
         }
       ],
       "caption": "Carrier-based dive bomber aircraft. First flew 1940.",
@@ -385,8 +385,8 @@
           "label": "North American P-51 Mustang"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "1939 bomber aircraft family by Consolidated Aircraft. First flew 1939.",
@@ -406,12 +406,12 @@
           "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "p61",
-          "label": "Northrop P-61 Black Widow"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "f6f",
-          "label": "Grumman F6F Hellcat"
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
         }
       ],
       "caption": "American WWII medium bomber. First flew 1940.",
@@ -427,16 +427,16 @@
           "label": "Martin B-26 Marauder"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
-        },
-        {
-          "id": "b29",
-          "label": "Boeing B-29 Superfortress"
-        },
-        {
           "id": "p39",
           "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "1940 US medium bomber. First flew 1940.",
@@ -456,12 +456,12 @@
           "label": "Douglas SBD Dauntless"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
         }
       ],
       "caption": "1941 attack/bomber aircraft family by Douglas. First flew 1942.",
@@ -477,16 +477,16 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "c46",
-          "label": "Curtiss C-46 Commando"
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
         },
         {
-          "id": "c119",
-          "label": "Fairchild C-119 Flying Boxcar"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         }
       ],
       "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
@@ -506,8 +506,8 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
         },
         {
           "id": "c54",
@@ -527,16 +527,16 @@
           "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
-        },
-        {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
         },
         {
           "id": "hu16",
           "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
         }
       ],
       "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
@@ -552,16 +552,16 @@
           "label": "Northrop P-61 Black Widow"
         },
         {
-          "id": "a17",
-          "label": "Northrop A-17"
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         }
       ],
       "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
@@ -602,16 +602,16 @@
           "label": "Lockheed P-80 Shooting Star"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
         },
         {
-          "id": "f104",
-          "label": "Lockheed F-104 Starfighter"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
         }
       ],
       "caption": "First jet aircraft in U.S. operational service. First flew 1944.",
@@ -627,16 +627,16 @@
           "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
-        },
-        {
-          "id": "f6f",
-          "label": "Grumman F6F Hellcat"
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
         },
         {
           "id": "f4f",
           "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         }
       ],
       "caption": "American single-engine carrier-based fighter aircraft. First flew 1944.",
@@ -652,16 +652,16 @@
           "label": "Douglas A-1 Skyraider"
         },
         {
-          "id": "a3",
-          "label": "Douglas A-3 Skywarrior"
-        },
-        {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
-        },
-        {
           "id": "f2h",
           "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         }
       ],
       "caption": "American single engine attack aircraft. First flew 1945.",
@@ -677,16 +677,16 @@
           "label": "Sikorsky R-4"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
         },
         {
-          "id": "h21",
-          "label": "Piasecki H-21"
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
         },
         {
-          "id": "ch53",
-          "label": "Sikorsky CH-53 Sea Stallion"
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
         }
       ],
       "caption": "Two-seat military helicopter of the 1940s. First flew 1942.",
@@ -702,16 +702,16 @@
           "label": "Convair B-36 Peacemaker"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
         }
       ],
       "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
@@ -727,16 +727,16 @@
           "label": "Grumman F9F Panther"
         },
         {
-          "id": "a6",
-          "label": "Grumman A-6 Intruder"
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
         },
         {
-          "id": "ad-skyraider",
-          "label": "Douglas A-1 Skyraider"
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
         },
         {
-          "id": "p59",
-          "label": "Bell P-59 Airacomet"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         }
       ],
       "caption": "US Navy carrier-based jet fighter. First flew 1947.",
@@ -752,16 +752,16 @@
           "label": "Republic F-84 Thunderjet"
         },
         {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
         },
         {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
         }
       ],
       "caption": "1946 fighter-bomber family. First flew 1946.",
@@ -777,16 +777,16 @@
           "label": "North American F-86 Sabre"
         },
         {
-          "id": "f100-super-sabre",
-          "label": "North American F-100 Super Sabre"
-        },
-        {
-          "id": "f104",
-          "label": "Lockheed F-104 Starfighter"
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
         },
         {
           "id": "p80",
           "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         }
       ],
       "caption": "Family of US fighter aircraft. First flew 1947.",
@@ -802,16 +802,16 @@
           "label": "Lockheed T-33"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -827,16 +827,16 @@
           "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
-        },
-        {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
         },
         {
           "id": "c46",
           "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
         }
       ],
       "caption": "American military transport aircraft. First flew 1947.",
@@ -852,16 +852,16 @@
           "label": "Grumman HU-16 Albatross"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
-        },
-        {
           "id": "c119",
           "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         }
       ],
       "caption": "American seaplane. First flew 1949.",
@@ -877,16 +877,16 @@
           "label": "McDonnell F2H Banshee"
         },
         {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
-        },
-        {
           "id": "ad-skyraider",
           "label": "Douglas A-1 Skyraider"
         },
         {
-          "id": "f4",
-          "label": "McDonnell Douglas F-4 Phantom II"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         }
       ],
       "caption": "American carrier-based jet fighter. First flew 1947.",

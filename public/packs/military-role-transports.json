@@ -27,16 +27,16 @@
           "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
-        },
-        {
           "id": "c5",
           "label": "Lockheed C-5 Galaxy"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
         }
       ],
       "caption": "American military transport aircraft. First flew 1954.",
@@ -56,12 +56,12 @@
           "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         }
       ],
       "caption": "American four engine military transport aircraft. First flew 1991.",
@@ -77,16 +77,16 @@
           "label": "Lockheed C-5 Galaxy"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         }
       ],
       "caption": "American heavy military transport aircraft. First flew 1968.",
@@ -106,12 +106,12 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "p8",
-          "label": "Boeing P-8 Poseidon"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -131,8 +131,8 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         },
         {
           "id": "c17",
@@ -160,8 +160,8 @@
           "label": "Ilyushin Il-76"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -185,8 +185,8 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -202,16 +202,16 @@
           "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "US military aerial refueling and transport aircraft. First flew 1956.",
@@ -227,16 +227,16 @@
           "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "mq1",
-          "label": "General Atomics MQ-1 Predator"
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         }
       ],
       "caption": "Military transport tiltrotor. First flew 1989.",
@@ -252,16 +252,16 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
-        },
-        {
           "id": "kc46",
           "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "kawasaki-c2",
-          "label": "Kawasaki C-2"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         }
       ],
       "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
@@ -277,16 +277,16 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 2010.",
@@ -306,12 +306,12 @@
           "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "c119",
-          "label": "Fairchild C-119 Flying Boxcar"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "hu16",
-          "label": "Grumman HU-16 Albatross"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         }
       ],
       "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
@@ -327,16 +327,16 @@
           "label": "Curtiss C-46 Commando"
         },
         {
-          "id": "hu16",
-          "label": "Grumman HU-16 Albatross"
-        },
-        {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
         },
         {
           "id": "c54",
           "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "U.S. military transport aircraft with 2 piston engines, 1940. First flew 1940.",
@@ -356,12 +356,12 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "o1",
-          "label": "Cessna O-1 Bird Dog"
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
         },
         {
-          "id": "douglas-o2",
-          "label": "Douglas O-2"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
@@ -381,8 +381,8 @@
           "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         },
         {
           "id": "c124",
@@ -406,12 +406,12 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         }
       ],
       "caption": "American heavy lift military aircraft with 4 piston engines, 1946. First flew 1949.",
@@ -427,16 +427,16 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         }
       ],
       "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
@@ -456,12 +456,12 @@
           "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         }
       ],
       "caption": "US aerial refueling tanker aircraft. First flew 1980.",
@@ -481,12 +481,12 @@
           "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "mq8",
-          "label": "Northrop Grumman MQ-8 Fire Scout"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "Military transport aircraft. First flew 1996.",
@@ -502,16 +502,16 @@
           "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",

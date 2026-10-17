@@ -456,12 +456,12 @@
           "label": "Ilyushin Il-96"
         },
         {
-          "id": "a300",
-          "label": "Airbus A300"
+          "id": "dc10",
+          "label": "McDonnell Douglas DC-10"
         },
         {
-          "id": "concorde",
-          "label": "Concorde"
+          "id": "a300",
+          "label": "Airbus A300"
         }
       ],
       "caption": "Soviet four-engined wide-body jet airliner. First flew 1976.",
@@ -585,8 +585,8 @@
           "label": "Boeing 747SP"
         },
         {
-          "id": "a3",
-          "label": "Douglas A-3 Skywarrior"
+          "id": "vc10",
+          "label": "Vickers VC10"
         }
       ],
       "caption": "American four-engined jet airliner family. First flew 1958.",

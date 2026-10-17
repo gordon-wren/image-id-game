@@ -31,12 +31,12 @@
           "label": "North American Rockwell OV-10 Bronco"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
@@ -52,16 +52,16 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
-        },
-        {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
-        },
-        {
           "id": "ea18g",
           "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         }
       ],
       "caption": "American maritime patrol aircraft. First flew 2009.",
@@ -77,16 +77,16 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "u2",
+          "label": "Lockheed U-2"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         }
       ],
       "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
@@ -102,16 +102,16 @@
           "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         }
       ],
       "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
@@ -127,16 +127,16 @@
           "label": "Lockheed U-2"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         }
       ],
       "caption": "American reconnaissance aircraft. First flew 1955.",
@@ -156,12 +156,12 @@
           "label": "Curtiss Model H"
         },
         {
-          "id": "c46",
-          "label": "Curtiss C-46 Commando"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "u2",
+          "label": "Lockheed U-2"
         }
       ],
       "caption": "American flying boat. First flew 1918.",
@@ -181,8 +181,8 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "mq1",
-          "label": "General Atomics MQ-1 Predator"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
           "id": "pby",
@@ -202,16 +202,16 @@
           "label": "Douglas O-2"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         }
       ],
       "caption": "Observation aircraft family by Douglas.",
@@ -227,16 +227,16 @@
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "c46",
-          "label": "Curtiss C-46 Commando"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
         }
       ],
       "caption": "Aircraft developed to fly around the world. First flew 1923.",
@@ -252,16 +252,16 @@
           "label": "Vought O2U Corsair"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "e4",
+          "label": "Boeing E-4"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "u2",
+          "label": "Lockheed U-2"
         }
       ],
       "caption": "1926 naval observation aircraft family.",
@@ -281,12 +281,12 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "American 1930s flying boat. First flew 1935.",
@@ -331,12 +331,12 @@
           "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         }
       ],
       "caption": "Military liaison and observation aircraft. First flew 1949.",
@@ -356,8 +356,8 @@
           "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         },
         {
           "id": "ea6b",
@@ -381,12 +381,12 @@
           "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "u2",
+          "label": "Lockheed U-2"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         }
       ],
       "caption": "Battlefield reconnaissance and forward air control aircraft. First flew 1959.",
@@ -406,12 +406,12 @@
           "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "Observation and light attack aircraft. First flew 1965.",
@@ -427,16 +427,16 @@
           "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
-        },
-        {
           "id": "p3",
           "label": "Lockheed P-3 Orion"
         },
         {
           "id": "u2",
           "label": "Lockheed U-2"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         }
       ],
       "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
@@ -456,12 +456,12 @@
           "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
-        },
-        {
           "id": "p3",
           "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
         }
       ],
       "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
@@ -481,12 +481,12 @@
           "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
@@ -502,16 +502,16 @@
           "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         },
         {
           "id": "e8",
           "label": "Northrop Grumman E-8 Joint STARS"
-        },
-        {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
@@ -527,16 +527,16 @@
           "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
-        },
-        {
           "id": "e6",
           "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "kc10",
-          "label": "McDonnell Douglas KC-10 Extender"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         }
       ],
       "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
@@ -552,16 +552,16 @@
           "label": "Boeing EA-18G Growler"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "p8",
-          "label": "Boeing P-8 Poseidon"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
         }
       ],
       "caption": "American electronic warfare aircraft. First flew 2006.",

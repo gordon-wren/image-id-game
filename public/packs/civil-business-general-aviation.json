@@ -26,16 +26,16 @@
           "label": "De Havilland Canada DHC-6 Twin Otter"
         },
         {
-          "id": "dash8",
-          "label": "De Havilland Canada Dash 8"
+          "id": "global7500",
+          "label": "Bombardier Global 7500"
         },
         {
-          "id": "constellation",
-          "label": "Lockheed Constellation"
+          "id": "pa28",
+          "label": "Piper PA-28 Cherokee"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "caravan",
+          "label": "Cessna 208 Caravan"
         }
       ],
       "caption": "Utility transport aircraft family by de Havilland Canada. First flew 1965.",
@@ -401,16 +401,16 @@
           "label": "Embraer Phenom 300"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "hondajet",
+          "label": "HondaJet"
         },
         {
-          "id": "global7500",
-          "label": "Bombardier Global 7500"
+          "id": "citation-x",
+          "label": "Cessna Citation X"
         },
         {
-          "id": "sr22",
-          "label": "Cirrus SR22"
+          "id": "da40",
+          "label": "Diamond DA40 Diamond Star"
         }
       ],
       "caption": "Light business jet. First flew 2008.",

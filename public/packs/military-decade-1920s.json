@@ -27,16 +27,16 @@
           "label": "Martin NBS-1"
         },
         {
-          "id": "martin-mb1",
-          "label": "Martin MB-1"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         }
       ],
       "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
@@ -52,16 +52,16 @@
           "label": "Curtiss P-1 Hawk"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
-        },
-        {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
-        },
-        {
           "id": "boeing-pw9",
           "label": "Boeing Model 15"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         }
       ],
       "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
@@ -77,16 +77,16 @@
           "label": "Boeing Model 15"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         },
         {
           "id": "martin-mb2",
           "label": "Martin NBS-1"
-        },
-        {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American fighter aircraft. First flew 1923.",
@@ -102,16 +102,16 @@
           "label": "Douglas O-2"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
-        },
-        {
           "id": "douglas-world-cruiser",
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         }
       ],
       "caption": "Observation aircraft family by Douglas.",
@@ -127,16 +127,16 @@
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
-        },
-        {
           "id": "douglas-o2",
           "label": "Douglas O-2"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
         }
       ],
       "caption": "Aircraft developed to fly around the world. First flew 1923.",
@@ -152,16 +152,16 @@
           "label": "Vought O2U Corsair"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         },
         {
-          "id": "c119",
-          "label": "Fairchild C-119 Flying Boxcar"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         }
       ],
       "caption": "1926 naval observation aircraft family.",
@@ -177,16 +177,16 @@
           "label": "Curtiss Falcon"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
         },
         {
-          "id": "f4f",
-          "label": "Grumman F4F Wildcat"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         },
         {
-          "id": "wright-flyer",
-          "label": "Wright Flyer"
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
         }
       ],
       "caption": "American multirole aircraft.",
@@ -202,16 +202,16 @@
           "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "jn4",
-          "label": "Curtiss JN Jenny"
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
         }
       ],
       "caption": "US military trainer aircraft.",

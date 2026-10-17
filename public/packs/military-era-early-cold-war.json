@@ -27,16 +27,16 @@
           "label": "Lockheed C-130 Hercules"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
-        },
-        {
           "id": "c124",
           "label": "Douglas C-124 Globemaster II"
         },
         {
           "id": "u2",
           "label": "Lockheed U-2"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
         }
       ],
       "caption": "American military transport aircraft. First flew 1954.",
@@ -52,16 +52,16 @@
           "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
         },
         {
-          "id": "o1",
-          "label": "Cessna O-1 Bird Dog"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "e6",
-          "label": "Boeing E-6 Mercury"
+          "id": "u2",
+          "label": "Lockheed U-2"
         }
       ],
       "caption": "US military aerial refueling and transport aircraft. First flew 1956.",
@@ -77,16 +77,16 @@
           "label": "Lockheed U-2"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
         }
       ],
       "caption": "American reconnaissance aircraft. First flew 1955.",
@@ -106,12 +106,12 @@
           "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         }
       ],
       "caption": "American strategic bomber aircraft. First flew 1952.",
@@ -127,16 +127,16 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
-        },
-        {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
         },
         {
           "id": "b36",
           "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -156,12 +156,12 @@
           "label": "Martin B-57 Canberra"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
@@ -177,16 +177,16 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -206,12 +206,12 @@
           "label": "Douglas A-4 Skyhawk"
         },
         {
-          "id": "f104",
-          "label": "Lockheed F-104 Starfighter"
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
         },
         {
-          "id": "av8b",
-          "label": "McDonnell Douglas AV-8B Harrier II"
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
         }
       ],
       "caption": "Fighter aircraft family developed from 1958. First flew 1958.",
@@ -227,16 +227,16 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "h21",
+          "label": "Piasecki H-21"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Huey family of American military utility helicopters. First flew 1956.",
@@ -260,8 +260,8 @@
           "label": "McDonnell F2H Banshee"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
         }
       ],
       "caption": "American single engine attack aircraft. First flew 1945.",
@@ -277,16 +277,16 @@
           "label": "Convair B-36 Peacemaker"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
         },
         {
           "id": "vulcan",
           "label": "Avro Vulcan"
-        },
-        {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
         }
       ],
       "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
@@ -302,16 +302,16 @@
           "label": "Grumman F9F Panther"
         },
         {
-          "id": "a6",
-          "label": "Grumman A-6 Intruder"
-        },
-        {
           "id": "f104",
           "label": "Lockheed F-104 Starfighter"
         },
         {
-          "id": "f14",
-          "label": "Grumman F-14 Tomcat"
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
         }
       ],
       "caption": "US Navy carrier-based jet fighter. First flew 1947.",
@@ -356,12 +356,12 @@
           "label": "North American F-100 Super Sabre"
         },
         {
-          "id": "f8",
-          "label": "Vought F-8 Crusader"
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
         }
       ],
       "caption": "Family of US fighter aircraft. First flew 1947.",
@@ -381,12 +381,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
         }
       ],
       "caption": "Cold War-era American jet bomber. First flew 1947.",
@@ -406,12 +406,12 @@
           "label": "Lockheed F-104 Starfighter"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
-        },
-        {
           "id": "f101",
           "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
         }
       ],
       "caption": "Series of all-weather interceptor aircraft. First flew 1949.",
@@ -431,12 +431,12 @@
           "label": "Cessna T-37 Tweet"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -456,8 +456,8 @@
           "label": "Boeing KC-135 Stratotanker"
         },
         {
-          "id": "c46",
-          "label": "Curtiss C-46 Commando"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         },
         {
           "id": "o1",
@@ -477,16 +477,16 @@
           "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "c47",
-          "label": "Douglas C-47 Skytrain"
-        },
-        {
           "id": "u2",
           "label": "Lockheed U-2"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
         }
       ],
       "caption": "American heavy lift military aircraft with 4 piston engines, 1946. First flew 1949.",
@@ -506,12 +506,12 @@
           "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
+          "id": "u2",
+          "label": "Lockheed U-2"
         }
       ],
       "caption": "American seaplane. First flew 1949.",
@@ -527,16 +527,16 @@
           "label": "Sikorsky H-19 Chickasaw"
         },
         {
-          "id": "sh3",
-          "label": "Sikorsky SH-3 Sea King"
+          "id": "h21",
+          "label": "Piasecki H-21"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "u2",
+          "label": "Lockheed U-2"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
         }
       ],
       "caption": "Family of utility helicopters. First flew 1949.",
@@ -556,12 +556,12 @@
           "label": "Bell UH-1 Huey"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
         },
         {
-          "id": "sh2",
-          "label": "Kaman SH-2 Seasprite"
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
         }
       ],
       "caption": "American military transport helicopter family. First flew 1952.",
@@ -581,12 +581,12 @@
           "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "c46",
-          "label": "Curtiss C-46 Commando"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Military liaison and observation aircraft. First flew 1949.",
@@ -627,16 +627,16 @@
           "label": "Martin B-57 Canberra"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "US license-built version of the British English Electric Canberra bomber. First flew 1953.",
@@ -656,12 +656,12 @@
           "label": "Douglas A-4 Skyhawk"
         },
         {
-          "id": "p80",
-          "label": "Lockheed P-80 Shooting Star"
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
         },
         {
-          "id": "f8",
-          "label": "Vought F-8 Crusader"
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
         }
       ],
       "caption": "Carrier-based multirole aircraft family. First flew 1952.",
@@ -677,16 +677,16 @@
           "label": "North American F-100 Super Sabre"
         },
         {
-          "id": "a5",
-          "label": "North American A-5 Vigilante"
+          "id": "f86",
+          "label": "North American F-86 Sabre"
         },
         {
-          "id": "a4",
-          "label": "Douglas A-4 Skyhawk"
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
         },
         {
-          "id": "a37",
-          "label": "Cessna A-37 Dragonfly"
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
         }
       ],
       "caption": "1953 fighter aircraft family. First flew 1953.",
@@ -706,12 +706,12 @@
           "label": "Douglas A-1 Skyraider"
         },
         {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
         }
       ],
       "caption": "Carrier-based attack aircraft. First flew 1954.",
@@ -760,8 +760,8 @@
           "label": "McDonnell F-101 Voodoo"
         },
         {
-          "id": "f84",
-          "label": "Republic F-84 Thunderjet"
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
         }
       ],
       "caption": "Cold War interceptor of the US Air Force. First flew 1953.",
@@ -781,12 +781,12 @@
           "label": "Lockheed F-94 Starfire"
         },
         {
-          "id": "p80",
-          "label": "Lockheed P-80 Shooting Star"
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
         }
       ],
       "caption": "1956 fighter aircraft family by Lockheed. First flew 1956.",
@@ -802,16 +802,16 @@
           "label": "Vought F-8 Crusader"
         },
         {
-          "id": "a7",
-          "label": "LTV A-7 Corsair II"
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         },
         {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
         }
       ],
       "caption": "1955 naval fighter aircraft by Vought. First flew 1955.",
@@ -831,12 +831,12 @@
           "label": "Republic F-84 Thunderjet"
         },
         {
-          "id": "a7",
-          "label": "LTV A-7 Corsair II"
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         },
         {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
         }
       ],
       "caption": "US Air Force supersonic fighter-bomber. First flew 1955.",
@@ -852,16 +852,16 @@
           "label": "Convair F-106 Delta Dart"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
         },
         {
-          "id": "f9f",
-          "label": "Grumman F9F Panther"
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
         }
       ],
       "caption": "All-weather interceptor aircraft. First flew 1956.",
@@ -881,12 +881,12 @@
           "label": "Lockheed T-33"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
         }
       ],
       "caption": "Family of military training aircraft (1954–2009). First flew 1954.",
@@ -906,12 +906,12 @@
           "label": "Grumman HU-16 Albatross"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         },
         {
-          "id": "o1",
-          "label": "Cessna O-1 Bird Dog"
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
         }
       ],
       "caption": "Battlefield reconnaissance and forward air control aircraft. First flew 1959.",

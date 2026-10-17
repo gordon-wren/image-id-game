@@ -28,16 +28,16 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         }
       ],
       "caption": "American maritime patrol aircraft. First flew 2009.",
@@ -53,16 +53,16 @@
           "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "f86",
-          "label": "North American F-86 Sabre"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "American stealth multirole fighter aircraft. First flew 2006.",
@@ -78,16 +78,16 @@
           "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
         },
         {
-          "id": "r44",
-          "label": "Robinson R44"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "American attack helicopter. First flew 2000.",
@@ -103,16 +103,16 @@
           "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "mq25",
-          "label": "Boeing MQ-25 Stingray"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         }
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
@@ -128,16 +128,16 @@
           "label": "Sikorsky CH-53K King Stallion"
         },
         {
-          "id": "s92",
-          "label": "Sikorsky S-92"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "r4",
-          "label": "Sikorsky R-4"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "Heavy transport helicopter. First flew 2015.",
@@ -153,16 +153,16 @@
           "label": "Boeing F-15EX Eagle II"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
         },
         {
-          "id": "f15e",
-          "label": "McDonnell Douglas F-15E Strike Eagle"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "American multirole fighter aircraft. First flew 2013.",

@@ -32,12 +32,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         }
       ],
       "caption": "American heavy military transport aircraft. First flew 1968.",
@@ -53,16 +53,16 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
-        },
-        {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         },
         {
           "id": "sr71",
           "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
@@ -78,16 +78,16 @@
           "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         }
       ],
       "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
@@ -107,12 +107,12 @@
           "label": "Grumman A-6 Intruder"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
@@ -132,12 +132,12 @@
           "label": "Cessna A-37 Dragonfly"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         }
       ],
       "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
@@ -153,16 +153,16 @@
           "label": "Northrop T-38 Talon"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "f5",
+          "label": "Northrop F-5"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         }
       ],
       "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
@@ -178,16 +178,16 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "bell206",
-          "label": "Bell 206"
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
         },
         {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         },
         {
-          "id": "bell47",
-          "label": "Bell 47"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         }
       ],
       "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
@@ -203,16 +203,16 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
         },
         {
-          "id": "ch53e",
-          "label": "Sikorsky CH-53E Super Stallion"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "r4",
-          "label": "Sikorsky R-4"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         }
       ],
       "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
@@ -228,16 +228,16 @@
           "label": "Bell AH-1 Cobra"
         },
         {
-          "id": "uh1",
-          "label": "Bell UH-1 Huey"
-        },
-        {
-          "id": "sh3",
-          "label": "Sikorsky SH-3 Sea King"
-        },
-        {
           "id": "sh2",
           "label": "Kaman SH-2 Seasprite"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
         }
       ],
       "caption": "Family of attack helicopters. First flew 1965.",
@@ -253,16 +253,16 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
         }
       ],
       "caption": "Cold War-era American supersonic bomber. First flew 1956.",
@@ -278,16 +278,16 @@
           "label": "Sikorsky SH-3 Sea King"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
-        },
-        {
-          "id": "r4",
-          "label": "Sikorsky R-4"
-        },
-        {
           "id": "ch53",
           "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
         }
       ],
       "caption": "American anti-submarine helicopter. First flew 1959.",
@@ -303,16 +303,16 @@
           "label": "North American A-5 Vigilante"
         },
         {
-          "id": "f100-super-sabre",
-          "label": "North American F-100 Super Sabre"
+          "id": "f5",
+          "label": "Northrop F-5"
         },
         {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         },
         {
-          "id": "f86",
-          "label": "North American F-86 Sabre"
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
         }
       ],
       "caption": "Cold War-era U.S. carrier-based supersonic bomber. First flew 1958.",
@@ -332,12 +332,12 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "a37",
-          "label": "Cessna A-37 Dragonfly"
+          "id": "f5",
+          "label": "Northrop F-5"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
         }
       ],
       "caption": "1960 attack strike aircraft family by Grumman. First flew 1960.",
@@ -357,12 +357,12 @@
           "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "hu16",
-          "label": "Grumman HU-16 Albatross"
-        },
-        {
           "id": "p3",
           "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
         }
       ],
       "caption": "Airborne early warning and control aircraft. First flew 1960.",
@@ -386,8 +386,8 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
@@ -403,16 +403,16 @@
           "label": "General Dynamics F-111 Aardvark"
         },
         {
-          "id": "f106",
-          "label": "Convair F-106 Delta Dart"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
+          "id": "f5",
+          "label": "Northrop F-5"
         },
         {
-          "id": "f8",
-          "label": "Vought F-8 Crusader"
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
         }
       ],
       "caption": "Family of strike aircraft developed in 1960s. First flew 1964.",
@@ -428,16 +428,16 @@
           "label": "LTV A-7 Corsair II"
         },
         {
-          "id": "f8",
-          "label": "Vought F-8 Crusader"
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "f5",
+          "label": "Northrop F-5"
         },
         {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "American attack aircraft family. First flew 1965.",
@@ -453,16 +453,16 @@
           "label": "Cessna A-37 Dragonfly"
         },
         {
-          "id": "f102",
-          "label": "Convair F-102 Delta Dagger"
-        },
-        {
           "id": "a7",
           "label": "LTV A-7 Corsair II"
         },
         {
-          "id": "f5",
-          "label": "Northrop F-5"
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "American light attack aircraft developed from the T-37 Tweet basic trainer. First flew 1963.",
@@ -482,12 +482,12 @@
           "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "e4",
+          "label": "Boeing E-4"
         }
       ],
       "caption": "Observation and light attack aircraft. First flew 1965.",
@@ -503,16 +503,16 @@
           "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "h21",
-          "label": "Piasecki H-21"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "h19",
-          "label": "Sikorsky H-19 Chickasaw"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         }
       ],
       "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
@@ -532,12 +532,12 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         }
       ],
       "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
@@ -557,12 +557,12 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "e4",
+          "label": "Boeing E-4"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
@@ -578,16 +578,16 @@
           "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
-        },
-        {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
-        },
-        {
           "id": "e2",
           "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
         }
       ],
       "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
@@ -603,16 +603,16 @@
           "label": "Boeing E-4"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "mq25",
-          "label": "Boeing MQ-25 Stingray"
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
         }
       ],
       "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",

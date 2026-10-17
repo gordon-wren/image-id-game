@@ -56,12 +56,12 @@
           "label": "Embraer ERJ"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
         }
       ],
       "caption": "Regional jet airliner family. First flew 2016.",
@@ -106,12 +106,12 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "erj",
-          "label": "Embraer ERJ"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "erj",
+          "label": "Embraer ERJ"
         }
       ],
       "caption": "Regional jet airliner. First flew 1991.",
@@ -131,8 +131,8 @@
           "label": "Bombardier CRJ200"
         },
         {
-          "id": "global7500",
-          "label": "Bombardier Global 7500"
+          "id": "saab340",
+          "label": "Saab 340"
         },
         {
           "id": "dash8",
@@ -177,16 +177,16 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "erj",
-          "label": "Embraer ERJ"
+          "id": "constellation",
+          "label": "Lockheed Constellation"
         }
       ],
       "caption": "Canadian turboprop airliner. First flew 1983.",
@@ -206,12 +206,12 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "erj",
-          "label": "Embraer ERJ"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "crj200",
-          "label": "Bombardier CRJ200"
+          "id": "erj",
+          "label": "Embraer ERJ"
         }
       ],
       "caption": "Regional airliner. First flew 1983.",
@@ -231,12 +231,12 @@
           "label": "Lockheed Constellation"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
         }
       ],
       "caption": "Airliner and military transport aircraft family. First flew 1935.",
@@ -256,12 +256,12 @@
           "label": "Douglas DC-3"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "erj",
+          "label": "Embraer ERJ"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         }
       ],
       "caption": "Family of US airliners with 4 piston engines, 1943. First flew 1943.",

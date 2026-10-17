@@ -27,16 +27,16 @@
           "label": "Avro Vulcan"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
         },
         {
-          "id": "b52",
-          "label": "Boeing B-52 Stratofortress"
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
@@ -52,16 +52,16 @@
           "label": "Harrier Jump Jet"
         },
         {
-          "id": "tornado",
-          "label": "Panavia Tornado"
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         },
         {
-          "id": "f4",
-          "label": "McDonnell Douglas F-4 Phantom II"
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
         }
       ],
       "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
@@ -77,16 +77,16 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "t45",
-          "label": "McDonnell Douglas T-45 Goshawk"
-        },
-        {
           "id": "harrier",
           "label": "Harrier Jump Jet"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -106,12 +106,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         },
         {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
+          "id": "lancaster",
+          "label": "Avro Lancaster"
         }
       ],
       "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
@@ -131,12 +131,12 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
-        },
-        {
           "id": "mosquito",
           "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -156,12 +156,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "lancaster",
+          "label": "Avro Lancaster"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
         }
       ],
       "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
@@ -181,12 +181,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "p47",
-          "label": "Republic P-47 Thunderbolt"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         },
         {
-          "id": "a6m",
-          "label": "Mitsubishi A6M Zero"
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",

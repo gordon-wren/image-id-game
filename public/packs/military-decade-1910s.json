@@ -27,16 +27,16 @@
           "label": "Curtiss JN Jenny"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
         }
       ],
       "caption": "American biplane trainer aircraft (1915–1927).",
@@ -52,16 +52,16 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
         }
       ],
       "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
@@ -81,12 +81,12 @@
           "label": "Curtiss Model H"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "American flying boat. First flew 1918.",
@@ -102,16 +102,16 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
-        },
-        {
-          "id": "p47",
-          "label": "Republic P-47 Thunderbolt"
-        },
-        {
           "id": "dh4-us",
           "label": "Airco DH.4"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         }
       ],
       "caption": "American large biplane bomber. First flew 1918.",
@@ -127,16 +127,16 @@
           "label": "Airco DH.4"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         },
         {
-          "id": "curtiss-p1",
-          "label": "Curtiss P-1 Hawk"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "British bomber used during the First World War. First flew 1916.",
@@ -156,12 +156,12 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         },
         {
-          "id": "mq1",
-          "label": "General Atomics MQ-1 Predator"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         }
       ],
       "caption": "American 1914 long range flying boat. First flew 1914.",

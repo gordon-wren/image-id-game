@@ -27,16 +27,16 @@
           "label": "Curtiss JN Jenny"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
-        },
-        {
           "id": "thomas-morse-s4",
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         }
       ],
       "caption": "American biplane trainer aircraft (1915–1927).",
@@ -52,16 +52,16 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         }
       ],
       "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
@@ -77,16 +77,16 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         },
         {
-          "id": "f6f",
-          "label": "Grumman F6F Hellcat"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "American large biplane bomber. First flew 1918.",
@@ -102,16 +102,16 @@
           "label": "Airco DH.4"
         },
         {
-          "id": "curtiss-p1",
-          "label": "Curtiss P-1 Hawk"
-        },
-        {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
-        },
-        {
           "id": "martin-mb1",
           "label": "Martin MB-1"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         }
       ],
       "caption": "British bomber used during the First World War. First flew 1916.",
@@ -127,16 +127,16 @@
           "label": "Curtiss Model H"
         },
         {
-          "id": "curtiss-nc",
-          "label": "Curtiss NC"
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "dh4-us",
+          "label": "Airco DH.4"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         }
       ],
       "caption": "American 1914 long range flying boat. First flew 1914.",

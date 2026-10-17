@@ -5,7 +5,7 @@ import { describe, it, expect } from "vitest";
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { validatePack } from "../../src/engine/pack.ts";
-import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders } from "./generate.mjs";
+import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders, overlaps } from "./generate.mjs";
 
 const root = resolve(import.meta.dirname, "../..");
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
@@ -61,6 +61,23 @@ describe("generated packs", () => {
     expect(readJson(`public/packs/${id}.json`)).toEqual(buildPack(recipe, aircraft, taxonomy.minAircraft));
   });
 
+});
+
+describe("wrong answers", () => {
+  const byId = new Map(aircraft.map((a) => [a.id, a]));
+  it("come from the question's own set, unless the set has too few candidates", () => {
+    const strays = [];
+    for (const [, p] of packs.filter(([, p]) => p.generatedFrom)) {
+      const members = p.questions.map((q) => byId.get(q.answer));
+      for (const q of p.questions) {
+        const answer = byId.get(q.answer);
+        const candidates = members.filter((m) => m.id !== answer.id && !overlaps(m, answer)).length;
+        const outside = q.options.filter((o) => o.id !== q.answer && !members.some((m) => m.id === o.id)).length;
+        if (outside > Math.max(0, 3 - candidates)) strays.push(`${p.id}/${q.answer}`);
+      }
+    }
+    expect(strays).toEqual([]);
+  });
 });
 
 describe("menu", () => {

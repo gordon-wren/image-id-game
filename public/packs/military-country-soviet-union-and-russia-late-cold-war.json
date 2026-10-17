@@ -32,12 +32,12 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -57,12 +57,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -82,12 +82,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -107,12 +107,12 @@
           "label": "Tupolev Tu-160"
         },
         {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -128,16 +128,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         },
         {
-          "id": "av8b",
-          "label": "McDonnell Douglas AV-8B Harrier II"
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -157,12 +157,12 @@
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "rafale",
-          "label": "Dassault Rafale"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -182,12 +182,12 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
-        },
-        {
           "id": "su27",
           "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -203,16 +203,16 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
         },
         {
-          "id": "as365",
-          "label": "Airbus Helicopters AS365 Dauphin"
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",

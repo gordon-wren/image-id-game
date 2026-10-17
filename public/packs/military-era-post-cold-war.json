@@ -31,12 +31,12 @@
           "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "rq7",
-          "label": "AAI RQ-7 Shadow"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         }
       ],
       "caption": "American four engine military transport aircraft. First flew 1991.",
@@ -56,12 +56,12 @@
           "label": "Boeing C-17 Globemaster III"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         }
       ],
       "caption": "Military transport tiltrotor. First flew 1989.",
@@ -81,8 +81,8 @@
           "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
           "id": "mq8",
@@ -102,16 +102,16 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "Unmanned surveillance aircraft. First flew 1998.",
@@ -127,16 +127,16 @@
           "label": "Northrop B-2 Spirit"
         },
         {
-          "id": "b21",
-          "label": "Northrop Grumman B-21 Raider"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "tu160",
-          "label": "Tupolev Tu-160"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "b47",
-          "label": "Boeing B-47 Stratojet"
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
         }
       ],
       "caption": "American heavy strategic bomber. First flew 1989.",
@@ -156,12 +156,12 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "rafale",
+          "label": "Dassault Rafale"
         }
       ],
       "caption": "American stealth air superiority fighter. First flew 1997.",
@@ -177,16 +177,16 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "f15e",
-          "label": "McDonnell Douglas F-15E Strike Eagle"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "j10",
+          "label": "Chengdu J-10"
         }
       ],
       "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
@@ -202,16 +202,16 @@
           "label": "Eurofighter Typhoon"
         },
         {
-          "id": "tornado",
-          "label": "Panavia Tornado"
-        },
-        {
           "id": "j10",
           "label": "Chengdu J-10"
         },
         {
           "id": "rafale",
           "label": "Dassault Rafale"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
@@ -227,16 +227,16 @@
           "label": "Dassault Rafale"
         },
         {
-          "id": "mirage2000",
-          "label": "Dassault Mirage 2000"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "typhoon",
-          "label": "Eurofighter Typhoon"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
+          "id": "j10",
+          "label": "Chengdu J-10"
         }
       ],
       "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
@@ -252,16 +252,16 @@
           "label": "Saab JAS 39 Gripen"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "rafale",
+          "label": "Dassault Rafale"
         },
         {
-          "id": "saab340",
-          "label": "Saab 340"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         }
       ],
       "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
@@ -277,16 +277,16 @@
           "label": "Chengdu J-10"
         },
         {
-          "id": "j20",
-          "label": "Chengdu J-20"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "gripen",
-          "label": "Saab JAS 39 Gripen"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         }
       ],
       "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
@@ -306,12 +306,12 @@
           "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "s76",
-          "label": "Sikorsky S-76"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "ah64",
-          "label": "Boeing AH-64 Apache"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -331,12 +331,12 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -352,16 +352,16 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "as365",
-          "label": "Airbus Helicopters AS365 Dauphin"
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
         },
         {
-          "id": "aw139",
-          "label": "AgustaWestland AW139"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -377,16 +377,16 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
-        },
-        {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
-        },
-        {
           "id": "ka52",
           "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
         }
       ],
       "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
@@ -406,12 +406,12 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         }
       ],
       "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
@@ -431,12 +431,12 @@
           "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "Family of unmanned aerial vehicles. First flew 1994.",
@@ -452,16 +452,16 @@
           "label": "Lockheed Martin C-130J Super Hercules"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
-        },
-        {
           "id": "rq4",
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "Military transport aircraft. First flew 1996.",
@@ -481,12 +481,12 @@
           "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         }
       ],
       "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
@@ -506,12 +506,12 @@
           "label": "Northrop Grumman MQ-8 Fire Scout"
         },
         {
-          "id": "e8",
-          "label": "Northrop Grumman E-8 Joint STARS"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         },
         {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         }
       ],
       "caption": "American unmanned aerial vehicle. First flew 1991.",
@@ -527,16 +527,16 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "h135",
-          "label": "Airbus H135 (EC135)"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "ch53k",
-          "label": "Sikorsky CH-53K King Stallion"
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -552,16 +552,16 @@
           "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
-        },
-        {
           "id": "uh72",
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "sh60",
-          "label": "Sikorsky SH-60 Seahawk"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         }
       ],
       "caption": "Military utility helicopter model by Bell. First flew 2001.",
@@ -581,12 +581,12 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
         }
       ],
       "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
@@ -602,16 +602,16 @@
           "label": "Boeing EA-18G Growler"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         },
         {
           "id": "mq9",
           "label": "General Atomics MQ-9 Reaper"
-        },
-        {
-          "id": "v22",
-          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "American electronic warfare aircraft. First flew 2006.",
