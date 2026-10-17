@@ -1,0 +1,546 @@
+{
+  "id": "military-decade-1930s",
+  "title": "1930s",
+  "description": "Military aircraft that entered service in the 1930s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1930s-spitfire",
+      "image": "spitfire.jpg",
+      "answer": "spitfire",
+      "options": [
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        }
+      ],
+      "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-hurricane",
+      "image": "hurricane.jpg",
+      "answer": "hurricane",
+      "options": [
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        }
+      ],
+      "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-bf109",
+      "image": "bf109.jpg",
+      "answer": "bf109",
+      "options": [
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        }
+      ],
+      "caption": "German single-engine fighter aircraft family. First flew 1935.",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-b17",
+      "image": "b17.jpg",
+      "answer": "b17",
+      "options": [
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        }
+      ],
+      "caption": "American heavy bomber aircraft. First flew 1935.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-boeing-p12",
+      "image": "boeing-p12.jpg",
+      "answer": "boeing-p12",
+      "options": [
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "US military fighter aircraft in service 1930-1941. First flew 1928.",
+      "credit": "This image was released by the United States Air Force with the ID 050309-F-1234P-015 (next).; This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/− / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-keystone-b3",
+      "image": "keystone-b3.jpg",
+      "answer": "keystone-b3",
+      "options": [
+        {
+          "id": "keystone-b3",
+          "label": "Keystone B-3"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        }
+      ],
+      "caption": "Bomber aircraft family by Keystone.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-p26",
+      "image": "p26.jpg",
+      "answer": "p26",
+      "options": [
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "Fighter aircraft series. First flew 1932.",
+      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-martin-b10",
+      "image": "martin-b10.jpg",
+      "answer": "martin-b10",
+      "options": [
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        }
+      ],
+      "caption": "American bomber aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-grumman-f3f",
+      "image": "grumman-f3f.jpg",
+      "answer": "grumman-f3f",
+      "options": [
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "US Navy biplane. First flew 1935.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-p35",
+      "image": "p35.jpg",
+      "answer": "p35",
+      "options": [
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "1935 fighter aircraft series by Seversky. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-p36",
+      "image": "p36.jpg",
+      "answer": "p36",
+      "options": [
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1935.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-tbd",
+      "image": "tbd.jpg",
+      "answer": "tbd",
+      "options": [
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        }
+      ],
+      "caption": "US Navy carrier-based torpedo bomber in service 1937-1942. First flew 1935.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-f2a",
+      "image": "f2a.jpg",
+      "answer": "f2a",
+      "options": [
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "WWII American fighter plane. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-a17",
+      "image": "a17.jpg",
+      "answer": "a17",
+      "options": [
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "American attack aircraft. First flew 1934.",
+      "credit": "en:User:Signaleer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-b18",
+      "image": "b18.jpg",
+      "answer": "b18",
+      "options": [
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        }
+      ],
+      "caption": "American twin-engined medium bomber aircraft in service 1936-1946. First flew 1935.",
+      "credit": "National Museum of the United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-sb2u",
+      "image": "sb2u.jpg",
+      "answer": "sb2u",
+      "options": [
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "US Navy dive bomber. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-pby",
+      "image": "pby.jpg",
+      "answer": "pby",
+      "options": [
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        }
+      ],
+      "caption": "American 1930s flying boat. First flew 1935.",
+      "credit": "Filipe Sousa / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-stearman",
+      "image": "stearman.jpg",
+      "answer": "stearman",
+      "options": [
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-t6",
+      "image": "t6.jpg",
+      "answer": "t6",
+      "options": [
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        }
+      ],
+      "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-p40",
+      "image": "p40.jpg",
+      "answer": "p40",
+      "options": [
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        }
+      ],
+      "caption": "American WWII fighter. First flew 1938.",
+      "credit": "U.S. Army Air Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-a20",
+      "image": "a20.jpg",
+      "answer": "a20",
+      "options": [
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        }
+      ],
+      "caption": "American light bomber and attack aircraft of World War II. First flew 1939.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

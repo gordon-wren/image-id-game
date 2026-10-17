@@ -1,0 +1,196 @@
+{
+  "id": "military-country-united-kingdom",
+  "title": "United Kingdom",
+  "description": "Military aircraft from the United Kingdom.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-kingdom-vulcan",
+      "image": "vulcan.jpg",
+      "answer": "vulcan",
+      "options": [
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        }
+      ],
+      "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-harrier",
+      "image": "harrier.jpg",
+      "answer": "harrier",
+      "options": [
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        }
+      ],
+      "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
+      "credit": "Javier Rodríguez from Palma de Mallorca, España / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-hawk",
+      "image": "hawk.jpg",
+      "answer": "hawk",
+      "options": [
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        }
+      ],
+      "caption": "Military training aircraft family. First flew 1974.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-spitfire",
+      "image": "spitfire.jpg",
+      "answer": "spitfire",
+      "options": [
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        }
+      ],
+      "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-hurricane",
+      "image": "hurricane.jpg",
+      "answer": "hurricane",
+      "options": [
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        }
+      ],
+      "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-mosquito",
+      "image": "mosquito.jpg",
+      "answer": "mosquito",
+      "options": [
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        }
+      ],
+      "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
+      "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-kingdom-lancaster",
+      "image": "lancaster.jpg",
+      "answer": "lancaster",
+      "options": [
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        }
+      ],
+      "caption": "World War II British heavy bomber aircraft. First flew 1941.",
+      "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
+    }
+  ]
+}

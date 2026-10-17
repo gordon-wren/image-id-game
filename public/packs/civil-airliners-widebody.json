@@ -1,0 +1,621 @@
+{
+  "id": "civil-airliners-widebody",
+  "title": "Widebody airliners",
+  "description": "Twin-aisle jets, from the 707 era to the A350.",
+  "path": [
+    "Aviation",
+    "Civil",
+    "Airliners"
+  ],
+  "theme": {
+    "accent": "#185FA5"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "civil-airliners-widebody-a380",
+      "image": "a380.jpg",
+      "answer": "a380",
+      "options": [
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "a350",
+          "label": "Airbus A350"
+        },
+        {
+          "id": "a340",
+          "label": "Airbus A340"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        }
+      ],
+      "caption": "European wide-body airliner. First flew 2005.",
+      "credit": "Maarten Visser from Capelle aan den IJssel, Nederland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b747",
+      "image": "b747.jpg",
+      "answer": "b747",
+      "options": [
+        {
+          "id": "b747",
+          "label": "Boeing 747"
+        },
+        {
+          "id": "b777",
+          "label": "Boeing 777"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "dc8",
+          "label": "Douglas DC-8"
+        }
+      ],
+      "caption": "American wide-body four-engined jet long-range aircraft. First flew 1969.",
+      "credit": "Iberia Airlines / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b747-8",
+      "image": "b747-8.jpg",
+      "answer": "b747-8",
+      "options": [
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b787",
+          "label": "Boeing 787 Dreamliner"
+        }
+      ],
+      "caption": "Wide-body airliner, last production series of the 747. First flew 2010.",
+      "credit": "Juke Schweizer / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b747-400",
+      "image": "b747-400.jpg",
+      "answer": "b747-400",
+      "options": [
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b777",
+          "label": "Boeing 777"
+        }
+      ],
+      "caption": "Wide-body airliner, improved production series of the 747. First flew 1988.",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b747sp",
+      "image": "b747sp.jpg",
+      "answer": "b747sp",
+      "options": [
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        }
+      ],
+      "caption": "Shortened version of the Boeing 747. First flew 1975.",
+      "credit": "NASA photo / Jim Ross / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b777",
+      "image": "b777.jpg",
+      "answer": "b777",
+      "options": [
+        {
+          "id": "b777",
+          "label": "Boeing 777"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
+        }
+      ],
+      "caption": "Large twin-aisle airliner family. First flew 1994.",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b777x",
+      "image": "b777x.jpg",
+      "answer": "b777x",
+      "options": [
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b747",
+          "label": "Boeing 747"
+        }
+      ],
+      "caption": "Next generation of the Boeing 777. First flew 2020.",
+      "credit": "Dan Nevill from Seattle, WA, United States / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b787",
+      "image": "b787.jpg",
+      "answer": "b787",
+      "options": [
+        {
+          "id": "b787",
+          "label": "Boeing 787 Dreamliner"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        }
+      ],
+      "caption": "Twin-aisle airliner family. First flew 2009.",
+      "credit": "pjs2005 from Hampshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a350",
+      "image": "a350.jpg",
+      "answer": "a350",
+      "options": [
+        {
+          "id": "a350",
+          "label": "Airbus A350"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        },
+        {
+          "id": "a340",
+          "label": "Airbus A340"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        }
+      ],
+      "caption": "Large twin-aisle airliner family. First flew 2013.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a330",
+      "image": "a330.jpg",
+      "answer": "a330",
+      "options": [
+        {
+          "id": "a330",
+          "label": "Airbus A330"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "a340",
+          "label": "Airbus A340"
+        }
+      ],
+      "caption": "Twin-aisle airliner family. First flew 1992.",
+      "credit": "4300streetcar / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a330neo",
+      "image": "a330neo.jpg",
+      "answer": "a330neo",
+      "options": [
+        {
+          "id": "a330neo",
+          "label": "Airbus A330neo"
+        },
+        {
+          "id": "a350",
+          "label": "Airbus A350"
+        },
+        {
+          "id": "b747-8",
+          "label": "Boeing 747-8"
+        },
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        }
+      ],
+      "caption": "Wide-body jet airliner developed from A330. First flew 2017.",
+      "credit": "Sg1959 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a340",
+      "image": "a340.jpg",
+      "answer": "a340",
+      "options": [
+        {
+          "id": "a340",
+          "label": "Airbus A340"
+        },
+        {
+          "id": "a330",
+          "label": "Airbus A330"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "a380",
+          "label": "Airbus A380"
+        }
+      ],
+      "caption": "Four-engined twin-aisle airliner family. First flew 1991.",
+      "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b767",
+      "image": "b767.jpg",
+      "answer": "b767",
+      "options": [
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        },
+        {
+          "id": "b747",
+          "label": "Boeing 747"
+        }
+      ],
+      "caption": "Twin-aisle airliner family. First flew 1981.",
+      "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-md11",
+      "image": "md11.jpg",
+      "answer": "md11",
+      "options": [
+        {
+          "id": "md11",
+          "label": "McDonnell Douglas MD-11"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b777x",
+          "label": "Boeing 777X"
+        }
+      ],
+      "caption": "Wide body airliners developed from the DC-10. First flew 1990.",
+      "credit": "Björn Strey / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-dc10",
+      "image": "dc10.jpg",
+      "answer": "dc10",
+      "options": [
+        {
+          "id": "dc10",
+          "label": "McDonnell Douglas DC-10"
+        },
+        {
+          "id": "dc8",
+          "label": "Douglas DC-8"
+        },
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        }
+      ],
+      "caption": "Wide-body three-engine airliner. First flew 1970.",
+      "credit": "Danielkang7744 at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-l1011",
+      "image": "l1011.jpg",
+      "answer": "l1011",
+      "options": [
+        {
+          "id": "l1011",
+          "label": "Lockheed L-1011 TriStar"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b747-400",
+          "label": "Boeing 747-400"
+        }
+      ],
+      "caption": "American wide-body trijet airliner. First flew 1970.",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-il96",
+      "image": "il96.jpg",
+      "answer": "il96",
+      "options": [
+        {
+          "id": "il96",
+          "label": "Ilyushin Il-96"
+        },
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        }
+      ],
+      "caption": "Russian four-engined long-range wide-body jet airliner. First flew 1988.",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-il86",
+      "image": "il86.jpg",
+      "answer": "il86",
+      "options": [
+        {
+          "id": "il86",
+          "label": "Ilyushin Il-86"
+        },
+        {
+          "id": "il96",
+          "label": "Ilyushin Il-96"
+        },
+        {
+          "id": "dc10",
+          "label": "McDonnell Douglas DC-10"
+        },
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        }
+      ],
+      "caption": "Soviet four-engined wide-body jet airliner. First flew 1976.",
+      "credit": "Dmitry A. Mottl / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a300",
+      "image": "a300.jpg",
+      "answer": "a300",
+      "options": [
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        },
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "a330",
+          "label": "Airbus A330"
+        },
+        {
+          "id": "a350",
+          "label": "Airbus A350"
+        }
+      ],
+      "caption": "World's first twin-engine widebody jet airliner. First flew 1972.",
+      "credit": "Aero Icarus from Zürich, Switzerland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-a310",
+      "image": "a310.jpg",
+      "answer": "a310",
+      "options": [
+        {
+          "id": "a310",
+          "label": "Airbus A310"
+        },
+        {
+          "id": "a330",
+          "label": "Airbus A330"
+        },
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        },
+        {
+          "id": "a330neo",
+          "label": "Airbus A330neo"
+        }
+      ],
+      "caption": "Short-fuselage derivative of the Airbus A300 airliner. First flew 1982.",
+      "credit": "Hugo LUC / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-concorde",
+      "image": "concorde.jpg",
+      "answer": "concorde",
+      "options": [
+        {
+          "id": "concorde",
+          "label": "Concorde"
+        },
+        {
+          "id": "vc10",
+          "label": "Vickers VC10"
+        },
+        {
+          "id": "a300",
+          "label": "Airbus A300"
+        },
+        {
+          "id": "a330",
+          "label": "Airbus A330"
+        }
+      ],
+      "caption": "British–French supersonic airliner. First flew 1969.",
+      "credit": "Eduard Marmet / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-b707",
+      "image": "b707.jpg",
+      "answer": "b707",
+      "options": [
+        {
+          "id": "b707",
+          "label": "Boeing 707"
+        },
+        {
+          "id": "b767",
+          "label": "Boeing 767"
+        },
+        {
+          "id": "b777",
+          "label": "Boeing 777"
+        },
+        {
+          "id": "b747",
+          "label": "Boeing 747"
+        }
+      ],
+      "caption": "Four-engined single-aisle airliner family. First flew 1957.",
+      "credit": "Gyrostat / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-dc8",
+      "image": "dc8.jpg",
+      "answer": "dc8",
+      "options": [
+        {
+          "id": "dc8",
+          "label": "Douglas DC-8"
+        },
+        {
+          "id": "dc10",
+          "label": "McDonnell Douglas DC-10"
+        },
+        {
+          "id": "b747sp",
+          "label": "Boeing 747SP"
+        },
+        {
+          "id": "vc10",
+          "label": "Vickers VC10"
+        }
+      ],
+      "caption": "American four-engined jet airliner family. First flew 1958.",
+      "credit": "NASA Photo by: Jim Ross / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-airliners-widebody-vc10",
+      "image": "vc10.jpg",
+      "answer": "vc10",
+      "options": [
+        {
+          "id": "vc10",
+          "label": "Vickers VC10"
+        },
+        {
+          "id": "concorde",
+          "label": "Concorde"
+        },
+        {
+          "id": "b747",
+          "label": "Boeing 747"
+        },
+        {
+          "id": "dc10",
+          "label": "McDonnell Douglas DC-10"
+        }
+      ],
+      "caption": "British four-engined narrow-body jet airliner. First flew 1962.",
+      "credit": "Les Chatfield from Brighton, England / CC BY 2.0 / via Wikimedia Commons"
+    }
+  ]
+}

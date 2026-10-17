@@ -1,10 +1,11 @@
 import type { Flashcard, QuestionPack } from "./types";
 import { answerLabel, answerLabels, orderQuestions, resolveImage } from "./pack";
+import { cryptoRandom } from "./random";
 
 /** Build a study deck from a pack, one card per question. Honors `shuffleQuestions`. */
 export function buildDeck(
   pack: QuestionPack,
-  rng: () => number = Math.random
+  rng: () => number = cryptoRandom
 ): Flashcard[] {
   const labels = answerLabels(pack);
   return orderQuestions(pack, rng).map((q) => ({

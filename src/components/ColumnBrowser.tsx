@@ -7,6 +7,7 @@ import {
   nodeChain,
 } from "../engine/categories";
 import { getHighScore } from "../engine/highScores";
+import { roundLength } from "../engine/pack";
 import { formatSeconds, roundSeconds, type TimerSetting } from "../engine/timerSetting";
 import type { AnswerMode } from "../engine/useAnswerMode";
 import type { PlayMode } from "../engine/usePlayMode";
@@ -216,6 +217,12 @@ export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer,
   );
 }
 
+/** "12", or "20 of 64" when each round draws a random selection from a bigger set. */
+function perRoundCount(pack: QuestionPack): string {
+  const n = roundLength(pack);
+  return n < pack.questions.length ? `${n} of ${pack.questions.length}` : String(n);
+}
+
 function PackPreview({
   pack,
   current,
@@ -242,12 +249,12 @@ function PackPreview({
       {pack.description && <p className="pack-desc">{pack.description}</p>}
       {mode === "study" ? (
         <dl className="preview-meta">
-          <div><dt>Cards</dt><dd>{pack.questions.length}</dd></div>
+          <div><dt>Cards</dt><dd>{perRoundCount(pack)}</dd></div>
           <div><dt>Timer</dt><dd>None</dd></div>
         </dl>
       ) : (
         <dl className="preview-meta">
-          <div><dt>Questions</dt><dd>{pack.questions.length}</dd></div>
+          <div><dt>Questions</dt><dd>{perRoundCount(pack)}</dd></div>
           <div><dt>Per round</dt><dd>{perRound}</dd></div>
           <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
         </dl>

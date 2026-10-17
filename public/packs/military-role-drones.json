@@ -1,0 +1,171 @@
+{
+  "id": "military-role-drones",
+  "title": "Drones",
+  "description": "Uncrewed military aircraft.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-drones-mq9",
+      "image": "mq9.jpg",
+      "answer": "mq9",
+      "options": [
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 2001.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-drones-rq4",
+      "image": "rq4.jpg",
+      "answer": "rq4",
+      "options": [
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        }
+      ],
+      "caption": "Unmanned surveillance aircraft. First flew 1998.",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-drones-mq1",
+      "image": "mq1.jpg",
+      "answer": "mq1",
+      "options": [
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        }
+      ],
+      "caption": "Family of unmanned aerial vehicles. First flew 1994.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-drones-rq7",
+      "image": "rq7.jpg",
+      "answer": "rq7",
+      "options": [
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 1991.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-drones-mq8",
+      "image": "mq8.jpg",
+      "answer": "mq8",
+      "options": [
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-drones-mq25",
+      "image": "mq25.jpg",
+      "answer": "mq25",
+      "options": [
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        }
+      ],
+      "caption": "American military aerial refueling drone. First flew 2019.",
+      "credit": "United States Navy photo courtesy of Boeing / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

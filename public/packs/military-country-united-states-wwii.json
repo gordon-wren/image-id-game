@@ -1,0 +1,647 @@
+{
+  "id": "military-country-united-states-wwii",
+  "title": "United States: WWII",
+  "description": "Military aircraft from the United States that entered service 1939–1945.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-wwii-p51",
+      "image": "p51.jpg",
+      "answer": "p51",
+      "options": [
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        }
+      ],
+      "caption": "American WWII-era fighter aircraft. First flew 1940.",
+      "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-f4u",
+      "image": "f4u.jpg",
+      "answer": "f4u",
+      "options": [
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
+      "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p38",
+      "image": "p38.jpg",
+      "answer": "p38",
+      "options": [
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        }
+      ],
+      "caption": "American twin-engined fighter of WWII. First flew 1939.",
+      "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-b29",
+      "image": "b29.jpg",
+      "answer": "b29",
+      "options": [
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
+      "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-f2a",
+      "image": "f2a.jpg",
+      "answer": "f2a",
+      "options": [
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        }
+      ],
+      "caption": "WWII American fighter plane. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-f4f",
+      "image": "f4f.jpg",
+      "answer": "f4f",
+      "options": [
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        }
+      ],
+      "caption": "United States Navy World War II era fighter plane. First flew 1937.",
+      "credit": "The original uploader was Felix c at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-sbd",
+      "image": "sbd.jpg",
+      "answer": "sbd",
+      "options": [
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "Scout and dive bomber aircraft. First flew 1940.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p39",
+      "image": "p39.jpg",
+      "answer": "p39",
+      "options": [
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "1938 fighter aircraft family by Bell. First flew 1938.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p47",
+      "image": "p47.jpg",
+      "answer": "p47",
+      "options": [
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "Family of fighter aircraft. First flew 1941.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-f6f",
+      "image": "f6f.jpg",
+      "answer": "f6f",
+      "options": [
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        }
+      ],
+      "caption": "United States Navy fighter airplane. First flew 1942.",
+      "credit": "USN; / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-tbf",
+      "image": "tbf.jpg",
+      "answer": "tbf",
+      "options": [
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "American naval torpedo bomber. First flew 1941.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-sb2c",
+      "image": "sb2c.jpg",
+      "answer": "sb2c",
+      "options": [
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "Carrier-based dive bomber aircraft. First flew 1940.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-b24",
+      "image": "b24.jpg",
+      "answer": "b24",
+      "options": [
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "1939 bomber aircraft family by Consolidated Aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photos / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-b25",
+      "image": "b25.jpg",
+      "answer": "b25",
+      "options": [
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "American WWII medium bomber. First flew 1940.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-b26",
+      "image": "b26.jpg",
+      "answer": "b26",
+      "options": [
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        }
+      ],
+      "caption": "1940 US medium bomber. First flew 1940.",
+      "credit": "Photo by: Charles E. Brown. The original uploader was Bzuk at English Wikipedia., 2007-02-14 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-a20",
+      "image": "a20.jpg",
+      "answer": "a20",
+      "options": [
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "American light bomber and attack aircraft of World War II. First flew 1939.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-a26",
+      "image": "a26.jpg",
+      "answer": "a26",
+      "options": [
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "1941 attack/bomber aircraft family by Douglas. First flew 1942.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-c47",
+      "image": "c47.jpg",
+      "answer": "c47",
+      "options": [
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-c46",
+      "image": "c46.jpg",
+      "answer": "c46",
+      "options": [
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "U.S. military transport aircraft with 2 piston engines, 1940. First flew 1940.",
+      "credit": "usaf / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-c54",
+      "image": "c54.jpg",
+      "answer": "c54",
+      "options": [
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
+      "credit": "en:User:Signaleer first uploaded to English WP, User:Alaniaris re-uploaded it here / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p61",
+      "image": "p61.jpg",
+      "answer": "p61",
+      "options": [
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        }
+      ],
+      "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
+      "credit": "Unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p59",
+      "image": "p59.jpg",
+      "answer": "p59",
+      "options": [
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        }
+      ],
+      "caption": "First jet aircraft of the United States. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-p80",
+      "image": "p80.jpg",
+      "answer": "p80",
+      "options": [
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "First jet aircraft in U.S. operational service. First flew 1944.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-f8f",
+      "image": "f8f.jpg",
+      "answer": "f8f",
+      "options": [
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "American single-engine carrier-based fighter aircraft. First flew 1944.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-wwii-r4",
+      "image": "r4.jpg",
+      "answer": "r4",
+      "options": [
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        }
+      ],
+      "caption": "Two-seat military helicopter of the 1940s. First flew 1942.",
+      "credit": "United States Army Air Forces / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

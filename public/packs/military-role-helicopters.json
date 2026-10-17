@@ -1,0 +1,721 @@
+{
+  "id": "military-role-helicopters",
+  "title": "Military helicopters",
+  "description": "Attack, utility and heavy-lift military helicopters.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-helicopters-ah64",
+      "image": "ah64.jpg",
+      "answer": "ah64",
+      "options": [
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "U.S. attack helicopter. First flew 1975.",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-uh1",
+      "image": "uh1.jpg",
+      "answer": "uh1",
+      "options": [
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        }
+      ],
+      "caption": "Huey family of American military utility helicopters. First flew 1956.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ch47",
+      "image": "ch47.jpg",
+      "answer": "ch47",
+      "options": [
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
+      "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ch53",
+      "image": "ch53.jpg",
+      "answer": "ch53",
+      "options": [
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
+      "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ah1",
+      "image": "ah1.jpg",
+      "answer": "ah1",
+      "options": [
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Family of attack helicopters. First flew 1965.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi24",
+      "image": "mi24.jpg",
+      "answer": "mi24",
+      "options": [
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "Family of assault and attack helicopters. First flew 1969.",
+      "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi8",
+      "image": "mi8.jpg",
+      "answer": "mi8",
+      "options": [
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        }
+      ],
+      "caption": "Family of transport helicopters. First flew 1961.",
+      "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ka50",
+      "image": "ka50.jpg",
+      "answer": "ka50",
+      "options": [
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Attack helicopter. First flew 1982.",
+      "credit": "Tomasz Szulc / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ka52",
+      "image": "ka52.jpg",
+      "answer": "ka52",
+      "options": [
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        }
+      ],
+      "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ],
+      "caption": "European attack helicopter. First flew 1991.",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-aw101",
+      "image": "aw101.jpg",
+      "answer": "aw101",
+      "options": [
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        }
+      ],
+      "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
+      "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ch54",
+      "image": "ch54.jpg",
+      "answer": "ch54",
+      "options": [
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        }
+      ],
+      "caption": "American twin-engine heavy-lift helicopter. First flew 1962.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi26",
+      "image": "mi26.jpg",
+      "answer": "mi26",
+      "options": [
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-sh60",
+      "image": "sh60.jpg",
+      "answer": "sh60",
+      "options": [
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-r4",
+      "image": "r4.jpg",
+      "answer": "r4",
+      "options": [
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        }
+      ],
+      "caption": "Two-seat military helicopter of the 1940s. First flew 1942.",
+      "credit": "United States Army Air Forces / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-h19",
+      "image": "h19.jpg",
+      "answer": "h19",
+      "options": [
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Family of utility helicopters. First flew 1949.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-h21",
+      "image": "h21.jpg",
+      "answer": "h21",
+      "options": [
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "American military transport helicopter family. First flew 1952.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-sh3",
+      "image": "sh3.jpg",
+      "answer": "sh3",
+      "options": [
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        }
+      ],
+      "caption": "American anti-submarine helicopter. First flew 1959.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-sh2",
+      "image": "sh2.jpg",
+      "answer": "sh2",
+      "options": [
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
+      "credit": "PH2 Wiggin, USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-hh3",
+      "image": "hh3.jpg",
+      "answer": "hh3",
+      "options": [
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
+      "credit": "United States Coast Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ch53e",
+      "image": "ch53e.jpg",
+      "answer": "ch53e",
+      "options": [
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        }
+      ],
+      "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
+      "credit": "Sgt. Seth Starr / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-uh72",
+      "image": "uh72.jpg",
+      "answer": "uh72",
+      "options": [
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        }
+      ],
+      "caption": "Light utility multipurpose helicopter. First flew 2006.",
+      "credit": "Senior Master Sgt. David Lipp / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-uh1y",
+      "image": "uh1y.jpg",
+      "answer": "uh1y",
+      "options": [
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Military utility helicopter model by Bell. First flew 2001.",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ah1z",
+      "image": "ah1z.jpg",
+      "answer": "ah1z",
+      "options": [
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "American attack helicopter. First flew 2000.",
+      "credit": "Cpl. Jonathan L. Gonzalez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-hh60w",
+      "image": "hh60w.jpg",
+      "answer": "hh60w",
+      "options": [
+        {
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        }
+      ],
+      "caption": "American medium-lift military helicopter.",
+      "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ch53k",
+      "image": "ch53k.jpg",
+      "answer": "ch53k",
+      "options": [
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Heavy transport helicopter. First flew 2015.",
+      "credit": "Lance Cpl. Elias E. Pimentel III; cropped by FOX 52 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mh139",
+      "image": "mh139.png",
+      "answer": "mh139",
+      "options": [
+        {
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "Military utility helicopter model by Boeing. First flew 2019.",
+      "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

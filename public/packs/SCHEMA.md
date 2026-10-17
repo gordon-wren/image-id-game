@@ -27,7 +27,8 @@ No code changes. The app renders whatever packs the index lists.
 | `optionsPerQuestion` | number  | no       | `4`     | Buttons per question when options are auto-generated. |
 | `shuffleOptions`     | boolean | no       | `true`  | Shuffle button order at runtime. |
 | `shuffleQuestions`   | boolean | no       | `true`  | Shuffle question order at runtime. |
-| `generatedFrom`      | string  | no       | —       | Set by `scripts/packs/generate.mjs`. Packs with it are overwritten on the next `npm run packs`; change `scripts/packs/recipes.json` instead. |
+| `generatedFrom`      | string  | no       | —       | Set by `scripts/packs/generate.mjs`. Packs with it are rebuilt (or removed) on the next `npm run packs`; change `scripts/packs/taxonomy.json` or the aircraft data instead. |
+| `questionsPerRound`  | number  | no       | all     | At most this many questions per round (game or flashcards), picked at random each time from the pack's questions. |
 | `questions`          | array   | yes      | —       | Non-empty list of questions (below). |
 
 ## Question fields

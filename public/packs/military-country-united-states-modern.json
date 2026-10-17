@@ -1,0 +1,172 @@
+{
+  "id": "military-country-united-states-modern",
+  "title": "United States: Modern",
+  "description": "Military aircraft from the United States that entered service from 2010.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-modern-p8",
+      "image": "p8.jpg",
+      "answer": "p8",
+      "options": [
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "American maritime patrol aircraft. First flew 2009.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-modern-f35",
+      "image": "f35.jpg",
+      "answer": "f35",
+      "options": [
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "American stealth multirole fighter aircraft. First flew 2006.",
+      "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-modern-ah1z",
+      "image": "ah1z.jpg",
+      "answer": "ah1z",
+      "options": [
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "American attack helicopter. First flew 2000.",
+      "credit": "Cpl. Jonathan L. Gonzalez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-modern-kc46",
+      "image": "kc46.jpg",
+      "answer": "kc46",
+      "options": [
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
+      "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-modern-ch53k",
+      "image": "ch53k.jpg",
+      "answer": "ch53k",
+      "options": [
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        }
+      ],
+      "caption": "Heavy transport helicopter. First flew 2015.",
+      "credit": "Lance Cpl. Elias E. Pimentel III; cropped by FOX 52 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-modern-f15ex",
+      "image": "f15ex.jpg",
+      "answer": "f15ex",
+      "options": [
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "American multirole fighter aircraft. First flew 2013.",
+      "credit": "Ethan Wagner / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

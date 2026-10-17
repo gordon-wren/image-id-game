@@ -1,0 +1,221 @@
+{
+  "id": "military-decade-1920s",
+  "title": "1920s",
+  "description": "Military aircraft that entered service in the 1920s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1920s-martin-mb2",
+      "image": "martin-mb2.jpg",
+      "answer": "martin-mb2",
+      "options": [
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        }
+      ],
+      "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-curtiss-p1",
+      "image": "curtiss-p1.jpg",
+      "answer": "curtiss-p1",
+      "options": [
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        }
+      ],
+      "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-boeing-pw9",
+      "image": "boeing-pw9.jpg",
+      "answer": "boeing-pw9",
+      "options": [
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1923.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-douglas-o2",
+      "image": "douglas-o2.jpg",
+      "answer": "douglas-o2",
+      "options": [
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        }
+      ],
+      "caption": "Observation aircraft family by Douglas.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-douglas-world-cruiser",
+      "image": "douglas-world-cruiser.jpg",
+      "answer": "douglas-world-cruiser",
+      "options": [
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        }
+      ],
+      "caption": "Aircraft developed to fly around the world. First flew 1923.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-vought-o2u",
+      "image": "vought-o2u.jpg",
+      "answer": "vought-o2u",
+      "options": [
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        }
+      ],
+      "caption": "1926 naval observation aircraft family.",
+      "credit": "U.S. Navy Photo; The original uploader was Colputt at English Wikipedia., 2007-07-02 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-curtiss-f8c",
+      "image": "curtiss-f8c.jpg",
+      "answer": "curtiss-f8c",
+      "options": [
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "American multirole aircraft.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-consolidated-pt1",
+      "image": "consolidated-pt1.jpg",
+      "answer": "consolidated-pt1",
+      "options": [
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        }
+      ],
+      "caption": "US military trainer aircraft.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

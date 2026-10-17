@@ -4,8 +4,8 @@
   "description": "Name the widebody jet from its photo.",
   "path": [
     "Aviation",
-    "Planes",
-    "Commercial"
+    "Civil",
+    "Airliners"
   ],
   "categoryDescription": "Airliners, fighters, and helicopters.",
   "theme": {

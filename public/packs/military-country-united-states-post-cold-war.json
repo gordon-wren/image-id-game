@@ -1,0 +1,397 @@
+{
+  "id": "military-country-united-states-post-cold-war",
+  "title": "United States: Post-Cold War",
+  "description": "Military aircraft from the United States that entered service 1992–2009.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-post-cold-war-c17",
+      "image": "c17.jpg",
+      "answer": "c17",
+      "options": [
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "American four engine military transport aircraft. First flew 1991.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-v22",
+      "image": "v22.jpg",
+      "answer": "v22",
+      "options": [
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "Military transport tiltrotor. First flew 1989.",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-mq9",
+      "image": "mq9.jpg",
+      "answer": "mq9",
+      "options": [
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 2001.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-rq4",
+      "image": "rq4.jpg",
+      "answer": "rq4",
+      "options": [
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "Unmanned surveillance aircraft. First flew 1998.",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "American stealth air superiority fighter. First flew 1997.",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-fa18ef",
+      "image": "fa18ef.jpg",
+      "answer": "fa18ef",
+      "options": [
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-t1",
+      "image": "t1.jpg",
+      "answer": "t1",
+      "options": [
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        }
+      ],
+      "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
+      "credit": "Terry Wasson / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-mq1",
+      "image": "mq1.jpg",
+      "answer": "mq1",
+      "options": [
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Family of unmanned aerial vehicles. First flew 1994.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-c130j",
+      "image": "c130j.jpg",
+      "answer": "c130j",
+      "options": [
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "Military transport aircraft. First flew 1996.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-t6-texan-ii",
+      "image": "t6-texan-ii.jpg",
+      "answer": "t6-texan-ii",
+      "options": [
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        }
+      ],
+      "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
+      "credit": "U.S. Air Force photo by Master Sgt. David Richards / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-rq7",
+      "image": "rq7.jpg",
+      "answer": "rq7",
+      "options": [
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 1991.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-uh1y",
+      "image": "uh1y.jpg",
+      "answer": "uh1y",
+      "options": [
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        }
+      ],
+      "caption": "Military utility helicopter model by Bell. First flew 2001.",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-mq8",
+      "image": "mq8.jpg",
+      "answer": "mq8",
+      "options": [
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-post-cold-war-ea18g",
+      "image": "ea18g.jpg",
+      "answer": "ea18g",
+      "options": [
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "American electronic warfare aircraft. First flew 2006.",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

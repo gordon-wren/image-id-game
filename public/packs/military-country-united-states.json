@@ -1,0 +1,3847 @@
+{
+  "id": "military-country-united-states",
+  "title": "United States: all eras",
+  "description": "Military aircraft from the United States.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "United States"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-united-states-c130",
+      "image": "c130.jpg",
+      "answer": "c130",
+      "options": [
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "American military transport aircraft. First flew 1954.",
+      "credit": "U.S. Air Force photo by Tech. Sgt. Howard Blair / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c17",
+      "image": "c17.jpg",
+      "answer": "c17",
+      "options": [
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        }
+      ],
+      "caption": "American four engine military transport aircraft. First flew 1991.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c5",
+      "image": "c5.jpg",
+      "answer": "c5",
+      "options": [
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        }
+      ],
+      "caption": "American heavy military transport aircraft. First flew 1968.",
+      "credit": "U.S. Air Force photo by Brett Snow / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-kc135",
+      "image": "kc135.jpg",
+      "answer": "kc135",
+      "options": [
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        }
+      ],
+      "caption": "US military aerial refueling and transport aircraft. First flew 1956.",
+      "credit": "U.S. Air Force photo/Tech. Sgt. Angelique Perez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-e3",
+      "image": "e3.jpg",
+      "answer": "e3",
+      "options": [
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
+      "credit": "Senior Airman Roslyn Ward / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p8",
+      "image": "p8.jpg",
+      "answer": "p8",
+      "options": [
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        }
+      ],
+      "caption": "American maritime patrol aircraft. First flew 2009.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p3",
+      "image": "p3.jpg",
+      "answer": "p3",
+      "options": [
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
+      "credit": "海上自衛隊 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-v22",
+      "image": "v22.jpg",
+      "answer": "v22",
+      "options": [
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "Military transport tiltrotor. First flew 1989.",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sr71",
+      "image": "sr71.jpg",
+      "answer": "sr71",
+      "options": [
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "US Air Force supersonic aircraft, 1964–1998. First flew 1964.",
+      "credit": "USAF / Judson Brohmer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-u2",
+      "image": "u2.jpg",
+      "answer": "u2",
+      "options": [
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        }
+      ],
+      "caption": "American reconnaissance aircraft. First flew 1955.",
+      "credit": "United States Department of the Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-mq9",
+      "image": "mq9.jpg",
+      "answer": "mq9",
+      "options": [
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 2001.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-rq4",
+      "image": "rq4.jpg",
+      "answer": "rq4",
+      "options": [
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "Unmanned surveillance aircraft. First flew 1998.",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b52",
+      "image": "b52.jpg",
+      "answer": "b52",
+      "options": [
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "American strategic bomber aircraft. First flew 1952.",
+      "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b21",
+      "image": "b21.jpg",
+      "answer": "b21",
+      "options": [
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        }
+      ],
+      "caption": "American stealth bomber aircraft. First flew 2023.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        }
+      ],
+      "caption": "American stealth air superiority fighter. First flew 1997.",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f35",
+      "image": "f35.jpg",
+      "answer": "f35",
+      "options": [
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "American stealth multirole fighter aircraft. First flew 2006.",
+      "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-fa18ef",
+      "image": "fa18ef.jpg",
+      "answer": "fa18ef",
+      "options": [
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a10",
+      "image": "a10.jpg",
+      "answer": "a10",
+      "options": [
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "American close air support attack aircraft. First flew 1972.",
+      "credit": "Master Sgt. William Greer, U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f4",
+      "image": "f4.jpg",
+      "answer": "f4",
+      "options": [
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Fighter aircraft family developed from 1958. First flew 1958.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f117",
+      "image": "f117.jpg",
+      "answer": "f117",
+      "options": [
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        }
+      ],
+      "caption": "American stealth ground-attack aircraft. First flew 1981.",
+      "credit": "Staff Sgt. Aaron Allmon II / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f5",
+      "image": "f5.jpg",
+      "answer": "f5",
+      "options": [
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        }
+      ],
+      "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
+      "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t38",
+      "image": "t38.jpg",
+      "answer": "t38",
+      "options": [
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        }
+      ],
+      "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p51",
+      "image": "p51.jpg",
+      "answer": "p51",
+      "options": [
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        }
+      ],
+      "caption": "American WWII-era fighter aircraft. First flew 1940.",
+      "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f4u",
+      "image": "f4u.jpg",
+      "answer": "f4u",
+      "options": [
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
+      "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p38",
+      "image": "p38.jpg",
+      "answer": "p38",
+      "options": [
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "American twin-engined fighter of WWII. First flew 1939.",
+      "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b17",
+      "image": "b17.jpg",
+      "answer": "b17",
+      "options": [
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        }
+      ],
+      "caption": "American heavy bomber aircraft. First flew 1935.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b29",
+      "image": "b29.jpg",
+      "answer": "b29",
+      "options": [
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        }
+      ],
+      "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
+      "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ah64",
+      "image": "ah64.jpg",
+      "answer": "ah64",
+      "options": [
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "U.S. attack helicopter. First flew 1975.",
+      "credit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-uh1",
+      "image": "uh1.jpg",
+      "answer": "uh1",
+      "options": [
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        }
+      ],
+      "caption": "Huey family of American military utility helicopters. First flew 1956.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ch47",
+      "image": "ch47.jpg",
+      "answer": "ch47",
+      "options": [
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
+      "credit": "Sgt. Steven Galimore / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-uh60",
+      "image": "uh60.jpg",
+      "answer": "uh60",
+      "options": [
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "Series of military utility transport helicopters. First flew 1974.",
+      "credit": "147th Aviation Regiment / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ch53",
+      "image": "ch53.jpg",
+      "answer": "ch53",
+      "options": [
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
+      "credit": "Staff Sgt. Raul Gonzalez, USMC / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ah1",
+      "image": "ah1.jpg",
+      "answer": "ah1",
+      "options": [
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        }
+      ],
+      "caption": "Family of attack helicopters. First flew 1965.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ch54",
+      "image": "ch54.jpg",
+      "answer": "ch54",
+      "options": [
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        }
+      ],
+      "caption": "American twin-engine heavy-lift helicopter. First flew 1962.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sh60",
+      "image": "sh60.jpg",
+      "answer": "sh60",
+      "options": [
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "Naval helicopter series of the H-60/S-70 family. First flew 1979.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-jn4",
+      "image": "jn4.jpg",
+      "answer": "jn4",
+      "options": [
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        }
+      ],
+      "caption": "American biplane trainer aircraft (1915–1927).",
+      "credit": "George Johnson, Aviation Section, US Army Signal Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-thomas-morse-s4",
+      "image": "thomas-morse-s4.jpg",
+      "answer": "thomas-morse-s4",
+      "options": [
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        }
+      ],
+      "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
+      "credit": "San Diego Air & Space Museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-curtiss-nc",
+      "image": "curtiss-nc.jpg",
+      "answer": "curtiss-nc",
+      "options": [
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "American flying boat. First flew 1918.",
+      "credit": "Courtesy of the U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-martin-mb1",
+      "image": "martin-mb1.jpg",
+      "answer": "martin-mb1",
+      "options": [
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        }
+      ],
+      "caption": "American large biplane bomber. First flew 1918.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-dh4-us",
+      "image": "dh4-us.jpg",
+      "answer": "dh4-us",
+      "options": [
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        }
+      ],
+      "caption": "British bomber used during the First World War. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-curtiss-h16",
+      "image": "curtiss-h16.jpg",
+      "answer": "curtiss-h16",
+      "options": [
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        }
+      ],
+      "caption": "American 1914 long range flying boat. First flew 1914.",
+      "credit": "MoD Photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-martin-mb2",
+      "image": "martin-mb2.jpg",
+      "answer": "martin-mb2",
+      "options": [
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        }
+      ],
+      "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-curtiss-p1",
+      "image": "curtiss-p1.jpg",
+      "answer": "curtiss-p1",
+      "options": [
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        }
+      ],
+      "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-boeing-pw9",
+      "image": "boeing-pw9.jpg",
+      "answer": "boeing-pw9",
+      "options": [
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1923.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-douglas-o2",
+      "image": "douglas-o2.jpg",
+      "answer": "douglas-o2",
+      "options": [
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "Observation aircraft family by Douglas.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-douglas-world-cruiser",
+      "image": "douglas-world-cruiser.jpg",
+      "answer": "douglas-world-cruiser",
+      "options": [
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        }
+      ],
+      "caption": "Aircraft developed to fly around the world. First flew 1923.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-vought-o2u",
+      "image": "vought-o2u.jpg",
+      "answer": "vought-o2u",
+      "options": [
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        }
+      ],
+      "caption": "1926 naval observation aircraft family.",
+      "credit": "U.S. Navy Photo; The original uploader was Colputt at English Wikipedia., 2007-07-02 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-boeing-p12",
+      "image": "boeing-p12.jpg",
+      "answer": "boeing-p12",
+      "options": [
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "US military fighter aircraft in service 1930-1941. First flew 1928.",
+      "credit": "This image was released by the United States Air Force with the ID 050309-F-1234P-015 (next).; This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/− / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-curtiss-f8c",
+      "image": "curtiss-f8c.jpg",
+      "answer": "curtiss-f8c",
+      "options": [
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "American multirole aircraft.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-keystone-b3",
+      "image": "keystone-b3.jpg",
+      "answer": "keystone-b3",
+      "options": [
+        {
+          "id": "keystone-b3",
+          "label": "Keystone B-3"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "Bomber aircraft family by Keystone.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-consolidated-pt1",
+      "image": "consolidated-pt1.jpg",
+      "answer": "consolidated-pt1",
+      "options": [
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "US military trainer aircraft.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p26",
+      "image": "p26.jpg",
+      "answer": "p26",
+      "options": [
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "Fighter aircraft series. First flew 1932.",
+      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-martin-b10",
+      "image": "martin-b10.jpg",
+      "answer": "martin-b10",
+      "options": [
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "American bomber aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-grumman-f3f",
+      "image": "grumman-f3f.jpg",
+      "answer": "grumman-f3f",
+      "options": [
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "US Navy biplane. First flew 1935.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p35",
+      "image": "p35.jpg",
+      "answer": "p35",
+      "options": [
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        }
+      ],
+      "caption": "1935 fighter aircraft series by Seversky. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p36",
+      "image": "p36.jpg",
+      "answer": "p36",
+      "options": [
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1935.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-tbd",
+      "image": "tbd.jpg",
+      "answer": "tbd",
+      "options": [
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        }
+      ],
+      "caption": "US Navy carrier-based torpedo bomber in service 1937-1942. First flew 1935.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f2a",
+      "image": "f2a.jpg",
+      "answer": "f2a",
+      "options": [
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        }
+      ],
+      "caption": "WWII American fighter plane. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a17",
+      "image": "a17.jpg",
+      "answer": "a17",
+      "options": [
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "American attack aircraft. First flew 1934.",
+      "credit": "en:User:Signaleer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b18",
+      "image": "b18.jpg",
+      "answer": "b18",
+      "options": [
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        }
+      ],
+      "caption": "American twin-engined medium bomber aircraft in service 1936-1946. First flew 1935.",
+      "credit": "National Museum of the United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sb2u",
+      "image": "sb2u.jpg",
+      "answer": "sb2u",
+      "options": [
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        }
+      ],
+      "caption": "US Navy dive bomber. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-pby",
+      "image": "pby.jpg",
+      "answer": "pby",
+      "options": [
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        }
+      ],
+      "caption": "American 1930s flying boat. First flew 1935.",
+      "credit": "Filipe Sousa / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-stearman",
+      "image": "stearman.jpg",
+      "answer": "stearman",
+      "options": [
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        }
+      ],
+      "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t6",
+      "image": "t6.jpg",
+      "answer": "t6",
+      "options": [
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p40",
+      "image": "p40.jpg",
+      "answer": "p40",
+      "options": [
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        }
+      ],
+      "caption": "American WWII fighter. First flew 1938.",
+      "credit": "U.S. Army Air Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f4f",
+      "image": "f4f.jpg",
+      "answer": "f4f",
+      "options": [
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        }
+      ],
+      "caption": "United States Navy World War II era fighter plane. First flew 1937.",
+      "credit": "The original uploader was Felix c at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sbd",
+      "image": "sbd.jpg",
+      "answer": "sbd",
+      "options": [
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "Scout and dive bomber aircraft. First flew 1940.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p39",
+      "image": "p39.jpg",
+      "answer": "p39",
+      "options": [
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        }
+      ],
+      "caption": "1938 fighter aircraft family by Bell. First flew 1938.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p47",
+      "image": "p47.jpg",
+      "answer": "p47",
+      "options": [
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "Family of fighter aircraft. First flew 1941.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f6f",
+      "image": "f6f.jpg",
+      "answer": "f6f",
+      "options": [
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        }
+      ],
+      "caption": "United States Navy fighter airplane. First flew 1942.",
+      "credit": "USN; / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-tbf",
+      "image": "tbf.jpg",
+      "answer": "tbf",
+      "options": [
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "American naval torpedo bomber. First flew 1941.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sb2c",
+      "image": "sb2c.jpg",
+      "answer": "sb2c",
+      "options": [
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        }
+      ],
+      "caption": "Carrier-based dive bomber aircraft. First flew 1940.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b24",
+      "image": "b24.jpg",
+      "answer": "b24",
+      "options": [
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "1939 bomber aircraft family by Consolidated Aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photos / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b25",
+      "image": "b25.jpg",
+      "answer": "b25",
+      "options": [
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        }
+      ],
+      "caption": "American WWII medium bomber. First flew 1940.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b26",
+      "image": "b26.jpg",
+      "answer": "b26",
+      "options": [
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "1940 US medium bomber. First flew 1940.",
+      "credit": "Photo by: Charles E. Brown. The original uploader was Bzuk at English Wikipedia., 2007-02-14 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a20",
+      "image": "a20.jpg",
+      "answer": "a20",
+      "options": [
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        }
+      ],
+      "caption": "American light bomber and attack aircraft of World War II. First flew 1939.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a26",
+      "image": "a26.jpg",
+      "answer": "a26",
+      "options": [
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        }
+      ],
+      "caption": "1941 attack/bomber aircraft family by Douglas. First flew 1942.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c47",
+      "image": "c47.jpg",
+      "answer": "c47",
+      "options": [
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c46",
+      "image": "c46.jpg",
+      "answer": "c46",
+      "options": [
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "U.S. military transport aircraft with 2 piston engines, 1940. First flew 1940.",
+      "credit": "usaf / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c54",
+      "image": "c54.jpg",
+      "answer": "c54",
+      "options": [
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        }
+      ],
+      "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
+      "credit": "en:User:Signaleer first uploaded to English WP, User:Alaniaris re-uploaded it here / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p61",
+      "image": "p61.jpg",
+      "answer": "p61",
+      "options": [
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        }
+      ],
+      "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
+      "credit": "Unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p59",
+      "image": "p59.jpg",
+      "answer": "p59",
+      "options": [
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        }
+      ],
+      "caption": "First jet aircraft of the United States. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-p80",
+      "image": "p80.jpg",
+      "answer": "p80",
+      "options": [
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        }
+      ],
+      "caption": "First jet aircraft in U.S. operational service. First flew 1944.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f8f",
+      "image": "f8f.jpg",
+      "answer": "f8f",
+      "options": [
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        },
+        {
+          "id": "tbf",
+          "label": "Grumman TBF Avenger"
+        }
+      ],
+      "caption": "American single-engine carrier-based fighter aircraft. First flew 1944.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ad-skyraider",
+      "image": "ad-skyraider.jpg",
+      "answer": "ad-skyraider",
+      "options": [
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        }
+      ],
+      "caption": "American single engine attack aircraft. First flew 1945.",
+      "credit": "NASA Ames Research Center / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-r4",
+      "image": "r4.jpg",
+      "answer": "r4",
+      "options": [
+        {
+          "id": "r4",
+          "label": "Sikorsky R-4"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        }
+      ],
+      "caption": "Two-seat military helicopter of the 1940s. First flew 1942.",
+      "credit": "United States Army Air Forces / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b36",
+      "image": "b36.jpg",
+      "answer": "b36",
+      "options": [
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f9f",
+      "image": "f9f.jpg",
+      "answer": "f9f",
+      "options": [
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
+        }
+      ],
+      "caption": "US Navy carrier-based jet fighter. First flew 1947.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f84",
+      "image": "f84.jpg",
+      "answer": "f84",
+      "options": [
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        }
+      ],
+      "caption": "1946 fighter-bomber family. First flew 1946.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f86",
+      "image": "f86.jpg",
+      "answer": "f86",
+      "options": [
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        }
+      ],
+      "caption": "Family of US fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force photo by J.M. Eddins Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b47",
+      "image": "b47.jpg",
+      "answer": "b47",
+      "options": [
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        }
+      ],
+      "caption": "Cold War-era American jet bomber. First flew 1947.",
+      "credit": "National Nuclear Security Administration / Nevada Site Office / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f94",
+      "image": "f94.jpg",
+      "answer": "f94",
+      "options": [
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "Series of all-weather interceptor aircraft. First flew 1949.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t33",
+      "image": "t33.jpg",
+      "answer": "t33",
+      "options": [
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        }
+      ],
+      "caption": "Series of military training aircraft. First flew 1948.",
+      "credit": "Alejandro Pena; Edited by: FOX 52 and Bammesk / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c119",
+      "image": "c119.jpg",
+      "answer": "c119",
+      "options": [
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "American military transport aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c124",
+      "image": "c124.jpg",
+      "answer": "c124",
+      "options": [
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        }
+      ],
+      "caption": "American heavy lift military aircraft with 4 piston engines, 1946. First flew 1949.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-hu16",
+      "image": "hu16.jpg",
+      "answer": "hu16",
+      "options": [
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        }
+      ],
+      "caption": "American seaplane. First flew 1949.",
+      "credit": "Dylan Agbagni / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-h19",
+      "image": "h19.jpg",
+      "answer": "h19",
+      "options": [
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        }
+      ],
+      "caption": "Family of utility helicopters. First flew 1949.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-h21",
+      "image": "h21.jpg",
+      "answer": "h21",
+      "options": [
+        {
+          "id": "h21",
+          "label": "Piasecki H-21"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        }
+      ],
+      "caption": "American military transport helicopter family. First flew 1952.",
+      "credit": "US Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-o1",
+      "image": "o1.jpg",
+      "answer": "o1",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "Military liaison and observation aircraft. First flew 1949.",
+      "credit": "U.S. Army / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f2h",
+      "image": "f2h.jpg",
+      "answer": "f2h",
+      "options": [
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        }
+      ],
+      "caption": "American carrier-based jet fighter. First flew 1947.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b57",
+      "image": "b57.jpg",
+      "answer": "b57",
+      "options": [
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "US license-built version of the British English Electric Canberra bomber. First flew 1953.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a3",
+      "image": "a3.jpg",
+      "answer": "a3",
+      "options": [
+        {
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        }
+      ],
+      "caption": "Carrier-based multirole aircraft family. First flew 1952.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f100-super-sabre",
+      "image": "f100-super-sabre.jpg",
+      "answer": "f100-super-sabre",
+      "options": [
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        }
+      ],
+      "caption": "1953 fighter aircraft family. First flew 1953.",
+      "credit": "NASA / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a4",
+      "image": "a4.jpg",
+      "answer": "a4",
+      "options": [
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "a3",
+          "label": "Douglas A-3 Skywarrior"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "Carrier-based attack aircraft. First flew 1954.",
+      "credit": "Lt.JG Nelson, U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f101",
+      "image": "f101.jpg",
+      "answer": "f101",
+      "options": [
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        }
+      ],
+      "caption": "Family of 1950s jet fighter aircraft. First flew 1954.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f102",
+      "image": "f102.jpg",
+      "answer": "f102",
+      "options": [
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        }
+      ],
+      "caption": "Cold War interceptor of the US Air Force. First flew 1953.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f104",
+      "image": "f104.jpg",
+      "answer": "f104",
+      "options": [
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        }
+      ],
+      "caption": "1956 fighter aircraft family by Lockheed. First flew 1956.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f8",
+      "image": "f8.jpg",
+      "answer": "f8",
+      "options": [
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "1955 naval fighter aircraft by Vought. First flew 1955.",
+      "credit": "Jimmy Labianco / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f105",
+      "image": "f105.jpg",
+      "answer": "f105",
+      "options": [
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        }
+      ],
+      "caption": "US Air Force supersonic fighter-bomber. First flew 1955.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f106",
+      "image": "f106.jpg",
+      "answer": "f106",
+      "options": [
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "All-weather interceptor aircraft. First flew 1956.",
+      "credit": "Staff Sgt. John K. McDowell / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-b58",
+      "image": "b58.jpg",
+      "answer": "b58",
+      "options": [
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        }
+      ],
+      "caption": "Cold War-era American supersonic bomber. First flew 1956.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t37",
+      "image": "t37.jpg",
+      "answer": "t37",
+      "options": [
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        }
+      ],
+      "caption": "Family of military training aircraft (1954–2009). First flew 1954.",
+      "credit": "Staff Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sh3",
+      "image": "sh3.jpg",
+      "answer": "sh3",
+      "options": [
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "American anti-submarine helicopter. First flew 1959.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a5",
+      "image": "a5.jpg",
+      "answer": "a5",
+      "options": [
+        {
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "a4",
+          "label": "Douglas A-4 Skyhawk"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "Cold War-era U.S. carrier-based supersonic bomber. First flew 1958.",
+      "credit": "NASA Dryden Flight Research Center / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a6",
+      "image": "a6.jpg",
+      "answer": "a6",
+      "options": [
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "1960 attack strike aircraft family by Grumman. First flew 1960.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-e2",
+      "image": "e2.jpg",
+      "answer": "e2",
+      "options": [
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "Airborne early warning and control aircraft. First flew 1960.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ov1",
+      "image": "ov1.jpg",
+      "answer": "ov1",
+      "options": [
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        }
+      ],
+      "caption": "Battlefield reconnaissance and forward air control aircraft. First flew 1959.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c141",
+      "image": "c141.jpg",
+      "answer": "c141",
+      "options": [
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "c130",
+          "label": "Lockheed C-130 Hercules"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f111",
+      "image": "f111.jpg",
+      "answer": "f111",
+      "options": [
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        }
+      ],
+      "caption": "Family of strike aircraft developed in 1960s. First flew 1964.",
+      "credit": "Master Sgt. Patrick Nugent / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a7",
+      "image": "a7.jpg",
+      "answer": "a7",
+      "options": [
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        }
+      ],
+      "caption": "American attack aircraft family. First flew 1965.",
+      "credit": "Robert L. Lawson, U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-a37",
+      "image": "a37.jpg",
+      "answer": "a37",
+      "options": [
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        },
+        {
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        }
+      ],
+      "caption": "American light attack aircraft developed from the T-37 Tweet basic trainer. First flew 1963.",
+      "credit": "TSGT KEN HAMMOND / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ov10",
+      "image": "ov10.jpg",
+      "answer": "ov10",
+      "options": [
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "Observation and light attack aircraft. First flew 1965.",
+      "credit": "NASA / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-sh2",
+      "image": "sh2.jpg",
+      "answer": "sh2",
+      "options": [
+        {
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        }
+      ],
+      "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
+      "credit": "PH2 Wiggin, USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-hh3",
+      "image": "hh3.jpg",
+      "answer": "hh3",
+      "options": [
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "h19",
+          "label": "Sikorsky H-19 Chickasaw"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
+      "credit": "United States Coast Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-s3",
+      "image": "s3.jpg",
+      "answer": "s3",
+      "options": [
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        }
+      ],
+      "caption": "Carrier-based anti-submarine and aerial refueling aircraft. First flew 1972.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ea6b",
+      "image": "ea6b.jpg",
+      "answer": "ea6b",
+      "options": [
+        {
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        }
+      ],
+      "caption": "American carrier-based electronic warfare aircraft. First flew 1968.",
+      "credit": "Cpl. Neysa Huertas Quinones / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-e4",
+      "image": "e4.jpg",
+      "answer": "e4",
+      "options": [
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        }
+      ],
+      "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
+      "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ch53e",
+      "image": "ch53e.jpg",
+      "answer": "ch53e",
+      "options": [
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "Transport helicopter series by Sikorsky. First flew 1974.",
+      "credit": "Sgt. Seth Starr / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-kc10",
+      "image": "kc10.jpg",
+      "answer": "kc10",
+      "options": [
+        {
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "US aerial refueling tanker aircraft. First flew 1980.",
+      "credit": "U.S. Air Force photo by Staff Sgt. Jerry Morrison / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-av8b",
+      "image": "av8b.jpg",
+      "answer": "av8b",
+      "options": [
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        }
+      ],
+      "caption": "Anglo-American VSTOL ground-attack aircraft. First flew 1978.",
+      "credit": "U.S. Navy photo by Signalman 3rd Class Matthew A. Alvarado. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f15e",
+      "image": "f15e.jpg",
+      "answer": "f15e",
+      "options": [
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        }
+      ],
+      "caption": "American all-weather multirole fighter aircraft. First flew 1986.",
+      "credit": "Staff Sgt. Sean Carnes / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-e6",
+      "image": "e6.jpg",
+      "answer": "e6",
+      "options": [
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Airborne command post aircraft by Boeing based on 707 airframe. First flew 1987.",
+      "credit": "USAF Greg L. Davis / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-e8",
+      "image": "e8.jpg",
+      "answer": "e8",
+      "options": [
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t1",
+      "image": "t1.jpg",
+      "answer": "t1",
+      "options": [
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        }
+      ],
+      "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
+      "credit": "Terry Wasson / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-mq1",
+      "image": "mq1.jpg",
+      "answer": "mq1",
+      "options": [
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "Family of unmanned aerial vehicles. First flew 1994.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-c130j",
+      "image": "c130j.jpg",
+      "answer": "c130j",
+      "options": [
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "Military transport aircraft. First flew 1996.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-t6-texan-ii",
+      "image": "t6-texan-ii.jpg",
+      "answer": "t6-texan-ii",
+      "options": [
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
+      "credit": "U.S. Air Force photo by Master Sgt. David Richards / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-rq7",
+      "image": "rq7.jpg",
+      "answer": "rq7",
+      "options": [
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 1991.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-uh1y",
+      "image": "uh1y.jpg",
+      "answer": "uh1y",
+      "options": [
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "ah64",
+          "label": "Boeing AH-64 Apache"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        }
+      ],
+      "caption": "Military utility helicopter model by Bell. First flew 2001.",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-mq8",
+      "image": "mq8.jpg",
+      "answer": "mq8",
+      "options": [
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ea18g",
+      "image": "ea18g.jpg",
+      "answer": "ea18g",
+      "options": [
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        }
+      ],
+      "caption": "American electronic warfare aircraft. First flew 2006.",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ah1z",
+      "image": "ah1z.jpg",
+      "answer": "ah1z",
+      "options": [
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "sh60",
+          "label": "Sikorsky SH-60 Seahawk"
+        }
+      ],
+      "caption": "American attack helicopter. First flew 2000.",
+      "credit": "Cpl. Jonathan L. Gonzalez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-kc46",
+      "image": "kc46.jpg",
+      "answer": "kc46",
+      "options": [
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        }
+      ],
+      "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
+      "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-hh60w",
+      "image": "hh60w.jpg",
+      "answer": "hh60w",
+      "options": [
+        {
+          "id": "hh60w",
+          "label": "Sikorsky HH-60 Pave Hawk"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "American medium-lift military helicopter.",
+      "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-ch53k",
+      "image": "ch53k.jpg",
+      "answer": "ch53k",
+      "options": [
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        },
+        {
+          "id": "ch53",
+          "label": "Sikorsky CH-53 Sea Stallion"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        }
+      ],
+      "caption": "Heavy transport helicopter. First flew 2015.",
+      "credit": "Lance Cpl. Elias E. Pimentel III; cropped by FOX 52 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-f15ex",
+      "image": "f15ex.jpg",
+      "answer": "f15ex",
+      "options": [
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "American multirole fighter aircraft. First flew 2013.",
+      "credit": "Ethan Wagner / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-united-states-mq25",
+      "image": "mq25.jpg",
+      "answer": "mq25",
+      "options": [
+        {
+          "id": "mq25",
+          "label": "Boeing MQ-25 Stingray"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "American military aerial refueling drone. First flew 2019.",
+      "credit": "United States Navy photo courtesy of Boeing / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

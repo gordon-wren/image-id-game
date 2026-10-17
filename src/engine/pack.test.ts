@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { resolveOptions, resolvePack, validatePack, shuffle } from "./pack";
+import { orderQuestions, resolveOptions, resolvePack, roundLength, validatePack } from "./pack";
 import type { QuestionPack } from "./types";
 
 // Deterministic RNG so shuffles are reproducible in tests.
@@ -24,15 +24,6 @@ const pack: QuestionPack = {
     { id: "q5", image: "e.jpg", answer: "e" },
   ],
 };
-
-describe("shuffle", () => {
-  it("preserves length and membership", () => {
-    const src = [1, 2, 3, 4, 5];
-    const out = shuffle(src, seeded(1));
-    expect(out).toHaveLength(5);
-    expect([...out].sort()).toEqual(src);
-  });
-});
 
 describe("resolveOptions (pool generation)", () => {
   it("produces optionsPerQuestion options, always including the correct answer", () => {
@@ -92,6 +83,36 @@ describe("resolvePack", () => {
   });
 });
 
+describe("orderQuestions (questions per round)", () => {
+  const many: QuestionPack = {
+    ...pack,
+    questions: Array.from({ length: 30 }, (_, i) => ({ id: `q${i}`, image: `${i}.jpg`, answer: `a${i}` })),
+  };
+
+  it("uses every question when there's no limit, or the limit is above the pack's size", () => {
+    expect(orderQuestions(many, seeded(1))).toHaveLength(30);
+    expect(roundLength(many)).toBe(30);
+    expect(orderQuestions({ ...many, questionsPerRound: 40 }, seeded(1))).toHaveLength(30);
+    expect(roundLength({ ...many, questionsPerRound: 40 })).toBe(30);
+  });
+
+  it("draws a random selection of questionsPerRound when there are more", () => {
+    const capped = { ...many, questionsPerRound: 20 };
+    const a = orderQuestions(capped, seeded(1)).map((q) => q.id);
+    const b = orderQuestions(capped, seeded(2)).map((q) => q.id);
+    expect(a).toHaveLength(20);
+    expect(new Set(a).size).toBe(20);
+    expect(a).not.toEqual(b);
+    expect(roundLength(capped)).toBe(20);
+  });
+
+  it("keeps the pack's order for the selection when shuffling is off", () => {
+    const ids = orderQuestions({ ...many, questionsPerRound: 10, shuffleQuestions: false }, seeded(3)).map((q) => Number(q.id.slice(1)));
+    expect(ids).toHaveLength(10);
+    expect(ids).toEqual([...ids].sort((x, y) => x - y));
+  });
+});
+
 describe("validatePack", () => {
   it("accepts a well-formed pack", () => {
     expect(() => validatePack(pack)).not.toThrow();
@@ -100,6 +121,11 @@ describe("validatePack", () => {
   it("rejects a path with blank or non-string segments", () => {
     expect(() => validatePack({ ...pack, path: ["Aviation", ""] })).toThrow(/path/);
     expect(() => validatePack({ ...pack, path: "Aviation" as unknown as string[] })).toThrow(/path/);
+  });
+
+  it("rejects a questionsPerRound that isn't a positive whole number", () => {
+    expect(() => validatePack({ ...pack, questionsPerRound: 0 })).toThrow(/questionsPerRound/);
+    expect(() => validatePack({ ...pack, questionsPerRound: 2.5 })).toThrow(/questionsPerRound/);
   });
 
   it("rejects a pack with no questions", () => {

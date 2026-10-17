@@ -1,0 +1,621 @@
+{
+  "id": "military-era-post-cold-war",
+  "title": "Post-Cold War",
+  "description": "Military aircraft that entered service 1992–2009.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Era"
+  ],
+  "theme": {
+    "accent": "#6B5B3E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-era-post-cold-war-c17",
+      "image": "c17.jpg",
+      "answer": "c17",
+      "options": [
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        }
+      ],
+      "caption": "American four engine military transport aircraft. First flew 1991.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-v22",
+      "image": "v22.jpg",
+      "answer": "v22",
+      "options": [
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        }
+      ],
+      "caption": "Military transport tiltrotor. First flew 1989.",
+      "credit": "FOX 52 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-mq9",
+      "image": "mq9.jpg",
+      "answer": "mq9",
+      "options": [
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 2001.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-rq4",
+      "image": "rq4.jpg",
+      "answer": "rq4",
+      "options": [
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Unmanned surveillance aircraft. First flew 1998.",
+      "credit": "U.S. Air Force photo by Bobbi Zapka / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        }
+      ],
+      "caption": "American stealth air superiority fighter. First flew 1997.",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-fa18ef",
+      "image": "fa18ef.jpg",
+      "answer": "fa18ef",
+      "options": [
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        }
+      ],
+      "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-typhoon",
+      "image": "typhoon.jpg",
+      "answer": "typhoon",
+      "options": [
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        }
+      ],
+      "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-rafale",
+      "image": "rafale.jpg",
+      "answer": "rafale",
+      "options": [
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        }
+      ],
+      "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-gripen",
+      "image": "gripen.jpg",
+      "answer": "gripen",
+      "options": [
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        }
+      ],
+      "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
+      "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-j10",
+      "image": "j10.jpg",
+      "answer": "j10",
+      "options": [
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        }
+      ],
+      "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
+      "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-ka50",
+      "image": "ka50.jpg",
+      "answer": "ka50",
+      "options": [
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        }
+      ],
+      "caption": "Attack helicopter. First flew 1982.",
+      "credit": "Tomasz Szulc / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-ka52",
+      "image": "ka52.jpg",
+      "answer": "ka52",
+      "options": [
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        }
+      ],
+      "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-tiger",
+      "image": "tiger.jpg",
+      "answer": "tiger",
+      "options": [
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        }
+      ],
+      "caption": "European attack helicopter. First flew 1991.",
+      "credit": "Alan Lebeda / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-aw101",
+      "image": "aw101.jpg",
+      "answer": "aw101",
+      "options": [
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        }
+      ],
+      "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
+      "credit": "Gian Marco Anzellotti / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-t1",
+      "image": "t1.jpg",
+      "answer": "t1",
+      "options": [
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        }
+      ],
+      "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
+      "credit": "Terry Wasson / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-mq1",
+      "image": "mq1.jpg",
+      "answer": "mq1",
+      "options": [
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Family of unmanned aerial vehicles. First flew 1994.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-c130j",
+      "image": "c130j.jpg",
+      "answer": "c130j",
+      "options": [
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Military transport aircraft. First flew 1996.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-t6-texan-ii",
+      "image": "t6-texan-ii.jpg",
+      "answer": "t6-texan-ii",
+      "options": [
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
+      "credit": "U.S. Air Force photo by Master Sgt. David Richards / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-rq7",
+      "image": "rq7.jpg",
+      "answer": "rq7",
+      "options": [
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "American unmanned aerial vehicle. First flew 1991.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-uh72",
+      "image": "uh72.jpg",
+      "answer": "uh72",
+      "options": [
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        }
+      ],
+      "caption": "Light utility multipurpose helicopter. First flew 2006.",
+      "credit": "Senior Master Sgt. David Lipp / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-uh1y",
+      "image": "uh1y.jpg",
+      "answer": "uh1y",
+      "options": [
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "Military utility helicopter model by Bell. First flew 2001.",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-mq8",
+      "image": "mq8.jpg",
+      "answer": "mq8",
+      "options": [
+        {
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "2000s American unmanned autonomous helicopter developed by Northrop Grumman. First flew 2000.",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-ea18g",
+      "image": "ea18g.jpg",
+      "answer": "ea18g",
+      "options": [
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        },
+        {
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
+        }
+      ],
+      "caption": "American electronic warfare aircraft. First flew 2006.",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

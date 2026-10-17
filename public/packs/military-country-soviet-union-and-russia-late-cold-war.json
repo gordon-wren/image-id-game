@@ -1,0 +1,222 @@
+{
+  "id": "military-country-soviet-union-and-russia-late-cold-war",
+  "title": "Soviet Union & Russia: Late Cold War",
+  "description": "Military aircraft from the Soviet Union & Russia that entered service 1976–1991.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Soviet Union & Russia"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-an124",
+      "image": "an124.jpg",
+      "answer": "an124",
+      "options": [
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        }
+      ],
+      "caption": "Soviet military transport aircraft. First flew 1982.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-an225",
+      "image": "an225.jpg",
+      "answer": "an225",
+      "options": [
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        }
+      ],
+      "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
+      "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-tu160",
+      "image": "tu160.jpg",
+      "answer": "tu160",
+      "options": [
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-su27",
+      "image": "su27.jpg",
+      "answer": "su27",
+      "options": [
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        }
+      ],
+      "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
+      "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-mig29",
+      "image": "mig29.jpg",
+      "answer": "mig29",
+      "options": [
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
+      "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-mig31",
+      "image": "mig31.jpg",
+      "answer": "mig31",
+      "options": [
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        }
+      ],
+      "caption": "Interceptor aircraft. First flew 1975.",
+      "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-late-cold-war-mi26",
+      "image": "mi26.jpg",
+      "answer": "mi26",
+      "options": [
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        }
+      ],
+      "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
+      "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    }
+  ]
+}

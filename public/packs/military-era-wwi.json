@@ -1,0 +1,146 @@
+{
+  "id": "military-era-wwi",
+  "title": "WWI and earlier",
+  "description": "Military aircraft that entered service up to 1918.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Era"
+  ],
+  "theme": {
+    "accent": "#6B5B3E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-era-wwi-jn4",
+      "image": "jn4.jpg",
+      "answer": "jn4",
+      "options": [
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        }
+      ],
+      "caption": "American biplane trainer aircraft (1915–1927).",
+      "credit": "George Johnson, Aviation Section, US Army Signal Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-thomas-morse-s4",
+      "image": "thomas-morse-s4.jpg",
+      "answer": "thomas-morse-s4",
+      "options": [
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        }
+      ],
+      "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
+      "credit": "San Diego Air & Space Museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-martin-mb1",
+      "image": "martin-mb1.jpg",
+      "answer": "martin-mb1",
+      "options": [
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "American large biplane bomber. First flew 1918.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-dh4-us",
+      "image": "dh4-us.jpg",
+      "answer": "dh4-us",
+      "options": [
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        }
+      ],
+      "caption": "British bomber used during the First World War. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-curtiss-h16",
+      "image": "curtiss-h16.jpg",
+      "answer": "curtiss-h16",
+      "options": [
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "American 1914 long range flying boat. First flew 1914.",
+      "credit": "MoD Photo / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

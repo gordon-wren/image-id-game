@@ -1,0 +1,345 @@
+{
+  "id": "civil-helicopters",
+  "title": "Civil helicopters",
+  "description": "Training, utility and offshore helicopters.",
+  "path": [
+    "Aviation",
+    "Civil"
+  ],
+  "theme": {
+    "accent": "#B0721A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "civil-helicopters-r22",
+      "image": "r22.jpg",
+      "answer": "r22",
+      "options": [
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        },
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        }
+      ],
+      "caption": "American helicopter model. First flew 1975.",
+      "credit": "Jeroen Stroes Aviation Photography / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-r44",
+      "image": "r44.jpg",
+      "answer": "r44",
+      "options": [
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        }
+      ],
+      "caption": "Family of American light helicopters. First flew 1990.",
+      "credit": "D. Miller / CC BY 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-bell206",
+      "image": "bell206.jpg",
+      "answer": "bell206",
+      "options": [
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        }
+      ],
+      "caption": "Utility helicopter family by Bell. First flew 1962.",
+      "credit": "Mfield - Matthew Field, http://www.photography.mattfield.com / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-h125",
+      "image": "h125.jpg",
+      "answer": "h125",
+      "options": [
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
+        },
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        }
+      ],
+      "caption": "Single engine series of the Ecureuil light helicopter family. First flew 1974.",
+      "credit": "Copeadope / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-s76",
+      "image": "s76.jpg",
+      "answer": "s76",
+      "options": [
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        }
+      ],
+      "caption": "American medium-size commercial utility helicopter. First flew 1977.",
+      "credit": "Contando Estrelas from Vigo, España / Spain / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-h145",
+      "image": "h145.jpg",
+      "answer": "h145",
+      "options": [
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "ec155",
+          "label": "Airbus H155 (EC155)"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
+        }
+      ],
+      "caption": "Twin-engine light utility helicopter. First flew 1999.",
+      "credit": "Greg Kramer / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-h135",
+      "image": "h135.jpg",
+      "answer": "h135",
+      "options": [
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        },
+        {
+          "id": "ec155",
+          "label": "Airbus H155 (EC155)"
+        },
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        }
+      ],
+      "caption": "Small utility helicopter. First flew 1994.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-md500",
+      "image": "md500.jpg",
+      "answer": "md500",
+      "options": [
+        {
+          "id": "md500",
+          "label": "MD Helicopters MD 500"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "r44",
+          "label": "Robinson R44"
+        }
+      ],
+      "caption": "Light utility helicopter family. First flew 1963.",
+      "credit": "Adrian Pingstone (Arpingstone) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-aw139",
+      "image": "aw139.jpg",
+      "answer": "aw139",
+      "options": [
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        }
+      ],
+      "caption": "Twin-engined, medium-lift helicopter manufactured by Leonardo. First flew 2001.",
+      "credit": "Contando Estrelas / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-bell47",
+      "image": "bell47.jpg",
+      "answer": "bell47",
+      "options": [
+        {
+          "id": "bell47",
+          "label": "Bell 47"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        },
+        {
+          "id": "aw139",
+          "label": "AgustaWestland AW139"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        }
+      ],
+      "caption": "1945 utility helicopter family by Bell. First flew 1945.",
+      "credit": "The original uploader was Meggar at English Wikipedia. / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-s92",
+      "image": "s92.jpg",
+      "answer": "s92",
+      "options": [
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "s76",
+          "label": "Sikorsky S-76"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "bell206",
+          "label": "Bell 206"
+        }
+      ],
+      "caption": "Transport helicopter family by Sikorsky. First flew 1998.",
+      "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-as365",
+      "image": "as365.jpg",
+      "answer": "as365",
+      "options": [
+        {
+          "id": "as365",
+          "label": "Airbus Helicopters AS365 Dauphin"
+        },
+        {
+          "id": "h125",
+          "label": "Airbus H125 (AS350 Écureuil)"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        },
+        {
+          "id": "h135",
+          "label": "Airbus H135 (EC135)"
+        }
+      ],
+      "caption": "Multi-role helicopter family by Aérospatiale. First flew 1975.",
+      "credit": "Mark Harkin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "civil-helicopters-ec155",
+      "image": "ec155.jpg",
+      "answer": "ec155",
+      "options": [
+        {
+          "id": "ec155",
+          "label": "Airbus H155 (EC155)"
+        },
+        {
+          "id": "h145",
+          "label": "Airbus H145 (EC145)"
+        },
+        {
+          "id": "r22",
+          "label": "Robinson R22"
+        },
+        {
+          "id": "s92",
+          "label": "Sikorsky S-92"
+        }
+      ],
+      "caption": "Passenger transport helicopter. First flew 1997.",
+      "credit": "Pedro Aragão / CC BY-SA 3.0 / via Wikimedia Commons"
+    }
+  ]
+}

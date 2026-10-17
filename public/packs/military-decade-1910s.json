@@ -1,0 +1,171 @@
+{
+  "id": "military-decade-1910s",
+  "title": "1910s",
+  "description": "Military aircraft that entered service in the 1910s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1910s-jn4",
+      "image": "jn4.jpg",
+      "answer": "jn4",
+      "options": [
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        }
+      ],
+      "caption": "American biplane trainer aircraft (1915–1927).",
+      "credit": "George Johnson, Aviation Section, US Army Signal Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1910s-thomas-morse-s4",
+      "image": "thomas-morse-s4.jpg",
+      "answer": "thomas-morse-s4",
+      "options": [
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        }
+      ],
+      "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
+      "credit": "San Diego Air & Space Museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1910s-curtiss-nc",
+      "image": "curtiss-nc.jpg",
+      "answer": "curtiss-nc",
+      "options": [
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "American flying boat. First flew 1918.",
+      "credit": "Courtesy of the U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1910s-martin-mb1",
+      "image": "martin-mb1.jpg",
+      "answer": "martin-mb1",
+      "options": [
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        }
+      ],
+      "caption": "American large biplane bomber. First flew 1918.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1910s-dh4-us",
+      "image": "dh4-us.jpg",
+      "answer": "dh4-us",
+      "options": [
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "British bomber used during the First World War. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1910s-curtiss-h16",
+      "image": "curtiss-h16.jpg",
+      "answer": "curtiss-h16",
+      "options": [
+        {
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "American 1914 long range flying boat. First flew 1914.",
+      "credit": "MoD Photo / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

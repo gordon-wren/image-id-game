@@ -1,0 +1,646 @@
+{
+  "id": "military-role-bombers",
+  "title": "Bombers",
+  "description": "Bombers from the biplane era to stealth.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-bombers-b52",
+      "image": "b52.jpg",
+      "answer": "b52",
+      "options": [
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        }
+      ],
+      "caption": "American strategic bomber aircraft. First flew 1952.",
+      "credit": "Airman 1st Class Victor J. Caputo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b1",
+      "image": "b1.jpg",
+      "answer": "b1",
+      "options": [
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        }
+      ],
+      "caption": "American strategic bomber. First flew 1974.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b21",
+      "image": "b21.jpg",
+      "answer": "b21",
+      "options": [
+        {
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "American stealth bomber aircraft. First flew 2023.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu95",
+      "image": "tu95.jpg",
+      "answer": "tu95",
+      "options": [
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1952.",
+      "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu160",
+      "image": "tu160.jpg",
+      "answer": "tu160",
+      "options": [
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        }
+      ],
+      "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu22m",
+      "image": "tu22m.jpg",
+      "answer": "tu22m",
+      "options": [
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-vulcan",
+      "image": "vulcan.jpg",
+      "answer": "vulcan",
+      "options": [
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        }
+      ],
+      "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
+      "credit": "Alastair Barbour / CC BY 2.5 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-mosquito",
+      "image": "mosquito.jpg",
+      "answer": "mosquito",
+      "options": [
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        }
+      ],
+      "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
+      "credit": "Fotoafdrukken Koninklijke Luchtmacht / Photo Prints, Royal Netherlands Air Force; restored by Chris Woodrich / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b17",
+      "image": "b17.jpg",
+      "answer": "b17",
+      "options": [
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        }
+      ],
+      "caption": "American heavy bomber aircraft. First flew 1935.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b29",
+      "image": "b29.jpg",
+      "answer": "b29",
+      "options": [
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "US heavy bomber aircraft (1944–1960). First flew 1942.",
+      "credit": "Alan Wilson / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-lancaster",
+      "image": "lancaster.jpg",
+      "answer": "lancaster",
+      "options": [
+        {
+          "id": "lancaster",
+          "label": "Avro Lancaster"
+        },
+        {
+          "id": "mosquito",
+          "label": "De Havilland Mosquito"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "World War II British heavy bomber aircraft. First flew 1941.",
+      "credit": "Cpl Phil Major ABIPP / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-martin-mb1",
+      "image": "martin-mb1.jpg",
+      "answer": "martin-mb1",
+      "options": [
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "American large biplane bomber. First flew 1918.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-dh4-us",
+      "image": "dh4-us.jpg",
+      "answer": "dh4-us",
+      "options": [
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "British bomber used during the First World War. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-martin-mb2",
+      "image": "martin-mb2.jpg",
+      "answer": "martin-mb2",
+      "options": [
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "American bomber aircraft in service 1920-1929. First flew 1920.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-keystone-b3",
+      "image": "keystone-b3.jpg",
+      "answer": "keystone-b3",
+      "options": [
+        {
+          "id": "keystone-b3",
+          "label": "Keystone B-3"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "Bomber aircraft family by Keystone.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-martin-b10",
+      "image": "martin-b10.jpg",
+      "answer": "martin-b10",
+      "options": [
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        }
+      ],
+      "caption": "American bomber aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b18",
+      "image": "b18.jpg",
+      "answer": "b18",
+      "options": [
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
+        }
+      ],
+      "caption": "American twin-engined medium bomber aircraft in service 1936-1946. First flew 1935.",
+      "credit": "National Museum of the United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b24",
+      "image": "b24.jpg",
+      "answer": "b24",
+      "options": [
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "b29",
+          "label": "Boeing B-29 Superfortress"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "1939 bomber aircraft family by Consolidated Aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photos / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b25",
+      "image": "b25.jpg",
+      "answer": "b25",
+      "options": [
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "American WWII medium bomber. First flew 1940.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b26",
+      "image": "b26.jpg",
+      "answer": "b26",
+      "options": [
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        }
+      ],
+      "caption": "1940 US medium bomber. First flew 1940.",
+      "credit": "Photo by: Charles E. Brown. The original uploader was Bzuk at English Wikipedia., 2007-02-14 (original upload date) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b36",
+      "image": "b36.jpg",
+      "answer": "b36",
+      "options": [
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b47",
+      "image": "b47.jpg",
+      "answer": "b47",
+      "options": [
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "Cold War-era American jet bomber. First flew 1947.",
+      "credit": "National Nuclear Security Administration / Nevada Site Office / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b57",
+      "image": "b57.jpg",
+      "answer": "b57",
+      "options": [
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
+        }
+      ],
+      "caption": "US license-built version of the British English Electric Canberra bomber. First flew 1953.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-b58",
+      "image": "b58.jpg",
+      "answer": "b58",
+      "options": [
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "Cold War-era American supersonic bomber. First flew 1956.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

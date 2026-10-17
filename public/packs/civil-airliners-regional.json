@@ -1,23 +1,24 @@
 {
-  "id": "regional-airliners",
-  "title": "Regional Airliners",
+  "id": "civil-airliners-regional",
+  "title": "Regional airliners",
   "description": "Regional jets and turboprops.",
   "path": [
     "Aviation",
-    "Planes",
-    "Commercial"
+    "Civil",
+    "Airliners"
   ],
   "theme": {
-    "accent": "#3D8C9E"
+    "accent": "#185FA5"
   },
   "assetBase": "assets/aircraft/",
   "roundSeconds": 7,
   "shuffleOptions": true,
   "shuffleQuestions": true,
-  "generatedFrom": "scripts/packs/recipes.json",
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
   "questions": [
     {
-      "id": "regional-airliners-ejet",
+      "id": "civil-airliners-regional-ejet",
       "image": "ejet.jpg",
       "answer": "ejet",
       "options": [
@@ -30,19 +31,19 @@
           "label": "Embraer ERJ"
         },
         {
-          "id": "saab340",
-          "label": "Saab 340"
-        },
-        {
           "id": "crj700",
           "label": "Bombardier CRJ700"
+        },
+        {
+          "id": "saab340",
+          "label": "Saab 340"
         }
       ],
       "caption": "Regional jet airliner family. First flew 2002.",
       "credit": "Richard Vandervord / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-ejet-e2",
+      "id": "civil-airliners-regional-ejet-e2",
       "image": "ejet-e2.jpg",
       "answer": "ejet-e2",
       "options": [
@@ -59,15 +60,15 @@
           "label": "Bombardier CRJ200"
         },
         {
-          "id": "phenom300",
-          "label": "Embraer Phenom 300"
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
         }
       ],
       "caption": "Regional jet airliner family. First flew 2016.",
       "credit": "Valentin Hintikka from Finland / CC BY 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-erj",
+      "id": "civil-airliners-regional-erj",
       "image": "erj.jpg",
       "answer": "erj",
       "options": [
@@ -84,15 +85,15 @@
           "label": "Saab 340"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         }
       ],
       "caption": "Regional jet airliner family. First flew 1995.",
       "credit": "Alf van Beem / CC0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-crj200",
+      "id": "civil-airliners-regional-crj200",
       "image": "crj200.jpg",
       "answer": "crj200",
       "options": [
@@ -101,23 +102,23 @@
           "label": "Bombardier CRJ200"
         },
         {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "ejet-e2",
-          "label": "Embraer E-Jet E2"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "erj",
+          "label": "Embraer ERJ"
         }
       ],
       "caption": "Regional jet airliner. First flew 1991.",
       "credit": "ERIC SALARD from PARIS, FRANCE / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-crj700",
+      "id": "civil-airliners-regional-crj700",
       "image": "crj700.jpg",
       "answer": "crj700",
       "options": [
@@ -130,19 +131,19 @@
           "label": "Bombardier CRJ200"
         },
         {
-          "id": "dash8",
-          "label": "De Havilland Canada Dash 8"
+          "id": "saab340",
+          "label": "Saab 340"
         },
         {
-          "id": "ejet-e2",
-          "label": "Embraer E-Jet E2"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
         }
       ],
       "caption": "Regional jet airliner series. First flew 1999.",
       "credit": "Mark Harkin / CC BY 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-atr72",
+      "id": "civil-airliners-regional-atr72",
       "image": "atr72.jpg",
       "answer": "atr72",
       "options": [
@@ -151,23 +152,23 @@
           "label": "ATR 72"
         },
         {
-          "id": "crj200",
-          "label": "Bombardier CRJ200"
+          "id": "dash8",
+          "label": "De Havilland Canada Dash 8"
+        },
+        {
+          "id": "saab340",
+          "label": "Saab 340"
         },
         {
           "id": "erj",
           "label": "Embraer ERJ"
-        },
-        {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
         }
       ],
       "caption": "Regional turboprop airliner. First flew 1988.",
       "credit": "Ken Fielding / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-dash8",
+      "id": "civil-airliners-regional-dash8",
       "image": "dash8.jpg",
       "answer": "dash8",
       "options": [
@@ -176,23 +177,23 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
-        },
-        {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
-        },
-        {
           "id": "crj200",
           "label": "Bombardier CRJ200"
+        },
+        {
+          "id": "ejet",
+          "label": "Embraer E-Jet"
+        },
+        {
+          "id": "constellation",
+          "label": "Lockheed Constellation"
         }
       ],
       "caption": "Canadian turboprop airliner. First flew 1983.",
       "credit": "MarcelX42 / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-saab340",
+      "id": "civil-airliners-regional-saab340",
       "image": "saab340.jpg",
       "answer": "saab340",
       "options": [
@@ -205,44 +206,19 @@
           "label": "De Havilland Canada Dash 8"
         },
         {
-          "id": "atr72",
-          "label": "ATR 72"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
+          "id": "erj",
+          "label": "Embraer ERJ"
         }
       ],
       "caption": "Regional airliner. First flew 1983.",
       "credit": "Ronnie Robertson / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-twin-otter",
-      "image": "twin-otter.jpg",
-      "answer": "twin-otter",
-      "options": [
-        {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
-        },
-        {
-          "id": "dash8",
-          "label": "De Havilland Canada Dash 8"
-        },
-        {
-          "id": "crj200",
-          "label": "Bombardier CRJ200"
-        },
-        {
-          "id": "crj700",
-          "label": "Bombardier CRJ700"
-        }
-      ],
-      "caption": "Utility transport aircraft family by de Havilland Canada. First flew 1965.",
-      "credit": "Tony Hisgett from Birmingham, UK / CC BY 2.0 / via Wikimedia Commons"
-    },
-    {
-      "id": "regional-airliners-dc3",
+      "id": "civil-airliners-regional-dc3",
       "image": "dc3.jpg",
       "answer": "dc3",
       "options": [
@@ -255,19 +231,19 @@
           "label": "Lockheed Constellation"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "ejet",
+          "label": "Embraer E-Jet"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
+          "id": "crj700",
+          "label": "Bombardier CRJ700"
         }
       ],
       "caption": "Airliner and military transport aircraft family. First flew 1935.",
       "credit": "Towpilot / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
-      "id": "regional-airliners-constellation",
+      "id": "civil-airliners-regional-constellation",
       "image": "constellation.jpg",
       "answer": "constellation",
       "options": [
@@ -280,12 +256,12 @@
           "label": "Douglas DC-3"
         },
         {
-          "id": "f94",
-          "label": "Lockheed F-94 Starfire"
+          "id": "erj",
+          "label": "Embraer ERJ"
         },
         {
-          "id": "twin-otter",
-          "label": "De Havilland Canada DHC-6 Twin Otter"
+          "id": "crj200",
+          "label": "Bombardier CRJ200"
         }
       ],
       "caption": "Family of US airliners with 4 piston engines, 1943. First flew 1943.",

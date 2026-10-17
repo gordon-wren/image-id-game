@@ -115,6 +115,12 @@ export interface QuestionPack {
   shuffleQuestions?: boolean;
 
   /**
+   * At most this many questions per round, chosen at random from the pack each
+   * time it's played (or studied). Omit to use every question.
+   */
+  questionsPerRound?: number;
+
+  /**
    * Set on packs written by scripts/packs/generate.mjs (to the recipes file it
    * read). Such packs are overwritten on the next run — edit the recipe instead.
    */

@@ -1,0 +1,396 @@
+{
+  "id": "military-role-trainers",
+  "title": "Trainers",
+  "description": "Aircraft that taught military pilots to fly.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-trainers-hawk",
+      "image": "hawk.jpg",
+      "answer": "hawk",
+      "options": [
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        }
+      ],
+      "caption": "Military training aircraft family. First flew 1974.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-l39",
+      "image": "l39.jpg",
+      "answer": "l39",
+      "options": [
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        }
+      ],
+      "caption": "Trainer aircraft family by Aero. First flew 1968.",
+      "credit": "Milan Nykodym / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t38",
+      "image": "t38.jpg",
+      "answer": "t38",
+      "options": [
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        }
+      ],
+      "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-alpha-jet",
+      "image": "alpha-jet.jpg",
+      "answer": "alpha-jet",
+      "options": [
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "French light attack fighter. First flew 1973.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-jn4",
+      "image": "jn4.jpg",
+      "answer": "jn4",
+      "options": [
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        }
+      ],
+      "caption": "American biplane trainer aircraft (1915–1927).",
+      "credit": "George Johnson, Aviation Section, US Army Signal Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-thomas-morse-s4",
+      "image": "thomas-morse-s4.jpg",
+      "answer": "thomas-morse-s4",
+      "options": [
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        }
+      ],
+      "caption": "1917 trainer aircraft by Thomas-Morse. First flew 1917.",
+      "credit": "San Diego Air & Space Museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-consolidated-pt1",
+      "image": "consolidated-pt1.jpg",
+      "answer": "consolidated-pt1",
+      "options": [
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "US military trainer aircraft.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-stearman",
+      "image": "stearman.jpg",
+      "answer": "stearman",
+      "options": [
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t6",
+      "image": "t6.jpg",
+      "answer": "t6",
+      "options": [
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        }
+      ],
+      "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t33",
+      "image": "t33.jpg",
+      "answer": "t33",
+      "options": [
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "Series of military training aircraft. First flew 1948.",
+      "credit": "Alejandro Pena; Edited by: FOX 52 and Bammesk / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t37",
+      "image": "t37.jpg",
+      "answer": "t37",
+      "options": [
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "Family of military training aircraft (1954–2009). First flew 1954.",
+      "credit": "Staff Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t45",
+      "image": "t45.jpg",
+      "answer": "t45",
+      "options": [
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        }
+      ],
+      "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
+      "credit": "Lt. j.g. John A. Ivancic / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t1",
+      "image": "t1.jpg",
+      "answer": "t1",
+      "options": [
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
+      "credit": "Terry Wasson / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t6-texan-ii",
+      "image": "t6-texan-ii.jpg",
+      "answer": "t6-texan-ii",
+      "options": [
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
+      "credit": "U.S. Air Force photo by Master Sgt. David Richards / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-t7",
+      "image": "t7.jpg",
+      "answer": "t7",
+      "options": [
+        {
+          "id": "t7",
+          "label": "Boeing–Saab T-7 Red Hawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",
+      "credit": "Air Force photo by Bryce Bennett / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

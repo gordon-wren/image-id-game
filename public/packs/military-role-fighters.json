@@ -1,0 +1,1621 @@
+{
+  "id": "military-role-fighters",
+  "title": "Fighters",
+  "description": "Military fighters from every era.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Role"
+  ],
+  "theme": {
+    "accent": "#A32D2D"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-role-fighters-f22",
+      "image": "f22.jpg",
+      "answer": "f22",
+      "options": [
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "American stealth air superiority fighter. First flew 1997.",
+      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f35",
+      "image": "f35.jpg",
+      "answer": "f35",
+      "options": [
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        }
+      ],
+      "caption": "American stealth multirole fighter aircraft. First flew 2006.",
+      "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f16",
+      "image": "f16.jpg",
+      "answer": "f16",
+      "options": [
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "American multi-role fighter aircraft. First flew 1974.",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fa18",
+      "image": "fa18.jpg",
+      "answer": "fa18",
+      "options": [
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "American carrier-capable multirole strike aircraft. First flew 1978.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fa18ef",
+      "image": "fa18ef.jpg",
+      "answer": "fa18ef",
+      "options": [
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        }
+      ],
+      "caption": "Series of carrier-based multirole combat aircraft. First flew 1995.",
+      "credit": "U.S. Navy photo by Seaman Kevin T. Murray Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f15",
+      "image": "f15.jpg",
+      "answer": "f15",
+      "options": [
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "Multirole and air superiority fighter family. First flew 1972.",
+      "credit": "Airman 1st Class Matthew Seefeldt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f14",
+      "image": "f14.jpg",
+      "answer": "f14",
+      "options": [
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
+      "credit": "U.S. Navy photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-typhoon",
+      "image": "typhoon.jpg",
+      "answer": "typhoon",
+      "options": [
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-rafale",
+      "image": "rafale.jpg",
+      "answer": "rafale",
+      "options": [
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        }
+      ],
+      "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
+      "credit": "Tim Felce (Airwolfhound) / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-gripen",
+      "image": "gripen.jpg",
+      "answer": "gripen",
+      "options": [
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        }
+      ],
+      "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
+      "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-tornado",
+      "image": "tornado.jpg",
+      "answer": "tornado",
+      "options": [
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        }
+      ],
+      "caption": "Family of multi-role combat aircraft. First flew 1974.",
+      "credit": "Corporal Mike Jones / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-su27",
+      "image": "su27.jpg",
+      "answer": "su27",
+      "options": [
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        }
+      ],
+      "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
+      "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-su35",
+      "image": "su35.jpg",
+      "answer": "su35",
+      "options": [
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        }
+      ],
+      "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-su57",
+      "image": "su57.jpg",
+      "answer": "su57",
+      "options": [
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        }
+      ],
+      "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig29",
+      "image": "mig29.jpg",
+      "answer": "mig29",
+      "options": [
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
+      "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig21",
+      "image": "mig21.jpg",
+      "answer": "mig21",
+      "options": [
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        }
+      ],
+      "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
+      "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig25",
+      "image": "mig25.jpg",
+      "answer": "mig25",
+      "options": [
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        }
+      ],
+      "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
+      "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig31",
+      "image": "mig31.jpg",
+      "answer": "mig31",
+      "options": [
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        }
+      ],
+      "caption": "Interceptor aircraft. First flew 1975.",
+      "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-j20",
+      "image": "j20.jpg",
+      "answer": "j20",
+      "options": [
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "Chinese stealth fighter aircraft. First flew 2011.",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-j10",
+      "image": "j10.jpg",
+      "answer": "j10",
+      "options": [
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
+      "credit": "Alert5 / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mirage2000",
+      "image": "mirage2000.jpg",
+      "answer": "mirage2000",
+      "options": [
+        {
+          "id": "mirage2000",
+          "label": "Dassault Mirage 2000"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        }
+      ],
+      "caption": "French jet fighter aircraft. First flew 1978.",
+      "credit": "SRA GREG L. DAVIS, USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f4",
+      "image": "f4.jpg",
+      "answer": "f4",
+      "options": [
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "Fighter aircraft family developed from 1958. First flew 1958.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-tejas",
+      "image": "tejas.jpg",
+      "answer": "tejas",
+      "options": [
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        },
+        {
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        }
+      ],
+      "caption": "Indian combat aircraft. First flew 2001.",
+      "credit": "Goverrnment of India / GODL-India / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-kf21",
+      "image": "kf21.jpg",
+      "answer": "kf21",
+      "options": [
+        {
+          "id": "kf21",
+          "label": "KAI KF-21 Boramae"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "South Korean fighter aircraft. First flew 2022.",
+      "credit": "대한민국 국방부 - Ministry of National Defense of the Republic of Korea / KOGL Type 1 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-viggen",
+      "image": "viggen.jpg",
+      "answer": "viggen",
+      "options": [
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "tornado",
+          "label": "Panavia Tornado"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "1967 Swedish fighter aircraft family. First flew 1967.",
+      "credit": "Airwolfhound from Hertfordshire, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f5",
+      "image": "f5.jpg",
+      "answer": "f5",
+      "options": [
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        }
+      ],
+      "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
+      "credit": "Peng Chen / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-spitfire",
+      "image": "spitfire.jpg",
+      "answer": "spitfire",
+      "options": [
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
+      "credit": "Airwolfhound / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-hurricane",
+      "image": "hurricane.jpg",
+      "answer": "hurricane",
+      "options": [
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        }
+      ],
+      "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
+      "credit": "Alan Wilson from Stilton, Peterborough, Cambs, UK / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p51",
+      "image": "p51.jpg",
+      "answer": "p51",
+      "options": [
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "American WWII-era fighter aircraft. First flew 1940.",
+      "credit": "USAAF/361st FG Association (via Al Richards) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-bf109",
+      "image": "bf109.jpg",
+      "answer": "bf109",
+      "options": [
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        }
+      ],
+      "caption": "German single-engine fighter aircraft family. First flew 1935.",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-a6m",
+      "image": "a6m.jpg",
+      "answer": "a6m",
+      "options": [
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
+      "credit": "Japanese military personnel / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f4u",
+      "image": "f4u.jpg",
+      "answer": "f4u",
+      "options": [
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Chance Vought. First flew 1940.",
+      "credit": "Gerry Metzler / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p38",
+      "image": "p38.jpg",
+      "answer": "p38",
+      "options": [
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        }
+      ],
+      "caption": "American twin-engined fighter of WWII. First flew 1939.",
+      "credit": "CindyN / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-curtiss-p1",
+      "image": "curtiss-p1.jpg",
+      "answer": "curtiss-p1",
+      "options": [
+        {
+          "id": "curtiss-p1",
+          "label": "Curtiss P-1 Hawk"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        }
+      ],
+      "caption": "1923 fighter biplane family by Curtiss. First flew 1923.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-boeing-pw9",
+      "image": "boeing-pw9.jpg",
+      "answer": "boeing-pw9",
+      "options": [
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1923.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-boeing-p12",
+      "image": "boeing-p12.jpg",
+      "answer": "boeing-p12",
+      "options": [
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        }
+      ],
+      "caption": "US military fighter aircraft in service 1930-1941. First flew 1928.",
+      "credit": "This image was released by the United States Air Force with the ID 050309-F-1234P-015 (next).; This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/− / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p26",
+      "image": "p26.jpg",
+      "answer": "p26",
+      "options": [
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        }
+      ],
+      "caption": "Fighter aircraft series. First flew 1932.",
+      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-grumman-f3f",
+      "image": "grumman-f3f.jpg",
+      "answer": "grumman-f3f",
+      "options": [
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "US Navy biplane. First flew 1935.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p35",
+      "image": "p35.jpg",
+      "answer": "p35",
+      "options": [
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "1935 fighter aircraft series by Seversky. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p36",
+      "image": "p36.jpg",
+      "answer": "p36",
+      "options": [
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        }
+      ],
+      "caption": "American fighter aircraft. First flew 1935.",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f2a",
+      "image": "f2a.jpg",
+      "answer": "f2a",
+      "options": [
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "WWII American fighter plane. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p40",
+      "image": "p40.jpg",
+      "answer": "p40",
+      "options": [
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        }
+      ],
+      "caption": "American WWII fighter. First flew 1938.",
+      "credit": "U.S. Army Air Corps / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f4f",
+      "image": "f4f.jpg",
+      "answer": "f4f",
+      "options": [
+        {
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        }
+      ],
+      "caption": "United States Navy World War II era fighter plane. First flew 1937.",
+      "credit": "The original uploader was Felix c at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p39",
+      "image": "p39.jpg",
+      "answer": "p39",
+      "options": [
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
+        }
+      ],
+      "caption": "1938 fighter aircraft family by Bell. First flew 1938.",
+      "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p47",
+      "image": "p47.jpg",
+      "answer": "p47",
+      "options": [
+        {
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "Family of fighter aircraft. First flew 1941.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f6f",
+      "image": "f6f.jpg",
+      "answer": "f6f",
+      "options": [
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "United States Navy fighter airplane. First flew 1942.",
+      "credit": "USN; / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p61",
+      "image": "p61.jpg",
+      "answer": "p61",
+      "options": [
+        {
+          "id": "p61",
+          "label": "Northrop P-61 Black Widow"
+        },
+        {
+          "id": "p39",
+          "label": "Bell P-39 Airacobra"
+        },
+        {
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
+      "credit": "Unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p59",
+      "image": "p59.jpg",
+      "answer": "p59",
+      "options": [
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        }
+      ],
+      "caption": "First jet aircraft of the United States. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-p80",
+      "image": "p80.jpg",
+      "answer": "p80",
+      "options": [
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "First jet aircraft in U.S. operational service. First flew 1944.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f8f",
+      "image": "f8f.jpg",
+      "answer": "f8f",
+      "options": [
+        {
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "American single-engine carrier-based fighter aircraft. First flew 1944.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f9f",
+      "image": "f9f.jpg",
+      "answer": "f9f",
+      "options": [
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        }
+      ],
+      "caption": "US Navy carrier-based jet fighter. First flew 1947.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f84",
+      "image": "f84.jpg",
+      "answer": "f84",
+      "options": [
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        }
+      ],
+      "caption": "1946 fighter-bomber family. First flew 1946.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f86",
+      "image": "f86.jpg",
+      "answer": "f86",
+      "options": [
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        }
+      ],
+      "caption": "Family of US fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force photo by J.M. Eddins Jr. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f94",
+      "image": "f94.jpg",
+      "answer": "f94",
+      "options": [
+        {
+          "id": "f94",
+          "label": "Lockheed F-94 Starfire"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        }
+      ],
+      "caption": "Series of all-weather interceptor aircraft. First flew 1949.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f2h",
+      "image": "f2h.jpg",
+      "answer": "f2h",
+      "options": [
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        }
+      ],
+      "caption": "American carrier-based jet fighter. First flew 1947.",
+      "credit": "USN / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f100-super-sabre",
+      "image": "f100-super-sabre.jpg",
+      "answer": "f100-super-sabre",
+      "options": [
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        }
+      ],
+      "caption": "1953 fighter aircraft family. First flew 1953.",
+      "credit": "NASA / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f101",
+      "image": "f101.jpg",
+      "answer": "f101",
+      "options": [
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        }
+      ],
+      "caption": "Family of 1950s jet fighter aircraft. First flew 1954.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f102",
+      "image": "f102.jpg",
+      "answer": "f102",
+      "options": [
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f101",
+          "label": "McDonnell F-101 Voodoo"
+        },
+        {
+          "id": "f5",
+          "label": "Northrop F-5"
+        }
+      ],
+      "caption": "Cold War interceptor of the US Air Force. First flew 1953.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f104",
+      "image": "f104.jpg",
+      "answer": "f104",
+      "options": [
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        }
+      ],
+      "caption": "1956 fighter aircraft family by Lockheed. First flew 1956.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f8",
+      "image": "f8.jpg",
+      "answer": "f8",
+      "options": [
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "f100-super-sabre",
+          "label": "North American F-100 Super Sabre"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        }
+      ],
+      "caption": "1955 naval fighter aircraft by Vought. First flew 1955.",
+      "credit": "Jimmy Labianco / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f105",
+      "image": "f105.jpg",
+      "answer": "f105",
+      "options": [
+        {
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        },
+        {
+          "id": "f4",
+          "label": "McDonnell Douglas F-4 Phantom II"
+        }
+      ],
+      "caption": "US Air Force supersonic fighter-bomber. First flew 1955.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f106",
+      "image": "f106.jpg",
+      "answer": "f106",
+      "options": [
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "f102",
+          "label": "Convair F-102 Delta Dagger"
+        },
+        {
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        }
+      ],
+      "caption": "All-weather interceptor aircraft. First flew 1956.",
+      "credit": "Staff Sgt. John K. McDowell / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f15e",
+      "image": "f15e.jpg",
+      "answer": "f15e",
+      "options": [
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "fa18",
+          "label": "McDonnell Douglas F/A-18 Hornet"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        }
+      ],
+      "caption": "American all-weather multirole fighter aircraft. First flew 1986.",
+      "credit": "Staff Sgt. Sean Carnes / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-f15ex",
+      "image": "f15ex.jpg",
+      "answer": "f15ex",
+      "options": [
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        }
+      ],
+      "caption": "American multirole fighter aircraft. First flew 2013.",
+      "credit": "Ethan Wagner / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

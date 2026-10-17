@@ -1,0 +1,246 @@
+{
+  "id": "military-decade-1990s",
+  "title": "1990s",
+  "description": "Military aircraft that entered service in the 1990s.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Decade"
+  ],
+  "theme": {
+    "accent": "#46607A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-decade-1990s-c17",
+      "image": "c17.jpg",
+      "answer": "c17",
+      "options": [
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "American four engine military transport aircraft. First flew 1991.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-b2",
+      "image": "b2.jpg",
+      "answer": "b2",
+      "options": [
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "American heavy strategic bomber. First flew 1989.",
+      "credit": "Royal Air Force / OGL v1.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-gripen",
+      "image": "gripen.jpg",
+      "answer": "gripen",
+      "options": [
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
+      "credit": "Tuomo Salonen / SIM; Finnish Aviation Museum / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-ka50",
+      "image": "ka50.jpg",
+      "answer": "ka50",
+      "options": [
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
+        }
+      ],
+      "caption": "Attack helicopter. First flew 1982.",
+      "credit": "Tomasz Szulc / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-t45",
+      "image": "t45.jpg",
+      "answer": "t45",
+      "options": [
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        }
+      ],
+      "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
+      "credit": "Lt. j.g. John A. Ivancic / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-e8",
+      "image": "e8.jpg",
+      "answer": "e8",
+      "options": [
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        }
+      ],
+      "caption": "Airborne ground surveillance aircraft based on Boeing 707 airliner. First flew 1988.",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-t1",
+      "image": "t1.jpg",
+      "answer": "t1",
+      "options": [
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        }
+      ],
+      "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
+      "credit": "Terry Wasson / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-mq1",
+      "image": "mq1.jpg",
+      "answer": "mq1",
+      "options": [
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "Family of unmanned aerial vehicles. First flew 1994.",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1990s-c130j",
+      "image": "c130j.jpg",
+      "answer": "c130j",
+      "options": [
+        {
+          "id": "c130j",
+          "label": "Lockheed Martin C-130J Super Hercules"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "Military transport aircraft. First flew 1996.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

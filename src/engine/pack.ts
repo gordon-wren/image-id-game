@@ -5,6 +5,7 @@ import type {
   PackIndex,
   ResolvedQuestion,
 } from "./types";
+import { cryptoRandom, sample } from "./random";
 
 export const DEFAULTS = {
   roundSeconds: 7,
@@ -26,14 +27,9 @@ export function isAbsoluteUrl(s: string): boolean {
   return /^https?:\/\//i.test(s) || s.startsWith("data:");
 }
 
-/** Fisher–Yates. Optionally seeded for reproducible tests. */
-export function shuffle<T>(arr: readonly T[], rng: () => number = Math.random): T[] {
-  const out = arr.slice();
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
+/** A shuffled copy, using crypto randomness unless a seeded `rng` is passed (tests). */
+export function shuffle<T>(arr: readonly T[], rng: () => number = cryptoRandom): T[] {
+  return sample(arr, arr.length, rng);
 }
 
 /** The first label any question's options give each id, so a question without options can borrow one. */
@@ -52,10 +48,24 @@ export function answerLabel(q: Question, labels: Map<string, string>): string {
   return q.options?.find((o) => o.id === q.answer)?.label ?? labels.get(q.answer) ?? q.answer;
 }
 
-/** The pack's questions in play order: shuffled unless the pack turns it off. */
-export function orderQuestions(pack: QuestionPack, rng: () => number = Math.random): Question[] {
+/**
+ * The questions for one round, in play order. When the pack sets
+ * `questionsPerRound` and has more questions than that, a random selection of
+ * that many is taken each time. Shuffled unless the pack turns it off, in which
+ * case the selection keeps the pack's own order.
+ */
+export function orderQuestions(pack: QuestionPack, rng: () => number = cryptoRandom): Question[] {
   const shouldShuffle = pack.shuffleQuestions ?? DEFAULTS.shuffleQuestions;
-  return shouldShuffle ? shuffle(pack.questions, rng) : pack.questions.slice();
+  const limit = pack.questionsPerRound;
+  const chosen = limit && limit < pack.questions.length ? new Set(sample(pack.questions, limit, rng)) : null;
+  const questions = chosen ? pack.questions.filter((q) => chosen.has(q)) : pack.questions.slice();
+  return shouldShuffle ? shuffle(questions, rng) : questions;
+}
+
+/** How many questions a round of this pack has. */
+export function roundLength(pack: QuestionPack): number {
+  const limit = pack.questionsPerRound;
+  return limit ? Math.min(limit, pack.questions.length) : pack.questions.length;
 }
 
 /** Every distinct correct answer in the pack becomes a candidate distractor. */
@@ -84,7 +94,7 @@ export function resolveOptions(
   pack: QuestionPack,
   q: Question,
   pool: Option[],
-  rng: () => number = Math.random
+  rng: () => number = cryptoRandom
 ): Option[] {
   const shouldShuffle = pack.shuffleOptions ?? DEFAULTS.shuffleOptions;
   const count = pack.optionsPerQuestion ?? DEFAULTS.optionsPerQuestion;
@@ -112,7 +122,7 @@ export function resolveOptions(
 /** Resolve an entire pack into render-ready questions. */
 export function resolvePack(
   pack: QuestionPack,
-  rng: () => number = Math.random
+  rng: () => number = cryptoRandom
 ): ResolvedQuestion[] {
   const pool = buildPool(pack);
   return orderQuestions(pack, rng).map((q) => ({
@@ -135,6 +145,8 @@ export function validatePack(pack: QuestionPack): void {
     throw new Error(`${where}: "path" must be an array of non-empty strings.`);
   if (!Array.isArray(pack.questions) || pack.questions.length === 0)
     throw new Error(`${where}: "questions" must be a non-empty array.`);
+  if (pack.questionsPerRound !== undefined && !(Number.isInteger(pack.questionsPerRound) && pack.questionsPerRound > 0))
+    throw new Error(`${where}: "questionsPerRound" must be a positive whole number.`);
 
   const ids = new Set<string>();
   for (const q of pack.questions) {

@@ -1,0 +1,396 @@
+{
+  "id": "military-era-modern",
+  "title": "Modern",
+  "description": "Military aircraft that entered service from 2010.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Era"
+  ],
+  "theme": {
+    "accent": "#6B5B3E"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-era-modern-a400m",
+      "image": "a400m.jpg",
+      "answer": "a400m",
+      "options": [
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        }
+      ],
+      "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
+      "credit": "Peng Chen / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-p8",
+      "image": "p8.jpg",
+      "answer": "p8",
+      "options": [
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        }
+      ],
+      "caption": "American maritime patrol aircraft. First flew 2009.",
+      "credit": "Julian Herzog (Website); / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-c390",
+      "image": "c390.jpg",
+      "answer": "c390",
+      "options": [
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        }
+      ],
+      "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
+      "credit": "Matti Blume / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-kawasaki-c2",
+      "image": "kawasaki-c2.jpg",
+      "answer": "kawasaki-c2",
+      "options": [
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "Japanese military transport aircraft. First flew 2010.",
+      "credit": "Hunini / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-f35",
+      "image": "f35.jpg",
+      "answer": "f35",
+      "options": [
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        }
+      ],
+      "caption": "American stealth multirole fighter aircraft. First flew 2006.",
+      "credit": "U.S. Air Force photo by Master Sgt. Donald R. Allen / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-su35",
+      "image": "su35.jpg",
+      "answer": "su35",
+      "options": [
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-su57",
+      "image": "su57.jpg",
+      "answer": "su57",
+      "options": [
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "kf21",
+          "label": "KAI KF-21 Boramae"
+        }
+      ],
+      "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-j20",
+      "image": "j20.jpg",
+      "answer": "j20",
+      "options": [
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        },
+        {
+          "id": "kf21",
+          "label": "KAI KF-21 Boramae"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "Chinese stealth fighter aircraft. First flew 2011.",
+      "credit": "N509FZ / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-tejas",
+      "image": "tejas.jpg",
+      "answer": "tejas",
+      "options": [
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        },
+        {
+          "id": "kf21",
+          "label": "KAI KF-21 Boramae"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        }
+      ],
+      "caption": "Indian combat aircraft. First flew 2001.",
+      "credit": "Goverrnment of India / GODL-India / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-kf21",
+      "image": "kf21.jpg",
+      "answer": "kf21",
+      "options": [
+        {
+          "id": "kf21",
+          "label": "KAI KF-21 Boramae"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
+        }
+      ],
+      "caption": "South Korean fighter aircraft. First flew 2022.",
+      "credit": "대한민국 국방부 - Ministry of National Defense of the Republic of Korea / KOGL Type 1 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-ah1z",
+      "image": "ah1z.jpg",
+      "answer": "ah1z",
+      "options": [
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
+        }
+      ],
+      "caption": "American attack helicopter. First flew 2000.",
+      "credit": "Cpl. Jonathan L. Gonzalez / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-kc46",
+      "image": "kc46.jpg",
+      "answer": "kc46",
+      "options": [
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        }
+      ],
+      "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
+      "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-ch53k",
+      "image": "ch53k.jpg",
+      "answer": "ch53k",
+      "options": [
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "Heavy transport helicopter. First flew 2015.",
+      "credit": "Lance Cpl. Elias E. Pimentel III; cropped by FOX 52 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-f15ex",
+      "image": "f15ex.jpg",
+      "answer": "f15ex",
+      "options": [
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "American multirole fighter aircraft. First flew 2013.",
+      "credit": "Ethan Wagner / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-mh139",
+      "image": "mh139.png",
+      "answer": "mh139",
+      "options": [
+        {
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
+        },
+        {
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "Military utility helicopter model by Boeing. First flew 2019.",
+      "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
+    }
+  ]
+}
