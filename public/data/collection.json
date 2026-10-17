@@ -170,7 +170,103 @@
     "medical-planes/citation2": 167,
     "medical-planes/c9": 168,
     "as365": 169,
-    "ec155": 170
+    "ec155": 170,
+    "p59": 171,
+    "p80": 172,
+    "f9f": 173,
+    "f84": 174,
+    "f86": 175,
+    "f94": 176,
+    "f2h": 177,
+    "a3": 178,
+    "f100-super-sabre": 179,
+    "a4": 180,
+    "f101": 181,
+    "f102": 182,
+    "f104": 183,
+    "f8": 184,
+    "f105": 185,
+    "f106": 186,
+    "a5": 187,
+    "a6": 188,
+    "f111": 189,
+    "a7": 190,
+    "a37": 191,
+    "av8b": 192,
+    "f15e": 193,
+    "f15ex": 194,
+    "r4": 195,
+    "h19": 196,
+    "h21": 197,
+    "sh3": 198,
+    "sh2": 199,
+    "hh3": 200,
+    "ch53e": 201,
+    "uh72": 202,
+    "uh1y": 203,
+    "ah1z": 204,
+    "hh60w": 205,
+    "ch53k": 206,
+    "mh139": 207,
+    "b36": 208,
+    "b47": 209,
+    "b57": 210,
+    "b58": 211,
+    "curtiss-nc": 212,
+    "curtiss-h16": 213,
+    "douglas-o2": 214,
+    "douglas-world-cruiser": 215,
+    "vought-o2u": 216,
+    "pby": 217,
+    "c47": 218,
+    "c46": 219,
+    "c54": 220,
+    "c119": 221,
+    "c124": 222,
+    "hu16": 223,
+    "o1": 224,
+    "e2": 225,
+    "ov1": 226,
+    "c141": 227,
+    "ov10": 228,
+    "s3": 229,
+    "ea6b": 230,
+    "e4": 231,
+    "kc10": 232,
+    "e6": 233,
+    "e8": 234,
+    "mq1": 235,
+    "c130j": 236,
+    "rq7": 237,
+    "mq8": 238,
+    "ea18g": 239,
+    "kc46": 240,
+    "mq25": 241,
+    "p26": 242,
+    "martin-b10": 243,
+    "grumman-f3f": 244,
+    "p35": 245,
+    "p36": 246,
+    "tbd": 247,
+    "f2a": 248,
+    "a17": 249,
+    "b18": 250,
+    "sb2u": 251,
+    "p40": 252,
+    "f4f": 253,
+    "sbd": 254,
+    "p39": 255,
+    "p47": 256,
+    "f6f": 257,
+    "tbf": 258,
+    "sb2c": 259,
+    "b24": 260,
+    "b25": 261,
+    "b26": 262,
+    "a20": 263,
+    "a26": 264,
+    "p61": 265,
+    "f8f": 266
   },
   "entries": {
     "a380": {
@@ -993,6 +1089,458 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Northrop_F-5"
       }
     },
+    "p59": {
+      "number": 171,
+      "name": "Bell P-59 Airacomet",
+      "image": "assets/aircraft/p59.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "First jet aircraft of the United States",
+        "role": "Fighter/Jet Trainer",
+        "manufacturer": "Bell Aircraft Corporation",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Bell P-59 Airacomet is a single-seat, twin jet-engine fighter aircraft that was designed and built by Bell Aircraft during World War II. It was the first jet produced in the United States.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_P-59_Airacomet"
+      }
+    },
+    "p80": {
+      "number": 172,
+      "name": "Lockheed P-80 Shooting Star",
+      "image": "assets/aircraft/p80.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "First jet aircraft in U.S. operational service",
+        "role": "Jet fighter",
+        "manufacturer": "Lockheed Corporation, Burbank",
+        "firstFlight": 1944,
+        "country": "United States",
+        "about": "The Lockheed P-80 Shooting Star is an early jet fighter that was designed and built by Lockheed. It was the first jet aircraft to be used operationally by the United States Army Air Forces (USAAF), flying active missions during the latter months of World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_P-80_Shooting_Star"
+      }
+    },
+    "f9f": {
+      "number": 173,
+      "name": "Grumman F9F Panther",
+      "image": "assets/aircraft/f9f.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "US Navy carrier-based jet fighter",
+        "role": "Carrier-based fighter-bomber",
+        "manufacturer": "Grumman",
+        "firstFlight": 1947,
+        "country": "United States",
+        "about": "The Grumman F9F Panther is an early carrier-based jet fighter designed and produced by American aircraft manufacturer Grumman. It was the first jet-powered fighter aircraft to see air-to-air combat with the United States Navy, as well as being Grumman’s first jet fighter.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F9F_Panther"
+      }
+    },
+    "f84": {
+      "number": 174,
+      "name": "Republic F-84 Thunderjet",
+      "image": "assets/aircraft/f84.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "1946 fighter-bomber family",
+        "role": "Fighter-bomber",
+        "manufacturer": "Republic Aviation Corporation",
+        "firstFlight": 1946,
+        "country": "United States",
+        "about": "The Republic F-84 Thunderjet is an American turbojet fighter-bomber aircraft. Originating as a 1944 United States Army Air Forces (USAAF) proposal for a \"day fighter\", the F-84 first flew in 1946.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Republic_F-84_Thunderjet"
+      }
+    },
+    "f86": {
+      "number": 175,
+      "name": "North American F-86 Sabre",
+      "image": "assets/aircraft/f86.jpg",
+      "credit": "U.S. Air Force photo by J.M. Eddins Jr. / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Family of US fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "North American Aviation, Canadair",
+        "firstFlight": 1947,
+        "country": "United States",
+        "about": "The North American F-86 Sabre, sometimes called the Sabrejet, is a transonic, jet-powered fighter aircraft. Produced by North American Aviation, the Sabre is best known as the United States' first swept-wing fighter that could counter the swept-wing Soviet MiG-15 in high-speed dogfights in the skies of the Korean War…",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_F-86_Sabre"
+      }
+    },
+    "f94": {
+      "number": 176,
+      "name": "Lockheed F-94 Starfire",
+      "image": "assets/aircraft/f94.jpg",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Series of all-weather interceptor aircraft",
+        "role": "All-weather interceptor",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1949,
+        "country": "United States",
+        "about": "The Lockheed F-94 Starfire is a first-generation jet-powered all-weather day/night interceptor aircraft designed and produced by Lockheed Corporation. Put into production in 1949, it was the first operational United States Air Force (USAF) fighter equipped with an afterburner as well as being the first jet-powered…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_F-94_Starfire"
+      }
+    },
+    "f2h": {
+      "number": 177,
+      "name": "McDonnell F2H Banshee",
+      "image": "assets/aircraft/f2h.jpg",
+      "credit": "USN / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American carrier-based jet fighter",
+        "role": "Carrier-based fighter aircraft",
+        "manufacturer": "McDonnell Aircraft Corporation",
+        "firstFlight": 1947,
+        "country": "United States",
+        "about": "The McDonnell F2H Banshee is a single-seat carrier-based jet fighter aircraft designed and produced by the American aircraft manufacturer McDonnell Aircraft. It was an early jet fighter operated by United States Navy and United States Marine Corps, as well as being the only jet-powered fighter to ever be deployed by…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_F2H_Banshee"
+      }
+    },
+    "a3": {
+      "number": 178,
+      "name": "Douglas A-3 Skywarrior",
+      "image": "assets/aircraft/a3.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Carrier-based multirole aircraft family",
+        "role": "Strategic bomber",
+        "manufacturer": "Douglas",
+        "firstFlight": 1952,
+        "country": "United States",
+        "about": "The Douglas A-3 Skywarrior is a jet-powered strategic bomber that was developed and produced by the Douglas Aircraft Company. It was designed by Douglas on behalf of the United States Navy, which sought a carrier-capable strategic bomber.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_A-3_Skywarrior"
+      }
+    },
+    "f100-super-sabre": {
+      "number": 179,
+      "name": "North American F-100 Super Sabre",
+      "image": "assets/aircraft/f100-super-sabre.jpg",
+      "credit": "NASA / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1953 fighter aircraft family",
+        "role": "Fighter; Fighter-bomber",
+        "manufacturer": "North American Aviation",
+        "firstFlight": 1953,
+        "country": "United States",
+        "about": "The North American F-100 Super Sabre is an American supersonic jet fighter aircraft designed and produced by the aircraft manufacturer North American Aviation. The first of the Century Series of American jet fighters, it was the first United States Air Force (USAF) fighter capable of supersonic speed in level flight.",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_F-100_Super_Sabre"
+      }
+    },
+    "a4": {
+      "number": 180,
+      "name": "Douglas A-4 Skyhawk",
+      "image": "assets/aircraft/a4.jpg",
+      "credit": "Lt.JG Nelson, U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Carrier-based attack aircraft",
+        "role": "Attack aircraft, fighter, aggressor aircraft",
+        "manufacturer": "Douglas, McDonnell Douglas",
+        "firstFlight": 1954,
+        "country": "United States",
+        "about": "The Douglas A-4 Skyhawk is a single-seat, subsonic, carrier-capable, light attack aircraft designed and produced by American aerospace manufacturer Douglas Aircraft Company, later built by McDonnell Douglas. It was originally designated A4D under the United States Navy's pre-1962 designation system.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_A-4_Skyhawk"
+      }
+    },
+    "f101": {
+      "number": 181,
+      "name": "McDonnell F-101 Voodoo",
+      "image": "assets/aircraft/f101.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Family of 1950s jet fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "McDonnell Aircraft Corporation",
+        "firstFlight": 1954,
+        "country": "United States",
+        "about": "The McDonnell F-101 Voodoo is a supersonic jet fighter designed and produced by the American McDonnell Aircraft Corporation.",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_F-101_Voodoo"
+      }
+    },
+    "f102": {
+      "number": 182,
+      "name": "Convair F-102 Delta Dagger",
+      "image": "assets/aircraft/f102.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Cold War interceptor of the US Air Force",
+        "role": "Interceptor aircraft",
+        "manufacturer": "Convair",
+        "firstFlight": 1953,
+        "country": "United States",
+        "about": "The Convair F-102 Delta Dagger is an interceptor aircraft designed and produced by the American aircraft manufacturer Convair. A member of the Century Series, the F-102 was the first operational supersonic interceptor and delta-wing fighter operated by the United States Air Force (USAF).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger"
+      }
+    },
+    "f104": {
+      "number": 183,
+      "name": "Lockheed F-104 Starfighter",
+      "image": "assets/aircraft/f104.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1956 fighter aircraft family by Lockheed",
+        "role": "Interceptor aircraft; Fighter-bomber",
+        "manufacturer": "Lockheed Corporation, Canadair",
+        "firstFlight": 1956,
+        "country": "United States",
+        "about": "The Lockheed F-104 Starfighter is an American single-engine, supersonic interceptor. Created as a day fighter by Lockheed as one of the \"Century Series\" of fighter aircraft for the United States Air Force (USAF), it was developed into an all-weather multirole aircraft in the early 1960s and extensively deployed as a…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter"
+      }
+    },
+    "f8": {
+      "number": 184,
+      "name": "Vought F-8 Crusader",
+      "image": "assets/aircraft/f8.jpg",
+      "credit": "Jimmy Labianco / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1955 naval fighter aircraft by Vought",
+        "role": "Fighter aircraft",
+        "manufacturer": "Vought, Ling-Temco-Vought",
+        "firstFlight": 1955,
+        "country": "United States",
+        "about": "The Vought F-8 Crusader is a retired single-jet engine, supersonic, carrier-based air superiority fighter designed and produced by the American aircraft manufacturer Vought. It was the last American fighter that had guns as the primary weapon, earning it the title \"The Last of the Gunfighters\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vought_F-8_Crusader"
+      }
+    },
+    "f105": {
+      "number": 185,
+      "name": "Republic F-105 Thunderchief",
+      "image": "assets/aircraft/f105.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "US Air Force supersonic fighter-bomber",
+        "role": "Fighter-bomber",
+        "manufacturer": "Republic Aviation Corporation",
+        "firstFlight": 1955,
+        "country": "United States",
+        "about": "The Republic F-105 Thunderchief is an American fighter-bomber that served with the United States Air Force from 1958 to 1984. Capable of Mach 2, it conducted the majority of strike bombing missions during the early years of the Vietnam War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Republic_F-105_Thunderchief"
+      }
+    },
+    "f106": {
+      "number": 186,
+      "name": "Convair F-106 Delta Dart",
+      "image": "assets/aircraft/f106.jpg",
+      "credit": "Staff Sgt. John K. McDowell / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "All-weather interceptor aircraft",
+        "role": "Fighter interceptor",
+        "manufacturer": "Convair, General Dynamics",
+        "firstFlight": 1956,
+        "country": "United States",
+        "about": "The Convair F-106 Delta Dart is an all-weather interceptor aircraft designed and produced by the American aircraft manufacturer Convair, a division of General Dynamics.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Convair_F-106_Delta_Dart"
+      }
+    },
+    "a5": {
+      "number": 187,
+      "name": "North American A-5 Vigilante",
+      "image": "assets/aircraft/a5.jpg",
+      "credit": "NASA Dryden Flight Research Center / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Cold War-era U.S. carrier-based supersonic bomber",
+        "role": "Carrier-based nuclear bomber; Reconnaissance aircraft",
+        "manufacturer": "North American Aviation",
+        "firstFlight": 1958,
+        "country": "United States",
+        "about": "The North American A-5 Vigilante is an American carrier-based supersonic bomber and reconnaissance aircraft designed and built by North American Aviation (NAA) for the United States Navy. Before the 1962 unification of Navy and Air Force designations, it was designated A3J.",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_A-5_Vigilante"
+      }
+    },
+    "a6": {
+      "number": 188,
+      "name": "Grumman A-6 Intruder",
+      "image": "assets/aircraft/a6.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "1960 attack strike aircraft family by Grumman",
+        "role": "Attack aircraft; Aerial tanker (KA-6D variant)",
+        "manufacturer": "Grumman",
+        "firstFlight": 1960,
+        "country": "United States",
+        "about": "The Grumman A-6 Intruder is a twinjet, all-weather subsonic attack aircraft developed and manufactured by American aircraft company Grumman Aerospace. It was formerly operated by the U.S. Navy and U.S. Marine Corps.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_A-6_Intruder"
+      }
+    },
+    "f111": {
+      "number": 189,
+      "name": "General Dynamics F-111 Aardvark",
+      "image": "assets/aircraft/f111.jpg",
+      "credit": "Master Sgt. Patrick Nugent / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Family of strike aircraft developed in 1960s",
+        "role": "Attack aircraft, strategic bomber (FB-111), reconnaissance, electronic warfare (EF-111 Raven)",
+        "manufacturer": "General Dynamics",
+        "firstFlight": 1964,
+        "country": "United States",
+        "about": "The General Dynamics F-111 Aardvark is a retired, supersonic, medium-range fighter-bomber. Production models of the F-111 had roles that included attack, strategic bombing, reconnaissance, and electronic warfare.",
+        "wikipedia": "https://en.wikipedia.org/wiki/General_Dynamics_F-111_Aardvark"
+      }
+    },
+    "a7": {
+      "number": 190,
+      "name": "LTV A-7 Corsair II",
+      "image": "assets/aircraft/a7.jpg",
+      "credit": "Robert L. Lawson, U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American attack aircraft family",
+        "role": "Attack aircraft",
+        "manufacturer": "Ling-Temco-Vought, Vought",
+        "firstFlight": 1965,
+        "country": "United States",
+        "about": "The LTV A-7 Corsair II is an American carrier-capable subsonic light attack aircraft designed and manufactured by Ling-Temco-Vought (LTV).",
+        "wikipedia": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II"
+      }
+    },
+    "a37": {
+      "number": 191,
+      "name": "Cessna A-37 Dragonfly",
+      "image": "assets/aircraft/a37.jpg",
+      "credit": "TSGT KEN HAMMOND / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American light attack aircraft developed from the T-37 Tweet basic trainer",
+        "role": "Light ground-attack aircraft",
+        "manufacturer": "Cessna",
+        "firstFlight": 1963,
+        "country": "United States",
+        "about": "The Cessna A-37 Dragonfly, or Super Tweet, is a jet-powered, light attack aircraft that was designed and produced by American aircraft manufacturer Cessna.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cessna_A-37_Dragonfly"
+      }
+    },
+    "av8b": {
+      "number": 192,
+      "name": "McDonnell Douglas AV-8B Harrier II",
+      "image": "assets/aircraft/av8b.jpg",
+      "credit": "U.S. Navy photo by Signalman 3rd Class Matthew A. Alvarado. / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Anglo-American VSTOL ground-attack aircraft",
+        "role": "V/STOL ground-attack aircraft",
+        "manufacturer": "McDonnell Douglas, BAE Systems",
+        "firstFlight": 1978,
+        "country": "United States",
+        "about": "The McDonnell Douglas AV-8B Harrier II is a single-engine ground-attack aircraft that constitutes the second generation of the Harrier family, capable of vertical or short takeoff and landing (V/STOL). The aircraft is primarily employed on light attack or multi-role missions, ranging from close air support of ground…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_AV-8B_Harrier_II"
+      }
+    },
+    "f15e": {
+      "number": 193,
+      "name": "McDonnell Douglas F-15E Strike Eagle",
+      "image": "assets/aircraft/f15e.jpg",
+      "credit": "Staff Sgt. Sean Carnes / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "American all-weather multirole fighter aircraft",
+        "role": "Multirole strike fighter",
+        "manufacturer": "McDonnell Douglas, Boeing Defense, Space & Security",
+        "firstFlight": 1986,
+        "country": "United States",
+        "about": "The McDonnell Douglas F-15E Strike Eagle is an American all-weather multirole strike fighter derived from the McDonnell Douglas F-15 Eagle. Intended for the Dual-Role Fighter (DRF) program, the F-15E was designed in the 1980s for long-range, high-speed interdiction without relying on escort or electronic-warfare…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15E_Strike_Eagle"
+      }
+    },
+    "f15ex": {
+      "number": 194,
+      "name": "Boeing F-15EX Eagle II",
+      "image": "assets/aircraft/f15ex.jpg",
+      "credit": "Ethan Wagner / Public domain / via Wikimedia Commons",
+      "packs": [
+        "fighter-jets"
+      ],
+      "facts": {
+        "description": "American multirole fighter aircraft",
+        "role": "Multirole fighter",
+        "manufacturer": "Boeing, General Electric",
+        "firstFlight": 2013,
+        "country": "United States",
+        "about": "The Boeing F-15EX Eagle II is an American multirole fighter derived from the McDonnell Douglas F-15E Strike Eagle. The aircraft resulted from U.S. Department of Defense (DoD) studies in 2018 to recapitalize the United States Air Force's (USAF) tactical aviation fleet that was aging due to curtailed modernization,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+      }
+    },
     "ah64": {
       "number": 50,
       "name": "Boeing AH-64 Apache",
@@ -1509,6 +2057,240 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_EC155"
       }
     },
+    "r4": {
+      "number": 195,
+      "name": "Sikorsky R-4",
+      "image": "assets/aircraft/r4.jpg",
+      "credit": "United States Army Air Forces / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Two-seat military helicopter of the 1940s",
+        "role": "Helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Sikorsky R-4 is a two-seat light helicopter that was designed by Igor Sikorsky with a single, three-bladed main rotor and powered by a radial engine. The R-4 was the world's first large-scale mass-produced helicopter and the first helicopter used by the United States Army Air Forces, the United States Navy, the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_R-4"
+      }
+    },
+    "h19": {
+      "number": 196,
+      "name": "Sikorsky H-19 Chickasaw",
+      "image": "assets/aircraft/h19.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Family of utility helicopters",
+        "role": "Utility helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1949,
+        "country": "United States",
+        "about": "The Sikorsky H-19 Chickasaw is a multi-purpose piston-engined helicopter that was used by the United States Army and United States Air Force. It was also license-built by Westland Aircraft as the Westland Whirlwind in the United Kingdom.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_H-19_Chickasaw"
+      }
+    },
+    "h21": {
+      "number": 197,
+      "name": "Piasecki H-21",
+      "image": "assets/aircraft/h21.jpg",
+      "credit": "US Army / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American military transport helicopter family",
+        "role": "Military transport helicopter",
+        "manufacturer": "Piasecki Helicopter Corporation, Weser Flugzeugbau",
+        "firstFlight": 1952,
+        "country": "United States",
+        "about": "The Piasecki H-21 Workhorse/Shawnee is an American helicopter, the fourth of a line of tandem rotor helicopters designed and built by Piasecki Helicopter. Commonly called \"the flying banana\", it was a multi-mission helicopter, capable of being fitted with wheels, skis or floats.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Piasecki_H-21"
+      }
+    },
+    "sh3": {
+      "number": 198,
+      "name": "Sikorsky SH-3 Sea King",
+      "image": "assets/aircraft/sh3.jpg",
+      "credit": "US Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American anti-submarine helicopter",
+        "role": "Anti-submarine warfare, search and rescue, transport and utility helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation, Westland Helicopters",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Sikorsky SH-3 Sea King is an American twin-engine anti-submarine warfare (ASW) helicopter designed and built by Sikorsky Aircraft. A landmark design, it was one of the first ASW rotorcraft to use turboshaft engines.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_SH-3_Sea_King"
+      }
+    },
+    "sh2": {
+      "number": 199,
+      "name": "Kaman SH-2 Seasprite",
+      "image": "assets/aircraft/sh2.jpg",
+      "credit": "PH2 Wiggin, USN / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "1959 anti-submarine helicopter family by Kaman",
+        "role": "Anti-submarine warfare helicopter",
+        "manufacturer": "Kaman Corporation",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Kaman SH-2 Seasprite is a ship-based helicopter originally developed and produced by American manufacturer Kaman Aircraft Corporation. It has been typically used as a compact and fast-moving rotorcraft for utility and anti-submarine warfare (ASW) missions.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kaman_SH-2_Seasprite"
+      }
+    },
+    "hh3": {
+      "number": 200,
+      "name": "Sikorsky HH-3 (S-61R)",
+      "image": "assets/aircraft/hh3.jpg",
+      "credit": "United States Coast Guard / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Helicopter used in transport or search and rescue",
+        "role": "Medium-lift transport/Search and Rescue (SAR) helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Sikorsky S-61R is a twin-engine helicopter used in transport or search and rescue roles. A developed version of the S-61, the S-61R was also built under license by Agusta as the AS-61R.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_S-61R"
+      }
+    },
+    "ch53e": {
+      "number": 201,
+      "name": "Sikorsky CH-53E Super Stallion",
+      "image": "assets/aircraft/ch53e.jpg",
+      "credit": "Sgt. Seth Starr / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Transport helicopter series by Sikorsky",
+        "role": "Heavy-lift cargo helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 1974,
+        "country": "United States",
+        "about": "The Sikorsky CH-53E Super Stallion is a heavy lift helicopter operated by the United States military. As the Sikorsky S-80, it was developed from the CH-53 Sea Stallion, mainly by adding a third engine, adding a seventh blade to the main rotor, and canting the tail rotor 20°.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_CH-53E_Super_Stallion"
+      }
+    },
+    "uh72": {
+      "number": 202,
+      "name": "Eurocopter UH-72 Lakota",
+      "image": "assets/aircraft/uh72.jpg",
+      "credit": "Senior Master Sgt. David Lipp / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Light utility multipurpose helicopter",
+        "role": "Light utility military helicopter",
+        "manufacturer": "Airbus Group, Inc., Airbus Helicopters",
+        "firstFlight": 2006,
+        "country": "United States / Germany",
+        "about": "The Airbus Helicopters UH-72 Lakota is a twin-engine helicopter with a single, four-bladed main rotor. It is a militarized version of the Eurocopter EC145, Airbus Helicopters, Inc., a division of the Airbus Group.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eurocopter_UH-72_Lakota"
+      }
+    },
+    "uh1y": {
+      "number": 203,
+      "name": "Bell UH-1Y Venom",
+      "image": "assets/aircraft/uh1y.jpg",
+      "credit": "Cpl. Hailey D. Clay / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Military utility helicopter model by Bell",
+        "role": "Utility helicopter",
+        "manufacturer": "Bell Aircraft Corporation",
+        "firstFlight": 2001,
+        "country": "United States",
+        "about": "The Bell UH-1Y Venom is a twin-engine, 4-blade, medium-sized utility helicopter built by Bell Textron under the H-1 upgrade program of the United States Marine Corps. One of the latest members of the numerous Huey family, the UH-1Y is also called \"Yankee\" for the NATO phonetic alphabet pronunciation of its variant…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_UH-1Y_Venom"
+      }
+    },
+    "ah1z": {
+      "number": 204,
+      "name": "Bell AH-1Z Viper",
+      "image": "assets/aircraft/ah1z.jpg",
+      "credit": "Cpl. Jonathan L. Gonzalez / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American attack helicopter",
+        "role": "Attack helicopter",
+        "manufacturer": "Bell Textron",
+        "firstFlight": 2000,
+        "country": "United States",
+        "about": "The Bell AH-1Z Viper is a twin-engine attack helicopter, based on the AH-1W SuperCobra, designed and produced by the American aerospace manufacturer Bell Helicopter. It is one of the latest members of the prolific Bell Huey family.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_AH-1Z_Viper"
+      }
+    },
+    "hh60w": {
+      "number": 205,
+      "name": "Sikorsky HH-60 Pave Hawk",
+      "image": "assets/aircraft/hh60w.jpg",
+      "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "American medium-lift military helicopter",
+        "role": "Combat search and rescue helicopter",
+        "manufacturer": "Sikorsky Aircraft",
+        "firstFlight": null,
+        "country": "United States",
+        "about": "The Sikorsky MH-60/HH-60 Pave Hawk and HH-60W Jolly Green II are a four-blade, twin-engine, medium-lift utility military helicopter manufactured by Sikorsky Aircraft. Both are derived from the Sikorsky S-70 and the UH-60 Black Hawk; they incorporate the United States Air Force (USAF) PAVE electronic systems program…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_HH-60_Pave_Hawk"
+      }
+    },
+    "ch53k": {
+      "number": 206,
+      "name": "Sikorsky CH-53K King Stallion",
+      "image": "assets/aircraft/ch53k.jpg",
+      "credit": "Lance Cpl. Elias E. Pimentel III; cropped by FOX 52 / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Heavy transport helicopter",
+        "role": "Heavy transport helicopter",
+        "manufacturer": "Sikorsky Aircraft Corporation",
+        "firstFlight": 2015,
+        "country": "United States",
+        "about": "The Sikorsky CH-53K King Stallion is a heavy-transport helicopter designed and produced by Sikorsky Aircraft. The King Stallion is an evolution of the long-running CH-53 series of helicopters that has been in continuous service since 1966, and features three up-rated 7,500 shp (5,590 kW) engines, new composite rotor…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_CH-53K_King_Stallion"
+      }
+    },
+    "mh139": {
+      "number": 207,
+      "name": "Boeing MH-139 Grey Wolf",
+      "image": "assets/aircraft/mh139.png",
+      "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons",
+      "packs": [
+        "helicopters"
+      ],
+      "facts": {
+        "description": "Military utility helicopter model by Boeing",
+        "role": "Medium lift helicopter",
+        "manufacturer": "Boeing",
+        "firstFlight": 2019,
+        "country": "Italy/United States",
+        "about": "The Boeing MH-139 Grey Wolf is a twin-engine helicopter operated by the United States Air Force (USAF) for security and support missions. Built under licence by Boeing, the Grey Wolf is a variant of the Leonardo AW139, an Italian-built multi-role helicopter.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_MH-139_Grey_Wolf"
+      }
+    },
     "b52": {
       "number": 76,
       "name": "Boeing B-52 Stratofortress",
@@ -1591,8 +2373,7 @@
       "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons",
       "packs": [
         "bombers",
-        "soviet-russian",
-        "cold-war-jets"
+        "soviet-russian"
       ],
       "facts": {
         "description": "Russian strategic bomber aircraft",
@@ -1661,6 +2442,81 @@
         "country": "United Kingdom",
         "about": "The Avro Vulcan is a jet-powered, delta-wing, high-altitude strategic bomber, which was operated by the Royal Air Force (RAF) from 1956 until 1984. Aircraft manufacturer A.V. Roe and Company (Avro) designed the Vulcan in response to Specification B.35/46.",
         "wikipedia": "https://en.wikipedia.org/wiki/Avro_Vulcan"
+      }
+    },
+    "b36": {
+      "number": 208,
+      "name": "Convair B-36 Peacemaker",
+      "image": "assets/aircraft/b36.jpg",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers"
+      ],
+      "facts": {
+        "description": "US Air Force strategic bomber (1949–1959)",
+        "role": "Strategic bomber",
+        "manufacturer": "Convair",
+        "firstFlight": 1946,
+        "country": "United States",
+        "about": "The Convair B-36 \"Peacemaker\" was a piston-engined, strategic bomber built by Convair and operated by the United States Air Force's Strategic Air Command from 1948 to 1959. With 384 units built, the B-36 remains the largest mass-produced, piston-engined aircraft and has the longest wingspan of any combat aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Convair_B-36_Peacemaker"
+      }
+    },
+    "b47": {
+      "number": 209,
+      "name": "Boeing B-47 Stratojet",
+      "image": "assets/aircraft/b47.jpg",
+      "credit": "National Nuclear Security Administration / Nevada Site Office / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Cold War-era American jet bomber",
+        "role": "Strategic bomber/reconnaissance",
+        "manufacturer": "Boeing",
+        "firstFlight": 1947,
+        "country": "United States",
+        "about": "The Boeing B-47 Stratojet is a retired American long-range, six-engined, turbojet-powered strategic bomber that was designed to fly at high subsonic speed and at high altitude to avoid enemy interceptor aircraft. The primary mission of the B-47 was as a nuclear bomber capable of striking targets within the Soviet…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_B-47_Stratojet"
+      }
+    },
+    "b57": {
+      "number": 210,
+      "name": "Martin B-57 Canberra",
+      "image": "assets/aircraft/b57.jpg",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "US license-built version of the British English Electric Canberra bomber",
+        "role": "Tactical bomber",
+        "manufacturer": "Glenn L. Martin Company",
+        "firstFlight": 1953,
+        "country": "United States",
+        "about": "The Martin B-57 Canberra is an American-built, twin-engined tactical bomber and reconnaissance aircraft that entered service with the United States Air Force (USAF) in 1953. The B-57 is a license-built version of the British English Electric Canberra, manufactured by the Glenn L. Martin Company.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Martin_B-57_Canberra"
+      }
+    },
+    "b58": {
+      "number": 211,
+      "name": "Convair B-58 Hustler",
+      "image": "assets/aircraft/b58.jpg",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "bombers",
+        "cold-war-jets"
+      ],
+      "facts": {
+        "description": "Cold War-era American supersonic bomber",
+        "role": "Supersonic strategic bomber",
+        "manufacturer": "Convair",
+        "firstFlight": 1956,
+        "country": "United States",
+        "about": "The Convair B-58 Hustler is a supersonic strategic bomber, the first capable of Mach 2 flight. Designed and produced by American aircraft manufacturer Convair, a division of General Dynamics, the B-58 was developed during the 1950s for the United States Air Force (USAF) Strategic Air Command (SAC).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Convair_B-58_Hustler"
       }
     },
     "c130": {
@@ -1989,6 +2845,546 @@
         "country": "United States",
         "about": "The Northrop Grumman RQ-4 Global Hawk is a high-altitude, remotely-piloted surveillance aircraft introduced in 2001. It was initially designed by Ryan Aeronautical, and known as Tier II+ during development.",
         "wikipedia": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk"
+      }
+    },
+    "curtiss-nc": {
+      "number": 212,
+      "name": "Curtiss NC",
+      "image": "assets/aircraft/curtiss-nc.jpg",
+      "credit": "Courtesy of the U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American flying boat",
+        "role": "Long-range patrol",
+        "manufacturer": "Curtiss, Naval Aircraft Factory",
+        "firstFlight": 1918,
+        "country": "United States",
+        "about": "The Curtiss NC is a flying boat built by Curtiss Aeroplane and Motor Company and used by the United States Navy from 1918 through the early 1920s. Ten of these aircraft were built, the most famous of which is the NC-4, the first airplane to make a transatlantic flight.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_NC"
+      }
+    },
+    "curtiss-h16": {
+      "number": 213,
+      "name": "Curtiss Model H",
+      "image": "assets/aircraft/curtiss-h16.jpg",
+      "credit": "MoD Photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American 1914 long range flying boat",
+        "role": "Experimental flying boat",
+        "manufacturer": "Curtiss",
+        "firstFlight": 1914,
+        "country": "United States",
+        "about": "The Curtiss Model H was a family of classes of early long-range flying boats, the first two of which were developed directly on commission in the United States in response to the £10,000 prize challenge issued in 1913 by the London newspaper, the Daily Mail, for the first non-stop aerial crossing of the Atlantic. As…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_Model_H"
+      }
+    },
+    "douglas-o2": {
+      "number": 214,
+      "name": "Douglas O-2",
+      "image": "assets/aircraft/douglas-o2.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Observation aircraft family by Douglas",
+        "role": "Observation plane",
+        "manufacturer": "Douglas",
+        "firstFlight": null,
+        "country": "United States",
+        "about": "The Douglas O-2 was a 1920s American observation aircraft built by the Douglas Aircraft Company, powered by the Liberty engine of WW1 fame, with some later variants using other engines. It was developed into several versions, with 879 being produced in total.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_O-2"
+      }
+    },
+    "douglas-world-cruiser": {
+      "number": 215,
+      "name": "Douglas World Cruiser",
+      "image": "assets/aircraft/douglas-world-cruiser.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Aircraft developed to fly around the world",
+        "role": "Seaplane",
+        "manufacturer": "Douglas",
+        "firstFlight": 1923,
+        "country": "United States",
+        "about": "The Douglas World Cruiser (DWC) was developed to meet a requirement from the United States Army Air Service for an aircraft suitable for an attempt at the first flight around the world. The Douglas Aircraft Company responded with a modified variant of their DT torpedo bomber, the DWC.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_World_Cruiser"
+      }
+    },
+    "vought-o2u": {
+      "number": 216,
+      "name": "Vought O2U Corsair",
+      "image": "assets/aircraft/vought-o2u.jpg",
+      "credit": "U.S. Navy Photo; The original uploader was Colputt at English Wikipedia., 2007-07-02 (original upload date) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "1926 naval observation aircraft family",
+        "role": "Observation",
+        "manufacturer": "Vought",
+        "firstFlight": null,
+        "country": "United States",
+        "about": "The Vought O2U Corsair is a 1920s biplane scout and observation aircraft. Developed by Vought Corporation, the O2U was ordered by the United States Navy (USN) in 1927.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vought_O2U_Corsair"
+      }
+    },
+    "pby": {
+      "number": 217,
+      "name": "Consolidated PBY Catalina",
+      "image": "assets/aircraft/pby.jpg",
+      "credit": "Filipe Sousa / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American 1930s flying boat",
+        "role": "Maritime patrol bomber, search and rescue seaplane",
+        "manufacturer": "Consolidated Aircraft, Canadian Vickers",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Consolidated Model 28, more commonly known as the PBY Catalina, is an American flying boat and amphibious aircraft designed by Consolidated Aircraft in the 1930s and 1940s. In U.S. Army service, it was designated as the OA-10 and in Canadian service as the Canso, and it later received the NATO reporting name Mop.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina"
+      }
+    },
+    "c47": {
+      "number": 218,
+      "name": "Douglas C-47 Skytrain",
+      "image": "assets/aircraft/c47.jpg",
+      "credit": "USAAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Military transport aircraft derived from DC-3",
+        "role": "Military transport aircraft",
+        "manufacturer": "Douglas",
+        "firstFlight": 1941,
+        "country": "United States",
+        "about": "The Douglas C-47 Skytrain, or Dakota, is a military transport aircraft that was developed from the civilian Douglas DC-3 airliner. It was used extensively by the Allies during World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_C-47_Skytrain"
+      }
+    },
+    "c46": {
+      "number": 219,
+      "name": "Curtiss C-46 Commando",
+      "image": "assets/aircraft/c46.jpg",
+      "credit": "usaf / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "U.S. military transport aircraft with 2 piston engines, 1940",
+        "role": "Military transport aircraft",
+        "manufacturer": "Curtiss-Wright",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The Curtiss C-46 Commando is a low-wing, twin-engine aircraft derived from the Curtiss CW-20 pressurized high-altitude airliner design. Early press reports used the name \"Condor III\" but the Commando name was in use by early 1942 in company publicity.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_C-46_Commando"
+      }
+    },
+    "c54": {
+      "number": 220,
+      "name": "Douglas C-54 Skymaster",
+      "image": "assets/aircraft/c54.jpg",
+      "credit": "en:User:Signaleer first uploaded to English WP, User:Alaniaris re-uploaded it here / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Military transport aircraft derived from DC-4",
+        "role": "Military transport aircraft",
+        "manufacturer": "Douglas",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Douglas C-54 Skymaster is a four-engined transport aircraft used by the United States Army Air Forces in World War II and the Korean War. Like the Douglas C-47 Skytrain derived from the DC-3, the C-54 Skymaster was derived from a civilian airliner, the Douglas DC-4.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_C-54_Skymaster"
+      }
+    },
+    "c119": {
+      "number": 221,
+      "name": "Fairchild C-119 Flying Boxcar",
+      "image": "assets/aircraft/c119.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American military transport aircraft",
+        "role": "Military transport aircraft",
+        "manufacturer": "Fairchild",
+        "firstFlight": 1947,
+        "country": "United States",
+        "about": "The Fairchild C-119 Flying Boxcar is an American military transport aircraft developed from the World War II-era Fairchild C-82 Packet, designed to carry cargo, personnel, litter patients, and mechanized equipment, and to drop cargo and troops by parachute. The first C-119 made its initial flight in November 1947,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fairchild_C-119_Flying_Boxcar"
+      }
+    },
+    "c124": {
+      "number": 222,
+      "name": "Douglas C-124 Globemaster II",
+      "image": "assets/aircraft/c124.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American heavy lift military aircraft with 4 piston engines, 1946",
+        "role": "Heavy-lift military transport aircraft",
+        "manufacturer": "Douglas",
+        "firstFlight": 1949,
+        "country": "United States",
+        "about": "The Douglas C-124 Globemaster II, nicknamed \"Old Shaky\", is a retired American heavy-lift cargo aircraft built by the Douglas Aircraft Company in Long Beach, California.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_C-124_Globemaster_II"
+      }
+    },
+    "hu16": {
+      "number": 223,
+      "name": "Grumman HU-16 Albatross",
+      "image": "assets/aircraft/hu16.jpg",
+      "credit": "Dylan Agbagni / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American seaplane",
+        "role": "Air-sea rescue flying boat",
+        "manufacturer": "Grumman",
+        "firstFlight": 1949,
+        "country": "United States",
+        "about": "The Grumman HU-16 Albatross is a twin-radial-engined, amphibious flying boat that was designed and produced by American aircraft manufacturer Grumman. Originally designated as the SA-16 in USAF service and the JR2F-1 and UF-1 in USN and USCG service, respectively, it was redesignated as the HU-16 in 1962.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_HU-16_Albatross"
+      }
+    },
+    "o1": {
+      "number": 224,
+      "name": "Cessna O-1 Bird Dog",
+      "image": "assets/aircraft/o1.jpg",
+      "credit": "U.S. Army / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Military liaison and observation aircraft",
+        "role": "Observation aircraft",
+        "manufacturer": "Cessna",
+        "firstFlight": 1949,
+        "country": "United States",
+        "about": "The Cessna O-1 Bird Dog is a liaison and observation aircraft that first flew on December 14, 1949, and entered service in 1950 as the L-19 in the Korean War. It went on to serve in many branches of the U.S. Armed Forces, was not retired until the 1970s in a number of variants, and also served in the Vietnam War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cessna_O-1_Bird_Dog"
+      }
+    },
+    "e2": {
+      "number": 225,
+      "name": "Grumman E-2 Hawkeye",
+      "image": "assets/aircraft/e2.jpg",
+      "credit": "US Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Airborne early warning and control aircraft",
+        "role": "Airborne early warning and control",
+        "manufacturer": "Northrop Grumman Corporation, Grumman",
+        "firstFlight": 1960,
+        "country": "United States",
+        "about": "The Northrop Grumman E-2 Hawkeye is an American all-weather, carrier-capable, tactical airborne early warning (AEW) aircraft. This twin-turboprop aircraft was designed and developed during the late 1950s and early 1960s by the Grumman Aircraft Company for the United States Navy as a replacement for the earlier,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_E-2_Hawkeye"
+      }
+    },
+    "ov1": {
+      "number": 226,
+      "name": "Grumman OV-1 Mohawk",
+      "image": "assets/aircraft/ov1.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Battlefield reconnaissance and forward air control aircraft",
+        "role": "Light attack and observation aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1959,
+        "country": "United States",
+        "about": "The Grumman OV-1 Mohawk is an American armed military observation and attack aircraft that was designed for battlefield surveillance, light strike and transport capabilities. It features a twin turboprop configuration, and carries two crew members in side-by-side seating.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_OV-1_Mohawk"
+      }
+    },
+    "c141": {
+      "number": 227,
+      "name": "Lockheed C-141 Starlifter",
+      "image": "assets/aircraft/c141.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Retired American heavy military transport aircraft from Lockheed",
+        "role": "Strategic airlifter",
+        "manufacturer": "Lockheed Corporation",
+        "firstFlight": 1963,
+        "country": "United States",
+        "about": "The Lockheed C-141 Starlifter is a retired four-engine military strategic airlifter that served with the Military Air Transport Service (MATS), its successor organization the Military Airlift Command (MAC), and finally the Air Mobility Command (AMC) of the United States Air Force (USAF). The aircraft also served with…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_C-141_Starlifter"
+      }
+    },
+    "ov10": {
+      "number": 228,
+      "name": "North American Rockwell OV-10 Bronco",
+      "image": "assets/aircraft/ov10.jpg",
+      "credit": "NASA / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Observation and light attack aircraft",
+        "role": "Light attack and observation aircraft",
+        "manufacturer": "North American Aviation",
+        "firstFlight": 1965,
+        "country": "United States",
+        "about": "The North American Rockwell OV-10 Bronco is a twin-turboprop light attack and observation (O) aircraft with short takeoff and landing (V) capability designed and produced by the American aircraft manufacturer North American Rockwell. It was the first aircraft to be specifically designed to conduct counter-insurgency…",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_Rockwell_OV-10_Bronco"
+      }
+    },
+    "s3": {
+      "number": 229,
+      "name": "Lockheed S-3 Viking",
+      "image": "assets/aircraft/s3.jpg",
+      "credit": "US Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Carrier-based anti-submarine and aerial refueling aircraft",
+        "role": "Carrier-based anti-submarine warfare aircraft",
+        "manufacturer": "Lockheed Corporation, Palmdale",
+        "firstFlight": 1972,
+        "country": "United States",
+        "about": "The Lockheed S-3 Viking is a four-crew, twin-engine turbofan-powered subsonic anti-submarine jet aircraft designed and produced by the American aerospace manufacturer Lockheed Corporation. Because of its characteristic sound, it was nicknamed the \"War Hoover\" after the vacuum cleaner brand.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_S-3_Viking"
+      }
+    },
+    "ea6b": {
+      "number": 230,
+      "name": "Grumman EA-6B Prowler",
+      "image": "assets/aircraft/ea6b.jpg",
+      "credit": "Cpl. Neysa Huertas Quinones / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American carrier-based electronic warfare aircraft",
+        "role": "Electronic warfare/Attack aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1968,
+        "country": "United States",
+        "about": "The Northrop Grumman EA-6B Prowler is a twin-engined, four-seat, mid-wing electronic-warfare aircraft. Operated by both the United States Marine Corps and United States Navy between 1971 and 2019, it was derived from the A-6 Intruder airframe.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_EA-6B_Prowler"
+      }
+    },
+    "e4": {
+      "number": 231,
+      "name": "Boeing E-4",
+      "image": "assets/aircraft/e4.jpg",
+      "credit": "Masteruploader / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "US Air Force airborne command squadron aircraft",
+        "role": "Airborne strategic command and control post",
+        "manufacturer": "Boeing",
+        "firstFlight": 1973,
+        "country": "United States",
+        "about": "The Boeing E-4 Advanced Airborne Command Post (AACP), the current \"Nightwatch\" aircraft, is a series of strategic command and control military aircraft operated by the United States Air Force (USAF). The E-4 series are specially modified from the Boeing 747-200B for the National Emergency Airborne Command Post…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_E-4"
+      }
+    },
+    "kc10": {
+      "number": 232,
+      "name": "McDonnell Douglas KC-10 Extender",
+      "image": "assets/aircraft/kc10.jpg",
+      "credit": "U.S. Air Force photo by Staff Sgt. Jerry Morrison / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "US aerial refueling tanker aircraft",
+        "role": "Tanker/transport",
+        "manufacturer": "McDonnell Douglas",
+        "firstFlight": 1980,
+        "country": "United States",
+        "about": "The McDonnell Douglas KC-10 Extender is an American trijet aerial refueling and cargo aircraft developed from the McDonnell Douglas DC-10 airliner for the United States Air Force's Advanced Tanker Cargo Aircraft Program. It incorporates military-specific equipment for its primary roles of aerial refueling and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/McDonnell_Douglas_KC-10_Extender"
+      }
+    },
+    "e6": {
+      "number": 233,
+      "name": "Boeing E-6 Mercury",
+      "image": "assets/aircraft/e6.jpg",
+      "credit": "USAF Greg L. Davis / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Airborne command post aircraft by Boeing based on 707 airframe",
+        "role": "Airborne command and control",
+        "manufacturer": "Boeing",
+        "firstFlight": 1987,
+        "country": "United States",
+        "about": "The Boeing E-6 Mercury is an airborne command post and communications relay based on the Boeing 707-300. The original E-6A manufactured by Boeing's defense division entered service with the United States Navy in July 1989, replacing the EC-130Q.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_E-6_Mercury"
+      }
+    },
+    "e8": {
+      "number": 234,
+      "name": "Northrop Grumman E-8 Joint STARS",
+      "image": "assets/aircraft/e8.jpg",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Airborne ground surveillance aircraft based on Boeing 707 airliner",
+        "role": "Airborne Battle Management and ISTAR",
+        "manufacturer": "Northrop Grumman Corporation",
+        "firstFlight": 1988,
+        "country": "United States",
+        "about": "The Northrop Grumman E-8 Joint Surveillance Target Attack Radar System is a retired United States Air Force (USAF) airborne ground surveillance, battle management and command and control aircraft. It tracked ground vehicles and some aircraft, collected imagery, and relayed tactical pictures to ground and air theater…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_Grumman_E-8_Joint_STARS"
+      }
+    },
+    "mq1": {
+      "number": 235,
+      "name": "General Atomics MQ-1 Predator",
+      "image": "assets/aircraft/mq1.jpg",
+      "credit": "Lt. Col. Leslie Pratt / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Family of unmanned aerial vehicles",
+        "role": "Remote piloted aircraft/unmanned combat aerial vehicle",
+        "manufacturer": "General Atomics Aeronautical Systems, General Atomics",
+        "firstFlight": 1994,
+        "country": "United States",
+        "about": "The General Atomics MQ-1 Predator is an American remotely piloted aircraft (RPA) built by General Atomics that was used primarily by the United States Air Force (USAF) and Central Intelligence Agency (CIA). Conceived in the early 1990s for aerial reconnaissance and forward observation roles, the Predator carries…",
+        "wikipedia": "https://en.wikipedia.org/wiki/General_Atomics_MQ-1_Predator"
+      }
+    },
+    "c130j": {
+      "number": 236,
+      "name": "Lockheed Martin C-130J Super Hercules",
+      "image": "assets/aircraft/c130j.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "Military transport aircraft",
+        "role": "Military transport, aerial refuelling aircraft",
+        "manufacturer": "Lockheed Martin",
+        "firstFlight": 1996,
+        "country": "United States",
+        "about": "The Lockheed Martin C-130J Super Hercules is a medium-size American four-engine turboprop military transport aircraft. The C-130J is a comprehensive update of the Lockheed C-130 Hercules, with new engines, flight deck, and other systems.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lockheed_Martin_C-130J_Super_Hercules"
+      }
+    },
+    "rq7": {
+      "number": 237,
+      "name": "AAI RQ-7 Shadow",
+      "image": "assets/aircraft/rq7.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American unmanned aerial vehicle",
+        "role": "Tactical reconnaissance UAS for ground maneuver forces; Unmanned combat aerial vehicle (optionally)",
+        "manufacturer": "AAI Corporation",
+        "firstFlight": 1991,
+        "country": "United States",
+        "about": "The AAI RQ-7 Shadow is an American unmanned aerial vehicle (UAV) used by the United States Army, Australian Army, Swedish Army, Turkish Air Force and Italian Army for reconnaissance, surveillance, and target acquisition and battle damage assessment. Launched from a trailer-mounted pneumatic catapult, it is recovered…",
+        "wikipedia": "https://en.wikipedia.org/wiki/AAI_RQ-7_Shadow"
+      }
+    },
+    "mq8": {
+      "number": 238,
+      "name": "Northrop Grumman MQ-8 Fire Scout",
+      "image": "assets/aircraft/mq8.jpg",
+      "credit": "U.S. Navy photo by Kelly Schindler / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "2000s American unmanned autonomous helicopter developed by Northrop Grumman",
+        "role": "UAV helicopter",
+        "manufacturer": "Northrop Grumman Corporation",
+        "firstFlight": 2000,
+        "country": "United States",
+        "about": "The Northrop Grumman MQ-8 Fire Scout is an unmanned autonomous helicopter developed by Northrop Grumman for use by the United States Armed Forces. The Fire Scout is designed to provide reconnaissance, situational awareness, aerial fire support and precision targeting support for ground, air and sea forces.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_Grumman_MQ-8_Fire_Scout"
+      }
+    },
+    "ea18g": {
+      "number": 239,
+      "name": "Boeing EA-18G Growler",
+      "image": "assets/aircraft/ea18g.jpg",
+      "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American electronic warfare aircraft",
+        "role": "Carrier-based electronic-warfare aircraft",
+        "manufacturer": "Boeing",
+        "firstFlight": 2006,
+        "country": "United States",
+        "about": "The Boeing EA-18G Growler is an American carrier-based electronic-warfare aircraft, a specialized version of the two-seat Boeing F/A-18F Super Hornet. The EA-18G replaced the Northrop Grumman EA-6B Prowlers in service with the United States Navy.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_EA-18G_Growler"
+      }
+    },
+    "kc46": {
+      "number": 240,
+      "name": "Boeing KC-46 Pegasus",
+      "image": "assets/aircraft/kc46.jpg",
+      "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American military aerial refueling and transport aircraft",
+        "role": "Tanker/transport",
+        "manufacturer": "Boeing",
+        "firstFlight": 2015,
+        "country": "United States",
+        "about": "The Boeing KC-46 Pegasus is an American military aerial refueling and strategic military transport aircraft developed by Boeing from its 767 jet airliner. In February 2011, the tanker was selected by the United States Air Force (USAF) as the winner in the KC-X tanker competition to replace older Boeing KC-135…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_KC-46_Pegasus"
+      }
+    },
+    "mq25": {
+      "number": 241,
+      "name": "Boeing MQ-25 Stingray",
+      "image": "assets/aircraft/mq25.jpg",
+      "credit": "United States Navy photo courtesy of Boeing / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-support"
+      ],
+      "facts": {
+        "description": "American military aerial refueling drone",
+        "role": "Unmanned aerial vehicle for aerial refueling",
+        "manufacturer": "Boeing",
+        "firstFlight": 2019,
+        "country": "United States",
+        "about": "The Boeing MQ-25 Stingray is an aerial refueling drone that resulted from the Carrier-Based Aerial-Refueling System (CBARS) program, which grew out of the earlier Unmanned Carrier-Launched Airborne Surveillance and Strike (UCLASS) program. On 30 August 2018, the United States Navy announced Boeing's MQ-25 was the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_MQ-25_Stingray"
       }
     },
     "b737-classic": {
@@ -2931,6 +4327,456 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Avro_Lancaster"
       }
     },
+    "p26": {
+      "number": 242,
+      "name": "Boeing P-26 Peashooter",
+      "image": "assets/aircraft/p26.jpg",
+      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "Fighter aircraft series",
+        "role": "Fighter",
+        "manufacturer": "Boeing",
+        "firstFlight": 1932,
+        "country": "United States",
+        "about": "The Boeing P-26 \"Peashooter\" is the first American production all-metal fighter aircraft and the first pursuit monoplane to enter squadron service with the United States Army Air Corps. Designed and built by Boeing, the prototype first flew in 1932, and the type was still in use with the U.S. Army Air Corps as late…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Boeing_P-26_Peashooter"
+      }
+    },
+    "martin-b10": {
+      "number": 243,
+      "name": "Martin B-10",
+      "image": "assets/aircraft/martin-b10.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American bomber aircraft",
+        "role": "Bomber aircraft",
+        "manufacturer": "Glenn L. Martin Company",
+        "firstFlight": 1932,
+        "country": "United States",
+        "about": "The Martin B-10 is a bomber aircraft designed by the Glenn L. Martin Company. Entering service in June 1934, it was the first all-metal monoplane bomber to be regularly used by the United States Army Air Corps.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Martin_B-10"
+      }
+    },
+    "grumman-f3f": {
+      "number": 244,
+      "name": "Grumman F3F",
+      "image": "assets/aircraft/grumman-f3f.jpg",
+      "credit": "USN / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "US Navy biplane",
+        "role": "Fighter aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Grumman F3F is a single-seat biplane fighter aircraft produced by the Grumman aircraft for the United States Navy during the mid-1930s. Designed as an improved F2F, it entered service in 1936 as the last biplane fighter to be delivered to any American military air arm.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F3F"
+      }
+    },
+    "p35": {
+      "number": 245,
+      "name": "Seversky P-35",
+      "image": "assets/aircraft/p35.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1935 fighter aircraft series by Seversky",
+        "role": "Fighter",
+        "manufacturer": "Republic Aviation Corporation",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Seversky P-35 is an American fighter aircraft that was built by the Seversky Aircraft Company in the late 1930s. A contemporary of the Hawker Hurricane and Messerschmitt Bf 109, the P-35 was the first single-seat fighter in United States Army Air Corps service to feature all-metal construction, retractable…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Seversky_P-35"
+      }
+    },
+    "p36": {
+      "number": 246,
+      "name": "Curtiss P-36 Hawk",
+      "image": "assets/aircraft/p36.jpg",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Curtiss-Wright, SNCAC",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Curtiss P-36 Hawk, also known as the Curtiss Hawk Model 75, is an American-designed and built fighter aircraft of the 1930s and 40s. A contemporary of the Hawker Hurricane and Messerschmitt Bf 109, it was one of the first of a new generation of combat aircraft—a sleek monoplane design with a retractable…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_P-36_Hawk"
+      }
+    },
+    "tbd": {
+      "number": 247,
+      "name": "Douglas TBD Devastator",
+      "image": "assets/aircraft/tbd.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "US Navy carrier-based torpedo bomber in service 1937-1942",
+        "role": "Torpedo bomber",
+        "manufacturer": "Douglas",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Douglas TBD Devastator was an American torpedo bomber of the United States Navy. Ordered in 1934, it first flew in 1935 and entered service in 1937.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_TBD_Devastator"
+      }
+    },
+    "f2a": {
+      "number": 248,
+      "name": "Brewster F2A Buffalo",
+      "image": "assets/aircraft/f2a.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "WWII American fighter plane",
+        "role": "Fighter aircraft",
+        "manufacturer": "Brewster Aeronautical Corporation",
+        "firstFlight": 1937,
+        "country": "United States",
+        "about": "The Brewster F2A Buffalo is an American fighter aircraft which saw service early in World War II. Designed and built by the Brewster Aeronautical Corporation, it was one of the first U.S. monoplanes with an arrestor hook and other modifications for aircraft carriers.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Brewster_F2A_Buffalo"
+      }
+    },
+    "a17": {
+      "number": 249,
+      "name": "Northrop A-17",
+      "image": "assets/aircraft/a17.jpg",
+      "credit": "en:User:Signaleer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American attack aircraft",
+        "role": "Ground attack",
+        "manufacturer": "Northrop",
+        "firstFlight": 1934,
+        "country": "United States",
+        "about": "The Northrop A-17, also known as the Northrop Model 8, a development of the Northrop Gamma 2F model, is a two-seat, single-engine, monoplane, attack bomber built in 1935 by the Northrop Corporation for the United States Army Air Corps. When in British Commonwealth service during World War II, the A-17 was called Nomad.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_A-17"
+      }
+    },
+    "b18": {
+      "number": 250,
+      "name": "Douglas B-18 Bolo",
+      "image": "assets/aircraft/b18.jpg",
+      "credit": "National Museum of the United States Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American twin-engined medium bomber aircraft in service 1936-1946",
+        "role": "Medium bomber",
+        "manufacturer": "Douglas",
+        "firstFlight": 1935,
+        "country": "United States",
+        "about": "The Douglas B-18 Bolo is an American twin-engined medium bomber which served with the United States Army Air Corps and the Royal Canadian Air Force during the late 1930s and early 1940s. The Bolo was developed by the Douglas Aircraft Company from their DC-2 as a replacement for the Martin B-10.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_B-18_Bolo"
+      }
+    },
+    "sb2u": {
+      "number": 251,
+      "name": "Vought SB2U Vindicator",
+      "image": "assets/aircraft/sb2u.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "US Navy dive bomber",
+        "role": "Dive bomber",
+        "manufacturer": "Vought",
+        "firstFlight": 1936,
+        "country": "United States",
+        "about": "The Vought SB2U Vindicator is an American carrier-based dive bomber developed for the United States Navy (USN) in the 1930s, the first monoplane in this role. Vindicators still remained in service at the time of the Battle of Midway, but by 1943, all had been withdrawn to training units.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Vought_SB2U_Vindicator"
+      }
+    },
+    "p40": {
+      "number": 252,
+      "name": "Curtiss P-40 Warhawk",
+      "image": "assets/aircraft/p40.jpg",
+      "credit": "U.S. Army Air Corps / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American WWII fighter",
+        "role": "Fighter aircraft",
+        "manufacturer": "Curtiss-Wright",
+        "firstFlight": 1938,
+        "country": "United States",
+        "about": "The Curtiss P-40 Warhawk is an American single-engined, single-seat, all-metal fighter-bomber that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_P-40_Warhawk"
+      }
+    },
+    "f4f": {
+      "number": 253,
+      "name": "Grumman F4F Wildcat",
+      "image": "assets/aircraft/f4f.jpg",
+      "credit": "The original uploader was Felix c at English Wikipedia. / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "United States Navy World War II era fighter plane",
+        "role": "Carrier-based fighter aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1937,
+        "country": "United States",
+        "about": "The Grumman F4F Wildcat is an American carrier-based fighter aircraft that entered service in 1940 with the United States Navy and the British Royal Navy. The British made the first use of the type in combat, initially as a base-defense fighter; later they operated it from escort carriers in the North Atlantic, and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F4F_Wildcat"
+      }
+    },
+    "sbd": {
+      "number": 254,
+      "name": "Douglas SBD Dauntless",
+      "image": "assets/aircraft/sbd.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "Scout and dive bomber aircraft",
+        "role": "Dive bomber; Scout plane",
+        "manufacturer": "Douglas",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The Douglas SBD Dauntless is a World War II American naval scout plane and dive bomber that was manufactured by Douglas Aircraft from 1940 through 1944. The SBD was the United States Navy's main carrier-based scout/dive bomber from mid-1940 through mid-1944.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_SBD_Dauntless"
+      }
+    },
+    "p39": {
+      "number": 255,
+      "name": "Bell P-39 Airacobra",
+      "image": "assets/aircraft/p39.jpg",
+      "credit": "USAAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1938 fighter aircraft family by Bell",
+        "role": "Fighter",
+        "manufacturer": "Bell Aircraft Corporation",
+        "firstFlight": 1938,
+        "country": "United States",
+        "about": "The Bell P-39 Airacobra is a fighter produced by Bell Aircraft for the United States Army Air Forces during World War II. It was one of the principal American fighters in service when the United States entered combat.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bell_P-39_Airacobra"
+      }
+    },
+    "p47": {
+      "number": 256,
+      "name": "Republic P-47 Thunderbolt",
+      "image": "assets/aircraft/p47.jpg",
+      "credit": "US Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "Family of fighter aircraft",
+        "role": "Fighter-bomber",
+        "manufacturer": "Republic Aviation Corporation, Buffalo",
+        "firstFlight": 1941,
+        "country": "United States",
+        "about": "The Republic P-47 Thunderbolt is a monoplane fighter aircraft designed and produced by the American aircraft manufacturer Republic Aviation. Designed around the powerful Pratt & Whitney R-2800 Double Wasp 18-cylinder radial engine and produced from 1941 through to 1945, it became the foremost American fighter-bomber…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Republic_P-47_Thunderbolt"
+      }
+    },
+    "f6f": {
+      "number": 257,
+      "name": "Grumman F6F Hellcat",
+      "image": "assets/aircraft/f6f.jpg",
+      "credit": "USN; / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "United States Navy fighter airplane",
+        "role": "Carrier-based fighter aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Grumman F6F Hellcat is an American carrier-based fighter aircraft of World War II. Designed to replace the earlier F4F Wildcat and to counter the Japanese Mitsubishi A6M Zero, it was the United States Navy's dominant fighter in the second half of the Pacific War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F6F_Hellcat"
+      }
+    },
+    "tbf": {
+      "number": 258,
+      "name": "Grumman TBF Avenger",
+      "image": "assets/aircraft/tbf.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American naval torpedo bomber",
+        "role": "Torpedo bomber",
+        "manufacturer": "Grumman, General Motors",
+        "firstFlight": 1941,
+        "country": "United States",
+        "about": "The Grumman TBF Avenger is an American World War II-era torpedo bomber developed initially for the United States Navy and Marine Corps and also eventually used by several air and naval aviation services around the world. From 1942 on, production of the Avenger was subcontracted to a purposely established division of…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_TBF_Avenger"
+      }
+    },
+    "sb2c": {
+      "number": 259,
+      "name": "Curtiss SB2C Helldiver",
+      "image": "assets/aircraft/sb2c.jpg",
+      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "Carrier-based dive bomber aircraft",
+        "role": "Dive bomber",
+        "manufacturer": "Curtiss, Curtiss-Wright",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The Curtiss SB2C Helldiver was a dive bomber developed by Curtiss-Wright during World War II. Nicknames for the aircraft included \"Big-Tailed Beast\" or just \"Beast\", \"Two-Cee\", and \"Son-of-a-Bitch 2nd Class\"; the latter nickname was derived from the name SB2C and the aircraft's reputation for having difficult…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_SB2C_Helldiver"
+      }
+    },
+    "b24": {
+      "number": 260,
+      "name": "Consolidated B-24 Liberator",
+      "image": "assets/aircraft/b24.jpg",
+      "credit": "U.S. Air Force photos / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1939 bomber aircraft family by Consolidated Aircraft",
+        "role": "Heavy bomber; Anti-submarine warfare; Maritime patrol aircraft",
+        "manufacturer": "North American Aviation, Ford Motor Company",
+        "firstFlight": 1939,
+        "country": "United States",
+        "about": "The Consolidated B-24 Liberator is an American heavy bomber, designed by Consolidated Aircraft of San Diego, California. It was known within the company as the Model 32, and some initial production aircraft were laid down as export models designated as various LB-30s, in the Land Bomber design category.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Consolidated_B-24_Liberator"
+      }
+    },
+    "b25": {
+      "number": 261,
+      "name": "North American B-25 Mitchell",
+      "image": "assets/aircraft/b25.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American WWII medium bomber",
+        "role": "Medium bomber",
+        "manufacturer": "North American Aviation",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The North American B-25 Mitchell is a twin-engined medium bomber designed and produced by the American aircraft manufacturer North American Aviation. It was named in honor of Brigadier General William \"Billy\" Mitchell, a pioneer of US military aviation.",
+        "wikipedia": "https://en.wikipedia.org/wiki/North_American_B-25_Mitchell"
+      }
+    },
+    "b26": {
+      "number": 262,
+      "name": "Martin B-26 Marauder",
+      "image": "assets/aircraft/b26.jpg",
+      "credit": "Photo by: Charles E. Brown. The original uploader was Bzuk at English Wikipedia., 2007-02-14 (original upload date) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1940 US medium bomber",
+        "role": "Medium bomber",
+        "manufacturer": "Glenn L. Martin Company",
+        "firstFlight": 1940,
+        "country": "United States",
+        "about": "The Martin B-26 Marauder is a twin-engined medium bomber designed and produced by the American aircraft manufacturer Glenn L. Martin Company.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Martin_B-26_Marauder"
+      }
+    },
+    "a20": {
+      "number": 263,
+      "name": "Douglas A-20 Havoc",
+      "image": "assets/aircraft/a20.jpg",
+      "credit": "USAAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American light bomber and attack aircraft of World War II",
+        "role": "Medium bomber; Attack aircraft; Night fighter",
+        "manufacturer": "Douglas",
+        "firstFlight": 1939,
+        "country": "United States",
+        "about": "The Douglas A-20 Havoc is an American light bomber, attack aircraft, night intruder, night fighter, and reconnaissance aircraft of World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_A-20_Havoc"
+      }
+    },
+    "a26": {
+      "number": 264,
+      "name": "Douglas A-26 Invader",
+      "image": "assets/aircraft/a26.jpg",
+      "credit": "USAAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "1941 attack/bomber aircraft family by Douglas",
+        "role": "Ground attack; Light bomber",
+        "manufacturer": "Douglas",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Douglas A-26 Invader is an American twin-engined light bomber and ground-attack aircraft. Built by Douglas Aircraft Company during World War II, the Invader also saw service during the Korean and Vietnam wars.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Douglas_A-26_Invader"
+      }
+    },
+    "p61": {
+      "number": 265,
+      "name": "Northrop P-61 Black Widow",
+      "image": "assets/aircraft/p61.jpg",
+      "credit": "Unknown / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "US Air Force night fighter in service 1944-1954",
+        "role": "Night fighter",
+        "manufacturer": "Northrop",
+        "firstFlight": 1942,
+        "country": "United States",
+        "about": "The Northrop P-61 Black Widow is a twin-engine United States Army Air Forces fighter aircraft of World War II. It was the first U.S. aircraft conceived from the outset and deployed operationally specifically as a night fighter, incorporating onboard radar as part of the original airframe design.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Northrop_P-61_Black_Widow"
+      }
+    },
+    "f8f": {
+      "number": 266,
+      "name": "Grumman F8F Bearcat",
+      "image": "assets/aircraft/f8f.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "ww2-warbirds"
+      ],
+      "facts": {
+        "description": "American single-engine carrier-based fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "Grumman",
+        "firstFlight": 1944,
+        "country": "United States",
+        "about": "The Grumman F8F Bearcat is an American single-engined, carrier-based, fighter aircraft introduced in late World War II. It served during the mid-20th century in the United States Navy, the United States Marine Corps, and the air forces of other nations.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Grumman_F8F_Bearcat"
+      }
+    },
     "medical-helicopters/bk117": {
       "number": 154,
       "name": "MBB/Kawasaki BK 117",
@@ -3132,6 +4978,30 @@
     "fighter-jets/kf21": "kf21",
     "fighter-jets/viggen": "viggen",
     "fighter-jets/f5": "f5",
+    "fighter-jets/p59": "p59",
+    "fighter-jets/p80": "p80",
+    "fighter-jets/f9f": "f9f",
+    "fighter-jets/f84": "f84",
+    "fighter-jets/f86": "f86",
+    "fighter-jets/f94": "f94",
+    "fighter-jets/f2h": "f2h",
+    "fighter-jets/a3": "a3",
+    "fighter-jets/f100-super-sabre": "f100-super-sabre",
+    "fighter-jets/a4": "a4",
+    "fighter-jets/f101": "f101",
+    "fighter-jets/f102": "f102",
+    "fighter-jets/f104": "f104",
+    "fighter-jets/f8": "f8",
+    "fighter-jets/f105": "f105",
+    "fighter-jets/f106": "f106",
+    "fighter-jets/a5": "a5",
+    "fighter-jets/a6": "a6",
+    "fighter-jets/f111": "f111",
+    "fighter-jets/a7": "a7",
+    "fighter-jets/a37": "a37",
+    "fighter-jets/av8b": "av8b",
+    "fighter-jets/f15e": "f15e",
+    "fighter-jets/f15ex": "f15ex",
     "helicopters/ah64": "ah64",
     "helicopters/uh1": "uh1",
     "helicopters/ch47": "ch47",
@@ -3160,6 +5030,19 @@
     "helicopters/s92": "s92",
     "helicopters/as365": "as365",
     "helicopters/ec155": "ec155",
+    "helicopters/r4": "r4",
+    "helicopters/h19": "h19",
+    "helicopters/h21": "h21",
+    "helicopters/sh3": "sh3",
+    "helicopters/sh2": "sh2",
+    "helicopters/hh3": "hh3",
+    "helicopters/ch53e": "ch53e",
+    "helicopters/uh72": "uh72",
+    "helicopters/uh1y": "uh1y",
+    "helicopters/ah1z": "ah1z",
+    "helicopters/hh60w": "hh60w",
+    "helicopters/ch53k": "ch53k",
+    "helicopters/mh139": "mh139",
     "bombers/b52": "b52",
     "bombers/b1": "b1",
     "bombers/b2": "b2",
@@ -3168,6 +5051,10 @@
     "bombers/tu160": "tu160",
     "bombers/tu22m": "tu22m",
     "bombers/vulcan": "vulcan",
+    "bombers/b36": "b36",
+    "bombers/b47": "b47",
+    "bombers/b57": "b57",
+    "bombers/b58": "b58",
     "military-support/c130": "c130",
     "military-support/c17": "c17",
     "military-support/c5": "c5",
@@ -3186,6 +5073,36 @@
     "military-support/u2": "u2",
     "military-support/mq9": "mq9",
     "military-support/rq4": "rq4",
+    "military-support/curtiss-nc": "curtiss-nc",
+    "military-support/curtiss-h16": "curtiss-h16",
+    "military-support/douglas-o2": "douglas-o2",
+    "military-support/douglas-world-cruiser": "douglas-world-cruiser",
+    "military-support/vought-o2u": "vought-o2u",
+    "military-support/pby": "pby",
+    "military-support/c47": "c47",
+    "military-support/c46": "c46",
+    "military-support/c54": "c54",
+    "military-support/c119": "c119",
+    "military-support/c124": "c124",
+    "military-support/hu16": "hu16",
+    "military-support/o1": "o1",
+    "military-support/e2": "e2",
+    "military-support/ov1": "ov1",
+    "military-support/c141": "c141",
+    "military-support/ov10": "ov10",
+    "military-support/s3": "s3",
+    "military-support/ea6b": "ea6b",
+    "military-support/e4": "e4",
+    "military-support/kc10": "kc10",
+    "military-support/e6": "e6",
+    "military-support/e8": "e8",
+    "military-support/mq1": "mq1",
+    "military-support/c130j": "c130j",
+    "military-support/rq7": "rq7",
+    "military-support/mq8": "mq8",
+    "military-support/ea18g": "ea18g",
+    "military-support/kc46": "kc46",
+    "military-support/mq25": "mq25",
     "narrowbody-airliners/b737-classic": "b737-classic",
     "narrowbody-airliners/b737ng": "b737ng",
     "narrowbody-airliners/b737max": "b737max",
@@ -3238,6 +5155,31 @@
     "ww2-warbirds/b17": "b17",
     "ww2-warbirds/b29": "b29",
     "ww2-warbirds/lancaster": "lancaster",
+    "ww2-warbirds/p26": "p26",
+    "ww2-warbirds/martin-b10": "martin-b10",
+    "ww2-warbirds/grumman-f3f": "grumman-f3f",
+    "ww2-warbirds/p35": "p35",
+    "ww2-warbirds/p36": "p36",
+    "ww2-warbirds/tbd": "tbd",
+    "ww2-warbirds/f2a": "f2a",
+    "ww2-warbirds/a17": "a17",
+    "ww2-warbirds/b18": "b18",
+    "ww2-warbirds/sb2u": "sb2u",
+    "ww2-warbirds/p40": "p40",
+    "ww2-warbirds/f4f": "f4f",
+    "ww2-warbirds/sbd": "sbd",
+    "ww2-warbirds/p39": "p39",
+    "ww2-warbirds/p47": "p47",
+    "ww2-warbirds/f6f": "f6f",
+    "ww2-warbirds/tbf": "tbf",
+    "ww2-warbirds/sb2c": "sb2c",
+    "ww2-warbirds/b24": "b24",
+    "ww2-warbirds/b25": "b25",
+    "ww2-warbirds/b26": "b26",
+    "ww2-warbirds/a20": "a20",
+    "ww2-warbirds/a26": "a26",
+    "ww2-warbirds/p61": "p61",
+    "ww2-warbirds/f8f": "f8f",
     "soviet-russian/il96": "il96",
     "soviet-russian/il86": "il86",
     "soviet-russian/tu154": "tu154",
@@ -3263,7 +5205,6 @@
     "cold-war-jets/b52": "b52",
     "cold-war-jets/b1": "b1",
     "cold-war-jets/b2": "b2",
-    "cold-war-jets/tu95": "tu95",
     "cold-war-jets/tu160": "tu160",
     "cold-war-jets/tu22m": "tu22m",
     "cold-war-jets/vulcan": "vulcan",
@@ -3286,6 +5227,29 @@
     "cold-war-jets/harrier": "harrier",
     "cold-war-jets/viggen": "viggen",
     "cold-war-jets/f5": "f5",
+    "cold-war-jets/f9f": "f9f",
+    "cold-war-jets/f86": "f86",
+    "cold-war-jets/b47": "b47",
+    "cold-war-jets/f94": "f94",
+    "cold-war-jets/f2h": "f2h",
+    "cold-war-jets/b57": "b57",
+    "cold-war-jets/a3": "a3",
+    "cold-war-jets/f100-super-sabre": "f100-super-sabre",
+    "cold-war-jets/a4": "a4",
+    "cold-war-jets/f101": "f101",
+    "cold-war-jets/f102": "f102",
+    "cold-war-jets/f104": "f104",
+    "cold-war-jets/f8": "f8",
+    "cold-war-jets/f105": "f105",
+    "cold-war-jets/f106": "f106",
+    "cold-war-jets/b58": "b58",
+    "cold-war-jets/a5": "a5",
+    "cold-war-jets/a6": "a6",
+    "cold-war-jets/f111": "f111",
+    "cold-war-jets/a7": "a7",
+    "cold-war-jets/a37": "a37",
+    "cold-war-jets/av8b": "av8b",
+    "cold-war-jets/f15e": "f15e",
     "medical-helicopters/h135": "h135",
     "medical-helicopters/h145": "h145",
     "medical-helicopters/bk117": "medical-helicopters/bk117",

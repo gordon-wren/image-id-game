@@ -39,6 +39,13 @@ describe("selectAircraft", () => {
     expect(selectAircraft(fleet, { firstFlight: [null, 1960] }).map((a) => a.id)).toEqual(["c172"]);
   });
 
+  it("filters by use, category and engine", () => {
+    const tagged = fleet.map((a) => ({ ...a, use: a.group === "business-general" ? "civil" : "military", engine: a.id === "f15" ? "piston" : "jet", category: a.id === "su27" ? "attack" : "fighter" }));
+    expect(selectAircraft(tagged, { group: "fighter-attack", engine: "jet" }).map((a) => a.id)).toEqual(["f16", "su27", "su35", "mig29"]);
+    expect(selectAircraft(tagged, { category: ["attack"] }).map((a) => a.id)).toEqual(["su27"]);
+    expect(selectAircraft(tagged, { use: "civil" }).map((a) => a.id)).toEqual(["c172"]);
+  });
+
   it("combines conditions and honours ids and exclude", () => {
     expect(selectAircraft(fleet, { group: "fighter-attack", exclude: ["f16", "su35"] }).map((a) => a.id)).toEqual(["f15", "su27", "mig29"]);
     expect(selectAircraft(fleet, { ids: ["a380", "c172"] }).map((a) => a.id)).toEqual(["a380", "c172"]);

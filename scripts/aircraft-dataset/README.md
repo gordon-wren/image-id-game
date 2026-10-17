@@ -36,10 +36,11 @@ workflow from the Actions tab (manual only); it rebuilds and commits the result
 to the branch it ran on. Run `npm run packs` afterwards so the quizzes pick up
 the changes.
 
-To add an aircraft, append an entry to `seed.json` and rebuild. Optional fields:
+To add aircraft, use the review process in [`docs/aircraft-review.md`](../../docs/aircraft-review.md), which ends by appending entries here; or append an entry by hand and rebuild. Optional fields:
 
 | Field | Use |
 |---|---|
+| `use`, `category`, `engine` | Required. Military or civil, role, and engine type; packs filter on them (values in `public/data/aircraft.schema.json`). |
 | `label` | Short name for answer buttons when the article title reads badly, e.g. `"Airbus A320"` for "Airbus A320 family". |
 | `photo` | A Commons file to use instead of picking one, e.g. `"File:S7 Il-86.jpg"`. Use it when the automatic pick is wrong, or has the type's name painted on it. |
 | `wikidataId` | Take facts from this Wikidata item, for aircraft that share an article (the Ka-52 redirects to the Ka-50). |

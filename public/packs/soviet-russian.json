@@ -133,8 +133,8 @@
           "label": "Ilyushin Il-76"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -154,12 +154,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "e8",
+          "label": "Northrop Grumman E-8 Joint STARS"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -183,8 +183,8 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "il86",
-          "label": "Ilyushin Il-86"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -208,8 +208,8 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "tu154",
-          "label": "Tupolev Tu-154"
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -229,12 +229,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
-        },
-        {
           "id": "tu154",
           "label": "Tupolev Tu-154"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -258,8 +258,8 @@
           "label": "Tupolev Tu-154"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -329,8 +329,8 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         },
         {
           "id": "mig25",
@@ -354,12 +354,12 @@
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "su35",
+          "label": "Sukhoi Su-35"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -383,8 +383,8 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "f5",
-          "label": "Northrop F-5"
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -408,8 +408,8 @@
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "tornado",
-          "label": "Panavia Tornado"
+          "id": "f105",
+          "label": "Republic F-105 Thunderchief"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -458,8 +458,8 @@
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -483,8 +483,8 @@
           "label": "MD Helicopters MD 500"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         }
       ],
       "caption": "Family of transport helicopters. First flew 1961.",
@@ -529,12 +529,12 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         },
         {
-          "id": "ec155",
-          "label": "Airbus H155 (EC155)"
+          "id": "s92",
+          "label": "Sikorsky S-92"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
