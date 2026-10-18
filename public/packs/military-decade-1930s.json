@@ -56,12 +56,12 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
-          "id": "a17",
-          "label": "Northrop A-17"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -81,12 +81,12 @@
           "label": "Northrop A-17"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
         },
         {
-          "id": "p36",
-          "label": "Curtiss P-36 Hawk"
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -190,7 +190,7 @@
         }
       ],
       "caption": "Fighter aircraft series. First flew 1932.",
-      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+      "credit": "Unknown photographer / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-decade-1930s-martin-b10",
@@ -290,7 +290,7 @@
         }
       ],
       "caption": "American fighter aircraft. First flew 1935.",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-decade-1930s-tbd",
@@ -427,16 +427,16 @@
           "label": "Consolidated PBY Catalina"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "h6k",
+          "label": "Kawanishi H6K"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "American 1930s flying boat. First flew 1935.",
@@ -456,12 +456,12 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
-        },
-        {
           "id": "b17",
           "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "p35",
+          "label": "Seversky P-35"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -481,12 +481,12 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -541,6 +541,181 @@
       ],
       "caption": "American light bomber and attack aircraft of World War II. First flew 1939.",
       "credit": "USAAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ki27",
+      "image": "ki27.jpg",
+      "answer": "ki27",
+      "options": [
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-g3m",
+      "image": "g3m.jpg",
+      "answer": "g3m",
+      "options": [
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "WWII-era medium bomber. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ki21",
+      "image": "ki21.jpg",
+      "answer": "ki21",
+      "options": [
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        }
+      ],
+      "caption": "Japanese heavy bomber. First flew 1936.",
+      "credit": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-k5y",
+      "image": "k5y.jpg",
+      "answer": "k5y",
+      "options": [
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Japanese trainer aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-b5n",
+      "image": "b5n.jpg",
+      "answer": "b5n",
+      "options": [
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
+        }
+      ],
+      "caption": "Japanese attack aircraft family. First flew 1937.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-h6k",
+      "image": "h6k.jpg",
+      "answer": "h6k",
+      "options": [
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Imperial Japanese flying boat. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-a5m",
+      "image": "a5m.jpg",
+      "answer": "a5m",
+      "options": [
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        }
+      ],
+      "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
     }
   ]
 }

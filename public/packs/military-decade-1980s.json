@@ -516,6 +516,31 @@
       ],
       "caption": "American medium-lift military helicopter.",
       "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1980s-kawasaki-t4",
+      "image": "kawasaki-t4.jpg",
+      "answer": "kawasaki-t4",
+      "options": [
+        {
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
+        },
+        {
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1985.",
+      "credit": "Jerry Gunner / CC BY-SA 4.0 / via Wikimedia Commons"
     }
   ]
 }

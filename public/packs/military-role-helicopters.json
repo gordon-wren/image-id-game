@@ -260,8 +260,8 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -281,12 +281,12 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -310,8 +310,8 @@
           "label": "Sikorsky SH-60 Seahawk"
         },
         {
-          "id": "tiger",
-          "label": "Eurocopter Tiger"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         }
       ],
       "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
@@ -706,8 +706,8 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "sh2",
-          "label": "Kaman SH-2 Seasprite"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
           "id": "ah1z",
@@ -716,6 +716,31 @@
       ],
       "caption": "Military utility helicopter model by Boeing. First flew 2019.",
       "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-oh1",
+      "image": "oh1.jpg",
+      "answer": "oh1",
+      "options": [
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
+        }
+      ],
+      "caption": "Japanese scout/observation helicopter. First flew 1996.",
+      "credit": "Los688 / CC0 / via Wikimedia Commons"
     }
   ]
 }

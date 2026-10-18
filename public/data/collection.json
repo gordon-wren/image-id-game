@@ -304,7 +304,51 @@
     "concorde": 301,
     "b707": 302,
     "dc8": 303,
-    "vc10": 304
+    "vc10": 304,
+    "mitsubishi-1mf": 305,
+    "kawasaki-type88": 306,
+    "ki27": 307,
+    "g3m": 308,
+    "ki21": 309,
+    "k5y": 310,
+    "b5n": 311,
+    "h6k": 312,
+    "ki43": 313,
+    "ki44": 314,
+    "ki45": 315,
+    "ki61": 316,
+    "ki84": 317,
+    "ki100": 318,
+    "n1k": 319,
+    "j2m": 320,
+    "j1n": 321,
+    "d3a": 322,
+    "d4y": 323,
+    "b6n": 324,
+    "b7a": 325,
+    "ki48": 326,
+    "ki49": 327,
+    "ki67": 328,
+    "g4m": 329,
+    "p1y": 330,
+    "ki46": 331,
+    "c6n": 332,
+    "e13a": 333,
+    "f1m": 334,
+    "h8k": 335,
+    "ki57": 336,
+    "fuji-t1": 337,
+    "p2j": 338,
+    "kawasaki-c1": 339,
+    "mitsubishi-t2": 340,
+    "mitsubishi-f1": 341,
+    "kawasaki-t4": 342,
+    "oh1": 343,
+    "mitsubishi-f2": 344,
+    "fuji-t7": 345,
+    "us2": 346,
+    "kawasaki-p1": 347,
+    "a5m": 348
   },
   "entries": {
     "jn4": {
@@ -725,7 +769,7 @@
       "number": 277,
       "name": "Consolidated PT-1 Trusty",
       "image": "assets/aircraft/consolidated-pt1.jpg",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-interwar",
         "military-decade-1920s",
@@ -747,7 +791,7 @@
       "number": 242,
       "name": "Boeing P-26 Peashooter",
       "image": "assets/aircraft/p26.jpg",
-      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons",
+      "credit": "Unknown photographer / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-interwar",
         "military-decade-1930s",
@@ -835,7 +879,7 @@
       "number": 246,
       "name": "Curtiss P-36 Hawk",
       "image": "assets/aircraft/p36.jpg",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-interwar",
         "military-decade-1930s",
@@ -1029,6 +1073,204 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_P-40_Warhawk"
       }
     },
+    "mitsubishi-1mf": {
+      "number": 305,
+      "name": "Mitsubishi 1MF",
+      "image": "assets/aircraft/mitsubishi-1mf.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1920s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese carrier-based fighter",
+        "role": "Carrier Fighter",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1921,
+        "country": "Japan",
+        "about": "The Mitsubishi 1MF was a Japanese carrier fighter aircraft of the 1920s. Designed for the Mitsubishi Aircraft Company by the British aircraft designer Herbert Smith, the 1MF, also known as the Navy Type 10 Carrier Fighter, was operated by the Imperial Japanese Navy from 1923 to 1930.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_1MF"
+      }
+    },
+    "kawasaki-type88": {
+      "number": 306,
+      "name": "Kawasaki Type 88",
+      "image": "assets/aircraft/kawasaki-type88.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1920s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese reconnaissance aircraft",
+        "role": "Reconnaissance and light bomber biplane",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1927,
+        "country": "Japan",
+        "about": "The Kawasaki Army Type 88 Reconnaissance Aircraft was a Japanese single-engined biplane designed for Kawasaki by Richard Vogt. Originally known by its company designation KDA-2, it was accepted by the Imperial Japanese Army as the Type 88 Reconnaissance Aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_Army_Type_88_Reconnaissance_Aircraft"
+      }
+    },
+    "ki27": {
+      "number": 307,
+      "name": "Nakajima Ki-27",
+      "image": "assets/aircraft/ki27.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1936,
+        "country": "Japan",
+        "about": "The Nakajima Ki-27  is a fighter aircraft designed and produced by the Japanese manufacturer Nakajima Aircraft Company. Its Allied nickname was \"Nate\", although it was called \"Abdul\" in the \"China Burma India\" (CBI) theater by many post-war sources; Allied Intelligence had reserved that name for the nonexistent…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_Ki-27"
+      }
+    },
+    "g3m": {
+      "number": 308,
+      "name": "Mitsubishi G3M",
+      "image": "assets/aircraft/g3m.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "WWII-era medium bomber",
+        "role": "Medium bomber/torpedo bomber",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1935,
+        "country": "Japan",
+        "about": "The Mitsubishi G3M  was a Japanese bomber and transport aircraft used by the Imperial Japanese Navy Air Service (IJNAS) during World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_G3M"
+      }
+    },
+    "ki21": {
+      "number": 309,
+      "name": "Mitsubishi Ki-21",
+      "image": "assets/aircraft/ki21.jpg",
+      "credit": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。 / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese heavy bomber",
+        "role": "Heavy bomber",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1936,
+        "country": "Japan",
+        "about": "The Mitsubishi Ki-21, formal designation \"Type 97 Heavy Bomber\"  was a Japanese heavy bomber during World War II. It began operations during the Second Sino-Japanese War participating in the Nomonhan Incident, and in the first stages of the Pacific War, including the Malayan, Burmese, Dutch East Indies and New Guinea…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-21"
+      }
+    },
+    "k5y": {
+      "number": 310,
+      "name": "Yokosuka K5Y",
+      "image": "assets/aircraft/k5y.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-trainers",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese trainer aircraft",
+        "role": "Intermediate trainer",
+        "manufacturer": "Imperial Japanese Naval Air Service",
+        "firstFlight": 1933,
+        "country": "Japan",
+        "about": "The Yokosuka K5Y  was a twin-seat unequal-span biplane trainer aircraft designed by the Japanese aviation manufacturer Kawanishi Aircraft Company and the Yokosuka Naval Air Technical Arsenal. It was flown by the Imperial Japanese Navy (IJN) during World War II.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yokosuka_K5Y"
+      }
+    },
+    "b5n": {
+      "number": 311,
+      "name": "Nakajima B5N",
+      "image": "assets/aircraft/b5n.jpg",
+      "credit": "SDASM / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-attack",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese attack aircraft family",
+        "role": "Carrier-based torpedo bomber/high-level bomber",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1937,
+        "country": "Japan",
+        "about": "The Nakajima B5N was a carrier-based torpedo bomber designed and produced by the Nakajima Aircraft Company. Operated by the Imperial Japanese Navy Air Service (IJNAS) during the Pacific War, it was the standard torpedo bomber of the service throughout much of the conflict.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_B5N"
+      }
+    },
+    "h6k": {
+      "number": 312,
+      "name": "Kawanishi H6K",
+      "image": "assets/aircraft/h6k.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Imperial Japanese flying boat",
+        "role": "Maritime patrol flying boat",
+        "manufacturer": "Kawanishi Aircraft Company",
+        "firstFlight": 1936,
+        "country": "Japan",
+        "about": "The Kawanishi H6K was a large maritime patrol flying boat designed and produced by the Japanese aviation manufacturer Kawanishi Aircraft Company. Flown by the Imperial Japanese Navy (IJN) during World War II, the service designed it \"Type 97 Large Flying Boat\" (九七式大型飛行艇) while the Allied reporting name for the type…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawanishi_H6K"
+      }
+    },
+    "a5m": {
+      "number": 348,
+      "name": "Mitsubishi A5M",
+      "image": "assets/aircraft/a5m.jpg",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese carrier-borne fighter aircraft",
+        "role": "Carrier-based fighter",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1935,
+        "country": "Japan",
+        "about": "The Mitsubishi A5M, formal Japanese Navy designation Mitsubishi Navy Type 96 Carrier-based Fighter (九六式艦上戦闘機), experimental Navy designation Mitsubishi Navy Experimental 9-Shi Carrier Fighter, company designation Mitsubishi Ka-14, was a World War II-era Japanese carrier-based fighter aircraft. The Type number is from…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_A5M"
+      }
+    },
     "p51": {
       "number": 145,
       "name": "North American P-51 Mustang",
@@ -1059,7 +1301,9 @@
       "packs": [
         "military-era-wwii",
         "military-decade-1940s",
-        "military-role-fighters"
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
       ],
       "facts": {
         "description": "Japanese carrier-based fighter aircraft",
@@ -1337,7 +1581,7 @@
       "number": 259,
       "name": "Curtiss SB2C Helldiver",
       "image": "assets/aircraft/sb2c.jpg",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-wwii",
         "military-decade-1940s",
@@ -1639,6 +1883,534 @@
         "country": "United States",
         "about": "The Sikorsky R-4 is a two-seat light helicopter that was designed by Igor Sikorsky with a single, three-bladed main rotor and powered by a radial engine. The R-4 was the world's first large-scale mass-produced helicopter and the first helicopter used by the United States Army Air Forces, the United States Navy, the…",
         "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_R-4"
+      }
+    },
+    "ki43": {
+      "number": 313,
+      "name": "Nakajima Ki-43 Hayabusa",
+      "image": "assets/aircraft/ki43.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese WW2 fighter",
+        "role": "Fighter aircraft",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1939,
+        "country": "Japan",
+        "about": "The Nakajima Ki-43 Hayabusa , formal Japanese designation Army Type 1 Fighter  is a single-engine land-based tactical fighter designed and produced by the Japanese manufacturer Nakajima Aircraft Company. The Allied reporting name was \"Oscar\", but it was often called the \"Army Zero\" by American pilots because it bore…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_Ki-43_Hayabusa"
+      }
+    },
+    "ki44": {
+      "number": 314,
+      "name": "Nakajima Ki-44 Shōki",
+      "image": "assets/aircraft/ki44.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "1940 fighter aircraft family by Nakajima",
+        "role": "Fighter",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1940,
+        "country": "Japan",
+        "about": "The Nakajima Ki-44 Shōki was a single-seat fighter-interceptor which was designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Operated by the Imperial Japanese Army (IJA) from 1942 to 1945 during World War II, its official designation was Army Type 2 Single-Seat Fighter (二式単座戦闘機) and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_Ki-44_Sh%C5%8Dki"
+      }
+    },
+    "ki45": {
+      "number": 315,
+      "name": "Kawasaki Ki-45",
+      "image": "assets/aircraft/ki45.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese WW2 heavy fighter",
+        "role": "Heavy fighter; Interceptor; Night fighter; Escort fighter; Fighter-bomber/Strike fighter",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1941,
+        "country": "Japan",
+        "about": "The Kawasaki Ki-45 Toryū  is a two-seat, twin-engined, heavy fighter used by the Imperial Japanese Army in World War II. The army gave it the designation \"Type 2 Two-Seat Fighter\" ; the Allied reporting name was \"Nick\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_Ki-45"
+      }
+    },
+    "ki61": {
+      "number": 316,
+      "name": "Kawasaki Ki-61",
+      "image": "assets/aircraft/ki61.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "WWII Japanese fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1941,
+        "country": "Japan",
+        "about": "The Kawasaki Ki-61 Hien is a Japanese World War II fighter aircraft. Used by the Imperial Japanese Army Air Service, it was designated the \"Army Type 3 Fighter\" (三式戦闘機).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_Ki-61"
+      }
+    },
+    "ki84": {
+      "number": 317,
+      "name": "Nakajima Ki-84 Hayate",
+      "image": "assets/aircraft/ki84.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1943,
+        "country": "Japan",
+        "about": "The Nakajima Ki-84 Hayate  is a single-seat fighter designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Flown by the Imperial Japanese Army Air Service (IJAAS) in the last two years of World War II, its service designation was Army Type 4 Fighter .",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_Ki-84_Hayate"
+      }
+    },
+    "ki100": {
+      "number": 318,
+      "name": "Kawasaki Ki-100",
+      "image": "assets/aircraft/ki100.jpg",
+      "credit": "unknown official photographer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese fighter aircraft",
+        "role": "Fighter/Interceptor",
+        "manufacturer": "Kawasaki Motors",
+        "firstFlight": 1945,
+        "country": "Japan",
+        "about": "The Kawasaki Ki-100 (キ100) is a single-seat single-engine monoplane fighter aircraft used by the Imperial Japanese Army Air Service (IJAAS) during World War II. The Japanese Army designation was \"Type 5 Fighter\" .",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100"
+      }
+    },
+    "n1k": {
+      "number": 319,
+      "name": "Kawanishi N1K",
+      "image": "assets/aircraft/n1k.jpg",
+      "credit": "USAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese floatplane/land-based fighter",
+        "role": "Fighter",
+        "manufacturer": "Kawanishi Aircraft Company",
+        "firstFlight": 1942,
+        "country": "Japan",
+        "about": "The Kawanishi N1K was a fighter aircraft designed and produced by the Japanese aircraft manufacturer Kawanishi Aircraft Company. Operated by the Imperial Japanese Navy (IJN), there were two distinct variants; the N1K Kyōfū  floatplane and the land-based N1K-J Shiden .",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawanishi_N1K"
+      }
+    },
+    "j2m": {
+      "number": 320,
+      "name": "Mitsubishi J2M Raiden",
+      "image": "assets/aircraft/j2m.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese land-based interceptor aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1942,
+        "country": "Japan",
+        "about": "The Mitsubishi J2M Raiden is a single-engined, land-based fighter aircraft used by the Imperial Japanese Navy Air Service in World War II. Its Allied reporting name was Jack.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_J2M_Raiden"
+      }
+    },
+    "j1n": {
+      "number": 321,
+      "name": "Nakajima J1N Gekkō",
+      "image": "assets/aircraft/j1n.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Fighter aircraft in Japan",
+        "role": "Heavy fighter, night fighter",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1941,
+        "country": "Japan",
+        "about": "The Nakajima J1N Gekkō  is a twin-engined heavy fighter designed and produced by the Nakajima Aircraft Company. It was assigned the Allied reporting name Irving.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_J1N_Gekk%C5%8D"
+      }
+    },
+    "d3a": {
+      "number": 322,
+      "name": "Aichi D3A",
+      "image": "assets/aircraft/d3a.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Imperial Japanese carrier-borne dive bomber",
+        "role": "Carrier-based dive bomber",
+        "manufacturer": "Aichi",
+        "firstFlight": 1938,
+        "country": "Japan",
+        "about": "The Aichi D3A is a carrier-borne dive bomber designed and produced by Aichi Kokuki KK. It was the primary dive bomber of the Imperial Japanese Navy (IJN) during World War II and thus was involved in almost all IJN actions during the conflict, including the attack on Pearl Harbor.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aichi_D3A"
+      }
+    },
+    "d4y": {
+      "number": 323,
+      "name": "Yokosuka D4Y Suisei",
+      "image": "assets/aircraft/d4y.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese carrier-based dive bomber",
+        "role": "Dive bomber, reconnaissance, night fighter",
+        "manufacturer": "Aichi, Nagoya",
+        "firstFlight": 1940,
+        "country": "Japan",
+        "about": "The Yokosuka D4Y Suisei  is a twin-seat carrier-based dive bomber developed by the Japanese defence manufacturer Yokosuka Naval Air Technical Arsenal. Operated by the Imperial Japanese Navy (IJN) throughout World War II, it was assigned the Allied reporting name Judy.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yokosuka_D4Y_Suisei"
+      }
+    },
+    "b6n": {
+      "number": 324,
+      "name": "Nakajima B6N Tenzan",
+      "image": "assets/aircraft/b6n.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "1941 torpedo bomber family by Nakajima",
+        "role": "Torpedo bomber",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1941,
+        "country": "Japan",
+        "about": "The Nakajima B6N Tenzan  was the Imperial Japanese Navy's standard carrier-borne torpedo bomber during the final years of World War II and the successor to the Nakajima B5N. Due to its protracted development, a shortage of experienced pilots and the United States Navy's achievement of air superiority by the time of…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_B6N_Tenzan"
+      }
+    },
+    "b7a": {
+      "number": 325,
+      "name": "Aichi B7A Ryūsei",
+      "image": "assets/aircraft/b7a.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese carrier-borne torpedo and dive bomber",
+        "role": "Torpedo bomber and Dive bomber",
+        "manufacturer": "Aichi",
+        "firstFlight": 1942,
+        "country": "Japan",
+        "about": "The Aichi B7A Ryūsei , was a large carrier-borne torpedo-dive bomber designed and produced by Japanese aircraft manufacturer Aichi Kokuki. It was operated by the Imperial Japanese Navy Air Service (IJNAS) during the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aichi_B7A_Ry%C5%ABsei"
+      }
+    },
+    "ki48": {
+      "number": 326,
+      "name": "Kawasaki Ki-48",
+      "image": "assets/aircraft/ki48.jpg",
+      "credit": "『同盟グラフ』 1944年1月号 / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese light bomber",
+        "role": "Light bomber",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1939,
+        "country": "Japan",
+        "about": "The Kawasaki Ki-48, is a Japanese twin-engine light bomber that was used during World War II. Its Allied reporting name was \"Lily\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_Ki-48"
+      }
+    },
+    "ki49": {
+      "number": 327,
+      "name": "Nakajima Ki-49 Donryū",
+      "image": "assets/aircraft/ki49.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Bomber aircraft in Japan",
+        "role": "Heavy bomber",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1939,
+        "country": "Japan",
+        "about": "The Nakajima Ki-49 Donryū was a twin-engine heavy bomber designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Operated by the Imperial Japanese Army Air Service (IJAAS) as the Army Type 100 Heavy Bomber Model 1, it was known to the Allied by the reporting name \"Helen\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_Ki-49_Donry%C5%AB"
+      }
+    },
+    "ki67": {
+      "number": 328,
+      "name": "Mitsubishi Ki-67",
+      "image": "assets/aircraft/ki67.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese twin-engine medium bomber",
+        "role": "Medium bomber",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1942,
+        "country": "Japan",
+        "about": "The Mitsubishi Ki-67 Hiryū , Allied reporting name \"Peggy\", was a twin-engine bomber produced by Mitsubishi Aircraft Company and used by the Imperial Japanese Army Air Service and Imperial Japanese Navy Air Service in World War II. While its original official designation was \"Army Type 4 Heavy Bomber\" , in all of its…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-67"
+      }
+    },
+    "g4m": {
+      "number": 329,
+      "name": "Mitsubishi G4M",
+      "image": "assets/aircraft/g4m.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Twin-engine, land-based medium bomber (1940–1945)",
+        "role": "Medium bomber/Torpedo bomber",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1940,
+        "country": "Japan",
+        "about": "The Mitsubishi G4M was a twin-engine, land-based medium bomber manufactured by the Mitsubishi Aircraft Company, a part of Mitsubishi Heavy Industries, and operated by the Air Service (IJNAS) of the Imperial Japanese Navy from 1940 to 1945. Its official designation was Mitsubishi Navy Type 1 attack bomber  and was…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_G4M"
+      }
+    },
+    "p1y": {
+      "number": 330,
+      "name": "Yokosuka P1Y Ginga",
+      "image": "assets/aircraft/p1y.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese attack bomber aircraft",
+        "role": "Attack bomber",
+        "manufacturer": "Yokosuka (3 × prototype only), Nakajima",
+        "firstFlight": 1943,
+        "country": "Japan",
+        "about": "The Yokosuka P1Y Ginga  is a twin-engine, land-based bomber that was designed by the Yokosuka Naval Air Technical Arsenal. Primarily produced by Nakajima and Kawanishi and flown by the Japanese Imperial Navy during the latter half of the Pacific War, it received the Allied reporting name “Frances”.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yokosuka_P1Y_Ginga"
+      }
+    },
+    "ki46": {
+      "number": 331,
+      "name": "Mitsubishi Ki-46",
+      "image": "assets/aircraft/ki46.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Aircraft in Japan",
+        "role": "Twin-engine reconnaissance aircraft",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1939,
+        "country": "Japan",
+        "about": "The Mitsubishi Ki-46 is a twin-engine reconnaissance aircraft that was used by the Imperial Japanese Army in World War II. Its Army Shiki designation was Type 100 Command Reconnaissance Aircraft (一〇〇式司令部偵察機); the Allied brevity code name was \"Dinah\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46"
+      }
+    },
+    "c6n": {
+      "number": 332,
+      "name": "Nakajima C6N Saiun",
+      "image": "assets/aircraft/c6n.jpg",
+      "credit": "Unknown author / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese carrier-based reconnaissance aircraft",
+        "role": "Carrier-based reconnaissance aircraft",
+        "manufacturer": "Nakajima",
+        "firstFlight": 1943,
+        "country": "Japan",
+        "about": "The Nakajima C6N Saiun is a carrier-based reconnaissance aircraft designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Flown by the Imperial Japanese Navy Air Service (IJNAS) during World War II, the Allied reporting name was Myrt.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nakajima_C6N_Saiun"
+      }
+    },
+    "e13a": {
+      "number": 333,
+      "name": "Aichi E13A",
+      "image": "assets/aircraft/e13a.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese reconnaissance floatplane",
+        "role": "Reconnaissance floatplane",
+        "manufacturer": "Aichi",
+        "firstFlight": 1939,
+        "country": "Japan",
+        "about": "The Aichi E13A is a long-range reconnaissance seaplane designed and produced by the Japanese aviation company Aichi Kokuki KK. The Imperial Japanese Navy (IJN) designation was \"Navy Type 0 Reconnaissance Seaplane\" (零式水上偵察機).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Aichi_E13A"
+      }
+    },
+    "f1m": {
+      "number": 334,
+      "name": "Mitsubishi F1M",
+      "image": "assets/aircraft/f1m.jpg",
+      "credit": "Imperial Japanese Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese reconnaissance floatplane",
+        "role": "Reconnaissance floatplane",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1936,
+        "country": "Japan",
+        "about": "The Mitsubishi F1M is a Japanese observation seaplane of World War II. It was the last biplane type of the Imperial Japanese Navy, with 944 built between 1936 and 1944.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_F1M"
+      }
+    },
+    "h8k": {
+      "number": 335,
+      "name": "Kawanishi H8K",
+      "image": "assets/aircraft/h8k.jpg",
+      "credit": "Max Smith / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Imperial Japanese Navy flying boat",
+        "role": "Maritime patrol flying boat",
+        "manufacturer": "Kawanishi Aircraft Company",
+        "firstFlight": 1941,
+        "country": "Japan",
+        "about": "The Kawanishi H8K was a large four-engined flying boat designed and produced by the Japanese aviation manufacturer Kawanishi. The Imperial Japanese Navy (IJN) designation was \"Type 2 Flying Boat\" ; it was also referred to as \"Type 2 Large-sized Flying Boat\" , or \"H2K flying boat\" .",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawanishi_H8K"
+      }
+    },
+    "ki57": {
+      "number": 336,
+      "name": "Mitsubishi Ki-57",
+      "image": "assets/aircraft/ki57.jpg",
+      "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-transports",
+        "military-country-japan",
+        "military-country-japan-wwii"
+      ],
+      "facts": {
+        "description": "Japanese transport aircraft",
+        "role": "Transport aircraft; Paratroop transport; Passenger aircraft",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1940,
+        "country": "Japan",
+        "about": "The Mitsubishi Ki-57 was a Japanese passenger transport aircraft, developed from the Ki-21 bomber, during the early 1940s.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57"
       }
     },
     "c130": {
@@ -3104,6 +3876,90 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Boeing_E-4"
       }
     },
+    "fuji-t1": {
+      "number": 337,
+      "name": "Fuji T-1",
+      "image": "assets/aircraft/fuji-t1.jpg",
+      "credit": "Rob Schleiffert from Holland / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-trainers",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese jet trainer aircraft",
+        "role": "Intermediate trainer aircraft",
+        "manufacturer": "Subaru Corporation",
+        "firstFlight": 1958,
+        "country": "Japan",
+        "about": "The Fuji T-1 Hatsutaka was a jet-powered trainer aircraft designed and produced by the Japanese conglomerate Fuji Heavy Industries. It was Japan's first jet-powered trainer aircraft as well as its first to make use of a swept wing.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fuji_T-1"
+      }
+    },
+    "p2j": {
+      "number": 338,
+      "name": "Kawasaki P-2J",
+      "image": "assets/aircraft/p2j.jpg",
+      "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-special-mission",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese maritime patrol aircraft",
+        "role": "ASW and maritime patrol aircraft",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1966,
+        "country": "Japan",
+        "about": "The Kawasaki P-2J is a maritime patrol and ASW aircraft developed for the Japan Maritime Self-Defense Force. A twin turboprop-powered version of the radial-engined P-2 Neptune, the P-2J was developed as an alternative to buying the larger and more expensive P-3 Orion, which would eventually replace the P-2J in the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_P-2J"
+      }
+    },
+    "kawasaki-c1": {
+      "number": 339,
+      "name": "Kawasaki C-1",
+      "image": "assets/aircraft/kawasaki-c1.jpg",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-transports",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese military transport aircraft",
+        "role": "Military transport aircraft",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 1970,
+        "country": "Japan",
+        "about": "The Kawasaki C-1 is a twin-engined short-range military transport aircraft developed and manufactured by the Japanese conglomerate Kawasaki Heavy Industries. It was solely used by the Japan Air Self-Defense Force (JASDF).",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_C-1"
+      }
+    },
+    "mitsubishi-t2": {
+      "number": 340,
+      "name": "Mitsubishi T-2",
+      "image": "assets/aircraft/mitsubishi-t2.jpg",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-trainers",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese supersonic jet trainer aircraft",
+        "role": "Trainer",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1971,
+        "country": "Japan",
+        "about": "The Mitsubishi T-2 was a supersonic jet trainer aircraft designed and produced by the Japanese aerospace firm Mitsubishi. It was the first Japanese-developed aircraft to break the sound barrier.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_T-2"
+      }
+    },
     "an124": {
       "number": 88,
       "name": "Antonov An-124 Ruslan",
@@ -3758,6 +4614,48 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Sikorsky_HH-60_Pave_Hawk"
       }
     },
+    "mitsubishi-f1": {
+      "number": 341,
+      "name": "Mitsubishi F-1",
+      "image": "assets/aircraft/mitsubishi-f1.jpg",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1970s",
+        "military-role-attack",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese supersonic strike/attack aircraft",
+        "role": "Attack aircraft",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1975,
+        "country": "Japan",
+        "about": "The Mitsubishi F-1 is a single-seat twin-engine supersonic strike aircraft designed and produced by the Japanese conglomerate Mitsubishi Heavy Industries. It was Japan's first domestically developed supersonic combat aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_F-1"
+      }
+    },
+    "kawasaki-t4": {
+      "number": 342,
+      "name": "Kawasaki T-4",
+      "image": "assets/aircraft/kawasaki-t4.jpg",
+      "credit": "Jerry Gunner / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1980s",
+        "military-role-trainers",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese jet trainer aircraft",
+        "role": "Intermediate trainer aircraft",
+        "manufacturer": "Kawasaki Heavy Industries",
+        "firstFlight": 1985,
+        "country": "Japan",
+        "about": "The Kawasaki T-4 is a Japanese subsonic intermediate jet trainer aircraft developed and manufactured by the commercial conglomerate Kawasaki Heavy Industries. Its sole operator is the Japan Air Self-Defense Force (JASDF), in part due to historic restrictions on the exporting of military hardware.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_T-4"
+      }
+    },
     "c17": {
       "number": 85,
       "name": "Boeing C-17 Globemaster III",
@@ -4273,6 +5171,90 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Boeing_EA-18G_Growler"
       }
     },
+    "oh1": {
+      "number": 343,
+      "name": "Kawasaki OH-1",
+      "image": "assets/aircraft/oh1.jpg",
+      "credit": "Los688 / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-post-cold-war",
+        "military-decade-2000s",
+        "military-role-helicopters",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese scout/observation helicopter",
+        "role": "Scout/observation helicopter",
+        "manufacturer": "Kawasaki Heavy Industries, Kawasaki Aerospace Systems Company",
+        "firstFlight": 1996,
+        "country": "Japan",
+        "about": "The Kawasaki OH-1 is a military scout/observation helicopter developed and manufactured by the Kawasaki Aerospace Company. The primary operator is the Japan Ground Self-Defense Force (JGSDF), who originally procured the OH-1 as a domestically produced successor to their existing OH-6D Loach fleet.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_OH-1"
+      }
+    },
+    "mitsubishi-f2": {
+      "number": 344,
+      "name": "Mitsubishi F-2",
+      "image": "assets/aircraft/mitsubishi-f2.jpg",
+      "credit": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-post-cold-war",
+        "military-decade-2000s",
+        "military-role-fighters",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese supersonic jet fighter",
+        "role": "Multirole fighter",
+        "manufacturer": "Mitsubishi",
+        "firstFlight": 1995,
+        "country": "Japan",
+        "about": "The Mitsubishi F-2 is a multirole fighter that was derived from the General Dynamics F-16 Fighting Falcon, and manufactured by Mitsubishi Heavy Industries and Lockheed Martin for the Japan Air Self-Defense Force, with a 60/40 split in manufacturing between Japan and the United States. The basis of the F-2's design is…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_F-2"
+      }
+    },
+    "fuji-t7": {
+      "number": 345,
+      "name": "Fuji T-7",
+      "image": "assets/aircraft/fuji-t7.jpg",
+      "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-post-cold-war",
+        "military-decade-2000s",
+        "military-role-trainers",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese military trainer aircraft",
+        "role": "Primary/Basic Trainer",
+        "manufacturer": "Subaru Corporation",
+        "firstFlight": 2002,
+        "country": "Japan",
+        "about": "The Fuji T-7 is a Japanese primary trainer aircraft built by Fuji Heavy Industries for the Japan Air Self-Defense Force. A development of Fuji's earlier T-3 trainer, it is a single-engined monoplane powered by a turboprop engine.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fuji_T-7"
+      }
+    },
+    "us2": {
+      "number": 346,
+      "name": "ShinMaywa US-2",
+      "image": "assets/aircraft/us2.jpg",
+      "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-post-cold-war",
+        "military-decade-2000s",
+        "military-role-special-mission",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese amphibious aircraft",
+        "role": "Air-sea rescue amphibian",
+        "manufacturer": "ShinMaywa",
+        "firstFlight": 2003,
+        "country": "Japan",
+        "about": "The ShinMaywa US-2 is a large Japanese short takeoff and landing turboprop amphibious aircraft that employs boundary layer control technology for enhanced STOL and stall suppression performance. Manufactured by seaplane specialist ShinMaywa, it was developed from the earlier Shin Meiwa US-1A seaplane, which was…",
+        "wikipedia": "https://en.wikipedia.org/wiki/ShinMaywa_US-2"
+      }
+    },
     "a400m": {
       "number": 87,
       "name": "Airbus A400M Atlas",
@@ -4344,7 +5326,8 @@
       "packs": [
         "military-era-modern",
         "military-decade-2010s",
-        "military-role-transports"
+        "military-role-transports",
+        "military-country-japan"
       ],
       "facts": {
         "description": "Japanese military transport aircraft",
@@ -4583,6 +5566,27 @@
         "country": "Italy/United States",
         "about": "The Boeing MH-139 Grey Wolf is a twin-engine helicopter operated by the United States Air Force (USAF) for security and support missions. Built under licence by Boeing, the Grey Wolf is a variant of the Leonardo AW139, an Italian-built multi-role helicopter.",
         "wikipedia": "https://en.wikipedia.org/wiki/Boeing_MH-139_Grey_Wolf"
+      }
+    },
+    "kawasaki-p1": {
+      "number": 347,
+      "name": "Kawasaki P-1",
+      "image": "assets/aircraft/kawasaki-p1.jpg",
+      "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-modern",
+        "military-decade-2010s",
+        "military-role-special-mission",
+        "military-country-japan"
+      ],
+      "facts": {
+        "description": "Japanese maritime patrol aircraft",
+        "role": "Maritime patrol aircraft",
+        "manufacturer": "Kawasaki Aerospace Systems Company",
+        "firstFlight": 2007,
+        "country": "Japan",
+        "about": "The Kawasaki P-1, previously P-X and XP-1, is a Japanese maritime patrol aircraft developed and manufactured by Kawasaki Aerospace Company. Unlike many maritime patrol aircraft, which are typically conversions of civilian designs, the P-1 is a purpose-built maritime aircraft with no civil counterpart and was designed…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_P-1"
       }
     },
     "b21": {
@@ -6358,6 +7362,15 @@
     "military-era-interwar/stearman": "stearman",
     "military-era-interwar/t6": "t6",
     "military-era-interwar/p40": "p40",
+    "military-era-interwar/mitsubishi-1mf": "mitsubishi-1mf",
+    "military-era-interwar/kawasaki-type88": "kawasaki-type88",
+    "military-era-interwar/ki27": "ki27",
+    "military-era-interwar/g3m": "g3m",
+    "military-era-interwar/ki21": "ki21",
+    "military-era-interwar/k5y": "k5y",
+    "military-era-interwar/b5n": "b5n",
+    "military-era-interwar/h6k": "h6k",
+    "military-era-interwar/a5m": "a5m",
     "military-era-wwii/p51": "p51",
     "military-era-wwii/a6m": "a6m",
     "military-era-wwii/f4u": "f4u",
@@ -6386,6 +7399,30 @@
     "military-era-wwii/p80": "p80",
     "military-era-wwii/f8f": "f8f",
     "military-era-wwii/r4": "r4",
+    "military-era-wwii/ki43": "ki43",
+    "military-era-wwii/ki44": "ki44",
+    "military-era-wwii/ki45": "ki45",
+    "military-era-wwii/ki61": "ki61",
+    "military-era-wwii/ki84": "ki84",
+    "military-era-wwii/ki100": "ki100",
+    "military-era-wwii/n1k": "n1k",
+    "military-era-wwii/j2m": "j2m",
+    "military-era-wwii/j1n": "j1n",
+    "military-era-wwii/d3a": "d3a",
+    "military-era-wwii/d4y": "d4y",
+    "military-era-wwii/b6n": "b6n",
+    "military-era-wwii/b7a": "b7a",
+    "military-era-wwii/ki48": "ki48",
+    "military-era-wwii/ki49": "ki49",
+    "military-era-wwii/ki67": "ki67",
+    "military-era-wwii/g4m": "g4m",
+    "military-era-wwii/p1y": "p1y",
+    "military-era-wwii/ki46": "ki46",
+    "military-era-wwii/c6n": "c6n",
+    "military-era-wwii/e13a": "e13a",
+    "military-era-wwii/f1m": "f1m",
+    "military-era-wwii/h8k": "h8k",
+    "military-era-wwii/ki57": "ki57",
     "military-era-early-cold-war/c130": "c130",
     "military-era-early-cold-war/kc135": "kc135",
     "military-era-early-cold-war/u2": "u2",
@@ -6453,6 +7490,10 @@
     "military-era-vietnam/s3": "s3",
     "military-era-vietnam/ea6b": "ea6b",
     "military-era-vietnam/e4": "e4",
+    "military-era-vietnam/fuji-t1": "fuji-t1",
+    "military-era-vietnam/p2j": "p2j",
+    "military-era-vietnam/kawasaki-c1": "kawasaki-c1",
+    "military-era-vietnam/mitsubishi-t2": "mitsubishi-t2",
     "military-era-late-cold-war/an124": "an124",
     "military-era-late-cold-war/an225": "an225",
     "military-era-late-cold-war/e3": "e3",
@@ -6483,6 +7524,8 @@
     "military-era-late-cold-war/t45": "t45",
     "military-era-late-cold-war/e8": "e8",
     "military-era-late-cold-war/hh60w": "hh60w",
+    "military-era-late-cold-war/mitsubishi-f1": "mitsubishi-f1",
+    "military-era-late-cold-war/kawasaki-t4": "kawasaki-t4",
     "military-era-post-cold-war/c17": "c17",
     "military-era-post-cold-war/v22": "v22",
     "military-era-post-cold-war/mq9": "mq9",
@@ -6507,6 +7550,10 @@
     "military-era-post-cold-war/uh1y": "uh1y",
     "military-era-post-cold-war/mq8": "mq8",
     "military-era-post-cold-war/ea18g": "ea18g",
+    "military-era-post-cold-war/oh1": "oh1",
+    "military-era-post-cold-war/mitsubishi-f2": "mitsubishi-f2",
+    "military-era-post-cold-war/fuji-t7": "fuji-t7",
+    "military-era-post-cold-war/us2": "us2",
     "military-era-modern/a400m": "a400m",
     "military-era-modern/p8": "p8",
     "military-era-modern/c390": "c390",
@@ -6522,6 +7569,7 @@
     "military-era-modern/ch53k": "ch53k",
     "military-era-modern/f15ex": "f15ex",
     "military-era-modern/mh139": "mh139",
+    "military-era-modern/kawasaki-p1": "kawasaki-p1",
     "military-decade-1910s/jn4": "jn4",
     "military-decade-1910s/thomas-morse-s4": "thomas-morse-s4",
     "military-decade-1910s/curtiss-nc": "curtiss-nc",
@@ -6536,6 +7584,8 @@
     "military-decade-1920s/vought-o2u": "vought-o2u",
     "military-decade-1920s/curtiss-f8c": "curtiss-f8c",
     "military-decade-1920s/consolidated-pt1": "consolidated-pt1",
+    "military-decade-1920s/mitsubishi-1mf": "mitsubishi-1mf",
+    "military-decade-1920s/kawasaki-type88": "kawasaki-type88",
     "military-decade-1930s/spitfire": "spitfire",
     "military-decade-1930s/hurricane": "hurricane",
     "military-decade-1930s/bf109": "bf109",
@@ -6557,6 +7607,13 @@
     "military-decade-1930s/t6": "t6",
     "military-decade-1930s/p40": "p40",
     "military-decade-1930s/a20": "a20",
+    "military-decade-1930s/ki27": "ki27",
+    "military-decade-1930s/g3m": "g3m",
+    "military-decade-1930s/ki21": "ki21",
+    "military-decade-1930s/k5y": "k5y",
+    "military-decade-1930s/b5n": "b5n",
+    "military-decade-1930s/h6k": "h6k",
+    "military-decade-1930s/a5m": "a5m",
     "military-decade-1940s/p51": "p51",
     "military-decade-1940s/a6m": "a6m",
     "military-decade-1940s/f4u": "f4u",
@@ -6592,6 +7649,30 @@
     "military-decade-1940s/c119": "c119",
     "military-decade-1940s/hu16": "hu16",
     "military-decade-1940s/f2h": "f2h",
+    "military-decade-1940s/ki43": "ki43",
+    "military-decade-1940s/ki44": "ki44",
+    "military-decade-1940s/ki45": "ki45",
+    "military-decade-1940s/ki61": "ki61",
+    "military-decade-1940s/ki84": "ki84",
+    "military-decade-1940s/ki100": "ki100",
+    "military-decade-1940s/n1k": "n1k",
+    "military-decade-1940s/j2m": "j2m",
+    "military-decade-1940s/j1n": "j1n",
+    "military-decade-1940s/d3a": "d3a",
+    "military-decade-1940s/d4y": "d4y",
+    "military-decade-1940s/b6n": "b6n",
+    "military-decade-1940s/b7a": "b7a",
+    "military-decade-1940s/ki48": "ki48",
+    "military-decade-1940s/ki49": "ki49",
+    "military-decade-1940s/ki67": "ki67",
+    "military-decade-1940s/g4m": "g4m",
+    "military-decade-1940s/p1y": "p1y",
+    "military-decade-1940s/ki46": "ki46",
+    "military-decade-1940s/c6n": "c6n",
+    "military-decade-1940s/e13a": "e13a",
+    "military-decade-1940s/f1m": "f1m",
+    "military-decade-1940s/h8k": "h8k",
+    "military-decade-1940s/ki57": "ki57",
     "military-decade-1950s/c130": "c130",
     "military-decade-1950s/kc135": "kc135",
     "military-decade-1950s/u2": "u2",
@@ -6641,6 +7722,8 @@
     "military-decade-1960s/ov10": "ov10",
     "military-decade-1960s/sh2": "sh2",
     "military-decade-1960s/hh3": "hh3",
+    "military-decade-1960s/fuji-t1": "fuji-t1",
+    "military-decade-1960s/p2j": "p2j",
     "military-decade-1970s/c5": "c5",
     "military-decade-1970s/il76": "il76",
     "military-decade-1970s/e3": "e3",
@@ -6658,6 +7741,9 @@
     "military-decade-1970s/s3": "s3",
     "military-decade-1970s/ea6b": "ea6b",
     "military-decade-1970s/e4": "e4",
+    "military-decade-1970s/kawasaki-c1": "kawasaki-c1",
+    "military-decade-1970s/mitsubishi-t2": "mitsubishi-t2",
+    "military-decade-1970s/mitsubishi-f1": "mitsubishi-f1",
     "military-decade-1980s/an124": "an124",
     "military-decade-1980s/an225": "an225",
     "military-decade-1980s/b1": "b1",
@@ -6678,6 +7764,7 @@
     "military-decade-1980s/f15e": "f15e",
     "military-decade-1980s/e6": "e6",
     "military-decade-1980s/hh60w": "hh60w",
+    "military-decade-1980s/kawasaki-t4": "kawasaki-t4",
     "military-decade-1990s/c17": "c17",
     "military-decade-1990s/b2": "b2",
     "military-decade-1990s/gripen": "gripen",
@@ -6704,6 +7791,10 @@
     "military-decade-2000s/uh1y": "uh1y",
     "military-decade-2000s/mq8": "mq8",
     "military-decade-2000s/ea18g": "ea18g",
+    "military-decade-2000s/oh1": "oh1",
+    "military-decade-2000s/mitsubishi-f2": "mitsubishi-f2",
+    "military-decade-2000s/fuji-t7": "fuji-t7",
+    "military-decade-2000s/us2": "us2",
     "military-decade-2010s/a400m": "a400m",
     "military-decade-2010s/p8": "p8",
     "military-decade-2010s/c390": "c390",
@@ -6715,6 +7806,7 @@
     "military-decade-2010s/tejas": "tejas",
     "military-decade-2010s/ah1z": "ah1z",
     "military-decade-2010s/kc46": "kc46",
+    "military-decade-2010s/kawasaki-p1": "kawasaki-p1",
     "military-role-fighters/f22": "f22",
     "military-role-fighters/f35": "f35",
     "military-role-fighters/f16": "f16",
@@ -6779,6 +7871,19 @@
     "military-role-fighters/f106": "f106",
     "military-role-fighters/f15e": "f15e",
     "military-role-fighters/f15ex": "f15ex",
+    "military-role-fighters/mitsubishi-1mf": "mitsubishi-1mf",
+    "military-role-fighters/ki27": "ki27",
+    "military-role-fighters/ki43": "ki43",
+    "military-role-fighters/ki44": "ki44",
+    "military-role-fighters/ki45": "ki45",
+    "military-role-fighters/ki61": "ki61",
+    "military-role-fighters/ki84": "ki84",
+    "military-role-fighters/ki100": "ki100",
+    "military-role-fighters/n1k": "n1k",
+    "military-role-fighters/j2m": "j2m",
+    "military-role-fighters/j1n": "j1n",
+    "military-role-fighters/mitsubishi-f2": "mitsubishi-f2",
+    "military-role-fighters/a5m": "a5m",
     "military-role-attack/a10": "a10",
     "military-role-attack/f117": "f117",
     "military-role-attack/harrier": "harrier",
@@ -6800,6 +7905,12 @@
     "military-role-attack/a7": "a7",
     "military-role-attack/a37": "a37",
     "military-role-attack/av8b": "av8b",
+    "military-role-attack/d3a": "d3a",
+    "military-role-attack/d4y": "d4y",
+    "military-role-attack/b5n": "b5n",
+    "military-role-attack/b6n": "b6n",
+    "military-role-attack/b7a": "b7a",
+    "military-role-attack/mitsubishi-f1": "mitsubishi-f1",
     "military-role-bombers/b52": "b52",
     "military-role-bombers/b1": "b1",
     "military-role-bombers/b2": "b2",
@@ -6825,6 +7936,13 @@
     "military-role-bombers/b47": "b47",
     "military-role-bombers/b57": "b57",
     "military-role-bombers/b58": "b58",
+    "military-role-bombers/g3m": "g3m",
+    "military-role-bombers/ki21": "ki21",
+    "military-role-bombers/ki48": "ki48",
+    "military-role-bombers/ki49": "ki49",
+    "military-role-bombers/ki67": "ki67",
+    "military-role-bombers/g4m": "g4m",
+    "military-role-bombers/p1y": "p1y",
     "military-role-transports/c130": "c130",
     "military-role-transports/c17": "c17",
     "military-role-transports/c5": "c5",
@@ -6845,6 +7963,8 @@
     "military-role-transports/kc10": "kc10",
     "military-role-transports/c130j": "c130j",
     "military-role-transports/kc46": "kc46",
+    "military-role-transports/ki57": "ki57",
+    "military-role-transports/kawasaki-c1": "kawasaki-c1",
     "military-role-special-mission/e3": "e3",
     "military-role-special-mission/p8": "p8",
     "military-role-special-mission/p3": "p3",
@@ -6867,6 +7987,16 @@
     "military-role-special-mission/e6": "e6",
     "military-role-special-mission/e8": "e8",
     "military-role-special-mission/ea18g": "ea18g",
+    "military-role-special-mission/kawasaki-type88": "kawasaki-type88",
+    "military-role-special-mission/ki46": "ki46",
+    "military-role-special-mission/c6n": "c6n",
+    "military-role-special-mission/e13a": "e13a",
+    "military-role-special-mission/f1m": "f1m",
+    "military-role-special-mission/h6k": "h6k",
+    "military-role-special-mission/h8k": "h8k",
+    "military-role-special-mission/p2j": "p2j",
+    "military-role-special-mission/us2": "us2",
+    "military-role-special-mission/kawasaki-p1": "kawasaki-p1",
     "military-role-drones/mq9": "mq9",
     "military-role-drones/rq4": "rq4",
     "military-role-drones/mq1": "mq1",
@@ -6888,6 +8018,11 @@
     "military-role-trainers/t1": "t1",
     "military-role-trainers/t6-texan-ii": "t6-texan-ii",
     "military-role-trainers/t7": "t7",
+    "military-role-trainers/k5y": "k5y",
+    "military-role-trainers/fuji-t1": "fuji-t1",
+    "military-role-trainers/mitsubishi-t2": "mitsubishi-t2",
+    "military-role-trainers/kawasaki-t4": "kawasaki-t4",
+    "military-role-trainers/fuji-t7": "fuji-t7",
     "military-role-helicopters/ah64": "ah64",
     "military-role-helicopters/uh1": "uh1",
     "military-role-helicopters/ch47": "ch47",
@@ -6916,6 +8051,7 @@
     "military-role-helicopters/hh60w": "hh60w",
     "military-role-helicopters/ch53k": "ch53k",
     "military-role-helicopters/mh139": "mh139",
+    "military-role-helicopters/oh1": "oh1",
     "military-country-united-states/c130": "c130",
     "military-country-united-states/c17": "c17",
     "military-country-united-states/c5": "c5",
@@ -7219,6 +8355,86 @@
     "military-country-united-states-modern/kc46": "kc46",
     "military-country-united-states-modern/ch53k": "ch53k",
     "military-country-united-states-modern/f15ex": "f15ex",
+    "military-country-japan/kawasaki-c2": "kawasaki-c2",
+    "military-country-japan/a6m": "a6m",
+    "military-country-japan/mitsubishi-1mf": "mitsubishi-1mf",
+    "military-country-japan/kawasaki-type88": "kawasaki-type88",
+    "military-country-japan/ki27": "ki27",
+    "military-country-japan/g3m": "g3m",
+    "military-country-japan/ki21": "ki21",
+    "military-country-japan/k5y": "k5y",
+    "military-country-japan/ki43": "ki43",
+    "military-country-japan/ki44": "ki44",
+    "military-country-japan/ki45": "ki45",
+    "military-country-japan/ki61": "ki61",
+    "military-country-japan/ki84": "ki84",
+    "military-country-japan/ki100": "ki100",
+    "military-country-japan/n1k": "n1k",
+    "military-country-japan/j2m": "j2m",
+    "military-country-japan/j1n": "j1n",
+    "military-country-japan/d3a": "d3a",
+    "military-country-japan/d4y": "d4y",
+    "military-country-japan/b5n": "b5n",
+    "military-country-japan/b6n": "b6n",
+    "military-country-japan/b7a": "b7a",
+    "military-country-japan/ki48": "ki48",
+    "military-country-japan/ki49": "ki49",
+    "military-country-japan/ki67": "ki67",
+    "military-country-japan/g4m": "g4m",
+    "military-country-japan/p1y": "p1y",
+    "military-country-japan/ki46": "ki46",
+    "military-country-japan/c6n": "c6n",
+    "military-country-japan/e13a": "e13a",
+    "military-country-japan/f1m": "f1m",
+    "military-country-japan/h6k": "h6k",
+    "military-country-japan/h8k": "h8k",
+    "military-country-japan/ki57": "ki57",
+    "military-country-japan/fuji-t1": "fuji-t1",
+    "military-country-japan/p2j": "p2j",
+    "military-country-japan/kawasaki-c1": "kawasaki-c1",
+    "military-country-japan/mitsubishi-t2": "mitsubishi-t2",
+    "military-country-japan/mitsubishi-f1": "mitsubishi-f1",
+    "military-country-japan/kawasaki-t4": "kawasaki-t4",
+    "military-country-japan/oh1": "oh1",
+    "military-country-japan/mitsubishi-f2": "mitsubishi-f2",
+    "military-country-japan/fuji-t7": "fuji-t7",
+    "military-country-japan/us2": "us2",
+    "military-country-japan/kawasaki-p1": "kawasaki-p1",
+    "military-country-japan/a5m": "a5m",
+    "military-country-japan-interwar/mitsubishi-1mf": "mitsubishi-1mf",
+    "military-country-japan-interwar/kawasaki-type88": "kawasaki-type88",
+    "military-country-japan-interwar/ki27": "ki27",
+    "military-country-japan-interwar/g3m": "g3m",
+    "military-country-japan-interwar/ki21": "ki21",
+    "military-country-japan-interwar/k5y": "k5y",
+    "military-country-japan-interwar/b5n": "b5n",
+    "military-country-japan-interwar/h6k": "h6k",
+    "military-country-japan-interwar/a5m": "a5m",
+    "military-country-japan-wwii/a6m": "a6m",
+    "military-country-japan-wwii/ki43": "ki43",
+    "military-country-japan-wwii/ki44": "ki44",
+    "military-country-japan-wwii/ki45": "ki45",
+    "military-country-japan-wwii/ki61": "ki61",
+    "military-country-japan-wwii/ki84": "ki84",
+    "military-country-japan-wwii/ki100": "ki100",
+    "military-country-japan-wwii/n1k": "n1k",
+    "military-country-japan-wwii/j2m": "j2m",
+    "military-country-japan-wwii/j1n": "j1n",
+    "military-country-japan-wwii/d3a": "d3a",
+    "military-country-japan-wwii/d4y": "d4y",
+    "military-country-japan-wwii/b6n": "b6n",
+    "military-country-japan-wwii/b7a": "b7a",
+    "military-country-japan-wwii/ki48": "ki48",
+    "military-country-japan-wwii/ki49": "ki49",
+    "military-country-japan-wwii/ki67": "ki67",
+    "military-country-japan-wwii/g4m": "g4m",
+    "military-country-japan-wwii/p1y": "p1y",
+    "military-country-japan-wwii/ki46": "ki46",
+    "military-country-japan-wwii/c6n": "c6n",
+    "military-country-japan-wwii/e13a": "e13a",
+    "military-country-japan-wwii/f1m": "f1m",
+    "military-country-japan-wwii/h8k": "h8k",
+    "military-country-japan-wwii/ki57": "ki57",
     "military-country-soviet-union-and-russia/an124": "an124",
     "military-country-soviet-union-and-russia/an225": "an225",
     "military-country-soviet-union-and-russia/il76": "il76",

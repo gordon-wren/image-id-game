@@ -56,8 +56,8 @@
           "label": "Boeing EA-18G Growler"
         },
         {
-          "id": "hu16",
-          "label": "Grumman HU-16 Albatross"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
           "id": "e8",
@@ -560,12 +560,262 @@
           "label": "Grumman OV-1 Mohawk"
         },
         {
-          "id": "vought-o2u",
-          "label": "Vought O2U Corsair"
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
         }
       ],
       "caption": "American electronic warfare aircraft. First flew 2006.",
       "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-kawasaki-type88",
+      "image": "kawasaki-type88.jpg",
+      "answer": "kawasaki-type88",
+      "options": [
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "Japanese reconnaissance aircraft. First flew 1927.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ki46",
+      "image": "ki46.jpg",
+      "answer": "ki46",
+      "options": [
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        },
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        }
+      ],
+      "caption": "Aircraft in Japan. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-c6n",
+      "image": "c6n.jpg",
+      "answer": "c6n",
+      "options": [
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "Japanese carrier-based reconnaissance aircraft. First flew 1943.",
+      "credit": "Unknown author / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-e13a",
+      "image": "e13a.jpg",
+      "answer": "e13a",
+      "options": [
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        },
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        }
+      ],
+      "caption": "Japanese reconnaissance floatplane. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-f1m",
+      "image": "f1m.jpg",
+      "answer": "f1m",
+      "options": [
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        }
+      ],
+      "caption": "Japanese reconnaissance floatplane. First flew 1936.",
+      "credit": "Imperial Japanese Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-h6k",
+      "image": "h6k.jpg",
+      "answer": "h6k",
+      "options": [
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        },
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        }
+      ],
+      "caption": "Imperial Japanese flying boat. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-h8k",
+      "image": "h8k.jpg",
+      "answer": "h8k",
+      "options": [
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        },
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        }
+      ],
+      "caption": "Imperial Japanese Navy flying boat. First flew 1941.",
+      "credit": "Max Smith / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-p2j",
+      "image": "p2j.jpg",
+      "answer": "p2j",
+      "options": [
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 1966.",
+      "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-us2",
+      "image": "us2.jpg",
+      "answer": "us2",
+      "options": [
+        {
+          "id": "us2",
+          "label": "ShinMaywa US-2"
+        },
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "Japanese amphibious aircraft. First flew 2003.",
+      "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-kawasaki-p1",
+      "image": "kawasaki-p1.jpg",
+      "answer": "kawasaki-p1",
+      "options": [
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 2007.",
+      "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
     }
   ]
 }

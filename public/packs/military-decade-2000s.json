@@ -31,12 +31,12 @@
           "label": "Boeing EA-18G Growler"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "us2",
+          "label": "ShinMaywa US-2"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "mq8",
+          "label": "Northrop Grumman MQ-8 Fire Scout"
         }
       ],
       "caption": "Military transport tiltrotor. First flew 1989.",
@@ -56,12 +56,12 @@
           "label": "Boeing EA-18G Growler"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         }
       ],
       "caption": "American unmanned aerial vehicle. First flew 2001.",
@@ -81,12 +81,12 @@
           "label": "Northrop Grumman MQ-8 Fire Scout"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
+          "id": "mq9",
+          "label": "General Atomics MQ-9 Reaper"
         },
         {
-          "id": "rq7",
-          "label": "AAI RQ-7 Shadow"
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
         }
       ],
       "caption": "Unmanned surveillance aircraft. First flew 1998.",
@@ -106,8 +106,8 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         },
         {
           "id": "rafale",
@@ -156,12 +156,12 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
-        },
-        {
           "id": "tiger",
           "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
         }
       ],
       "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
@@ -181,8 +181,8 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         },
         {
           "id": "tiger",
@@ -210,8 +210,8 @@
           "label": "Dassault Rafale"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         }
       ],
       "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
@@ -231,8 +231,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "aw101",
@@ -302,16 +302,16 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
           "id": "uh1y",
           "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "ea18g",
-          "label": "Boeing EA-18G Growler"
-        },
-        {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         }
       ],
       "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
@@ -356,8 +356,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "aw101",
@@ -381,8 +381,8 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
         },
         {
           "id": "ka52",
@@ -435,12 +435,112 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "mq9",
-          "label": "General Atomics MQ-9 Reaper"
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
         }
       ],
       "caption": "American electronic warfare aircraft. First flew 2006.",
       "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-oh1",
+      "image": "oh1.jpg",
+      "answer": "oh1",
+      "options": [
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
+        },
+        {
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
+        }
+      ],
+      "caption": "Japanese scout/observation helicopter. First flew 1996.",
+      "credit": "Los688 / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-mitsubishi-f2",
+      "image": "mitsubishi-f2.jpg",
+      "answer": "mitsubishi-f2",
+      "options": [
+        {
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        },
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        }
+      ],
+      "caption": "Japanese supersonic jet fighter. First flew 1995.",
+      "credit": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-fuji-t7",
+      "image": "fuji-t7.jpg",
+      "answer": "fuji-t7",
+      "options": [
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "us2",
+          "label": "ShinMaywa US-2"
+        }
+      ],
+      "caption": "Japanese military trainer aircraft. First flew 2002.",
+      "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-us2",
+      "image": "us2.jpg",
+      "answer": "us2",
+      "options": [
+        {
+          "id": "us2",
+          "label": "ShinMaywa US-2"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
+        },
+        {
+          "id": "rq7",
+          "label": "AAI RQ-7 Shadow"
+        }
+      ],
+      "caption": "Japanese amphibious aircraft. First flew 2003.",
+      "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
     }
   ]
 }

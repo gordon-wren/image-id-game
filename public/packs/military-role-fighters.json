@@ -235,8 +235,8 @@
           "label": "Eurofighter Typhoon"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "f15e",
+          "label": "McDonnell Douglas F-15E Strike Eagle"
         }
       ],
       "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
@@ -256,8 +256,8 @@
           "label": "Saab 37 Viggen"
         },
         {
-          "id": "typhoon",
-          "label": "Eurofighter Typhoon"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         },
         {
           "id": "mirage2000",
@@ -506,12 +506,12 @@
           "label": "Chengdu J-20"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         }
       ],
       "caption": "Chinese multi-role fighter aircraft family. First flew 1998.",
@@ -681,12 +681,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "p36",
-          "label": "Curtiss P-36 Hawk"
-        },
-        {
           "id": "grumman-f3f",
           "label": "Grumman F3F"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
         }
       ],
       "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
@@ -706,12 +706,12 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "f8f",
-          "label": "Grumman F8F Bearcat"
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
         },
         {
-          "id": "p61",
-          "label": "Northrop P-61 Black Widow"
+          "id": "p51",
+          "label": "North American P-51 Mustang"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -756,8 +756,8 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "f4f",
+          "label": "Grumman F4F Wildcat"
         },
         {
           "id": "p39",
@@ -777,16 +777,16 @@
           "label": "Mitsubishi A6M Zero"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         },
         {
-          "id": "f4u",
-          "label": "Vought F4U Corsair"
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
         }
       ],
       "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
@@ -940,7 +940,7 @@
         }
       ],
       "caption": "Fighter aircraft series. First flew 1932.",
-      "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+      "credit": "Unknown photographer / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-fighters-grumman-f3f",
@@ -1015,7 +1015,7 @@
         }
       ],
       "caption": "American fighter aircraft. First flew 1935.",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-fighters-f2a",
@@ -1616,6 +1616,331 @@
       ],
       "caption": "American multirole fighter aircraft. First flew 2013.",
       "credit": "Ethan Wagner / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mitsubishi-1mf",
+      "image": "mitsubishi-1mf.jpg",
+      "answer": "mitsubishi-1mf",
+      "options": [
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter. First flew 1921.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki27",
+      "image": "ki27.jpg",
+      "answer": "ki27",
+      "options": [
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki43",
+      "image": "ki43.jpg",
+      "answer": "ki43",
+      "options": [
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        }
+      ],
+      "caption": "Japanese WW2 fighter. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki44",
+      "image": "ki44.jpg",
+      "answer": "ki44",
+      "options": [
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Nakajima. First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki45",
+      "image": "ki45.jpg",
+      "answer": "ki45",
+      "options": [
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        }
+      ],
+      "caption": "Japanese WW2 heavy fighter. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki61",
+      "image": "ki61.jpg",
+      "answer": "ki61",
+      "options": [
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        }
+      ],
+      "caption": "WWII Japanese fighter aircraft. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki84",
+      "image": "ki84.jpg",
+      "answer": "ki84",
+      "options": [
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1943.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-ki100",
+      "image": "ki100.jpg",
+      "answer": "ki100",
+      "options": [
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1945.",
+      "credit": "unknown official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-n1k",
+      "image": "n1k.jpg",
+      "answer": "n1k",
+      "options": [
+        {
+          "id": "n1k",
+          "label": "Kawanishi N1K"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        }
+      ],
+      "caption": "Japanese floatplane/land-based fighter. First flew 1942.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-j2m",
+      "image": "j2m.jpg",
+      "answer": "j2m",
+      "options": [
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        }
+      ],
+      "caption": "Japanese land-based interceptor aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-j1n",
+      "image": "j1n.jpg",
+      "answer": "j1n",
+      "options": [
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        }
+      ],
+      "caption": "Fighter aircraft in Japan. First flew 1941.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mitsubishi-f2",
+      "image": "mitsubishi-f2.jpg",
+      "answer": "mitsubishi-f2",
+      "options": [
+        {
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
+        },
+        {
+          "id": "f104",
+          "label": "Lockheed F-104 Starfighter"
+        },
+        {
+          "id": "rafale",
+          "label": "Dassault Rafale"
+        },
+        {
+          "id": "j10",
+          "label": "Chengdu J-10"
+        }
+      ],
+      "caption": "Japanese supersonic jet fighter. First flew 1995.",
+      "credit": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-a5m",
+      "image": "a5m.jpg",
+      "answer": "a5m",
+      "options": [
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        }
+      ],
+      "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
     }
   ]
 }

@@ -2752,5 +2752,624 @@
     "category": "utility-helicopter",
     "engine": "turboshaft",
     "photo": "File:MH-139 Grey Wolf conducts flight training in Camp Guernsey, Wyoming.png"
+  },
+  {
+    "id": "mitsubishi-1mf",
+    "wikipediaTitle": "Mitsubishi 1MF",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Mitsubishi 1MF3A.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "kawasaki-type88",
+    "wikipediaTitle": "Kawasaki Army Type 88 Reconnaissance Aircraft",
+    "label": "Kawasaki Type 88",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:88shiki teisatuki.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "introduced": "1928"
+    }
+  },
+  {
+    "id": "ki27",
+    "wikipediaTitle": "Nakajima Ki-27",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Ki-27 2.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "g3m",
+    "wikipediaTitle": "Mitsubishi G3M",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:G3M-37.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki21",
+    "wikipediaTitle": "Mitsubishi Ki-21",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Ki-21 97juubaku b.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "k5y",
+    "wikipediaTitle": "Yokosuka K5Y",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:K5Y-93-2.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki43",
+    "wikipediaTitle": "Nakajima Ki-43 Hayabusa",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Wagner Book (16334919801) brightened, expanded.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki44",
+    "wikipediaTitle": "Nakajima Ki-44 Shōki",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Nakajima Ki-44-II Otsu at Clark 1945.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki45",
+    "wikipediaTitle": "Kawasaki Ki-45",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Ki 45 001.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki61",
+    "wikipediaTitle": "Kawasaki Ki-61",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Kawasaki Ki-61-14.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki84",
+    "wikipediaTitle": "Nakajima Ki-84 Hayate",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:The Nakajima Ki-84 Hayate additional prototype of the Army Air Force.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki100",
+    "wikipediaTitle": "Kawasaki Ki-100",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Kawasaki Ki-100-I-Ko Army Fighter Type 5 Mark 1a of 59th Sentai 2nd Chutai in August 1945 in Japan.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "n1k",
+    "wikipediaTitle": "Kawanishi N1K",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Kawanishi N1K2-J 050317-F-1234P-015.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "j2m",
+    "wikipediaTitle": "Mitsubishi J2M Raiden",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Mitsubishi J2M.JPG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "j1n",
+    "wikipediaTitle": "Nakajima J1N Gekkō",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:J1N-7s.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "d3a",
+    "wikipediaTitle": "Aichi D3A",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:D3A1 Akagi.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "d4y",
+    "wikipediaTitle": "Yokosuka D4Y Suisei",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Yokosuka D4Y3 in the field.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "b5n",
+    "wikipediaTitle": "Nakajima B5N",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Nakajima B5N.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "b6n",
+    "wikipediaTitle": "Nakajima B6N Tenzan",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:B6N in flight.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "b7a",
+    "wikipediaTitle": "Aichi B7A Ryūsei",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Aichi B7A Ryusei.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki48",
+    "wikipediaTitle": "Kawasaki Ki-48",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Ki-48 99siki-souhatu-keibaku.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki49",
+    "wikipediaTitle": "Nakajima Ki-49 Donryū",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Ki-49-i letecka skola hamamacu 1chutai.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki67",
+    "wikipediaTitle": "Mitsubishi Ki-67",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:MitsubishiKi67.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "g4m",
+    "wikipediaTitle": "Mitsubishi G4M",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:G4M-45s.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "p1y",
+    "wikipediaTitle": "Yokosuka P1Y Ginga",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Yokosuka P1Y Kyokkou or Ginga.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki46",
+    "wikipediaTitle": "Mitsubishi Ki-46",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Ki-46 100sitei.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "c6n",
+    "wikipediaTitle": "Nakajima C6N Saiun",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Nakajima C6N Saiun (Painted Cloud), Allied reporting name \"Myrt\".jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "e13a",
+    "wikipediaTitle": "Aichi E13A",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:E13A-3s.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "f1m",
+    "wikipediaTitle": "Mitsubishi F1M",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:F1m 00637 2g.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "h6k",
+    "wikipediaTitle": "Kawanishi H6K",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:KawanishiH6K.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "h8k",
+    "wikipediaTitle": "Kawanishi H8K",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Kawanishi H8K2 (Emily) flying boat.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "ki57",
+    "wikipediaTitle": "Mitsubishi Ki-57",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Mitsubishi Ki-57 Topsy wrecked.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "fuji-t1",
+    "wikipediaTitle": "Fuji T-1",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-1A (13610304925).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "introduced": "1960"
+    }
+  },
+  {
+    "id": "p2j",
+    "wikipediaTitle": "Kawasaki P-2J",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "turboprop",
+    "photo": "File:UP-2J.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "kawasaki-c1",
+    "wikipediaTitle": "Kawasaki C-1",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "jet",
+    "photo": "File:20181208 Kawasaki C-1 parked Naha Air Show 2018-3.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "mitsubishi-t2",
+    "wikipediaTitle": "Mitsubishi T-2",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:T-2 Misawa (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "mitsubishi-f1",
+    "wikipediaTitle": "Mitsubishi F-1",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:F-1 (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "kawasaki-t4",
+    "wikipediaTitle": "Kawasaki T-4",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:20171009133407!66-5748 Kawasaki T-4 Sotai Shireibu (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "oh1",
+    "wikipediaTitle": "Kawasaki OH-1",
+    "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:JGSDF OH-1 20120108-02.JPG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "mitsubishi-f2",
+    "wikipediaTitle": "Mitsubishi F-2",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:JASDF F-2 formation flight.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "fuji-t7",
+    "wikipediaTitle": "Fuji T-7",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "turboprop",
+    "photo": "File:JASDF Fuji T-7 (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "us2",
+    "wikipediaTitle": "ShinMaywa US-2",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "turboprop",
+    "photo": "File:ShinMaywa US-2 at Andersen during Cope North 22.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "kawasaki-p1",
+    "wikipediaTitle": "Kawasaki P-1",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "jet",
+    "photo": "File:JMSDF P-1 patrol aircraft participating in RIMPAC 2022.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "a5m",
+    "wikipediaTitle": "Mitsubishi A5M",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:A5M Claude.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
   }
 ]

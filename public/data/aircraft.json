@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-17T16:29:37.955Z",
-  "count": 280,
+  "generatedAt": "2026-10-18T17:07:40.775Z",
+  "count": 324,
   "aircraft": [
     {
       "id": "a380",
@@ -9597,7 +9597,7 @@
         "originalWidth": 550,
         "originalHeight": 437,
         "mime": "image/jpeg",
-        "author": "Unknown authorUnknown author",
+        "author": "Unknown author",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
@@ -9605,9 +9605,9 @@
         "caption": "Consolidated PT-1 \"Trusty\" primary trainer of the U.S. Army Air Service.",
         "dateTaken": "1920sdate QS:P,+1920-00-00T00:00:00Z/8",
         "chosenFrom": "seed",
-        "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-17T16:29:30.048Z",
+      "retrievedAt": "2026-10-18T17:03:59.983Z",
       "overridden": [
         "countryOfOrigin"
       ]
@@ -9652,7 +9652,7 @@
         "originalWidth": 750,
         "originalHeight": 536,
         "mime": "image/jpeg",
-        "author": "Unknown photographerUnknown photographer",
+        "author": "Unknown photographer",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
@@ -9660,9 +9660,9 @@
         "caption": "Boeing P-26 of the 19th Pursuit Squadron. Boeing P-26 Peashooters were introduced into the Army Air Corps in 1933. Ungainly and quaint to modern eyes, the P-26 actually represented very advanced technology for its day. It was the Army's first all-metal monoplane fighter, and its 600 hp engine gave i",
         "dateTaken": null,
         "chosenFrom": "seed",
-        "credit": "Unknown photographerUnknown photographer / Public domain / via Wikimedia Commons"
+        "credit": "Unknown photographer / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-17T16:26:58.510Z",
+      "retrievedAt": "2026-10-18T17:04:00.973Z",
       "overridden": [
         "introduced"
       ]
@@ -9866,7 +9866,7 @@
         "originalWidth": 12336,
         "originalHeight": 9504,
         "mime": "image/jpeg",
-        "author": "Unknown authorUnknown author",
+        "author": "Unknown author",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
@@ -9874,9 +9874,9 @@
         "caption": "A Royal Air Force Curtiss Mohawk Mk.IV fighter (s/n BB977) in India in January 1943. No 5 and No 155 squadrons RAF used the Mohawk in India in 1942/43.; Original caption: \"United States \"lend-lease\" program in eastern India. Lend-lease Mohawk fighters are readied for a take-off at an Indian air base",
         "dateTaken": "1943-01",
         "chosenFrom": "seed",
-        "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-17T16:27:01.169Z"
+      "retrievedAt": "2026-10-18T17:04:01.800Z"
     },
     {
       "id": "tbd",
@@ -10708,7 +10708,7 @@
         "originalWidth": 709,
         "originalHeight": 432,
         "mime": "image/jpeg",
-        "author": "Unknown authorUnknown author",
+        "author": "Unknown author",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
@@ -10716,9 +10716,9 @@
         "caption": "A Curtiss SB2C Helldiver in tricolour scheme and tail markings for Bombing Squadron 80 (VB-80), which operated off the aircraft carrier USS Hancock (CV-19), in February 1945.; This aircraft is the SB2C-5, BuNo 83589. It is flying with the Commemorative Air Force, based in Graham, Texas (USA).",
         "dateTaken": "Unknown date",
         "chosenFrom": "seed",
-        "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-17T16:27:14.672Z"
+      "retrievedAt": "2026-10-18T17:04:02.484Z"
     },
     {
       "id": "b24",
@@ -14899,6 +14899,2434 @@
         "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
       },
       "retrievedAt": "2026-10-17T16:28:33.785Z"
+    },
+    {
+      "id": "mitsubishi-1mf",
+      "name": "Mitsubishi 1MF",
+      "label": "Mitsubishi 1MF",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese carrier-based fighter",
+      "summary": "The Mitsubishi 1MF was a Japanese carrier fighter aircraft of the 1920s. Designed for the Mitsubishi Aircraft Company by the British aircraft designer Herbert Smith, the 1MF, also known as the Navy Type 10 Carrier Fighter, was operated by the Imperial Japanese Navy from 1923 to 1930.",
+      "role": "Carrier Fighter",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": "Herbert Smith",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1921",
+      "introduced": "1923",
+      "status": null,
+      "numberBuilt": 138,
+      "wikipedia": {
+        "title": "Mitsubishi 1MF",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_1MF",
+        "pageId": 12696858,
+        "revisionId": 1370474675
+      },
+      "wikidataId": "Q2629934",
+      "photo": {
+        "file": "assets/aircraft/mitsubishi-1mf.jpg",
+        "sourceFile": "File:Mitsubishi 1MF3A.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mitsubishi_1MF3A.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mitsubishi_1MF3A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mitsubishi_1MF3A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 437,
+        "originalWidth": 422,
+        "originalHeight": 192,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Mitsubishi 1MF3A",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:03.204Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "kawasaki-type88",
+      "name": "Kawasaki Army Type 88 Reconnaissance Aircraft",
+      "label": "Kawasaki Type 88",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "Japanese reconnaissance aircraft",
+      "summary": "The Kawasaki Army Type 88 Reconnaissance Aircraft was a Japanese single-engined biplane designed for Kawasaki by Richard Vogt. Originally known by its company designation KDA-2, it was accepted by the Imperial Japanese Army as the Type 88 Reconnaissance Aircraft. The Type 88 number was designated for the year the aircraft was accepted, which was the year 2588 in the Japanese imperial year calendar, or 1928 in the Gregorian calendar. The basic design was modified into the Type 88 Light Bomber that was used in combat over China in the Second Sino-Japanese War. The Type 88 was built in large numbers and remained in service until 1940.",
+      "role": "Reconnaissance and light bomber biplane",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": "Richard Vogt",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1927",
+      "introduced": "1928",
+      "status": null,
+      "numberBuilt": 1117,
+      "wikipedia": {
+        "title": "Kawasaki Army Type 88 Reconnaissance Aircraft",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_Army_Type_88_Reconnaissance_Aircraft",
+        "pageId": 16248009,
+        "revisionId": 1321126956
+      },
+      "wikidataId": "Q702586",
+      "photo": {
+        "file": "assets/aircraft/kawasaki-type88.jpg",
+        "sourceFile": "File:88shiki teisatuki.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:88shiki_teisatuki.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/88shiki_teisatuki.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/88shiki_teisatuki.jpg/960px-88shiki_teisatuki.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 508,
+        "originalWidth": 1249,
+        "originalHeight": 661,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "88式偵察機",
+        "dateTaken": "before 1945date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:03.969Z",
+      "overridden": [
+        "countryOfOrigin",
+        "introduced"
+      ]
+    },
+    {
+      "id": "ki27",
+      "name": "Nakajima Ki-27",
+      "label": "Nakajima Ki-27",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese fighter aircraft",
+      "summary": "The Nakajima Ki-27  is a fighter aircraft designed and produced by the Japanese manufacturer Nakajima Aircraft Company. Its Allied nickname was \"Nate\", although it was called \"Abdul\" in the \"China Burma India\" (CBI) theater by many post-war sources; Allied Intelligence had reserved that name for the nonexistent Mitsubishi Navy Type 97 fighter, expected to be the successor to the carrier-borne Type 96 with retractable landing gear and an enclosed cockpit.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1936-10-15",
+      "introduced": "1937",
+      "status": null,
+      "numberBuilt": 3400,
+      "wikipedia": {
+        "title": "Nakajima Ki-27",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-27",
+        "pageId": 2619844,
+        "revisionId": 1380830085
+      },
+      "wikidataId": "Q700685",
+      "photo": {
+        "file": "assets/aircraft/ki27.jpg",
+        "sourceFile": "File:Ki-27 2.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki-27_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ki-27_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ki-27_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 441,
+        "originalWidth": 847,
+        "originalHeight": 389,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "from Pl wiki",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:04.797Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "g3m",
+      "name": "Mitsubishi G3M",
+      "label": "Mitsubishi G3M",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "WWII-era medium bomber",
+      "summary": "The Mitsubishi G3M  was a Japanese bomber and transport aircraft used by the Imperial Japanese Navy Air Service (IJNAS) during World War II.",
+      "role": "Medium bomber/torpedo bomber",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1935-07",
+      "introduced": "1935",
+      "status": null,
+      "numberBuilt": 1048,
+      "wikipedia": {
+        "title": "Mitsubishi G3M",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_G3M",
+        "pageId": 3122287,
+        "revisionId": 1341571628
+      },
+      "wikidataId": "Q696356",
+      "photo": {
+        "file": "assets/aircraft/g3m.jpg",
+        "sourceFile": "File:G3M-37.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:G3M-37.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/G3M-37.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/G3M-37.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 454,
+        "originalWidth": 400,
+        "originalHeight": 189,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:05.590Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki21",
+      "name": "Mitsubishi Ki-21",
+      "label": "Mitsubishi Ki-21",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Japanese heavy bomber",
+      "summary": "The Mitsubishi Ki-21, formal designation \"Type 97 Heavy Bomber\"  was a Japanese heavy bomber during World War II. It began operations during the Second Sino-Japanese War participating in the Nomonhan Incident, and in the first stages of the Pacific War, including the Malayan, Burmese, Dutch East Indies and New Guinea Campaigns. It was also used to attack targets as far-flung as western China, India and northern Australia. The Allies designated it under the reporting names \"Sally\"/\"Gwen\".",
+      "role": "Heavy bomber",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1936-12-18",
+      "introduced": "1938",
+      "status": null,
+      "numberBuilt": "2,064 units (excluding Ki-57)",
+      "wikipedia": {
+        "title": "Mitsubishi Ki-21",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-21",
+        "pageId": 7365741,
+        "revisionId": 1373970418
+      },
+      "wikidataId": "Q1253358",
+      "photo": {
+        "file": "assets/aircraft/ki21.jpg",
+        "sourceFile": "File:Ki-21 97juubaku b.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki-21_97juubaku_b.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ki-21_97juubaku_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Ki-21_97juubaku_b.jpg/960px-Ki-21_97juubaku_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 584,
+        "originalWidth": 967,
+        "originalHeight": 588,
+        "mime": "image/jpeg",
+        "author": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "浜松で撮影された九七式重爆撃機",
+        "dateTaken": "before 1945date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。 / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:06.151Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "k5y",
+      "name": "Yokosuka K5Y",
+      "label": "Yokosuka K5Y",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "piston",
+      "description": "Japanese trainer aircraft",
+      "summary": "The Yokosuka K5Y  was a twin-seat unequal-span biplane trainer aircraft designed by the Japanese aviation manufacturer Kawanishi Aircraft Company and the Yokosuka Naval Air Technical Arsenal. It was flown by the Imperial Japanese Navy (IJN) during World War II. Due to its bright orange paint scheme, it earned the nickname \"aka-tombo\" or \"red dragonfly\", after a type of insect common throughout Japan. Its Allied reporting name was Willow.",
+      "role": "Intermediate trainer",
+      "manufacturer": [
+        "Imperial Japanese Naval Air Service"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1933",
+      "introduced": "1934",
+      "status": null,
+      "numberBuilt": 5768,
+      "wikipedia": {
+        "title": "Yokosuka K5Y",
+        "url": "https://en.wikipedia.org/wiki/Yokosuka_K5Y",
+        "pageId": 4316888,
+        "revisionId": 1371077419
+      },
+      "wikidataId": "Q288324",
+      "photo": {
+        "file": "assets/aircraft/k5y.jpg",
+        "sourceFile": "File:K5Y-93-2.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:K5Y-93-2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/K5Y-93-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/K5Y-93-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 499,
+        "originalWidth": 650,
+        "originalHeight": 338,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "93式中間練習機",
+        "dateTaken": "before 1945date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:06.995Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki43",
+      "name": "Nakajima Ki-43 Hayabusa",
+      "label": "Nakajima Ki-43 Hayabusa",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese WW2 fighter",
+      "summary": "The Nakajima Ki-43 Hayabusa , formal Japanese designation Army Type 1 Fighter  is a single-engine land-based tactical fighter designed and produced by the Japanese manufacturer Nakajima Aircraft Company. The Allied reporting name was \"Oscar\", but it was often called the \"Army Zero\" by American pilots because it bore a certain resemblance to the Mitsubishi A6M Zero, the Imperial Japanese Navy's counterpart to the Ki-43. It was the Imperial Japanese Army Air Service's (IJAAS) first all-metal enclosed cockpit aircraft with retractable landing gear.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1939-01",
+      "introduced": "1941-10",
+      "status": null,
+      "numberBuilt": 5919,
+      "wikipedia": {
+        "title": "Nakajima Ki-43 Hayabusa",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-43_Hayabusa",
+        "pageId": 584907,
+        "revisionId": 1378387995
+      },
+      "wikidataId": "Q700703",
+      "photo": {
+        "file": "assets/aircraft/ki43.jpg",
+        "sourceFile": "File:Wagner Book (16334919801) brightened, expanded.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wagner_Book_(16334919801)_brightened,_expanded.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wagner_Book_%2816334919801%29_brightened%2C_expanded.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wagner_Book_%2816334919801%29_brightened%2C_expanded.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 620,
+        "originalWidth": 650,
+        "originalHeight": 420,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Nakajima Ki-43-II Hayabusa (キ43-II「隼」), initially uploaded to commons by user Fæ: File:Wagner_Book_(16334919801).jpg This upload of the image has been brightened from the original and its borders artificially expanded.",
+        "dateTaken": "between 1941 and 1945date QS:P,+1941-00-00T00:00:00Z/8,P1319,+1941-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:08.103Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki44",
+      "name": "Nakajima Ki-44 Shōki",
+      "label": "Nakajima Ki-44 Shōki",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "1940 fighter aircraft family by Nakajima",
+      "summary": "The Nakajima Ki-44 Shōki was a single-seat fighter-interceptor which was designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Operated by the Imperial Japanese Army (IJA) from 1942 to 1945 during World War II, its official designation was Army Type 2 Single-Seat Fighter (二式単座戦闘機) and its Allied reporting name was Tojo. The name Shōki refers to Zhong Kui (鍾馗), a Taoist deity in the Chinese mythology, traditionally regarded as a vanquisher of ghosts and evil beings.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1940-08",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 1225,
+      "wikipedia": {
+        "title": "Nakajima Ki-44 Shōki",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-44_Sh%C5%8Dki",
+        "pageId": 1046353,
+        "revisionId": 1376113833
+      },
+      "wikidataId": "Q700727",
+      "photo": {
+        "file": "assets/aircraft/ki44.jpg",
+        "sourceFile": "File:Nakajima Ki-44-II Otsu at Clark 1945.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 924,
+        "originalHeight": 616,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Nakajima Ki-44-II Otsu at Clark Field 1945",
+        "dateTaken": "Unknown date",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:08.701Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki45",
+      "name": "Kawasaki Ki-45",
+      "label": "Kawasaki Ki-45",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese WW2 heavy fighter",
+      "summary": "The Kawasaki Ki-45 Toryū  is a two-seat, twin-engined, heavy fighter used by the Imperial Japanese Army in World War II. The army gave it the designation \"Type 2 Two-Seat Fighter\" ; the Allied reporting name was \"Nick\". Originally serving as a long-range escort-fighter, the design — as with most heavy fighters of the period — fell prey to smaller, lighter, more agile, single-engined fighters. As such, the Ki-45 instead served as a day and night interceptor and strike fighter.",
+      "role": "Heavy fighter; Interceptor; Night fighter; Escort fighter; Fighter-bomber/Strike fighter",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": "Takeo Doi",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1941-05",
+      "introduced": "1941-10",
+      "status": null,
+      "numberBuilt": 1701,
+      "wikipedia": {
+        "title": "Kawasaki Ki-45",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-45",
+        "pageId": 1443751,
+        "revisionId": 1378143630
+      },
+      "wikidataId": "Q700679",
+      "photo": {
+        "file": "assets/aircraft/ki45.jpg",
+        "sourceFile": "File:Ki 45 001.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki_45_001.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ki_45_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ki_45_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 452,
+        "originalWidth": 510,
+        "originalHeight": 240,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Kawasaki Ki-45 Sourced from:",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:09.911Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki61",
+      "name": "Kawasaki Ki-61",
+      "label": "Kawasaki Ki-61",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "WWII Japanese fighter aircraft",
+      "summary": "The Kawasaki Ki-61 Hien is a Japanese World War II fighter aircraft. Used by the Imperial Japanese Army Air Service, it was designated the \"Army Type 3 Fighter\" (三式戦闘機). Allied intelligence initially believed Ki-61s were Messerschmitt Bf 109s and later an Italian Macchi C.202, which led to the Allied reporting name of \"Tony\", assigned by the United States War Department. The design originated as a variant of the Kawasaki Ki-60, which never entered production. The Ki-61 became the only mass-produced Japanese fighter of the war to use a liquid-cooled inverted V engine. Over 3,000 Ki-61s were produced. Initial prototypes saw action over Yokohama during the Doolittle Raid on 18 April 1942, and continued to fly combat missions throughout the war.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": "Takeo Doi",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1941-12",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 3100,
+      "wikipedia": {
+        "title": "Kawasaki Ki-61",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-61",
+        "pageId": 585134,
+        "revisionId": 1372750752
+      },
+      "wikidataId": "Q700717",
+      "photo": {
+        "file": "assets/aircraft/ki61.jpg",
+        "sourceFile": "File:Kawasaki Ki-61-14.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ki-61-14.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kawasaki_Ki-61-14.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kawasaki_Ki-61-14.jpg/960px-Kawasaki_Ki-61-14.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 461,
+        "originalWidth": 2122,
+        "originalHeight": 1018,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:10.555Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki84",
+      "name": "Nakajima Ki-84 Hayate",
+      "label": "Nakajima Ki-84 Hayate",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese fighter aircraft",
+      "summary": "The Nakajima Ki-84 Hayate  is a single-seat fighter designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Flown by the Imperial Japanese Army Air Service (IJAAS) in the last two years of World War II, its service designation was Army Type 4 Fighter . The Allied reporting name for the type was \"Frank\". The Ki-84 is generally considered the best Japanese fighter to operate in large numbers during the conflict.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1943-03",
+      "introduced": "1944-03",
+      "status": "Retired",
+      "numberBuilt": 3514,
+      "wikipedia": {
+        "title": "Nakajima Ki-84 Hayate",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-84_Hayate",
+        "pageId": 1091403,
+        "revisionId": 1378784786
+      },
+      "wikidataId": "Q700719",
+      "photo": {
+        "file": "assets/aircraft/ki84.jpg",
+        "sourceFile": "File:The Nakajima Ki-84 Hayate additional prototype of the Army Air Force.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Nakajima_Ki-84_Hayate_additional_prototype_of_the_Army_Air_Force.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/The_Nakajima_Ki-84_Hayate_additional_prototype_of_the_Army_Air_Force.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Nakajima_Ki-84_Hayate_additional_prototype_of_the_Army_Air_Force.jpg/960px-The_Nakajima_Ki-84_Hayate_additional_prototype_of_the_Army_Air_Force.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 487,
+        "originalWidth": 1005,
+        "originalHeight": 510,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Nakajima Ki-84 Type 4 Hayate (1st additional prototype #124) of the Army Air Inspection Section, Imperial Japanese Army Air Force.",
+        "dateTaken": "1943",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:11.538Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki100",
+      "name": "Kawasaki Ki-100",
+      "label": "Kawasaki Ki-100",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese fighter aircraft",
+      "summary": "The Kawasaki Ki-100 (キ100) is a single-seat single-engine monoplane fighter aircraft used by the Imperial Japanese Army Air Service (IJAAS) during World War II. The Japanese Army designation was \"Type 5 Fighter\" . It did not have an Allied code name.",
+      "role": "Fighter/Interceptor",
+      "manufacturer": [
+        "Kawasaki Motors"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1945-02-01",
+      "introduced": "1945-03",
+      "status": null,
+      "numberBuilt": 396,
+      "wikipedia": {
+        "title": "Kawasaki Ki-100",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100",
+        "pageId": 839172,
+        "revisionId": 1345569688
+      },
+      "wikidataId": "Q700695",
+      "photo": {
+        "file": "assets/aircraft/ki100.jpg",
+        "sourceFile": "File:Kawasaki Ki-100-I-Ko Army Fighter Type 5 Mark 1a of 59th Sentai 2nd Chutai in August 1945 in Japan.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawasaki_Ki-100-I-Ko_Army_Fighter_Type_5_Mark_1a_of_59th_Sentai_2nd_Chutai_in_August_1945_in_Japan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kawasaki_Ki-100-I-Ko_Army_Fighter_Type_5_Mark_1a_of_59th_Sentai_2nd_Chutai_in_August_1945_in_Japan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Kawasaki_Ki-100-I-Ko_Army_Fighter_Type_5_Mark_1a_of_59th_Sentai_2nd_Chutai_in_August_1945_in_Japan.jpg/960px-Kawasaki_Ki-100-I-Ko_Army_Fighter_Type_5_Mark_1a_of_59th_Sentai_2nd_Chutai_in_August_1945_in_Japan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 372,
+        "originalWidth": 1361,
+        "originalHeight": 527,
+        "mime": "image/jpeg",
+        "author": "unknown official photographer",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Kawasaki Ki-100-I-Ko Army Fighter Type 5 Mark 1a of 59th Sentai 2nd Chutai in August 1945 in Japan",
+        "dateTaken": "1945-08-29",
+        "chosenFrom": "seed",
+        "credit": "unknown official photographer / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:12.641Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "n1k",
+      "name": "Kawanishi N1K",
+      "label": "Kawanishi N1K",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese floatplane/land-based fighter",
+      "summary": "The Kawanishi N1K was a fighter aircraft designed and produced by the Japanese aircraft manufacturer Kawanishi Aircraft Company. Operated by the Imperial Japanese Navy (IJN), there were two distinct variants; the N1K Kyōfū  floatplane and the land-based N1K-J Shiden .",
+      "role": "Fighter",
+      "manufacturer": [
+        "Kawanishi Aircraft Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1942-12-27",
+      "introduced": "1943",
+      "status": null,
+      "numberBuilt": 1435,
+      "wikipedia": {
+        "title": "Kawanishi N1K",
+        "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K",
+        "pageId": 577353,
+        "revisionId": 1368911029
+      },
+      "wikidataId": "Q843413",
+      "photo": {
+        "file": "assets/aircraft/n1k.jpg",
+        "sourceFile": "File:Kawanishi N1K2-J 050317-F-1234P-015.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawanishi_N1K2-J_050317-F-1234P-015.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Kawanishi_N1K2-J_050317-F-1234P-015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Kawanishi_N1K2-J_050317-F-1234P-015.jpg/960px-Kawanishi_N1K2-J_050317-F-1234P-015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 628,
+        "originalWidth": 1722,
+        "originalHeight": 1126,
+        "mime": "image/jpeg",
+        "author": "USAF",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Kawanishi N1K2-Ja Shiden Kai (\"George\") prior to restoration at the National Museum of the United States Air Force.",
+        "dateTaken": "2005-03-17",
+        "chosenFrom": "seed",
+        "credit": "USAF / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:13.581Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "j2m",
+      "name": "Mitsubishi J2M Raiden",
+      "label": "Mitsubishi J2M Raiden",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese land-based interceptor aircraft",
+      "summary": "The Mitsubishi J2M Raiden is a single-engined, land-based fighter aircraft used by the Imperial Japanese Navy Air Service in World War II. Its Allied reporting name was Jack.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1942-03-20",
+      "introduced": "1942-12",
+      "status": null,
+      "numberBuilt": 621,
+      "wikipedia": {
+        "title": "Mitsubishi J2M Raiden",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_J2M_Raiden",
+        "pageId": 1049010,
+        "revisionId": 1376112374
+      },
+      "wikidataId": "Q1131578",
+      "photo": {
+        "file": "assets/aircraft/j2m.jpg",
+        "sourceFile": "File:Mitsubishi J2M.JPG",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mitsubishi_J2M.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mitsubishi_J2M.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mitsubishi_J2M.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 468,
+        "originalWidth": 400,
+        "originalHeight": 195,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Prototype Mitsubishi J2M3 Raiden 21 from Yokosuka Naval Air Technical Arsenal testing unit en:ja:??:Mitsubishi J2M.jpg",
+        "dateTaken": "1943",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:14.243Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "j1n",
+      "name": "Nakajima J1N Gekkō",
+      "label": "Nakajima J1N Gekkō",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Fighter aircraft in Japan",
+      "summary": "The Nakajima J1N Gekkō  is a twin-engined heavy fighter designed and produced by the Nakajima Aircraft Company. It was assigned the Allied reporting name Irving.",
+      "role": "Heavy fighter, night fighter",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1941-05",
+      "introduced": "1942",
+      "status": "Retired",
+      "numberBuilt": 479,
+      "wikipedia": {
+        "title": "Nakajima J1N Gekkō",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_J1N_Gekk%C5%8D",
+        "pageId": 1131638,
+        "revisionId": 1376781159
+      },
+      "wikidataId": "Q673413",
+      "photo": {
+        "file": "assets/aircraft/j1n.jpg",
+        "sourceFile": "File:J1N-7s.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:J1N-7s.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/J1N-7s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/960px-J1N-7s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 645,
+        "originalWidth": 1920,
+        "originalHeight": 1289,
+        "mime": "image/jpeg",
+        "author": "SDASM Archives",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Catalog #: 01_00086143 Title: Nakajima, J1N, Gekko \"\"moonlight\"\" Irving \"\"Navy Night Fighter\"\" Corporation Name: Nakajima Official Nickname: Gekko \"\"moonlight\"\" Irving \"\"Navy Night Fighter\"\" Additional Information: Japan Designation: J1N Tags: Nakajima, J1N, Gekko \"\"moonlight\"\" Irving \"\"Navy Night F",
+        "dateTaken": "circa 1940s",
+        "chosenFrom": "seed",
+        "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:15.031Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "d3a",
+      "name": "Aichi D3A",
+      "label": "Aichi D3A",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "Imperial Japanese carrier-borne dive bomber",
+      "summary": "The Aichi D3A is a carrier-borne dive bomber designed and produced by Aichi Kokuki KK. It was the primary dive bomber of the Imperial Japanese Navy (IJN) during World War II and thus was involved in almost all IJN actions during the conflict, including the attack on Pearl Harbor. The type sank more Allied warships than any other Axis aircraft.",
+      "role": "Carrier-based dive bomber",
+      "manufacturer": [
+        "Aichi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1938-01",
+      "introduced": "1940",
+      "status": null,
+      "numberBuilt": 1495,
+      "wikipedia": {
+        "title": "Aichi D3A",
+        "url": "https://en.wikipedia.org/wiki/Aichi_D3A",
+        "pageId": 176556,
+        "revisionId": 1379358978
+      },
+      "wikidataId": "Q403668",
+      "photo": {
+        "file": "assets/aircraft/d3a.jpg",
+        "sourceFile": "File:D3A1 Akagi.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:D3A1_Akagi.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/D3A1_Akagi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/D3A1_Akagi.jpg/960px-D3A1_Akagi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 390,
+        "originalWidth": 977,
+        "originalHeight": 397,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Aichi D3A1 from carrier Akagi.",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:16.070Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "d4y",
+      "name": "Yokosuka D4Y Suisei",
+      "label": "Yokosuka D4Y Suisei",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "Japanese carrier-based dive bomber",
+      "summary": "The Yokosuka D4Y Suisei  is a twin-seat carrier-based dive bomber developed by the Japanese defence manufacturer Yokosuka Naval Air Technical Arsenal.\nOperated by the Imperial Japanese Navy (IJN) throughout World War II, it was assigned the Allied reporting name Judy.",
+      "role": "Dive bomber, reconnaissance, night fighter",
+      "manufacturer": [
+        "Aichi",
+        "Nagoya",
+        "Yokosuka Naval Air Technical Arsenal",
+        "Imperial Japanese Navy"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1940-12",
+      "introduced": "1942",
+      "status": "Retired",
+      "numberBuilt": 2038,
+      "wikipedia": {
+        "title": "Yokosuka D4Y Suisei",
+        "url": "https://en.wikipedia.org/wiki/Yokosuka_D4Y_Suisei",
+        "pageId": 530104,
+        "revisionId": 1380346946
+      },
+      "wikidataId": "Q247036",
+      "photo": {
+        "file": "assets/aircraft/d4y.jpg",
+        "sourceFile": "File:Yokosuka D4Y3 in the field.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yokosuka_D4Y3_in_the_field.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Yokosuka_D4Y3_in_the_field.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yokosuka_D4Y3_in_the_field.jpg/960px-Yokosuka_D4Y3_in_the_field.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 429,
+        "originalWidth": 1794,
+        "originalHeight": 802,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Yokosuka D4Y3 \"Suisei\". www.pacific-storm.net",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:17.380Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "b5n",
+      "name": "Nakajima B5N",
+      "label": "Nakajima B5N",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "Japanese attack aircraft family",
+      "summary": "The Nakajima B5N was a carrier-based torpedo bomber designed and produced by the Nakajima Aircraft Company. Operated by the Imperial Japanese Navy Air Service (IJNAS) during the Pacific War, it was the standard torpedo bomber of the service throughout much of the conflict. It also served as a high level bomber.",
+      "role": "Carrier-based torpedo bomber/high-level bomber",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1937",
+      "introduced": "1937",
+      "status": "Retired",
+      "numberBuilt": 1149,
+      "wikipedia": {
+        "title": "Nakajima B5N",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_B5N",
+        "pageId": 538451,
+        "revisionId": 1370528389
+      },
+      "wikidataId": "Q696128",
+      "photo": {
+        "file": "assets/aircraft/b5n.jpg",
+        "sourceFile": "File:Nakajima B5N.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nakajima_B5N.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Nakajima_B5N.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nakajima_B5N.jpg/960px-Nakajima_B5N.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 665,
+        "originalWidth": 1920,
+        "originalHeight": 1330,
+        "mime": "image/jpeg",
+        "author": "SDASM",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Catalog #: 01_00086081 Title: Nakajima, B5N, Kate Corporation Name: Nakajima Official Nickname: Kate Additional Information: Japan Designation: B5N Tags: Nakajima, B5N, Kate Repository: San Diego Air and Space Museum Archive",
+        "dateTaken": "2014-06-09 19:19:00",
+        "chosenFrom": "seed",
+        "credit": "SDASM / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:18.062Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "b6n",
+      "name": "Nakajima B6N Tenzan",
+      "label": "Nakajima B6N Tenzan",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "1941 torpedo bomber family by Nakajima",
+      "summary": "The Nakajima B6N Tenzan  was the Imperial Japanese Navy's standard carrier-borne torpedo bomber during the final years of World War II and the successor to the Nakajima B5N. Due to its protracted development, a shortage of experienced pilots and the United States Navy's achievement of air superiority by the time of its introduction, the B6N was never able to fully demonstrate its combat potential.",
+      "role": "Torpedo bomber",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1941-03-14",
+      "introduced": "1943",
+      "status": null,
+      "numberBuilt": 1268,
+      "wikipedia": {
+        "title": "Nakajima B6N Tenzan",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_B6N_Tenzan",
+        "pageId": 540420,
+        "revisionId": 1369068735
+      },
+      "wikidataId": "Q696483",
+      "photo": {
+        "file": "assets/aircraft/b6n.jpg",
+        "sourceFile": "File:B6N in flight.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:B6N_in_flight.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/B6N_in_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/B6N_in_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 339,
+        "originalWidth": 320,
+        "originalHeight": 113,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:18.760Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "b7a",
+      "name": "Aichi B7A Ryūsei",
+      "label": "Aichi B7A Ryūsei",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "Japanese carrier-borne torpedo and dive bomber",
+      "summary": "The Aichi B7A Ryūsei , was a large carrier-borne torpedo-dive bomber designed and produced by Japanese aircraft manufacturer Aichi Kokuki. It was operated by the Imperial Japanese Navy Air Service (IJNAS) during the Second World War.",
+      "role": "Torpedo bomber and Dive bomber",
+      "manufacturer": [
+        "Aichi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1942-05",
+      "introduced": "1944",
+      "status": null,
+      "numberBuilt": 114,
+      "wikipedia": {
+        "title": "Aichi B7A Ryūsei",
+        "url": "https://en.wikipedia.org/wiki/Aichi_B7A_Ry%C5%ABsei",
+        "pageId": 514297,
+        "revisionId": 1376262123
+      },
+      "wikidataId": "Q403645",
+      "photo": {
+        "file": "assets/aircraft/b7a.jpg",
+        "sourceFile": "File:Aichi B7A Ryusei.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aichi_B7A_Ryusei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Aichi_B7A_Ryusei.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Aichi_B7A_Ryusei.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 437,
+        "originalWidth": 873,
+        "originalHeight": 397,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Aichi B7A Ryusei Grace",
+        "dateTaken": "between 1941 and 1945date QS:P,+1941-00-00T00:00:00Z/8,P1319,+1941-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:19.532Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki48",
+      "name": "Kawasaki Ki-48",
+      "label": "Kawasaki Ki-48",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Japanese light bomber",
+      "summary": "The Kawasaki Ki-48, is a Japanese twin-engine light bomber that was used during World War II. Its Allied reporting name was \"Lily\".",
+      "role": "Light bomber",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": "Takeo Doi",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1939-07",
+      "introduced": "1940",
+      "status": "Retired",
+      "numberBuilt": 1977,
+      "wikipedia": {
+        "title": "Kawasaki Ki-48",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-48",
+        "pageId": 11126731,
+        "revisionId": 1313801504
+      },
+      "wikidataId": "Q703175",
+      "photo": {
+        "file": "assets/aircraft/ki48.jpg",
+        "sourceFile": "File:Ki-48 99siki-souhatu-keibaku.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki-48_99siki-souhatu-keibaku.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ki-48_99siki-souhatu-keibaku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ki-48_99siki-souhatu-keibaku.jpg/960px-Ki-48_99siki-souhatu-keibaku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 437,
+        "originalWidth": 1104,
+        "originalHeight": 503,
+        "mime": "image/jpeg",
+        "author": "『同盟グラフ』 1944年1月号",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "飛行第34連隊所属の、川崎 九九式双発軽爆撃機（キ48）",
+        "dateTaken": "before 1944date QS:P,+1944-00-00T00:00:00Z/7,P1326,+1944-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "『同盟グラフ』 1944年1月号 / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:20.283Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki49",
+      "name": "Nakajima Ki-49 Donryū",
+      "label": "Nakajima Ki-49 Donryū",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Bomber aircraft in Japan",
+      "summary": "The Nakajima Ki-49 Donryū was a twin-engine heavy bomber designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Operated by the Imperial Japanese Army Air Service (IJAAS) as the Army Type 100 Heavy Bomber Model 1, it was known to the Allied by the reporting name \"Helen\".",
+      "role": "Heavy bomber",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": "Yasushi Koyama",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1939-08",
+      "introduced": "1941",
+      "status": "Retired",
+      "numberBuilt": 819,
+      "wikipedia": {
+        "title": "Nakajima Ki-49 Donryū",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-49_Donry%C5%AB",
+        "pageId": 10104114,
+        "revisionId": 1376843516
+      },
+      "wikidataId": "Q1393091",
+      "photo": {
+        "file": "assets/aircraft/ki49.jpg",
+        "sourceFile": "File:Ki-49-i letecka skola hamamacu 1chutai.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki-49-i_letecka_skola_hamamacu_1chutai.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ki-49-i_letecka_skola_hamamacu_1chutai.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ki-49-i_letecka_skola_hamamacu_1chutai.jpg/960px-Ki-49-i_letecka_skola_hamamacu_1chutai.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 442,
+        "originalWidth": 1625,
+        "originalHeight": 748,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Ki-49 in Hamamatsu Army Heavy Bomber School",
+        "dateTaken": "2013-07-13 17:45:53",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:21.159Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki67",
+      "name": "Mitsubishi Ki-67",
+      "label": "Mitsubishi Ki-67",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Japanese twin-engine medium bomber",
+      "summary": "The Mitsubishi Ki-67 Hiryū , Allied reporting name \"Peggy\", was a twin-engine bomber produced by Mitsubishi Aircraft Company and used by the Imperial Japanese Army Air Service and Imperial Japanese Navy Air Service in World War II. While its original official designation was \"Army Type 4 Heavy Bomber\" , in all of its key parameters, the Ki-67 was similar to the contemporaneous medium bombers of other countries. Japanese Navy variants included the P2M and Q2M.",
+      "role": "Medium bomber",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1942-12-27",
+      "introduced": "1944",
+      "status": "Retired",
+      "numberBuilt": 767,
+      "wikipedia": {
+        "title": "Mitsubishi Ki-67",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-67",
+        "pageId": 1070917,
+        "revisionId": 1367491096
+      },
+      "wikidataId": "Q696528",
+      "photo": {
+        "file": "assets/aircraft/ki67.jpg",
+        "sourceFile": "File:MitsubishiKi67.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MitsubishiKi67.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/MitsubishiKi67.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/MitsubishiKi67.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 348,
+        "originalWidth": 452,
+        "originalHeight": 164,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:21.953Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "g4m",
+      "name": "Mitsubishi G4M",
+      "label": "Mitsubishi G4M",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Twin-engine, land-based medium bomber (1940–1945)",
+      "summary": "The Mitsubishi G4M was a twin-engine, land-based medium bomber manufactured by the Mitsubishi Aircraft Company, a part of Mitsubishi Heavy Industries, and operated by the Air Service (IJNAS) of the Imperial Japanese Navy from 1940 to 1945. Its official designation was Mitsubishi Navy Type 1 attack bomber  and was commonly referred to by Japanese Navy pilots as \"Hamaki\"  due to the cylindrical shape of its fuselage and its tendency to ignite after a hit. The Allied reporting name was \"Betty\".",
+      "role": "Medium bomber/Torpedo bomber",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": "Kiro Honjo",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1940",
+      "introduced": "1941-04-02",
+      "status": null,
+      "numberBuilt": 2446,
+      "wikipedia": {
+        "title": "Mitsubishi G4M",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_G4M",
+        "pageId": 579304,
+        "revisionId": 1377929011
+      },
+      "wikidataId": "Q697583",
+      "photo": {
+        "file": "assets/aircraft/g4m.jpg",
+        "sourceFile": "File:G4M-45s.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:G4M-45s.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/G4M-45s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/G4M-45s.jpg/960px-G4M-45s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 297,
+        "originalWidth": 1005,
+        "originalHeight": 311,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:22.980Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "p1y",
+      "name": "Yokosuka P1Y Ginga",
+      "label": "Yokosuka P1Y Ginga",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Japanese attack bomber aircraft",
+      "summary": "The Yokosuka P1Y Ginga  is a twin-engine, land-based bomber that was designed by the Yokosuka Naval Air Technical Arsenal. Primarily produced by Nakajima and Kawanishi and flown by the Japanese Imperial Navy during the latter half of the Pacific War, it received the Allied reporting name “Frances”.",
+      "role": "Attack bomber",
+      "manufacturer": [
+        "Yokosuka (3 × prototype only)",
+        "Nakajima",
+        "Kawanishi (P1Y2 series only)"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1943-08",
+      "introduced": "1944-10",
+      "status": null,
+      "numberBuilt": 1098,
+      "wikipedia": {
+        "title": "Yokosuka P1Y Ginga",
+        "url": "https://en.wikipedia.org/wiki/Yokosuka_P1Y_Ginga",
+        "pageId": 1151926,
+        "revisionId": 1373599175
+      },
+      "wikidataId": "Q391456",
+      "photo": {
+        "file": "assets/aircraft/p1y.jpg",
+        "sourceFile": "File:Yokosuka P1Y Kyokkou or Ginga.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yokosuka_P1Y_Kyokkou_or_Ginga.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Yokosuka_P1Y_Kyokkou_or_Ginga.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Yokosuka_P1Y_Kyokkou_or_Ginga.jpg/960px-Yokosuka_P1Y_Kyokkou_or_Ginga.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 510,
+        "originalWidth": 1005,
+        "originalHeight": 534,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:24.113Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki46",
+      "name": "Mitsubishi Ki-46",
+      "label": "Mitsubishi Ki-46",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "Aircraft in Japan",
+      "summary": "The Mitsubishi Ki-46 is a twin-engine reconnaissance aircraft that was used by the Imperial Japanese Army in World War II. Its Army Shiki designation was Type 100 Command Reconnaissance Aircraft (一〇〇式司令部偵察機); the Allied brevity code name was \"Dinah\".",
+      "role": "Twin-engine reconnaissance aircraft",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1939-11",
+      "introduced": "1941-07",
+      "status": null,
+      "numberBuilt": 1742,
+      "wikipedia": {
+        "title": "Mitsubishi Ki-46",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
+        "pageId": 1070898,
+        "revisionId": 1374100197
+      },
+      "wikidataId": "Q714973",
+      "photo": {
+        "file": "assets/aircraft/ki46.jpg",
+        "sourceFile": "File:Ki-46 100sitei.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ki-46_100sitei.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ki-46_100sitei.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ki-46_100sitei.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 627,
+        "originalWidth": 756,
+        "originalHeight": 494,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "一〇〇式司令部偵察機、下志津陸軍飛行学校の2型「リ」号。",
+        "dateTaken": "before 1945date QS:P,+1945-00-00T00:00:00Z/7,P1326,+1945-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:24.901Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "c6n",
+      "name": "Nakajima C6N Saiun",
+      "label": "Nakajima C6N Saiun",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "Japanese carrier-based reconnaissance aircraft",
+      "summary": "The Nakajima C6N Saiun is a carrier-based reconnaissance aircraft designed and produced by the Japanese aviation manufacturer Nakajima Aircraft Company. Flown by the Imperial Japanese Navy Air Service (IJNAS) during World War II, the Allied reporting name was Myrt. A relatively advanced design for its time, it was the fastest carrier-based aircraft to under service by Japan during the conflict.",
+      "role": "Carrier-based reconnaissance aircraft",
+      "manufacturer": [
+        "Nakajima"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1943-05-15",
+      "introduced": "1944",
+      "status": null,
+      "numberBuilt": 463,
+      "wikipedia": {
+        "title": "Nakajima C6N Saiun",
+        "url": "https://en.wikipedia.org/wiki/Nakajima_C6N_Saiun",
+        "pageId": 1160838,
+        "revisionId": 1370973670
+      },
+      "wikidataId": "Q650283",
+      "photo": {
+        "file": "assets/aircraft/c6n.jpg",
+        "sourceFile": "File:Nakajima C6N Saiun (Painted Cloud), Allied reporting name \"Myrt\".jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nakajima_C6N_Saiun_(Painted_Cloud),_Allied_reporting_name_%22Myrt%22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Nakajima_C6N_Saiun_%28Painted_Cloud%29%2C_Allied_reporting_name_%22Myrt%22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nakajima_C6N_Saiun_%28Painted_Cloud%29%2C_Allied_reporting_name_%22Myrt%22.jpg/960px-Nakajima_C6N_Saiun_%28Painted_Cloud%29%2C_Allied_reporting_name_%22Myrt%22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 632,
+        "originalWidth": 1920,
+        "originalHeight": 1264,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Nakajima C6N Saiun (Painted Cloud), Allied reporting name \"Myrt\" reconnaissance aircraft.",
+        "dateTaken": "1945",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:25.452Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "e13a",
+      "name": "Aichi E13A",
+      "label": "Aichi E13A",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "Japanese reconnaissance floatplane",
+      "summary": "The Aichi E13A is a long-range reconnaissance seaplane designed and produced by the Japanese aviation company Aichi Kokuki KK. The Imperial Japanese Navy (IJN) designation was \"Navy Type 0 Reconnaissance Seaplane\" (零式水上偵察機).",
+      "role": "Reconnaissance floatplane",
+      "manufacturer": [
+        "Aichi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1939",
+      "introduced": "1941",
+      "status": null,
+      "numberBuilt": 1418,
+      "wikipedia": {
+        "title": "Aichi E13A",
+        "url": "https://en.wikipedia.org/wiki/Aichi_E13A",
+        "pageId": 2921825,
+        "revisionId": 1370143738
+      },
+      "wikidataId": "Q210338",
+      "photo": {
+        "file": "assets/aircraft/e13a.jpg",
+        "sourceFile": "File:E13A-3s.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:E13A-3s.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/E13A-3s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/E13A-3s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 492,
+        "originalWidth": 939,
+        "originalHeight": 481,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:26.117Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "f1m",
+      "name": "Mitsubishi F1M",
+      "label": "Mitsubishi F1M",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "Japanese reconnaissance floatplane",
+      "summary": "The Mitsubishi F1M is a Japanese observation seaplane of World War II. It was the last biplane type of the Imperial Japanese Navy, with 944 built between 1936 and 1944. The Navy designation was \"Type Zero Observation Seaplane\" (零式水上観測機).",
+      "role": "Reconnaissance floatplane",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1936-06",
+      "introduced": "1941",
+      "status": "Retired",
+      "numberBuilt": 1148,
+      "wikipedia": {
+        "title": "Mitsubishi F1M",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_F1M",
+        "pageId": 583292,
+        "revisionId": 1332344832
+      },
+      "wikidataId": "Q218387",
+      "photo": {
+        "file": "assets/aircraft/f1m.jpg",
+        "sourceFile": "File:F1m 00637 2g.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:F1m_00637_2g.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/F1m_00637_2g.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/F1m_00637_2g.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 529,
+        "originalWidth": 700,
+        "originalHeight": 386,
+        "mime": "image/jpeg",
+        "author": "Imperial Japanese Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Mitsubishi F1M \"Pete\" (零式水上観測機)",
+        "dateTaken": "Taken between 1940 and 1945",
+        "chosenFrom": "seed",
+        "credit": "Imperial Japanese Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:26.637Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "h6k",
+      "name": "Kawanishi H6K",
+      "label": "Kawanishi H6K",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "piston",
+      "description": "Imperial Japanese flying boat",
+      "summary": "The Kawanishi H6K was a large maritime patrol flying boat designed and produced by the Japanese aviation manufacturer Kawanishi Aircraft Company. Flown by the Imperial Japanese Navy (IJN) during World War II, the service designed it \"Type 97 Large Flying Boat\" (九七式大型飛行艇) while the Allied reporting name for the type was Mavis. The British mistakenly identified this aircraft as the Kawanishi Navy 97 Mavis.",
+      "role": "Maritime patrol flying boat",
+      "manufacturer": [
+        "Kawanishi Aircraft Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1936-07-14",
+      "introduced": "1938-01",
+      "status": "Retired",
+      "numberBuilt": 215,
+      "wikipedia": {
+        "title": "Kawanishi H6K",
+        "url": "https://en.wikipedia.org/wiki/Kawanishi_H6K",
+        "pageId": 521586,
+        "revisionId": 1366372377
+      },
+      "wikidataId": "Q696488",
+      "photo": {
+        "file": "assets/aircraft/h6k.jpg",
+        "sourceFile": "File:KawanishiH6K.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:KawanishiH6K.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/KawanishiH6K.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/KawanishiH6K.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 768,
+        "originalHeight": 512,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Kawanishi H6K in flight. Note bomb rack with bombs on wing-brace.",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:27.264Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "h8k",
+      "name": "Kawanishi H8K",
+      "label": "Kawanishi H8K",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "piston",
+      "description": "Imperial Japanese Navy flying boat",
+      "summary": "The Kawanishi H8K was a large four-engined flying boat designed and produced by the Japanese aviation manufacturer Kawanishi. The Imperial Japanese Navy (IJN) designation was \"Type 2 Flying Boat\" ; it was also referred to as \"Type 2 Large-sized Flying Boat\" , or \"H2K flying boat\" . The Allied reporting name for the type was \"Emily\".",
+      "role": "Maritime patrol flying boat",
+      "manufacturer": [
+        "Kawanishi Aircraft Company"
+      ],
+      "designer": "Shizuo Kikuhara",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1941-01",
+      "introduced": "1942",
+      "status": "Retired",
+      "numberBuilt": 167,
+      "wikipedia": {
+        "title": "Kawanishi H8K",
+        "url": "https://en.wikipedia.org/wiki/Kawanishi_H8K",
+        "pageId": 521730,
+        "revisionId": 1373721465
+      },
+      "wikidataId": "Q696220",
+      "photo": {
+        "file": "assets/aircraft/h8k.jpg",
+        "sourceFile": "File:Kawanishi H8K2 (Emily) flying boat.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kawanishi_H8K2_(Emily)_flying_boat.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kawanishi_H8K2_%28Emily%29_flying_boat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kawanishi_H8K2_%28Emily%29_flying_boat.jpg/960px-Kawanishi_H8K2_%28Emily%29_flying_boat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 503,
+        "originalWidth": 4154,
+        "originalHeight": 2175,
+        "mime": "image/jpeg",
+        "author": "Max Smith",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Kawanishi H8K2 Type 2 flying boat at Kanoya Museum in Japan. It was codenamed Emily by allied forces. This example is manufacture No.426.",
+        "dateTaken": "2007-06",
+        "chosenFrom": "seed",
+        "credit": "Max Smith / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:28.167Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ki57",
+      "name": "Mitsubishi Ki-57",
+      "label": "Mitsubishi Ki-57",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "piston",
+      "description": "Japanese transport aircraft",
+      "summary": "The Mitsubishi Ki-57 was a Japanese passenger transport aircraft, developed from the Ki-21 bomber, during the early 1940s.",
+      "role": "Transport aircraft; Paratroop transport; Passenger aircraft",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1940-08",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 507,
+      "wikipedia": {
+        "title": "Mitsubishi Ki-57",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57",
+        "pageId": 3489462,
+        "revisionId": 1316597476
+      },
+      "wikidataId": "Q332039",
+      "photo": {
+        "file": "assets/aircraft/ki57.jpg",
+        "sourceFile": "File:Mitsubishi Ki-57 Topsy wrecked.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Ki-57_Topsy_wrecked.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Mitsubishi_Ki-57_Topsy_wrecked.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mitsubishi_Ki-57_Topsy_wrecked.jpg/960px-Mitsubishi_Ki-57_Topsy_wrecked.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 641,
+        "originalWidth": 2000,
+        "originalHeight": 1336,
+        "mime": "image/jpeg",
+        "author": "Charles M. Daniels",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Mitsubishi Ki-57 \"Topsy\" wrecked on Honshu, late 1945.",
+        "dateTaken": "Autumn 1945date QS:P,+1945-00-00T00:00:00Z/9,P4241,Q40720568",
+        "chosenFrom": "seed",
+        "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:28.688Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fuji-t1",
+      "name": "Fuji T-1",
+      "label": "Fuji T-1",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "jet",
+      "description": "Japanese jet trainer aircraft",
+      "summary": "The Fuji T-1 Hatsutaka was a jet-powered trainer aircraft designed and produced by the Japanese conglomerate Fuji Heavy Industries. It was Japan's first jet-powered trainer aircraft as well as its first to make use of a swept wing.",
+      "role": "Intermediate trainer aircraft",
+      "manufacturer": [
+        "Subaru Corporation"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1958-01-19",
+      "introduced": "1960",
+      "status": null,
+      "numberBuilt": 66,
+      "wikipedia": {
+        "title": "Fuji T-1",
+        "url": "https://en.wikipedia.org/wiki/Fuji_T-1",
+        "pageId": 1443798,
+        "revisionId": 1369476654
+      },
+      "wikidataId": "Q1473120",
+      "photo": {
+        "file": "assets/aircraft/fuji-t1.jpg",
+        "sourceFile": "File:T-1A (13610304925).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:T-1A_(13610304925).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/T-1A_%2813610304925%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/T-1A_%2813610304925%29.jpg/960px-T-1A_%2813610304925%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 560,
+        "originalWidth": 1364,
+        "originalHeight": 795,
+        "mime": "image/jpeg",
+        "author": "Rob Schleiffert from Holland",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "The Fuji T-1 looks like a two seat F-86 Sabre. This one was flying at Ashiya.",
+        "dateTaken": "1994-11",
+        "chosenFrom": "seed",
+        "credit": "Rob Schleiffert from Holland / CC BY-SA 2.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:29.577Z",
+      "overridden": [
+        "countryOfOrigin",
+        "introduced"
+      ]
+    },
+    {
+      "id": "p2j",
+      "name": "Kawasaki P-2J",
+      "label": "Kawasaki P-2J",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "turboprop",
+      "description": "Japanese maritime patrol aircraft",
+      "summary": "The Kawasaki P-2J is a maritime patrol and ASW aircraft developed for the Japan Maritime Self-Defense Force. A twin turboprop-powered version of the radial-engined P-2 Neptune, the P-2J was developed as an alternative to buying the larger and more expensive P-3 Orion, which would eventually replace the P-2J in the 1980s.",
+      "role": "ASW and maritime patrol aircraft",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1966-07-21",
+      "introduced": "1969",
+      "status": "out of service and production",
+      "numberBuilt": 83,
+      "wikipedia": {
+        "title": "Kawasaki P-2J",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_P-2J",
+        "pageId": 15470438,
+        "revisionId": 1294334610
+      },
+      "wikidataId": "Q3496462",
+      "photo": {
+        "file": "assets/aircraft/p2j.jpg",
+        "sourceFile": "File:UP-2J.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:UP-2J.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/UP-2J.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/UP-2J.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 561,
+        "originalWidth": 500,
+        "originalHeight": 292,
+        "mime": "image/jpeg",
+        "author": "Japan Maritime Self-Defense Force",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "UP-2J",
+        "dateTaken": "2016-05-17",
+        "chosenFrom": "seed",
+        "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:30.020Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "kawasaki-c1",
+      "name": "Kawasaki C-1",
+      "label": "Kawasaki C-1",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "jet",
+      "description": "Japanese military transport aircraft",
+      "summary": "The Kawasaki C-1 is a twin-engined short-range military transport aircraft developed and manufactured by the Japanese conglomerate Kawasaki Heavy Industries. It was solely used by the Japan Air Self-Defense Force (JASDF).",
+      "role": "Military transport aircraft",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1970-11-12",
+      "introduced": "1974-12",
+      "status": "Retired",
+      "numberBuilt": 31,
+      "wikipedia": {
+        "title": "Kawasaki C-1",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_C-1",
+        "pageId": 4115268,
+        "revisionId": 1378199497
+      },
+      "wikidataId": "Q1737305",
+      "photo": {
+        "file": "assets/aircraft/kawasaki-c1.jpg",
+        "sourceFile": "File:20181208 Kawasaki C-1 parked Naha Air Show 2018-3.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20181208_Kawasaki_C-1_parked_Naha_Air_Show_2018-3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/20181208_Kawasaki_C-1_parked_Naha_Air_Show_2018-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/20181208_Kawasaki_C-1_parked_Naha_Air_Show_2018-3.jpg/960px-20181208_Kawasaki_C-1_parked_Naha_Air_Show_2018-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 480,
+        "originalWidth": 5184,
+        "originalHeight": 2591,
+        "mime": "image/jpeg",
+        "author": "Balon Greyjoy",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Kawasaki C-1 parked at the Naha Air Show in 2018.",
+        "dateTaken": "2018-12-08 12:46:30",
+        "chosenFrom": "seed",
+        "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:30.672Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mitsubishi-t2",
+      "name": "Mitsubishi T-2",
+      "label": "Mitsubishi T-2",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "jet",
+      "description": "Japanese supersonic jet trainer aircraft",
+      "summary": "The Mitsubishi T-2 was a supersonic jet trainer aircraft designed and produced by the Japanese aerospace firm Mitsubishi. It was the first Japanese-developed aircraft to break the sound barrier.",
+      "role": "Trainer",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1971-07-20",
+      "introduced": "1975",
+      "status": null,
+      "numberBuilt": 90,
+      "wikipedia": {
+        "title": "Mitsubishi T-2",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_T-2",
+        "pageId": 563404,
+        "revisionId": 1377669044
+      },
+      "wikidataId": "Q1153321",
+      "photo": {
+        "file": "assets/aircraft/mitsubishi-t2.jpg",
+        "sourceFile": "File:T-2 Misawa (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:T-2_Misawa_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/T-2_Misawa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/T-2_Misawa_%28cropped%29.jpg/960px-T-2_Misawa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 590,
+        "originalWidth": 1317,
+        "originalHeight": 809,
+        "mime": "image/jpeg",
+        "author": "Rob Schleiffert",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Mitsubishi T-2",
+        "dateTaken": "2021-09-10",
+        "chosenFrom": "seed",
+        "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:31.247Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mitsubishi-f1",
+      "name": "Mitsubishi F-1",
+      "label": "Mitsubishi F-1",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Japanese supersonic strike/attack aircraft",
+      "summary": "The Mitsubishi F-1 is a single-seat twin-engine supersonic strike aircraft designed and produced by the Japanese conglomerate Mitsubishi Heavy Industries. It was Japan's first domestically developed supersonic combat aircraft.",
+      "role": "Attack aircraft",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1975-06-03",
+      "introduced": "1978-04",
+      "status": null,
+      "numberBuilt": 77,
+      "wikipedia": {
+        "title": "Mitsubishi F-1",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_F-1",
+        "pageId": 2050929,
+        "revisionId": 1372774503
+      },
+      "wikidataId": "Q904393",
+      "photo": {
+        "file": "assets/aircraft/mitsubishi-f1.jpg",
+        "sourceFile": "File:F-1 (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:F-1_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/F-1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/F-1_%28cropped%29.jpg/960px-F-1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 591,
+        "originalWidth": 1277,
+        "originalHeight": 786,
+        "mime": "image/jpeg",
+        "author": "Rob Schleiffert",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "A Mitsubishi F-1 of the JASDF landing at Misawa Air Base",
+        "dateTaken": "2018-07-14",
+        "chosenFrom": "seed",
+        "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:31.894Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "kawasaki-t4",
+      "name": "Kawasaki T-4",
+      "label": "Kawasaki T-4",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "jet",
+      "description": "Japanese jet trainer aircraft",
+      "summary": "The Kawasaki T-4 is a Japanese subsonic intermediate jet trainer aircraft developed and manufactured by the commercial conglomerate Kawasaki Heavy Industries. Its sole operator is the Japan Air Self-Defense Force (JASDF), in part due to historic restrictions on the exporting of military hardware. In addition to its primary training mission, the T-4 has been used by the JASDF's Blue Impulse aerobatic team as well as liaison duties with most fighter units. The first XT-4 prototype flew on 29 July 1985, while the first production aircraft was delivered during September 1988.",
+      "role": "Intermediate trainer aircraft",
+      "manufacturer": [
+        "Kawasaki Heavy Industries"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1985-07-29",
+      "introduced": "1988",
+      "status": "Active",
+      "numberBuilt": null,
+      "wikipedia": {
+        "title": "Kawasaki T-4",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_T-4",
+        "pageId": 1553362,
+        "revisionId": 1374419423
+      },
+      "wikidataId": "Q1152474",
+      "photo": {
+        "file": "assets/aircraft/kawasaki-t4.jpg",
+        "sourceFile": "File:20171009133407!66-5748 Kawasaki T-4 Sotai Shireibu (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20171009133407!66-5748_Kawasaki_T-4_Sotai_Shireibu_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/20171009133407%2166-5748_Kawasaki_T-4_Sotai_Shireibu_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/20171009133407%2166-5748_Kawasaki_T-4_Sotai_Shireibu_%28cropped%29.jpg/960px-20171009133407%2166-5748_Kawasaki_T-4_Sotai_Shireibu_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 608,
+        "originalWidth": 4043,
+        "originalHeight": 2561,
+        "mime": "image/jpeg",
+        "author": "Jerry Gunner",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Kawasaki T-4",
+        "dateTaken": "2010-11-04",
+        "chosenFrom": "seed",
+        "credit": "Jerry Gunner / CC BY-SA 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:32.548Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "oh1",
+      "name": "Kawasaki OH-1",
+      "label": "Kawasaki OH-1",
+      "group": "helicopter",
+      "use": "military",
+      "category": "attack-helicopter",
+      "engine": "turboshaft",
+      "description": "Japanese scout/observation helicopter",
+      "summary": "The Kawasaki OH-1 is a military scout/observation helicopter developed and manufactured by the Kawasaki Aerospace Company. The primary operator is the Japan Ground Self-Defense Force (JGSDF), who originally procured the OH-1 as a domestically produced successor to their existing OH-6D Loach fleet. The OH-1 has the distinction of being the first helicopter to be entirely produced in Japan.",
+      "role": "Scout/observation helicopter",
+      "manufacturer": [
+        "Kawasaki Heavy Industries",
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1996-08-06",
+      "introduced": "2000",
+      "status": "In service",
+      "numberBuilt": "38 as of 2013",
+      "wikipedia": {
+        "title": "Kawasaki OH-1",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_OH-1",
+        "pageId": 1944460,
+        "revisionId": 1357825690
+      },
+      "wikidataId": "Q1191374",
+      "photo": {
+        "file": "assets/aircraft/oh1.jpg",
+        "sourceFile": "File:JGSDF OH-1 20120108-02.JPG",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:JGSDF_OH-1_20120108-02.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/JGSDF_OH-1_20120108-02.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/JGSDF_OH-1_20120108-02.JPG/960px-JGSDF_OH-1_20120108-02.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 642,
+        "originalWidth": 2642,
+        "originalHeight": 1767,
+        "mime": "image/jpeg",
+        "author": "Los688",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "JGSDF OH-1,4th Anti Tank Helicopter Unit.Taken by Los688,in Narashino,Japan,at 08-Jan-2012,JGSDF 1st Airborne Brigade 2012 first drop manuver.PD-self ja:OH-1 2012年01月08日、第4対戦車ヘリコプター隊、習志野演習場で撮影。",
+        "dateTaken": "2012-01-08",
+        "chosenFrom": "seed",
+        "credit": "Los688 / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:33.392Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mitsubishi-f2",
+      "name": "Mitsubishi F-2",
+      "label": "Mitsubishi F-2",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Japanese supersonic jet fighter",
+      "summary": "The Mitsubishi F-2 is a multirole fighter that was derived from the General Dynamics F-16 Fighting Falcon, and manufactured by Mitsubishi Heavy Industries and Lockheed Martin for the Japan Air Self-Defense Force, with a 60/40 split in manufacturing between Japan and the United States. The basis of the F-2's design is the F-16C Block 40. Production started in 1996 and the first aircraft entered service in 2000.",
+      "role": "Multirole fighter",
+      "manufacturer": [
+        "Mitsubishi"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1995-10-07",
+      "introduced": "2000-09-25",
+      "status": "In service",
+      "numberBuilt": "98 (including 4 prototypes)",
+      "wikipedia": {
+        "title": "Mitsubishi F-2",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_F-2",
+        "pageId": 313936,
+        "revisionId": 1372774511
+      },
+      "wikidataId": "Q209480",
+      "photo": {
+        "file": "assets/aircraft/mitsubishi-f2.jpg",
+        "sourceFile": "File:JASDF F-2 formation flight.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:JASDF_F-2_formation_flight.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/JASDF_F-2_formation_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/JASDF_F-2_formation_flight.jpg/960px-JASDF_F-2_formation_flight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 1536,
+        "originalHeight": 1024,
+        "mime": "image/jpeg",
+        "author": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer)",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Two Mitsubishi F-2 fighter aircraft of the Japan Air Self-Defense Force (JASDF) flying in close formation above clouds. This image is a modified version of an official photograph released by the Ministry of Defense of Japan. The original image was published on a JASDF website calendar page (now unav",
+        "dateTaken": "2026-03-28",
+        "chosenFrom": "seed",
+        "credit": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer) / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:34.171Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fuji-t7",
+      "name": "Fuji T-7",
+      "label": "Fuji T-7",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "turboprop",
+      "description": "Japanese military trainer aircraft",
+      "summary": "The Fuji T-7 is a Japanese primary trainer aircraft built by Fuji Heavy Industries for the Japan Air Self-Defense Force. A development of Fuji's earlier T-3 trainer, it is a single-engined monoplane powered by a turboprop engine.",
+      "role": "Primary/Basic Trainer",
+      "manufacturer": [
+        "Subaru Corporation"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "2002-07-09",
+      "introduced": "2003-04",
+      "status": "Active",
+      "numberBuilt": 49,
+      "wikipedia": {
+        "title": "Fuji T-7",
+        "url": "https://en.wikipedia.org/wiki/Fuji_T-7",
+        "pageId": 17673942,
+        "revisionId": 1321129197
+      },
+      "wikidataId": "Q1143268",
+      "photo": {
+        "file": "assets/aircraft/fuji-t7.jpg",
+        "sourceFile": "File:JASDF Fuji T-7 (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:JASDF_Fuji_T-7_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/JASDF_Fuji_T-7_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/JASDF_Fuji_T-7_%28cropped%29.jpg/960px-JASDF_Fuji_T-7_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 1477,
+        "originalHeight": 985,
+        "mime": "image/jpeg",
+        "author": "mod.go.jp",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "JASDF Fuji T-7",
+        "dateTaken": "2018-04-03",
+        "chosenFrom": "seed",
+        "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:34.771Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "us2",
+      "name": "ShinMaywa US-2",
+      "label": "ShinMaywa US-2",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "turboprop",
+      "description": "Japanese amphibious aircraft",
+      "summary": "The ShinMaywa US-2 is a large Japanese short takeoff and landing turboprop amphibious aircraft that employs boundary layer control technology for enhanced STOL and stall suppression performance. Manufactured by seaplane specialist ShinMaywa, it was developed from the earlier Shin Meiwa US-1A seaplane, which was introduced in the 1970s.",
+      "role": "Air-sea rescue amphibian",
+      "manufacturer": [
+        "ShinMaywa"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "2003-12-18",
+      "introduced": "2007-03-30",
+      "status": "In production",
+      "numberBuilt": 8,
+      "wikipedia": {
+        "title": "ShinMaywa US-2",
+        "url": "https://en.wikipedia.org/wiki/ShinMaywa_US-2",
+        "pageId": 15410255,
+        "revisionId": 1379571692
+      },
+      "wikidataId": "Q1138466",
+      "photo": {
+        "file": "assets/aircraft/us2.jpg",
+        "sourceFile": "File:ShinMaywa US-2 at Andersen during Cope North 22.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:ShinMaywa_US-2_at_Andersen_during_Cope_North_22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/ShinMaywa_US-2_at_Andersen_during_Cope_North_22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/ShinMaywa_US-2_at_Andersen_during_Cope_North_22.jpg/960px-ShinMaywa_US-2_at_Andersen_during_Cope_North_22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 639,
+        "originalWidth": 4988,
+        "originalHeight": 3319,
+        "mime": "image/jpeg",
+        "author": "U.S. Air Force photo by Airman 1st Class Yosselin Perla",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Japan Maritime Self-Defense Force ShinMaywa US-2 is parked on the flight line during Cope North 22 at Andersen Air Force Base, Guam, Feb. 10, 2022. The ShinMaywa US-2 can land on sea or water. (U.S. Air Force photo by Airman 1st Class Yosselin Perla)",
+        "dateTaken": "2022-02-09 19:00:00",
+        "chosenFrom": "seed",
+        "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:35.543Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "kawasaki-p1",
+      "name": "Kawasaki P-1",
+      "label": "Kawasaki P-1",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "jet",
+      "description": "Japanese maritime patrol aircraft",
+      "summary": "The Kawasaki P-1, previously P-X and XP-1, is a Japanese maritime patrol aircraft developed and manufactured by Kawasaki Aerospace Company. Unlike many maritime patrol aircraft, which are typically conversions of civilian designs, the P-1 is a purpose-built maritime aircraft with no civil counterpart and was designed from the onset for the role. It has the distinction of being the first operational aircraft in the world to make use of a fly-by-optics control system.",
+      "role": "Maritime patrol aircraft",
+      "manufacturer": [
+        "Kawasaki Aerospace Systems Company"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "2007-09-28",
+      "introduced": "2013",
+      "status": "In service (36)",
+      "numberBuilt": null,
+      "wikipedia": {
+        "title": "Kawasaki P-1",
+        "url": "https://en.wikipedia.org/wiki/Kawasaki_P-1",
+        "pageId": 10061467,
+        "revisionId": 1380107266
+      },
+      "wikidataId": "Q1207431",
+      "photo": {
+        "file": "assets/aircraft/kawasaki-p1.jpg",
+        "sourceFile": "File:JMSDF P-1 patrol aircraft participating in RIMPAC 2022.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:JMSDF_P-1_patrol_aircraft_participating_in_RIMPAC_2022.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/JMSDF_P-1_patrol_aircraft_participating_in_RIMPAC_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/JMSDF_P-1_patrol_aircraft_participating_in_RIMPAC_2022.jpg/960px-JMSDF_P-1_patrol_aircraft_participating_in_RIMPAC_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 540,
+        "originalWidth": 4096,
+        "originalHeight": 2304,
+        "mime": "image/jpeg",
+        "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "RIMPAC2022に参加中の海上自衛隊P-1哨戒機",
+        "dateTaken": "Unknown date",
+        "chosenFrom": "seed",
+        "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:04:36.078Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "a5m",
+      "name": "Mitsubishi A5M",
+      "label": "Mitsubishi A5M",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese carrier-borne fighter aircraft",
+      "summary": "The Mitsubishi A5M, formal Japanese Navy designation Mitsubishi Navy Type 96 Carrier-based Fighter (九六式艦上戦闘機), experimental Navy designation Mitsubishi Navy Experimental 9-Shi Carrier Fighter, company designation Mitsubishi Ka-14, was a World War II-era Japanese carrier-based fighter aircraft. The Type number is from the last two digits of the Japanese imperial year 2596 (1936) when it entered service with the Imperial Navy.",
+      "role": "Carrier-based fighter",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": "Jiro Horikoshi",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1935-02-04",
+      "introduced": "1936",
+      "status": null,
+      "numberBuilt": 1094,
+      "wikipedia": {
+        "title": "Mitsubishi A5M",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_A5M",
+        "pageId": 525494,
+        "revisionId": 1358843129
+      },
+      "wikidataId": "Q429839",
+      "photo": {
+        "file": "assets/aircraft/a5m.jpg",
+        "sourceFile": "File:A5M Claude.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A5M_Claude.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A5M_Claude.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A5M_Claude.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 445,
+        "originalWidth": 421,
+        "originalHeight": 195,
+        "mime": "image/jpeg",
+        "author": "User Kgbudge on en.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Mitsubishi A5M, aka Mitsubishi Navy Type 96 Carrier-based Fighter, Mitsubishi Navy Experimental 9-Shi Carrier Fighter and company designation Mitsubishi Ka-14",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:07:40.199Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
     }
   ]
 }

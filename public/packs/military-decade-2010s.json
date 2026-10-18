@@ -31,8 +31,8 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
         },
         {
           "id": "kc46",
@@ -81,12 +81,12 @@
           "label": "Airbus A400M Atlas"
         },
         {
-          "id": "p8",
-          "label": "Boeing P-8 Poseidon"
-        },
-        {
           "id": "kawasaki-c2",
           "label": "Kawasaki C-2"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
         }
       ],
       "caption": "Brazilian military transport aircraft/tanker. First flew 2015.",
@@ -102,8 +102,8 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
         },
         {
           "id": "a400m",
@@ -256,8 +256,8 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
         },
         {
           "id": "a400m",
@@ -291,6 +291,31 @@
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
       "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2010s-kawasaki-p1",
+      "image": "kawasaki-p1.jpg",
+      "answer": "kawasaki-p1",
+      "options": [
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "c390",
+          "label": "Embraer C-390 Millennium"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 2007.",
+      "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
     }
   ]
 }
