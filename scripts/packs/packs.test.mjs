@@ -5,7 +5,8 @@ import { describe, it, expect } from "vitest";
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { validatePack } from "../../src/engine/pack.ts";
-import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders, overlaps } from "./generate.mjs";
+import { buildCatalog, buildExplore, buildPack, expandTaxonomy, foldSingleItemFolders, stringifyExplore } from "./generate.mjs";
+import { overlaps } from "../../src/engine/sets.ts";
 
 const root = resolve(import.meta.dirname, "../..");
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
@@ -93,6 +94,17 @@ describe("menu", () => {
     }
     const thin = [...items].filter(([folder, set]) => folder.includes(" › ") && set.size < 2).map(([folder]) => folder);
     expect(thin).toEqual([]);
+  });
+});
+
+describe("Explore data", () => {
+  it("has a thumbnail for every aircraft (run `npm run thumbs`)", () => {
+    const { aircraft: rows } = readJson("public/data/explore.json");
+    expect(rows.filter((a) => !existsSync(join(root, "public", a.thumb))).map((a) => a.id)).toEqual([]);
+  });
+
+  it("is up to date (run `npm run packs`)", () => {
+    expect(readFileSync(join(root, "public/data/explore.json"), "utf8")).toBe(stringifyExplore(buildExplore(taxonomy, aircraft)));
   });
 });
 

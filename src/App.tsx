@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import type { QuestionPack, RoundResult } from "./engine/types";
 import { loadPack, loadPackIndex } from "./engine/pack";
 import { buildCategoryTree, packPathIds } from "./engine/categories";
@@ -10,6 +10,12 @@ import { buildNameCatalog } from "./engine/names";
 import { entryKey, loadCatalog, type Catalog } from "./engine/collection";
 import { useCollection } from "./engine/useCollection";
 import { ColumnBrowser, type BrowserSelection } from "./components/ColumnBrowser";
+import { loadExplore, type ExploreData } from "./engine/explore";
+import { useWideScreen } from "./engine/useWideScreen";
+
+// The Explore chart (and React Flow with it) loads only where it's shown: on
+// wide screens. Phones use the folder browser and never download it.
+const Explore = lazy(() => import("./components/Explore").then((m) => ({ default: m.Explore })));
 import { Game } from "./components/Game";
 import { Summary } from "./components/Summary";
 import { Study } from "./components/Study";
@@ -33,6 +39,11 @@ export default function App() {
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
   const [catalog, setCatalog] = useState<Catalog | null>(null);
+  const [explore, setExplore] = useState<ExploreData | null>(null);
+  /** The landing view on wide screens: the Explore chart, or the folder browser. */
+  const [landing, setLanding] = useState<"explore" | "folders">("explore");
+  const wide = useWideScreen();
+  const showExplore = wide && explore !== null && landing === "explore";
   const collection = useCollection();
   /** Entries first caught during the current round, for the summary. */
   const roundCatches = useRef<string[]>([]);
@@ -43,6 +54,8 @@ export default function App() {
   useEffect(() => {
     // The collection is an extra: if its catalog fails to load, the game still plays.
     loadCatalog().then(setCatalog, () => setCatalog(null));
+    // So is Explore: without its data the landing page is the folder browser.
+    loadExplore().then(setExplore, () => setExplore(null));
     (async () => {
       try {
         const index = await loadPackIndex();
@@ -65,7 +78,9 @@ export default function App() {
 
   /** Records a finished question in the collection; returns the entry number if it was a new catch. */
   const recordAnswer = (pack: QuestionPack, answerId: string, correct: boolean): number | null => {
-    const key = catalog && entryKey(catalog, pack.id, answerId);
+    // Sets built in Explore aren't in the catalog's pack index; their answers are
+    // dataset aircraft, whose entry key is the aircraft id.
+    const key = catalog && (entryKey(catalog, pack.id, answerId) ?? (catalog.entries[answerId] ? answerId : undefined));
     if (!catalog || !key) return null;
     if (!collection.answer(key, correct)) return null;
     roundCatches.current.push(key);
@@ -94,6 +109,11 @@ export default function App() {
             <span className="brand">Spot ·</span>
           )}
           <div className="topbar-actions">
+            {screen.name === "browse" && wide && explore && landing === "folders" && (
+              <button className="icon-btn" onClick={() => setLanding("explore")}>
+                Explore
+              </button>
+            )}
             {screen.name === "browse" && catalog && (
               <button className="icon-btn" onClick={() => setScreen({ name: "collection", back: screen })}>
                 Collection
@@ -136,7 +156,19 @@ export default function App() {
           </div>
         )}
 
-        {screen.name === "browse" && (
+        {screen.name === "browse" && showExplore && (
+          <Suspense fallback={<div className="state-msg">Loading…</div>}>
+            <Explore
+              data={explore}
+              mode={playMode}
+              onPlay={(pack) => setScreen(play(pack))}
+              onStudy={(pack) => setScreen({ name: "studying", pack, run: 0 })}
+              onBrowse={() => setLanding("folders")}
+            />
+          </Suspense>
+        )}
+
+        {screen.name === "browse" && !showExplore && (
           <ColumnBrowser
             root={tree}
             selection={screen.selection}

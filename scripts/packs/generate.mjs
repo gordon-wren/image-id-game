@@ -20,11 +20,15 @@
 // Writes public/packs/<id>.json for every set, updates public/packs/index.json,
 // and removes packs it generated earlier that no longer qualify. Hand-written
 // packs (no `generatedFrom`) are never touched. Also writes the aircraft
-// collection catalog, public/data/collection.json, covering every pack.
+// collection catalog (public/data/collection.json) and the Explore view's data
+// (public/data/explore.json).
 
 import { readFile, writeFile, unlink } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+// Shared with the app's Explore view, which builds sets when you click. Node
+// runs the TypeScript directly (type stripping, Node 22.18+).
+import { ASSET_BASE, THUMB_BASE, buildQuestions } from "../../src/engine/sets.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = resolve(here, "../..");
@@ -32,11 +36,8 @@ const TAXONOMY = join(here, "taxonomy.json");
 const DATASET = join(root, "public/data/aircraft.json");
 const PACKS_DIR = join(root, "public/packs");
 const CATALOG = join(root, "public/data/collection.json");
+const EXPLORE = join(root, "public/data/explore.json");
 const GENERATED_FROM = "scripts/packs/taxonomy.json";
-const ASSET_BASE = "assets/aircraft/";
-const DISTRACTORS = 3;
-/** Distractors are drawn at random from this many of the most similar aircraft. */
-const SHORTLIST = 8;
 const MIN_QUESTIONS = 5;
 const DEFAULT_ROUND_SECONDS = 7;
 
@@ -44,38 +45,7 @@ const DEFAULT_ROUND_SECONDS = 7;
 // Helpers
 // ---------------------------------------------------------------------------
 
-/** FNV-1a, for seeding the RNG from a question id. */
-function hash(s) {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 0x01000193);
-  return h >>> 0;
-}
-
-/** mulberry32: small seeded RNG, returns floats in [0, 1). */
-export function rngFor(seed) {
-  let a = hash(seed);
-  return () => {
-    a = (a + 0x6d2b79f5) >>> 0;
-    let t = a;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-const year = (a) => (a.firstFlight ? Number(String(a.firstFlight).slice(0, 4)) : null);
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
-
-/**
- * True when one label is the other plus a suffix ("Boeing 747" / "Boeing 747-8",
- * "Airbus A330" / "Airbus A330neo"). A photo of one is arguably also the other,
- * so they never appear as each other's wrong answer.
- */
-export function overlaps(a, b) {
-  const x = norm(a.label), y = norm(b.label);
-  return x.startsWith(y) || y.startsWith(x);
-}
 
 // ---------------------------------------------------------------------------
 // Selection
@@ -98,90 +68,13 @@ export function selectAircraft(aircraft, where = {}) {
   });
 }
 
-/** Folds historical names together so a Soviet design counts as related to its Russian successor. */
-function countryKey(c) {
-  const k = c.toLowerCase();
-  if (/soviet|russia/.test(k)) return "russia";
-  if (/german/.test(k)) return "germany";
-  if (/japan/.test(k)) return "japan";
-  if (/china/.test(k)) return "china";
-  return k;
-}
-
-/** How alike two aircraft are, for picking convincing wrong answers. */
-export function similarity(a, b) {
-  let s = 0;
-  if (a.group === b.group) s += 4;
-  const countries = new Set(b.countryOfOrigin.map(countryKey));
-  if (a.countryOfOrigin.some((c) => countries.has(countryKey(c)))) s += 2;
-  const ya = year(a), yb = year(b);
-  if (ya != null && yb != null) {
-    const gap = Math.abs(ya - yb);
-    if (gap <= 10) s += 2;
-    else if (gap <= 25) s += 1;
-  }
-  if (a.manufacturer.some((m) => b.manufacturer.includes(m))) s += 2;
-  return s;
-}
-
-/**
- * Three wrong answers for `answer`: always the most similar aircraft in `pool`,
- * then a random draw from the next most similar, so questions vary between packs.
- */
-export function pickDistractors(answer, pool, seed, count = DISTRACTORS) {
-  const rng = rngFor(seed);
-  // Each pair gets its own tie-break, so adding an aircraft to the dataset only
-  // changes the questions it actually ranks for, not every pack.
-  const ranked = pool
-    .filter((c) => c.id !== answer.id && !overlaps(c, answer))
-    .map((c) => ({ c, score: similarity(answer, c), tie: rngFor(`${seed}|${c.id}`)() }))
-    .sort((x, y) => y.score - x.score || x.tie - y.tie);
-  // Weak matches only make the shortlist when there aren't enough strong ones.
-  const floor = (ranked[0]?.score ?? 0) / 2;
-  const strong = ranked.filter((r, i) => i < count || r.score >= floor);
-  const shortlist = strong.slice(0, Math.max(SHORTLIST, count)).map((r) => r.c);
-  const picked = shortlist.splice(0, Math.min(1, count));
-  while (picked.length < count && shortlist.length) {
-    picked.push(shortlist.splice(Math.floor(rng() * shortlist.length), 1)[0]);
-  }
-  return picked;
-}
-
-function caption(a) {
-  const y = year(a);
-  const desc = a.description ? a.description[0].toUpperCase() + a.description.slice(1) : null;
-  return [desc, y ? `First flew ${y}` : null].filter(Boolean).join(". ") + ".";
-}
-
-// ---------------------------------------------------------------------------
-// Packs
-// ---------------------------------------------------------------------------
-
 export function buildPack(recipe, aircraft, minimum = MIN_QUESTIONS) {
   const withPhoto = aircraft.filter((a) => a.photo?.file);
   const members = selectAircraft(withPhoto, recipe.where);
   if (members.length < minimum) {
     throw new Error(`Set "${recipe.id}" matches ${members.length} aircraft with photos; needs at least ${minimum}.`);
   }
-  const questions = members.map((a) => {
-    const id = `${recipe.id}-${a.id}`;
-    // Wrong answers come from the set itself, so a Soviet set only offers Soviet
-    // aircraft. Only if the set can't supply enough (after leaving out the
-    // answer's own variants) are the rest drawn from the wider dataset.
-    let wrong = pickDistractors(a, members, id);
-    if (wrong.length < DISTRACTORS) {
-      const outside = aircraft.filter((x) => !members.includes(x));
-      wrong = [...wrong, ...pickDistractors(a, outside, `${id}|outside`, DISTRACTORS - wrong.length)];
-    }
-    return {
-      id,
-      image: a.photo.file.slice(ASSET_BASE.length),
-      answer: a.id,
-      options: [a, ...wrong].map((o) => ({ id: o.id, label: o.label })),
-      caption: caption(a),
-      credit: a.photo.credit,
-    };
-  });
+  const questions = buildQuestions(recipe.id, members, aircraft);
   return {
     id: recipe.id,
     title: recipe.title,
@@ -349,6 +242,65 @@ export function foldSingleItemFolders(recipes, fixedPaths = []) {
 }
 
 // ---------------------------------------------------------------------------
+// Explore data: the slim per-aircraft attributes the app's Explore view groups
+// by and builds sets from when you click
+// ---------------------------------------------------------------------------
+
+export const NOT_IN_SERVICE = "Not yet in service";
+
+/** The display maker: the first listed manufacturer, with divisions and production plants folded into the brand. */
+export function makerOf(a, aliases = {}) {
+  const m = a.manufacturer[0];
+  return m ? aliases[m] ?? m : null;
+}
+
+/** The first explicit taxonomy set an aircraft belongs to, in menu order, e.g. "Fighters" or "Widebody airliners". */
+export function roleOf(a, taxonomy) {
+  for (const menu of taxonomy.menus) {
+    if (!menu.sets || !selectAircraft([a], menu.where).length) continue;
+    const set = menu.sets.find((x) => selectAircraft([a], x.where).length);
+    if (set) return set.name;
+  }
+  return "Other";
+}
+
+export function buildExplore(taxonomy, aircraft) {
+  const eraOf = (y) => (y == null ? NOT_IN_SERVICE : taxonomy.eras.find((e) => (e.from == null || y >= e.from) && (e.to == null || y <= e.to))?.name ?? NOT_IN_SERVICE);
+  return {
+    generatedFrom: GENERATED_FROM,
+    minAircraft: taxonomy.minAircraft,
+    questionsPerRound: taxonomy.questionsPerRound,
+    eras: [...taxonomy.eras.map((e) => e.name), NOT_IN_SERVICE],
+    aircraft: aircraft.filter((a) => a.photo?.file).map((a) => ({
+      id: a.id,
+      label: a.label,
+      use: a.use,
+      nation: nationOf(a, taxonomy.nationAliases) ?? "Unknown",
+      era: eraOf(serviceYear(a)),
+      role: roleOf(a, taxonomy),
+      maker: makerOf(a, taxonomy.makerAliases) ?? "Unknown",
+      conflicts: a.conflicts ?? [],
+      // For building questions (similar wrong answers, captions, credits).
+      group: a.group,
+      countryOfOrigin: a.countryOfOrigin,
+      firstFlight: a.firstFlight,
+      manufacturer: a.manufacturer,
+      description: a.description,
+      photo: { file: a.photo.file, credit: a.photo.credit },
+      // Made by `npm run thumbs`; packs.test.mjs checks each one exists.
+      thumb: `${THUMB_BASE}${a.id}.jpg`,
+    })),
+  };
+}
+
+/** One aircraft per line: small, and diffs read well. */
+export function stringifyExplore(explore) {
+  const { aircraft, ...rest } = explore;
+  const head = JSON.stringify(rest, null, 2).replace(/\n}$/, "");
+  return `${head},\n  "aircraft": [\n${aircraft.map((a) => "    " + JSON.stringify(a)).join(",\n")}\n  ]\n}\n`;
+}
+
+// ---------------------------------------------------------------------------
 // Collection catalog
 // ---------------------------------------------------------------------------
 
@@ -489,6 +441,10 @@ async function main() {
   const catalog = buildCatalog(packs, aircraft, previousCatalog);
   await writeFile(CATALOG, JSON.stringify(catalog, null, 2) + "\n");
   console.log(`wrote collection.json (${Object.keys(catalog.entries).length} entries)`);
+
+  const explore = buildExplore(taxonomy, aircraft);
+  await writeFile(EXPLORE, stringifyExplore(explore));
+  console.log(`wrote explore.json (${explore.aircraft.length} aircraft)`);
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
