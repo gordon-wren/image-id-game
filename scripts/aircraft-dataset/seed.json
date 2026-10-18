@@ -3357,5 +3357,19 @@
         "Japan"
       ]
     }
+  },
+  {
+    "id": "a5m",
+    "wikipediaTitle": "Mitsubishi A5M",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:A5M Claude.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Japan"
+      ]
+    }
   }
 ]

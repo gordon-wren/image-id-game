@@ -347,7 +347,8 @@
     "mitsubishi-f2": 344,
     "fuji-t7": 345,
     "us2": 346,
-    "kawasaki-p1": 347
+    "kawasaki-p1": 347,
+    "a5m": 348
   },
   "entries": {
     "jn4": {
@@ -1246,6 +1247,28 @@
         "country": "Japan",
         "about": "The Kawanishi H6K was a large maritime patrol flying boat designed and produced by the Japanese aviation manufacturer Kawanishi Aircraft Company. Flown by the Imperial Japanese Navy (IJN) during World War II, the service designed it \"Type 97 Large Flying Boat\" (九七式大型飛行艇) while the Allied reporting name for the type…",
         "wikipedia": "https://en.wikipedia.org/wiki/Kawanishi_H6K"
+      }
+    },
+    "a5m": {
+      "number": 348,
+      "name": "Mitsubishi A5M",
+      "image": "assets/aircraft/a5m.jpg",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-japan",
+        "military-country-japan-interwar"
+      ],
+      "facts": {
+        "description": "Japanese carrier-borne fighter aircraft",
+        "role": "Carrier-based fighter",
+        "manufacturer": "Mitsubishi Heavy Industries",
+        "firstFlight": 1935,
+        "country": "Japan",
+        "about": "The Mitsubishi A5M, formal Japanese Navy designation Mitsubishi Navy Type 96 Carrier-based Fighter (九六式艦上戦闘機), experimental Navy designation Mitsubishi Navy Experimental 9-Shi Carrier Fighter, company designation Mitsubishi Ka-14, was a World War II-era Japanese carrier-based fighter aircraft. The Type number is from…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_A5M"
       }
     },
     "p51": {
@@ -7347,6 +7370,7 @@
     "military-era-interwar/k5y": "k5y",
     "military-era-interwar/b5n": "b5n",
     "military-era-interwar/h6k": "h6k",
+    "military-era-interwar/a5m": "a5m",
     "military-era-wwii/p51": "p51",
     "military-era-wwii/a6m": "a6m",
     "military-era-wwii/f4u": "f4u",
@@ -7589,6 +7613,7 @@
     "military-decade-1930s/k5y": "k5y",
     "military-decade-1930s/b5n": "b5n",
     "military-decade-1930s/h6k": "h6k",
+    "military-decade-1930s/a5m": "a5m",
     "military-decade-1940s/p51": "p51",
     "military-decade-1940s/a6m": "a6m",
     "military-decade-1940s/f4u": "f4u",
@@ -7858,6 +7883,7 @@
     "military-role-fighters/j2m": "j2m",
     "military-role-fighters/j1n": "j1n",
     "military-role-fighters/mitsubishi-f2": "mitsubishi-f2",
+    "military-role-fighters/a5m": "a5m",
     "military-role-attack/a10": "a10",
     "military-role-attack/f117": "f117",
     "military-role-attack/harrier": "harrier",
@@ -8374,6 +8400,7 @@
     "military-country-japan/fuji-t7": "fuji-t7",
     "military-country-japan/us2": "us2",
     "military-country-japan/kawasaki-p1": "kawasaki-p1",
+    "military-country-japan/a5m": "a5m",
     "military-country-japan-interwar/mitsubishi-1mf": "mitsubishi-1mf",
     "military-country-japan-interwar/kawasaki-type88": "kawasaki-type88",
     "military-country-japan-interwar/ki27": "ki27",
@@ -8382,6 +8409,7 @@
     "military-country-japan-interwar/k5y": "k5y",
     "military-country-japan-interwar/b5n": "b5n",
     "military-country-japan-interwar/h6k": "h6k",
+    "military-country-japan-interwar/a5m": "a5m",
     "military-country-japan-wwii/a6m": "a6m",
     "military-country-japan-wwii/ki43": "ki43",
     "military-country-japan-wwii/ki44": "ki44",

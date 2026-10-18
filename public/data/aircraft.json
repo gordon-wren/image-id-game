@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-18T17:04:36.244Z",
-  "count": 323,
+  "generatedAt": "2026-10-18T17:07:40.775Z",
+  "count": 324,
   "aircraft": [
     {
       "id": "a380",
@@ -17269,6 +17269,61 @@
         "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
       },
       "retrievedAt": "2026-10-18T17:04:36.078Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "a5m",
+      "name": "Mitsubishi A5M",
+      "label": "Mitsubishi A5M",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Japanese carrier-borne fighter aircraft",
+      "summary": "The Mitsubishi A5M, formal Japanese Navy designation Mitsubishi Navy Type 96 Carrier-based Fighter (九六式艦上戦闘機), experimental Navy designation Mitsubishi Navy Experimental 9-Shi Carrier Fighter, company designation Mitsubishi Ka-14, was a World War II-era Japanese carrier-based fighter aircraft. The Type number is from the last two digits of the Japanese imperial year 2596 (1936) when it entered service with the Imperial Navy.",
+      "role": "Carrier-based fighter",
+      "manufacturer": [
+        "Mitsubishi Heavy Industries"
+      ],
+      "designer": "Jiro Horikoshi",
+      "countryOfOrigin": [
+        "Japan"
+      ],
+      "firstFlight": "1935-02-04",
+      "introduced": "1936",
+      "status": null,
+      "numberBuilt": 1094,
+      "wikipedia": {
+        "title": "Mitsubishi A5M",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_A5M",
+        "pageId": 525494,
+        "revisionId": 1358843129
+      },
+      "wikidataId": "Q429839",
+      "photo": {
+        "file": "assets/aircraft/a5m.jpg",
+        "sourceFile": "File:A5M Claude.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A5M_Claude.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A5M_Claude.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A5M_Claude.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 445,
+        "originalWidth": 421,
+        "originalHeight": 195,
+        "mime": "image/jpeg",
+        "author": "User Kgbudge on en.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Mitsubishi A5M, aka Mitsubishi Navy Type 96 Carrier-based Fighter, Mitsubishi Navy Experimental 9-Shi Carrier Fighter and company designation Mitsubishi Ka-14",
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:07:40.199Z",
       "overridden": [
         "countryOfOrigin"
       ]

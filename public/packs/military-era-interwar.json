@@ -81,12 +81,12 @@
           "label": "Curtiss P-40 Warhawk"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -731,12 +731,12 @@
           "label": "Mitsubishi Ki-21"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
+          "id": "b5n",
+          "label": "Nakajima B5N"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         }
       ],
       "caption": "Japanese carrier-based fighter. First flew 1921.",
@@ -756,8 +756,8 @@
           "label": "Kawanishi H6K"
         },
         {
-          "id": "vought-o2u",
-          "label": "Vought O2U Corsair"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
           "id": "pby",
@@ -785,8 +785,8 @@
           "label": "Mitsubishi G3M"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
         }
       ],
       "caption": "Japanese fighter aircraft. First flew 1936.",
@@ -802,16 +802,16 @@
           "label": "Mitsubishi G3M"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
-          "id": "ki21",
-          "label": "Mitsubishi Ki-21"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         },
         {
-          "id": "hurricane",
-          "label": "Hawker Hurricane"
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
         }
       ],
       "caption": "WWII-era medium bomber. First flew 1935.",
@@ -831,8 +831,8 @@
           "label": "Mitsubishi 1MF"
         },
         {
-          "id": "p35",
-          "label": "Seversky P-35"
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
         },
         {
           "id": "g3m",
@@ -860,8 +860,8 @@
           "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "h6k",
-          "label": "Kawanishi H6K"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -881,12 +881,12 @@
           "label": "Nakajima Ki-27"
         },
         {
-          "id": "mitsubishi-1mf",
-          "label": "Mitsubishi 1MF"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         }
       ],
       "caption": "Japanese attack aircraft family. First flew 1937.",
@@ -916,6 +916,31 @@
       ],
       "caption": "Imperial Japanese flying boat. First flew 1936.",
       "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-a5m",
+      "image": "a5m.jpg",
+      "answer": "a5m",
+      "options": [
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
     }
   ]
 }

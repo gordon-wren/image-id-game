@@ -57,12 +57,12 @@
           "label": "Mitsubishi G4M"
         },
         {
-          "id": "ki67",
-          "label": "Mitsubishi Ki-67"
-        },
-        {
           "id": "d3a",
           "label": "Aichi D3A"
+        },
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
         }
       ],
       "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
@@ -157,12 +157,12 @@
           "label": "Mitsubishi A6M Zero"
         },
         {
-          "id": "ki49",
-          "label": "Nakajima Ki-49 Donryū"
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
         },
         {
-          "id": "ki27",
-          "label": "Nakajima Ki-27"
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
         }
       ],
       "caption": "WWII-era medium bomber. First flew 1935.",
@@ -282,12 +282,12 @@
           "label": "Kawasaki Ki-61"
         },
         {
-          "id": "d3a",
-          "label": "Aichi D3A"
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
         },
         {
-          "id": "ki100",
-          "label": "Kawasaki Ki-100"
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
         }
       ],
       "caption": "Japanese WW2 heavy fighter. First flew 1941.",
@@ -307,12 +307,12 @@
           "label": "Kawasaki Ki-48"
         },
         {
-          "id": "b6n",
-          "label": "Nakajima B6N Tenzan"
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
         },
         {
-          "id": "j2m",
-          "label": "Mitsubishi J2M Raiden"
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
         }
       ],
       "caption": "WWII Japanese fighter aircraft. First flew 1941.",
@@ -357,8 +357,8 @@
           "label": "Mitsubishi Ki-21"
         },
         {
-          "id": "g3m",
-          "label": "Mitsubishi G3M"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
           "id": "j2m",
@@ -382,12 +382,12 @@
           "label": "Mitsubishi Ki-67"
         },
         {
-          "id": "b7a",
-          "label": "Aichi B7A Ryūsei"
-        },
-        {
           "id": "d4y",
           "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
         }
       ],
       "caption": "Japanese floatplane/land-based fighter. First flew 1942.",
@@ -457,12 +457,12 @@
           "label": "Aichi B7A Ryūsei"
         },
         {
-          "id": "g3m",
-          "label": "Mitsubishi G3M"
-        },
-        {
           "id": "ki44",
           "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
         }
       ],
       "caption": "Imperial Japanese carrier-borne dive bomber. First flew 1938.",
@@ -657,8 +657,8 @@
           "label": "Mitsubishi A6M Zero"
         },
         {
-          "id": "ki48",
-          "label": "Kawasaki Ki-48"
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
         },
         {
           "id": "g3m",
@@ -986,8 +986,8 @@
           "label": "Mitsubishi G3M"
         },
         {
-          "id": "mitsubishi-t2",
-          "label": "Mitsubishi T-2"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         }
       ],
       "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
@@ -1142,6 +1142,31 @@
       ],
       "caption": "Japanese maritime patrol aircraft. First flew 2007.",
       "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-a5m",
+      "image": "a5m.jpg",
+      "answer": "a5m",
+      "options": [
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        }
+      ],
+      "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
     }
   ]
 }

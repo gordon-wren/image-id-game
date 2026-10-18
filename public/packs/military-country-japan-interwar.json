@@ -36,8 +36,8 @@
           "label": "Nakajima Ki-27"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         }
       ],
       "caption": "Japanese carrier-based fighter. First flew 1921.",
@@ -103,16 +103,16 @@
           "label": "Mitsubishi G3M"
         },
         {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
           "id": "b5n",
           "label": "Nakajima B5N"
-        },
-        {
-          "id": "k5y",
-          "label": "Yokosuka K5Y"
-        },
-        {
-          "id": "ki27",
-          "label": "Nakajima Ki-27"
         }
       ],
       "caption": "WWII-era medium bomber. First flew 1935.",
@@ -153,16 +153,16 @@
           "label": "Yokosuka K5Y"
         },
         {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
           "id": "ki21",
           "label": "Mitsubishi Ki-21"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
-        },
-        {
-          "id": "kawasaki-type88",
-          "label": "Kawasaki Type 88"
+          "id": "h6k",
+          "label": "Kawanishi H6K"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -182,8 +182,8 @@
           "label": "Nakajima Ki-27"
         },
         {
-          "id": "ki21",
-          "label": "Mitsubishi Ki-21"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         },
         {
           "id": "g3m",
@@ -207,16 +207,41 @@
           "label": "Kawasaki Type 88"
         },
         {
-          "id": "g3m",
-          "label": "Mitsubishi G3M"
-        },
-        {
           "id": "k5y",
           "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         }
       ],
       "caption": "Imperial Japanese flying boat. First flew 1936.",
       "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-a5m",
+      "image": "a5m.jpg",
+      "answer": "a5m",
+      "options": [
+        {
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        }
+      ],
+      "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
+      "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
     }
   ]
 }
