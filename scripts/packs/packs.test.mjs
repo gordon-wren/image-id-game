@@ -5,7 +5,7 @@ import { describe, it, expect } from "vitest";
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { validatePack } from "../../src/engine/pack.ts";
-import { buildCatalog, buildPack, expandTaxonomy, foldSingleItemFolders, overlaps } from "./generate.mjs";
+import { buildCatalog, buildExplore, buildPack, expandTaxonomy, foldSingleItemFolders, overlaps, stringifyExplore } from "./generate.mjs";
 
 const root = resolve(import.meta.dirname, "../..");
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
@@ -93,6 +93,12 @@ describe("menu", () => {
     }
     const thin = [...items].filter(([folder, set]) => folder.includes(" › ") && set.size < 2).map(([folder]) => folder);
     expect(thin).toEqual([]);
+  });
+});
+
+describe("Explore data", () => {
+  it("is up to date (run `npm run packs`)", () => {
+    expect(readFileSync(join(root, "public/data/explore.json"), "utf8")).toBe(stringifyExplore(buildExplore(taxonomy, aircraft)));
   });
 });
 

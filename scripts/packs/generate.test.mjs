@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildCatalog, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, nationOf, pickDistractors, selectAircraft, similarity } from "./generate.mjs";
+import { buildCatalog, buildExplore, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, makerOf, nationOf, pickDistractors, roleOf, selectAircraft, similarity } from "./generate.mjs";
 
 const plane = (id, label, group, country, firstFlight, manufacturer = [label.split(" ")[0]]) => ({
   id,
@@ -266,3 +266,41 @@ describe("foldSingleItemFolders", () => {
     expect(out.map((x) => x.path)).toEqual([["Solo"], ["Top", "Hand"]]);
   });
 });
+
+describe("Explore data", () => {
+  const taxonomy = {
+    minAircraft: 5, questionsPerRound: 20,
+    eras: [{ id: "wwii", name: "WWII", from: 1939, to: 1945 }],
+    nationAliases: { "Soviet Union": "Soviet Union & Russia" },
+    makerAliases: { "Mil Moscow Helicopter Plant": "Mil" },
+    menus: [
+      { id: "roles", path: ["A"], where: { use: "military" }, sets: [
+        { id: "fighters", name: "Fighters", where: { category: "fighter" } },
+        { id: "helicopters", name: "Military helicopters", where: { category: ["utility-helicopter", "attack-helicopter"] } },
+      ] },
+      { id: "civil", path: ["B"], where: { use: "civil" }, sets: [{ id: "heli", name: "Civil helicopters", where: { category: "utility-helicopter" } }] },
+    ],
+  };
+  const mi8 = { ...plane("mi8", "Mil Mi-8", "helicopter", "Soviet Union", "1961"), introduced: "1967", use: "military", category: "utility-helicopter", manufacturer: ["Mil Moscow Helicopter Plant"] };
+  const r22 = { ...plane("r22", "Robinson R22", "helicopter", "United States", "1975"), introduced: "1979", use: "civil", category: "utility-helicopter", manufacturer: ["Robinson"] };
+
+  it("files role by the first matching taxonomy set, respecting the menu's use", () => {
+    expect(roleOf(mi8, taxonomy)).toBe("Military helicopters");
+    expect(roleOf(r22, taxonomy)).toBe("Civil helicopters");
+    expect(roleOf({ ...r22, category: "experimental" }, taxonomy)).toBe("Other");
+  });
+
+  it("folds production plants and divisions into the maker's name", () => {
+    expect(makerOf(mi8, taxonomy.makerAliases)).toBe("Mil");
+    expect(makerOf(r22, taxonomy.makerAliases)).toBe("Robinson");
+  });
+
+  it("gives each aircraft with a photo its country, era by service year, role and maker", () => {
+    const noPhoto = { ...r22, id: "nophoto", photo: null };
+    const out = buildExplore(taxonomy, [mi8, r22, noPhoto]);
+    expect(out.eras).toEqual(["WWII", "Not yet in service"]);
+    expect(out.aircraft.map((a) => a.id)).toEqual(["mi8", "r22"]);
+    expect(out.aircraft[0]).toMatchObject({ nation: "Soviet Union & Russia", era: "Not yet in service", role: "Military helicopters", maker: "Mil", conflicts: [] });
+  });
+});
+

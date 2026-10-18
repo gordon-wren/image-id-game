@@ -17,7 +17,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # 22.18+ runs the generator's TypeScript import (src/engine/sets.ts) directly.
+          node-version: 24
       - run: node scripts/aircraft-dataset/build.mjs
       - run: node scripts/packs/generate.mjs
       - name: Commit dataset
