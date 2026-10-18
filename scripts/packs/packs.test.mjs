@@ -5,7 +5,8 @@ import { describe, it, expect } from "vitest";
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { validatePack } from "../../src/engine/pack.ts";
-import { buildCatalog, buildExplore, buildPack, expandTaxonomy, foldSingleItemFolders, overlaps, stringifyExplore } from "./generate.mjs";
+import { buildCatalog, buildExplore, buildPack, expandTaxonomy, foldSingleItemFolders, stringifyExplore } from "./generate.mjs";
+import { overlaps } from "../../src/engine/sets.ts";
 
 const root = resolve(import.meta.dirname, "../..");
 const readJson = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));

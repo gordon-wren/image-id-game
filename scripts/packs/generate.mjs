@@ -29,7 +29,6 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 // Shared with the app's Explore view, which builds sets when you click. Node
 // runs the TypeScript directly (type stripping, Node 22.18+).
 import { ASSET_BASE, THUMB_BASE, buildQuestions } from "../../src/engine/sets.ts";
-export { overlaps, pickDistractors, rngFor, similarity } from "../../src/engine/sets.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = resolve(here, "../..");

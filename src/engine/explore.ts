@@ -56,6 +56,14 @@ export interface Flow {
   links: FlowLink[];
 }
 
+const NO_CONFLICT = "No conflict recorded";
+const CIVIL_NO_CONFLICT = "Civil (no conflicts)";
+
+/** Groups that aren't a real category: the "none" buckets and the "Other …" bundles. Drawn grey, listed last. */
+export function isCatchAll(name: string): boolean {
+  return name === NO_CONFLICT || name === CIVIL_NO_CONFLICT || name.startsWith("Other ");
+}
+
 /** True when the data has anything to group by for this option (conflicts are curated over time). */
 export function canGroupBy(data: ExploreData, by: GroupBy): boolean {
   return by !== "conflict" || data.aircraft.some((a) => a.conflicts.length > 0);
@@ -72,8 +80,8 @@ export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flo
   const rawGroups = (a: ExploreAircraft): string[] => {
     if (by === "era") return [a.era];
     if (by === "nation") return [a.nation];
-    if (a.use === "civil") return ["Civil (no conflicts)"];
-    return a.conflicts.length ? a.conflicts : ["No conflict recorded"];
+    if (a.use === "civil") return [CIVIL_NO_CONFLICT];
+    return a.conflicts.length ? a.conflicts : [NO_CONFLICT];
   };
   const counts = new Map<string, number>();
   const bump = (k: string) => counts.set(k, (counts.get(k) ?? 0) + 1);
@@ -82,15 +90,14 @@ export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flo
 
   const bundleGroup = by === "nation" ? "Other countries" : by === "conflict" ? "Other conflicts" : null;
   const groupsOf = (a: ExploreAircraft) =>
-    [...new Set(rawGroups(a).map((g) => (bundleGroup && (counts.get("g:" + g) ?? 0) < min && !/^(No conflict|Civil)/.test(g) ? bundleGroup : g)))];
+    [...new Set(rawGroups(a).map((g) => (bundleGroup && (counts.get("g:" + g) ?? 0) < min && !isCatchAll(g) ? bundleGroup : g)))];
   const lastOf = (a: ExploreAircraft) => (last === "maker" && (counts.get("l:" + a.maker) ?? 0) < min ? "Other manufacturers" : a[last]);
 
   const nodes = new Map<string, FlowNode>();
   const links = new Map<string, FlowLink>();
   const node = (column: number, name: string, id: string) => {
     if (!nodes.has(id)) nodes.set(id, { id, name, column, ids: [] });
-    const n = nodes.get(id)!;
-    return n;
+    return nodes.get(id)!;
   };
   const link = (s: FlowNode, t: FlowNode, aircraftId: string) => {
     const id = `${s.id}>${t.id}`;
@@ -115,7 +122,7 @@ export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flo
 
   // Order: eras chronologically; everything else largest first, with the
   // bundles and "none" groups last.
-  const tail = (n: FlowNode) => (/^(No conflict|Civil \(no)/.test(n.name) ? 2 : /^Other /.test(n.name) ? 1 : 0);
+  const tail = (n: FlowNode) => (!isCatchAll(n.name) ? 0 : n.name.startsWith("Other ") ? 1 : 2);
   const rank = (n: FlowNode) => (by === "era" && n.column === 2 ? data.eras.indexOf(n.name) : 0);
   const ordered = [...nodes.values()].sort(
     (a, b) => a.column - b.column || (a.column === 1 ? (a.id === "use:military" ? -1 : 1) : 0) || rank(a) - rank(b) || tail(a) - tail(b) || b.ids.length - a.ids.length || a.name.localeCompare(b.name),
@@ -139,8 +146,6 @@ export interface PlacedLink extends FlowLink {
 export interface Layout {
   nodes: PlacedNode[];
   links: PlacedLink[];
-  width: number;
-  height: number;
 }
 
 /**
@@ -199,7 +204,7 @@ export function layoutFlow(flow: Flow, opts: { width: number; height: number; ba
     const path = `M${x0},${sy} C${mx},${sy} ${mx},${ty} ${x1},${ty} L${x1},${ty + w} C${mx},${ty + w} ${mx},${sy + w} ${x0},${sy + w} Z`;
     return { ...l, path, value: l.ids.length };
   });
-  return { nodes: [...placed.values()], links, width, height };
+  return { nodes: [...placed.values()], links };
 }
 
 const slug = (s: string) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");

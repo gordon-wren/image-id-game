@@ -12,7 +12,7 @@
 
 import { mkdir, readdir, readFile, stat, unlink } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 import { THUMB_BASE } from "../../src/engine/sets.ts";
 
@@ -61,7 +61,7 @@ async function main() {
   console.log(`Thumbnails: ${made} made, ${removed} removed, ${keep.size} in all.`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
   main().catch((e) => {
     console.error(e.message);
     process.exit(1);

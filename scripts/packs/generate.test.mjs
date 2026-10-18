@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { buildCatalog, buildExplore, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, makerOf, nationOf, pickDistractors, roleOf, selectAircraft, similarity } from "./generate.mjs";
+import { buildCatalog, buildExplore, buildPack, expandTaxonomy, firstSentences, foldSingleItemFolders, makerOf, nationOf, roleOf, selectAircraft } from "./generate.mjs";
+import { pickDistractors, similarity } from "../../src/engine/sets.ts";
 
 const plane = (id, label, group, country, firstFlight, manufacturer = [label.split(" ")[0]]) => ({
   id,

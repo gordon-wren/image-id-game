@@ -4,6 +4,7 @@ import {
   Controls,
   Handle,
   Position,
+  useReactFlow,
   type Edge,
   type EdgeProps,
   type Node,
@@ -23,7 +24,9 @@ import {
   buildExplorePack,
   buildFlow,
   canGroupBy,
+  isCatchAll,
   layoutFlow,
+  type Layout,
   type ExploreData,
   type ExploreSelection,
   type GroupBy,
@@ -73,6 +76,17 @@ function Ribbon({ data }: EdgeProps<Edge<RibbonData>>) {
   return <path d={data.path} fill={data.color} fillOpacity={data.picked ? 0.62 : 0.28} className="explore-ribbon" />;
 }
 
+/** Re-frames the chart whenever its layout changes (a new grouping, or a resize). */
+function FitOnChange({ layout }: { layout: Layout }) {
+  const { fitView } = useReactFlow();
+  useEffect(() => {
+    // Wait a frame so React Flow has measured the new nodes.
+    const id = requestAnimationFrame(() => fitView({ padding: 0.04 }));
+    return () => cancelAnimationFrame(id);
+  }, [layout, fitView]);
+  return null;
+}
+
 const nodeTypes = { bar: Bar, heading: Heading };
 const edgeTypes = { ribbon: Ribbon };
 
@@ -99,11 +113,11 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
     const groups = flow.nodes.filter((n) => n.column === 2);
     let i = 0;
     const m = new Map<string, string>();
-    for (const g of groups) m.set(g.id, /^(Other |No conflict|Civil \(no)/.test(g.name) ? GREY : PALETTE[i++ % PALETTE.length]);
+    for (const g of groups) m.set(g.id, isCatchAll(g.name) ? GREY : PALETTE[i++ % PALETTE.length]);
     return m;
   }, [flow]);
 
-  const columnTitles = ["All", "Use", GROUP_BY_LABELS[groupBy], LAST_COLUMN_LABELS[last]];
+  const columnTitles = useMemo(() => ["All", "Use", GROUP_BY_LABELS[groupBy], LAST_COLUMN_LABELS[last]], [groupBy, last]);
   const nodes: Node[] = useMemo(() => {
     const bars: Node<BarData>[] = layout.nodes.map((n) => ({
       id: n.id,
@@ -122,25 +136,20 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
       draggable: false, selectable: false, focusable: false,
     }));
     return [...headings, ...bars];
-  }, [layout, colorOf, picked, columnTitles.join("|")]);
+  }, [layout, colorOf, picked, columnTitles]);
 
-  const edges: Edge<RibbonData>[] = useMemo(
-    () =>
-      layout.links.map((l) => {
-        const group = [l.source, l.target].find((id) => id.startsWith("group:"));
-        return {
-          id: l.id, source: l.source, target: l.target, type: "ribbon",
-          data: { path: l.path, color: group ? colorOf.get(group)! : GREY, picked: picked === l.id },
-          selected: picked === l.id,
-          ariaLabel: `${nameOf(l.source)} and ${nameOf(l.target)}, ${l.value} aircraft`,
-        };
-      }),
-    [layout, colorOf, picked],
-  );
-
-  function nameOf(id: string) {
-    return flow.nodes.find((n) => n.id === id)?.name ?? id;
-  }
+  const edges: Edge<RibbonData>[] = useMemo(() => {
+    const name = new Map(layout.nodes.map((n) => [n.id, n.name]));
+    return layout.links.map((l) => {
+      const group = [l.source, l.target].find((id) => id.startsWith("group:"));
+      return {
+        id: l.id, source: l.source, target: l.target, type: "ribbon",
+        data: { path: l.path, color: group ? colorOf.get(group)! : GREY, picked: picked === l.id },
+        selected: picked === l.id,
+        ariaLabel: `${name.get(l.source)} and ${name.get(l.target)}, ${l.value} aircraft`,
+      };
+    });
+  }, [layout, colorOf, picked]);
 
   const selection: ExploreSelection = useMemo(() => {
     const node = flow.nodes.find((n) => n.id === picked);
@@ -153,13 +162,12 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
     }
     const all = flow.nodes.find((n) => n.id === "all")!;
     return { title: all.name, context: "All aircraft", ids: all.ids };
-  }, [flow, picked, columnTitles.join("|")]);
+  }, [flow, picked, columnTitles]);
 
   const accent = useMemo(() => {
     const group = [picked, ...picked.split(">")].find((id) => id.startsWith("group:"));
     return group && colorOf.get(group) !== GREY ? colorOf.get(group)! : "#185fa5";
   }, [picked, colorOf]);
-  const pack = useMemo(() => buildExplorePack(data, selection, accent), [data, selection, accent]);
   const members = useMemo(() => data.aircraft.filter((a) => selection.ids.includes(a.id)), [data, selection]);
   // A sample of the set's photos, seeded by the selection so a set always shows
   // the same mosaic rather than reshuffling on every redraw.
@@ -168,8 +176,12 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
     [members, selection],
   );
 
-  // A changed grouping makes old picks meaningless.
-  useEffect(() => setPicked("all"), [groupBy, last]);
+  // Build the set only when it's played: building questions for a big
+  // selection is far more work than showing it.
+  const start = (go: (pack: QuestionPack) => void) => {
+    const pack = buildExplorePack(data, selection, accent);
+    if (pack) go(pack);
+  };
 
   // Picks come from clicks, and from React Flow's "select" changes, which also
   // cover keyboard selection (Enter on a focused bar or ribbon). Handling the
@@ -189,7 +201,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
         </h1>
         <div className="explore-controls">
           <label htmlFor="explore-group">Group by</label>
-          <select id="explore-group" value={groupBy} onChange={(e) => setGroupBy(e.target.value as GroupBy)}>
+          <select id="explore-group" value={groupBy} onChange={(e) => { setGroupBy(e.target.value as GroupBy); setPicked("all"); }}>
             {(Object.keys(GROUP_BY_LABELS) as GroupBy[]).map((k) => (
               <option key={k} value={k} disabled={!canGroupBy(data, k)}>
                 {GROUP_BY_LABELS[k]}
@@ -198,7 +210,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             ))}
           </select>
           <label htmlFor="explore-last">then</label>
-          <select id="explore-last" value={last} onChange={(e) => setLast(e.target.value as LastColumn)}>
+          <select id="explore-last" value={last} onChange={(e) => { setLast(e.target.value as LastColumn); setPicked("all"); }}>
             {(Object.keys(LAST_COLUMN_LABELS) as LastColumn[]).map((k) => (
               <option key={k} value={k}>{LAST_COLUMN_LABELS[k]}</option>
             ))}
@@ -230,6 +242,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             proOptions={{ hideAttribution: true }}
           >
             <Controls showInteractive={false} />
+            <FitOnChange layout={layout} />
           </ReactFlow>
         </div>
 
@@ -259,10 +272,10 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             {members.length > 8 && <li className="explore-more">and {members.length - 8} more</li>}
           </ul>
           <div className="preview-actions">
-            <button className={mode === "play" ? "next-btn" : "secondary-btn"} disabled={!pack} onClick={() => pack && onPlay(pack)}>
+            <button className={mode === "play" ? "next-btn" : "secondary-btn"} disabled={short} onClick={() => start(onPlay)}>
               Play
             </button>
-            <button className={mode === "study" ? "next-btn" : "secondary-btn"} disabled={!pack} onClick={() => pack && onStudy(pack)}>
+            <button className={mode === "study" ? "next-btn" : "secondary-btn"} disabled={short} onClick={() => start(onStudy)}>
               Study
             </button>
           </div>
