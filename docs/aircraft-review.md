@@ -89,6 +89,8 @@ Other hand edits in `review.json`, all shown on the page:
 | Field | When |
 |---|---|
 | `introduced` + `"introducedByHand": true` | Wikidata and the infobox have no service year. Shown as "by hand" so the reviewer checks it |
+| `firstFlight` + `"firstFlightByHand": true` | Wikidata's first flight is wrong (the Il-38's was after its service entry) |
+| `photoAuthor` | Commons leaves the author blank (US military photos, some "own work" uploads); also set `photo.author` so the page shows it |
 | `"inService": false` | Flying but not operational yet (T-7, MQ-25); grouped separately |
 | `note` | Anything the reviewer should know ("Photo shows a Canadian-registered DH-4") |
 | `label` | Button name when the article title reads badly (`"Sikorsky HH-3 (S-61R)"`) |
@@ -140,7 +142,8 @@ npm test
 
 `apply.mjs` appends each aircraft to `scripts/aircraft-dataset/seed.json` with
 its reviewed photo pinned (`photo`), `use: "military"`, its category, engine and
-`group`, and `overrides` for the country and any hand-filled service year. It
+`group`, any `photoAuthor`, and `overrides` for the country and any hand-filled
+service year or first flight. It
 always records the country, because Wikidata has none for many older types (21
 of the first 116). For a joint project, edit the override afterwards, for example
 the UH-72 is `["United States", "Germany"]`.

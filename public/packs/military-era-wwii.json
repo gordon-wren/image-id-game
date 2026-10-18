@@ -615,7 +615,7 @@
         }
       ],
       "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
-      "credit": "Unknown / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-era-wwii-p59",
@@ -1316,6 +1316,181 @@
       ],
       "caption": "Japanese transport aircraft. First flew 1940.",
       "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-mig3",
+      "image": "mig3.jpg",
+      "answer": "mig3",
+      "options": [
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        }
+      ],
+      "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-yak9",
+      "image": "yak9.jpg",
+      "answer": "yak9",
+      "options": [
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        }
+      ],
+      "caption": "Fighter aircraft. First flew 1942.",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-la5",
+      "image": "la5.jpg",
+      "answer": "la5",
+      "options": [
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-il2",
+      "image": "il2.jpg",
+      "answer": "il2",
+      "options": [
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        }
+      ],
+      "caption": "Soviet ground attack aircraft of WWII. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-pe2",
+      "image": "pe2.jpg",
+      "answer": "pe2",
+      "options": [
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        }
+      ],
+      "caption": "Soviet dive bomber aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-tu2",
+      "image": "tu2.jpg",
+      "answer": "tu2",
+      "options": [
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        }
+      ],
+      "caption": "1943 medium bomber aircraft family. First flew 1941.",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-pe8",
+      "image": "pe8.jpg",
+      "answer": "pe8",
+      "options": [
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
     }
   ]
 }

@@ -177,16 +177,16 @@
           "label": "Mil Mi-24"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17"
+          "id": "mi14",
+          "label": "Mil Mi-14"
         },
         {
-          "id": "ch54",
-          "label": "Sikorsky CH-54 Tarhe"
+          "id": "mi4",
+          "label": "Mil Mi-4"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -202,16 +202,16 @@
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "mi14",
+          "label": "Mil Mi-14"
         },
         {
-          "id": "h21",
-          "label": "Piasecki H-21"
+          "id": "mi26",
+          "label": "Mil Mi-26"
         }
       ],
       "caption": "Family of transport helicopters. First flew 1961.",
@@ -227,16 +227,16 @@
           "label": "Kamov Ka-50"
         },
         {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        },
+        {
           "id": "ka52",
           "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
-        },
-        {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -256,12 +256,12 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "mi26",
-          "label": "Mil Mi-26"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -281,12 +281,12 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -352,16 +352,16 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
@@ -741,6 +741,156 @@
       ],
       "caption": "Japanese scout/observation helicopter. First flew 1996.",
       "credit": "Los688 / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi4",
+      "image": "mi4.jpg",
+      "answer": "mi4",
+      "options": [
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        }
+      ],
+      "caption": "Soviet transport helicopter. First flew 1952.",
+      "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi6",
+      "image": "mi6.jpg",
+      "answer": "mi6",
+      "options": [
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        }
+      ],
+      "caption": "Transport helicopter. First flew 1957.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ka25",
+      "image": "ka25.jpg",
+      "answer": "ka25",
+      "options": [
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        }
+      ],
+      "caption": "Naval helicopter developed for the USSR. First flew 1961.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi14",
+      "image": "mi14.jpg",
+      "answer": "mi14",
+      "options": [
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        }
+      ],
+      "caption": "Helicopter in the Soviet Union. First flew 1969.",
+      "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-ka27",
+      "image": "ka27.jpg",
+      "answer": "ka27",
+      "options": [
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ],
+      "caption": "Naval military helicopter. First flew 1973.",
+      "credit": "Jason R. Zalasky, U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-mi28",
+      "image": "mi28.jpg",
+      "answer": "mi28",
+      "options": [
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        }
+      ],
+      "caption": "Russian attack helicopter. First flew 1982.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

@@ -60,8 +60,8 @@
           "label": "Curtiss P-40 Warhawk"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -77,16 +77,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "tb3",
+          "label": "Tupolev TB-3"
         },
         {
-          "id": "ki27",
-          "label": "Nakajima Ki-27"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         },
         {
-          "id": "a5m",
-          "label": "Mitsubishi A5M"
+          "id": "i16",
+          "label": "Polikarpov I-16"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -381,8 +381,8 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "k5y",
-          "label": "Yokosuka K5Y"
+          "id": "po2",
+          "label": "Polikarpov Po-2"
         },
         {
           "id": "t6",
@@ -656,12 +656,12 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "k5y",
-          "label": "Yokosuka K5Y"
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -681,12 +681,12 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
-        },
-        {
           "id": "b17",
           "label": "Boeing B-17 Flying Fortress"
+        },
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -852,16 +852,16 @@
           "label": "Yokosuka K5Y"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "po2",
+          "label": "Polikarpov Po-2"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "ki27",
-          "label": "Nakajima Ki-27"
+          "id": "a5m",
+          "label": "Mitsubishi A5M"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -885,8 +885,8 @@
           "label": "Mitsubishi A5M"
         },
         {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
         }
       ],
       "caption": "Japanese attack aircraft family. First flew 1937.",
@@ -941,6 +941,106 @@
       ],
       "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
       "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-i15",
+      "image": "i15.jpg",
+      "answer": "i15",
+      "options": [
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1933.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-i16",
+      "image": "i16.jpg",
+      "answer": "i16",
+      "options": [
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Soviet 1930s monoplane fighter aircraft. First flew 1933.",
+      "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-po2",
+      "image": "po2.jpg",
+      "answer": "po2",
+      "options": [
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "All-weather multirole Soviet biplane. First flew 1927.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-tb3",
+      "image": "tb3.jpg",
+      "answer": "tb3",
+      "options": [
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "p36",
+          "label": "Curtiss P-36 Hawk"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1930.",
+      "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
     }
   ]
 }

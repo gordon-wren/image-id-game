@@ -31,12 +31,12 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "il38",
+          "label": "Ilyushin Il-38"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
@@ -81,8 +81,8 @@
           "label": "General Dynamics F-111 Aardvark"
         },
         {
-          "id": "a5",
-          "label": "North American A-5 Vigilante"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         },
         {
           "id": "a7",
@@ -110,8 +110,8 @@
           "label": "Harrier Jump Jet"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "su7",
+          "label": "Sukhoi Su-7"
         }
       ],
       "caption": "US lightweight low-cost fighter aircraft. First flew 1959.",
@@ -156,12 +156,12 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
         }
       ],
       "caption": "American tandem-rotor helicopter introduced in 1962 during the Cold War. First flew 1961.",
@@ -181,12 +181,12 @@
           "label": "Sikorsky SH-3 Sea King"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
         }
       ],
       "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
@@ -206,8 +206,8 @@
           "label": "Sikorsky CH-53 Sea Stallion"
         },
         {
-          "id": "f111",
-          "label": "General Dynamics F-111 Aardvark"
+          "id": "mi24",
+          "label": "Mil Mi-24"
         },
         {
           "id": "hh3",
@@ -231,12 +231,12 @@
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         },
         {
-          "id": "ch47",
-          "label": "Boeing CH-47 Chinook"
+          "id": "sh3",
+          "label": "Sikorsky SH-3 Sea King"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -252,12 +252,12 @@
           "label": "Mil Mi-8/17"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         },
         {
-          "id": "ch53",
-          "label": "Sikorsky CH-53 Sea Stallion"
+          "id": "mi24",
+          "label": "Mil Mi-24"
         },
         {
           "id": "sh3",
@@ -277,16 +277,16 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
         },
         {
-          "id": "p3",
-          "label": "Lockheed P-3 Orion"
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
         },
         {
-          "id": "a7",
-          "label": "LTV A-7 Corsair II"
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
         }
       ],
       "caption": "Cold War-era American supersonic bomber. First flew 1956.",
@@ -310,8 +310,8 @@
           "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "American anti-submarine helicopter. First flew 1959.",
@@ -360,8 +360,8 @@
           "label": "Northrop F-5"
         },
         {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "su7",
+          "label": "Sukhoi Su-7"
         }
       ],
       "caption": "1960 attack strike aircraft family by Grumman. First flew 1960.",
@@ -406,12 +406,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "p2j",
-          "label": "Kawasaki P-2J"
+          "id": "il38",
+          "label": "Ilyushin Il-38"
         },
         {
-          "id": "sr71",
-          "label": "Lockheed SR-71 Blackbird"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         }
       ],
       "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
@@ -431,8 +431,8 @@
           "label": "North American A-5 Vigilante"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
+          "id": "su7",
+          "label": "Sukhoi Su-7"
         },
         {
           "id": "f5",
@@ -456,8 +456,8 @@
           "label": "Northrop F-5"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         },
         {
           "id": "a6",
@@ -481,12 +481,12 @@
           "label": "LTV A-7 Corsair II"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
-        },
-        {
           "id": "harrier",
           "label": "Harrier Jump Jet"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         }
       ],
       "caption": "American light attack aircraft developed from the T-37 Tweet basic trainer. First flew 1963.",
@@ -506,12 +506,12 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "a5",
-          "label": "North American A-5 Vigilante"
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "an22",
+          "label": "Antonov An-22"
         }
       ],
       "caption": "Observation and light attack aircraft. First flew 1965.",
@@ -531,12 +531,12 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "a5",
-          "label": "North American A-5 Vigilante"
-        },
-        {
           "id": "mi8",
           "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "1959 anti-submarine helicopter family by Kaman. First flew 1959.",
@@ -560,8 +560,8 @@
           "label": "Bell AH-1 Cobra"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
@@ -606,16 +606,216 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "fuji-t1",
-          "label": "Fuji T-1"
+          "id": "be12",
+          "label": "Beriev Be-12"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "il38",
+          "label": "Ilyushin Il-38"
         }
       ],
       "caption": "Japanese maritime patrol aircraft. First flew 1966.",
       "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-mi6",
+      "image": "mi6.jpg",
+      "answer": "mi6",
+      "options": [
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "hh3",
+          "label": "Sikorsky HH-3 (S-61R)"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        }
+      ],
+      "caption": "Transport helicopter. First flew 1957.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-su7",
+      "image": "su7.jpg",
+      "answer": "su7",
+      "options": [
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        },
+        {
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
+        }
+      ],
+      "caption": "Soviet strike fighter aircraft. First flew 1955.",
+      "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-tu22",
+      "image": "tu22.jpg",
+      "answer": "tu22",
+      "options": [
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        }
+      ],
+      "caption": "Soviet supersonic heavy bomber. First flew 1958.",
+      "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-yak28",
+      "image": "yak28.jpg",
+      "answer": "yak28",
+      "options": [
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        }
+      ],
+      "caption": "Family of Soviet jet combat aircraft. First flew 1958.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-su15",
+      "image": "su15.jpg",
+      "answer": "su15",
+      "options": [
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "a6",
+          "label": "Grumman A-6 Intruder"
+        }
+      ],
+      "caption": "Soviet interceptor aircraft. First flew 1962.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-be12",
+      "image": "be12.jpg",
+      "answer": "be12",
+      "options": [
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        }
+      ],
+      "caption": "Patrol aircraft. First flew 1960.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-an22",
+      "image": "an22.jpg",
+      "answer": "an22",
+      "options": [
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        }
+      ],
+      "caption": "Soviet heavy military transport aircraft. First flew 1965.",
+      "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-il38",
+      "image": "il38.jpg",
+      "answer": "il38",
+      "options": [
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        }
+      ],
+      "caption": "Soviet-Russian Maritime patrol & ASW aircraft. First flew 1961.",
+      "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
     }
   ]
 }

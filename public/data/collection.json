@@ -348,7 +348,50 @@
     "fuji-t7": 345,
     "us2": 346,
     "kawasaki-p1": 347,
-    "a5m": 348
+    "a5m": 348,
+    "i15": 349,
+    "i16": 350,
+    "po2": 351,
+    "tb3": 352,
+    "mig3": 353,
+    "yak9": 354,
+    "la5": 355,
+    "il2": 356,
+    "pe2": 357,
+    "tu2": 358,
+    "pe8": 359,
+    "yak18": 360,
+    "an2": 361,
+    "mi4": 362,
+    "mig15": 363,
+    "mig17": 364,
+    "mig19": 365,
+    "il28": 366,
+    "tu16": 367,
+    "m4": 368,
+    "an12": 369,
+    "mi6": 370,
+    "su7": 371,
+    "tu22": 372,
+    "yak28": 373,
+    "su15": 374,
+    "be12": 375,
+    "an22": 376,
+    "ka25": 377,
+    "il38": 378,
+    "an26": 379,
+    "mig23": 380,
+    "su17": 381,
+    "su24": 382,
+    "mi14": 383,
+    "yak38": 384,
+    "yak52": 385,
+    "su25": 386,
+    "ka27": 387,
+    "a50": 388,
+    "mi28": 389,
+    "su34": 390,
+    "yak130": 391
   },
   "entries": {
     "jn4": {
@@ -1271,6 +1314,90 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_A5M"
       }
     },
+    "i15": {
+      "number": 349,
+      "name": "Polikarpov I-15",
+      "image": "assets/aircraft/i15.jpg",
+      "credit": "Doomych / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Soviet fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Polikarpov, Dux Factory",
+        "firstFlight": 1933,
+        "country": "Soviet Union",
+        "about": "The Polikarpov I-15 is a Soviet biplane fighter aircraft of the 1930s. Nicknamed Chaika because of its gulled upper wings, it was operated in large numbers by the Soviet Air Force, and together with the Polikarpov I-16 monoplane, was one of the standard fighters of the Spanish Republicans during the Spanish Civil…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Polikarpov_I-15"
+      }
+    },
+    "i16": {
+      "number": 350,
+      "name": "Polikarpov I-16",
+      "image": "assets/aircraft/i16.jpg",
+      "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Soviet 1930s monoplane fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Nikolai Polikarpov, Moscow Aviation Plant № 39",
+        "firstFlight": 1933,
+        "country": "Soviet Union",
+        "about": "The Polikarpov I-16 is a Soviet single-engine single-seat fighter aircraft. It is a low-wing cantilever monoplane fighter with retractable landing gear, and was the first such aircraft to attain operational squadron status.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Polikarpov_I-16"
+      }
+    },
+    "po2": {
+      "number": 351,
+      "name": "Polikarpov Po-2",
+      "image": "assets/aircraft/po2.jpg",
+      "credit": "Doomych / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1920s",
+        "military-role-trainers",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "All-weather multirole Soviet biplane",
+        "role": "Utility biplane",
+        "manufacturer": "Polikarpov",
+        "firstFlight": 1927,
+        "country": "Soviet Union",
+        "about": "The Polikarpov Po-2 is an all-weather multirole Soviet biplane, nicknamed Kukuruznik. The reliable, uncomplicated design of the Po-2 made it an ideal trainer aircraft, as well as doubling as a low-cost ground attack, aerial reconnaissance, psychological warfare and liaison aircraft during war, proving to be one of…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Polikarpov_Po-2"
+      }
+    },
+    "tb3": {
+      "number": 352,
+      "name": "Tupolev TB-3",
+      "image": "assets/aircraft/tb3.jpg",
+      "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Soviet heavy bomber aircraft",
+        "role": "Heavy bomber",
+        "manufacturer": "Tupolev",
+        "firstFlight": 1930,
+        "country": "Soviet Union",
+        "about": "The Tupolev TB-3, OKB designation ANT-6, was a monoplane heavy bomber deployed by the Soviet Air Force in the 1930s and used during the early years of World War II. It was one of the world's first cantilever wing four-engine heavy bombers.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_TB-3"
+      }
+    },
     "p51": {
       "number": 145,
       "name": "North American P-51 Mustang",
@@ -1779,7 +1906,7 @@
       "number": 265,
       "name": "Northrop P-61 Black Widow",
       "image": "assets/aircraft/p61.jpg",
-      "credit": "Unknown / Public domain / via Wikimedia Commons",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-wwii",
         "military-decade-1940s",
@@ -2413,6 +2540,160 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57"
       }
     },
+    "mig3": {
+      "number": 353,
+      "name": "Mikoyan-Gurevich MiG-3",
+      "image": "assets/aircraft/mig3.jpg",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Soviet single-seat WWII fighter aircraft",
+        "role": "Fighter/Interceptor",
+        "manufacturer": "Russian Aircraft Corporation MiG, Progress State Research and Production Rocket Space Center",
+        "firstFlight": 1940,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-3 is a Soviet interceptor used during World War II. It was a development of the MiG-1 by the OKO of Zavod (Factory) No.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-3"
+      }
+    },
+    "yak9": {
+      "number": 354,
+      "name": "Yakovlev Yak-9",
+      "image": "assets/aircraft/yak9.jpg",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Yakovlev, Tushino Machine-Building Plant",
+        "firstFlight": 1942,
+        "country": "Soviet Union",
+        "about": "The Yakovlev Yak-9 is a single-engine, single-seat multipurpose fighter aircraft used by the Soviet Union and its allies during World War II and the early Cold War. It was a development of the robust and successful Yak-7B fighter, which was based in turn on the tandem-seat advanced trainer known as the Yak-7UTI.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-9"
+      }
+    },
+    "la5": {
+      "number": 355,
+      "name": "Lavochkin La-5",
+      "image": "assets/aircraft/la5.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Soviet fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "NPO Lavochkin",
+        "firstFlight": 1942,
+        "country": "Soviet Union",
+        "about": "The Lavochkin La-5 was a Soviet fighter aircraft of World War II. It was a development and refinement of the LaGG-3, replacing the earlier model's inline engine with the much more powerful Shvetsov ASh-82 radial engine.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lavochkin_La-5"
+      }
+    },
+    "il2": {
+      "number": 356,
+      "name": "Ilyushin Il-2",
+      "image": "assets/aircraft/il2.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Soviet ground attack aircraft of WWII",
+        "role": "Ground-attack aircraft",
+        "manufacturer": "Ilyushin",
+        "firstFlight": 1939,
+        "country": "Soviet Union",
+        "about": "The Ilyushin Il-2 is a ground-attack plane that was produced by the Soviet Union in large numbers during the Second World War. The word shturmovík, the generic Russian term for a ground-attack aircraft, became a synecdoche for the Il-2 in English sources, where it is commonly rendered Shturmovik, Stormovik and…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-2"
+      }
+    },
+    "pe2": {
+      "number": 357,
+      "name": "Petlyakov Pe-2",
+      "image": "assets/aircraft/pe2.jpg",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Soviet dive bomber aircraft",
+        "role": "Dive bomber",
+        "manufacturer": "Petlyakov, Kazan Aircraft Production Association",
+        "firstFlight": 1939,
+        "country": "Soviet Union",
+        "about": "The Petlyakov Pe-2 was a Soviet twin-engine dive bomber used during World War II. One of the outstanding tactical attack aircraft of the war, it also proved successful as a heavy fighter, as a night fighter and as a reconnaissance aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Petlyakov_Pe-2"
+      }
+    },
+    "tu2": {
+      "number": 358,
+      "name": "Tupolev Tu-2",
+      "image": "assets/aircraft/tu2.jpg",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "1943 medium bomber aircraft family",
+        "role": "Medium bomber",
+        "manufacturer": "Tupolev",
+        "firstFlight": 1941,
+        "country": "Soviet Union",
+        "about": "The Tupolev Tu-2 is a twin-engined Soviet high-speed daylight and frontline bomber aircraft used during World War II. The Tu-2 was tailored to meet a requirement for a high-speed bomber or dive-bomber, with a large internal bomb load and speed similar to that of a single-seat fighter.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-2"
+      }
+    },
+    "pe8": {
+      "number": 359,
+      "name": "Petlyakov Pe-8",
+      "image": "assets/aircraft/pe8.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-wwii"
+      ],
+      "facts": {
+        "description": "Soviet heavy bomber aircraft",
+        "role": "Heavy bomber",
+        "manufacturer": "Kazan Aircraft Production Association",
+        "firstFlight": 1936,
+        "country": "Soviet Union",
+        "about": "The Petlyakov Pe-8 was a Soviet heavy bomber designed before World War II, and the only four-engine bomber the USSR built during the war. Produced in limited numbers, it was used to bomb Berlin in August 1941.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Petlyakov_Pe-8"
+      }
+    },
     "c130": {
       "number": 84,
       "name": "Lockheed C-130 Hercules",
@@ -2511,7 +2792,8 @@
         "military-era-early-cold-war",
         "military-decade-1950s",
         "military-role-bombers",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
       ],
       "facts": {
         "description": "Russian strategic bomber aircraft",
@@ -2553,7 +2835,8 @@
         "military-era-early-cold-war",
         "military-decade-1950s",
         "military-role-fighters",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
       ],
       "facts": {
         "description": "1956 Soviet fighter aircraft family",
@@ -3203,6 +3486,226 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Grumman_OV-1_Mohawk"
       }
     },
+    "yak18": {
+      "number": 360,
+      "name": "Yakovlev Yak-18",
+      "image": "assets/aircraft/yak18.jpg",
+      "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1940s",
+        "military-role-trainers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Training aircraft in the Soviet Union",
+        "role": "Training aircraft",
+        "manufacturer": "Yakovlev",
+        "firstFlight": 1946,
+        "country": "Soviet Union",
+        "about": "The Yakovlev Yak-18 is a tandem two-seat military primary trainer aircraft manufactured in the Soviet Union. Originally powered by one 119 kW (160 hp) Shvetsov M-11FR-1 radial piston engine, it entered service in 1946.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-18"
+      }
+    },
+    "an2": {
+      "number": 361,
+      "name": "Antonov An-2",
+      "image": "assets/aircraft/an2.jpg",
+      "credit": "Arpingstone / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1940s",
+        "military-role-transports",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet single-engine civilian aircraft",
+        "role": "Agricultural, utility aircraft and military transport aircraft",
+        "manufacturer": "Hongdu",
+        "firstFlight": 1947,
+        "country": "Soviet Union",
+        "about": "The Antonov An-2  is a Soviet mass-produced single-engine biplane utility/agricultural aircraft designed and manufactured by the Antonov Design Bureau beginning in 1947. Its durability, lifting power, and ability to take off and land from poor runways have given it a long service life.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-2"
+      }
+    },
+    "mi4": {
+      "number": 362,
+      "name": "Mil Mi-4",
+      "image": "assets/aircraft/mi4.jpg",
+      "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet transport helicopter",
+        "role": "Transport helicopter",
+        "manufacturer": "Mil Moscow Helicopter Plant",
+        "firstFlight": 1952,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-4 is a Soviet transport helicopter that served in both military and civilian roles.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-4"
+      }
+    },
+    "mig15": {
+      "number": 363,
+      "name": "Mikoyan-Gurevich MiG-15",
+      "image": "assets/aircraft/mig15.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet fighter aircraft",
+        "role": "Fighter aircraft",
+        "manufacturer": "Russian Aircraft Corporation MiG, Progress State Research and Production Rocket Space Center",
+        "firstFlight": 1947,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-15 is a single-seat transonic jet fighter aircraft developed by Mikoyan-Gurevich for the Soviet Union. The MiG-15 was one of the first successful jet fighters to incorporate swept wings to perform near Mach 1.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15"
+      }
+    },
+    "mig17": {
+      "number": 364,
+      "name": "Mikoyan-Gurevich MiG-17",
+      "image": "assets/aircraft/mig17.jpg",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet jet fighter aircraft family",
+        "role": "Fighter aircraft",
+        "manufacturer": "Russian Aircraft Corporation MiG, Russian Soviet Federative Socialist Republic",
+        "firstFlight": 1950,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-17 is a transonic fighter aircraft that was produced in the Soviet Union from 1952 and was operated by air forces internationally. The MiG-17 was license-built in China as the Shenyang J-5 and in Poland as the PZL-Mielec Lim-6.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-17"
+      }
+    },
+    "mig19": {
+      "number": 365,
+      "name": "Mikoyan-Gurevich MiG-19",
+      "image": "assets/aircraft/mig19.jpg",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Air superiority fighter aircraft family",
+        "role": "Fighter aircraft",
+        "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
+        "firstFlight": 1953,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-19 is a Soviet second generation, single-seat, twinjet fighter aircraft. It was the first Soviet production aircraft capable of supersonic speeds in level flight.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19"
+      }
+    },
+    "il28": {
+      "number": 366,
+      "name": "Ilyushin Il-28",
+      "image": "assets/aircraft/il28.jpg",
+      "credit": "Wisnia6522 / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet bomber aircraft family",
+        "role": "Medium bomber",
+        "manufacturer": "Знамя Труда (машиностроительный завод), Production Corporation Polyot",
+        "firstFlight": 1948,
+        "country": "Soviet Union",
+        "about": "The Ilyushin Il-28 is a medium-range jet bomber, originally manufactured for the Soviet Air Forces, in service since 1950. It was the Soviet Union's first such aircraft to enter large-scale production.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-28"
+      }
+    },
+    "tu16": {
+      "number": 367,
+      "name": "Tupolev Tu-16",
+      "image": "assets/aircraft/tu16.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet heavy bomber",
+        "role": "Strategic bomber",
+        "manufacturer": "Tupolev, Kazan Aircraft Production Association",
+        "firstFlight": 1952,
+        "country": "Soviet Union",
+        "about": "The Tupolev Tu-16 is a twin-engined jet strategic heavy bomber used by the Soviet Union. It has been flown for almost 70 years.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-16"
+      }
+    },
+    "m4": {
+      "number": 368,
+      "name": "Myasishchev M-4",
+      "image": "assets/aircraft/m4.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet strategic bomber and tanker aircraft",
+        "role": "Strategic bomber",
+        "manufacturer": "Myasishchev Design Bureau",
+        "firstFlight": 1953,
+        "country": "Soviet Union",
+        "about": "The Myasishchev M-4 Molot was a four-engined strategic bomber designed by Vladimir Mikhailovich Myasishchev and manufactured by the Soviet Union in the 1950s to provide a Long Range Aviation bomber capable of attacking targets in North America.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Myasishchev_M-4"
+      }
+    },
+    "an12": {
+      "number": 369,
+      "name": "Antonov An-12",
+      "image": "assets/aircraft/an12.jpg",
+      "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-early-cold-war",
+        "military-decade-1950s",
+        "military-role-transports",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-early-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet medium-range transport aircraft",
+        "role": "Cargo aircraft / military transport aircraft",
+        "manufacturer": "Antonov, Irkutsk Aviation Plant",
+        "firstFlight": 1957,
+        "country": "Soviet Union",
+        "about": "The Antonov An-12 is a four-engined turboprop cargo/military transport aircraft designed by Antonov and produced at the Irkutsk Aviation Plant and the Tashkent Mechanical Plant in the Soviet Union. It is a militarised version of the Antonov An-10 transport aircraft and was produced in many variants.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-12"
+      }
+    },
     "c5": {
       "number": 86,
       "name": "Lockheed C-5 Galaxy",
@@ -3234,7 +3737,8 @@
         "military-era-vietnam",
         "military-decade-1970s",
         "military-role-transports",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
       ],
       "facts": {
         "description": "Russian heavy four-engined military transport jet aircraft",
@@ -3321,7 +3825,8 @@
         "military-era-vietnam",
         "military-decade-1970s",
         "military-role-fighters",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
       ],
       "facts": {
         "description": "Family of interceptor and reconnaissance aircraft",
@@ -3513,7 +4018,8 @@
         "military-era-vietnam",
         "military-decade-1960s",
         "military-role-helicopters",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
       ],
       "facts": {
         "description": "Family of assault and attack helicopters",
@@ -3534,7 +4040,8 @@
         "military-era-vietnam",
         "military-decade-1960s",
         "military-role-helicopters",
-        "military-country-soviet-union-and-russia"
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
       ],
       "facts": {
         "description": "Family of transport helicopters",
@@ -3958,6 +4465,292 @@
         "country": "Japan",
         "about": "The Mitsubishi T-2 was a supersonic jet trainer aircraft designed and produced by the Japanese aerospace firm Mitsubishi. It was the first Japanese-developed aircraft to break the sound barrier.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mitsubishi_T-2"
+      }
+    },
+    "mi6": {
+      "number": 370,
+      "name": "Mil Mi-6",
+      "image": "assets/aircraft/mi6.jpg",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Transport helicopter",
+        "role": "Heavy transport helicopter",
+        "manufacturer": "Mil Moscow Helicopter Plant, Khrunichev State Research and Production Space Center",
+        "firstFlight": 1957,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-6, given the article number izdeliye 50 and company designation V-6, is a Soviet/Russian heavy transport helicopter that was designed by the Mil design bureau. It was built in large numbers for both military and civil use and was the largest helicopter in production until the Mil Mi-26 was put in…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-6"
+      }
+    },
+    "su7": {
+      "number": 371,
+      "name": "Sukhoi Su-7",
+      "image": "assets/aircraft/su7.jpg",
+      "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet strike fighter aircraft",
+        "role": "Fighter and fighter-bomber / ground-attack aircraft",
+        "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
+        "firstFlight": 1955,
+        "country": "Soviet Union",
+        "about": "The Sukhoi Su-7 is a swept wing, supersonic fighter aircraft developed by the Soviet Union in 1955. Originally, it was designed as a tactical, low-level dogfighter, but was not successful in this role.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-7"
+      }
+    },
+    "tu22": {
+      "number": 372,
+      "name": "Tupolev Tu-22",
+      "image": "assets/aircraft/tu22.jpg",
+      "credit": "Зимин Василий / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet supersonic heavy bomber",
+        "role": "Medium bomber",
+        "manufacturer": "Tupolev, Kazan Aircraft Production Association",
+        "firstFlight": 1958,
+        "country": "Soviet Union",
+        "about": "The Tupolev Tu-22 was the first supersonic bomber to enter production in the Soviet Union. Manufactured by Tupolev, the Tu-22 entered service with Long-Range Aviation and Soviet Naval Aviation in the 1960s.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-22"
+      }
+    },
+    "yak28": {
+      "number": 373,
+      "name": "Yakovlev Yak-28",
+      "image": "assets/aircraft/yak28.jpg",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-bombers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Family of Soviet jet combat aircraft",
+        "role": "Medium bomber; Reconnaissance; Electronic warfare; Interceptor",
+        "manufacturer": "Yakovlev, Saratov Aviation Plant",
+        "firstFlight": 1958,
+        "country": "Soviet Union",
+        "about": "The Yakovlev Yak-28 is a swept wing, turbojet-powered combat aircraft used by the Soviet Union. Produced initially as a tactical medium bomber, it was also manufactured in reconnaissance, electronic warfare, interceptor, and trainer versions, known by the NATO reporting names Brewer, Brewer-E, Firebar, and Maestro…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-28"
+      }
+    },
+    "su15": {
+      "number": 374,
+      "name": "Sukhoi Su-15",
+      "image": "assets/aircraft/su15.jpg",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet interceptor aircraft",
+        "role": "Interceptor aircraft",
+        "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
+        "firstFlight": 1962,
+        "country": "Soviet Union",
+        "about": "The Sukhoi Su-15 is a twinjet supersonic interceptor aircraft developed by the Soviet Union. It entered service in 1965 and remained one of the front-line designs into the 1990s.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-15"
+      }
+    },
+    "be12": {
+      "number": 375,
+      "name": "Beriev Be-12",
+      "image": "assets/aircraft/be12.jpg",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-special-mission",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Patrol aircraft",
+        "role": "Maritime patrol aircraft",
+        "manufacturer": "Beriev",
+        "firstFlight": 1960,
+        "country": "Soviet Union",
+        "about": "The Beriev Be-12 Chayka is a Soviet turboprop-powered amphibious aircraft designed in the 1950s for anti-submarine and maritime patrol duties.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beriev_Be-12"
+      }
+    },
+    "an22": {
+      "number": 376,
+      "name": "Antonov An-22",
+      "image": "assets/aircraft/an22.jpg",
+      "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-transports",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet heavy military transport aircraft",
+        "role": "Strategic airlifter",
+        "manufacturer": "Antonov, Tashkent Mechanical Plant",
+        "firstFlight": 1965,
+        "country": "Soviet Union",
+        "about": "The Antonov An-22 \"Antei\" is a retired heavy turboprop military transport aircraft developed by the Antonov Design Bureau and produced by the Tashkent State Aircraft Factory in the Soviet Union. It was the first wide-body transport aircraft and has continued to possess the largest cargo deck for any turboprop-powered…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-22"
+      }
+    },
+    "ka25": {
+      "number": 377,
+      "name": "Kamov Ka-25",
+      "image": "assets/aircraft/ka25.jpg",
+      "credit": "US Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Naval helicopter developed for the USSR",
+        "role": "Anti-submarine / Multi-purpose shipboard helicopter",
+        "manufacturer": "Kamov, Ulan-Ude Aviation Plant",
+        "firstFlight": 1961,
+        "country": "Soviet Union",
+        "about": "The Kamov Ka-25 is a coaxial rotor naval helicopter, developed for the Soviet Navy in the USSR from 1958, before being succeeded by the Ka-27. The Ka-25 filled a multitude of roles while it was in service with the Soviet Navy.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-25"
+      }
+    },
+    "il38": {
+      "number": 378,
+      "name": "Ilyushin Il-38",
+      "image": "assets/aircraft/il38.jpg",
+      "credit": "US Navy Employee / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1960s",
+        "military-role-special-mission",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet-Russian Maritime patrol & ASW aircraft",
+        "role": "Anti-submarine warfare and maritime patrol aircraft",
+        "manufacturer": "Ilyushin",
+        "firstFlight": 1961,
+        "country": "Soviet Union",
+        "about": "The Ilyushin Il-38 is a maritime patrol aircraft and anti-submarine warfare aircraft designed in the Soviet Union. It is a variant of the Ilyushin Il-18 turboprop airliner.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-38"
+      }
+    },
+    "an26": {
+      "number": 379,
+      "name": "Antonov An-26",
+      "image": "assets/aircraft/an26.jpg",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-transports",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet turboprop transport aircraft",
+        "role": "Transport aircraft / regional airliner",
+        "manufacturer": "Antonov, Antonov Serial Production Plant",
+        "firstFlight": 1969,
+        "country": "Soviet Union",
+        "about": "The Antonov An-26 is a twin-engined turboprop regional airliner and military transport aircraft, designed and produced in the Soviet Union from 1969 to 1986. It is the third member of the Antonov An-24 family, coming after the An-24 and An-30, while preceding the An-32 and cancelled An-132.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-26"
+      }
+    },
+    "mig23": {
+      "number": 380,
+      "name": "Mikoyan-Gurevich MiG-23",
+      "image": "assets/aircraft/mig23.jpg",
+      "credit": "DoD photo / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-fighters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet fighter-interceptor aircraft introduced in 1970",
+        "role": "Fighter aircraft (M series); Fighter-bomber (B series)",
+        "manufacturer": "Russian Aircraft Corporation MiG",
+        "firstFlight": 1967,
+        "country": "Soviet Union",
+        "about": "The Mikoyan-Gurevich MiG-23 is a single-engined, supersonic, variable-sweep wing fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, alongside similar Soviet aircraft such as the Su-17 \"Fitter\".",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23"
+      }
+    },
+    "su17": {
+      "number": 381,
+      "name": "Sukhoi Su-17",
+      "image": "assets/aircraft/su17.jpg",
+      "credit": "SDASM / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Soviet variable-sweep wing fighter-bomber",
+        "role": "Fighter-bomber",
+        "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
+        "firstFlight": 1966,
+        "country": "Soviet Union",
+        "about": "The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service and featured updated avionics.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-17"
+      }
+    },
+    "su24": {
+      "number": 382,
+      "name": "Sukhoi Su-24",
+      "image": "assets/aircraft/su24.jpg",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-vietnam"
+      ],
+      "facts": {
+        "description": "Family of Soviet strike aircraft",
+        "role": "All-weather tactical bomber/interdictor",
+        "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
+        "firstFlight": 1970,
+        "country": "Soviet Union",
+        "about": "The Sukhoi Su-24 is a supersonic, all-weather tactical bomber developed in the Soviet Union. The aircraft has a variable-sweep wing, twin engines and a side-by-side seating arrangement for its crew of two.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-24"
       }
     },
     "an124": {
@@ -4656,6 +5449,138 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_T-4"
       }
     },
+    "mi14": {
+      "number": 383,
+      "name": "Mil Mi-14",
+      "image": "assets/aircraft/mi14.jpg",
+      "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1970s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "Helicopter in the Soviet Union",
+        "role": "Anti-submarine helicopter",
+        "manufacturer": "Mil Moscow Helicopter Plant, Kazan Helicopters",
+        "firstFlight": 1969,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-14 is a Soviet shore-based nuclear-capable amphibious anti-submarine helicopter derived from the earlier Mi-8.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-14"
+      }
+    },
+    "yak38": {
+      "number": 384,
+      "name": "Yakovlev Yak-38",
+      "image": "assets/aircraft/yak38.jpg",
+      "credit": "US Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1970s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy",
+        "role": "VTOL strike aircraft",
+        "manufacturer": "Yakovlev, Saratov Aviation Plant",
+        "firstFlight": 1971,
+        "country": "Soviet Union",
+        "about": "The Yakovlev Yak-38 was Soviet Naval Aviation's only operational VTOL strike aircraft in addition to being its first operational carrier-based fixed-wing aircraft. It was developed specifically for, and served almost exclusively on, the Kiev-class aircraft carriers.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-38"
+      }
+    },
+    "yak52": {
+      "number": 385,
+      "name": "Yakovlev Yak-52",
+      "image": "assets/aircraft/yak52.jpg",
+      "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1970s",
+        "military-role-trainers",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet military training aircraft",
+        "role": "Trainer, COIN",
+        "manufacturer": "Yakovlev, Aerostar",
+        "firstFlight": 1976,
+        "country": "Soviet Union",
+        "about": "The Yakovlev Yak-52 is a Soviet primary trainer aircraft which first flew in 1976. It was produced in Romania from 1977 to 1998 by Aerostar, as Iak-52, which gained manufacturing rights under agreement within the former COMECON socialist trade organisation.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-52"
+      }
+    },
+    "su25": {
+      "number": 386,
+      "name": "Sukhoi Su-25",
+      "image": "assets/aircraft/su25.jpg",
+      "credit": "Original uploader was Dima Sergienko at en.wikipedia / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1980s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet attack aircraft introduced 1978",
+        "role": "Attack aircraft / close air support",
+        "manufacturer": "Sukhoi, Tbilisi Aircraft Manufacturing",
+        "firstFlight": 1975,
+        "country": "Soviet Union",
+        "about": "The Sukhoi Su-25 Grach is a subsonic, single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi. It was designed to provide close air support for Soviet Ground Forces.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-25"
+      }
+    },
+    "ka27": {
+      "number": 387,
+      "name": "Kamov Ka-27",
+      "image": "assets/aircraft/ka27.jpg",
+      "credit": "Jason R. Zalasky, U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1980s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "Naval military helicopter",
+        "role": "Anti-submarine warfare helicopter (Ka-27/Ka-28); Attack helicopter with transport capabilities (Ka-29); Civilian utility helicopter (Ka-32)",
+        "manufacturer": "Kamov",
+        "firstFlight": 1973,
+        "country": "Soviet Union",
+        "about": "The Kamov Ka-27 is a coaxial rotor military helicopter developed for the Soviet Navy, and as of 2024 is in service in various countries including Russia, Ukraine, Vietnam, China, South Korea, and India. Variants include the Ka-29 assault transport, the Ka-28 downgraded export version, and the Ka-32 for civilian use.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-27"
+      }
+    },
+    "a50": {
+      "number": 388,
+      "name": "Beriev A-50",
+      "image": "assets/aircraft/a50.jpg",
+      "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-late-cold-war",
+        "military-decade-1980s",
+        "military-role-special-mission",
+        "military-country-soviet-union-and-russia",
+        "military-country-soviet-union-and-russia-late-cold-war"
+      ],
+      "facts": {
+        "description": "Soviet airborne early warning and control (AEW&C) aircraft",
+        "role": "Airborne early warning and control",
+        "manufacturer": "Beriev, Tashkent Mechanical Plant",
+        "firstFlight": 1978,
+        "country": "Soviet Union",
+        "about": "The Beriev A-50 is a Soviet-origin airborne early warning and control (AEW&C) aircraft that is based on the Ilyushin Il-76 transport plane. Developed to replace the Tupolev Tu-126 \"Moss\", the A-50 first flew in 1978.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Beriev_A-50"
+      }
+    },
     "c17": {
       "number": 85,
       "name": "Boeing C-17 Globemaster III",
@@ -4770,7 +5695,7 @@
       "number": 21,
       "name": "Lockheed Martin F-22 Raptor",
       "image": "assets/aircraft/f22.jpg",
-      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons",
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons",
       "packs": [
         "military-era-post-cold-war",
         "military-decade-2000s",
@@ -5255,6 +6180,27 @@
         "wikipedia": "https://en.wikipedia.org/wiki/ShinMaywa_US-2"
       }
     },
+    "mi28": {
+      "number": 389,
+      "name": "Mil Mi-28",
+      "image": "assets/aircraft/mi28.jpg",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-post-cold-war",
+        "military-decade-2000s",
+        "military-role-helicopters",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Russian attack helicopter",
+        "role": "Attack helicopter",
+        "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
+        "firstFlight": 1982,
+        "country": "Soviet Union",
+        "about": "The Mil Mi-28 is a Soviet heavy-weight, all-weather, day-night, tandem-seat anti-armour military attack helicopter. It is an attack helicopter with no intended secondary transport capability and is better optimized for the role than the Mil Mi-24 gunship.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-28"
+      }
+    },
     "a400m": {
       "number": 87,
       "name": "Airbus A400M Atlas",
@@ -5589,6 +6535,48 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Kawasaki_P-1"
       }
     },
+    "su34": {
+      "number": 390,
+      "name": "Sukhoi Su-34",
+      "image": "assets/aircraft/su34.jpg",
+      "credit": "Doomych / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-modern",
+        "military-decade-2010s",
+        "military-role-attack",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Russian fighter-bomber aircraft",
+        "role": "Fighter-bomber/strike fighter",
+        "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
+        "firstFlight": 1990,
+        "country": "Russia",
+        "about": "The Sukhoi Su-34 is a Soviet-origin Russian twin-engine, twin-seat, all-weather supersonic medium-range fighter-bomber/strike aircraft. It first flew in 1990, intended for the Soviet Air Forces, and it entered service in 2014 with the Russian Air Force.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-34"
+      }
+    },
+    "yak130": {
+      "number": 391,
+      "name": "Yakovlev Yak-130",
+      "image": "assets/aircraft/yak130.jpg",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-modern",
+        "military-decade-2010s",
+        "military-role-trainers",
+        "military-country-soviet-union-and-russia"
+      ],
+      "facts": {
+        "description": "Russian light combat aircraft",
+        "role": "Lead-in fighter trainer / Light combat aircraft",
+        "manufacturer": "Yakovlev, Sokol",
+        "firstFlight": 1996,
+        "country": "Russia",
+        "about": "The Yakovlev Yak-130 is a subsonic, two-seat, advanced jet trainer and light combat aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-130"
+      }
+    },
     "b21": {
       "number": 79,
       "name": "Northrop Grumman B-21 Raider",
@@ -5889,7 +6877,7 @@
       "number": 299,
       "name": "Boeing 767",
       "image": "assets/aircraft/b767.jpg",
-      "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons",
+      "credit": "Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons",
       "packs": [
         "civil-airliners-widebody"
       ],
@@ -7172,7 +8160,7 @@
       "number": 14,
       "name": "Boeing 767-300",
       "image": "assets/aircraft/b767.jpg",
-      "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons",
+      "credit": "Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons",
       "packs": [
         "large-airliners"
       ]
@@ -7371,6 +8359,10 @@
     "military-era-interwar/b5n": "b5n",
     "military-era-interwar/h6k": "h6k",
     "military-era-interwar/a5m": "a5m",
+    "military-era-interwar/i15": "i15",
+    "military-era-interwar/i16": "i16",
+    "military-era-interwar/po2": "po2",
+    "military-era-interwar/tb3": "tb3",
     "military-era-wwii/p51": "p51",
     "military-era-wwii/a6m": "a6m",
     "military-era-wwii/f4u": "f4u",
@@ -7423,6 +8415,13 @@
     "military-era-wwii/f1m": "f1m",
     "military-era-wwii/h8k": "h8k",
     "military-era-wwii/ki57": "ki57",
+    "military-era-wwii/mig3": "mig3",
+    "military-era-wwii/yak9": "yak9",
+    "military-era-wwii/la5": "la5",
+    "military-era-wwii/il2": "il2",
+    "military-era-wwii/pe2": "pe2",
+    "military-era-wwii/tu2": "tu2",
+    "military-era-wwii/pe8": "pe8",
     "military-era-early-cold-war/c130": "c130",
     "military-era-early-cold-war/kc135": "kc135",
     "military-era-early-cold-war/u2": "u2",
@@ -7459,6 +8458,16 @@
     "military-era-early-cold-war/f106": "f106",
     "military-era-early-cold-war/t37": "t37",
     "military-era-early-cold-war/ov1": "ov1",
+    "military-era-early-cold-war/yak18": "yak18",
+    "military-era-early-cold-war/an2": "an2",
+    "military-era-early-cold-war/mi4": "mi4",
+    "military-era-early-cold-war/mig15": "mig15",
+    "military-era-early-cold-war/mig17": "mig17",
+    "military-era-early-cold-war/mig19": "mig19",
+    "military-era-early-cold-war/il28": "il28",
+    "military-era-early-cold-war/tu16": "tu16",
+    "military-era-early-cold-war/m4": "m4",
+    "military-era-early-cold-war/an12": "an12",
     "military-era-vietnam/c5": "c5",
     "military-era-vietnam/il76": "il76",
     "military-era-vietnam/p3": "p3",
@@ -7494,6 +8503,19 @@
     "military-era-vietnam/p2j": "p2j",
     "military-era-vietnam/kawasaki-c1": "kawasaki-c1",
     "military-era-vietnam/mitsubishi-t2": "mitsubishi-t2",
+    "military-era-vietnam/mi6": "mi6",
+    "military-era-vietnam/su7": "su7",
+    "military-era-vietnam/tu22": "tu22",
+    "military-era-vietnam/yak28": "yak28",
+    "military-era-vietnam/su15": "su15",
+    "military-era-vietnam/be12": "be12",
+    "military-era-vietnam/an22": "an22",
+    "military-era-vietnam/ka25": "ka25",
+    "military-era-vietnam/il38": "il38",
+    "military-era-vietnam/an26": "an26",
+    "military-era-vietnam/mig23": "mig23",
+    "military-era-vietnam/su17": "su17",
+    "military-era-vietnam/su24": "su24",
     "military-era-late-cold-war/an124": "an124",
     "military-era-late-cold-war/an225": "an225",
     "military-era-late-cold-war/e3": "e3",
@@ -7526,6 +8548,12 @@
     "military-era-late-cold-war/hh60w": "hh60w",
     "military-era-late-cold-war/mitsubishi-f1": "mitsubishi-f1",
     "military-era-late-cold-war/kawasaki-t4": "kawasaki-t4",
+    "military-era-late-cold-war/mi14": "mi14",
+    "military-era-late-cold-war/yak38": "yak38",
+    "military-era-late-cold-war/yak52": "yak52",
+    "military-era-late-cold-war/su25": "su25",
+    "military-era-late-cold-war/ka27": "ka27",
+    "military-era-late-cold-war/a50": "a50",
     "military-era-post-cold-war/c17": "c17",
     "military-era-post-cold-war/v22": "v22",
     "military-era-post-cold-war/mq9": "mq9",
@@ -7554,6 +8582,7 @@
     "military-era-post-cold-war/mitsubishi-f2": "mitsubishi-f2",
     "military-era-post-cold-war/fuji-t7": "fuji-t7",
     "military-era-post-cold-war/us2": "us2",
+    "military-era-post-cold-war/mi28": "mi28",
     "military-era-modern/a400m": "a400m",
     "military-era-modern/p8": "p8",
     "military-era-modern/c390": "c390",
@@ -7570,6 +8599,8 @@
     "military-era-modern/f15ex": "f15ex",
     "military-era-modern/mh139": "mh139",
     "military-era-modern/kawasaki-p1": "kawasaki-p1",
+    "military-era-modern/su34": "su34",
+    "military-era-modern/yak130": "yak130",
     "military-decade-1910s/jn4": "jn4",
     "military-decade-1910s/thomas-morse-s4": "thomas-morse-s4",
     "military-decade-1910s/curtiss-nc": "curtiss-nc",
@@ -7586,6 +8617,7 @@
     "military-decade-1920s/consolidated-pt1": "consolidated-pt1",
     "military-decade-1920s/mitsubishi-1mf": "mitsubishi-1mf",
     "military-decade-1920s/kawasaki-type88": "kawasaki-type88",
+    "military-decade-1920s/po2": "po2",
     "military-decade-1930s/spitfire": "spitfire",
     "military-decade-1930s/hurricane": "hurricane",
     "military-decade-1930s/bf109": "bf109",
@@ -7614,6 +8646,9 @@
     "military-decade-1930s/b5n": "b5n",
     "military-decade-1930s/h6k": "h6k",
     "military-decade-1930s/a5m": "a5m",
+    "military-decade-1930s/i15": "i15",
+    "military-decade-1930s/i16": "i16",
+    "military-decade-1930s/tb3": "tb3",
     "military-decade-1940s/p51": "p51",
     "military-decade-1940s/a6m": "a6m",
     "military-decade-1940s/f4u": "f4u",
@@ -7673,6 +8708,16 @@
     "military-decade-1940s/f1m": "f1m",
     "military-decade-1940s/h8k": "h8k",
     "military-decade-1940s/ki57": "ki57",
+    "military-decade-1940s/mig3": "mig3",
+    "military-decade-1940s/yak9": "yak9",
+    "military-decade-1940s/la5": "la5",
+    "military-decade-1940s/il2": "il2",
+    "military-decade-1940s/pe2": "pe2",
+    "military-decade-1940s/tu2": "tu2",
+    "military-decade-1940s/pe8": "pe8",
+    "military-decade-1940s/yak18": "yak18",
+    "military-decade-1940s/an2": "an2",
+    "military-decade-1940s/mig15": "mig15",
     "military-decade-1950s/c130": "c130",
     "military-decade-1950s/kc135": "kc135",
     "military-decade-1950s/u2": "u2",
@@ -7700,6 +8745,13 @@
     "military-decade-1950s/f106": "f106",
     "military-decade-1950s/t37": "t37",
     "military-decade-1950s/ov1": "ov1",
+    "military-decade-1950s/mi4": "mi4",
+    "military-decade-1950s/mig17": "mig17",
+    "military-decade-1950s/mig19": "mig19",
+    "military-decade-1950s/il28": "il28",
+    "military-decade-1950s/tu16": "tu16",
+    "military-decade-1950s/m4": "m4",
+    "military-decade-1950s/an12": "an12",
     "military-decade-1960s/p3": "p3",
     "military-decade-1960s/sr71": "sr71",
     "military-decade-1960s/harrier": "harrier",
@@ -7724,6 +8776,14 @@
     "military-decade-1960s/hh3": "hh3",
     "military-decade-1960s/fuji-t1": "fuji-t1",
     "military-decade-1960s/p2j": "p2j",
+    "military-decade-1960s/mi6": "mi6",
+    "military-decade-1960s/su7": "su7",
+    "military-decade-1960s/tu22": "tu22",
+    "military-decade-1960s/yak28": "yak28",
+    "military-decade-1960s/su15": "su15",
+    "military-decade-1960s/be12": "be12",
+    "military-decade-1960s/an22": "an22",
+    "military-decade-1960s/il38": "il38",
     "military-decade-1970s/c5": "c5",
     "military-decade-1970s/il76": "il76",
     "military-decade-1970s/e3": "e3",
@@ -7744,6 +8804,14 @@
     "military-decade-1970s/kawasaki-c1": "kawasaki-c1",
     "military-decade-1970s/mitsubishi-t2": "mitsubishi-t2",
     "military-decade-1970s/mitsubishi-f1": "mitsubishi-f1",
+    "military-decade-1970s/ka25": "ka25",
+    "military-decade-1970s/mi14": "mi14",
+    "military-decade-1970s/an26": "an26",
+    "military-decade-1970s/mig23": "mig23",
+    "military-decade-1970s/su17": "su17",
+    "military-decade-1970s/su24": "su24",
+    "military-decade-1970s/yak38": "yak38",
+    "military-decade-1970s/yak52": "yak52",
     "military-decade-1980s/an124": "an124",
     "military-decade-1980s/an225": "an225",
     "military-decade-1980s/b1": "b1",
@@ -7765,6 +8833,9 @@
     "military-decade-1980s/e6": "e6",
     "military-decade-1980s/hh60w": "hh60w",
     "military-decade-1980s/kawasaki-t4": "kawasaki-t4",
+    "military-decade-1980s/su25": "su25",
+    "military-decade-1980s/ka27": "ka27",
+    "military-decade-1980s/a50": "a50",
     "military-decade-1990s/c17": "c17",
     "military-decade-1990s/b2": "b2",
     "military-decade-1990s/gripen": "gripen",
@@ -7795,6 +8866,7 @@
     "military-decade-2000s/mitsubishi-f2": "mitsubishi-f2",
     "military-decade-2000s/fuji-t7": "fuji-t7",
     "military-decade-2000s/us2": "us2",
+    "military-decade-2000s/mi28": "mi28",
     "military-decade-2010s/a400m": "a400m",
     "military-decade-2010s/p8": "p8",
     "military-decade-2010s/c390": "c390",
@@ -7807,6 +8879,8 @@
     "military-decade-2010s/ah1z": "ah1z",
     "military-decade-2010s/kc46": "kc46",
     "military-decade-2010s/kawasaki-p1": "kawasaki-p1",
+    "military-decade-2010s/su34": "su34",
+    "military-decade-2010s/yak130": "yak130",
     "military-role-fighters/f22": "f22",
     "military-role-fighters/f35": "f35",
     "military-role-fighters/f16": "f16",
@@ -7884,6 +8958,16 @@
     "military-role-fighters/j1n": "j1n",
     "military-role-fighters/mitsubishi-f2": "mitsubishi-f2",
     "military-role-fighters/a5m": "a5m",
+    "military-role-fighters/i15": "i15",
+    "military-role-fighters/i16": "i16",
+    "military-role-fighters/mig3": "mig3",
+    "military-role-fighters/yak9": "yak9",
+    "military-role-fighters/la5": "la5",
+    "military-role-fighters/mig15": "mig15",
+    "military-role-fighters/mig17": "mig17",
+    "military-role-fighters/mig19": "mig19",
+    "military-role-fighters/su15": "su15",
+    "military-role-fighters/mig23": "mig23",
     "military-role-attack/a10": "a10",
     "military-role-attack/f117": "f117",
     "military-role-attack/harrier": "harrier",
@@ -7911,6 +8995,13 @@
     "military-role-attack/b6n": "b6n",
     "military-role-attack/b7a": "b7a",
     "military-role-attack/mitsubishi-f1": "mitsubishi-f1",
+    "military-role-attack/il2": "il2",
+    "military-role-attack/su7": "su7",
+    "military-role-attack/su17": "su17",
+    "military-role-attack/su24": "su24",
+    "military-role-attack/yak38": "yak38",
+    "military-role-attack/su25": "su25",
+    "military-role-attack/su34": "su34",
     "military-role-bombers/b52": "b52",
     "military-role-bombers/b1": "b1",
     "military-role-bombers/b2": "b2",
@@ -7943,6 +9034,15 @@
     "military-role-bombers/ki67": "ki67",
     "military-role-bombers/g4m": "g4m",
     "military-role-bombers/p1y": "p1y",
+    "military-role-bombers/tb3": "tb3",
+    "military-role-bombers/pe2": "pe2",
+    "military-role-bombers/tu2": "tu2",
+    "military-role-bombers/pe8": "pe8",
+    "military-role-bombers/il28": "il28",
+    "military-role-bombers/tu16": "tu16",
+    "military-role-bombers/m4": "m4",
+    "military-role-bombers/tu22": "tu22",
+    "military-role-bombers/yak28": "yak28",
     "military-role-transports/c130": "c130",
     "military-role-transports/c17": "c17",
     "military-role-transports/c5": "c5",
@@ -7965,6 +9065,10 @@
     "military-role-transports/kc46": "kc46",
     "military-role-transports/ki57": "ki57",
     "military-role-transports/kawasaki-c1": "kawasaki-c1",
+    "military-role-transports/an2": "an2",
+    "military-role-transports/an12": "an12",
+    "military-role-transports/an22": "an22",
+    "military-role-transports/an26": "an26",
     "military-role-special-mission/e3": "e3",
     "military-role-special-mission/p8": "p8",
     "military-role-special-mission/p3": "p3",
@@ -7997,6 +9101,9 @@
     "military-role-special-mission/p2j": "p2j",
     "military-role-special-mission/us2": "us2",
     "military-role-special-mission/kawasaki-p1": "kawasaki-p1",
+    "military-role-special-mission/be12": "be12",
+    "military-role-special-mission/il38": "il38",
+    "military-role-special-mission/a50": "a50",
     "military-role-drones/mq9": "mq9",
     "military-role-drones/rq4": "rq4",
     "military-role-drones/mq1": "mq1",
@@ -8023,6 +9130,10 @@
     "military-role-trainers/mitsubishi-t2": "mitsubishi-t2",
     "military-role-trainers/kawasaki-t4": "kawasaki-t4",
     "military-role-trainers/fuji-t7": "fuji-t7",
+    "military-role-trainers/po2": "po2",
+    "military-role-trainers/yak18": "yak18",
+    "military-role-trainers/yak52": "yak52",
+    "military-role-trainers/yak130": "yak130",
     "military-role-helicopters/ah64": "ah64",
     "military-role-helicopters/uh1": "uh1",
     "military-role-helicopters/ch47": "ch47",
@@ -8052,6 +9163,12 @@
     "military-role-helicopters/ch53k": "ch53k",
     "military-role-helicopters/mh139": "mh139",
     "military-role-helicopters/oh1": "oh1",
+    "military-role-helicopters/mi4": "mi4",
+    "military-role-helicopters/mi6": "mi6",
+    "military-role-helicopters/ka25": "ka25",
+    "military-role-helicopters/mi14": "mi14",
+    "military-role-helicopters/ka27": "ka27",
+    "military-role-helicopters/mi28": "mi28",
     "military-country-united-states/c130": "c130",
     "military-country-united-states/c17": "c17",
     "military-country-united-states/c5": "c5",
@@ -8355,6 +9472,117 @@
     "military-country-united-states-modern/kc46": "kc46",
     "military-country-united-states-modern/ch53k": "ch53k",
     "military-country-united-states-modern/f15ex": "f15ex",
+    "military-country-soviet-union-and-russia/an124": "an124",
+    "military-country-soviet-union-and-russia/an225": "an225",
+    "military-country-soviet-union-and-russia/il76": "il76",
+    "military-country-soviet-union-and-russia/tu95": "tu95",
+    "military-country-soviet-union-and-russia/tu160": "tu160",
+    "military-country-soviet-union-and-russia/tu22m": "tu22m",
+    "military-country-soviet-union-and-russia/su27": "su27",
+    "military-country-soviet-union-and-russia/su35": "su35",
+    "military-country-soviet-union-and-russia/su57": "su57",
+    "military-country-soviet-union-and-russia/mig29": "mig29",
+    "military-country-soviet-union-and-russia/mig21": "mig21",
+    "military-country-soviet-union-and-russia/mig25": "mig25",
+    "military-country-soviet-union-and-russia/mig31": "mig31",
+    "military-country-soviet-union-and-russia/mi24": "mi24",
+    "military-country-soviet-union-and-russia/mi8": "mi8",
+    "military-country-soviet-union-and-russia/ka50": "ka50",
+    "military-country-soviet-union-and-russia/ka52": "ka52",
+    "military-country-soviet-union-and-russia/mi26": "mi26",
+    "military-country-soviet-union-and-russia/i15": "i15",
+    "military-country-soviet-union-and-russia/i16": "i16",
+    "military-country-soviet-union-and-russia/po2": "po2",
+    "military-country-soviet-union-and-russia/tb3": "tb3",
+    "military-country-soviet-union-and-russia/mig3": "mig3",
+    "military-country-soviet-union-and-russia/yak9": "yak9",
+    "military-country-soviet-union-and-russia/la5": "la5",
+    "military-country-soviet-union-and-russia/il2": "il2",
+    "military-country-soviet-union-and-russia/pe2": "pe2",
+    "military-country-soviet-union-and-russia/tu2": "tu2",
+    "military-country-soviet-union-and-russia/pe8": "pe8",
+    "military-country-soviet-union-and-russia/yak18": "yak18",
+    "military-country-soviet-union-and-russia/an2": "an2",
+    "military-country-soviet-union-and-russia/mi4": "mi4",
+    "military-country-soviet-union-and-russia/mig15": "mig15",
+    "military-country-soviet-union-and-russia/mig17": "mig17",
+    "military-country-soviet-union-and-russia/mig19": "mig19",
+    "military-country-soviet-union-and-russia/il28": "il28",
+    "military-country-soviet-union-and-russia/tu16": "tu16",
+    "military-country-soviet-union-and-russia/m4": "m4",
+    "military-country-soviet-union-and-russia/an12": "an12",
+    "military-country-soviet-union-and-russia/mi6": "mi6",
+    "military-country-soviet-union-and-russia/su7": "su7",
+    "military-country-soviet-union-and-russia/tu22": "tu22",
+    "military-country-soviet-union-and-russia/yak28": "yak28",
+    "military-country-soviet-union-and-russia/su15": "su15",
+    "military-country-soviet-union-and-russia/be12": "be12",
+    "military-country-soviet-union-and-russia/an22": "an22",
+    "military-country-soviet-union-and-russia/ka25": "ka25",
+    "military-country-soviet-union-and-russia/il38": "il38",
+    "military-country-soviet-union-and-russia/mi14": "mi14",
+    "military-country-soviet-union-and-russia/an26": "an26",
+    "military-country-soviet-union-and-russia/mig23": "mig23",
+    "military-country-soviet-union-and-russia/su17": "su17",
+    "military-country-soviet-union-and-russia/su24": "su24",
+    "military-country-soviet-union-and-russia/yak38": "yak38",
+    "military-country-soviet-union-and-russia/yak52": "yak52",
+    "military-country-soviet-union-and-russia/su25": "su25",
+    "military-country-soviet-union-and-russia/ka27": "ka27",
+    "military-country-soviet-union-and-russia/a50": "a50",
+    "military-country-soviet-union-and-russia/mi28": "mi28",
+    "military-country-soviet-union-and-russia/su34": "su34",
+    "military-country-soviet-union-and-russia/yak130": "yak130",
+    "military-country-soviet-union-and-russia-wwii/mig3": "mig3",
+    "military-country-soviet-union-and-russia-wwii/yak9": "yak9",
+    "military-country-soviet-union-and-russia-wwii/la5": "la5",
+    "military-country-soviet-union-and-russia-wwii/il2": "il2",
+    "military-country-soviet-union-and-russia-wwii/pe2": "pe2",
+    "military-country-soviet-union-and-russia-wwii/tu2": "tu2",
+    "military-country-soviet-union-and-russia-wwii/pe8": "pe8",
+    "military-country-soviet-union-and-russia-early-cold-war/tu95": "tu95",
+    "military-country-soviet-union-and-russia-early-cold-war/mig21": "mig21",
+    "military-country-soviet-union-and-russia-early-cold-war/yak18": "yak18",
+    "military-country-soviet-union-and-russia-early-cold-war/an2": "an2",
+    "military-country-soviet-union-and-russia-early-cold-war/mi4": "mi4",
+    "military-country-soviet-union-and-russia-early-cold-war/mig15": "mig15",
+    "military-country-soviet-union-and-russia-early-cold-war/mig17": "mig17",
+    "military-country-soviet-union-and-russia-early-cold-war/mig19": "mig19",
+    "military-country-soviet-union-and-russia-early-cold-war/il28": "il28",
+    "military-country-soviet-union-and-russia-early-cold-war/tu16": "tu16",
+    "military-country-soviet-union-and-russia-early-cold-war/m4": "m4",
+    "military-country-soviet-union-and-russia-early-cold-war/an12": "an12",
+    "military-country-soviet-union-and-russia-vietnam/il76": "il76",
+    "military-country-soviet-union-and-russia-vietnam/mig25": "mig25",
+    "military-country-soviet-union-and-russia-vietnam/mi24": "mi24",
+    "military-country-soviet-union-and-russia-vietnam/mi8": "mi8",
+    "military-country-soviet-union-and-russia-vietnam/mi6": "mi6",
+    "military-country-soviet-union-and-russia-vietnam/su7": "su7",
+    "military-country-soviet-union-and-russia-vietnam/tu22": "tu22",
+    "military-country-soviet-union-and-russia-vietnam/yak28": "yak28",
+    "military-country-soviet-union-and-russia-vietnam/su15": "su15",
+    "military-country-soviet-union-and-russia-vietnam/be12": "be12",
+    "military-country-soviet-union-and-russia-vietnam/an22": "an22",
+    "military-country-soviet-union-and-russia-vietnam/ka25": "ka25",
+    "military-country-soviet-union-and-russia-vietnam/il38": "il38",
+    "military-country-soviet-union-and-russia-vietnam/an26": "an26",
+    "military-country-soviet-union-and-russia-vietnam/mig23": "mig23",
+    "military-country-soviet-union-and-russia-vietnam/su17": "su17",
+    "military-country-soviet-union-and-russia-vietnam/su24": "su24",
+    "military-country-soviet-union-and-russia-late-cold-war/an124": "an124",
+    "military-country-soviet-union-and-russia-late-cold-war/an225": "an225",
+    "military-country-soviet-union-and-russia-late-cold-war/tu160": "tu160",
+    "military-country-soviet-union-and-russia-late-cold-war/tu22m": "tu22m",
+    "military-country-soviet-union-and-russia-late-cold-war/su27": "su27",
+    "military-country-soviet-union-and-russia-late-cold-war/mig29": "mig29",
+    "military-country-soviet-union-and-russia-late-cold-war/mig31": "mig31",
+    "military-country-soviet-union-and-russia-late-cold-war/mi26": "mi26",
+    "military-country-soviet-union-and-russia-late-cold-war/mi14": "mi14",
+    "military-country-soviet-union-and-russia-late-cold-war/yak38": "yak38",
+    "military-country-soviet-union-and-russia-late-cold-war/yak52": "yak52",
+    "military-country-soviet-union-and-russia-late-cold-war/su25": "su25",
+    "military-country-soviet-union-and-russia-late-cold-war/ka27": "ka27",
+    "military-country-soviet-union-and-russia-late-cold-war/a50": "a50",
     "military-country-japan/kawasaki-c2": "kawasaki-c2",
     "military-country-japan/a6m": "a6m",
     "military-country-japan/mitsubishi-1mf": "mitsubishi-1mf",
@@ -8435,32 +9663,6 @@
     "military-country-japan-wwii/f1m": "f1m",
     "military-country-japan-wwii/h8k": "h8k",
     "military-country-japan-wwii/ki57": "ki57",
-    "military-country-soviet-union-and-russia/an124": "an124",
-    "military-country-soviet-union-and-russia/an225": "an225",
-    "military-country-soviet-union-and-russia/il76": "il76",
-    "military-country-soviet-union-and-russia/tu95": "tu95",
-    "military-country-soviet-union-and-russia/tu160": "tu160",
-    "military-country-soviet-union-and-russia/tu22m": "tu22m",
-    "military-country-soviet-union-and-russia/su27": "su27",
-    "military-country-soviet-union-and-russia/su35": "su35",
-    "military-country-soviet-union-and-russia/su57": "su57",
-    "military-country-soviet-union-and-russia/mig29": "mig29",
-    "military-country-soviet-union-and-russia/mig21": "mig21",
-    "military-country-soviet-union-and-russia/mig25": "mig25",
-    "military-country-soviet-union-and-russia/mig31": "mig31",
-    "military-country-soviet-union-and-russia/mi24": "mi24",
-    "military-country-soviet-union-and-russia/mi8": "mi8",
-    "military-country-soviet-union-and-russia/ka50": "ka50",
-    "military-country-soviet-union-and-russia/ka52": "ka52",
-    "military-country-soviet-union-and-russia/mi26": "mi26",
-    "military-country-soviet-union-and-russia-late-cold-war/an124": "an124",
-    "military-country-soviet-union-and-russia-late-cold-war/an225": "an225",
-    "military-country-soviet-union-and-russia-late-cold-war/tu160": "tu160",
-    "military-country-soviet-union-and-russia-late-cold-war/tu22m": "tu22m",
-    "military-country-soviet-union-and-russia-late-cold-war/su27": "su27",
-    "military-country-soviet-union-and-russia-late-cold-war/mig29": "mig29",
-    "military-country-soviet-union-and-russia-late-cold-war/mig31": "mig31",
-    "military-country-soviet-union-and-russia-late-cold-war/mi26": "mi26",
     "military-country-multinational/a400m": "a400m",
     "military-country-multinational/typhoon": "typhoon",
     "military-country-multinational/tornado": "tornado",

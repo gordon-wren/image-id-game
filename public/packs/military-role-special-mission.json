@@ -816,6 +816,81 @@
       ],
       "caption": "Japanese maritime patrol aircraft. First flew 2007.",
       "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-be12",
+      "image": "be12.jpg",
+      "answer": "be12",
+      "options": [
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "a50",
+          "label": "Beriev A-50"
+        },
+        {
+          "id": "u2",
+          "label": "Lockheed U-2"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        }
+      ],
+      "caption": "Patrol aircraft. First flew 1960.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-il38",
+      "image": "il38.jpg",
+      "answer": "il38",
+      "options": [
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "Soviet-Russian Maritime patrol & ASW aircraft. First flew 1961.",
+      "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-a50",
+      "image": "a50.jpg",
+      "answer": "a50",
+      "options": [
+        {
+          "id": "a50",
+          "label": "Beriev A-50"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "e6",
+          "label": "Boeing E-6 Mercury"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        }
+      ],
+      "caption": "Soviet airborne early warning and control (AEW&C) aircraft. First flew 1978.",
+      "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons"
     }
   ]
 }

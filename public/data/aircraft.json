@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-18T17:07:40.775Z",
-  "count": 324,
+  "generatedAt": "2026-10-18T17:19:49.310Z",
+  "count": 367,
   "aircraft": [
     {
       "id": "a380",
@@ -690,7 +690,7 @@
         "title": "Boeing 767",
         "url": "https://en.wikipedia.org/wiki/Boeing_767",
         "pageId": 4165,
-        "revisionId": 1376936987
+        "revisionId": 1380159940
       },
       "wikidataId": "Q6423",
       "photo": {
@@ -704,16 +704,17 @@
         "originalWidth": 2350,
         "originalHeight": 1567,
         "mime": "image/jpeg",
-        "author": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk)",
+        "author": "Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk)",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "attributionRequired": true,
         "free": true,
         "caption": "A Delta Air Lines 767-300",
         "dateTaken": "2011-08-05 01:42",
-        "credit": "Delta_Air_Lines_B767-300_N130DL.jpg: Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
+        "chosenFrom": "infobox",
+        "credit": "Richard Snyder from San Jose, CA, United States of America derivative work: Altair78 (talk) / CC BY-SA 2.0 / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:31:52.015Z"
+      "retrievedAt": "2026-10-18T17:19:40.412Z"
     },
     {
       "id": "md11",
@@ -4825,7 +4826,7 @@
         "title": "Lockheed Martin F-22 Raptor",
         "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor",
         "pageId": 66299,
-        "revisionId": 1379596369
+        "revisionId": 1379912095
       },
       "wikidataId": "Q133324",
       "photo": {
@@ -4839,16 +4840,17 @@
         "originalWidth": 1988,
         "originalHeight": 1491,
         "mime": "image/jpeg",
-        "author": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway",
+        "author": "Master Sgt. Andy Dunaway",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
         "free": true,
         "caption": "An F-22 Raptor flies over Kadena Air Base, Japan, Jan. 23 2009 on a routine training mission. The F-22 is deployed from the 27th Fighter Squadron at Langley Air Force Base, Va.",
         "dateTaken": "2009-02-18 21:40",
-        "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+        "chosenFrom": "infobox",
+        "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-11T19:33:34.292Z"
+      "retrievedAt": "2026-10-18T17:19:41.677Z"
     },
     {
       "id": "f35",
@@ -11189,7 +11191,7 @@
         "originalWidth": 3144,
         "originalHeight": 2400,
         "mime": "image/jpeg",
-        "author": "Unknown",
+        "author": "Unknown author",
         "license": "Public domain",
         "licenseUrl": null,
         "attributionRequired": false,
@@ -11197,9 +11199,9 @@
         "caption": "Northrop P-61. 1940's -- NORTHROP P-61 \"Black Widow\" in flight. Northrop P-61 Black Widow night fighter had pilot, radar operator, and gunner. (U.S. Air Force photo)",
         "dateTaken": "1940sdate QS:P,+1940-00-00T00:00:00Z/8",
         "chosenFrom": "seed",
-        "credit": "Unknown / Public domain / via Wikimedia Commons"
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
       },
-      "retrievedAt": "2026-10-17T16:27:23.179Z"
+      "retrievedAt": "2026-10-18T17:19:42.985Z"
     },
     {
       "id": "p59",
@@ -17324,6 +17326,2456 @@
         "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
       },
       "retrievedAt": "2026-10-18T17:07:40.199Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "i15",
+      "name": "Polikarpov I-15",
+      "label": "Polikarpov I-15",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Soviet fighter aircraft",
+      "summary": "The Polikarpov I-15 is a Soviet biplane fighter aircraft of the 1930s. Nicknamed Chaika because of its gulled upper wings, it was operated in large numbers by the Soviet Air Force, and together with the Polikarpov I-16 monoplane, was one of the standard fighters of the Spanish Republicans during the Spanish Civil War, where it was called Chato (snub-nose).",
+      "role": "Fighter",
+      "manufacturer": [
+        "Polikarpov",
+        "Dux Factory",
+        "Moscow Aviation Plant № 39"
+      ],
+      "designer": "Nikolai Nikolaevich Polikarpov",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1933-10",
+      "introduced": "1934",
+      "status": "Retired",
+      "numberBuilt": 3313,
+      "wikipedia": {
+        "title": "Polikarpov I-15",
+        "url": "https://en.wikipedia.org/wiki/Polikarpov_I-15",
+        "pageId": 1516392,
+        "revisionId": 1378503590
+      },
+      "wikidataId": "Q696089",
+      "photo": {
+        "file": "assets/aircraft/i15.jpg",
+        "sourceFile": "File:Polikarpov I-15 at the MAKS-2013 (01).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Polikarpov_I-15_at_the_MAKS-2013_(01).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Polikarpov_I-15_at_the_MAKS-2013_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Polikarpov_I-15_at_the_MAKS-2013_%2801%29.jpg/960px-Polikarpov_I-15_at_the_MAKS-2013_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 558,
+        "originalWidth": 4070,
+        "originalHeight": 2366,
+        "mime": "image/jpeg",
+        "author": "Doomych",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Polikarpov I-15 (The international aerospace salon MAKS-2013)",
+        "dateTaken": "2013-08-30",
+        "chosenFrom": "seed",
+        "credit": "Doomych / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:23.067Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "i16",
+      "name": "Polikarpov I-16",
+      "label": "Polikarpov I-16",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Soviet 1930s monoplane fighter aircraft",
+      "summary": "The Polikarpov I-16 is a Soviet single-engine single-seat fighter aircraft. It is a low-wing cantilever monoplane fighter with retractable landing gear, and was the first such aircraft to attain operational squadron status. It \"introduced a new vogue in fighter design\". The I-16 was introduced in the mid-1930s and formed the backbone of the Soviet Air Force at the beginning of World War II. The diminutive fighter, nicknamed \"Ishak\" or \"Ishachok\" by Soviet pilots, figured prominently in the Second Sino-Japanese War, the Battle of Khalkhin Gol, Winter War and the Spanish Civil War – where it was called the Rata (\"rat\") by the Nationalists or Mosca (\"fly\") by the Republicans. The Finns called the aircraft Siipiorava \"(flying squirrel)\".",
+      "role": "Fighter",
+      "manufacturer": [
+        "Nikolai Polikarpov",
+        "Moscow Aviation Plant № 39",
+        "Sokol",
+        "Novosibirsk Aircraft Production Association",
+        "Novosibirsk",
+        "Rostvertol"
+      ],
+      "designer": "N. N. Polikarpov Design Bureau",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1933-12-30",
+      "introduced": "1934",
+      "status": null,
+      "numberBuilt": 8644,
+      "wikipedia": {
+        "title": "Polikarpov I-16",
+        "url": "https://en.wikipedia.org/wiki/Polikarpov_I-16",
+        "pageId": 176934,
+        "revisionId": 1360108581
+      },
+      "wikidataId": "Q641977",
+      "photo": {
+        "file": "assets/aircraft/i16.jpg",
+        "sourceFile": "File:Soviet volunteer.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Soviet_volunteer.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Soviet_volunteer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Soviet_volunteer.jpg/960px-Soviet_volunteer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 424,
+        "originalWidth": 1196,
+        "originalHeight": 528,
+        "mime": "image/jpeg",
+        "author": "The original uploader was DCTT at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "​抗戰期間來華助戰的蘇聯空軍義勇軍I-16戰鬥機。",
+        "dateTaken": "24 April 2008 (original upload date)",
+        "chosenFrom": "seed",
+        "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:25.227Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "po2",
+      "name": "Polikarpov Po-2",
+      "label": "Polikarpov Po-2",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "piston",
+      "description": "All-weather multirole Soviet biplane",
+      "summary": "The Polikarpov Po-2 is an all-weather multirole Soviet biplane, nicknamed Kukuruznik. The reliable, uncomplicated design of the Po-2 made it an ideal trainer aircraft, as well as doubling as a low-cost ground attack, aerial reconnaissance, psychological warfare and liaison aircraft during war, proving to be one of the most versatile light combat types to be built in the Soviet Union. As of 1978, it remained in production for a longer period of time than any other Soviet-era aircraft.",
+      "role": "Utility biplane",
+      "manufacturer": [
+        "Polikarpov"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1927-06-24",
+      "introduced": "1928",
+      "status": null,
+      "numberBuilt": 33528,
+      "wikipedia": {
+        "title": "Polikarpov Po-2",
+        "url": "https://en.wikipedia.org/wiki/Polikarpov_Po-2",
+        "pageId": 1351230,
+        "revisionId": 1372482269
+      },
+      "wikidataId": "Q943360",
+      "photo": {
+        "file": "assets/aircraft/po2.jpg",
+        "sourceFile": "File:Polikarpov Po-2 at the MAKS-2013 (01).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Polikarpov_Po-2_at_the_MAKS-2013_(01).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Polikarpov_Po-2_at_the_MAKS-2013_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Polikarpov_Po-2_at_the_MAKS-2013_%2801%29.jpg/960px-Polikarpov_Po-2_at_the_MAKS-2013_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 535,
+        "originalWidth": 4007,
+        "originalHeight": 2232,
+        "mime": "image/jpeg",
+        "author": "Doomych",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Polikarpov Po-2 (The international aerospace salon MAKS-2013)",
+        "dateTaken": "2013-08-30",
+        "chosenFrom": "seed",
+        "credit": "Doomych / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:26.979Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "tb3",
+      "name": "Tupolev TB-3",
+      "label": "Tupolev TB-3",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Soviet heavy bomber aircraft",
+      "summary": "The Tupolev TB-3, OKB designation ANT-6, was a monoplane heavy bomber deployed by the Soviet Air Force in the 1930s and used during the early years of World War II. It was one of the world's first cantilever wing four-engine heavy bombers. Despite obsolescence and being officially withdrawn from service in 1939, the TB-3 performed bomber and transport duties throughout much of World War II. The TB-3 also saw combat as a Zveno project fighter mothership and as a light tank transport.",
+      "role": "Heavy bomber",
+      "manufacturer": [
+        "Tupolev"
+      ],
+      "designer": "Andrei Tupolev",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1930-12-22",
+      "introduced": "1932",
+      "status": null,
+      "numberBuilt": 818,
+      "wikipedia": {
+        "title": "Tupolev TB-3",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_TB-3",
+        "pageId": 1493640,
+        "revisionId": 1362390964
+      },
+      "wikidataId": "Q616465",
+      "photo": {
+        "file": "assets/aircraft/tb3.jpg",
+        "sourceFile": "File:Tupolev TB-3.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tupolev_TB-3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tupolev_TB-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Tupolev_TB-3.jpg/960px-Tupolev_TB-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 510,
+        "originalWidth": 1034,
+        "originalHeight": 549,
+        "mime": "image/jpeg",
+        "author": "https://www.flickr.com/photos/sdasmarchives/",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Catalog #: 01_00088935 Manufacturer: Tupolev Designation: TB-3 Notes: USSR Repository: San Diego Air and Space Museum Archive Tags: Tupolev, TB-3, USSR",
+        "dateTaken": "2013-01-20 11:35:55",
+        "chosenFrom": "seed",
+        "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:27.951Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mig3",
+      "name": "Mikoyan-Gurevich MiG-3",
+      "label": "Mikoyan-Gurevich MiG-3",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Soviet single-seat WWII fighter aircraft",
+      "summary": "The Mikoyan-Gurevich MiG-3 is a Soviet interceptor used during World War II. It was a development of the MiG-1 by the OKO of Zavod (Factory) No. 1 in Moscow to remedy problems found during the MiG-1's development and operations. It replaced the MiG-1 on the production line at Factory No. 1 on 20 December 1940 and was built in large numbers during 1941 before Factory No. 1 was converted to build the Ilyushin Il-2.",
+      "role": "Fighter/Interceptor",
+      "manufacturer": [
+        "Russian Aircraft Corporation MiG",
+        "Progress State Research and Production Rocket Space Center"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1940",
+      "introduced": "1940",
+      "status": null,
+      "numberBuilt": 3172,
+      "wikipedia": {
+        "title": "Mikoyan-Gurevich MiG-3",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-3",
+        "pageId": 534691,
+        "revisionId": 1373336300
+      },
+      "wikidataId": "Q271446",
+      "photo": {
+        "file": "assets/aircraft/mig3.jpg",
+        "sourceFile": "File:MiG-3.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MiG-3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/MiG-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/MiG-3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 719,
+        "originalWidth": 800,
+        "originalHeight": 599,
+        "mime": "image/jpeg",
+        "author": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "MiG-3 - full-size mock-up at Monino museum",
+        "dateTaken": "2004-08-14 13:29",
+        "chosenFrom": "seed",
+        "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:28.856Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak9",
+      "name": "Yakovlev Yak-9",
+      "label": "Yakovlev Yak-9",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Fighter aircraft",
+      "summary": "The Yakovlev Yak-9 is a single-engine, single-seat multipurpose fighter aircraft used by the Soviet Union and its allies during World War II and the early Cold War. It was a development of the robust and successful Yak-7B fighter, which was based in turn on the tandem-seat advanced trainer known as the Yak-7UTI. The Yak-9 started arriving in Soviet fighter regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109 fighters during the Battle of Kursk in summer 1943.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Yakovlev",
+        "Tushino Machine-Building Plant",
+        "Novosibirsk Aircraft Production Association",
+        "Production Corporation Polyot",
+        "Omsk"
+      ],
+      "designer": "A.S. Yakovlev Design Bureau",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1942",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 16769,
+      "wikipedia": {
+        "title": "Yakovlev Yak-9",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-9",
+        "pageId": 1147318,
+        "revisionId": 1380051029
+      },
+      "wikidataId": "Q562475",
+      "photo": {
+        "file": "assets/aircraft/yak9.jpg",
+        "sourceFile": "File:Yak-9U at Central Air Force Museum Monino pic1.JPG",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yak-9U_at_Central_Air_Force_Museum_Monino_pic1.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Yak-9U_at_Central_Air_Force_Museum_Monino_pic1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Yak-9U_at_Central_Air_Force_Museum_Monino_pic1.JPG/960px-Yak-9U_at_Central_Air_Force_Museum_Monino_pic1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 720,
+        "originalWidth": 4608,
+        "originalHeight": 3456,
+        "mime": "image/jpeg",
+        "author": "Alf van Beem",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Yak-9U at the Central Russian Air Force museum, Monino",
+        "dateTaken": "2016-08-17 10:00:57",
+        "chosenFrom": "seed",
+        "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:30.184Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "la5",
+      "name": "Lavochkin La-5",
+      "label": "Lavochkin La-5",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Soviet fighter aircraft",
+      "summary": "The Lavochkin La-5 was a Soviet fighter aircraft of World War II. It was a development and refinement of the LaGG-3, replacing the earlier model's inline engine with the much more powerful Shvetsov ASh-82 radial engine. During its time in service, it was one of the Soviet Air Force's most capable types of warplane, able to fight German designs on almost equal footing.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "NPO Lavochkin"
+      ],
+      "designer": "Semyon Lavochkin",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1942-03",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 9920,
+      "wikipedia": {
+        "title": "Lavochkin La-5",
+        "url": "https://en.wikipedia.org/wiki/Lavochkin_La-5",
+        "pageId": 530494,
+        "revisionId": 1349070781
+      },
+      "wikidataId": "Q846989",
+      "photo": {
+        "file": "assets/aircraft/la5.jpg",
+        "sourceFile": "File:Советский истребитель Ла-5Ф В. Расторгуева в полете.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%9B%D0%B0-5%D0%A4_%D0%92._%D0%A0%D0%B0%D1%81%D1%82%D0%BE%D1%80%D0%B3%D1%83%D0%B5%D0%B2%D0%B0_%D0%B2_%D0%BF%D0%BE%D0%BB%D0%B5%D1%82%D0%B5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%9B%D0%B0-5%D0%A4_%D0%92._%D0%A0%D0%B0%D1%81%D1%82%D0%BE%D1%80%D0%B3%D1%83%D0%B5%D0%B2%D0%B0_%D0%B2_%D0%BF%D0%BE%D0%BB%D0%B5%D1%82%D0%B5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%9B%D0%B0-5%D0%A4_%D0%92._%D0%A0%D0%B0%D1%81%D1%82%D0%BE%D1%80%D0%B3%D1%83%D0%B5%D0%B2%D0%B0_%D0%B2_%D0%BF%D0%BE%D0%BB%D0%B5%D1%82%D0%B5.jpg/960px-%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%9B%D0%B0-5%D0%A4_%D0%92._%D0%A0%D0%B0%D1%81%D1%82%D0%BE%D1%80%D0%B3%D1%83%D0%B5%D0%B2%D0%B0_%D0%B2_%D0%BF%D0%BE%D0%BB%D0%B5%D1%82%D0%B5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 537,
+        "originalWidth": 1102,
+        "originalHeight": 616,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "В полете советский истребитель Ла-5Ф перед боем с истребителем противника FN-190 1-й Украинский фронт.. В кабине летчик-испытатель В. Расторгуев.",
+        "dateTaken": "1944",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:44.098Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "il2",
+      "name": "Ilyushin Il-2",
+      "label": "Ilyushin Il-2",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "Soviet ground attack aircraft of WWII",
+      "summary": "The Ilyushin Il-2 is a ground-attack plane that was produced by the Soviet Union in large numbers during the Second World War. The word shturmovík, the generic Russian term for a ground-attack aircraft, became a synecdoche for the Il-2 in English sources, where it is commonly rendered Shturmovik, Stormovik and Sturmovik.",
+      "role": "Ground-attack aircraft",
+      "manufacturer": [
+        "Ilyushin"
+      ],
+      "designer": "Ilyushin",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1939-10-02",
+      "introduced": "1941",
+      "status": null,
+      "numberBuilt": 36163,
+      "wikipedia": {
+        "title": "Ilyushin Il-2",
+        "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-2",
+        "pageId": 183726,
+        "revisionId": 1378851576
+      },
+      "wikidataId": "Q211443",
+      "photo": {
+        "file": "assets/aircraft/il2.jpg",
+        "sourceFile": "File:Il2 sturmovik.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Il2_sturmovik.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Il2_sturmovik.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Il2_sturmovik.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 346,
+        "originalWidth": 650,
+        "originalHeight": 234,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "An Ilyushin Il-2 ground attack aircraft",
+        "dateTaken": "no info",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:44.939Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "pe2",
+      "name": "Petlyakov Pe-2",
+      "label": "Petlyakov Pe-2",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Soviet dive bomber aircraft",
+      "summary": "The Petlyakov Pe-2 was a Soviet twin-engine dive bomber used during World War II. One of the outstanding tactical attack aircraft of the war, it also proved successful as a heavy fighter, as a night fighter and as a reconnaissance aircraft. The Pe-2 was, numerically, the most important Soviet bomber of World War II, at their peak comprising 75% of the Soviet twin-engine bomber force. The Soviets manufactured Pe-2s in greater numbers during the war than any other twin-engine combat aircraft except for the German Junkers Ju 88 and the British Vickers Wellington. Several Soviet bloc air forces flew the type after the war, when it became known by the NATO reporting name Buck.",
+      "role": "Dive bomber",
+      "manufacturer": [
+        "Petlyakov",
+        "Kazan Aircraft Production Association"
+      ],
+      "designer": "V.M. Petlyakov Design Bureau",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1939-12-22",
+      "introduced": "1941",
+      "status": null,
+      "numberBuilt": 11427,
+      "wikipedia": {
+        "title": "Petlyakov Pe-2",
+        "url": "https://en.wikipedia.org/wiki/Petlyakov_Pe-2",
+        "pageId": 548190,
+        "revisionId": 1338774923
+      },
+      "wikidataId": "Q943315",
+      "photo": {
+        "file": "assets/aircraft/pe2.jpg",
+        "sourceFile": "File:Petlyakov Pe-2 at Poltava, Russia.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Petlyakov_Pe-2_at_Poltava,_Russia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Petlyakov_Pe-2_at_Poltava%2C_Russia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Petlyakov_Pe-2_at_Poltava%2C_Russia.jpg/960px-Petlyakov_Pe-2_at_Poltava%2C_Russia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 624,
+        "originalWidth": 1799,
+        "originalHeight": 1170,
+        "mime": "image/jpeg",
+        "author": "U.S. Air Force photo",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Russian pilots and ground crew stand in front of a Petlyakov Pe-2 light bomber at Poltava, Russia, during the first shuttle raid -- Italy to Russia and return -- in June 1944. GI is TSgt. Bernard J. McGuire, Tonawanda, N.Y., of the 348th Bomb Squadron, 99th Bomb Group.",
+        "dateTaken": "1944-06",
+        "chosenFrom": "seed",
+        "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:32.556Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "tu2",
+      "name": "Tupolev Tu-2",
+      "label": "Tupolev Tu-2",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "1943 medium bomber aircraft family",
+      "summary": "The Tupolev Tu-2 is a twin-engined Soviet high-speed daylight and frontline bomber aircraft used during World War II. The Tu-2 was tailored to meet a requirement for a high-speed bomber or dive-bomber, with a large internal bomb load and speed similar to that of a single-seat fighter. Designed to challenge the German Junkers Ju 88, the Tu-2 proved comparable and was produced in torpedo, interceptor and reconnaissance versions. The Tu-2 was an effective combat aircraft and it played a key role in the final offensives of the Red Army.",
+      "role": "Medium bomber",
+      "manufacturer": [
+        "Tupolev"
+      ],
+      "designer": "Andrei Tupolev",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1941-01-29",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 2257,
+      "wikipedia": {
+        "title": "Tupolev Tu-2",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-2",
+        "pageId": 1493662,
+        "revisionId": 1344737270
+      },
+      "wikidataId": "Q616437",
+      "photo": {
+        "file": "assets/aircraft/tu2.jpg",
+        "sourceFile": "File:Soviet TU-2 Bomber (9871622634).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Soviet_TU-2_Bomber_(9871622634).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Soviet_TU-2_Bomber_%289871622634%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Soviet_TU-2_Bomber_%289871622634%29.jpg/960px-Soviet_TU-2_Bomber_%289871622634%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 4752,
+        "originalHeight": 3168,
+        "mime": "image/jpeg",
+        "author": "Gary Todd from Xinzheng, China",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "1943. Military Museum: Modern Weapons. Complete indexed photo collection at WorldHistoryPics.com.",
+        "dateTaken": "2010-03-13 13:45",
+        "chosenFrom": "seed",
+        "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:33.125Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "pe8",
+      "name": "Petlyakov Pe-8",
+      "label": "Petlyakov Pe-8",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Soviet heavy bomber aircraft",
+      "summary": "The Petlyakov Pe-8 was a Soviet heavy bomber designed before World War II, and the only four-engine bomber the USSR built during the war. Produced in limited numbers, it was used to bomb Berlin in August 1941. It was also used for so-called \"morale raids\" designed to raise the spirit of the Soviet people by exposing Axis vulnerabilities. Its primary mission, however, was to attack German airfields, rail yards and other rear-area facilities at night, although one was used to fly the People's Commissar of Foreign Affairs Vyacheslav Molotov from Moscow to the United States in 1942.",
+      "role": "Heavy bomber",
+      "manufacturer": [
+        "Kazan Aircraft Production Association"
+      ],
+      "designer": "Petlyakov OKB",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1936-12-27",
+      "introduced": "1940",
+      "status": "Retired",
+      "numberBuilt": 93,
+      "wikipedia": {
+        "title": "Petlyakov Pe-8",
+        "url": "https://en.wikipedia.org/wiki/Petlyakov_Pe-8",
+        "pageId": 1493624,
+        "revisionId": 1332737210
+      },
+      "wikidataId": "Q1349120",
+      "photo": {
+        "file": "assets/aircraft/pe8.jpg",
+        "sourceFile": "File:Tupolev TB-7 (Ant-42, Pe-8) (14260356248).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tupolev_TB-7_(Ant-42,_Pe-8)_(14260356248).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tupolev_TB-7_%28Ant-42%2C_Pe-8%29_%2814260356248%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tupolev_TB-7_%28Ant-42%2C_Pe-8%29_%2814260356248%29.jpg/960px-Tupolev_TB-7_%28Ant-42%2C_Pe-8%29_%2814260356248%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 527,
+        "originalWidth": 1820,
+        "originalHeight": 1000,
+        "mime": "image/jpeg",
+        "author": "SDASM Archives",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Catalog #: 15_002207 Title: Tupolev TB-7 (Ant-42, Pe-8) Date: 1942 ADDITIONAL INFORMATION: Leuchars, Scottland Collection: Charles M. Daniels Collection Photo Album Name: Soviet Aircraft Page #: 3 Tags: Soviet Aircraft, Charles Daniels, tupolev PUBLIC COMMONS.SOURCE INSTITUTION: San Diego Air and Sp",
+        "dateTaken": "2014-06-17 14:11",
+        "chosenFrom": "seed",
+        "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:33.897Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak18",
+      "name": "Yakovlev Yak-18",
+      "label": "Yakovlev Yak-18",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "piston",
+      "description": "Training aircraft in the Soviet Union",
+      "summary": "The Yakovlev Yak-18 is a tandem two-seat military primary trainer aircraft manufactured in the Soviet Union. Originally powered by one 119 kW (160 hp) Shvetsov M-11FR-1 radial piston engine, it entered service in 1946. It was also produced in China as the Nanchang CJ-5.",
+      "role": "Training aircraft",
+      "manufacturer": [
+        "Yakovlev"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1946",
+      "introduced": "1946",
+      "status": "in limited service",
+      "numberBuilt": 8000,
+      "wikipedia": {
+        "title": "Yakovlev Yak-18",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-18",
+        "pageId": 1493291,
+        "revisionId": 1358444419
+      },
+      "wikidataId": "Q507476",
+      "photo": {
+        "file": "assets/aircraft/yak18.jpg",
+        "sourceFile": "File:Yakovlev Yak-18A.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yakovlev_Yak-18A.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Yakovlev_Yak-18A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Yakovlev_Yak-18A.jpg/960px-Yakovlev_Yak-18A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 638,
+        "originalWidth": 1000,
+        "originalHeight": 665,
+        "mime": "image/jpeg",
+        "author": "Dmitry A. Mottl",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Yakovlev Yak-18A",
+        "dateTaken": "2006-10-07 11:40:06",
+        "chosenFrom": "seed",
+        "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:34.695Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "an2",
+      "name": "Antonov An-2",
+      "label": "Antonov An-2",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "piston",
+      "description": "Soviet single-engine civilian aircraft",
+      "summary": "The Antonov An-2  is a Soviet mass-produced single-engine biplane utility/agricultural aircraft designed and manufactured by the Antonov Design Bureau beginning in 1947. Its durability, lifting power, and ability to take off and land from poor runways have given it a long service life. The An-2 was produced up to 2001 and remains in service with military and civilian operators around the world.",
+      "role": "Agricultural, utility aircraft and military transport aircraft",
+      "manufacturer": [
+        "Hongdu"
+      ],
+      "designer": "Oleg Antonov",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1947-08-31",
+      "introduced": "1947",
+      "status": "In service",
+      "numberBuilt": 18000,
+      "wikipedia": {
+        "title": "Antonov An-2",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-2",
+        "pageId": 702782,
+        "revisionId": 1378342157
+      },
+      "wikidataId": "Q207700",
+      "photo": {
+        "file": "assets/aircraft/an2.jpg",
+        "sourceFile": "File:Antonov.an-2.ha-mkf.arp.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Antonov.an-2.ha-mkf.arp.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Antonov.an-2.ha-mkf.arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Antonov.an-2.ha-mkf.arp.jpg/960px-Antonov.an-2.ha-mkf.arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 718,
+        "originalWidth": 1500,
+        "originalHeight": 1122,
+        "mime": "image/jpeg",
+        "author": "Arpingstone",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Private Antonov AN-2TP (HA-MKF) at Hullavington Airfield, Wiltshire, England. This is a flying aircraft, not a museum exhibit.; Photographed by Adrian Pingstone in May 2005 and placed in the public domain.",
+        "dateTaken": "22 May 2005 (according to Exif data)",
+        "chosenFrom": "seed",
+        "credit": "Arpingstone / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:35.659Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mi4",
+      "name": "Mil Mi-4",
+      "label": "Mil Mi-4",
+      "group": "helicopter",
+      "use": "military",
+      "category": "utility-helicopter",
+      "engine": "piston",
+      "description": "Soviet transport helicopter",
+      "summary": "The Mil Mi-4 is a Soviet transport helicopter that served in both military and civilian roles.",
+      "role": "Transport helicopter",
+      "manufacturer": [
+        "Mil Moscow Helicopter Plant"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1952-06-03",
+      "introduced": "1953",
+      "status": "Limited Service; North Korean Air Force",
+      "numberBuilt": "over 4,000 including Z-5s",
+      "wikipedia": {
+        "title": "Mil Mi-4",
+        "url": "https://en.wikipedia.org/wiki/Mil_Mi-4",
+        "pageId": 1493496,
+        "revisionId": 1379049817
+      },
+      "wikidataId": "Q169427",
+      "photo": {
+        "file": "assets/aircraft/mi4.jpg",
+        "sourceFile": "File:Mi-4-JH01 (remix).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mi-4-JH01_(remix).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mi-4-JH01_%28remix%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mi-4-JH01_%28remix%29.jpg/960px-Mi-4-JH01_%28remix%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 648,
+        "originalWidth": 3439,
+        "originalHeight": 2322,
+        "mime": "image/jpeg",
+        "author": "Jan Hrdonka",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Mil Mi-4",
+        "dateTaken": "2007-09-01",
+        "chosenFrom": "seed",
+        "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:36.450Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mig15",
+      "name": "Mikoyan-Gurevich MiG-15",
+      "label": "Mikoyan-Gurevich MiG-15",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Soviet fighter aircraft",
+      "summary": "The Mikoyan-Gurevich MiG-15 is a single-seat transonic jet fighter aircraft developed by Mikoyan-Gurevich for the Soviet Union. The MiG-15 was one of the first successful jet fighters to incorporate swept wings to perform near Mach 1. In aerial combat during the Korean War, it outclassed straight-winged jet-powered day fighters, which were largely relegated to ground-attack roles. In response to the MiG-15's appearance and in order to counter it, the United States Air Force rushed the North American F-86 Sabre to Korea.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Russian Aircraft Corporation MiG",
+        "Progress State Research and Production Rocket Space Center",
+        "Samara",
+        "Sokol",
+        "Ulan-Ude Aviation Plant",
+        "Ulan-Ude",
+        "Komsomolsk-on-Amur Aircraft Production Association",
+        "Komsomolsk-on-Amur",
+        "Novosibirsk Aircraft Production Association",
+        "Novosibirsk",
+        "Saratov Aviation Plant",
+        "Moscow",
+        "Tbilisi Aircraft Manufacturing",
+        "Tbilisi",
+        "KhAZ",
+        "Kharkiv",
+        "AERO Vodochody Aerospace",
+        "Polish People's Republic",
+        "PZL",
+        "Shenyang Aircraft Corporation"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1947-12-30",
+      "introduced": "1949",
+      "status": "In limited service with the Korean People's Army Air Force",
+      "numberBuilt": 15560,
+      "wikipedia": {
+        "title": "Mikoyan-Gurevich MiG-15",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15",
+        "pageId": 182690,
+        "revisionId": 1374175392
+      },
+      "wikidataId": "Q187377",
+      "photo": {
+        "file": "assets/aircraft/mig15.jpg",
+        "sourceFile": "File:MiG-15 USAF.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/MiG-15_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/960px-MiG-15_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 638,
+        "originalWidth": 1800,
+        "originalHeight": 1197,
+        "mime": "image/jpeg",
+        "author": "U.S. Air Force",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:37.895Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mig17",
+      "name": "Mikoyan-Gurevich MiG-17",
+      "label": "Mikoyan-Gurevich MiG-17",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Soviet jet fighter aircraft family",
+      "summary": "The Mikoyan-Gurevich MiG-17 is a transonic fighter aircraft that was produced in the Soviet Union from 1952 and was operated by air forces internationally. The MiG-17 was license-built in China as the Shenyang J-5 and in Poland as the PZL-Mielec Lim-6. The MiG-17 is still being used by North Korea's air force in the present day and has seen combat in the Middle East and Asia.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Russian Aircraft Corporation MiG",
+        "Russian Soviet Federative Socialist Republic",
+        "Progress State Research and Production Rocket Space Center",
+        "Samara",
+        "Sokol",
+        "Tbilisi Aircraft Manufacturing",
+        "Tbilisi",
+        "Komsomolsk-on-Amur Aircraft Production Association",
+        "Komsomolsk-on-Amur",
+        "Novosibirsk Aircraft Production Association",
+        "Novosibirsk",
+        "AERO Vodochody Aerospace",
+        "PZL",
+        "People's Republic of China"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1950-01-14",
+      "introduced": "1951",
+      "status": "In limited service",
+      "numberBuilt": 10649,
+      "wikipedia": {
+        "title": "Mikoyan-Gurevich MiG-17",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-17",
+        "pageId": 62134,
+        "revisionId": 1379997580
+      },
+      "wikidataId": "Q152976",
+      "photo": {
+        "file": "assets/aircraft/mig17.jpg",
+        "sourceFile": "File:MiG-17 Takes to the Sky (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MiG-17_Takes_to_the_Sky_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/MiG-17_Takes_to_the_Sky_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/MiG-17_Takes_to_the_Sky_%28cropped%29.jpg/960px-MiG-17_Takes_to_the_Sky_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 628,
+        "originalWidth": 3223,
+        "originalHeight": 2107,
+        "mime": "image/jpeg",
+        "author": "Balon Greyjoy",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A MiG-17 performing a low pass at Take to the Skies Airfest 2016 in Durant, Oklahoma",
+        "dateTaken": "2016-04-16",
+        "chosenFrom": "seed",
+        "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:38.888Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mig19",
+      "name": "Mikoyan-Gurevich MiG-19",
+      "label": "Mikoyan-Gurevich MiG-19",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Air superiority fighter aircraft family",
+      "summary": "The Mikoyan-Gurevich MiG-19 is a Soviet second generation, single-seat, twinjet fighter aircraft. It was the first Soviet production aircraft capable of supersonic speeds in level flight. A comparable U.S. \"Century Series\" fighter was the North American F-100 Super Sabre, although the MiG-19 primarily fought against the more modern McDonnell Douglas F-4 Phantom II and Republic F-105 Thunderchief over North Vietnam. This aircraft was originally used by the Soviet Union but it was later used by the People's Liberation Army Air Force of China.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Russian Aircraft Corporation MiG",
+        "Sokol",
+        "Novosibirsk Aircraft Production Association",
+        "AERO Vodochody Aerospace",
+        "People's Republic of China"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1953-09-18",
+      "introduced": "1955",
+      "status": "Retired; Chinese license-build J-6 in limited use by some foreign countries",
+      "numberBuilt": 6500,
+      "wikipedia": {
+        "title": "Mikoyan-Gurevich MiG-19",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
+        "pageId": 61961,
+        "revisionId": 1379105913
+      },
+      "wikidataId": "Q153307",
+      "photo": {
+        "file": "assets/aircraft/mig19.jpg",
+        "sourceFile": "File:Mikoyan-Gurevich MiG-19S Farmer USAF.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-19S_Farmer_USAF.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mikoyan-Gurevich_MiG-19S_Farmer_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Mikoyan-Gurevich_MiG-19S_Farmer_USAF.jpg/960px-Mikoyan-Gurevich_MiG-19S_Farmer_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 662,
+        "originalWidth": 1800,
+        "originalHeight": 1242,
+        "mime": "image/jpeg",
+        "author": "U.S. Air Force photo",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "DAYTON, Ohio -- Mikoyan-Gurevich MiG-19S \"Farmer\" at the National Museum of the United States Air Force. (U.S. Air Force photo)",
+        "dateTaken": "2007-10-17",
+        "chosenFrom": "seed",
+        "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:39.655Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "il28",
+      "name": "Ilyushin Il-28",
+      "label": "Ilyushin Il-28",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "Soviet bomber aircraft family",
+      "summary": "The Ilyushin Il-28 is a medium-range jet bomber, originally manufactured for the Soviet Air Forces, in service since 1950. It was the Soviet Union's first such aircraft to enter large-scale production. Total production in the USSR was 6,316 aircraft.",
+      "role": "Medium bomber",
+      "manufacturer": [
+        "Знамя Труда (машиностроительный завод)",
+        "Production Corporation Polyot",
+        "Voronezh Aircraft Production Association",
+        "Dux Factory",
+        "Aviakor"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1948-07-08",
+      "introduced": "1950",
+      "status": "In service with the Korean People's Air Force",
+      "numberBuilt": 6316,
+      "wikipedia": {
+        "title": "Ilyushin Il-28",
+        "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-28",
+        "pageId": 514797,
+        "revisionId": 1380541939
+      },
+      "wikidataId": "Q652911",
+      "photo": {
+        "file": "assets/aircraft/il28.jpg",
+        "sourceFile": "File:Ił 28 (2).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:I%C5%82_28_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/I%C5%82_28_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/I%C5%82_28_%282%29.jpg/960px-I%C5%82_28_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 373,
+        "originalWidth": 1457,
+        "originalHeight": 566,
+        "mime": "image/jpeg",
+        "author": "Wisnia6522",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Ił 28",
+        "dateTaken": "1 July 2007 (upload date)",
+        "chosenFrom": "seed",
+        "credit": "Wisnia6522 / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:40.707Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "tu16",
+      "name": "Tupolev Tu-16",
+      "label": "Tupolev Tu-16",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "Soviet heavy bomber",
+      "summary": "The Tupolev Tu-16 is a twin-engined jet strategic heavy bomber used by the Soviet Union. It has been flown for almost 70 years. While many aircraft in Soviet service were retired after the Cold War ended, a Chinese license-built version, the Xi'an H-6, remains in service with the People's Liberation Army Air Force.",
+      "role": "Strategic bomber",
+      "manufacturer": [
+        "Tupolev",
+        "Kazan Aircraft Production Association",
+        "Voronezh Aircraft Production Association"
+      ],
+      "designer": "Tupolev",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1952-04-27",
+      "introduced": "1954",
+      "status": "In service with China as Xi'an H-6",
+      "numberBuilt": 1509,
+      "wikipedia": {
+        "title": "Tupolev Tu-16",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-16",
+        "pageId": 265848,
+        "revisionId": 1378209589
+      },
+      "wikidataId": "Q192779",
+      "photo": {
+        "file": "assets/aircraft/tu16.jpg",
+        "sourceFile": "File:Tupolev Tu-16 flies over USS Hewitt (DD-966) c1978.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-16_flies_over_USS_Hewitt_(DD-966)_c1978.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Tupolev_Tu-16_flies_over_USS_Hewitt_%28DD-966%29_c1978.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tupolev_Tu-16_flies_over_USS_Hewitt_%28DD-966%29_c1978.jpg/960px-Tupolev_Tu-16_flies_over_USS_Hewitt_%28DD-966%29_c1978.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 647,
+        "originalWidth": 1600,
+        "originalHeight": 1079,
+        "mime": "image/jpeg",
+        "author": "U.S. Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Soviet Tupolev Tu-16 (s/n 1887504, NATO reporting name: \"Badger\") flies past the U.S. Navy destroyer USS Hewitt (DD-966) underway, circa in 1978.",
+        "dateTaken": "circa 1978date QS:P,+1978-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:41.396Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Myasishchev M-4",
+      "label": "Myasishchev M-4",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "Soviet strategic bomber and tanker aircraft",
+      "summary": "The Myasishchev M-4 Molot was a four-engined strategic bomber designed by Vladimir Mikhailovich Myasishchev and manufactured by the Soviet Union in the 1950s to provide a Long Range Aviation bomber capable of attacking targets in North America.",
+      "role": "Strategic bomber",
+      "manufacturer": [
+        "Myasishchev Design Bureau"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1953",
+      "introduced": "1954",
+      "status": null,
+      "numberBuilt": 125,
+      "wikipedia": {
+        "title": "Myasishchev M-4",
+        "url": "https://en.wikipedia.org/wiki/Myasishchev_M-4",
+        "pageId": 820638,
+        "revisionId": 1375348789
+      },
+      "wikidataId": "Q182124",
+      "photo": {
+        "file": "assets/aircraft/m4.jpg",
+        "sourceFile": "File:Soviet M-4 Bison bomber in flight 1982.JPEG",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Soviet_M-4_Bison_bomber_in_flight_1982.JPEG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Soviet_M-4_Bison_bomber_in_flight_1982.JPEG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Soviet_M-4_Bison_bomber_in_flight_1982.JPEG/960px-Soviet_M-4_Bison_bomber_in_flight_1982.JPEG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 484,
+        "originalWidth": 3000,
+        "originalHeight": 1511,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Soviet Air Force Myasishchev 3MD bomber (NATO reporting name \"Bison\") in flight.",
+        "dateTaken": "1982-08-01",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:42.185Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "an12",
+      "name": "Antonov An-12",
+      "label": "Antonov An-12",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "turboprop",
+      "description": "Soviet medium-range transport aircraft",
+      "summary": "The Antonov An-12 is a four-engined turboprop cargo/military transport aircraft designed by Antonov and produced at the Irkutsk Aviation Plant and the Tashkent Mechanical Plant in the Soviet Union. It is a militarised version of the Antonov An-10 transport aircraft and was produced in many variants.",
+      "role": "Cargo aircraft / military transport aircraft",
+      "manufacturer": [
+        "Antonov",
+        "Irkutsk Aviation Plant",
+        "Voronezh Aircraft Production Association",
+        "Tashkent Mechanical Plant",
+        "Antonov Serial Production Plant",
+        "Shaanxi Aircraft Corporation"
+      ],
+      "designer": "Antonov",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1957-12-16",
+      "introduced": "1959",
+      "status": "In service",
+      "numberBuilt": 1248,
+      "wikipedia": {
+        "title": "Antonov An-12",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-12",
+        "pageId": 908118,
+        "revisionId": 1380707870
+      },
+      "wikidataId": "Q271559",
+      "photo": {
+        "file": "assets/aircraft/an12.jpg",
+        "sourceFile": "File:Antonov An-12BK, Russia - Air Force AN1879625.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Antonov_An-12BK,_Russia_-_Air_Force_AN1879625.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg/960px-Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 642,
+        "originalWidth": 1226,
+        "originalHeight": 820,
+        "mime": "image/jpeg",
+        "author": "Igor Dvurekov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": null,
+        "dateTaken": "Taken on 28 February 2011",
+        "chosenFrom": "seed",
+        "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:43.243Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mi6",
+      "name": "Mil Mi-6",
+      "label": "Mil Mi-6",
+      "group": "helicopter",
+      "use": "military",
+      "category": "cargo-helicopter",
+      "engine": "turboshaft",
+      "description": "Transport helicopter",
+      "summary": "The Mil Mi-6, given the article number izdeliye 50 and company designation V-6, is a Soviet/Russian heavy transport helicopter that was designed by the Mil design bureau. It was built in large numbers for both military and civil use and was the largest helicopter in production until the Mil Mi-26 was put in production in 1980.",
+      "role": "Heavy transport helicopter",
+      "manufacturer": [
+        "Mil Moscow Helicopter Plant",
+        "Khrunichev State Research and Production Space Center",
+        "Rostvertol"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1957-06-05",
+      "introduced": "1963",
+      "status": "Retired from service",
+      "numberBuilt": 926,
+      "wikipedia": {
+        "title": "Mil Mi-6",
+        "url": "https://en.wikipedia.org/wiki/Mil_Mi-6",
+        "pageId": 1493437,
+        "revisionId": 1350504420
+      },
+      "wikidataId": "Q744635",
+      "photo": {
+        "file": "assets/aircraft/mi6.jpg",
+        "sourceFile": "File:Mi-6.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mi-6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mi-6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mi-6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 628,
+        "originalWidth": 800,
+        "originalHeight": 523,
+        "mime": "image/jpeg",
+        "author": "Jno (Wikimedia Commons)",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:43.981Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "su7",
+      "name": "Sukhoi Su-7",
+      "label": "Sukhoi Su-7",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Soviet strike fighter aircraft",
+      "summary": "The Sukhoi Su-7 is a swept wing, supersonic fighter aircraft developed by the Soviet Union in 1955. Originally, it was designed as a tactical, low-level dogfighter, but was not successful in this role. On the other hand, the soon-introduced Su-7B series became the main Soviet fighter-bomber and ground-attack aircraft of the 1960s. The Su-7 was rugged in its simplicity, but its Lyulka AL-7 engine had such high fuel consumption that it seriously limited the aircraft's payload, as even short-range missions required that at least two hardpoints be used to carry drop tanks rather than ordnance.",
+      "role": "Fighter and fighter-bomber / ground-attack aircraft",
+      "manufacturer": [
+        "Sukhoi",
+        "Komsomolsk-on-Amur Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1955-09-07",
+      "introduced": "1960",
+      "status": "In limited service with the Korean People's Army Air Force",
+      "numberBuilt": 1874,
+      "wikipedia": {
+        "title": "Sukhoi Su-7",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-7",
+        "pageId": 545123,
+        "revisionId": 1377279535
+      },
+      "wikidataId": "Q170199",
+      "photo": {
+        "file": "assets/aircraft/su7.jpg",
+        "sourceFile": "File:Su-7B Fitter A.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Su-7B_Fitter_A.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Su-7B_Fitter_A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Su-7B_Fitter_A.jpg/960px-Su-7B_Fitter_A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 546,
+        "originalWidth": 2610,
+        "originalHeight": 1485,
+        "mime": "image/jpeg",
+        "author": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A right side view of three Polish Su-7 Fitter-A aircraft in flight.",
+        "dateTaken": "2012-05-03 00:21",
+        "chosenFrom": "seed",
+        "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:45.833Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "tu22",
+      "name": "Tupolev Tu-22",
+      "label": "Tupolev Tu-22",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "Soviet supersonic heavy bomber",
+      "summary": "The Tupolev Tu-22 was the first supersonic bomber to enter production in the Soviet Union. Manufactured by Tupolev, the Tu-22 entered service with Long-Range Aviation and Soviet Naval Aviation in the 1960s.",
+      "role": "Medium bomber",
+      "manufacturer": [
+        "Tupolev",
+        "Kazan Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1958-06-21",
+      "introduced": "1962",
+      "status": "Retired",
+      "numberBuilt": 311,
+      "wikipedia": {
+        "title": "Tupolev Tu-22",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-22",
+        "pageId": 594396,
+        "revisionId": 1376846772
+      },
+      "wikidataId": "Q213342",
+      "photo": {
+        "file": "assets/aircraft/tu22.jpg",
+        "sourceFile": "File:Энгельс Ту-22РДМ-18 фото 1.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-22%D0%A0%D0%94%D0%9C-18_%D1%84%D0%BE%D1%82%D0%BE_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-22%D0%A0%D0%94%D0%9C-18_%D1%84%D0%BE%D1%82%D0%BE_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-22%D0%A0%D0%94%D0%9C-18_%D1%84%D0%BE%D1%82%D0%BE_1.jpg/960px-%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-22%D0%A0%D0%94%D0%9C-18_%D1%84%D0%BE%D1%82%D0%BE_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 432,
+        "originalWidth": 2000,
+        "originalHeight": 900,
+        "mime": "image/jpeg",
+        "author": "Зимин Василий",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Самолёт Ту-22РДМ бортовой номер 18. Экспонат музея дальней авиации на авиабазе Энгельс",
+        "dateTaken": "2007-08-19",
+        "chosenFrom": "seed",
+        "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:45.698Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak28",
+      "name": "Yakovlev Yak-28",
+      "label": "Yakovlev Yak-28",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "Family of Soviet jet combat aircraft",
+      "summary": "The Yakovlev Yak-28 is a swept wing, turbojet-powered combat aircraft used by the Soviet Union. Produced initially as a tactical medium bomber, it was also manufactured in reconnaissance, electronic warfare, interceptor, and trainer versions, known by the NATO reporting names Brewer, Brewer-E, Firebar, and Maestro respectively. Based on the Yak-129 prototype first flown on 5 March 1958, it began to enter service in 1964.",
+      "role": "Medium bomber; Reconnaissance; Electronic warfare; Interceptor",
+      "manufacturer": [
+        "Yakovlev",
+        "Saratov Aviation Plant",
+        "Irkutsk Aviation Plant",
+        "Novosibirsk Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1958-03-05",
+      "introduced": "1960",
+      "status": null,
+      "numberBuilt": 1180,
+      "wikipedia": {
+        "title": "Yakovlev Yak-28",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-28",
+        "pageId": 1046535,
+        "revisionId": 1350875798
+      },
+      "wikidataId": "Q756036",
+      "photo": {
+        "file": "assets/aircraft/yak28.jpg",
+        "sourceFile": "File:YaK 28 \"Brewer C\".jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:YaK_28_%22Brewer_C%22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/YaK_28_%22Brewer_C%22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/YaK_28_%22Brewer_C%22.jpg/960px-YaK_28_%22Brewer_C%22.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 468,
+        "originalWidth": 2904,
+        "originalHeight": 1416,
+        "mime": "image/jpeg",
+        "author": "U.S. Air Force",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A left underside view of a Soviet Yak-28 Brewer-C aircraft. Date Shot: 26 Mar 1985 Cropped caption: Version of the Yak-28 known to NATO as 'Brewer-C' (Flug Revue)",
+        "dateTaken": "26 March 1985; 14 August 2006 (according to Exif data)",
+        "chosenFrom": "seed",
+        "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:46.721Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "su15",
+      "name": "Sukhoi Su-15",
+      "label": "Sukhoi Su-15",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Soviet interceptor aircraft",
+      "summary": "The Sukhoi Su-15 is a twinjet supersonic interceptor aircraft developed by the Soviet Union. It entered service in 1965 and remained one of the front-line designs into the 1990s. The Su-15 was designed to replace the Sukhoi Su-11 and Sukhoi Su-9, which were becoming obsolete as NATO introduced newer and more capable strategic bombers. The supersonic Su-15 had the performance needed to chase down high-subsonic aircraft like the B-52 and Vulcan, and the range to do so while those aircraft were still far from their targets.",
+      "role": "Interceptor aircraft",
+      "manufacturer": [
+        "Sukhoi",
+        "Novosibirsk Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1962-05-30",
+      "introduced": "1965-04-30",
+      "status": "Retired from military service",
+      "numberBuilt": 1300,
+      "wikipedia": {
+        "title": "Sukhoi Su-15",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-15",
+        "pageId": 809641,
+        "revisionId": 1373174394
+      },
+      "wikidataId": "Q461651",
+      "photo": {
+        "file": "assets/aircraft/su15.jpg",
+        "sourceFile": "File:Su-15 Flagon.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Su-15_Flagon.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Su-15_Flagon.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Su-15_Flagon.jpg/960px-Su-15_Flagon.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 628,
+        "originalWidth": 3010,
+        "originalHeight": 1970,
+        "mime": "image/jpeg",
+        "author": "U.S. Department of Defense",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Sukhoi Su-15 (NATO code Flagon) armed with R-98MR missiles.",
+        "dateTaken": "1989-05-01",
+        "chosenFrom": "seed",
+        "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:47.520Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "be12",
+      "name": "Beriev Be-12",
+      "label": "Beriev Be-12",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "turboprop",
+      "description": "Patrol aircraft",
+      "summary": "The Beriev Be-12 Chayka is a Soviet turboprop-powered amphibious aircraft designed in the 1950s for anti-submarine and maritime patrol duties.",
+      "role": "Maritime patrol aircraft",
+      "manufacturer": [
+        "Beriev"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1960-10-18",
+      "introduced": "1965-11-29",
+      "status": "Operational (in small numbers)",
+      "numberBuilt": 140,
+      "wikipedia": {
+        "title": "Beriev Be-12",
+        "url": "https://en.wikipedia.org/wiki/Beriev_Be-12",
+        "pageId": 1505115,
+        "revisionId": 1366503366
+      },
+      "wikidataId": "Q794491",
+      "photo": {
+        "file": "assets/aircraft/be12.jpg",
+        "sourceFile": "File:Be-12P-200.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Be-12P-200.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Be-12P-200.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Be-12P-200.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 651,
+        "originalWidth": 919,
+        "originalHeight": 623,
+        "mime": "image/jpeg",
+        "author": "Jno (Wikimedia Commons)",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:48.385Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "an22",
+      "name": "Antonov An-22",
+      "label": "Antonov An-22",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "turboprop",
+      "description": "Soviet heavy military transport aircraft",
+      "summary": "The Antonov An-22 \"Antei\" is a retired heavy turboprop military transport aircraft developed by the Antonov Design Bureau and produced by the Tashkent State Aircraft Factory in the Soviet Union. It was the first wide-body transport aircraft and has continued to possess the largest cargo deck for any turboprop-powered aircraft in the world into the twenty-first century.",
+      "role": "Strategic airlifter",
+      "manufacturer": [
+        "Antonov",
+        "Tashkent Mechanical Plant"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1965-02-27",
+      "introduced": "1969-01",
+      "status": "Retired",
+      "numberBuilt": 68,
+      "wikipedia": {
+        "title": "Antonov An-22",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-22",
+        "pageId": 532447,
+        "revisionId": 1374912114
+      },
+      "wikidataId": "Q607444",
+      "photo": {
+        "file": "assets/aircraft/an22.jpg",
+        "sourceFile": "File:Antonov An-22 Antei CCCP-67691.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Antonov_An-22_Antei_CCCP-67691.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Antonov_An-22_Antei_CCCP-67691.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Antonov_An-22_Antei_CCCP-67691.jpg/960px-Antonov_An-22_Antei_CCCP-67691.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 568,
+        "originalWidth": 1280,
+        "originalHeight": 757,
+        "mime": "image/jpeg",
+        "author": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Aircraft Registration / Serial: CCCP-67691 Aircraft Original Type: Antonov An-22 Antei Aircraft Generic Type: Antonov An-22 Antei Aircraft Version: Antonov An-22 Antei C/n (msn): 7340106 Location City / Airport: Turin - AeritaliaMap Country: Italy Airport Codes: ICAO: LIMA IATA: - Local: - Other: - ",
+        "dateTaken": "8 June 1968",
+        "chosenFrom": "seed",
+        "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:50.374Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ka25",
+      "name": "Kamov Ka-25",
+      "label": "Kamov Ka-25",
+      "group": "helicopter",
+      "use": "military",
+      "category": "utility-helicopter",
+      "engine": "turboshaft",
+      "description": "Naval helicopter developed for the USSR",
+      "summary": "The Kamov Ka-25 is a coaxial rotor naval helicopter, developed for the Soviet Navy in the USSR from 1958, before being succeeded by the Ka-27.\nThe Ka-25 filled a multitude of roles while it was in service with the Soviet Navy.",
+      "role": "Anti-submarine / Multi-purpose shipboard helicopter",
+      "manufacturer": [
+        "Kamov",
+        "Ulan-Ude Aviation Plant"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1961-07-20",
+      "introduced": "1971-12-02",
+      "status": "Retired",
+      "numberBuilt": 460,
+      "wikipedia": {
+        "title": "Kamov Ka-25",
+        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-25",
+        "pageId": 16932,
+        "revisionId": 1377691747
+      },
+      "wikidataId": "Q597404",
+      "photo": {
+        "file": "assets/aircraft/ka25.jpg",
+        "sourceFile": "File:Soviet Ka-25 Hormone-C (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Soviet_Ka-25_Hormone-C_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Soviet_Ka-25_Hormone-C_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Soviet_Ka-25_Hormone-C_%28cropped%29.jpg/960px-Soviet_Ka-25_Hormone-C_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 607,
+        "originalWidth": 1024,
+        "originalHeight": 647,
+        "mime": "image/jpeg",
+        "author": "US Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Soviet Ka-25 Hormone-C",
+        "dateTaken": "2018-08-19",
+        "chosenFrom": "seed",
+        "credit": "US Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:51.743Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "il38",
+      "name": "Ilyushin Il-38",
+      "label": "Ilyushin Il-38",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "turboprop",
+      "description": "Soviet-Russian Maritime patrol & ASW aircraft",
+      "summary": "The Ilyushin Il-38 is a maritime patrol aircraft and anti-submarine warfare aircraft designed in the Soviet Union. It is a variant of the Ilyushin Il-18 turboprop airliner.",
+      "role": "Anti-submarine warfare and maritime patrol aircraft",
+      "manufacturer": [
+        "Ilyushin"
+      ],
+      "designer": "Ilyushin",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1961",
+      "introduced": "1969-01-17",
+      "status": "In limited service",
+      "numberBuilt": 58,
+      "wikipedia": {
+        "title": "Ilyushin Il-38",
+        "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-38",
+        "pageId": 1396334,
+        "revisionId": 1380386481
+      },
+      "wikidataId": "Q163838",
+      "photo": {
+        "file": "assets/aircraft/il38.jpg",
+        "sourceFile": "File:Soviet Il-38 May passing low over USS Midway (CV-41).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Soviet_Il-38_May_passing_low_over_USS_Midway_(CV-41).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Soviet_Il-38_May_passing_low_over_USS_Midway_%28CV-41%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Soviet_Il-38_May_passing_low_over_USS_Midway_%28CV-41%29.jpg/960px-Soviet_Il-38_May_passing_low_over_USS_Midway_%28CV-41%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 751,
+        "originalWidth": 3000,
+        "originalHeight": 2346,
+        "mime": "image/jpeg",
+        "author": "US Navy Employee",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "An air-to-air left rear view of a Soviet IL-38 May reconnaissance and anti-submarine warfare aircraft passing low over the flight deck of the aircraft carrier USS MIDWAY (CV 41).",
+        "dateTaken": "1979-05-18",
+        "chosenFrom": "seed",
+        "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:52.479Z",
+      "overridden": [
+        "countryOfOrigin",
+        "firstFlight"
+      ]
+    },
+    {
+      "id": "mi14",
+      "name": "Mil Mi-14",
+      "label": "Mil Mi-14",
+      "group": "helicopter",
+      "use": "military",
+      "category": "utility-helicopter",
+      "engine": "turboshaft",
+      "description": "Helicopter in the Soviet Union",
+      "summary": "The Mil Mi-14 is a Soviet shore-based nuclear-capable amphibious anti-submarine helicopter derived from the earlier Mi-8.",
+      "role": "Anti-submarine helicopter",
+      "manufacturer": [
+        "Mil Moscow Helicopter Plant",
+        "Kazan Helicopters"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1969-09",
+      "introduced": "1977",
+      "status": "In service",
+      "numberBuilt": 230,
+      "wikipedia": {
+        "title": "Mil Mi-14",
+        "url": "https://en.wikipedia.org/wiki/Mil_Mi-14",
+        "pageId": 1493391,
+        "revisionId": 1338778095
+      },
+      "wikidataId": "Q316212",
+      "photo": {
+        "file": "assets/aircraft/mi14.jpg",
+        "sourceFile": "File:Manewry NATO Noble Mariner (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Manewry_NATO_Noble_Mariner_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Manewry_NATO_Noble_Mariner_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Manewry_NATO_Noble_Mariner_%28cropped%29.jpg/960px-Manewry_NATO_Noble_Mariner_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 595,
+        "originalWidth": 2309,
+        "originalHeight": 1430,
+        "mime": "image/jpeg",
+        "author": "Ministerstwo Obrony Narodowej",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Polski: Międzynarodowe manewry NATO Noble Mariner 2007 - Brygada Lotnictwa MW",
+        "dateTaken": "2017-08-07",
+        "chosenFrom": "seed",
+        "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:53.648Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "an26",
+      "name": "Antonov An-26",
+      "label": "Antonov An-26",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "turboprop",
+      "description": "Soviet turboprop transport aircraft",
+      "summary": "The Antonov An-26 is a twin-engined turboprop regional airliner and military transport aircraft, designed and produced in the Soviet Union from 1969 to 1986. It is the third member of the Antonov An-24 family, coming after the An-24 and An-30, while preceding the An-32 and cancelled An-132. The An-26 is still license-produced in China as the modern version of the Xi'an Y-7. Early versions of the Y-7 utilized the An-24 design.",
+      "role": "Transport aircraft / regional airliner",
+      "manufacturer": [
+        "Antonov",
+        "Antonov Serial Production Plant"
+      ],
+      "designer": "Antonov",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1969-05-21",
+      "introduced": "1973",
+      "status": "In service",
+      "numberBuilt": 1403,
+      "wikipedia": {
+        "title": "Antonov An-26",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-26",
+        "pageId": 908173,
+        "revisionId": 1374915990
+      },
+      "wikidataId": "Q62156",
+      "photo": {
+        "file": "assets/aircraft/an26.jpg",
+        "sourceFile": "File:Hungarian Air Force Antonov An-26 departs RIAT 14thJuly2014 arp.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hungarian_Air_Force_Antonov_An-26_departs_RIAT_14thJuly2014_arp.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hungarian_Air_Force_Antonov_An-26_departs_RIAT_14thJuly2014_arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hungarian_Air_Force_Antonov_An-26_departs_RIAT_14thJuly2014_arp.jpg/960px-Hungarian_Air_Force_Antonov_An-26_departs_RIAT_14thJuly2014_arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 650,
+        "originalWidth": 2057,
+        "originalHeight": 1393,
+        "mime": "image/jpeg",
+        "author": "Adrian Pingstone",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Hungarian Air Force Antonov An-26 departs RAF Fairford, Gloucestershire, England during the Royal International Air Tattoo departures day.",
+        "dateTaken": "Photograph taken on Monday 14th July 2014.",
+        "chosenFrom": "seed",
+        "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:46.777Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mig23",
+      "name": "Mikoyan-Gurevich MiG-23",
+      "label": "Mikoyan-Gurevich MiG-23",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Soviet fighter-interceptor aircraft introduced in 1970",
+      "summary": "The Mikoyan-Gurevich MiG-23 is a single-engined, supersonic, variable-sweep wing fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, alongside similar Soviet aircraft such as the Su-17 \"Fitter\". It was the first Soviet fighter to field a look-down/shoot-down radar, the RP-23 Sapfir, and one of the first to be armed with beyond-visual-range missiles. Production started in 1969 and reached large numbers with over 5,000 aircraft built, making it the most produced variable-sweep wing aircraft in history. The MiG-23 remains in limited service with some export customers.",
+      "role": "Fighter aircraft (M series); Fighter-bomber (B series)",
+      "manufacturer": [
+        "Russian Aircraft Corporation MiG"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1967-06-10",
+      "introduced": "1970",
+      "status": "In limited service",
+      "numberBuilt": 5047,
+      "wikipedia": {
+        "title": "Mikoyan-Gurevich MiG-23",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23",
+        "pageId": 220186,
+        "revisionId": 1380544360
+      },
+      "wikidataId": "Q155679",
+      "photo": {
+        "file": "assets/aircraft/mig23.jpg",
+        "sourceFile": "File:Mig-23-DNST8908431 JPG.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mig-23-DNST8908431_JPG.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mig-23-DNST8908431_JPG.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mig-23-DNST8908431_JPG.jpg/960px-Mig-23-DNST8908431_JPG.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 637,
+        "originalWidth": 2904,
+        "originalHeight": 1928,
+        "mime": "image/jpeg",
+        "author": "DoD photo",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "An air-to-air right side view of a Soviet MiG-23 Flogger aircraft. Exact Date Shot Unknown (Released to Public). You can see a loadout of 2x R-24R Semi-Active Radar Homing (SARH) missiles under the wing pylons, 2x R-60M all-aspect Infra Red homing missiles under the belly pylons as well as an extern",
+        "dateTaken": "1989-05-01",
+        "chosenFrom": "seed",
+        "credit": "DoD photo / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:55.680Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "su17",
+      "name": "Sukhoi Su-17",
+      "label": "Sukhoi Su-17",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Soviet variable-sweep wing fighter-bomber",
+      "summary": "The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service and featured updated avionics. The aircraft also has variants which were designed for export such as the Sukhoi Su-22 and the less popular Su-20.",
+      "role": "Fighter-bomber",
+      "manufacturer": [
+        "Sukhoi",
+        "Komsomolsk-on-Amur Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1966-08-02",
+      "introduced": "1970",
+      "status": "In limited service",
+      "numberBuilt": 2867,
+      "wikipedia": {
+        "title": "Sukhoi Su-17",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-17",
+        "pageId": 986647,
+        "revisionId": 1378900763
+      },
+      "wikidataId": "Q183146",
+      "photo": {
+        "file": "assets/aircraft/su17.jpg",
+        "sourceFile": "File:Sukhoi Su-22 Fitter.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-22_Fitter.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sukhoi_Su-22_Fitter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sukhoi_Su-22_Fitter.jpg/960px-Sukhoi_Su-22_Fitter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 654,
+        "originalWidth": 3000,
+        "originalHeight": 2043,
+        "mime": "image/jpeg",
+        "author": "SDASM",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Manufacturer: Sukhoi Official Nickname: Fitter Designation: SU-20",
+        "dateTaken": "2014-06-14 20:57:20",
+        "chosenFrom": "seed",
+        "credit": "SDASM / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:18:56.824Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "su24",
+      "name": "Sukhoi Su-24",
+      "label": "Sukhoi Su-24",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Family of Soviet strike aircraft",
+      "summary": "The Sukhoi Su-24 is a supersonic, all-weather tactical bomber developed in the Soviet Union. The aircraft has a variable-sweep wing, twin engines and a side-by-side seating arrangement for its crew of two. It was the first of the USSR's aircraft to carry an integrated digital navigation/attack system.",
+      "role": "All-weather tactical bomber/interdictor",
+      "manufacturer": [
+        "Sukhoi",
+        "Novosibirsk Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1970-01-17",
+      "introduced": "1975-02-04",
+      "status": "In service",
+      "numberBuilt": "Approximately 1,400",
+      "wikipedia": {
+        "title": "Sukhoi Su-24",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-24",
+        "pageId": 382335,
+        "revisionId": 1374619249
+      },
+      "wikidataId": "Q210413",
+      "photo": {
+        "file": "assets/aircraft/su24.jpg",
+        "sourceFile": "File:Su-24 Fencer left side.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Su-24_Fencer_left_side.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Su-24_Fencer_left_side.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Su-24_Fencer_left_side.jpg/960px-Su-24_Fencer_left_side.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 626,
+        "originalWidth": 3020,
+        "originalHeight": 1970,
+        "mime": "image/jpeg",
+        "author": "U.S. Department of Defense",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A left side view of a Soviet Su-24 Fencer light bomber in flight.",
+        "dateTaken": "Shot: 29 Sep 1989",
+        "chosenFrom": "seed",
+        "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:47.855Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak38",
+      "name": "Yakovlev Yak-38",
+      "label": "Yakovlev Yak-38",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy",
+      "summary": "The Yakovlev Yak-38 was Soviet Naval Aviation's only operational VTOL strike aircraft in addition to being its first operational carrier-based fixed-wing aircraft. It was developed specifically for, and served almost exclusively on, the Kiev-class aircraft carriers.",
+      "role": "VTOL strike aircraft",
+      "manufacturer": [
+        "Yakovlev",
+        "Saratov Aviation Plant"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1971",
+      "introduced": "1977-08-11",
+      "status": "Retired",
+      "numberBuilt": 231,
+      "wikipedia": {
+        "title": "Yakovlev Yak-38",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-38",
+        "pageId": 699675,
+        "revisionId": 1366688845
+      },
+      "wikidataId": "Q505643",
+      "photo": {
+        "file": "assets/aircraft/yak38.jpg",
+        "sourceFile": "File:Yak-38 Forger Gear Down.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yak-38_Forger_Gear_Down.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Yak-38_Forger_Gear_Down.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Yak-38_Forger_Gear_Down.jpg/960px-Yak-38_Forger_Gear_Down.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 624,
+        "originalWidth": 2592,
+        "originalHeight": 1685,
+        "mime": "image/jpeg",
+        "author": "US Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A left front view of a Soviet Yak-38 Forger aircraft with its landing gear down. (SUBSTANDARD)",
+        "dateTaken": "Taken on 29 April 1986",
+        "chosenFrom": "seed",
+        "credit": "US Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:49.113Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak52",
+      "name": "Yakovlev Yak-52",
+      "label": "Yakovlev Yak-52",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "piston",
+      "description": "Soviet military training aircraft",
+      "summary": "The Yakovlev Yak-52 is a Soviet primary trainer aircraft which first flew in 1976. It was produced in Romania from 1977 to 1998 by Aerostar, as Iak-52, which gained manufacturing rights under agreement within the former COMECON socialist trade organisation. The Yak-52 was designed as an aerobatic trainer for students in the Soviet DOSAAF training organisation, which trained civilian sport pilots and military pilots.",
+      "role": "Trainer, COIN",
+      "manufacturer": [
+        "Yakovlev",
+        "Aerostar"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1976",
+      "introduced": "1979",
+      "status": "Operational",
+      "numberBuilt": 1800,
+      "wikipedia": {
+        "title": "Yakovlev Yak-52",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-52",
+        "pageId": 616123,
+        "revisionId": 1376032020
+      },
+      "wikidataId": "Q932091",
+      "photo": {
+        "file": "assets/aircraft/yak52.jpg",
+        "sourceFile": "File:Yakkes Yak-52 RA-3085K.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yakkes_Yak-52_RA-3085K.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Yakkes_Yak-52_RA-3085K.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Yakkes_Yak-52_RA-3085K.jpg/960px-Yakkes_Yak-52_RA-3085K.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 1200,
+        "originalHeight": 800,
+        "mime": "image/jpeg",
+        "author": "Erik Coekelberghs",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Yak-52 RA-3085K",
+        "dateTaken": "2007-08-19",
+        "chosenFrom": "seed",
+        "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:00.139Z",
+      "overridden": [
+        "countryOfOrigin",
+        "introduced"
+      ]
+    },
+    {
+      "id": "su25",
+      "name": "Sukhoi Su-25",
+      "label": "Sukhoi Su-25",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Soviet attack aircraft introduced 1978",
+      "summary": "The Sukhoi Su-25 Grach is a subsonic, single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi. It was designed to provide close air support for Soviet Ground Forces. The first prototype made its maiden flight on 22 February 1975. After testing, the aircraft went into series production in 1978 in Tbilisi in the Georgian Soviet Socialist Republic.",
+      "role": "Attack aircraft / close air support",
+      "manufacturer": [
+        "Sukhoi",
+        "Tbilisi Aircraft Manufacturing",
+        "Ulan-Ude Aviation Plant"
+      ],
+      "designer": "Sukhoi",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1975-02-22",
+      "introduced": "1981",
+      "status": "In service",
+      "numberBuilt": 1320,
+      "wikipedia": {
+        "title": "Sukhoi Su-25",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
+        "pageId": 366696,
+        "revisionId": 1380830440
+      },
+      "wikidataId": "Q192137",
+      "photo": {
+        "file": "assets/aircraft/su25.jpg",
+        "sourceFile": "File:Ukrainian Air Force Su-25UB with two MiG-29s (9-13) in background.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ukrainian_Air_Force_Su-25UB_with_two_MiG-29s_(9-13)_in_background.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ukrainian_Air_Force_Su-25UB_with_two_MiG-29s_%289-13%29_in_background.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ukrainian_Air_Force_Su-25UB_with_two_MiG-29s_%289-13%29_in_background.jpg/960px-Ukrainian_Air_Force_Su-25UB_with_two_MiG-29s_%289-13%29_in_background.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 721,
+        "originalWidth": 1924,
+        "originalHeight": 1445,
+        "mime": "image/jpeg",
+        "author": "Original uploader was Dima Sergienko at en.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Su-25UB and MiG-29 (9-13) of Ukrainian Air Force.",
+        "dateTaken": "23 August 2009, 10:24 (8 January 2010 (original upload date)",
+        "chosenFrom": "seed",
+        "credit": "Original uploader was Dima Sergienko at en.wikipedia / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:01.647Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ka27",
+      "name": "Kamov Ka-27",
+      "label": "Kamov Ka-27",
+      "group": "helicopter",
+      "use": "military",
+      "category": "utility-helicopter",
+      "engine": "turboshaft",
+      "description": "Naval military helicopter",
+      "summary": "The Kamov Ka-27 is a coaxial rotor military helicopter developed for the Soviet Navy, and as of 2024 is in service in various countries including Russia, Ukraine, Vietnam, China, South Korea, and India. Variants include the Ka-29 assault transport, the Ka-28 downgraded export version, and the Ka-32 for civilian use.",
+      "role": "Anti-submarine warfare helicopter (Ka-27/Ka-28); Attack helicopter with transport capabilities (Ka-29); Civilian utility helicopter (Ka-32)",
+      "manufacturer": [
+        "Kamov"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1973-12-24",
+      "introduced": "1982",
+      "status": "In service",
+      "numberBuilt": 267,
+      "wikipedia": {
+        "title": "Kamov Ka-27",
+        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-27",
+        "pageId": 1067665,
+        "revisionId": 1378377284
+      },
+      "wikidataId": "Q505929",
+      "photo": {
+        "file": "assets/aircraft/ka27.jpg",
+        "sourceFile": "File:A Russian Helix KA-27 (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Russian_Helix_KA-27_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/A_Russian_Helix_KA-27_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/A_Russian_Helix_KA-27_%28cropped%29.jpg/960px-A_Russian_Helix_KA-27_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 647,
+        "originalWidth": 1960,
+        "originalHeight": 1321,
+        "mime": "image/jpeg",
+        "author": "Jason R. Zalasky, U.S. Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "090209-N-1082Z-018 GULF OF ADEN (Feb. 9, 2009) A Russian Helix KA-27 helicopter assigned to the Russian destroyer Admiral Vinogradov (DDG 572) flies near the guided-missile cruiser USS Vella Gulf (CG 72) while conducting operations in the Gulf of Aden. Vella Gulf is the flagship for Combined Task Fo",
+        "dateTaken": "2009-02-09",
+        "chosenFrom": "seed",
+        "credit": "Jason R. Zalasky, U.S. Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:02.421Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "a50",
+      "name": "Beriev A-50",
+      "label": "Beriev A-50",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "airborne-early-warning",
+      "engine": "jet",
+      "description": "Soviet airborne early warning and control (AEW&C) aircraft",
+      "summary": "The Beriev A-50 is a Soviet-origin airborne early warning and control (AEW&C) aircraft that is based on the Ilyushin Il-76 transport plane. Developed to replace the Tupolev Tu-126 \"Moss\", the A-50 first flew in 1978. Its existence was revealed to the Western Bloc in 1978 by Adolf Tolkachev. It entered service in 1985, with about 42 produced by 1992 when the breakup of the Soviet Union ended production.",
+      "role": "Airborne early warning and control",
+      "manufacturer": [
+        "Beriev",
+        "Tashkent Mechanical Plant"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1978-12-19",
+      "introduced": "1989",
+      "status": "In service",
+      "numberBuilt": 40,
+      "wikipedia": {
+        "title": "Beriev A-50",
+        "url": "https://en.wikipedia.org/wiki/Beriev_A-50",
+        "pageId": 1251978,
+        "revisionId": 1377345529
+      },
+      "wikidataId": "Q499185",
+      "photo": {
+        "file": "assets/aircraft/a50.jpg",
+        "sourceFile": "File:Airborne early warning and control aircraft A-50U (Red 41).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Airborne_early_warning_and_control_aircraft_A-50U_(Red_41).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Airborne_early_warning_and_control_aircraft_A-50U_%28Red_41%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Airborne_early_warning_and_control_aircraft_A-50U_%28Red_41%29.jpg/960px-Airborne_early_warning_and_control_aircraft_A-50U_%28Red_41%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 669,
+        "originalWidth": 1302,
+        "originalHeight": 908,
+        "mime": "image/jpeg",
+        "author": "Sergey Lutsenko, Timofey Nikishin",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Russian Air Force Beriev A-50U (Red 41)",
+        "dateTaken": "2017-03-10",
+        "chosenFrom": "seed",
+        "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:03.513Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "mi28",
+      "name": "Mil Mi-28",
+      "label": "Mil Mi-28",
+      "group": "helicopter",
+      "use": "military",
+      "category": "attack-helicopter",
+      "engine": "turboshaft",
+      "description": "Russian attack helicopter",
+      "summary": "The Mil Mi-28 is a Soviet heavy-weight, all-weather, day-night, tandem-seat anti-armour military attack helicopter. It is an attack helicopter with no intended secondary transport capability and is better optimized for the role than the Mil Mi-24 gunship. It carries a single autocannon in a rotating under-nose barbette, plus external loads carried on pylons beneath stub wings.",
+      "role": "Attack helicopter",
+      "manufacturer": [
+        "Mil Moscow Helicopter Plant",
+        "Rostvertol"
+      ],
+      "designer": "Marat Tishchenko",
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1982-11-10",
+      "introduced": "2006",
+      "status": "In service",
+      "numberBuilt": 126,
+      "wikipedia": {
+        "title": "Mil Mi-28",
+        "url": "https://en.wikipedia.org/wiki/Mil_Mi-28",
+        "pageId": 1493354,
+        "revisionId": 1375541907
+      },
+      "wikidataId": "Q242806",
+      "photo": {
+        "file": "assets/aircraft/mi28.jpg",
+        "sourceFile": "File:Russian Air Force, RF-13489, Mil Mi-28NM (49581609382).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force,_RF-13489,_Mil_Mi-28NM_(49581609382).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Russian_Air_Force%2C_RF-13489%2C_Mil_Mi-28NM_%2849581609382%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Russian_Air_Force%2C_RF-13489%2C_Mil_Mi-28NM_%2849581609382%29.jpg/960px-Russian_Air_Force%2C_RF-13489%2C_Mil_Mi-28NM_%2849581609382%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 1200,
+        "originalHeight": 800,
+        "mime": "image/jpeg",
+        "author": "Anna Zvereva from Tallinn, Estonia",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Russian Air Force, RF-13489",
+        "dateTaken": "2019-08-29 14:06",
+        "chosenFrom": "seed",
+        "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:04.294Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "su34",
+      "name": "Sukhoi Su-34",
+      "label": "Sukhoi Su-34",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "attack",
+      "engine": "jet",
+      "description": "Russian fighter-bomber aircraft",
+      "summary": "The Sukhoi Su-34 is a Soviet-origin Russian twin-engine, twin-seat, all-weather supersonic medium-range fighter-bomber/strike aircraft. It first flew in 1990, intended for the Soviet Air Forces, and it entered service in 2014 with the Russian Air Force.",
+      "role": "Fighter-bomber/strike fighter",
+      "manufacturer": [
+        "Sukhoi",
+        "Novosibirsk Aircraft Production Association"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Russia"
+      ],
+      "firstFlight": "1990-04-13",
+      "introduced": "2014-03-21",
+      "status": "In service",
+      "numberBuilt": 143,
+      "wikipedia": {
+        "title": "Sukhoi Su-34",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-34",
+        "pageId": 1213828,
+        "revisionId": 1380517134
+      },
+      "wikidataId": "Q309177",
+      "photo": {
+        "file": "assets/aircraft/su34.jpg",
+        "sourceFile": "File:Sukhoi Su-34 at the MAKS-2013 (03).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-34_at_the_MAKS-2013_(03).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sukhoi_Su-34_at_the_MAKS-2013_%2803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Sukhoi_Su-34_at_the_MAKS-2013_%2803%29.jpg/960px-Sukhoi_Su-34_at_the_MAKS-2013_%2803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 753,
+        "originalWidth": 3625,
+        "originalHeight": 2845,
+        "mime": "image/jpeg",
+        "author": "Doomych",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Fighter-bomber Sukhoi Su-34 Fullback (The international aerospace salon MAKS-2013)",
+        "dateTaken": "Taken on 30 August 2013",
+        "chosenFrom": "seed",
+        "credit": "Doomych / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:05.136Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "yak130",
+      "name": "Yakovlev Yak-130",
+      "label": "Yakovlev Yak-130",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "jet",
+      "description": "Russian light combat aircraft",
+      "summary": "The Yakovlev Yak-130 is a subsonic, two-seat, advanced jet trainer and light combat aircraft.",
+      "role": "Lead-in fighter trainer / Light combat aircraft",
+      "manufacturer": [
+        "Yakovlev",
+        "Sokol",
+        "Yakovlev Corporation"
+      ],
+      "designer": "Yakovlev",
+      "countryOfOrigin": [
+        "Russia"
+      ],
+      "firstFlight": "1996-04-25",
+      "introduced": "2010-02",
+      "status": "Active",
+      "numberBuilt": 96,
+      "wikipedia": {
+        "title": "Yakovlev Yak-130",
+        "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-130",
+        "pageId": 1513240,
+        "revisionId": 1380457844
+      },
+      "wikidataId": "Q4514",
+      "photo": {
+        "file": "assets/aircraft/yak130.jpg",
+        "sourceFile": "File:Yak-130.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yak-130.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Yak-130.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Yak-130.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 600,
+        "originalWidth": 800,
+        "originalHeight": 500,
+        "mime": "image/jpeg",
+        "author": "Jno (Wikimedia Commons)",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-18T17:19:06.132Z",
       "overridden": [
         "countryOfOrigin"
       ]

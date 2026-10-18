@@ -31,12 +31,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "p40",
-          "label": "Curtiss P-40 Warhawk"
+          "id": "i16",
+          "label": "Polikarpov I-16"
         },
         {
-          "id": "martin-b10",
-          "label": "Martin B-10"
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
         }
       ],
       "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
@@ -85,8 +85,8 @@
           "label": "Mitsubishi G3M"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "b5n",
+          "label": "Nakajima B5N"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -585,8 +585,8 @@
           "label": "Mitsubishi Ki-21"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         }
       ],
       "caption": "WWII-era medium bomber. First flew 1935.",
@@ -606,8 +606,8 @@
           "label": "Mitsubishi A5M"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         },
         {
           "id": "ki27",
@@ -716,6 +716,81 @@
       ],
       "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
       "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-i15",
+      "image": "i15.jpg",
+      "answer": "i15",
+      "options": [
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "spitfire",
+          "label": "Supermarine Spitfire"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1933.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-i16",
+      "image": "i16.jpg",
+      "answer": "i16",
+      "options": [
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "Soviet 1930s monoplane fighter aircraft. First flew 1933.",
+      "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-tb3",
+      "image": "tb3.jpg",
+      "answer": "tb3",
+      "options": [
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1930.",
+      "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
     }
   ]
 }

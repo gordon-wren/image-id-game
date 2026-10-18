@@ -32,12 +32,12 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "be12",
+          "label": "Beriev Be-12"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "a50",
+          "label": "Beriev A-50"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -57,12 +57,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "be12",
+          "label": "Beriev Be-12"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "a50",
+          "label": "Beriev A-50"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -78,16 +78,16 @@
           "label": "Ilyushin Il-76"
         },
         {
-          "id": "an124",
-          "label": "Antonov An-124 Ruslan"
+          "id": "a50",
+          "label": "Beriev A-50"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "be12",
+          "label": "Beriev Be-12"
         },
         {
-          "id": "an225",
-          "label": "Antonov An-225 Mriya"
+          "id": "an12",
+          "label": "Antonov An-12"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -103,16 +103,16 @@
           "label": "Tupolev Tu-95"
         },
         {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
           "id": "tu22m",
           "label": "Tupolev Tu-22M"
-        },
-        {
-          "id": "tu160",
-          "label": "Tupolev Tu-160"
-        },
-        {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -132,8 +132,8 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "an124",
-          "label": "Antonov An-124 Ruslan"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         },
         {
           "id": "tu95",
@@ -157,12 +157,12 @@
           "label": "Tupolev Tu-160"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -178,16 +178,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "su24",
+          "label": "Sukhoi Su-24"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "su25",
+          "label": "Sukhoi Su-25"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -207,12 +207,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "su17",
+          "label": "Sukhoi Su-17"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -232,12 +232,12 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
@@ -253,16 +253,16 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         },
         {
           "id": "mig21",
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "su27",
-          "label": "Sukhoi Su-27"
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -278,16 +278,16 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
+          "id": "su25",
+          "label": "Sukhoi Su-25"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -307,12 +307,12 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
-        },
-        {
           "id": "mig29",
           "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -332,12 +332,12 @@
           "label": "Mikoyan MiG-29"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -357,12 +357,12 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "mi8",
-          "label": "Mil Mi-8/17"
+          "id": "mi14",
+          "label": "Mil Mi-14"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
@@ -382,12 +382,12 @@
           "label": "Mil Mi-24"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
         },
         {
-          "id": "mi26",
-          "label": "Mil Mi-26"
+          "id": "mi6",
+          "label": "Mil Mi-6"
         }
       ],
       "caption": "Family of transport helicopters. First flew 1961.",
@@ -403,16 +403,16 @@
           "label": "Kamov Ka-50"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
         },
         {
           "id": "mi26",
           "label": "Mil Mi-26"
-        },
-        {
-          "id": "mi24",
-          "label": "Mil Mi-24"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -428,16 +428,16 @@
           "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
-        },
-        {
-          "id": "mi24",
-          "label": "Mil Mi-24"
+          "id": "ka27",
+          "label": "Kamov Ka-27"
         },
         {
           "id": "mi26",
           "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -453,20 +453,1095 @@
           "label": "Mil Mi-26"
         },
         {
-          "id": "mi24",
-          "label": "Mil Mi-24"
-        },
-        {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         },
         {
           "id": "ka50",
           "label": "Kamov Ka-50"
+        },
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
       "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-i15",
+      "image": "i15.jpg",
+      "answer": "i15",
+      "options": [
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1933.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-i16",
+      "image": "i16.jpg",
+      "answer": "i16",
+      "options": [
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "Soviet 1930s monoplane fighter aircraft. First flew 1933.",
+      "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-po2",
+      "image": "po2.jpg",
+      "answer": "po2",
+      "options": [
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "All-weather multirole Soviet biplane. First flew 1927.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-tb3",
+      "image": "tb3.jpg",
+      "answer": "tb3",
+      "options": [
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1930.",
+      "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mig3",
+      "image": "mig3.jpg",
+      "answer": "mig3",
+      "options": [
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak9",
+      "image": "yak9.jpg",
+      "answer": "yak9",
+      "options": [
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        }
+      ],
+      "caption": "Fighter aircraft. First flew 1942.",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-la5",
+      "image": "la5.jpg",
+      "answer": "la5",
+      "options": [
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-il2",
+      "image": "il2.jpg",
+      "answer": "il2",
+      "options": [
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        }
+      ],
+      "caption": "Soviet ground attack aircraft of WWII. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-pe2",
+      "image": "pe2.jpg",
+      "answer": "pe2",
+      "options": [
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "Soviet dive bomber aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-tu2",
+      "image": "tu2.jpg",
+      "answer": "tu2",
+      "options": [
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        }
+      ],
+      "caption": "1943 medium bomber aircraft family. First flew 1941.",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-pe8",
+      "image": "pe8.jpg",
+      "answer": "pe8",
+      "options": [
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak18",
+      "image": "yak18.jpg",
+      "answer": "yak18",
+      "options": [
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        }
+      ],
+      "caption": "Training aircraft in the Soviet Union. First flew 1946.",
+      "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-an2",
+      "image": "an2.jpg",
+      "answer": "an2",
+      "options": [
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        }
+      ],
+      "caption": "Soviet single-engine civilian aircraft. First flew 1947.",
+      "credit": "Arpingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mi4",
+      "image": "mi4.jpg",
+      "answer": "mi4",
+      "options": [
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        }
+      ],
+      "caption": "Soviet transport helicopter. First flew 1952.",
+      "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mig15",
+      "image": "mig15.jpg",
+      "answer": "mig15",
+      "options": [
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mig17",
+      "image": "mig17.jpg",
+      "answer": "mig17",
+      "options": [
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        }
+      ],
+      "caption": "Soviet jet fighter aircraft family. First flew 1950.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mig19",
+      "image": "mig19.jpg",
+      "answer": "mig19",
+      "options": [
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        }
+      ],
+      "caption": "Air superiority fighter aircraft family. First flew 1953.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-il28",
+      "image": "il28.jpg",
+      "answer": "il28",
+      "options": [
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        }
+      ],
+      "caption": "Soviet bomber aircraft family. First flew 1948.",
+      "credit": "Wisnia6522 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-tu16",
+      "image": "tu16.jpg",
+      "answer": "tu16",
+      "options": [
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        }
+      ],
+      "caption": "Soviet heavy bomber. First flew 1952.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-m4",
+      "image": "m4.jpg",
+      "answer": "m4",
+      "options": [
+        {
+          "id": "m4",
+          "label": "Myasishchev M-4"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        }
+      ],
+      "caption": "Soviet strategic bomber and tanker aircraft. First flew 1953.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-an12",
+      "image": "an12.jpg",
+      "answer": "an12",
+      "options": [
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        }
+      ],
+      "caption": "Soviet medium-range transport aircraft. First flew 1957.",
+      "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mi6",
+      "image": "mi6.jpg",
+      "answer": "mi6",
+      "options": [
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        },
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        }
+      ],
+      "caption": "Transport helicopter. First flew 1957.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su7",
+      "image": "su7.jpg",
+      "answer": "su7",
+      "options": [
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        }
+      ],
+      "caption": "Soviet strike fighter aircraft. First flew 1955.",
+      "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-tu22",
+      "image": "tu22.jpg",
+      "answer": "tu22",
+      "options": [
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "Soviet supersonic heavy bomber. First flew 1958.",
+      "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak28",
+      "image": "yak28.jpg",
+      "answer": "yak28",
+      "options": [
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        }
+      ],
+      "caption": "Family of Soviet jet combat aircraft. First flew 1958.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su15",
+      "image": "su15.jpg",
+      "answer": "su15",
+      "options": [
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        }
+      ],
+      "caption": "Soviet interceptor aircraft. First flew 1962.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-be12",
+      "image": "be12.jpg",
+      "answer": "be12",
+      "options": [
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "a50",
+          "label": "Beriev A-50"
+        },
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        }
+      ],
+      "caption": "Patrol aircraft. First flew 1960.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-an22",
+      "image": "an22.jpg",
+      "answer": "an22",
+      "options": [
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        }
+      ],
+      "caption": "Soviet heavy military transport aircraft. First flew 1965.",
+      "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-ka25",
+      "image": "ka25.jpg",
+      "answer": "ka25",
+      "options": [
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        }
+      ],
+      "caption": "Naval helicopter developed for the USSR. First flew 1961.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-il38",
+      "image": "il38.jpg",
+      "answer": "il38",
+      "options": [
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        }
+      ],
+      "caption": "Soviet-Russian Maritime patrol & ASW aircraft. First flew 1961.",
+      "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mi14",
+      "image": "mi14.jpg",
+      "answer": "mi14",
+      "options": [
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        }
+      ],
+      "caption": "Helicopter in the Soviet Union. First flew 1969.",
+      "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-an26",
+      "image": "an26.jpg",
+      "answer": "an26",
+      "options": [
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an225",
+          "label": "Antonov An-225 Mriya"
+        }
+      ],
+      "caption": "Soviet turboprop transport aircraft. First flew 1969.",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mig23",
+      "image": "mig23.jpg",
+      "answer": "mig23",
+      "options": [
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        }
+      ],
+      "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
+      "credit": "DoD photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su17",
+      "image": "su17.jpg",
+      "answer": "su17",
+      "options": [
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        }
+      ],
+      "caption": "Soviet variable-sweep wing fighter-bomber. First flew 1966.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su24",
+      "image": "su24.jpg",
+      "answer": "su24",
+      "options": [
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        }
+      ],
+      "caption": "Family of Soviet strike aircraft. First flew 1970.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak38",
+      "image": "yak38.jpg",
+      "answer": "yak38",
+      "options": [
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        }
+      ],
+      "caption": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy. First flew 1971.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak52",
+      "image": "yak52.jpg",
+      "answer": "yak52",
+      "options": [
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        }
+      ],
+      "caption": "Soviet military training aircraft. First flew 1976.",
+      "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su25",
+      "image": "su25.jpg",
+      "answer": "su25",
+      "options": [
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        }
+      ],
+      "caption": "Soviet attack aircraft introduced 1978. First flew 1975.",
+      "credit": "Original uploader was Dima Sergienko at en.wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-ka27",
+      "image": "ka27.jpg",
+      "answer": "ka27",
+      "options": [
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        }
+      ],
+      "caption": "Naval military helicopter. First flew 1973.",
+      "credit": "Jason R. Zalasky, U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-a50",
+      "image": "a50.jpg",
+      "answer": "a50",
+      "options": [
+        {
+          "id": "a50",
+          "label": "Beriev A-50"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        }
+      ],
+      "caption": "Soviet airborne early warning and control (AEW&C) aircraft. First flew 1978.",
+      "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-mi28",
+      "image": "mi28.jpg",
+      "answer": "mi28",
+      "options": [
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "mi26",
+          "label": "Mil Mi-26"
+        },
+        {
+          "id": "ka27",
+          "label": "Kamov Ka-27"
+        },
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        }
+      ],
+      "caption": "Russian attack helicopter. First flew 1982.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-su34",
+      "image": "su34.jpg",
+      "answer": "su34",
+      "options": [
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        }
+      ],
+      "caption": "Russian fighter-bomber aircraft. First flew 1990.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-yak130",
+      "image": "yak130.jpg",
+      "answer": "yak130",
+      "options": [
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        }
+      ],
+      "caption": "Russian light combat aircraft. First flew 1996.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     }
   ]
 }
