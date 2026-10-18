@@ -7,8 +7,9 @@ import {
   type Edge,
   type EdgeProps,
   type Node,
+  type EdgeChange,
+  type NodeChange,
   type NodeProps,
-  type OnSelectionChangeParams,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { QuestionPack } from "../engine/types";
@@ -105,6 +106,8 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
       position: { x: n.x, y: n.y },
       data: { name: n.name, count: n.ids.length, height: n.height, color: n.column === 2 ? colorOf.get(n.id)! : "var(--explore-bar)", picked: picked === n.id },
       style: { width: BAR, height: n.height },
+      // Selection is controlled here: React Flow shows what we say is picked.
+      selected: picked === n.id,
       draggable: false,
       ariaLabel: `${n.name}, ${n.ids.length} aircraft`,
     }));
@@ -123,6 +126,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
         return {
           id: l.id, source: l.source, target: l.target, type: "ribbon",
           data: { path: l.path, color: group ? colorOf.get(group)! : GREY, picked: picked === l.id },
+          selected: picked === l.id,
           ariaLabel: `${nameOf(l.source)} and ${nameOf(l.target)}, ${l.value} aircraft`,
         };
       }),
@@ -156,9 +160,12 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
   // A changed grouping makes old picks meaningless.
   useEffect(() => setPicked("all"), [groupBy, last]);
 
-  const onSelectionChange = ({ nodes: ns, edges: es }: OnSelectionChangeParams) => {
-    const next = ns.find((n) => n.type === "bar")?.id ?? es[0]?.id;
-    if (next) setPicked(next);
+  // Picks come from clicks, and from React Flow's "select" changes, which also
+  // cover keyboard selection (Enter on a focused bar or ribbon). Handling the
+  // changes ourselves keeps React Flow and the panel in step on the first click.
+  const pickFrom = (changes: (NodeChange | EdgeChange)[]) => {
+    const chosen = changes.find((c) => c.type === "select" && c.selected && !c.id.startsWith("heading:"));
+    if (chosen && "id" in chosen) setPicked(chosen.id);
   };
 
   const short = members.length < data.minAircraft;
@@ -196,7 +203,10 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             edges={edges}
             nodeTypes={nodeTypes}
             edgeTypes={edgeTypes}
-            onSelectionChange={onSelectionChange}
+            onNodeClick={(_, n) => n.type === "bar" && setPicked(n.id)}
+            onEdgeClick={(_, e) => setPicked(e.id)}
+            onNodesChange={pickFrom}
+            onEdgesChange={pickFrom}
             nodesDraggable={false}
             nodesConnectable={false}
             elementsSelectable
