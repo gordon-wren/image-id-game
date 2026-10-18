@@ -4,7 +4,7 @@ import { buildExplorePack, buildFlow, canGroupBy, layoutFlow, type ExploreAircra
 const plane = (id: string, over: Partial<ExploreAircraft>): ExploreAircraft => ({
   id, label: `Plane ${id}`, use: "military", nation: "United States", era: "WWII", role: "Fighters", maker: "Boeing", conflicts: [],
   group: "fighter-attack", countryOfOrigin: ["United States"], firstFlight: "1940", manufacturer: ["Boeing"], description: null,
-  photo: { file: `assets/aircraft/${id}.jpg`, credit: "credit" }, ...over,
+  photo: { file: `assets/aircraft/${id}.jpg`, credit: "credit" }, thumb: `assets/aircraft-thumbs/${id}.jpg`, ...over,
 });
 
 // 6 US WWII fighters, 5 Soviet post-war fighters, 2 French jets, 1 civil airliner.

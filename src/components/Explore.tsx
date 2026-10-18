@@ -164,7 +164,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
   // A sample of the set's photos, seeded by the selection so a set always shows
   // the same mosaic rather than reshuffling on every redraw.
   const mosaic = useMemo(
-    () => sample(members, MOSAIC, rngFor(`${selection.context}|${selection.title}`)).filter((a) => a.photo?.file),
+    () => sample(members, MOSAIC, rngFor(`${selection.context}|${selection.title}`)),
     [members, selection],
   );
 
@@ -238,7 +238,7 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             <div className="explore-mosaic" aria-hidden="true">
               {mosaic.map((a, i) => (
                 <div key={a.id} className="explore-tile">
-                  <img src={isAbsoluteUrl(a.photo!.file!) ? a.photo!.file! : withBase(a.photo!.file!)} alt="" loading="lazy" decoding="async" />
+                  <img src={isAbsoluteUrl(a.thumb) ? a.thumb : withBase(a.thumb)} alt="" width={240} height={240} loading="lazy" decoding="async" />
                   {i === mosaic.length - 1 && members.length > mosaic.length && (
                     <span className="explore-tile-more">+{members.length - mosaic.length + 1}</span>
                   )}

@@ -10,6 +10,8 @@ plus each article's lead ("title") photo, with its license and author.
   [`public/data/aircraft.schema.json`](../../public/data/aircraft.schema.json).
 - **Output photos:** `public/assets/aircraft/<id>.jpg`, 960px wide. Only licenses a credit line
   satisfies (public domain, CC0, CC BY, CC BY-SA, OGL…); GFDL-only photos are skipped.
+- **Thumbnails:** `public/assets/aircraft-thumbs/<id>.jpg`, 240 × 240, from `npm run thumbs`
+  (run it after a rebuild; it only redoes changed photos).
 - **Gaps from the last run:** [`REPORT.md`](REPORT.md).
 
 ## Where each field comes from

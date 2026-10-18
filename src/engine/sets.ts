@@ -23,6 +23,8 @@ export interface SetAircraft {
 }
 
 export const ASSET_BASE = "assets/aircraft/";
+/** 240 × 240 thumbnails of the same photos, made by `npm run thumbs` (Explore's mosaic). */
+export const THUMB_BASE = "assets/aircraft-thumbs/";
 const DISTRACTORS = 3;
 /** Distractors are drawn at random from this many of the most similar aircraft. */
 const SHORTLIST = 8;

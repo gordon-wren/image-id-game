@@ -28,7 +28,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 // Shared with the app's Explore view, which builds sets when you click. Node
 // runs the TypeScript directly (type stripping, Node 22.18+).
-import { ASSET_BASE, buildQuestions } from "../../src/engine/sets.ts";
+import { ASSET_BASE, THUMB_BASE, buildQuestions } from "../../src/engine/sets.ts";
 export { overlaps, pickDistractors, rngFor, similarity } from "../../src/engine/sets.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -288,6 +288,8 @@ export function buildExplore(taxonomy, aircraft) {
       manufacturer: a.manufacturer,
       description: a.description,
       photo: { file: a.photo.file, credit: a.photo.credit },
+      // Made by `npm run thumbs`; packs.test.mjs checks each one exists.
+      thumb: `${THUMB_BASE}${a.id}.jpg`,
     })),
   };
 }

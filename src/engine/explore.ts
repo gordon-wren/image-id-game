@@ -17,6 +17,8 @@ export interface ExploreAircraft extends SetAircraft {
   role: string;
   maker: string;
   conflicts: string[];
+  /** A 240 × 240 thumbnail, path under public/. */
+  thumb: string;
 }
 
 export interface ExploreData {

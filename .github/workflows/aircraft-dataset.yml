@@ -19,13 +19,15 @@ jobs:
         with:
           # 22.18+ runs the generator's TypeScript import (src/engine/sets.ts) directly.
           node-version: 24
+      - run: npm ci
       - run: node scripts/aircraft-dataset/build.mjs
+      - run: node scripts/aircraft-dataset/thumbs.mjs
       - run: node scripts/packs/generate.mjs
       - name: Commit dataset
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git add public/data public/assets/aircraft public/packs scripts/aircraft-dataset/REPORT.md
+          git add public/data public/assets/aircraft public/assets/aircraft-thumbs public/packs scripts/aircraft-dataset/REPORT.md
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Rebuild aircraft dataset from Wikipedia"
           git push

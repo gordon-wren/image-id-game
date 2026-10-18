@@ -97,6 +97,11 @@ describe("menu", () => {
 });
 
 describe("Explore data", () => {
+  it("has a thumbnail for every aircraft (run `npm run thumbs`)", () => {
+    const { aircraft: rows } = readJson("public/data/explore.json");
+    expect(rows.filter((a) => !existsSync(join(root, "public", a.thumb))).map((a) => a.id)).toEqual([]);
+  });
+
   it("is up to date (run `npm run packs`)", () => {
     expect(readFileSync(join(root, "public/data/explore.json"), "utf8")).toBe(stringifyExplore(buildExplore(taxonomy, aircraft)));
   });
