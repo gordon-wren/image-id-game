@@ -110,33 +110,33 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
   const layout = useMemo(() => layoutFlow(flow, { width, height: HEIGHT, barWidth: BAR }), [flow, width]);
 
   const colorOf = useMemo(() => {
-    const groups = flow.nodes.filter((n) => n.column === 2);
+    const groups = flow.nodes.filter((n) => flow.columns[n.column].kind === "group");
     let i = 0;
     const m = new Map<string, string>();
     for (const g of groups) m.set(g.id, isCatchAll(g.name) ? GREY : PALETTE[i++ % PALETTE.length]);
     return m;
   }, [flow]);
 
-  const columnTitles = useMemo(() => ["All", "Use", GROUP_BY_LABELS[groupBy], LAST_COLUMN_LABELS[last]], [groupBy, last]);
+  const columnTitles = useMemo(() => flow.columns.map((c) => (c.kind === "all" ? "All" : c.title)), [flow]);
   const nodes: Node[] = useMemo(() => {
     const bars: Node<BarData>[] = layout.nodes.map((n) => ({
       id: n.id,
       type: "bar",
       position: { x: n.x, y: n.y },
-      data: { name: n.name, count: n.ids.length, height: n.height, color: n.column === 2 ? colorOf.get(n.id)! : "var(--explore-bar)", picked: picked === n.id },
+      data: { name: n.name, count: n.ids.length, height: n.height, color: colorOf.get(n.id) ?? "var(--explore-bar)", picked: picked === n.id },
       style: { width: BAR, height: n.height },
       // Selection is controlled here: React Flow shows what we say is picked.
       selected: picked === n.id,
       draggable: false,
       ariaLabel: `${n.name}, ${n.ids.length} aircraft`,
     }));
-    const xs = [0, 1, 2, 3].map((c) => layout.nodes.find((n) => n.column === c)?.x ?? 0);
+    const xs = flow.columns.map((_, c) => layout.nodes.find((n) => n.column === c)?.x ?? 0);
     const headings: Node<HeadingData>[] = xs.map((x, c) => ({
       id: `heading:${c}`, type: "heading", position: { x, y: -28 }, data: { text: columnTitles[c] },
       draggable: false, selectable: false, focusable: false,
     }));
     return [...headings, ...bars];
-  }, [layout, colorOf, picked, columnTitles]);
+  }, [layout, flow, colorOf, picked, columnTitles]);
 
   const edges: Edge<RibbonData>[] = useMemo(() => {
     const name = new Map(layout.nodes.map((n) => [n.id, n.name]));
@@ -153,15 +153,16 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
 
   const selection: ExploreSelection = useMemo(() => {
     const node = flow.nodes.find((n) => n.id === picked);
-    if (node) return { title: node.name, context: columnTitles[node.column] === "All" ? "All aircraft" : columnTitles[node.column], ids: node.ids };
+    if (node) return { title: node.name, context: node.column === 0 ? node.name : columnTitles[node.column], ids: node.ids };
     const link = flow.links.find((l) => l.id === picked);
     if (link) {
       const s = flow.nodes.find((n) => n.id === link.source)!, t = flow.nodes.find((n) => n.id === link.target)!;
-      // A link from "All" or a Military/Civil bar is just its target narrowed to that use.
-      return { title: s.column === 0 ? t.name : `${s.name} × ${t.name}`, context: `${columnTitles[s.column]} × ${columnTitles[t.column]}`, ids: link.ids };
+      // A ribbon from the first bar is just the bar it leads to (narrowed to that bar's aircraft).
+      if (s.column === 0) return { title: t.name, context: columnTitles[t.column], ids: link.ids };
+      return { title: `${s.name} × ${t.name}`, context: `${columnTitles[s.column]} × ${columnTitles[t.column]}`, ids: link.ids };
     }
     const all = flow.nodes.find((n) => n.id === "all")!;
-    return { title: all.name, context: "All aircraft", ids: all.ids };
+    return { title: all.name, context: all.name, ids: all.ids };
   }, [flow, picked, columnTitles]);
 
   const accent = useMemo(() => {

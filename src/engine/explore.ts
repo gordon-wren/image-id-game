@@ -51,17 +51,20 @@ export interface FlowLink {
   ids: string[];
 }
 
+export type ColumnKind = "all" | "use" | "group" | "last";
+
 export interface Flow {
+  /** The chart's columns, left to right; a node's `column` indexes this. */
+  columns: { kind: ColumnKind; title: string }[];
   nodes: FlowNode[];
   links: FlowLink[];
 }
 
 const NO_CONFLICT = "No conflict recorded";
-const CIVIL_NO_CONFLICT = "Civil (no conflicts)";
 
-/** Groups that aren't a real category: the "none" buckets and the "Other …" bundles. Drawn grey, listed last. */
+/** Groups that aren't a real category: "No conflict recorded" and the "Other …" bundles. Drawn grey, listed last. */
 export function isCatchAll(name: string): boolean {
-  return name === NO_CONFLICT || name === CIVIL_NO_CONFLICT || name.startsWith("Other ");
+  return name === NO_CONFLICT || name.startsWith("Other ");
 }
 
 /** True when the data has anything to group by for this option (conflicts are curated over time). */
@@ -70,23 +73,34 @@ export function canGroupBy(data: ExploreData, by: GroupBy): boolean {
 }
 
 /**
- * Builds the four columns. Groups and makers smaller than `minAircraft` are
- * bundled ("Other countries", "Other manufacturers") so the chart stays
- * readable; eras keep their chronological order. An aircraft in several
- * conflicts flows into each of them.
+ * Builds the columns: All aircraft → Military/Civil → the group-by → the last
+ * column. Grouping by conflict starts from military aircraft only, so there
+ * the first column is "Military aircraft" and the Military/Civil split is
+ * dropped. Groups and makers smaller than `minAircraft` are bundled ("Other
+ * countries", "Other manufacturers") so the chart stays readable; eras keep
+ * their chronological order. An aircraft in several conflicts flows into each.
  */
 export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flow {
   const min = data.minAircraft;
+  const militaryOnly = by === "conflict";
+  const aircraft = militaryOnly ? data.aircraft.filter((a) => a.use === "military") : data.aircraft;
+  const columns: Flow["columns"] = [
+    { kind: "all", title: militaryOnly ? "Military aircraft" : "All aircraft" },
+    ...(militaryOnly ? [] : [{ kind: "use" as const, title: "Use" }]),
+    { kind: "group", title: GROUP_BY_LABELS[by] },
+    { kind: "last", title: LAST_COLUMN_LABELS[last] },
+  ];
+  const col = (kind: ColumnKind) => columns.findIndex((c) => c.kind === kind);
+
   const rawGroups = (a: ExploreAircraft): string[] => {
     if (by === "era") return [a.era];
     if (by === "nation") return [a.nation];
-    if (a.use === "civil") return [CIVIL_NO_CONFLICT];
     return a.conflicts.length ? a.conflicts : [NO_CONFLICT];
   };
   const counts = new Map<string, number>();
   const bump = (k: string) => counts.set(k, (counts.get(k) ?? 0) + 1);
-  for (const a of data.aircraft) rawGroups(a).forEach((g) => bump("g:" + g));
-  for (const a of data.aircraft) bump("l:" + a[last]);
+  for (const a of aircraft) rawGroups(a).forEach((g) => bump("g:" + g));
+  for (const a of aircraft) bump("l:" + a[last]);
 
   const bundleGroup = by === "nation" ? "Other countries" : by === "conflict" ? "Other conflicts" : null;
   const groupsOf = (a: ExploreAircraft) =>
@@ -106,16 +120,21 @@ export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flo
   };
   const add = (n: FlowNode, id: string) => { if (!n.ids.includes(id)) n.ids.push(id); };
 
-  for (const a of data.aircraft) {
-    const all = node(0, "All aircraft", "all");
-    const use = node(1, a.use === "military" ? "Military" : "Civil", `use:${a.use}`);
-    const end = node(3, lastOf(a), `last:${lastOf(a)}`);
-    add(all, a.id); add(use, a.id); add(end, a.id);
-    link(all, use, a.id);
+  for (const a of aircraft) {
+    const all = node(col("all"), columns[0].title, "all");
+    const end = node(col("last"), lastOf(a), `last:${lastOf(a)}`);
+    add(all, a.id); add(end, a.id);
+    // Without the Military/Civil column, the groups hang straight off the first bar.
+    let before = all;
+    if (!militaryOnly) {
+      before = node(col("use"), a.use === "military" ? "Military" : "Civil", `use:${a.use}`);
+      add(before, a.id);
+      link(all, before, a.id);
+    }
     for (const g of groupsOf(a)) {
-      const grp = node(2, g, `group:${g}`);
+      const grp = node(col("group"), g, `group:${g}`);
       add(grp, a.id);
-      link(use, grp, a.id);
+      link(before, grp, a.id);
       link(grp, end, a.id);
     }
   }
@@ -123,11 +142,12 @@ export function buildFlow(data: ExploreData, by: GroupBy, last: LastColumn): Flo
   // Order: eras chronologically; everything else largest first, with the
   // bundles and "none" groups last.
   const tail = (n: FlowNode) => (!isCatchAll(n.name) ? 0 : n.name.startsWith("Other ") ? 1 : 2);
-  const rank = (n: FlowNode) => (by === "era" && n.column === 2 ? data.eras.indexOf(n.name) : 0);
+  const rank = (n: FlowNode) => (by === "era" && n.column === col("group") ? data.eras.indexOf(n.name) : 0);
+  const military = (n: FlowNode) => (n.id === "use:military" ? -1 : n.id === "use:civil" ? 1 : 0);
   const ordered = [...nodes.values()].sort(
-    (a, b) => a.column - b.column || (a.column === 1 ? (a.id === "use:military" ? -1 : 1) : 0) || rank(a) - rank(b) || tail(a) - tail(b) || b.ids.length - a.ids.length || a.name.localeCompare(b.name),
+    (a, b) => a.column - b.column || military(a) - military(b) || rank(a) - rank(b) || tail(a) - tail(b) || b.ids.length - a.ids.length || a.name.localeCompare(b.name),
   );
-  return { nodes: ordered, links: [...links.values()] };
+  return { columns, nodes: ordered, links: [...links.values()] };
 }
 
 export interface PlacedNode extends FlowNode {

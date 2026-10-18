@@ -38,10 +38,18 @@ describe("buildFlow", () => {
   it("flows an aircraft into every conflict it served in, bundling small conflicts", () => {
     // WWII: us1–us5. Korean War: us1, us2 (too few, so bundled).
     const flow = buildFlow(data, "conflict", "role");
-    expect(names(flow, 2)).toEqual(["WWII:5", "Other conflicts:2", "No conflict recorded:8", "Civil (no conflicts):1"]);
+    expect(names(flow, 1)).toEqual(["WWII:5", "Other conflicts:2", "No conflict recorded:8"]);
     expect(flow.nodes.find((n) => n.name === "Other conflicts")!.ids).toEqual(["us1", "us2"]);
     // us1 reaches Fighters through both WWII and the bundle.
     expect(flow.links.filter((l) => l.target === "last:Fighters" && l.ids.includes("us1")).map((l) => l.source)).toEqual(["group:WWII", "group:Other conflicts"]);
+  });
+
+  it("starts from military aircraft only when grouping by conflict, with no Military/Civil column", () => {
+    const flow = buildFlow(data, "conflict", "role");
+    expect(flow.columns.map((c) => c.title)).toEqual(["Military aircraft", "War / conflict", "Role"]);
+    expect(names(flow, 0)).toEqual(["Military aircraft:13"]);
+    expect(flow.nodes.some((n) => n.ids.includes("civ"))).toBe(false);
+    expect(flow.links.find((l) => l.source === "all" && l.target === "group:WWII")?.ids).toHaveLength(5);
   });
 });
 
