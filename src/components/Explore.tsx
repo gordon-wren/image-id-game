@@ -14,6 +14,9 @@ import {
 import "@xyflow/react/dist/style.css";
 import type { QuestionPack } from "../engine/types";
 import type { PlayMode } from "../engine/usePlayMode";
+import { isAbsoluteUrl, withBase } from "../engine/pack";
+import { sample } from "../engine/random";
+import { rngFor } from "../engine/sets";
 import {
   GROUP_BY_LABELS,
   LAST_COLUMN_LABELS,
@@ -40,6 +43,8 @@ interface ExploreProps {
 const PALETTE = ["#4e79a7", "#e15759", "#59a14f", "#f28e2b", "#76b7b2", "#b07aa1", "#c9a227", "#9c755f", "#ff9da7"];
 const GREY = "#8c8c8c";
 const BAR = 12;
+/** Photos in the panel's mosaic (a 3 × 3 grid). */
+const MOSAIC = 9;
 const HEIGHT = 560;
 
 type BarData = { name: string; count: number; height: number; color: string; picked: boolean };
@@ -156,6 +161,12 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
   }, [picked, colorOf]);
   const pack = useMemo(() => buildExplorePack(data, selection, accent), [data, selection, accent]);
   const members = useMemo(() => data.aircraft.filter((a) => selection.ids.includes(a.id)), [data, selection]);
+  // A sample of the set's photos, seeded by the selection so a set always shows
+  // the same mosaic rather than reshuffling on every redraw.
+  const mosaic = useMemo(
+    () => sample(members, MOSAIC, rngFor(`${selection.context}|${selection.title}`)).filter((a) => a.photo?.file),
+    [members, selection],
+  );
 
   // A changed grouping makes old picks meaningless.
   useEffect(() => setPicked("all"), [groupBy, last]);
@@ -223,6 +234,18 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
         </div>
 
         <aside className="explore-panel" style={{ ["--accent" as string]: accent }} aria-live="polite">
+          {mosaic.length > 0 && (
+            <div className="explore-mosaic" aria-hidden="true">
+              {mosaic.map((a, i) => (
+                <div key={a.id} className="explore-tile">
+                  <img src={isAbsoluteUrl(a.photo!.file!) ? a.photo!.file! : withBase(a.photo!.file!)} alt="" loading="lazy" decoding="async" />
+                  {i === mosaic.length - 1 && members.length > mosaic.length && (
+                    <span className="explore-tile-more">+{members.length - mosaic.length + 1}</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
           <p className="explore-context">{selection.context}</p>
           <h2 className="explore-pick">{selection.title}</h2>
           <p className="explore-stat">
