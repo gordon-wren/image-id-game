@@ -35,8 +35,8 @@
           "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "il76",
+          "label": "Ilyushin Il-76"
         }
       ],
       "caption": "American heavy military transport aircraft. First flew 1968.",
@@ -56,8 +56,8 @@
           "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
         },
         {
           "id": "tu22m",
@@ -85,8 +85,8 @@
           "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
@@ -131,8 +131,8 @@
           "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
         },
         {
           "id": "c5",
@@ -156,12 +156,12 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "Multirole and air superiority fighter family. First flew 1972.",
@@ -206,8 +206,8 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         },
         {
           "id": "f16",
@@ -277,16 +277,16 @@
           "label": "BAE Systems Hawk"
         },
         {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
           "id": "l39",
           "label": "Aero L-39 Albatros"
         },
         {
           "id": "alpha-jet",
           "label": "Dassault/Dornier Alpha Jet"
-        },
-        {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -302,16 +302,16 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
-        },
-        {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
         },
         {
           "id": "hawk",
           "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
         }
       ],
       "caption": "Trainer aircraft family by Aero. First flew 1968.",
@@ -327,16 +327,16 @@
           "label": "Dassault/Dornier Alpha Jet"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
-        },
-        {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
         },
         {
           "id": "hawk",
           "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -431,16 +431,91 @@
           "label": "Grumman EA-6B Prowler"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
-        },
-        {
           "id": "f15",
           "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
         }
       ],
       "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
       "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-kawasaki-c1",
+      "image": "kawasaki-c1.jpg",
+      "answer": "kawasaki-c1",
+      "options": [
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "e4",
+          "label": "Boeing E-4"
+        },
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "e3",
+          "label": "Boeing E-3 Sentry"
+        }
+      ],
+      "caption": "Japanese military transport aircraft. First flew 1970.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-mitsubishi-t2",
+      "image": "mitsubishi-t2.jpg",
+      "answer": "mitsubishi-t2",
+      "options": [
+        {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        }
+      ],
+      "caption": "Japanese supersonic jet trainer aircraft. First flew 1971.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-mitsubishi-f1",
+      "image": "mitsubishi-f1.jpg",
+      "answer": "mitsubishi-f1",
+      "options": [
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        }
+      ],
+      "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

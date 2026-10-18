@@ -60,8 +60,8 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "ch53k",
+          "label": "Sikorsky CH-53K King Stallion"
         }
       ],
       "caption": "American maritime patrol aircraft. First flew 2009.",
@@ -81,8 +81,8 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "kawasaki-c2",
-          "label": "Kawasaki C-2"
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
         },
         {
           "id": "a400m",
@@ -102,16 +102,16 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
         },
         {
           "id": "a400m",
           "label": "Airbus A400M Atlas"
         },
         {
-          "id": "p8",
-          "label": "Boeing P-8 Poseidon"
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 2010.",
@@ -310,8 +310,8 @@
           "label": "Airbus A400M Atlas"
         },
         {
-          "id": "ch53k",
-          "label": "Sikorsky CH-53K King Stallion"
+          "id": "mh139",
+          "label": "Boeing MH-139 Grey Wolf"
         }
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
@@ -391,6 +391,31 @@
       ],
       "caption": "Military utility helicopter model by Boeing. First flew 2019.",
       "credit": "Staff Sgt. Cesar Rivas, Wyoming National Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-kawasaki-p1",
+      "image": "kawasaki-p1.jpg",
+      "answer": "kawasaki-p1",
+      "options": [
+        {
+          "id": "kawasaki-p1",
+          "label": "Kawasaki P-1"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "p8",
+          "label": "Boeing P-8 Poseidon"
+        },
+        {
+          "id": "kc46",
+          "label": "Boeing KC-46 Pegasus"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 2007.",
+      "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
     }
   ]
 }

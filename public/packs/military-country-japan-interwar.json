@@ -1,0 +1,222 @@
+{
+  "id": "military-country-japan-interwar",
+  "title": "Japan: Between the wars",
+  "description": "Military aircraft from Japan that entered service 1919–1938.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Japan"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-japan-interwar-mitsubishi-1mf",
+      "image": "mitsubishi-1mf.jpg",
+      "answer": "mitsubishi-1mf",
+      "options": [
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter. First flew 1921.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-kawasaki-type88",
+      "image": "kawasaki-type88.jpg",
+      "answer": "kawasaki-type88",
+      "options": [
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Japanese reconnaissance aircraft. First flew 1927.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-ki27",
+      "image": "ki27.jpg",
+      "answer": "ki27",
+      "options": [
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-g3m",
+      "image": "g3m.jpg",
+      "answer": "g3m",
+      "options": [
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        }
+      ],
+      "caption": "WWII-era medium bomber. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-ki21",
+      "image": "ki21.jpg",
+      "answer": "ki21",
+      "options": [
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Japanese heavy bomber. First flew 1936.",
+      "credit": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-k5y",
+      "image": "k5y.jpg",
+      "answer": "k5y",
+      "options": [
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        }
+      ],
+      "caption": "Japanese trainer aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-b5n",
+      "image": "b5n.jpg",
+      "answer": "b5n",
+      "options": [
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "ki27",
+          "label": "Nakajima Ki-27"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Japanese attack aircraft family. First flew 1937.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-interwar-h6k",
+      "image": "h6k.jpg",
+      "answer": "h6k",
+      "options": [
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        }
+      ],
+      "caption": "Imperial Japanese flying boat. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

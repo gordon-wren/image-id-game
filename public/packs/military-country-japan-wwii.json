@@ -1,0 +1,647 @@
+{
+  "id": "military-country-japan-wwii",
+  "title": "Japan: WWII",
+  "description": "Military aircraft from Japan that entered service 1939–1945.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Japan"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-japan-wwii-a6m",
+      "image": "a6m.jpg",
+      "answer": "a6m",
+      "options": [
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter aircraft. First flew 1939.",
+      "credit": "Japanese military personnel / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki43",
+      "image": "ki43.jpg",
+      "answer": "ki43",
+      "options": [
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        }
+      ],
+      "caption": "Japanese WW2 fighter. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki44",
+      "image": "ki44.jpg",
+      "answer": "ki44",
+      "options": [
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        }
+      ],
+      "caption": "1940 fighter aircraft family by Nakajima. First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki45",
+      "image": "ki45.jpg",
+      "answer": "ki45",
+      "options": [
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        },
+        {
+          "id": "n1k",
+          "label": "Kawanishi N1K"
+        },
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        }
+      ],
+      "caption": "Japanese WW2 heavy fighter. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki61",
+      "image": "ki61.jpg",
+      "answer": "ki61",
+      "options": [
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        }
+      ],
+      "caption": "WWII Japanese fighter aircraft. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki84",
+      "image": "ki84.jpg",
+      "answer": "ki84",
+      "options": [
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1943.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki100",
+      "image": "ki100.jpg",
+      "answer": "ki100",
+      "options": [
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        }
+      ],
+      "caption": "Japanese fighter aircraft. First flew 1945.",
+      "credit": "unknown official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-n1k",
+      "image": "n1k.jpg",
+      "answer": "n1k",
+      "options": [
+        {
+          "id": "n1k",
+          "label": "Kawanishi N1K"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        }
+      ],
+      "caption": "Japanese floatplane/land-based fighter. First flew 1942.",
+      "credit": "USAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-j2m",
+      "image": "j2m.jpg",
+      "answer": "j2m",
+      "options": [
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        }
+      ],
+      "caption": "Japanese land-based interceptor aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-j1n",
+      "image": "j1n.jpg",
+      "answer": "j1n",
+      "options": [
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
+        }
+      ],
+      "caption": "Fighter aircraft in Japan. First flew 1941.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-d3a",
+      "image": "d3a.jpg",
+      "answer": "d3a",
+      "options": [
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        }
+      ],
+      "caption": "Imperial Japanese carrier-borne dive bomber. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-d4y",
+      "image": "d4y.jpg",
+      "answer": "d4y",
+      "options": [
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        }
+      ],
+      "caption": "Japanese carrier-based dive bomber. First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-b6n",
+      "image": "b6n.jpg",
+      "answer": "b6n",
+      "options": [
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        }
+      ],
+      "caption": "1941 torpedo bomber family by Nakajima. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-b7a",
+      "image": "b7a.jpg",
+      "answer": "b7a",
+      "options": [
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        }
+      ],
+      "caption": "Japanese carrier-borne torpedo and dive bomber. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki48",
+      "image": "ki48.jpg",
+      "answer": "ki48",
+      "options": [
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        }
+      ],
+      "caption": "Japanese light bomber. First flew 1939.",
+      "credit": "『同盟グラフ』 1944年1月号 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki49",
+      "image": "ki49.jpg",
+      "answer": "ki49",
+      "options": [
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "ki43",
+          "label": "Nakajima Ki-43 Hayabusa"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        }
+      ],
+      "caption": "Bomber aircraft in Japan. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki67",
+      "image": "ki67.jpg",
+      "answer": "ki67",
+      "options": [
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        }
+      ],
+      "caption": "Japanese twin-engine medium bomber. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-g4m",
+      "image": "g4m.jpg",
+      "answer": "g4m",
+      "options": [
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "ki44",
+          "label": "Nakajima Ki-44 Shōki"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        }
+      ],
+      "caption": "Twin-engine, land-based medium bomber (1940–1945). First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-p1y",
+      "image": "p1y.jpg",
+      "answer": "p1y",
+      "options": [
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "ki84",
+          "label": "Nakajima Ki-84 Hayate"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki100",
+          "label": "Kawasaki Ki-100"
+        }
+      ],
+      "caption": "Japanese attack bomber aircraft. First flew 1943.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki46",
+      "image": "ki46.jpg",
+      "answer": "ki46",
+      "options": [
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        },
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "Aircraft in Japan. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-c6n",
+      "image": "c6n.jpg",
+      "answer": "c6n",
+      "options": [
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        }
+      ],
+      "caption": "Japanese carrier-based reconnaissance aircraft. First flew 1943.",
+      "credit": "Unknown author / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-e13a",
+      "image": "e13a.jpg",
+      "answer": "e13a",
+      "options": [
+        {
+          "id": "e13a",
+          "label": "Aichi E13A"
+        },
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        }
+      ],
+      "caption": "Japanese reconnaissance floatplane. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-f1m",
+      "image": "f1m.jpg",
+      "answer": "f1m",
+      "options": [
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        },
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        }
+      ],
+      "caption": "Japanese reconnaissance floatplane. First flew 1936.",
+      "credit": "Imperial Japanese Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-h8k",
+      "image": "h8k.jpg",
+      "answer": "h8k",
+      "options": [
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        },
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        }
+      ],
+      "caption": "Imperial Japanese Navy flying boat. First flew 1941.",
+      "credit": "Max Smith / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-japan-wwii-ki57",
+      "image": "ki57.jpg",
+      "answer": "ki57",
+      "options": [
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        },
+        {
+          "id": "ki46",
+          "label": "Mitsubishi Ki-46"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        }
+      ],
+      "caption": "Japanese transport aircraft. First flew 1940.",
+      "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

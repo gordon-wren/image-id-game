@@ -31,12 +31,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -52,16 +52,16 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "hawk",
-          "label": "BAE Systems Hawk"
-        },
-        {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         },
         {
           "id": "alpha-jet",
           "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         }
       ],
       "caption": "Trainer aircraft family by Aero. First flew 1968.",
@@ -81,8 +81,8 @@
           "label": "Cessna T-37 Tweet"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         },
         {
           "id": "t33",
@@ -106,12 +106,12 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -190,7 +190,7 @@
         }
       ],
       "caption": "US military trainer aircraft.",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-trainers-stearman",
@@ -210,8 +210,8 @@
           "label": "Northrop T-38 Talon"
         },
         {
-          "id": "t1",
-          "label": "Raytheon T-1 Jayhawk"
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -235,8 +235,8 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "jn4",
-          "label": "Curtiss JN Jenny"
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -260,8 +260,8 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -306,12 +306,12 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "t7",
+          "label": "Boeing–Saab T-7 Red Hawk"
         },
         {
-          "id": "t6",
-          "label": "North American T-6 Texan"
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -331,12 +331,12 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "jn4",
-          "label": "Curtiss JN Jenny"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "t33",
+          "label": "Lockheed T-33"
         }
       ],
       "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
@@ -356,12 +356,12 @@
           "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "jn4",
-          "label": "Curtiss JN Jenny"
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "jn4",
+          "label": "Curtiss JN Jenny"
         }
       ],
       "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
@@ -381,16 +381,141 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "t33",
+          "label": "Lockheed T-33"
         }
       ],
       "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",
       "credit": "Air Force photo by Bryce Bennett / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-k5y",
+      "image": "k5y.jpg",
+      "answer": "k5y",
+      "options": [
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
+        }
+      ],
+      "caption": "Japanese trainer aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-fuji-t1",
+      "image": "fuji-t1.jpg",
+      "answer": "fuji-t1",
+      "options": [
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1958.",
+      "credit": "Rob Schleiffert from Holland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-mitsubishi-t2",
+      "image": "mitsubishi-t2.jpg",
+      "answer": "mitsubishi-t2",
+      "options": [
+        {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        }
+      ],
+      "caption": "Japanese supersonic jet trainer aircraft. First flew 1971.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-kawasaki-t4",
+      "image": "kawasaki-t4.jpg",
+      "answer": "kawasaki-t4",
+      "options": [
+        {
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
+        },
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "t1",
+          "label": "Raytheon T-1 Jayhawk"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1985.",
+      "credit": "Jerry Gunner / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-fuji-t7",
+      "image": "fuji-t7.jpg",
+      "answer": "fuji-t7",
+      "options": [
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
+        }
+      ],
+      "caption": "Japanese military trainer aircraft. First flew 2002.",
+      "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons"
     }
   ]
 }

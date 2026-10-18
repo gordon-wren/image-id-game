@@ -131,8 +131,8 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         },
         {
           "id": "c17",
@@ -185,8 +185,8 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "c17",
+          "label": "Boeing C-17 Globemaster III"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -277,16 +277,16 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "c390",
-          "label": "Embraer C-390 Millennium"
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 2010.",
@@ -516,6 +516,56 @@
       ],
       "caption": "American military aerial refueling and transport aircraft. First flew 2015.",
       "credit": "USAF Christopher Okula / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-ki57",
+      "image": "ki57.jpg",
+      "answer": "ki57",
+      "options": [
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "Japanese transport aircraft. First flew 1940.",
+      "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-kawasaki-c1",
+      "image": "kawasaki-c1.jpg",
+      "answer": "kawasaki-c1",
+      "options": [
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "kawasaki-c2",
+          "label": "Kawasaki C-2"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Japanese military transport aircraft. First flew 1970.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
     }
   ]
 }

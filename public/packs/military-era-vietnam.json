@@ -56,12 +56,12 @@
           "label": "Lockheed C-5 Galaxy"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "c141",
+          "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "s3",
-          "label": "Lockheed S-3 Viking"
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -81,12 +81,12 @@
           "label": "Lockheed C-5 Galaxy"
         },
         {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
         }
       ],
       "caption": "Maritime patrol and anti-submarine aircraft family. First flew 1959.",
@@ -252,16 +252,16 @@
           "label": "Aero L-39 Albatros"
         },
         {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
           "id": "t38",
           "label": "Northrop T-38 Talon"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
-        },
-        {
-          "id": "hh3",
-          "label": "Sikorsky HH-3 (S-61R)"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         }
       ],
       "caption": "Trainer aircraft family by Aero. First flew 1968.",
@@ -277,16 +277,16 @@
           "label": "Northrop T-38 Talon"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "ah1",
-          "label": "Bell AH-1 Cobra"
+          "id": "f5",
+          "label": "Northrop F-5"
         }
       ],
       "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
@@ -791,6 +791,106 @@
       ],
       "caption": "US Air Force airborne command squadron aircraft. First flew 1973.",
       "credit": "Masteruploader / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-vietnam-fuji-t1",
+      "image": "fuji-t1.jpg",
+      "answer": "fuji-t1",
+      "options": [
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1958.",
+      "credit": "Rob Schleiffert from Holland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-vietnam-p2j",
+      "image": "p2j.jpg",
+      "answer": "p2j",
+      "options": [
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 1966.",
+      "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-vietnam-kawasaki-c1",
+      "image": "kawasaki-c1.jpg",
+      "answer": "kawasaki-c1",
+      "options": [
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        }
+      ],
+      "caption": "Japanese military transport aircraft. First flew 1970.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-vietnam-mitsubishi-t2",
+      "image": "mitsubishi-t2.jpg",
+      "answer": "mitsubishi-t2",
+      "options": [
+        {
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
+        },
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        }
+      ],
+      "caption": "Japanese supersonic jet trainer aircraft. First flew 1971.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

@@ -85,8 +85,8 @@
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
         }
       ],
       "caption": "American fighter aircraft. First flew 1923.",
@@ -110,8 +110,8 @@
           "label": "Vought O2U Corsair"
         },
         {
-          "id": "curtiss-f8c",
-          "label": "Curtiss Falcon"
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
         }
       ],
       "caption": "Observation aircraft family by Douglas.",
@@ -131,8 +131,8 @@
           "label": "Douglas O-2"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
         },
         {
           "id": "curtiss-p1",
@@ -156,8 +156,8 @@
           "label": "Douglas O-2"
         },
         {
-          "id": "curtiss-f8c",
-          "label": "Curtiss Falcon"
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
         },
         {
           "id": "douglas-world-cruiser",
@@ -181,12 +181,12 @@
           "label": "Curtiss P-1 Hawk"
         },
         {
-          "id": "boeing-pw9",
-          "label": "Boeing Model 15"
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
         },
         {
-          "id": "martin-mb2",
-          "label": "Martin NBS-1"
+          "id": "boeing-pw9",
+          "label": "Boeing Model 15"
         }
       ],
       "caption": "American multirole aircraft.",
@@ -215,7 +215,57 @@
         }
       ],
       "caption": "US military trainer aircraft.",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-mitsubishi-1mf",
+      "image": "mitsubishi-1mf.jpg",
+      "answer": "mitsubishi-1mf",
+      "options": [
+        {
+          "id": "mitsubishi-1mf",
+          "label": "Mitsubishi 1MF"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "curtiss-f8c",
+          "label": "Curtiss Falcon"
+        }
+      ],
+      "caption": "Japanese carrier-based fighter. First flew 1921.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-kawasaki-type88",
+      "image": "kawasaki-type88.jpg",
+      "answer": "kawasaki-type88",
+      "options": [
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "douglas-world-cruiser",
+          "label": "Douglas World Cruiser"
+        },
+        {
+          "id": "douglas-o2",
+          "label": "Douglas O-2"
+        },
+        {
+          "id": "vought-o2u",
+          "label": "Vought O2U Corsair"
+        }
+      ],
+      "caption": "Japanese reconnaissance aircraft. First flew 1927.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

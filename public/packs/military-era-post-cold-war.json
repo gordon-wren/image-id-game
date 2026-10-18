@@ -156,12 +156,12 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "typhoon",
-          "label": "Eurofighter Typhoon"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         },
         {
-          "id": "rafale",
-          "label": "Dassault Rafale"
+          "id": "typhoon",
+          "label": "Eurofighter Typhoon"
         }
       ],
       "caption": "American stealth air superiority fighter. First flew 1997.",
@@ -181,8 +181,8 @@
           "label": "Lockheed Martin F-22 Raptor"
         },
         {
-          "id": "gripen",
-          "label": "Saab JAS 39 Gripen"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
           "id": "j10",
@@ -206,12 +206,12 @@
           "label": "Chengdu J-10"
         },
         {
-          "id": "rafale",
-          "label": "Dassault Rafale"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         },
         {
-          "id": "tiger",
-          "label": "Eurocopter Tiger"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         }
       ],
       "caption": "1994 multi-role combat aircraft family by Eurofighter. First flew 1994.",
@@ -231,12 +231,12 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "gripen",
-          "label": "Saab JAS 39 Gripen"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
         }
       ],
       "caption": "Multi-role combat aircraft family by Dassault. First flew 1986.",
@@ -256,12 +256,12 @@
           "label": "Dassault Rafale"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
-        },
-        {
           "id": "f22",
           "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
         }
       ],
       "caption": "Light single-engined multirole fighter aircraft from Sweden. First flew 1988.",
@@ -281,8 +281,8 @@
           "label": "Boeing F/A-18E/F Super Hornet"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
         },
         {
           "id": "typhoon",
@@ -310,8 +310,8 @@
           "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         }
       ],
       "caption": "Attack helicopter. First flew 1982.",
@@ -377,16 +377,16 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "uh1y",
           "label": "Bell UH-1Y Venom"
         },
         {
-          "id": "ka50",
-          "label": "Kamov Ka-50"
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
         }
       ],
       "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
@@ -410,8 +410,8 @@
           "label": "Northrop Grumman RQ-4 Global Hawk"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         }
       ],
       "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
@@ -481,12 +481,12 @@
           "label": "Raytheon T-1 Jayhawk"
         },
         {
-          "id": "f22",
-          "label": "Lockheed Martin F-22 Raptor"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         },
         {
-          "id": "fa18ef",
-          "label": "Boeing F/A-18E/F Super Hornet"
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
         }
       ],
       "caption": "Single-engine, low-wing tandem-seat turboprop military training aircraft. First flew 2000.",
@@ -531,8 +531,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "ka52",
-          "label": "Kamov Ka-52 Alligator"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "uh1y",
@@ -560,8 +560,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "mq1",
-          "label": "General Atomics MQ-1 Predator"
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
         }
       ],
       "caption": "Military utility helicopter model by Bell. First flew 2001.",
@@ -616,6 +616,106 @@
       ],
       "caption": "American electronic warfare aircraft. First flew 2006.",
       "credit": "Senior Airman John Linzmeier / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-oh1",
+      "image": "oh1.jpg",
+      "answer": "oh1",
+      "options": [
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        },
+        {
+          "id": "us2",
+          "label": "ShinMaywa US-2"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        }
+      ],
+      "caption": "Japanese scout/observation helicopter. First flew 1996.",
+      "credit": "Los688 / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-mitsubishi-f2",
+      "image": "mitsubishi-f2.jpg",
+      "answer": "mitsubishi-f2",
+      "options": [
+        {
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
+        },
+        {
+          "id": "f22",
+          "label": "Lockheed Martin F-22 Raptor"
+        },
+        {
+          "id": "gripen",
+          "label": "Saab JAS 39 Gripen"
+        },
+        {
+          "id": "fa18ef",
+          "label": "Boeing F/A-18E/F Super Hornet"
+        }
+      ],
+      "caption": "Japanese supersonic jet fighter. First flew 1995.",
+      "credit": "Original: Ministry of Defense of Japan Modified: Yoichi Kurono (CT-17StarGazer) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-fuji-t7",
+      "image": "fuji-t7.jpg",
+      "answer": "fuji-t7",
+      "options": [
+        {
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        },
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        },
+        {
+          "id": "mitsubishi-f2",
+          "label": "Mitsubishi F-2"
+        }
+      ],
+      "caption": "Japanese military trainer aircraft. First flew 2002.",
+      "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-us2",
+      "image": "us2.jpg",
+      "answer": "us2",
+      "options": [
+        {
+          "id": "us2",
+          "label": "ShinMaywa US-2"
+        },
+        {
+          "id": "mq1",
+          "label": "General Atomics MQ-1 Predator"
+        },
+        {
+          "id": "rq4",
+          "label": "Northrop Grumman RQ-4 Global Hawk"
+        },
+        {
+          "id": "ea18g",
+          "label": "Boeing EA-18G Growler"
+        }
+      ],
+      "caption": "Japanese amphibious aircraft. First flew 2003.",
+      "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
     }
   ]
 }

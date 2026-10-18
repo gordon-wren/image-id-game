@@ -77,16 +77,16 @@
           "label": "Harrier Jump Jet"
         },
         {
-          "id": "a6",
-          "label": "Grumman A-6 Intruder"
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
         },
         {
           "id": "a3",
           "label": "Douglas A-3 Skywarrior"
-        },
-        {
-          "id": "ad-skyraider",
-          "label": "Douglas A-1 Skyraider"
         }
       ],
       "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
@@ -156,8 +156,8 @@
           "label": "Vought SB2U Vindicator"
         },
         {
-          "id": "curtiss-f8c",
-          "label": "Curtiss Falcon"
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
         },
         {
           "id": "a20",
@@ -185,8 +185,8 @@
           "label": "Douglas A-20 Havoc"
         },
         {
-          "id": "curtiss-f8c",
-          "label": "Curtiss Falcon"
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
         }
       ],
       "caption": "US Navy dive bomber. First flew 1936.",
@@ -265,7 +265,7 @@
         }
       ],
       "caption": "Carrier-based dive bomber aircraft. First flew 1940.",
-      "credit": "Unknown authorUnknown author / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-attack-a20",
@@ -541,6 +541,156 @@
       ],
       "caption": "Anglo-American VSTOL ground-attack aircraft. First flew 1978.",
       "credit": "U.S. Navy photo by Signalman 3rd Class Matthew A. Alvarado. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-d3a",
+      "image": "d3a.jpg",
+      "answer": "d3a",
+      "options": [
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Imperial Japanese carrier-borne dive bomber. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-d4y",
+      "image": "d4y.jpg",
+      "answer": "d4y",
+      "options": [
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        }
+      ],
+      "caption": "Japanese carrier-based dive bomber. First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-b5n",
+      "image": "b5n.jpg",
+      "answer": "b5n",
+      "options": [
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        },
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        }
+      ],
+      "caption": "Japanese attack aircraft family. First flew 1937.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-b6n",
+      "image": "b6n.jpg",
+      "answer": "b6n",
+      "options": [
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        }
+      ],
+      "caption": "1941 torpedo bomber family by Nakajima. First flew 1941.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-b7a",
+      "image": "b7a.jpg",
+      "answer": "b7a",
+      "options": [
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "d3a",
+          "label": "Aichi D3A"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "Japanese carrier-borne torpedo and dive bomber. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-mitsubishi-f1",
+      "image": "mitsubishi-f1.jpg",
+      "answer": "mitsubishi-f1",
+      "options": [
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "harrier",
+          "label": "Harrier Jump Jet"
+        }
+      ],
+      "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

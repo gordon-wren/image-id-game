@@ -210,7 +210,9 @@ async function photoInfo(fileName) {
   let license = meta.LicenseShortName ? stripHtml(String(meta.LicenseShortName)) : null;
   if (!license || /^gfdl/i.test(license)) license = ccFromCategories(meta.Categories) ?? license;
   const free = !meta.NonFree && Boolean(license && USABLE_LICENSE.test(license));
-  let author = meta.Artist ? stripHtml(String(meta.Artist)) : null;
+  // Some Commons templates repeat the name in a hidden span ("Unknown author" twice).
+  let author = meta.Artist ? stripHtml(String(meta.Artist).replace(/<span style="display: ?none;?">.*?<\/span>/gi, "")) : null;
+  if (author === "撮影者不明") author = "Unknown author"; // Japanese Commons: "photographer unknown"
   // Commons can name the author as a bare Wikidata item ("Q139555801") when it has no
   // label in the wiki's language; look the name up so the credit names a person.
   if (author && /^Q\d+$/.test(author)) author = (await wikidataLabels([author]))[0];

@@ -31,8 +31,8 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "e2",
+          "label": "Grumman E-2 Hawkeye"
         },
         {
           "id": "sr71",
@@ -131,12 +131,12 @@
           "label": "Northrop F-5"
         },
         {
-          "id": "a5",
-          "label": "North American A-5 Vigilante"
+          "id": "sh2",
+          "label": "Kaman SH-2 Seasprite"
         },
         {
-          "id": "a6",
-          "label": "Grumman A-6 Intruder"
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
         }
       ],
       "caption": "Military advanced trainer aircraft by Northrop. First flew 1959.",
@@ -381,8 +381,8 @@
           "label": "North American Rockwell OV-10 Bronco"
         },
         {
-          "id": "a6",
-          "label": "Grumman A-6 Intruder"
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
         },
         {
           "id": "c141",
@@ -406,12 +406,12 @@
           "label": "Lockheed P-3 Orion"
         },
         {
-          "id": "e2",
-          "label": "Grumman E-2 Hawkeye"
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
         },
         {
-          "id": "ov10",
-          "label": "North American Rockwell OV-10 Bronco"
+          "id": "sr71",
+          "label": "Lockheed SR-71 Blackbird"
         }
       ],
       "caption": "Retired American heavy military transport aircraft from Lockheed. First flew 1963.",
@@ -506,12 +506,12 @@
           "label": "Lockheed C-141 Starlifter"
         },
         {
-          "id": "ch53",
-          "label": "Sikorsky CH-53 Sea Stallion"
+          "id": "a5",
+          "label": "North American A-5 Vigilante"
         },
         {
-          "id": "sh2",
-          "label": "Kaman SH-2 Seasprite"
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
         }
       ],
       "caption": "Observation and light attack aircraft. First flew 1965.",
@@ -566,6 +566,56 @@
       ],
       "caption": "Helicopter used in transport or search and rescue. First flew 1959.",
       "credit": "United States Coast Guard / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-fuji-t1",
+      "image": "fuji-t1.jpg",
+      "answer": "fuji-t1",
+      "options": [
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
+        },
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1958.",
+      "credit": "Rob Schleiffert from Holland / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1960s-p2j",
+      "image": "p2j.jpg",
+      "answer": "p2j",
+      "options": [
+        {
+          "id": "p2j",
+          "label": "Kawasaki P-2J"
+        },
+        {
+          "id": "p3",
+          "label": "Lockheed P-3 Orion"
+        },
+        {
+          "id": "fuji-t1",
+          "label": "Fuji T-1"
+        },
+        {
+          "id": "ov10",
+          "label": "North American Rockwell OV-10 Bronco"
+        }
+      ],
+      "caption": "Japanese maritime patrol aircraft. First flew 1966.",
+      "credit": "Japan Maritime Self-Defense Force / CC BY 4.0 / via Wikimedia Commons"
     }
   ]
 }

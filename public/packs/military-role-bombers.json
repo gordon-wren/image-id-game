@@ -231,8 +231,8 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
         },
         {
           "id": "martin-b10",
@@ -306,12 +306,12 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
         },
         {
-          "id": "b26",
-          "label": "Martin B-26 Marauder"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",
@@ -641,6 +641,181 @@
       ],
       "caption": "Cold War-era American supersonic bomber. First flew 1956.",
       "credit": "US Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-g3m",
+      "image": "g3m.jpg",
+      "answer": "g3m",
+      "options": [
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        }
+      ],
+      "caption": "WWII-era medium bomber. First flew 1935.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ki21",
+      "image": "ki21.jpg",
+      "answer": "ki21",
+      "options": [
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        }
+      ],
+      "caption": "Japanese heavy bomber. First flew 1936.",
+      "credit": "\"Akemi shashinkan\" at Chitose-cho Hamamatsu, Shizuoka, Japan. 浜松市千歳町のアケミ写真館撮影。 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ki48",
+      "image": "ki48.jpg",
+      "answer": "ki48",
+      "options": [
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Japanese light bomber. First flew 1939.",
+      "credit": "『同盟グラフ』 1944年1月号 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ki49",
+      "image": "ki49.jpg",
+      "answer": "ki49",
+      "options": [
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        }
+      ],
+      "caption": "Bomber aircraft in Japan. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ki67",
+      "image": "ki67.jpg",
+      "answer": "ki67",
+      "options": [
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        }
+      ],
+      "caption": "Japanese twin-engine medium bomber. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-g4m",
+      "image": "g4m.jpg",
+      "answer": "g4m",
+      "options": [
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        }
+      ],
+      "caption": "Twin-engine, land-based medium bomber (1940–1945). First flew 1940.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-p1y",
+      "image": "p1y.jpg",
+      "answer": "p1y",
+      "options": [
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        }
+      ],
+      "caption": "Japanese attack bomber aircraft. First flew 1943.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

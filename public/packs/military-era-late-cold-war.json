@@ -256,8 +256,8 @@
           "label": "Lockheed F-117 Nighthawk"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
         },
         {
           "id": "f15",
@@ -281,8 +281,8 @@
           "label": "Lockheed F-117 Nighthawk"
         },
         {
-          "id": "mig31",
-          "label": "Mikoyan MiG-31"
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
         },
         {
           "id": "av8b",
@@ -456,12 +456,12 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "t45",
-          "label": "McDonnell Douglas T-45 Goshawk"
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
         },
         {
-          "id": "mirage2000",
-          "label": "Dassault Mirage 2000"
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -766,6 +766,56 @@
       ],
       "caption": "American medium-lift military helicopter.",
       "credit": "Airman Thomas S. Keisler IV / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-mitsubishi-f1",
+      "image": "mitsubishi-f1.jpg",
+      "answer": "mitsubishi-f1",
+      "options": [
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        },
+        {
+          "id": "f117",
+          "label": "Lockheed F-117 Nighthawk"
+        },
+        {
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-late-cold-war-kawasaki-t4",
+      "image": "kawasaki-t4.jpg",
+      "answer": "kawasaki-t4",
+      "options": [
+        {
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
+        },
+        {
+          "id": "t45",
+          "label": "McDonnell Douglas T-45 Goshawk"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        }
+      ],
+      "caption": "Japanese jet trainer aircraft. First flew 1985.",
+      "credit": "Jerry Gunner / CC BY-SA 4.0 / via Wikimedia Commons"
     }
   ]
 }
