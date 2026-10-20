@@ -31,12 +31,12 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "he111",
+          "label": "Heinkel He 111"
         }
       ],
       "caption": "British single-seat WWII fighter aircraft. First flew 1936.",
@@ -77,16 +77,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "tb3",
-          "label": "Tupolev TB-3"
-        },
-        {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "he111",
+          "label": "Heinkel He 111"
         },
         {
           "id": "i16",
           "label": "Polikarpov I-16"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -256,12 +256,12 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
-        },
-        {
           "id": "vought-o2u",
           "label": "Vought O2U Corsair"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
         }
       ],
       "caption": "Aircraft developed to fly around the world. First flew 1923.",
@@ -281,12 +281,12 @@
           "label": "Douglas World Cruiser"
         },
         {
-          "id": "kawasaki-type88",
-          "label": "Kawasaki Type 88"
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
         },
         {
-          "id": "curtiss-nc",
-          "label": "Curtiss NC"
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
         }
       ],
       "caption": "1926 naval observation aircraft family.",
@@ -631,12 +631,12 @@
           "label": "Curtiss NC"
         },
         {
-          "id": "kawasaki-type88",
-          "label": "Kawasaki Type 88"
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
         },
         {
-          "id": "vought-o2u",
-          "label": "Vought O2U Corsair"
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
         }
       ],
       "caption": "American 1930s flying boat. First flew 1935.",
@@ -656,12 +656,12 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "p35",
+          "label": "Seversky P-35"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -681,8 +681,8 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
         },
         {
           "id": "po2",
@@ -756,12 +756,12 @@
           "label": "Kawanishi H6K"
         },
         {
-          "id": "a5m",
-          "label": "Mitsubishi A5M"
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "ar196",
+          "label": "Arado Ar 196"
         }
       ],
       "caption": "Japanese reconnaissance aircraft. First flew 1927.",
@@ -856,12 +856,12 @@
           "label": "Polikarpov Po-2"
         },
         {
-          "id": "stearman",
-          "label": "Boeing-Stearman Model 75"
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
         },
         {
-          "id": "a5m",
-          "label": "Mitsubishi A5M"
+          "id": "g3m",
+          "label": "Mitsubishi G3M"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -885,8 +885,8 @@
           "label": "Mitsubishi A5M"
         },
         {
-          "id": "p26",
-          "label": "Boeing P-26 Peashooter"
+          "id": "p40",
+          "label": "Curtiss P-40 Warhawk"
         }
       ],
       "caption": "Japanese attack aircraft family. First flew 1937.",
@@ -906,12 +906,12 @@
           "label": "Kawasaki Type 88"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
         },
         {
-          "id": "curtiss-nc",
-          "label": "Curtiss NC"
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
         }
       ],
       "caption": "Imperial Japanese flying boat. First flew 1936.",
@@ -1041,6 +1041,231 @@
       ],
       "caption": "Soviet heavy bomber aircraft. First flew 1930.",
       "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-fi156",
+      "image": "fi156.jpg",
+      "answer": "fi156",
+      "options": [
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "curtiss-nc",
+          "label": "Curtiss NC"
+        }
+      ],
+      "caption": "German liaison aircraft. First flew 1936.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-he111",
+      "image": "he111.jpg",
+      "answer": "he111",
+      "options": [
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        }
+      ],
+      "caption": "World War II German medium bomber. First flew 1935.",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-do17",
+      "image": "do17.jpg",
+      "answer": "do17",
+      "options": [
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        }
+      ],
+      "caption": "World War II German light bomber. First flew 1934.",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-fw200",
+      "image": "fw200.jpg",
+      "answer": "fw200",
+      "options": [
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        }
+      ],
+      "caption": "German prop-driven aircraft built 1937–1944. First flew 1937.",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-interwar-ar196",
+      "image": "ar196.jpg",
+      "answer": "ar196",
+      "options": [
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "1936 maritime reconnaissance floatplane family by Arado. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

@@ -606,8 +606,8 @@
           "label": "Nakajima C6N Saiun"
         },
         {
-          "id": "o1",
-          "label": "Cessna O-1 Bird Dog"
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
         },
         {
           "id": "e13a",
@@ -660,8 +660,8 @@
           "label": "Kawasaki Type 88"
         },
         {
-          "id": "kawasaki-p1",
-          "label": "Kawasaki P-1"
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
         }
       ],
       "caption": "Japanese reconnaissance floatplane. First flew 1939.",
@@ -891,6 +891,131 @@
       ],
       "caption": "Soviet airborne early warning and control (AEW&C) aircraft. First flew 1978.",
       "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-fi156",
+      "image": "fi156.jpg",
+      "answer": "fi156",
+      "options": [
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        }
+      ],
+      "caption": "German liaison aircraft. First flew 1936.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-fw200",
+      "image": "fw200.jpg",
+      "answer": "fw200",
+      "options": [
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        }
+      ],
+      "caption": "German prop-driven aircraft built 1937–1944. First flew 1937.",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-ar196",
+      "image": "ar196.jpg",
+      "answer": "ar196",
+      "options": [
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "1936 maritime reconnaissance floatplane family by Arado. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-bv138",
+      "image": "bv138.jpg",
+      "answer": "bv138",
+      "options": [
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "f1m",
+          "label": "Mitsubishi F1M"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "1937 flying boat family by Blohm & Voss. First flew 1937.",
+      "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-special-mission-fw189",
+      "image": "fw189.jpg",
+      "answer": "fw189",
+      "options": [
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        }
+      ],
+      "caption": "German twin-engine twin-boom reconnaissance aircraft. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

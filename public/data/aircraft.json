@@ -2,8 +2,8 @@
   "$schema": "./aircraft.schema.json",
   "source": "English Wikipedia, Wikidata and Wikimedia Commons",
   "note": "Text from Wikipedia is CC BY-SA 4.0. Each photo carries its own license and author in `photo`.",
-  "generatedAt": "2026-10-18T17:19:49.310Z",
-  "count": 367,
+  "generatedAt": "2026-10-20T00:20:09.053Z",
+  "count": 397,
   "aircraft": [
     {
       "id": "a380",
@@ -19776,6 +19776,1677 @@
         "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
       },
       "retrievedAt": "2026-10-18T17:19:06.132Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fokker-e3",
+      "name": "Fokker E.III",
+      "label": "Fokker E.III",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "Fighter aircraft used in World War I",
+      "summary": "The Fokker E.III is the main variant of the Eindecker fighter aircraft of World War I. It entered service on the Western Front in December 1915 and was also supplied to Austria-Hungary and Turkey.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Fokker"
+      ],
+      "designer": "Anthony Fokker",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1916",
+      "introduced": "1915-12",
+      "status": null,
+      "numberBuilt": 249,
+      "wikipedia": {
+        "title": "Fokker E.III",
+        "url": "https://en.wikipedia.org/wiki/Fokker_E.III",
+        "pageId": 1189234,
+        "revisionId": 1357999762
+      },
+      "wikidataId": "Q602325",
+      "photo": {
+        "file": "assets/aircraft/fokker-e3.jpg",
+        "sourceFile": "File:Fokker Eindecker takeoff profile view.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokker_Eindecker_takeoff_profile_view.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fokker_Eindecker_takeoff_profile_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fokker_Eindecker_takeoff_profile_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 471,
+        "originalWidth": 640,
+        "originalHeight": 314,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Profile view of a Fokker Eindecker taking off.",
+        "dateTaken": "between 1915 and 1916date QS:P,+1915-00-00T00:00:00Z/8,P1319,+1915-00-00T00:00:00Z/9,P1326,+1916-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:25.169Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "albatros-d3",
+      "name": "Albatros D.III",
+      "label": "Albatros D.III",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "1916 fighter aircraft by Albatros",
+      "summary": "The Albatros D.III was a biplane fighter aircraft used by the Imperial German Army Air Service during World War I. A modified licensed version was built by Oeffag for the Austro-Hungarian Air Service (Luftfahrtruppen). The D.III was flown by many top German flying aces, including Wilhelm Frankl, Erich Löwenhardt, Manfred von Richthofen, Karl Emil Schäfer, Ernst Udet, and Kurt Wolff, and Austro-Hungarian ace Godwin von Brumowski. It was the preeminent fighter during the period of German aerial dominance known as \"Bloody April\" 1917.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Albatros"
+      ],
+      "designer": "Robert Thelen",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1916-08",
+      "introduced": "1917",
+      "status": "Retired",
+      "numberBuilt": 1866,
+      "wikipedia": {
+        "title": "Albatros D.III",
+        "url": "https://en.wikipedia.org/wiki/Albatros_D.III",
+        "pageId": 1442409,
+        "revisionId": 1364659462
+      },
+      "wikidataId": "Q163051",
+      "photo": {
+        "file": "assets/aircraft/albatros-d3.jpg",
+        "sourceFile": "File:Albad3.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Albad3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albad3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albad3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 445,
+        "originalWidth": 625,
+        "originalHeight": 290,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Albatros fighter",
+        "dateTaken": "circa 1916date QS:P,+1916-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:25.948Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fokker-dr1",
+      "name": "Fokker Dr.I",
+      "label": "Fokker Dr.I",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "WWI fighter aircraft",
+      "summary": "The Fokker Dr.I, often known simply as the Fokker Triplane, was a World War I fighter aircraft built by Fokker-Flugzeugwerke. The Dr.I saw widespread service in the spring of 1918. It became famous as the aircraft in which Manfred von Richthofen gained his last 17 victories, and in which he was killed on 21 April 1918. The Fokker Dr.I was flown with great success by many other German aces, most notably Josef Jacobs, with 30 confirmed kills in the type.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Fokker"
+      ],
+      "designer": "Reinhold Platz",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1917-07-05",
+      "introduced": "1917",
+      "status": null,
+      "numberBuilt": 320,
+      "wikipedia": {
+        "title": "Fokker Dr.I",
+        "url": "https://en.wikipedia.org/wiki/Fokker_Dr.I",
+        "pageId": 51809,
+        "revisionId": 1380733484
+      },
+      "wikidataId": "Q156753",
+      "photo": {
+        "file": "assets/aircraft/fokker-dr1.jpg",
+        "sourceFile": "File:Fokker Dr.I 160 17.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokker_Dr.I_160_17.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Fokker_Dr.I_160_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fokker_Dr.I_160_17.jpg/960px-Fokker_Dr.I_160_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 640,
+        "originalWidth": 1920,
+        "originalHeight": 1280,
+        "mime": "image/jpeg",
+        "author": "SDASM Archives",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Fokker Dr.I 160/17",
+        "dateTaken": "Unknown date",
+        "chosenFrom": "seed",
+        "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:27.141Z",
+      "overridden": [
+        "countryOfOrigin",
+        "introduced"
+      ]
+    },
+    {
+      "id": "fokker-d7",
+      "name": "Fokker D.VII",
+      "label": "Fokker D.VII",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "1918 fighter aircraft model by Fokker",
+      "summary": "The Fokker D.VII is a German World War I fighter aircraft designed by Reinhold Platz of the Fokker-Flugzeugwerke. Germany produced around 3,300 D.VII aircraft in the second half of 1918. In service with the Luftstreitkräfte, the D.VII quickly proved itself to be a formidable aircraft. The Armistice ending the war specifically required, as the fourth clause of the \"Clauses Relating to the Western Front\", that Germany was required to surrender all D.VIIs to the Allies. Surviving aircraft saw much service with many countries in the years after World War I.",
+      "role": "Fighter",
+      "manufacturer": [
+        "Fokker"
+      ],
+      "designer": "Reinhold Platz",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1918-01",
+      "introduced": "1918",
+      "status": null,
+      "numberBuilt": 1700,
+      "wikipedia": {
+        "title": "Fokker D.VII",
+        "url": "https://en.wikipedia.org/wiki/Fokker_D.VII",
+        "pageId": 160632,
+        "revisionId": 1375601290
+      },
+      "wikidataId": "Q165158",
+      "photo": {
+        "file": "assets/aircraft/fokker-d7.jpg",
+        "sourceFile": "File:Fokker D. VII USAF.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokker_D._VII_USAF.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fokker_D._VII_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Fokker_D._VII_USAF.jpg/960px-Fokker_D._VII_USAF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 627,
+        "originalWidth": 1752,
+        "originalHeight": 1144,
+        "mime": "image/jpeg",
+        "author": "United States Air Force",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "DAYTON, Ohio -- Fokker D. VII at the National Museum of the United States Air Force.",
+        "dateTaken": "2005",
+        "chosenFrom": "seed",
+        "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:28.707Z",
+      "overridden": [
+        "countryOfOrigin",
+        "introduced"
+      ]
+    },
+    {
+      "id": "junkers-j1",
+      "name": "Junkers J.I",
+      "label": "Junkers J.I",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "1917 attack aircraft by Junkers",
+      "summary": "The Junkers J.I was a German \"J-class\" armored sesquiplane of World War I, developed for low-level ground attack, observation and army cooperation. It is especially noteworthy as being the first all-metal aircraft to enter mass production; the aircraft's metal construction and heavy armour was a shield against small arms fire over the battlefield.",
+      "role": "Observation and liaison aircraft",
+      "manufacturer": [
+        "Junkers Motorenbau und Junkers Flugzeugwerk"
+      ],
+      "designer": "Otto Mader",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1917-01-28",
+      "introduced": "1917",
+      "status": null,
+      "numberBuilt": 227,
+      "wikipedia": {
+        "title": "Junkers J.I",
+        "url": "https://en.wikipedia.org/wiki/Junkers_J.I",
+        "pageId": 12327785,
+        "revisionId": 1287255954
+      },
+      "wikidataId": "Q10794520",
+      "photo": {
+        "file": "assets/aircraft/junkers-j1.jpg",
+        "sourceFile": "File:Junkers JI.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Junkers_JI.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Junkers_JI.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Junkers_JI.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 656,
+        "originalWidth": 350,
+        "originalHeight": 239,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Junkers J.I",
+        "dateTaken": "circa, 1917-1918",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:29.417Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "gotha-g5",
+      "name": "Gotha G.V",
+      "label": "Gotha G.V",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "Heavy bomber aircraft",
+      "summary": "The Gotha G.V was a heavy bomber used by the Luftstreitkräfte during World War I. Designed for long-range service and built by Gothaer Waggonfabrik AG, the Gotha G.V was used principally as a night bomber.",
+      "role": "Heavy bomber",
+      "manufacturer": [
+        "Gotha"
+      ],
+      "designer": "Hans Burkhard",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1917",
+      "introduced": "1917-08",
+      "status": null,
+      "numberBuilt": 205,
+      "wikipedia": {
+        "title": "Gotha G.V",
+        "url": "https://en.wikipedia.org/wiki/Gotha_G.V",
+        "pageId": 490120,
+        "revisionId": 1378750663
+      },
+      "wikidataId": "Q507530",
+      "photo": {
+        "file": "assets/aircraft/gotha-g5.jpg",
+        "sourceFile": "File:GothaG5.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:GothaG5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/GothaG5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/GothaG5.jpg/960px-GothaG5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 610,
+        "originalWidth": 1920,
+        "originalHeight": 1220,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:30.251Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "he51",
+      "name": "Heinkel He 51",
+      "label": "Heinkel He 51",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "German single-seat biplane fighter aircraft",
+      "summary": "The Heinkel He 51 was a German single-seat biplane fighter aircraft. A seaplane variant and a ground-attack version were also developed. It was a development of the earlier He 49.",
+      "role": "Biplane fighter-bomber",
+      "manufacturer": [
+        "Heinkel"
+      ],
+      "designer": "Günter brothers",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1933-05",
+      "introduced": "1935",
+      "status": "Retired",
+      "numberBuilt": 713,
+      "wikipedia": {
+        "title": "Heinkel He 51",
+        "url": "https://en.wikipedia.org/wiki/Heinkel_He_51",
+        "pageId": 454941,
+        "revisionId": 1372472673
+      },
+      "wikidataId": "Q160355",
+      "photo": {
+        "file": "assets/aircraft/he51.jpg",
+        "sourceFile": "File:Истребитель Heinkel He-51B.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Heinkel_He-51B.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%D0%98%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Heinkel_He-51B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%D0%98%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Heinkel_He-51B.jpg/960px-%D0%98%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Heinkel_He-51B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 626,
+        "originalWidth": 1024,
+        "originalHeight": 668,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Heinkel He 51B Bulgarian Air Force",
+        "dateTaken": "1935",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:20:08.224Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ju52",
+      "name": "Junkers Ju 52",
+      "label": "Junkers Ju 52",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "piston",
+      "description": "German transport aircraft",
+      "summary": "The Junkers Ju 52, best known in its Ju 52/3m form is a transport aircraft that was designed and manufactured by German aviation company Junkers. First introduced in 1930 as a civilian airliner, it was adapted into a military transport aircraft by Nazi Germany.",
+      "role": "Transport aircraft, medium bomber, airliner",
+      "manufacturer": [
+        "Junkers Motorenbau und Junkers Flugzeugwerk",
+        "Junkers"
+      ],
+      "designer": "Ernst Zindel",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1932-03-07",
+      "introduced": "1932",
+      "status": "In limited use",
+      "numberBuilt": 4845,
+      "wikipedia": {
+        "title": "Junkers Ju 52",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_52",
+        "pageId": 242231,
+        "revisionId": 1374490506
+      },
+      "wikidataId": "Q26066",
+      "photo": {
+        "file": "assets/aircraft/ju52.jpg",
+        "sourceFile": "File:Junkers Ju 52 (BJ+Yx) '24' (1).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Junkers_Ju_52_(BJ%2BYx)_%2724%27_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Junkers_Ju_52_%28BJ%2BYx%29_%2724%27_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Junkers_Ju_52_%28BJ%2BYx%29_%2724%27_%281%29.jpg/960px-Junkers_Ju_52_%28BJ%2BYx%29_%2724%27_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 610,
+        "originalWidth": 1887,
+        "originalHeight": 1200,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Junkers Ju 52 (BJ + Yx) - 24 - yellow rudder. Ju 52s were part of the initial equipment of KG 455 in Giebelstadt as \"makeshift bombers\" from the fall of 1935. During the Second World War, the Ju 52, nicknamed \"Aunt Ju\", could be found at almost all airfields in Europe and North Africa that were appr",
+        "dateTaken": "between 1943 and 1944date QS:P,+1943-00-00T00:00:00Z/8,P1319,+1943-00-00T00:00:00Z/9,P1326,+1944-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:31.963Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "bu131",
+      "name": "Bücker Bü 131 Jungmann",
+      "label": "Bücker Bü 131 Jungmann",
+      "group": "trainer",
+      "use": "military",
+      "category": "trainer",
+      "engine": "piston",
+      "description": "Military training aircraft by Bücker of Germany",
+      "summary": "The Bücker Bü 131 Jungmann is a basic biplane trainer aircraft designed and produced by the German aircraft manufacturer Bücker Flugzeugbau. It was the company's first aircraft, as well as being the final biplane to be produced in Germany.",
+      "role": "Basic trainer",
+      "manufacturer": [
+        "Bücker Flugzeugbau"
+      ],
+      "designer": "Carl Bücker",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1934-04-27",
+      "introduced": "1935",
+      "status": null,
+      "numberBuilt": "around 5,000",
+      "wikipedia": {
+        "title": "Bücker Bü 131 Jungmann",
+        "url": "https://en.wikipedia.org/wiki/B%C3%BCcker_B%C3%BC_131_Jungmann",
+        "pageId": 585328,
+        "revisionId": 1379361390
+      },
+      "wikidataId": "Q676056",
+      "photo": {
+        "file": "assets/aircraft/bu131.jpg",
+        "sourceFile": "File:Bücker Bü 131 A Jungmann 'D-EXIR' ca. 1935 (a).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:B%C3%BCcker_B%C3%BC_131_A_Jungmann_%27D-EXIR%27_ca._1935_(a).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/B%C3%BCcker_B%C3%BC_131_A_Jungmann_%27D-EXIR%27_ca._1935_%28a%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/B%C3%BCcker_B%C3%BC_131_A_Jungmann_%27D-EXIR%27_ca._1935_%28a%29.jpg/960px-B%C3%BCcker_B%C3%BC_131_A_Jungmann_%27D-EXIR%27_ca._1935_%28a%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 567,
+        "originalWidth": 3128,
+        "originalHeight": 1847,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Bücker Bü 131 A 'Jungmann', D-EXIR - vermutl. Werksflugplatz Rangsdorf, Lkr. Teltow-Fläming, ca. 1935",
+        "dateTaken": "1935-01-01",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:33.042Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fi156",
+      "name": "Fieseler Fi 156 Storch",
+      "label": "Fieseler Fi 156 Storch",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "German liaison aircraft",
+      "summary": "The Fieseler Fi 156 Storch is a liaison aircraft designed and produced by the German aircraft manufacturer Fieseler. Its nickname of Storch was derived from the lengthy legs of its main landing gear, which gave the aircraft a similar appearance to that of the long-legged, big-winged bird.",
+      "role": "Reconnaissance & communications",
+      "manufacturer": [
+        "Fieseler",
+        "Morane-Saulnier"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1936-05-24",
+      "introduced": "1937",
+      "status": null,
+      "numberBuilt": 2900,
+      "wikipedia": {
+        "title": "Fieseler Fi 156 Storch",
+        "url": "https://en.wikipedia.org/wiki/Fieseler_Fi_156_Storch",
+        "pageId": 176773,
+        "revisionId": 1374909936
+      },
+      "wikidataId": "Q156894",
+      "photo": {
+        "file": "assets/aircraft/fi156.jpg",
+        "sourceFile": "File:Air Vice Marshal Broadhurst in his Fi 156 Italy c1943.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Air_Vice_Marshal_Broadhurst_in_his_Fi_156_Italy_c1943.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Air_Vice_Marshal_Broadhurst_in_his_Fi_156_Italy_c1943.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Air_Vice_Marshal_Broadhurst_in_his_Fi_156_Italy_c1943.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 661,
+        "originalWidth": 800,
+        "originalHeight": 551,
+        "mime": "image/jpeg",
+        "author": "Royal Air Force official photographer",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Royal Air Force Air Vice Marshal Harry Broadhurst, Air Officer Commanding the Desert Air Force, about to board his Fieseler Fi 156 C Storch at the Advanced Headquarters of the DAF at Lucera, Italy. Broadhurst acquired the captured German communications aircraft in North Africa, had it painted in Bri",
+        "dateTaken": "circa 1943date QS:P,+1943-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:34.229Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "bf110",
+      "name": "Messerschmitt Bf 110",
+      "label": "Messerschmitt Bf 110",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "1936 heavy fighter family by Messerschmitt",
+      "summary": "The Messerschmitt Bf 110, often known unofficially as the Me 110, is a twin-engined Zerstörer, fighter-bomber, and night fighter (Nachtjäger) designed by the German aircraft company Bayerische Flugzeugwerke (BFW) and produced by successor company Messerschmitt. It was primarily operated by the Luftwaffe and was active throughout the Second World War.",
+      "role": "Heavy fighter; Fighter-bomber; Night fighter",
+      "manufacturer": [
+        "Messerschmitt",
+        "Augsburg",
+        "Brunswick"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1936-05-12",
+      "introduced": "1939",
+      "status": null,
+      "numberBuilt": 6170,
+      "wikipedia": {
+        "title": "Messerschmitt Bf 110",
+        "url": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_110",
+        "pageId": 383489,
+        "revisionId": 1370065085
+      },
+      "wikidataId": "Q155642",
+      "photo": {
+        "file": "assets/aircraft/bf110.jpg",
+        "sourceFile": "File:Me110G4 2.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Me110G4_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Me110G4_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Me110G4_2.jpg/960px-Me110G4_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 362,
+        "originalWidth": 1060,
+        "originalHeight": 400,
+        "mime": "image/jpeg",
+        "author": null,
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": null,
+        "dateTaken": null,
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:35.274Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fw190",
+      "name": "Focke-Wulf Fw 190",
+      "label": "Focke-Wulf Fw 190",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "1939 fighter aircraft family by Focke-Wulf",
+      "summary": "The Focke-Wulf Fw 190, nicknamed Würger is a German single-seat, single-engined, fighter aircraft designed by Kurt Tank at Focke-Wulf in the late 1930s; it was widely used during World War II. Along with its well-known counterpart, the Messerschmitt Bf 109, the Fw 190 became the backbone of the Jagdwaffe of the Luftwaffe. The twin-row BMW 801 radial engine that powered most operational versions enabled the Fw 190 to lift larger loads than the Bf 109, allowing its use as a day fighter, fighter-bomber, ground-attack aircraft, or to a lesser degree, night fighter.",
+      "role": "Fighter aircraft",
+      "manufacturer": [
+        "Focke-Wulf"
+      ],
+      "designer": "Kurt Tank",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1939-06-01",
+      "introduced": "1941",
+      "status": null,
+      "numberBuilt": 19500,
+      "wikipedia": {
+        "title": "Focke-Wulf Fw 190",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_190",
+        "pageId": 241214,
+        "revisionId": 1368000049
+      },
+      "wikidataId": "Q34775",
+      "photo": {
+        "file": "assets/aircraft/fw190.jpg",
+        "sourceFile": "File:Fw 190A-3 JG 2 in Britain 1942.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fw_190A-3_JG_2_in_Britain_1942.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fw_190A-3_JG_2_in_Britain_1942.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fw_190A-3_JG_2_in_Britain_1942.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 646,
+        "originalWidth": 800,
+        "originalHeight": 538,
+        "mime": "image/jpeg",
+        "author": "RAF",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A German Focke-Wulf Fw 190 A-3 of 11./JG 2 after landing in the UK by mistake in June 1942.",
+        "dateTaken": "1942-06",
+        "chosenFrom": "seed",
+        "credit": "RAF / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:36.189Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ju87",
+      "name": "Junkers Ju 87",
+      "label": "Junkers Ju 87",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "1935 dive bomber aircraft family by Junkers",
+      "summary": "The Junkers Ju 87, popularly known as the \"Stuka\", is a German dive bomber and ground-attack aircraft. Designed by Hermann Pohlmann, it first flew in 1935. The Ju 87 made its combat debut in 1937 with the Luftwaffe's Condor Legion during the Spanish Civil War of 1936–1939 and served the Axis in World War II from beginning to end (1939–1945).",
+      "role": "Dive bomber and ground-attack aircraft",
+      "manufacturer": [
+        "Junkers",
+        "Junkers Motorenbau und Junkers Flugzeugwerk"
+      ],
+      "designer": "Hermann Pohlmann",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1935-09-17",
+      "introduced": "1937",
+      "status": null,
+      "numberBuilt": 6500,
+      "wikipedia": {
+        "title": "Junkers Ju 87",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_87",
+        "pageId": 16590,
+        "revisionId": 1380566596
+      },
+      "wikidataId": "Q26795",
+      "photo": {
+        "file": "assets/aircraft/ju87.jpg",
+        "sourceFile": "File:Junkers JU-87 'Stuka' in-flight display side view.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Junkers_JU-87_%27Stuka%27_in-flight_display_side_view.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Junkers_JU-87_%27Stuka%27_in-flight_display_side_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Junkers_JU-87_%27Stuka%27_in-flight_display_side_view.jpg/960px-Junkers_JU-87_%27Stuka%27_in-flight_display_side_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 662,
+        "originalWidth": 4700,
+        "originalHeight": 3240,
+        "mime": "image/jpeg",
+        "author": "Pseudopanax at English Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Junkers JU-87 \"Stuka\" in-flight display, suspended above other airplanes at Omaka Aviation Heritage Centre's \"Dangerous Skies\" exhibition - side view with pilot and tail gunner visible",
+        "dateTaken": "2021-04-02",
+        "chosenFrom": "seed",
+        "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:37.438Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ju88",
+      "name": "Junkers Ju 88",
+      "label": "Junkers Ju 88",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "German twin engine multirole combat aircraft",
+      "summary": "The Junkers Ju 88 is a twin-engined multirole combat aircraft designed and produced by the German aircraft manufacturer Junkers Aircraft and Motor Works. It was used extensively during the Second World War by the Luftwaffe and became one of the most versatile combat aircraft of the conflict.",
+      "role": "Tactical / dive / torpedo bomber; Night / heavy fighter; Reconnaissance aircraft",
+      "manufacturer": [
+        "Junkers",
+        "Junkers Motorenbau und Junkers Flugzeugwerk",
+        "Arado Flugzeugwerke",
+        "Henschel & Sohn",
+        "AEG",
+        "Heinkel",
+        "Dornier",
+        "Siebel"
+      ],
+      "designer": "Ernst Zindel, W. H. Evers, and Alfred Gassner",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1936-12-21",
+      "introduced": "1939-09",
+      "status": null,
+      "numberBuilt": 14882,
+      "wikipedia": {
+        "title": "Junkers Ju 88",
+        "url": "https://en.wikipedia.org/wiki/Junkers_Ju_88",
+        "pageId": 455507,
+        "revisionId": 1381051959
+      },
+      "wikidataId": "Q155661",
+      "photo": {
+        "file": "assets/aircraft/ju88.jpg",
+        "sourceFile": "File:Junkers Ju 88 G-6 in Dübendorf (Ans 05035-258).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Junkers_Ju_88_G-6_in_D%C3%BCbendorf_(Ans_05035-258).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Junkers_Ju_88_G-6_in_D%C3%BCbendorf_%28Ans_05035-258%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Junkers_Ju_88_G-6_in_D%C3%BCbendorf_%28Ans_05035-258%29.jpg/960px-Junkers_Ju_88_G-6_in_D%C3%BCbendorf_%28Ans_05035-258%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 657,
+        "originalWidth": 3082,
+        "originalHeight": 2109,
+        "mime": "image/jpeg",
+        "author": "ETH-Bibliothek Zürich, Bildarchiv",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Ju 88 G-6 mit der Werknummer 623211, ausgerüstet mit FuG 218 Neptun Radar",
+        "dateTaken": "1945-05",
+        "chosenFrom": "seed",
+        "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:20:08.883Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "he111",
+      "name": "Heinkel He 111",
+      "label": "Heinkel He 111",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "World War II German medium bomber",
+      "summary": "The Heinkel He 111 is a German airliner and medium bomber designed by Siegfried and Walter Günter at Heinkel Flugzeugwerke in 1934. Through development, it was described as a wolf in sheep's clothing. Due to restrictions placed on Germany after the First World War prohibiting bombers, it was presented solely as a civil airliner, although from conception the design was intended to provide the nascent Luftwaffe with a heavy bomber.",
+      "role": "Medium bomber",
+      "manufacturer": [
+        "Heinkel",
+        "Arado Flugzeugwerke"
+      ],
+      "designer": "Siegfried and Walter Günter",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1935-02-24",
+      "introduced": "1936",
+      "status": null,
+      "numberBuilt": 6508,
+      "wikipedia": {
+        "title": "Heinkel He 111",
+        "url": "https://en.wikipedia.org/wiki/Heinkel_He_111",
+        "pageId": 174487,
+        "revisionId": 1380641621
+      },
+      "wikidataId": "Q154532",
+      "photo": {
+        "file": "assets/aircraft/he111.jpg",
+        "sourceFile": "File:Bundesarchiv Bild 101I-343-0694-21, Belgien-Frankreich, Flugzeug Heinkel He 111.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-343-0694-21,_Belgien-Frankreich,_Flugzeug_Heinkel_He_111.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bundesarchiv_Bild_101I-343-0694-21%2C_Belgien-Frankreich%2C_Flugzeug_Heinkel_He_111.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bundesarchiv_Bild_101I-343-0694-21%2C_Belgien-Frankreich%2C_Flugzeug_Heinkel_He_111.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 660,
+        "originalWidth": 790,
+        "originalHeight": 543,
+        "mime": "image/jpeg",
+        "author": "Schödl (e)",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Information added by Wikimedia users. Heinkel He 111 H-2 der 9./KG 53 (III. Gruppe des Kampfgeschwaders 53, 9. Staffel). Friedensstandort der III./KG 53 mit 7., 8. und 9. Staffel war Flugplatz Giebelstadt bei Würzburg vom 01.05.1939 bis 02.02.1940; Rumpf- bzw. Verbandskennzeichen: A1 + BT (gelbes B ",
+        "dateTaken": "September 1940date QS:P571,+1940-09-00T00:00:00Z/10",
+        "chosenFrom": "seed",
+        "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:39.101Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "do17",
+      "name": "Dornier Do 17",
+      "label": "Dornier Do 17",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "World War II German light bomber",
+      "summary": "The Dornier Do 17 is a twin-engined light bomber designed and produced by the German aircraft manufacturer Dornier Flugzeugwerke. Large numbers were operated by the Luftwaffe throughout the Second World War.",
+      "role": "Light bomber, night fighter and reconnaissance aircraft",
+      "manufacturer": [
+        "Dornier"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1934-11-23",
+      "introduced": "1937",
+      "status": null,
+      "numberBuilt": 2139,
+      "wikipedia": {
+        "title": "Dornier Do 17",
+        "url": "https://en.wikipedia.org/wiki/Dornier_Do_17",
+        "pageId": 176768,
+        "revisionId": 1371874529
+      },
+      "wikidataId": "Q156742",
+      "photo": {
+        "file": "assets/aircraft/do17.jpg",
+        "sourceFile": "File:Bundesarchiv Bild 101I-342-0603-25, Belgien-Frankreich, Flugzeuge Dornier Do 17.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-342-0603-25,_Belgien-Frankreich,_Flugzeuge_Dornier_Do_17.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bundesarchiv_Bild_101I-342-0603-25%2C_Belgien-Frankreich%2C_Flugzeuge_Dornier_Do_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bundesarchiv_Bild_101I-342-0603-25%2C_Belgien-Frankreich%2C_Flugzeuge_Dornier_Do_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 663,
+        "originalWidth": 798,
+        "originalHeight": 551,
+        "mime": "image/jpeg",
+        "author": "Ketelhohn [Kettelhohn]",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "attributionRequired": true,
+        "free": true,
+        "caption": null,
+        "dateTaken": "1940date QS:P571,+1940-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:40.190Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "do217",
+      "name": "Dornier Do 217",
+      "label": "Dornier Do 217",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "1940 bomber aircraft family by Dornier",
+      "summary": "The Dornier Do 217 was a bomber used by the German Luftwaffe during World War II. It was a more powerful development of the Dornier Do 17, known as the Fliegender Bleistift. Designed in 1937–1938 as a heavy bomber but not meant to be capable of the longer-range missions envisioned for the larger Heinkel He 177, the Do 217 design was refined during 1939 and production began in late 1940. It entered service in early 1941 and by the beginning of 1942 was available in significant numbers.",
+      "role": "Medium bomber; Heavy bomber; Night fighter; Reconnaissance aircraft",
+      "manufacturer": [
+        "Dornier"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1938-10-04",
+      "introduced": "1940",
+      "status": null,
+      "numberBuilt": 1730,
+      "wikipedia": {
+        "title": "Dornier Do 217",
+        "url": "https://en.wikipedia.org/wiki/Dornier_Do_217",
+        "pageId": 455412,
+        "revisionId": 1380622653
+      },
+      "wikidataId": "Q126966",
+      "photo": {
+        "file": "assets/aircraft/do217.jpg",
+        "sourceFile": "File:Do 217E-2 NAN15Jul43.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Do_217E-2_NAN15Jul43.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Do_217E-2_NAN15Jul43.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Do_217E-2_NAN15Jul43.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 578,
+        "originalWidth": 881,
+        "originalHeight": 530,
+        "mime": "image/jpeg",
+        "author": "U.S. Navy",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Photo of a German Dornier Do 217E-2 bomber, ca. 1942",
+        "dateTaken": "circa 1942date QS:P,+1942-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:40.848Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "he177",
+      "name": "Heinkel He 177 Greif",
+      "label": "Heinkel He 177 Greif",
+      "group": "historic",
+      "use": "military",
+      "category": "bomber",
+      "engine": "piston",
+      "description": "German heavy bomber during WW2",
+      "summary": "The Heinkel He 177 Greif (Griffin) was a long-range heavy bomber flown by the Luftwaffe during World War II. The introduction of the He 177 to combat operations was significantly delayed by problems both with the development of its engines and frequent changes to its intended role. Nevertheless, it was the only long-range, heavy bomber to become operational with the Luftwaffe during the conflict. The He 177 had a payload/range capability similar to that of four-engined heavy bombers used by the Allies in the European theatre.",
+      "role": "Long-range heavy bomber",
+      "manufacturer": [
+        "Heinkel"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1939-11",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 1169,
+      "wikipedia": {
+        "title": "Heinkel He 177 Greif",
+        "url": "https://en.wikipedia.org/wiki/Heinkel_He_177_Greif",
+        "pageId": 455366,
+        "revisionId": 1379855214
+      },
+      "wikidataId": "Q316321",
+      "photo": {
+        "file": "assets/aircraft/he177.jpg",
+        "sourceFile": "File:Heinkel He 177A-02 in flight 1942.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Heinkel_He_177A-02_in_flight_1942.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Heinkel_He_177A-02_in_flight_1942.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Heinkel_He_177A-02_in_flight_1942.jpg/960px-Heinkel_He_177A-02_in_flight_1942.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 454,
+        "originalWidth": 1227,
+        "originalHeight": 580,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "The second German pre-production Heinkel He 177A-02 Greif (DL+AQ) in flight.",
+        "dateTaken": "1942",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:41.561Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fw200",
+      "name": "Focke-Wulf Fw 200 Condor",
+      "label": "Focke-Wulf Fw 200 Condor",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "piston",
+      "description": "German prop-driven aircraft built 1937–1944",
+      "summary": "The Focke-Wulf Fw 200 Condor, also known as Kurier to the Allies, is an all-metal four-engined monoplane designed and produced by the German aircraft manufacturer Focke-Wulf. It was the first heavier-than-air aircraft to fly nonstop between Berlin and New York City, about 4,000 miles (6,400 km), making the flight from Berlin-Staaken to Floyd Bennett Field on 10/11 August 1938 in 24 hours and 56 minutes.",
+      "role": "Airliner, reconnaissance, bomber, transport aircraft and maritime patrol aircraft",
+      "manufacturer": [
+        "Focke-Wulf"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1937-07-27",
+      "introduced": "1937",
+      "status": null,
+      "numberBuilt": 263,
+      "wikipedia": {
+        "title": "Focke-Wulf Fw 200 Condor",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_200_Condor",
+        "pageId": 148598,
+        "revisionId": 1363681586
+      },
+      "wikidataId": "Q157485",
+      "photo": {
+        "file": "assets/aircraft/fw200.jpg",
+        "sourceFile": "File:Bundesarchiv Bild 146-1978-043-02, Focke-Wulf Fw 200 C Condor.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1978-043-02,_Focke-Wulf_Fw_200_C_Condor.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bundesarchiv_Bild_146-1978-043-02%2C_Focke-Wulf_Fw_200_C_Condor.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bundesarchiv_Bild_146-1978-043-02%2C_Focke-Wulf_Fw_200_C_Condor.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 1270,
+        "originalWidth": 601,
+        "originalHeight": 795,
+        "mime": "image/jpeg",
+        "author": "Walter Frentz",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "attributionRequired": true,
+        "free": true,
+        "caption": "Information added by Wikimedia users. Fw 200C-3/U-2 SG+KS (later F8+AB), flown by Ritterkreuz recipient Hauptmann Fritz Fliegel of I./KG 40. He was shot down on 18 July 1941 by a lucky AA round from the merchant vessel Pilar de Larrinaga in this aircraft whilst attacking OB 346. He was posthumously ",
+        "dateTaken": "1941date QS:P571,+1941-00-00T00:00:00Z/9",
+        "chosenFrom": "seed",
+        "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:42.453Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ar196",
+      "name": "Arado Ar 196",
+      "label": "Arado Ar 196",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "1936 maritime reconnaissance floatplane family by Arado",
+      "summary": "The Arado Ar 196 is a shipboard reconnaissance low-wing monoplane aircraft designed and produced by the German aircraft manufacturer Arado. It was the standard observation floatplane of the Kriegsmarine throughout the Second World War, and was the only German seaplane to serve throughout the conflict.",
+      "role": "Reconnaissance",
+      "manufacturer": [
+        "Arado Flugzeugwerke"
+      ],
+      "designer": "Walter Blume",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1937-05",
+      "introduced": "1937-05",
+      "status": null,
+      "numberBuilt": 541,
+      "wikipedia": {
+        "title": "Arado Ar 196",
+        "url": "https://en.wikipedia.org/wiki/Arado_Ar_196",
+        "pageId": 188034,
+        "revisionId": 1361042813
+      },
+      "wikidataId": "Q163170",
+      "photo": {
+        "file": "assets/aircraft/ar196.jpg",
+        "sourceFile": "File:Arado Ar 196A-2 taxiing 1940.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Arado_Ar_196A-2_taxiing_1940.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Arado_Ar_196A-2_taxiing_1940.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Arado_Ar_196A-2_taxiing_1940.jpg/960px-Arado_Ar_196A-2_taxiing_1940.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 626,
+        "originalWidth": 1400,
+        "originalHeight": 913,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A German Arado Ar 196A-2 (OU+AR) seaplane taxiing.",
+        "dateTaken": "1940",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:43.135Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "bv138",
+      "name": "Blohm & Voss BV 138",
+      "label": "Blohm & Voss BV 138",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "patrol",
+      "engine": "piston",
+      "description": "1937 flying boat family by Blohm & Voss",
+      "summary": "The Blohm & Voss BV 138 Seedrache was a trimotor flying boat designed and built by the German aircraft manufacturer Blohm & Voss. It served as the Luftwaffe's primary seaborne long-range maritime patrol and naval reconnaissance aircraft operated by the Luftwaffe during the Second World War.",
+      "role": "Maritime patrol; Long-Range Reconnaissance",
+      "manufacturer": [
+        "Blohm+Voss"
+      ],
+      "designer": "Richard Vogt",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1937-07-15",
+      "introduced": "1940-10",
+      "status": null,
+      "numberBuilt": 297,
+      "wikipedia": {
+        "title": "Blohm & Voss BV 138",
+        "url": "https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_138",
+        "pageId": 455458,
+        "revisionId": 1363405911
+      },
+      "wikidataId": "Q884882",
+      "photo": {
+        "file": "assets/aircraft/bv138.jpg",
+        "sourceFile": "File:Blohm und Voss Bv138.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Blohm_und_Voss_Bv138.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Blohm_und_Voss_Bv138.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Blohm_und_Voss_Bv138.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 446,
+        "originalWidth": 600,
+        "originalHeight": 279,
+        "mime": "image/jpeg",
+        "author": "Ministry of Information photograph",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A German Blohm & Voss Bv 138 reconnaissance flying-boat, 1937. The Blohm + Voss BV 138 was a World War II German flying boat that functioned as the Luftwaffe's main long-range maritime reconnaissance.",
+        "dateTaken": "1937",
+        "chosenFrom": "seed",
+        "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:43.869Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "fw189",
+      "name": "Focke-Wulf Fw 189 Uhu",
+      "label": "Focke-Wulf Fw 189 Uhu",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "reconnaissance",
+      "engine": "piston",
+      "description": "German twin-engine twin-boom reconnaissance aircraft",
+      "summary": "The Focke-Wulf Fw 189 Uhu is a twin-engine twin-boom tactical reconnaissance and army cooperation aircraft designed and produced by the German aircraft manufacturer Focke-Wulf. It was one of the Luftwaffe's most prominent short range reconnaissance aircraft during the Second World War.",
+      "role": "Tactical reconnaissance and army cooperation aircraft, light bomber",
+      "manufacturer": [
+        "Focke-Wulf",
+        "Bremen",
+        "Prague 3",
+        "Bordeaux"
+      ],
+      "designer": "Kurt Tank",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1938-07",
+      "introduced": "1939",
+      "status": null,
+      "numberBuilt": 864,
+      "wikipedia": {
+        "title": "Focke-Wulf Fw 189 Uhu",
+        "url": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_189_Uhu",
+        "pageId": 454903,
+        "revisionId": 1372139857
+      },
+      "wikidataId": "Q113838",
+      "photo": {
+        "file": "assets/aircraft/fw189.jpg",
+        "sourceFile": "File:Focke Wulf Fw189 (2).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Focke_Wulf_Fw189_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Focke_Wulf_Fw189_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Focke_Wulf_Fw189_%282%29.jpg/960px-Focke_Wulf_Fw189_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 554,
+        "originalWidth": 1250,
+        "originalHeight": 722,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "Focke Wulf Fw 189 reconnaissance aircraft (D-OPVN)",
+        "dateTaken": "circa 1938date QS:P,+1938-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:44.602Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "hs129",
+      "name": "Henschel Hs 129",
+      "label": "Henschel Hs 129",
+      "group": "historic",
+      "use": "military",
+      "category": "attack",
+      "engine": "piston",
+      "description": "German twin engine WWII ground attack aircraft",
+      "summary": "The Henschel Hs 129 was a ground-attack aircraft designed and produced by the German aircraft manufacturer Henschel Flugzeugwerke AG. Fielded by the Luftwaffe during the Second World War, it saw combat in Tunisia and on the Eastern Front.",
+      "role": "Attacker",
+      "manufacturer": [
+        "Henschel & Sohn"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1939-05-25",
+      "introduced": "1942-04",
+      "status": "Retired",
+      "numberBuilt": 878,
+      "wikipedia": {
+        "title": "Henschel Hs 129",
+        "url": "https://en.wikipedia.org/wiki/Henschel_Hs_129",
+        "pageId": 180821,
+        "revisionId": 1380096778
+      },
+      "wikidataId": "Q655135",
+      "photo": {
+        "file": "assets/aircraft/hs129.jpg",
+        "sourceFile": "File:Henschel Hs 129B.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Henschel_Hs_129B.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Henschel_Hs_129B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Henschel_Hs_129B.jpg/960px-Henschel_Hs_129B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 420,
+        "originalWidth": 3000,
+        "originalHeight": 1311,
+        "mime": "image/jpeg",
+        "author": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A captured German Henschel Hs 129B wearing USAAF FE (Foreign Evaluation, FE-4600) markings at Freeman Field, Indiana (USA).",
+        "dateTaken": "1946",
+        "chosenFrom": "seed",
+        "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:45.269Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "me410",
+      "name": "Messerschmitt Me 410 Hornisse",
+      "label": "Messerschmitt Me 410 Hornisse",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "German fighter-bomber",
+      "summary": "The Messerschmitt Me 410 Hornisse  (Hornet) is a heavy fighter and Schnellbomber designed and produced by the German aircraft manufacturer Messerschmitt. It was flown by the Luftwaffe during the latter half of the Second World War.",
+      "role": "Heavy fighter, fighter-bomber",
+      "manufacturer": [
+        "Messerschmitt"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1942-03-14",
+      "introduced": "1943",
+      "status": null,
+      "numberBuilt": 1189,
+      "wikipedia": {
+        "title": "Messerschmitt Me 410 Hornisse",
+        "url": "https://en.wikipedia.org/wiki/Messerschmitt_Me_410_Hornisse",
+        "pageId": 177519,
+        "revisionId": 1362927974
+      },
+      "wikidataId": "Q1175219",
+      "photo": {
+        "file": "assets/aircraft/me410.jpg",
+        "sourceFile": "File:Me 410.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Me_410.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Me_410.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Me_410.jpg/960px-Me_410.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 536,
+        "originalWidth": 1920,
+        "originalHeight": 1071,
+        "mime": "image/jpeg",
+        "author": "SDASM Archives",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "The Messerchmitt Me 410 \"Hornisse\" (Werknummer 10018) was originally a Me 410A-1 bomber destroyer version built by Messerschmitt at their Augsburg, Germany, factory and was initially coded SI+KZ. Later it was fitted with an Umrüstsätz (conversion kit) and converted to a Me 410 A-1/U1 photo-reconnais",
+        "dateTaken": "circa 1944date QS:P,+1944-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:46.144Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "he219",
+      "name": "Heinkel He 219 Uhu",
+      "label": "Heinkel He 219 Uhu",
+      "group": "historic",
+      "use": "military",
+      "category": "fighter",
+      "engine": "piston",
+      "description": "German night fighter of World War II",
+      "summary": "The Heinkel He 219 Uhu (\"Eagle-Owl\") is a night fighter designed and produced by the German aircraft manufacturer Heinkel. It primarily served with the Luftwaffe in the later stages of the Second World War.",
+      "role": "Night fighter",
+      "manufacturer": [
+        "Heinkel",
+        "Rostock"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1942-11-06",
+      "introduced": "1943",
+      "status": "Retired",
+      "numberBuilt": 288,
+      "wikipedia": {
+        "title": "Heinkel He 219 Uhu",
+        "url": "https://en.wikipedia.org/wiki/Heinkel_He_219_Uhu",
+        "pageId": 177152,
+        "revisionId": 1360164064
+      },
+      "wikidataId": "Q276529",
+      "photo": {
+        "file": "assets/aircraft/he219.jpg",
+        "sourceFile": "File:Heinkel 219 2012.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Heinkel_219_2012.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Heinkel_219_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Heinkel_219_2012.jpg/960px-Heinkel_219_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 547,
+        "originalWidth": 1857,
+        "originalHeight": 1058,
+        "mime": "image/jpeg",
+        "author": "Unknown author",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "He 219",
+        "dateTaken": "2015-04-02 19:50:57",
+        "chosenFrom": "seed",
+        "credit": "Unknown author / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:47.476Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "me323",
+      "name": "Messerschmitt Me 323 Gigant",
+      "label": "Messerschmitt Me 323 Gigant",
+      "group": "military-transport-special",
+      "use": "military",
+      "category": "transport",
+      "engine": "piston",
+      "description": "German military transport aircraft of World War II",
+      "summary": "The Messerschmitt Me 323 Gigant (\"Giant\") was a German military transport aircraft of World War II. It was a powered variant of the Me 321 military glider and was the largest land-based transport aircraft to fly during the war. In total, 198 were made, with 15 being converted from the Me 321.",
+      "role": "Heavy transport",
+      "manufacturer": [
+        "Messerschmitt"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1942-01-20",
+      "introduced": "1942",
+      "status": null,
+      "numberBuilt": 201,
+      "wikipedia": {
+        "title": "Messerschmitt Me 323 Gigant",
+        "url": "https://en.wikipedia.org/wiki/Messerschmitt_Me_323_Gigant",
+        "pageId": 547881,
+        "revisionId": 1377301500
+      },
+      "wikidataId": "Q723296",
+      "photo": {
+        "file": "assets/aircraft/me323.jpg",
+        "sourceFile": "File:Messerschmitt Me323.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me323.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Messerschmitt_Me323.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Messerschmitt_Me323.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 960,
+        "height": 464,
+        "originalWidth": 925,
+        "originalHeight": 447,
+        "mime": "image/jpeg",
+        "author": "Royal Air Force official photographer",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Messerschmitt Me 323 \"Gigant\" in flight.",
+        "dateTaken": "Unknown date",
+        "chosenFrom": "seed",
+        "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:48.348Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "me262",
+      "name": "Messerschmitt Me 262",
+      "label": "Messerschmitt Me 262",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "First operational jet-powered fighter aircraft",
+      "summary": "The Messerschmitt Me 262, nicknamed Schwalbe in fighter versions, or Sturmvogel in fighter-bomber versions, is a fighter aircraft and fighter-bomber that was designed and produced by the German aircraft manufacturer Messerschmitt. It was the world's first operational jet-powered fighter aircraft and one of two jet fighter aircraft types to see air-to-air combat in World War II, the other being the Heinkel He 162.",
+      "role": "Fighter aircraft and fighter-bomber",
+      "manufacturer": [
+        "Messerschmitt"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1942-07-18",
+      "introduced": "1944",
+      "status": null,
+      "numberBuilt": 1433,
+      "wikipedia": {
+        "title": "Messerschmitt Me 262",
+        "url": "https://en.wikipedia.org/wiki/Messerschmitt_Me_262",
+        "pageId": 20488,
+        "revisionId": 1380448191
+      },
+      "wikidataId": "Q140254",
+      "photo": {
+        "file": "assets/aircraft/me262.jpg",
+        "sourceFile": "File:Messerschmitt Me 262A at the National Museum of the USAF (cropped).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg/960px-Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 434,
+        "originalWidth": 1759,
+        "originalHeight": 795,
+        "mime": "image/jpeg",
+        "author": "USAF museum",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "DAYTON, Ohio -- Messerschmitt Me 262A at the National Museum of the United States Air Force. (U.S. Air Force photo)",
+        "dateTaken": "29 September 2007 (original upload date)",
+        "chosenFrom": "seed",
+        "credit": "USAF museum / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:49.301Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "he162",
+      "name": "Heinkel He 162 Volksjäger",
+      "label": "Heinkel He 162 Volksjäger",
+      "group": "fighter-attack",
+      "use": "military",
+      "category": "fighter",
+      "engine": "jet",
+      "description": "Interceptor jet aircraft, German, WW2",
+      "summary": "The Heinkel He 162 Volksjäger is a German single-engine, jet-powered fighter aircraft used by the Luftwaffe late in World War II. Developed under the Emergency Fighter Program, it was designed and built quickly and made primarily of wood as metals were in very short supply and prioritised for other aircraft. Volksjäger was the Reich Air Ministry's official name for the government design program competition which was won by the He 162 design. Other names include Salamander, which was the codename of its wing-construction program, and Spatz (\"Sparrow\"), which was the name given to the aircraft by Heinkel.",
+      "role": "Jet fighter",
+      "manufacturer": [
+        "Heinkel"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1944-12-06",
+      "introduced": "1945-01",
+      "status": null,
+      "numberBuilt": 320,
+      "wikipedia": {
+        "title": "Heinkel He 162 Volksjäger",
+        "url": "https://en.wikipedia.org/wiki/Heinkel_He_162_Volksj%C3%A4ger",
+        "pageId": 153227,
+        "revisionId": 1378217962
+      },
+      "wikidataId": "Q156878",
+      "photo": {
+        "file": "assets/aircraft/he162.jpg",
+        "sourceFile": "File:Heinkel, He 162, Spatz Volksjager (7585406720).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Heinkel,_He_162,_Spatz_Volksjager_(7585406720).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Heinkel%2C_He_162%2C_Spatz_Volksjager_%287585406720%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Heinkel%2C_He_162%2C_Spatz_Volksjager_%287585406720%29.jpg/960px-Heinkel%2C_He_162%2C_Spatz_Volksjager_%287585406720%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 717,
+        "originalWidth": 1920,
+        "originalHeight": 1434,
+        "mime": "image/jpeg",
+        "author": "SDASM Archives",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "He 162 San Diego Air and Space Museum Archive",
+        "dateTaken": "2012-07-16 13:30",
+        "chosenFrom": "seed",
+        "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:50.322Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "ar234",
+      "name": "Arado Ar 234 Blitz",
+      "label": "Arado Ar 234 Blitz",
+      "group": "bomber",
+      "use": "military",
+      "category": "bomber",
+      "engine": "jet",
+      "description": "German jet-powered bomber",
+      "summary": "The Arado Ar 234 Blitz (\"Lightning\") is a jet-powered bomber designed and produced by the German aircraft manufacturer Arado. It was the world's first operational turbojet-powered bomber, seeing service during the final months of the Second World War.",
+      "role": "Reconnaissance / bomber",
+      "manufacturer": [
+        "Arado Flugzeugwerke"
+      ],
+      "designer": "Walter Blume",
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1943-06-15",
+      "introduced": "1944-09",
+      "status": null,
+      "numberBuilt": 244,
+      "wikipedia": {
+        "title": "Arado Ar 234 Blitz",
+        "url": "https://en.wikipedia.org/wiki/Arado_Ar_234_Blitz",
+        "pageId": 180834,
+        "revisionId": 1377534037
+      },
+      "wikidataId": "Q157335",
+      "photo": {
+        "file": "assets/aircraft/ar234.jpg",
+        "sourceFile": "File:Arado Ar 234 on ground c1945.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Arado_Ar_234_on_ground_c1945.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Arado_Ar_234_on_ground_c1945.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Arado_Ar_234_on_ground_c1945.jpg/960px-Arado_Ar_234_on_ground_c1945.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 622,
+        "originalWidth": 1300,
+        "originalHeight": 842,
+        "mime": "image/jpeg",
+        "author": "Royal Air Force official photographer",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A German Arado Ar 234B-2 \"Blitz\" (Wk.Nr. 140112) jet bomber and reconnaissance aircraft. This aircraft first flew in July 1944 (GM+BL). It was the first production machine to be fitted with two Rb 50/30 cameras and went operational as \"T9+GH\" in August 1944.",
+        "dateTaken": "circa 1945date QS:P,+1945-00-00T00:00:00Z/9,P1480,Q5727902",
+        "chosenFrom": "seed",
+        "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:51.260Z",
+      "overridden": [
+        "countryOfOrigin"
+      ]
+    },
+    {
+      "id": "bo105",
+      "name": "MBB Bo 105",
+      "label": "MBB Bo 105",
+      "group": "helicopter",
+      "use": "military",
+      "category": "utility-helicopter",
+      "engine": "turboshaft",
+      "description": "Helicopter made by Bölkow",
+      "summary": "The Messerschmitt-Bölkow-Blohm Bo 105 is a light, twin-engine, multi-purpose helicopter developed by Bölkow of Ottobrunn, West Germany. It was the first light twin-engine helicopter in the world, and the first rotorcraft that could perform aerobatic maneuvers such as inverted loops. The Bo 105 features a hingeless rotor system, a pioneering innovation in helicopters when it was introduced into service in 1970. Production of the Bo 105 began at the then-recently merged Messerschmitt-Bölkow-Blohm (MBB).",
+      "role": "Light utility helicopter",
+      "manufacturer": [
+        "Airbus Helicopters",
+        "Messerschmitt-Bölkow-Blohm",
+        "Bölkow"
+      ],
+      "designer": null,
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "firstFlight": "1967-02-16",
+      "introduced": "1970",
+      "status": "In service",
+      "numberBuilt": "1640 (total); 1404 (German production)",
+      "wikipedia": {
+        "title": "MBB Bo 105",
+        "url": "https://en.wikipedia.org/wiki/MBB_Bo_105",
+        "pageId": 1716038,
+        "revisionId": 1379031966
+      },
+      "wikidataId": "Q835768",
+      "photo": {
+        "file": "assets/aircraft/bo105.jpg",
+        "sourceFile": "File:MBB BO-105 Mexican Navy.JPEG",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MBB_BO-105_Mexican_Navy.JPEG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/MBB_BO-105_Mexican_Navy.JPEG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/MBB_BO-105_Mexican_Navy.JPEG/960px-MBB_BO-105_Mexican_Navy.JPEG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 960,
+        "height": 630,
+        "originalWidth": 2000,
+        "originalHeight": 1312,
+        "mime": "image/jpeg",
+        "author": "PH1 MARTIN MADDOCK, USN",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "attributionRequired": false,
+        "free": true,
+        "caption": "A Mexican Navy MBB BO-105CB helicopter lands on deck of the US Navy (USN) Guided Missile Cruiser USS YORKTOWN (CG 48) during the 43rd annual UNITAS exercise. UNITAS is the largest multi-national naval exercise conducted with naval forces from the Caribbean Sea, South and Central America and the USN.",
+        "dateTaken": "2002-02-26",
+        "chosenFrom": "seed",
+        "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
+      },
+      "retrievedAt": "2026-10-20T00:19:52.341Z",
       "overridden": [
         "countryOfOrigin"
       ]

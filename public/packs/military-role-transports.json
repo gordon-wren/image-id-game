@@ -106,12 +106,12 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -535,8 +535,8 @@
           "label": "Kawasaki C-1"
         },
         {
-          "id": "an2",
-          "label": "Antonov An-2"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         }
       ],
       "caption": "Japanese transport aircraft. First flew 1940.",
@@ -581,12 +581,12 @@
           "label": "Antonov An-12"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
-        },
-        {
           "id": "c47",
           "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         }
       ],
       "caption": "Soviet single-engine civilian aircraft. First flew 1947.",
@@ -666,6 +666,56 @@
       ],
       "caption": "Soviet turboprop transport aircraft. First flew 1969.",
       "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-me323",
+      "image": "me323.jpg",
+      "answer": "me323",
+      "options": [
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        }
+      ],
+      "caption": "German military transport aircraft of World War II. First flew 1942.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
     }
   ]
 }

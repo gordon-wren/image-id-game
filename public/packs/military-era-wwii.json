@@ -131,12 +131,12 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "p38",
-          "label": "Lockheed P-38 Lightning"
-        },
-        {
           "id": "b25",
           "label": "North American B-25 Mitchell"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
         }
       ],
       "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
@@ -181,8 +181,8 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "b7a",
-          "label": "Aichi B7A Ryūsei"
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
         },
         {
           "id": "ki100",
@@ -531,8 +531,8 @@
           "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "sbd",
-          "label": "Douglas SBD Dauntless"
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
         },
         {
           "id": "c46",
@@ -560,8 +560,8 @@
           "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
         }
       ],
       "caption": "U.S. military transport aircraft with 2 piston engines, 1940. First flew 1940.",
@@ -581,12 +581,12 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "ki57",
-          "label": "Mitsubishi Ki-57"
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         }
       ],
       "caption": "Military transport aircraft derived from DC-4. First flew 1942.",
@@ -631,12 +631,12 @@
           "label": "Lockheed P-80 Shooting Star"
         },
         {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
         }
       ],
       "caption": "First jet aircraft of the United States. First flew 1942.",
@@ -656,12 +656,12 @@
           "label": "Bell P-59 Airacomet"
         },
         {
-          "id": "p47",
-          "label": "Republic P-47 Thunderbolt"
+          "id": "r4",
+          "label": "Sikorsky R-4"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "p47",
+          "label": "Republic P-47 Thunderbolt"
         }
       ],
       "caption": "First jet aircraft in U.S. operational service. First flew 1944.",
@@ -1181,8 +1181,8 @@
           "label": "Mitsubishi Ki-57"
         },
         {
-          "id": "ki67",
-          "label": "Mitsubishi Ki-67"
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
         },
         {
           "id": "f1m",
@@ -1256,8 +1256,8 @@
           "label": "Mitsubishi Ki-57"
         },
         {
-          "id": "a6m",
-          "label": "Mitsubishi A6M Zero"
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
         },
         {
           "id": "h8k",
@@ -1331,12 +1331,12 @@
           "label": "Petlyakov Pe-8"
         },
         {
-          "id": "ki61",
-          "label": "Kawasaki Ki-61"
+          "id": "hs129",
+          "label": "Henschel Hs 129"
         },
         {
-          "id": "b7a",
-          "label": "Aichi B7A Ryūsei"
+          "id": "ki61",
+          "label": "Kawasaki Ki-61"
         }
       ],
       "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
@@ -1491,6 +1491,356 @@
       ],
       "caption": "Soviet heavy bomber aircraft. First flew 1936.",
       "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-bf110",
+      "image": "bf110.jpg",
+      "answer": "bf110",
+      "options": [
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "1936 heavy fighter family by Messerschmitt. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-fw190",
+      "image": "fw190.jpg",
+      "answer": "fw190",
+      "options": [
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        }
+      ],
+      "caption": "1939 fighter aircraft family by Focke-Wulf. First flew 1939.",
+      "credit": "RAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-ju88",
+      "image": "ju88.jpg",
+      "answer": "ju88",
+      "options": [
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        }
+      ],
+      "caption": "German twin engine multirole combat aircraft. First flew 1936.",
+      "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-do217",
+      "image": "do217.jpg",
+      "answer": "do217",
+      "options": [
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        }
+      ],
+      "caption": "1940 bomber aircraft family by Dornier. First flew 1938.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-he177",
+      "image": "he177.jpg",
+      "answer": "he177",
+      "options": [
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "German heavy bomber during WW2. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-bv138",
+      "image": "bv138.jpg",
+      "answer": "bv138",
+      "options": [
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        }
+      ],
+      "caption": "1937 flying boat family by Blohm & Voss. First flew 1937.",
+      "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-fw189",
+      "image": "fw189.jpg",
+      "answer": "fw189",
+      "options": [
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        }
+      ],
+      "caption": "German twin-engine twin-boom reconnaissance aircraft. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-hs129",
+      "image": "hs129.jpg",
+      "answer": "hs129",
+      "options": [
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "ki48",
+          "label": "Kawasaki Ki-48"
+        }
+      ],
+      "caption": "German twin engine WWII ground attack aircraft. First flew 1939.",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-me410",
+      "image": "me410.jpg",
+      "answer": "me410",
+      "options": [
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "German fighter-bomber. First flew 1942.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-he219",
+      "image": "he219.jpg",
+      "answer": "he219",
+      "options": [
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        }
+      ],
+      "caption": "German night fighter of World War II. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-me323",
+      "image": "me323.jpg",
+      "answer": "me323",
+      "options": [
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        }
+      ],
+      "caption": "German military transport aircraft of World War II. First flew 1942.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-me262",
+      "image": "me262.jpg",
+      "answer": "me262",
+      "options": [
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "p59",
+          "label": "Bell P-59 Airacomet"
+        }
+      ],
+      "caption": "First operational jet-powered fighter aircraft. First flew 1942.",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-he162",
+      "image": "he162.jpg",
+      "answer": "he162",
+      "options": [
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "p80",
+          "label": "Lockheed P-80 Shooting Star"
+        }
+      ],
+      "caption": "Interceptor jet aircraft, German, WW2. First flew 1944.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwii-ar234",
+      "image": "ar234.jpg",
+      "answer": "ar234",
+      "options": [
+        {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "German jet-powered bomber. First flew 1943.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
     }
   ]
 }
