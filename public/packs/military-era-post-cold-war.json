@@ -165,7 +165,7 @@
         }
       ],
       "caption": "American stealth air superiority fighter. First flew 1997.",
-      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-era-post-cold-war-fa18ef",
@@ -335,8 +335,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -360,8 +360,8 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -381,12 +381,12 @@
           "label": "Kawasaki OH-1"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "uh72",
+          "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "tiger",
-          "label": "Eurocopter Tiger"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         }
       ],
       "caption": "Multi-role helicopter family by AgustaWestland. First flew 1987.",
@@ -535,8 +535,8 @@
           "label": "Kawasaki OH-1"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -560,8 +560,8 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "rq4",
-          "label": "Northrop Grumman RQ-4 Global Hawk"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         }
       ],
       "caption": "Military utility helicopter model by Bell. First flew 2001.",
@@ -631,8 +631,8 @@
           "label": "AgustaWestland AW101"
         },
         {
-          "id": "us2",
-          "label": "ShinMaywa US-2"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         },
         {
           "id": "ka50",
@@ -716,6 +716,31 @@
       ],
       "caption": "Japanese amphibious aircraft. First flew 2003.",
       "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-post-cold-war-mi28",
+      "image": "mi28.jpg",
+      "answer": "mi28",
+      "options": [
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "ka50",
+          "label": "Kamov Ka-50"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "aw101",
+          "label": "AgustaWestland AW101"
+        }
+      ],
+      "caption": "Russian attack helicopter. First flew 1982.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

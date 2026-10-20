@@ -131,12 +131,12 @@
           "label": "Boeing F-15EX Eagle II"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
-        },
-        {
           "id": "ch53k",
           "label": "Sikorsky CH-53K King Stallion"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
         }
       ],
       "caption": "American stealth multirole fighter aircraft. First flew 2006.",
@@ -156,12 +156,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
-        },
-        {
           "id": "tejas",
           "label": "HAL Tejas"
+        },
+        {
+          "id": "j20",
+          "label": "Chengdu J-20"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -181,8 +181,8 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "j20",
+          "label": "Chengdu J-20"
         },
         {
           "id": "kf21",
@@ -210,8 +210,8 @@
           "label": "KAI KF-21 Boramae"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
+          "id": "su34",
+          "label": "Sukhoi Su-34"
         }
       ],
       "caption": "Chinese stealth fighter aircraft. First flew 2011.",
@@ -360,8 +360,8 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "tejas",
-          "label": "HAL Tejas"
+          "id": "su34",
+          "label": "Sukhoi Su-34"
         }
       ],
       "caption": "American multirole fighter aircraft. First flew 2013.",
@@ -416,6 +416,56 @@
       ],
       "caption": "Japanese maritime patrol aircraft. First flew 2007.",
       "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-su34",
+      "image": "su34.jpg",
+      "answer": "su34",
+      "options": [
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        },
+        {
+          "id": "f15ex",
+          "label": "Boeing F-15EX Eagle II"
+        }
+      ],
+      "caption": "Russian fighter-bomber aircraft. First flew 1990.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-modern-yak130",
+      "image": "yak130.jpg",
+      "answer": "yak130",
+      "options": [
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        }
+      ],
+      "caption": "Russian light combat aircraft. First flew 1996.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     }
   ]
 }

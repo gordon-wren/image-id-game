@@ -81,12 +81,12 @@
           "label": "Airco DH.4"
         },
         {
-          "id": "curtiss-h16",
-          "label": "Curtiss Model H"
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
         },
         {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
+          "id": "curtiss-h16",
+          "label": "Curtiss Model H"
         }
       ],
       "caption": "American large biplane bomber. First flew 1918.",
@@ -102,16 +102,16 @@
           "label": "Airco DH.4"
         },
         {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
           "id": "martin-mb1",
           "label": "Martin MB-1"
-        },
-        {
-          "id": "thomas-morse-s4",
-          "label": "Thomas-Morse S-4"
-        },
-        {
-          "id": "curtiss-h16",
-          "label": "Curtiss Model H"
         }
       ],
       "caption": "British bomber used during the First World War. First flew 1916.",
@@ -131,16 +131,166 @@
           "label": "Martin MB-1"
         },
         {
-          "id": "dh4-us",
-          "label": "Airco DH.4"
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
         },
         {
-          "id": "jn4",
-          "label": "Curtiss JN Jenny"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "American 1914 long range flying boat. First flew 1914.",
       "credit": "MoD Photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-fokker-e3",
+      "image": "fokker-e3.jpg",
+      "answer": "fokker-e3",
+      "options": [
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        }
+      ],
+      "caption": "Fighter aircraft used in World War I. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-albatros-d3",
+      "image": "albatros-d3.jpg",
+      "answer": "albatros-d3",
+      "options": [
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        }
+      ],
+      "caption": "1916 fighter aircraft by Albatros. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-fokker-dr1",
+      "image": "fokker-dr1.jpg",
+      "answer": "fokker-dr1",
+      "options": [
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        }
+      ],
+      "caption": "WWI fighter aircraft. First flew 1917.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-fokker-d7",
+      "image": "fokker-d7.jpg",
+      "answer": "fokker-d7",
+      "options": [
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        }
+      ],
+      "caption": "1918 fighter aircraft model by Fokker. First flew 1918.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-junkers-j1",
+      "image": "junkers-j1.jpg",
+      "answer": "junkers-j1",
+      "options": [
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        }
+      ],
+      "caption": "1917 attack aircraft by Junkers. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-wwi-gotha-g5",
+      "image": "gotha-g5.jpg",
+      "answer": "gotha-g5",
+      "options": [
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "martin-mb1",
+          "label": "Martin MB-1"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        }
+      ],
+      "caption": "Heavy bomber aircraft. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

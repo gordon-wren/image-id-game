@@ -48,6 +48,7 @@ for (const a of approved) {
   const overrides = {
     countryOfOrigin: [country],
     ...(a.introducedByHand ? { introduced: String(a.introduced) } : {}),
+    ...(a.firstFlightByHand ? { firstFlight: String(a.firstFlight) } : {}),
   };
   seed.push({
     id: a.id,
@@ -58,6 +59,7 @@ for (const a of approved) {
     category: a.category,
     engine: a.engine,
     photo: a.photo.file,
+    ...(a.photoAuthor ? { photoAuthor: a.photoAuthor } : {}),
     overrides,
   });
 }

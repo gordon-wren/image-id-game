@@ -115,7 +115,7 @@
         }
       ],
       "caption": "American stealth air superiority fighter. First flew 1997.",
-      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-decade-2000s-fa18ef",
@@ -227,16 +227,16 @@
           "label": "Kamov Ka-52 Alligator"
         },
         {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
           "id": "tiger",
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "oh1",
-          "label": "Kawasaki OH-1"
-        },
-        {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         }
       ],
       "caption": "Two-seat Russian attack helicopter, developed from the Ka-50. First flew 1997.",
@@ -256,8 +256,8 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "uh1y",
@@ -281,8 +281,8 @@
           "label": "Kamov Ka-52 Alligator"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
         },
         {
           "id": "typhoon",
@@ -360,8 +360,8 @@
           "label": "Kawasaki OH-1"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -381,8 +381,8 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "aw101",
-          "label": "AgustaWestland AW101"
+          "id": "mi28",
+          "label": "Mil Mi-28"
         },
         {
           "id": "ka52",
@@ -460,8 +460,8 @@
           "label": "Eurocopter UH-72 Lakota"
         },
         {
-          "id": "mitsubishi-f2",
-          "label": "Mitsubishi F-2"
+          "id": "us2",
+          "label": "ShinMaywa US-2"
         }
       ],
       "caption": "Japanese scout/observation helicopter. First flew 1996.",
@@ -541,6 +541,31 @@
       ],
       "caption": "Japanese amphibious aircraft. First flew 2003.",
       "credit": "U.S. Air Force photo by Airman 1st Class Yosselin Perla / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2000s-mi28",
+      "image": "mi28.jpg",
+      "answer": "mi28",
+      "options": [
+        {
+          "id": "mi28",
+          "label": "Mil Mi-28"
+        },
+        {
+          "id": "ka52",
+          "label": "Kamov Ka-52 Alligator"
+        },
+        {
+          "id": "uh1y",
+          "label": "Bell UH-1Y Venom"
+        },
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
+        }
+      ],
+      "caption": "Russian attack helicopter. First flew 1982.",
+      "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     }
   ]
 }

@@ -3371,5 +3371,1039 @@
         "Japan"
       ]
     }
+  },
+  {
+    "id": "i15",
+    "wikipediaTitle": "Polikarpov I-15",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Polikarpov I-15 at the MAKS-2013 (01).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "i16",
+    "wikipediaTitle": "Polikarpov I-16",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Soviet volunteer.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "po2",
+    "wikipediaTitle": "Polikarpov Po-2",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Polikarpov Po-2 at the MAKS-2013 (01).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "tb3",
+    "wikipediaTitle": "Tupolev TB-3",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Tupolev TB-3.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mig3",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-3",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:MiG-3.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "yak9",
+    "wikipediaTitle": "Yakovlev Yak-9",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Yak-9U at Central Air Force Museum Monino pic1.JPG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "la5",
+    "wikipediaTitle": "Lavochkin La-5",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Советский истребитель Ла-5Ф В. Расторгуева в полете.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "il2",
+    "wikipediaTitle": "Ilyushin Il-2",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Il2 sturmovik.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "pe2",
+    "wikipediaTitle": "Petlyakov Pe-2",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Petlyakov Pe-2 at Poltava, Russia.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "tu2",
+    "wikipediaTitle": "Tupolev Tu-2",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Soviet TU-2 Bomber (9871622634).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "pe8",
+    "wikipediaTitle": "Petlyakov Pe-8",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Tupolev TB-7 (Ant-42, Pe-8) (14260356248).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "yak18",
+    "wikipediaTitle": "Yakovlev Yak-18",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Yakovlev Yak-18A.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "an2",
+    "wikipediaTitle": "Antonov An-2",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Antonov.an-2.ha-mkf.arp.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mi4",
+    "wikipediaTitle": "Mil Mi-4",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "piston",
+    "photo": "File:Mi-4-JH01 (remix).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mig15",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-15",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:MiG-15 USAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "U.S. Air Force"
+  },
+  {
+    "id": "mig17",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-17",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:MiG-17 Takes to the Sky (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mig19",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-19",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Mikoyan-Gurevich MiG-19S Farmer USAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "il28",
+    "wikipediaTitle": "Ilyushin Il-28",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Ił 28 (2).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "tu16",
+    "wikipediaTitle": "Tupolev Tu-16",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Tupolev Tu-16 flies over USS Hewitt (DD-966) c1978.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "m4",
+    "wikipediaTitle": "Myasishchev M-4",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Soviet M-4 Bison bomber in flight 1982.JPEG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "an12",
+    "wikipediaTitle": "Antonov An-12",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop",
+    "photo": "File:Antonov An-12BK, Russia - Air Force AN1879625.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mi6",
+    "wikipediaTitle": "Mil Mi-6",
+    "group": "helicopter",
+    "use": "military",
+    "category": "cargo-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:Mi-6.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "Jno (Wikimedia Commons)"
+  },
+  {
+    "id": "su7",
+    "wikipediaTitle": "Sukhoi Su-7",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Su-7B Fitter A.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "tu22",
+    "wikipediaTitle": "Tupolev Tu-22",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Энгельс Ту-22РДМ-18 фото 1.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "yak28",
+    "wikipediaTitle": "Yakovlev Yak-28",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:YaK 28 \"Brewer C\".jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "su15",
+    "wikipediaTitle": "Sukhoi Su-15",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Su-15 Flagon.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "U.S. Department of Defense"
+  },
+  {
+    "id": "be12",
+    "wikipediaTitle": "Beriev Be-12",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "turboprop",
+    "photo": "File:Be-12P-200.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "Jno (Wikimedia Commons)"
+  },
+  {
+    "id": "an22",
+    "wikipediaTitle": "Antonov An-22",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop",
+    "photo": "File:Antonov An-22 Antei CCCP-67691.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "ka25",
+    "wikipediaTitle": "Kamov Ka-25",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:Soviet Ka-25 Hormone-C (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "il38",
+    "wikipediaTitle": "Ilyushin Il-38",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "turboprop",
+    "photo": "File:Soviet Il-38 May passing low over USS Midway (CV-41).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "firstFlight": "1961"
+    }
+  },
+  {
+    "id": "mi14",
+    "wikipediaTitle": "Mil Mi-14",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:Manewry NATO Noble Mariner (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "an26",
+    "wikipediaTitle": "Antonov An-26",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "turboprop",
+    "photo": "File:Hungarian Air Force Antonov An-26 departs RIAT 14thJuly2014 arp.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mig23",
+    "wikipediaTitle": "Mikoyan-Gurevich MiG-23",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Mig-23-DNST8908431 JPG.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "su17",
+    "wikipediaTitle": "Sukhoi Su-17",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Sukhoi Su-22 Fitter.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "su24",
+    "wikipediaTitle": "Sukhoi Su-24",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Su-24 Fencer left side.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "U.S. Department of Defense"
+  },
+  {
+    "id": "yak38",
+    "wikipediaTitle": "Yakovlev Yak-38",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Yak-38 Forger Gear Down.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    },
+    "photoAuthor": "U.S. Navy"
+  },
+  {
+    "id": "yak52",
+    "wikipediaTitle": "Yakovlev Yak-52",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Yakkes Yak-52 RA-3085K.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ],
+      "introduced": "1979"
+    }
+  },
+  {
+    "id": "su25",
+    "wikipediaTitle": "Sukhoi Su-25",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Ukrainian Air Force Su-25UB with two MiG-29s (9-13) in background.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "ka27",
+    "wikipediaTitle": "Kamov Ka-27",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:A Russian Helix KA-27 (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "a50",
+    "wikipediaTitle": "Beriev A-50",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "airborne-early-warning",
+    "engine": "jet",
+    "photo": "File:Airborne early warning and control aircraft A-50U (Red 41).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "mi28",
+    "wikipediaTitle": "Mil Mi-28",
+    "group": "helicopter",
+    "use": "military",
+    "category": "attack-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:Russian Air Force, RF-13489, Mil Mi-28NM (49581609382).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Soviet Union"
+      ]
+    }
+  },
+  {
+    "id": "su34",
+    "wikipediaTitle": "Sukhoi Su-34",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "attack",
+    "engine": "jet",
+    "photo": "File:Sukhoi Su-34 at the MAKS-2013 (03).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Russia"
+      ]
+    }
+  },
+  {
+    "id": "yak130",
+    "wikipediaTitle": "Yakovlev Yak-130",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "jet",
+    "photo": "File:Yak-130.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Russia"
+      ]
+    },
+    "photoAuthor": "Jno (Wikimedia Commons)"
+  },
+  {
+    "id": "fokker-e3",
+    "wikipediaTitle": "Fokker E.III",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker Eindecker takeoff profile view.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "albatros-d3",
+    "wikipediaTitle": "Albatros D.III",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Albad3.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fokker-dr1",
+    "wikipediaTitle": "Fokker Dr.I",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker Dr.I 160 17.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "introduced": "1917"
+    }
+  },
+  {
+    "id": "fokker-d7",
+    "wikipediaTitle": "Fokker D.VII",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker D. VII USAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "introduced": "1918"
+    }
+  },
+  {
+    "id": "junkers-j1",
+    "wikipediaTitle": "Junkers J.I",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Junkers JI.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "gotha-g5",
+    "wikipediaTitle": "Gotha G.V",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:GothaG5.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he51",
+    "wikipediaTitle": "Heinkel He 51",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Истребитель Heinkel He-51B.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju52",
+    "wikipediaTitle": "Junkers Ju 52",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Junkers Ju 52 (BJ+Yx) '24' (1).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bu131",
+    "wikipediaTitle": "Bücker Bü 131 Jungmann",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Bücker Bü 131 A Jungmann 'D-EXIR' ca. 1935 (a).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fi156",
+    "wikipediaTitle": "Fieseler Fi 156 Storch",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Air Vice Marshal Broadhurst in his Fi 156 Italy c1943.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bf110",
+    "wikipediaTitle": "Messerschmitt Bf 110",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Me110G4 2.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw190",
+    "wikipediaTitle": "Focke-Wulf Fw 190",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fw 190A-3 JG 2 in Britain 1942.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju87",
+    "wikipediaTitle": "Junkers Ju 87",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Junkers JU-87 'Stuka' in-flight display side view.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju88",
+    "wikipediaTitle": "Junkers Ju 88",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Junkers Ju 88 G-6 in Dübendorf (Ans 05035-258).jpg",
+    "photoAuthor": "ETH-Bibliothek Zürich, Bildarchiv",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he111",
+    "wikipediaTitle": "Heinkel He 111",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 101I-343-0694-21, Belgien-Frankreich, Flugzeug Heinkel He 111.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "do17",
+    "wikipediaTitle": "Dornier Do 17",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 101I-342-0603-25, Belgien-Frankreich, Flugzeuge Dornier Do 17.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "do217",
+    "wikipediaTitle": "Dornier Do 217",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Do 217E-2 NAN15Jul43.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he177",
+    "wikipediaTitle": "Heinkel He 177 Greif",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Heinkel He 177A-02 in flight 1942.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw200",
+    "wikipediaTitle": "Focke-Wulf Fw 200 Condor",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 146-1978-043-02, Focke-Wulf Fw 200 C Condor.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ar196",
+    "wikipediaTitle": "Arado Ar 196",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Arado Ar 196A-2 taxiing 1940.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bv138",
+    "wikipediaTitle": "Blohm & Voss BV 138",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Blohm und Voss Bv138.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw189",
+    "wikipediaTitle": "Focke-Wulf Fw 189 Uhu",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Focke Wulf Fw189 (2).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "hs129",
+    "wikipediaTitle": "Henschel Hs 129",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Henschel Hs 129B.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me410",
+    "wikipediaTitle": "Messerschmitt Me 410 Hornisse",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Me 410.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he219",
+    "wikipediaTitle": "Heinkel He 219 Uhu",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Heinkel 219 2012.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me323",
+    "wikipediaTitle": "Messerschmitt Me 323 Gigant",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Messerschmitt Me323.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me262",
+    "wikipediaTitle": "Messerschmitt Me 262",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Messerschmitt Me 262A at the National Museum of the USAF (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he162",
+    "wikipediaTitle": "Heinkel He 162 Volksjäger",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Heinkel, He 162, Spatz Volksjager (7585406720).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ar234",
+    "wikipediaTitle": "Arado Ar 234 Blitz",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Arado Ar 234 on ground c1945.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bo105",
+    "wikipediaTitle": "MBB Bo 105",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:MBB BO-105 Mexican Navy.JPEG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
   }
 ]

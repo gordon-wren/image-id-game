@@ -31,12 +31,12 @@
           "label": "McDonnell Douglas T-45 Goshawk"
         },
         {
-          "id": "fuji-t1",
-          "label": "Fuji T-1"
+          "id": "t37",
+          "label": "Cessna T-37 Tweet"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -56,8 +56,8 @@
           "label": "Fuji T-1"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
         },
         {
           "id": "hawk",
@@ -106,12 +106,12 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "t33",
+          "label": "Lockheed T-33"
         },
         {
-          "id": "t37",
-          "label": "Cessna T-37 Tweet"
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -156,8 +156,8 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "consolidated-pt1",
-          "label": "Consolidated PT-1 Trusty"
+          "id": "t38",
+          "label": "Northrop T-38 Talon"
         },
         {
           "id": "stearman",
@@ -235,8 +235,8 @@
           "label": "Thomas-Morse S-4"
         },
         {
-          "id": "t6-texan-ii",
-          "label": "Beechcraft T-6 Texan II"
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -306,12 +306,12 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "t7",
-          "label": "Boeing–Saab T-7 Red Hawk"
+          "id": "kawasaki-t4",
+          "label": "Kawasaki T-4"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
         }
       ],
       "caption": "US carrier-based military training aircraft developed from British BAE Hawk. First flew 1988.",
@@ -331,12 +331,12 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "fuji-t7",
-          "label": "Fuji T-7"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         }
       ],
       "caption": "US military training aircraft based on Beechjet/Hawker 400A. First flew 1992.",
@@ -385,8 +385,8 @@
           "label": "Beechcraft T-6 Texan II"
         },
         {
-          "id": "t33",
-          "label": "Lockheed T-33"
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
         }
       ],
       "caption": "US-Swedish advanced pilot training aircraft. First flew 2016.",
@@ -406,12 +406,12 @@
           "label": "Fuji T-1"
         },
         {
-          "id": "fuji-t7",
-          "label": "Fuji T-7"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "kawasaki-t4",
-          "label": "Kawasaki T-4"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -456,12 +456,12 @@
           "label": "Fuji T-1"
         },
         {
-          "id": "t38",
-          "label": "Northrop T-38 Talon"
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
         },
         {
-          "id": "fuji-t7",
-          "label": "Fuji T-7"
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
         }
       ],
       "caption": "Japanese supersonic jet trainer aircraft. First flew 1971.",
@@ -481,8 +481,8 @@
           "label": "Fuji T-7"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         },
         {
           "id": "t1",
@@ -516,6 +516,131 @@
       ],
       "caption": "Japanese military trainer aircraft. First flew 2002.",
       "credit": "mod.go.jp / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-po2",
+      "image": "po2.jpg",
+      "answer": "po2",
+      "options": [
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
+        }
+      ],
+      "caption": "All-weather multirole Soviet biplane. First flew 1927.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-yak18",
+      "image": "yak18.jpg",
+      "answer": "yak18",
+      "options": [
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        },
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        }
+      ],
+      "caption": "Training aircraft in the Soviet Union. First flew 1946.",
+      "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-yak52",
+      "image": "yak52.jpg",
+      "answer": "yak52",
+      "options": [
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "alpha-jet",
+          "label": "Dassault/Dornier Alpha Jet"
+        },
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        }
+      ],
+      "caption": "Soviet military training aircraft. First flew 1976.",
+      "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-yak130",
+      "image": "yak130.jpg",
+      "answer": "yak130",
+      "options": [
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
+        },
+        {
+          "id": "t6-texan-ii",
+          "label": "Beechcraft T-6 Texan II"
+        }
+      ],
+      "caption": "Russian light combat aircraft. First flew 1996.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

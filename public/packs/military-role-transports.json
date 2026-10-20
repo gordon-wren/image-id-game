@@ -106,12 +106,12 @@
           "label": "Embraer C-390 Millennium"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "v22",
+          "label": "Bell–Boeing V-22 Osprey"
         },
         {
-          "id": "kc46",
-          "label": "Boeing KC-46 Pegasus"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         }
       ],
       "caption": "Multi-national four-engine turboprop military transport aircraft. First flew 2009.",
@@ -131,12 +131,12 @@
           "label": "Antonov An-225 Mriya"
         },
         {
-          "id": "c141",
-          "label": "Lockheed C-141 Starlifter"
+          "id": "kc10",
+          "label": "McDonnell Douglas KC-10 Extender"
         },
         {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
+          "id": "il76",
+          "label": "Ilyushin Il-76"
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
@@ -156,12 +156,12 @@
           "label": "Antonov An-124 Ruslan"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "an26",
+          "label": "Antonov An-26"
         },
         {
-          "id": "c130j",
-          "label": "Lockheed Martin C-130J Super Hercules"
+          "id": "il76",
+          "label": "Ilyushin Il-76"
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
@@ -177,16 +177,16 @@
           "label": "Ilyushin Il-76"
         },
         {
-          "id": "an124",
-          "label": "Antonov An-124 Ruslan"
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
         },
         {
           "id": "c141",
           "label": "Lockheed C-141 Starlifter"
-        },
-        {
-          "id": "c17",
-          "label": "Boeing C-17 Globemaster III"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -535,8 +535,8 @@
           "label": "Kawasaki C-1"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
         }
       ],
       "caption": "Japanese transport aircraft. First flew 1940.",
@@ -556,16 +556,166 @@
           "label": "Kawasaki C-2"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "an22",
+          "label": "Antonov An-22"
         },
         {
-          "id": "c5",
-          "label": "Lockheed C-5 Galaxy"
+          "id": "an26",
+          "label": "Antonov An-26"
         }
       ],
       "caption": "Japanese military transport aircraft. First flew 1970.",
       "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an2",
+      "image": "an2.jpg",
+      "answer": "an2",
+      "options": [
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        }
+      ],
+      "caption": "Soviet single-engine civilian aircraft. First flew 1947.",
+      "credit": "Arpingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an12",
+      "image": "an12.jpg",
+      "answer": "an12",
+      "options": [
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "c124",
+          "label": "Douglas C-124 Globemaster II"
+        },
+        {
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
+        }
+      ],
+      "caption": "Soviet medium-range transport aircraft. First flew 1957.",
+      "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an22",
+      "image": "an22.jpg",
+      "answer": "an22",
+      "options": [
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        }
+      ],
+      "caption": "Soviet heavy military transport aircraft. First flew 1965.",
+      "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-an26",
+      "image": "an26.jpg",
+      "answer": "an26",
+      "options": [
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "an124",
+          "label": "Antonov An-124 Ruslan"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        }
+      ],
+      "caption": "Soviet turboprop transport aircraft. First flew 1969.",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-transports-me323",
+      "image": "me323.jpg",
+      "answer": "me323",
+      "options": [
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
+        },
+        {
+          "id": "a400m",
+          "label": "Airbus A400M Atlas"
+        }
+      ],
+      "caption": "German military transport aircraft of World War II. First flew 1942.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
     }
   ]
 }

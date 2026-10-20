@@ -1,0 +1,272 @@
+{
+  "id": "military-country-germany-interwar",
+  "title": "Germany: Between the wars",
+  "description": "Military aircraft from Germany that entered service 1919–1938.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Germany"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-germany-interwar-bf109",
+      "image": "bf109.jpg",
+      "answer": "bf109",
+      "options": [
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        }
+      ],
+      "caption": "German single-engine fighter aircraft family. First flew 1935.",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-fi156",
+      "image": "fi156.jpg",
+      "answer": "fi156",
+      "options": [
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        }
+      ],
+      "caption": "German liaison aircraft. First flew 1936.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-he111",
+      "image": "he111.jpg",
+      "answer": "he111",
+      "options": [
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        }
+      ],
+      "caption": "World War II German medium bomber. First flew 1935.",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-do17",
+      "image": "do17.jpg",
+      "answer": "do17",
+      "options": [
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "World War II German light bomber. First flew 1934.",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-fw200",
+      "image": "fw200.jpg",
+      "answer": "fw200",
+      "options": [
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        }
+      ],
+      "caption": "German prop-driven aircraft built 1937–1944. First flew 1937.",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-interwar-ar196",
+      "image": "ar196.jpg",
+      "answer": "ar196",
+      "options": [
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "1936 maritime reconnaissance floatplane family by Arado. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

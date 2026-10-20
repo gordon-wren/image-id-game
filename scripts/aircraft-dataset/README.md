@@ -45,6 +45,7 @@ To add aircraft, use the review process in [`docs/aircraft-review.md`](../../doc
 | `use`, `category`, `engine` | Required. Military or civil, role, and engine type; packs filter on them (values in `public/data/aircraft.schema.json`). |
 | `label` | Short name for answer buttons when the article title reads badly, e.g. `"Airbus A320"` for "Airbus A320 family". |
 | `photo` | A Commons file to use instead of picking one, e.g. `"File:S7 Il-86.jpg"`. Use it when the automatic pick is wrong, or has the type's name painted on it. |
+| `photoAuthor` | Who to credit when Commons leaves the author blank (US military photos, some "own work" uploads), e.g. `"U.S. Air Force"`. Ignored when Commons names one. |
 | `wikidataId` | Take facts from this Wikidata item, for aircraft that share an article (the Ka-52 redirects to the Ka-50). |
 | `overrides` | Facts the sources lack, e.g. `{"countryOfOrigin": ["Austria"]}`; listed in the record's `overridden`. |
 | `packAnswerIds` | Answer ids in hand-written packs that this entry covers. |

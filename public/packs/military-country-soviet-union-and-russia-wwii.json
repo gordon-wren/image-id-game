@@ -1,0 +1,197 @@
+{
+  "id": "military-country-soviet-union-and-russia-wwii",
+  "title": "Soviet Union & Russia: WWII",
+  "description": "Military aircraft from the Soviet Union & Russia that entered service 1939–1945.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Soviet Union & Russia"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-mig3",
+      "image": "mig3.jpg",
+      "answer": "mig3",
+      "options": [
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        }
+      ],
+      "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-yak9",
+      "image": "yak9.jpg",
+      "answer": "yak9",
+      "options": [
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        }
+      ],
+      "caption": "Fighter aircraft. First flew 1942.",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-la5",
+      "image": "la5.jpg",
+      "answer": "la5",
+      "options": [
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-il2",
+      "image": "il2.jpg",
+      "answer": "il2",
+      "options": [
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        }
+      ],
+      "caption": "Soviet ground attack aircraft of WWII. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-pe2",
+      "image": "pe2.jpg",
+      "answer": "pe2",
+      "options": [
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        }
+      ],
+      "caption": "Soviet dive bomber aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-tu2",
+      "image": "tu2.jpg",
+      "answer": "tu2",
+      "options": [
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        }
+      ],
+      "caption": "1943 medium bomber aircraft family. First flew 1941.",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-wwii-pe8",
+      "image": "pe8.jpg",
+      "answer": "pe8",
+      "options": [
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

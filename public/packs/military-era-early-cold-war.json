@@ -35,8 +35,8 @@
           "label": "Lockheed U-2"
         },
         {
-          "id": "a4",
-          "label": "Douglas A-4 Skyhawk"
+          "id": "an12",
+          "label": "Antonov An-12"
         }
       ],
       "caption": "American military transport aircraft. First flew 1954.",
@@ -106,12 +106,12 @@
           "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "il28",
+          "label": "Ilyushin Il-28"
         }
       ],
       "caption": "American strategic bomber aircraft. First flew 1952.",
@@ -127,16 +127,16 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
         },
         {
           "id": "b36",
           "label": "Convair B-36 Peacemaker"
-        },
-        {
-          "id": "b47",
-          "label": "Boeing B-47 Stratojet"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -152,16 +152,16 @@
           "label": "Avro Vulcan"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
         },
         {
           "id": "b52",
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "il28",
+          "label": "Ilyushin Il-28"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
@@ -177,16 +177,16 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
           "id": "f86",
           "label": "North American F-86 Sabre"
-        },
-        {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
-        },
-        {
-          "id": "f101",
-          "label": "McDonnell F-101 Voodoo"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -231,12 +231,12 @@
           "label": "Piasecki H-21"
         },
         {
-          "id": "c124",
-          "label": "Douglas C-124 Globemaster II"
-        },
-        {
           "id": "kc135",
           "label": "Boeing KC-135 Stratotanker"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
         }
       ],
       "caption": "Huey family of American military utility helicopters. First flew 1956.",
@@ -281,12 +281,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "f106",
-          "label": "Convair F-106 Delta Dart"
-        },
-        {
           "id": "vulcan",
           "label": "Avro Vulcan"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
         }
       ],
       "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
@@ -381,12 +381,12 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "kc135",
+          "label": "Boeing KC-135 Stratotanker"
         }
       ],
       "caption": "Cold War-era American jet bomber. First flew 1947.",
@@ -435,8 +435,8 @@
           "label": "Lockheed F-94 Starfire"
         },
         {
-          "id": "c130",
-          "label": "Lockheed C-130 Hercules"
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -531,8 +531,8 @@
           "label": "Piasecki H-21"
         },
         {
-          "id": "u2",
-          "label": "Lockheed U-2"
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
         },
         {
           "id": "uh1",
@@ -560,8 +560,8 @@
           "label": "Sikorsky H-19 Chickasaw"
         },
         {
-          "id": "ov1",
-          "label": "Grumman OV-1 Mohawk"
+          "id": "t33",
+          "label": "Lockheed T-33"
         }
       ],
       "caption": "American military transport helicopter family. First flew 1952.",
@@ -631,12 +631,12 @@
           "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         },
         {
-          "id": "kc135",
-          "label": "Boeing KC-135 Stratotanker"
+          "id": "vulcan",
+          "label": "Avro Vulcan"
         }
       ],
       "caption": "US license-built version of the British English Electric Canberra bomber. First flew 1953.",
@@ -885,8 +885,8 @@
           "label": "Cessna O-1 Bird Dog"
         },
         {
-          "id": "f2h",
-          "label": "McDonnell F2H Banshee"
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
         }
       ],
       "caption": "Family of military training aircraft (1954–2009). First flew 1954.",
@@ -916,6 +916,256 @@
       ],
       "caption": "Battlefield reconnaissance and forward air control aircraft. First flew 1959.",
       "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-yak18",
+      "image": "yak18.jpg",
+      "answer": "yak18",
+      "options": [
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "t33",
+          "label": "Lockheed T-33"
+        },
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        }
+      ],
+      "caption": "Training aircraft in the Soviet Union. First flew 1946.",
+      "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-an2",
+      "image": "an2.jpg",
+      "answer": "an2",
+      "options": [
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "o1",
+          "label": "Cessna O-1 Bird Dog"
+        }
+      ],
+      "caption": "Soviet single-engine civilian aircraft. First flew 1947.",
+      "credit": "Arpingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-mi4",
+      "image": "mi4.jpg",
+      "answer": "mi4",
+      "options": [
+        {
+          "id": "mi4",
+          "label": "Mil Mi-4"
+        },
+        {
+          "id": "uh1",
+          "label": "Bell UH-1 Huey"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        }
+      ],
+      "caption": "Soviet transport helicopter. First flew 1952.",
+      "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-mig15",
+      "image": "mig15.jpg",
+      "answer": "mig15",
+      "options": [
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "f8",
+          "label": "Vought F-8 Crusader"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-mig17",
+      "image": "mig17.jpg",
+      "answer": "mig17",
+      "options": [
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "f106",
+          "label": "Convair F-106 Delta Dart"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        }
+      ],
+      "caption": "Soviet jet fighter aircraft family. First flew 1950.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-mig19",
+      "image": "mig19.jpg",
+      "answer": "mig19",
+      "options": [
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        }
+      ],
+      "caption": "Air superiority fighter aircraft family. First flew 1953.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-il28",
+      "image": "il28.jpg",
+      "answer": "il28",
+      "options": [
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        }
+      ],
+      "caption": "Soviet bomber aircraft family. First flew 1948.",
+      "credit": "Wisnia6522 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-tu16",
+      "image": "tu16.jpg",
+      "answer": "tu16",
+      "options": [
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        }
+      ],
+      "caption": "Soviet heavy bomber. First flew 1952.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-m4",
+      "image": "m4.jpg",
+      "answer": "m4",
+      "options": [
+        {
+          "id": "m4",
+          "label": "Myasishchev M-4"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        }
+      ],
+      "caption": "Soviet strategic bomber and tanker aircraft. First flew 1953.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-early-cold-war-an12",
+      "image": "an12.jpg",
+      "answer": "an12",
+      "options": [
+        {
+          "id": "an12",
+          "label": "Antonov An-12"
+        },
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "ov1",
+          "label": "Grumman OV-1 Mohawk"
+        }
+      ],
+      "caption": "Soviet medium-range transport aircraft. First flew 1957.",
+      "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons"
     }
   ]
 }

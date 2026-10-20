@@ -64,6 +64,24 @@ const wpApi = (params) =>
 // Wikitext helpers
 // ---------------------------------------------------------------------------
 
+/**
+ * Cleans the noise Commons leaves in author fields: US DoD catalog labels
+ * ("Service Depicted: Other Service"), "Myself (Name)", a derivative file's
+ * "Source.jpg: " prefix, and "unknown" in other languages. Returns null when
+ * nothing is left, so the seed's photoAuthor or "Unknown author" is used.
+ */
+function tidyAuthor(author) {
+  const a = author
+    .replace(/;?\s*Service Depicted:.*$/i, "")
+    .replace(/^Myself \((.*)\)\.?$/i, "$1")
+    .replace(/^[^:;]+\.(jpe?g|png|tiff?):\s*/i, "")
+    .trim();
+  if (/^(撮影者不明|неизвестен|no info|unknown)$/i.test(a)) return "Unknown author";
+  // A license notice pasted into the author field ("This image is in the public domain…").
+  if (/public domain|общественном достоянии/i.test(a)) return null;
+  return a || null;
+}
+
 function stripHtml(s) {
   return s
     .replace(/<br\s*\/?>/gi, "; ")
@@ -212,7 +230,7 @@ async function photoInfo(fileName) {
   const free = !meta.NonFree && Boolean(license && USABLE_LICENSE.test(license));
   // Some Commons templates repeat the name in a hidden span ("Unknown author" twice).
   let author = meta.Artist ? stripHtml(String(meta.Artist).replace(/<span style="display: ?none;?">.*?<\/span>/gi, "")) : null;
-  if (author === "撮影者不明") author = "Unknown author"; // Japanese Commons: "photographer unknown"
+  if (author) author = tidyAuthor(author);
   // Commons can name the author as a bare Wikidata item ("Q139555801") when it has no
   // label in the wiki's language; look the name up so the credit names a person.
   if (author && /^Q\d+$/.test(author)) author = (await wikidataLabels([author]))[0];
@@ -345,6 +363,9 @@ async function buildOne(seed, previous) {
     const ext = extFor(info.mime);
     const localName = `${seed.id}.${ext}`;
     const localPath = join(OUT_IMG_DIR, localName);
+    // Commons leaves the author blank on some files (US military photos, "own work"
+    // uploads); the seed's photoAuthor names them instead.
+    if (!info.author && seed.photoAuthor) info.author = seed.photoAuthor;
     const credit = [info.author ?? "Unknown author", info.license, /commons\.wikimedia/.test(info.sourcePage ?? "") ? "via Wikimedia Commons" : "via Wikipedia"].filter(Boolean).join(" / ");
     record.photo = { file: info.free ? IMG_PUBLIC_PREFIX + localName : null, ...info, credit };
     if (info.free && !skipImages) {

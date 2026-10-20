@@ -81,12 +81,12 @@
           "label": "Mitsubishi F-1"
         },
         {
-          "id": "a7",
-          "label": "LTV A-7 Corsair II"
+          "id": "a37",
+          "label": "Cessna A-37 Dragonfly"
         },
         {
-          "id": "a3",
-          "label": "Douglas A-3 Skywarrior"
+          "id": "a10",
+          "label": "Fairchild Republic A-10 Thunderbolt II"
         }
       ],
       "caption": "Multirole combat aircraft family by Hawker Siddeley, later British Aerospace. First flew 1967.",
@@ -185,8 +185,8 @@
           "label": "Douglas A-20 Havoc"
         },
         {
-          "id": "d4y",
-          "label": "Yokosuka D4Y Suisei"
+          "id": "ju87",
+          "label": "Junkers Ju 87"
         }
       ],
       "caption": "US Navy dive bomber. First flew 1936.",
@@ -631,8 +631,8 @@
           "label": "Nakajima B5N"
         },
         {
-          "id": "a20",
-          "label": "Douglas A-20 Havoc"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         },
         {
           "id": "d3a",
@@ -685,12 +685,262 @@
           "label": "LTV A-7 Corsair II"
         },
         {
-          "id": "harrier",
-          "label": "Harrier Jump Jet"
+          "id": "su17",
+          "label": "Sukhoi Su-17"
         }
       ],
       "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
       "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-il2",
+      "image": "il2.jpg",
+      "answer": "il2",
+      "options": [
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "sb2c",
+          "label": "Curtiss SB2C Helldiver"
+        },
+        {
+          "id": "d4y",
+          "label": "Yokosuka D4Y Suisei"
+        },
+        {
+          "id": "a20",
+          "label": "Douglas A-20 Havoc"
+        }
+      ],
+      "caption": "Soviet ground attack aircraft of WWII. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-su7",
+      "image": "su7.jpg",
+      "answer": "su7",
+      "options": [
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        }
+      ],
+      "caption": "Soviet strike fighter aircraft. First flew 1955.",
+      "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-su17",
+      "image": "su17.jpg",
+      "answer": "su17",
+      "options": [
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        }
+      ],
+      "caption": "Soviet variable-sweep wing fighter-bomber. First flew 1966.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-su24",
+      "image": "su24.jpg",
+      "answer": "su24",
+      "options": [
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        }
+      ],
+      "caption": "Family of Soviet strike aircraft. First flew 1970.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-yak38",
+      "image": "yak38.jpg",
+      "answer": "yak38",
+      "options": [
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "f111",
+          "label": "General Dynamics F-111 Aardvark"
+        }
+      ],
+      "caption": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy. First flew 1971.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-su25",
+      "image": "su25.jpg",
+      "answer": "su25",
+      "options": [
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "a7",
+          "label": "LTV A-7 Corsair II"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        }
+      ],
+      "caption": "Soviet attack aircraft introduced 1978. First flew 1975.",
+      "credit": "Original uploader was Dima Sergienko at en.wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-su34",
+      "image": "su34.jpg",
+      "answer": "su34",
+      "options": [
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "su25",
+          "label": "Sukhoi Su-25"
+        },
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        },
+        {
+          "id": "av8b",
+          "label": "McDonnell Douglas AV-8B Harrier II"
+        }
+      ],
+      "caption": "Russian fighter-bomber aircraft. First flew 1990.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-junkers-j1",
+      "image": "junkers-j1.jpg",
+      "answer": "junkers-j1",
+      "options": [
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "1917 attack aircraft by Junkers. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-hs129",
+      "image": "hs129.jpg",
+      "answer": "hs129",
+      "options": [
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        }
+      ],
+      "caption": "German twin engine WWII ground attack aircraft. First flew 1939.",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
     }
   ]
 }

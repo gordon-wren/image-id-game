@@ -202,8 +202,8 @@
           "label": "Consolidated PT-1 Trusty"
         },
         {
-          "id": "douglas-world-cruiser",
-          "label": "Douglas World Cruiser"
+          "id": "po2",
+          "label": "Polikarpov Po-2"
         },
         {
           "id": "vought-o2u",
@@ -266,6 +266,31 @@
       ],
       "caption": "Japanese reconnaissance aircraft. First flew 1927.",
       "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1920s-po2",
+      "image": "po2.jpg",
+      "answer": "po2",
+      "options": [
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "consolidated-pt1",
+          "label": "Consolidated PT-1 Trusty"
+        },
+        {
+          "id": "kawasaki-type88",
+          "label": "Kawasaki Type 88"
+        },
+        {
+          "id": "martin-mb2",
+          "label": "Martin NBS-1"
+        }
+      ],
+      "caption": "All-weather multirole Soviet biplane. First flew 1927.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
     }
   ]
 }

@@ -131,12 +131,12 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "sbd",
-          "label": "Douglas SBD Dauntless"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "p38",
-          "label": "Lockheed P-38 Lightning"
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
         }
       ],
       "caption": "British multi-role combat aircraft of WW2. First flew 1940.",
@@ -181,12 +181,12 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "sbd",
-          "label": "Douglas SBD Dauntless"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         },
         {
-          "id": "tbf",
-          "label": "Grumman TBF Avenger"
+          "id": "n1k",
+          "label": "Kawanishi N1K"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",
@@ -481,12 +481,12 @@
           "label": "Douglas C-54 Skymaster"
         },
         {
-          "id": "ki57",
-          "label": "Mitsubishi Ki-57"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         },
         {
-          "id": "ki46",
-          "label": "Mitsubishi Ki-46"
+          "id": "ki57",
+          "label": "Mitsubishi Ki-57"
         }
       ],
       "caption": "Military transport aircraft derived from DC-3. First flew 1941.",
@@ -506,8 +506,8 @@
           "label": "Douglas C-47 Skytrain"
         },
         {
-          "id": "c6n",
-          "label": "Nakajima C6N Saiun"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         },
         {
           "id": "c54",
@@ -565,7 +565,7 @@
         }
       ],
       "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
-      "credit": "Unknown / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-decade-1940s-p59",
@@ -702,16 +702,16 @@
           "label": "Convair B-36 Peacemaker"
         },
         {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
           "id": "b29",
           "label": "Boeing B-29 Superfortress"
         },
         {
-          "id": "b24",
-          "label": "Consolidated B-24 Liberator"
-        },
-        {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "c47",
+          "label": "Douglas C-47 Skytrain"
         }
       ],
       "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
@@ -802,16 +802,16 @@
           "label": "Lockheed T-33"
         },
         {
-          "id": "p80",
-          "label": "Lockheed P-80 Shooting Star"
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
         },
         {
-          "id": "p59",
-          "label": "Bell P-59 Airacomet"
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
         },
         {
-          "id": "f8f",
-          "label": "Grumman F8F Bearcat"
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
         }
       ],
       "caption": "Series of military training aircraft. First flew 1948.",
@@ -835,8 +835,8 @@
           "label": "Curtiss C-46 Commando"
         },
         {
-          "id": "h8k",
-          "label": "Kawanishi H8K"
+          "id": "e13a",
+          "label": "Aichi E13A"
         }
       ],
       "caption": "American military transport aircraft. First flew 1947.",
@@ -856,12 +856,12 @@
           "label": "Fairchild C-119 Flying Boxcar"
         },
         {
-          "id": "f6f",
-          "label": "Grumman F6F Hellcat"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         },
         {
-          "id": "e13a",
-          "label": "Aichi E13A"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         }
       ],
       "caption": "American seaplane. First flew 1949.",
@@ -1356,8 +1356,8 @@
           "label": "Mitsubishi Ki-57"
         },
         {
-          "id": "hu16",
-          "label": "Grumman HU-16 Albatross"
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
         },
         {
           "id": "f1m",
@@ -1481,16 +1481,541 @@
           "label": "Mitsubishi Ki-46"
         },
         {
-          "id": "c54",
-          "label": "Douglas C-54 Skymaster"
+          "id": "c46",
+          "label": "Curtiss C-46 Commando"
+        },
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        }
+      ],
+      "caption": "Japanese transport aircraft. First flew 1940.",
+      "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-mig3",
+      "image": "mig3.jpg",
+      "answer": "mig3",
+      "options": [
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "sbd",
+          "label": "Douglas SBD Dauntless"
+        }
+      ],
+      "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-yak9",
+      "image": "yak9.jpg",
+      "answer": "yak9",
+      "options": [
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
         },
         {
           "id": "j2m",
           "label": "Mitsubishi J2M Raiden"
         }
       ],
-      "caption": "Japanese transport aircraft. First flew 1940.",
-      "credit": "Charles M. Daniels / Public domain / via Wikimedia Commons"
+      "caption": "Fighter aircraft. First flew 1942.",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-la5",
+      "image": "la5.jpg",
+      "answer": "la5",
+      "options": [
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-il2",
+      "image": "il2.jpg",
+      "answer": "il2",
+      "options": [
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "p51",
+          "label": "North American P-51 Mustang"
+        }
+      ],
+      "caption": "Soviet ground attack aircraft of WWII. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-pe2",
+      "image": "pe2.jpg",
+      "answer": "pe2",
+      "options": [
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        }
+      ],
+      "caption": "Soviet dive bomber aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-tu2",
+      "image": "tu2.jpg",
+      "answer": "tu2",
+      "options": [
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        }
+      ],
+      "caption": "1943 medium bomber aircraft family. First flew 1941.",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-pe8",
+      "image": "pe8.jpg",
+      "answer": "pe8",
+      "options": [
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "b26",
+          "label": "Martin B-26 Marauder"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-yak18",
+      "image": "yak18.jpg",
+      "answer": "yak18",
+      "options": [
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        }
+      ],
+      "caption": "Training aircraft in the Soviet Union. First flew 1946.",
+      "credit": "Dmitry A. Mottl / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-an2",
+      "image": "an2.jpg",
+      "answer": "an2",
+      "options": [
+        {
+          "id": "an2",
+          "label": "Antonov An-2"
+        },
+        {
+          "id": "c119",
+          "label": "Fairchild C-119 Flying Boxcar"
+        },
+        {
+          "id": "c6n",
+          "label": "Nakajima C6N Saiun"
+        },
+        {
+          "id": "hu16",
+          "label": "Grumman HU-16 Albatross"
+        }
+      ],
+      "caption": "Soviet single-engine civilian aircraft. First flew 1947.",
+      "credit": "Arpingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-mig15",
+      "image": "mig15.jpg",
+      "answer": "mig15",
+      "options": [
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "f2h",
+          "label": "McDonnell F2H Banshee"
+        },
+        {
+          "id": "f86",
+          "label": "North American F-86 Sabre"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-fw190",
+      "image": "fw190.jpg",
+      "answer": "fw190",
+      "options": [
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        },
+        {
+          "id": "ki45",
+          "label": "Kawasaki Ki-45"
+        }
+      ],
+      "caption": "1939 fighter aircraft family by Focke-Wulf. First flew 1939.",
+      "credit": "RAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-do217",
+      "image": "do217.jpg",
+      "answer": "do217",
+      "options": [
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        }
+      ],
+      "caption": "1940 bomber aircraft family by Dornier. First flew 1938.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-he177",
+      "image": "he177.jpg",
+      "answer": "he177",
+      "options": [
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "a6m",
+          "label": "Mitsubishi A6M Zero"
+        },
+        {
+          "id": "b25",
+          "label": "North American B-25 Mitchell"
+        }
+      ],
+      "caption": "German heavy bomber during WW2. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-bv138",
+      "image": "bv138.jpg",
+      "answer": "bv138",
+      "options": [
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "c54",
+          "label": "Douglas C-54 Skymaster"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "1937 flying boat family by Blohm & Voss. First flew 1937.",
+      "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-hs129",
+      "image": "hs129.jpg",
+      "answer": "hs129",
+      "options": [
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "b24",
+          "label": "Consolidated B-24 Liberator"
+        }
+      ],
+      "caption": "German twin engine WWII ground attack aircraft. First flew 1939.",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-me410",
+      "image": "me410.jpg",
+      "answer": "me410",
+      "options": [
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        }
+      ],
+      "caption": "German fighter-bomber. First flew 1942.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-he219",
+      "image": "he219.jpg",
+      "answer": "he219",
+      "options": [
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "il2",
+          "label": "Ilyushin Il-2"
+        },
+        {
+          "id": "b7a",
+          "label": "Aichi B7A Ryūsei"
+        }
+      ],
+      "caption": "German night fighter of World War II. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-me323",
+      "image": "me323.jpg",
+      "answer": "me323",
+      "options": [
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "h8k",
+          "label": "Kawanishi H8K"
+        }
+      ],
+      "caption": "German military transport aircraft of World War II. First flew 1942.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-me262",
+      "image": "me262.jpg",
+      "answer": "me262",
+      "options": [
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "ad-skyraider",
+          "label": "Douglas A-1 Skyraider"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "First operational jet-powered fighter aircraft. First flew 1942.",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-he162",
+      "image": "he162.jpg",
+      "answer": "he162",
+      "options": [
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "Interceptor jet aircraft, German, WW2. First flew 1944.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1940s-ar234",
+      "image": "ar234.jpg",
+      "answer": "ar234",
+      "options": [
+        {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
+          "id": "b36",
+          "label": "Convair B-36 Peacemaker"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        }
+      ],
+      "caption": "German jet-powered bomber. First flew 1943.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
     }
   ]
 }

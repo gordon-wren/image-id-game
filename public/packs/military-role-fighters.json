@@ -40,7 +40,7 @@
         }
       ],
       "caption": "American stealth air superiority fighter. First flew 1997.",
-      "credit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
+      "credit": "Master Sgt. Andy Dunaway / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-fighters-f35",
@@ -281,12 +281,12 @@
           "label": "Eurofighter Typhoon"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         }
       ],
       "caption": "Family of multi-role combat aircraft. First flew 1974.",
@@ -302,16 +302,16 @@
           "label": "Sukhoi Su-27"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         },
         {
           "id": "su57",
           "label": "Sukhoi Su-57"
-        },
-        {
-          "id": "su35",
-          "label": "Sukhoi Su-35"
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
@@ -331,12 +331,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
         },
         {
-          "id": "j10",
-          "label": "Chengdu J-10"
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -356,12 +356,12 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "f15ex",
-          "label": "Boeing F-15EX Eagle II"
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "su15",
+          "label": "Sukhoi Su-15"
         }
       ],
       "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
@@ -377,16 +377,16 @@
           "label": "Mikoyan MiG-29"
         },
         {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
           "id": "mig31",
           "label": "Mikoyan MiG-31"
         },
         {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
-        },
-        {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "su27",
+          "label": "Sukhoi Su-27"
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
@@ -402,16 +402,16 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
         },
         {
-          "id": "su57",
-          "label": "Sukhoi Su-57"
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
         },
         {
-          "id": "f2h",
-          "label": "McDonnell F2H Banshee"
+          "id": "mig31",
+          "label": "Mikoyan MiG-31"
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
@@ -431,12 +431,12 @@
           "label": "Mikoyan-Gurevich MiG-21"
         },
         {
-          "id": "f105",
-          "label": "Republic F-105 Thunderchief"
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
         },
         {
-          "id": "f106",
-          "label": "Convair F-106 Delta Dart"
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -452,16 +452,16 @@
           "label": "Mikoyan MiG-31"
         },
         {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
           "id": "mig29",
           "label": "Mikoyan MiG-29"
-        },
-        {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
-        },
-        {
-          "id": "mig21",
-          "label": "Mikoyan-Gurevich MiG-21"
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
@@ -681,8 +681,8 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
         },
         {
           "id": "j2m",
@@ -706,12 +706,12 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "ki45",
-          "label": "Kawasaki Ki-45"
+          "id": "la5",
+          "label": "Lavochkin La-5"
         },
         {
-          "id": "p51",
-          "label": "North American P-51 Mustang"
+          "id": "f8f",
+          "label": "Grumman F8F Bearcat"
         }
       ],
       "caption": "British fighter aircraft of the 1930s and 40s. First flew 1935.",
@@ -752,16 +752,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "spitfire",
-          "label": "Supermarine Spitfire"
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
         },
         {
-          "id": "f4f",
-          "label": "Grumman F4F Wildcat"
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
         },
         {
-          "id": "p39",
-          "label": "Bell P-39 Airacobra"
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -1190,7 +1190,7 @@
         }
       ],
       "caption": "US Air Force night fighter in service 1944-1954. First flew 1942.",
-      "credit": "Unknown / Public domain / via Wikimedia Commons"
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
       "id": "military-role-fighters-p59",
@@ -1941,6 +1941,531 @@
       ],
       "caption": "Japanese carrier-borne fighter aircraft. First flew 1935.",
       "credit": "User Kgbudge on en.wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-i15",
+      "image": "i15.jpg",
+      "answer": "i15",
+      "options": [
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1933.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-i16",
+      "image": "i16.jpg",
+      "answer": "i16",
+      "options": [
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "j2m",
+          "label": "Mitsubishi J2M Raiden"
+        },
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        }
+      ],
+      "caption": "Soviet 1930s monoplane fighter aircraft. First flew 1933.",
+      "credit": "The original uploader was DCTT at English Wikipedia. / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig3",
+      "image": "mig3.jpg",
+      "answer": "mig3",
+      "options": [
+        {
+          "id": "mig3",
+          "label": "Mikoyan-Gurevich MiG-3"
+        },
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "grumman-f3f",
+          "label": "Grumman F3F"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        }
+      ],
+      "caption": "Soviet single-seat WWII fighter aircraft. First flew 1940.",
+      "credit": "Jno from http://www.aviation.ru/jno/ archive copy at the Wayback Machine / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-yak9",
+      "image": "yak9.jpg",
+      "answer": "yak9",
+      "options": [
+        {
+          "id": "yak9",
+          "label": "Yakovlev Yak-9"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        },
+        {
+          "id": "f6f",
+          "label": "Grumman F6F Hellcat"
+        },
+        {
+          "id": "f2a",
+          "label": "Brewster F2A Buffalo"
+        }
+      ],
+      "caption": "Fighter aircraft. First flew 1942.",
+      "credit": "Alf van Beem / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-la5",
+      "image": "la5.jpg",
+      "answer": "la5",
+      "options": [
+        {
+          "id": "la5",
+          "label": "Lavochkin La-5"
+        },
+        {
+          "id": "i15",
+          "label": "Polikarpov I-15"
+        },
+        {
+          "id": "f4u",
+          "label": "Vought F4U Corsair"
+        },
+        {
+          "id": "i16",
+          "label": "Polikarpov I-16"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig15",
+      "image": "mig15.jpg",
+      "answer": "mig15",
+      "options": [
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        }
+      ],
+      "caption": "Soviet fighter aircraft. First flew 1947.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig17",
+      "image": "mig17.jpg",
+      "answer": "mig17",
+      "options": [
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "mig21",
+          "label": "Mikoyan-Gurevich MiG-21"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        }
+      ],
+      "caption": "Soviet jet fighter aircraft family. First flew 1950.",
+      "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig19",
+      "image": "mig19.jpg",
+      "answer": "mig19",
+      "options": [
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "mig17",
+          "label": "Mikoyan-Gurevich MiG-17"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        }
+      ],
+      "caption": "Air superiority fighter aircraft family. First flew 1953.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-su15",
+      "image": "su15.jpg",
+      "answer": "su15",
+      "options": [
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        }
+      ],
+      "caption": "Soviet interceptor aircraft. First flew 1962.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-mig23",
+      "image": "mig23.jpg",
+      "answer": "mig23",
+      "options": [
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
+          "id": "mig29",
+          "label": "Mikoyan MiG-29"
+        },
+        {
+          "id": "su27",
+          "label": "Sukhoi Su-27"
+        },
+        {
+          "id": "mig19",
+          "label": "Mikoyan-Gurevich MiG-19"
+        }
+      ],
+      "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
+      "credit": "DoD photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-e3",
+      "image": "fokker-e3.jpg",
+      "answer": "fokker-e3",
+      "options": [
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "Fighter aircraft used in World War I. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-albatros-d3",
+      "image": "albatros-d3.jpg",
+      "answer": "albatros-d3",
+      "options": [
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "1916 fighter aircraft by Albatros. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-dr1",
+      "image": "fokker-dr1.jpg",
+      "answer": "fokker-dr1",
+      "options": [
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "WWI fighter aircraft. First flew 1917.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-d7",
+      "image": "fokker-d7.jpg",
+      "answer": "fokker-d7",
+      "options": [
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "1918 fighter aircraft model by Fokker. First flew 1918.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-bf110",
+      "image": "bf110.jpg",
+      "answer": "bf110",
+      "options": [
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        }
+      ],
+      "caption": "1936 heavy fighter family by Messerschmitt. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fw190",
+      "image": "fw190.jpg",
+      "answer": "fw190",
+      "options": [
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "1939 fighter aircraft family by Focke-Wulf. First flew 1939.",
+      "credit": "RAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-me410",
+      "image": "me410.jpg",
+      "answer": "me410",
+      "options": [
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        }
+      ],
+      "caption": "German fighter-bomber. First flew 1942.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he219",
+      "image": "he219.jpg",
+      "answer": "he219",
+      "options": [
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "German night fighter of World War II. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-me262",
+      "image": "me262.jpg",
+      "answer": "me262",
+      "options": [
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "First operational jet-powered fighter aircraft. First flew 1942.",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he162",
+      "image": "he162.jpg",
+      "answer": "he162",
+      "options": [
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        }
+      ],
+      "caption": "Interceptor jet aircraft, German, WW2. First flew 1944.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
     }
   ]
 }

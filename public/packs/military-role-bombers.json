@@ -31,8 +31,8 @@
           "label": "Boeing B-47 Stratojet"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
         },
         {
           "id": "b58",
@@ -127,16 +127,16 @@
           "label": "Tupolev Tu-95"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
         },
         {
-          "id": "vulcan",
-          "label": "Avro Vulcan"
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
         },
         {
-          "id": "b36",
-          "label": "Convair B-36 Peacemaker"
+          "id": "tu160",
+          "label": "Tupolev Tu-160"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
@@ -156,12 +156,12 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b1",
+          "label": "Rockwell B-1 Lancer"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "b2",
+          "label": "Northrop B-2 Spirit"
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
@@ -181,12 +181,12 @@
           "label": "Tupolev Tu-160"
         },
         {
-          "id": "b58",
-          "label": "Convair B-58 Hustler"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -206,12 +206,12 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "b1",
-          "label": "Rockwell B-1 Lancer"
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
         },
         {
-          "id": "b57",
-          "label": "Martin B-57 Canberra"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         }
       ],
       "caption": "British jet-powered delta wing strategic bomber. First flew 1952.",
@@ -231,8 +231,8 @@
           "label": "Avro Lancaster"
         },
         {
-          "id": "ki67",
-          "label": "Mitsubishi Ki-67"
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
         },
         {
           "id": "martin-b10",
@@ -306,12 +306,12 @@
           "label": "De Havilland Mosquito"
         },
         {
-          "id": "p1y",
-          "label": "Yokosuka P1Y Ginga"
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
         },
         {
-          "id": "b18",
-          "label": "Douglas B-18 Bolo"
+          "id": "b17",
+          "label": "Boeing B-17 Flying Fortress"
         }
       ],
       "caption": "World War II British heavy bomber aircraft. First flew 1941.",
@@ -556,12 +556,12 @@
           "label": "Convair B-58 Hustler"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "m4",
+          "label": "Myasishchev M-4"
         }
       ],
       "caption": "US Air Force strategic bomber (1949–1959). First flew 1946.",
@@ -585,8 +585,8 @@
           "label": "Martin B-57 Canberra"
         },
         {
-          "id": "tu95",
-          "label": "Tupolev Tu-95"
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
         }
       ],
       "caption": "Cold War-era American jet bomber. First flew 1947.",
@@ -635,8 +635,8 @@
           "label": "Boeing B-52 Stratofortress"
         },
         {
-          "id": "b2",
-          "label": "Northrop B-2 Spirit"
+          "id": "b21",
+          "label": "Northrop Grumman B-21 Raider"
         }
       ],
       "caption": "Cold War-era American supersonic bomber. First flew 1956.",
@@ -816,6 +816,406 @@
       ],
       "caption": "Japanese attack bomber aircraft. First flew 1943.",
       "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tb3",
+      "image": "tb3.jpg",
+      "answer": "tb3",
+      "options": [
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "g4m",
+          "label": "Mitsubishi G4M"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1930.",
+      "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-pe2",
+      "image": "pe2.jpg",
+      "answer": "pe2",
+      "options": [
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "ki67",
+          "label": "Mitsubishi Ki-67"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "Soviet dive bomber aircraft. First flew 1939.",
+      "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu2",
+      "image": "tu2.jpg",
+      "answer": "tu2",
+      "options": [
+        {
+          "id": "tu2",
+          "label": "Tupolev Tu-2"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "p1y",
+          "label": "Yokosuka P1Y Ginga"
+        }
+      ],
+      "caption": "1943 medium bomber aircraft family. First flew 1941.",
+      "credit": "Gary Todd from Xinzheng, China / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-pe8",
+      "image": "pe8.jpg",
+      "answer": "pe8",
+      "options": [
+        {
+          "id": "pe8",
+          "label": "Petlyakov Pe-8"
+        },
+        {
+          "id": "pe2",
+          "label": "Petlyakov Pe-2"
+        },
+        {
+          "id": "tb3",
+          "label": "Tupolev TB-3"
+        },
+        {
+          "id": "ki49",
+          "label": "Nakajima Ki-49 Donryū"
+        }
+      ],
+      "caption": "Soviet heavy bomber aircraft. First flew 1936.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-il28",
+      "image": "il28.jpg",
+      "answer": "il28",
+      "options": [
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        }
+      ],
+      "caption": "Soviet bomber aircraft family. First flew 1948.",
+      "credit": "Wisnia6522 / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu16",
+      "image": "tu16.jpg",
+      "answer": "tu16",
+      "options": [
+        {
+          "id": "tu16",
+          "label": "Tupolev Tu-16"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b58",
+          "label": "Convair B-58 Hustler"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        }
+      ],
+      "caption": "Soviet heavy bomber. First flew 1952.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-m4",
+      "image": "m4.jpg",
+      "answer": "m4",
+      "options": [
+        {
+          "id": "m4",
+          "label": "Myasishchev M-4"
+        },
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        }
+      ],
+      "caption": "Soviet strategic bomber and tanker aircraft. First flew 1953.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-tu22",
+      "image": "tu22.jpg",
+      "answer": "tu22",
+      "options": [
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "tu95",
+          "label": "Tupolev Tu-95"
+        },
+        {
+          "id": "b52",
+          "label": "Boeing B-52 Stratofortress"
+        },
+        {
+          "id": "il28",
+          "label": "Ilyushin Il-28"
+        }
+      ],
+      "caption": "Soviet supersonic heavy bomber. First flew 1958.",
+      "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-yak28",
+      "image": "yak28.jpg",
+      "answer": "yak28",
+      "options": [
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "m4",
+          "label": "Myasishchev M-4"
+        },
+        {
+          "id": "vulcan",
+          "label": "Avro Vulcan"
+        },
+        {
+          "id": "tu22m",
+          "label": "Tupolev Tu-22M"
+        }
+      ],
+      "caption": "Family of Soviet jet combat aircraft. First flew 1958.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-gotha-g5",
+      "image": "gotha-g5.jpg",
+      "answer": "gotha-g5",
+      "options": [
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "dh4-us",
+          "label": "Airco DH.4"
+        }
+      ],
+      "caption": "Heavy bomber aircraft. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ju88",
+      "image": "ju88.jpg",
+      "answer": "ju88",
+      "options": [
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        }
+      ],
+      "caption": "German twin engine multirole combat aircraft. First flew 1936.",
+      "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-he111",
+      "image": "he111.jpg",
+      "answer": "he111",
+      "options": [
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "ki21",
+          "label": "Mitsubishi Ki-21"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        }
+      ],
+      "caption": "World War II German medium bomber. First flew 1935.",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-do17",
+      "image": "do17.jpg",
+      "answer": "do17",
+      "options": [
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "World War II German light bomber. First flew 1934.",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-do217",
+      "image": "do217.jpg",
+      "answer": "do217",
+      "options": [
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        }
+      ],
+      "caption": "1940 bomber aircraft family by Dornier. First flew 1938.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-he177",
+      "image": "he177.jpg",
+      "answer": "he177",
+      "options": [
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "b18",
+          "label": "Douglas B-18 Bolo"
+        }
+      ],
+      "caption": "German heavy bomber during WW2. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-bombers-ar234",
+      "image": "ar234.jpg",
+      "answer": "ar234",
+      "options": [
+        {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "b57",
+          "label": "Martin B-57 Canberra"
+        },
+        {
+          "id": "b47",
+          "label": "Boeing B-47 Stratojet"
+        }
+      ],
+      "caption": "German jet-powered bomber. First flew 1943.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
     }
   ]
 }

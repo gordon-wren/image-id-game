@@ -1,0 +1,172 @@
+{
+  "id": "military-country-germany-wwi",
+  "title": "Germany: WWI and earlier",
+  "description": "Military aircraft from Germany that entered service up to 1918.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Germany"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-germany-wwi-fokker-e3",
+      "image": "fokker-e3.jpg",
+      "answer": "fokker-e3",
+      "options": [
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        }
+      ],
+      "caption": "Fighter aircraft used in World War I. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-wwi-albatros-d3",
+      "image": "albatros-d3.jpg",
+      "answer": "albatros-d3",
+      "options": [
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        }
+      ],
+      "caption": "1916 fighter aircraft by Albatros. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-wwi-fokker-dr1",
+      "image": "fokker-dr1.jpg",
+      "answer": "fokker-dr1",
+      "options": [
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        }
+      ],
+      "caption": "WWI fighter aircraft. First flew 1917.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-wwi-fokker-d7",
+      "image": "fokker-d7.jpg",
+      "answer": "fokker-d7",
+      "options": [
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        }
+      ],
+      "caption": "1918 fighter aircraft model by Fokker. First flew 1918.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-wwi-junkers-j1",
+      "image": "junkers-j1.jpg",
+      "answer": "junkers-j1",
+      "options": [
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        }
+      ],
+      "caption": "1917 attack aircraft by Junkers. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-wwi-gotha-g5",
+      "image": "gotha-g5.jpg",
+      "answer": "gotha-g5",
+      "options": [
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        }
+      ],
+      "caption": "Heavy bomber aircraft. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

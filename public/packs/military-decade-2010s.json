@@ -156,12 +156,12 @@
           "label": "Sukhoi Su-57"
         },
         {
-          "id": "tejas",
-          "label": "HAL Tejas"
+          "id": "su34",
+          "label": "Sukhoi Su-34"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
+          "id": "tejas",
+          "label": "HAL Tejas"
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
@@ -181,8 +181,8 @@
           "label": "Sukhoi Su-35"
         },
         {
-          "id": "f35",
-          "label": "Lockheed Martin F-35 Lightning II"
+          "id": "su34",
+          "label": "Sukhoi Su-34"
         },
         {
           "id": "j20",
@@ -256,8 +256,8 @@
           "label": "Boeing P-8 Poseidon"
         },
         {
-          "id": "kawasaki-c2",
-          "label": "Kawasaki C-2"
+          "id": "su57",
+          "label": "Sukhoi Su-57"
         },
         {
           "id": "a400m",
@@ -316,6 +316,56 @@
       ],
       "caption": "Japanese maritime patrol aircraft. First flew 2007.",
       "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan Lavin / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2010s-su34",
+      "image": "su34.jpg",
+      "answer": "su34",
+      "options": [
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "su35",
+          "label": "Sukhoi Su-35"
+        },
+        {
+          "id": "su57",
+          "label": "Sukhoi Su-57"
+        },
+        {
+          "id": "tejas",
+          "label": "HAL Tejas"
+        }
+      ],
+      "caption": "Russian fighter-bomber aircraft. First flew 1990.",
+      "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-2010s-yak130",
+      "image": "yak130.jpg",
+      "answer": "yak130",
+      "options": [
+        {
+          "id": "yak130",
+          "label": "Yakovlev Yak-130"
+        },
+        {
+          "id": "su34",
+          "label": "Sukhoi Su-34"
+        },
+        {
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
+        },
+        {
+          "id": "f35",
+          "label": "Lockheed Martin F-35 Lightning II"
+        }
+      ],
+      "caption": "Russian light combat aircraft. First flew 1996.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     }
   ]
 }

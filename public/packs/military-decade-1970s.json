@@ -35,8 +35,8 @@
           "label": "Boeing E-3 Sentry"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
         }
       ],
       "caption": "American heavy military transport aircraft. First flew 1968.",
@@ -52,16 +52,16 @@
           "label": "Ilyushin Il-76"
         },
         {
-          "id": "e3",
-          "label": "Boeing E-3 Sentry"
+          "id": "an26",
+          "label": "Antonov An-26"
         },
         {
-          "id": "kawasaki-c1",
-          "label": "Kawasaki C-1"
+          "id": "e4",
+          "label": "Boeing E-4"
         },
         {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "ea6b",
+          "label": "Grumman EA-6B Prowler"
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
@@ -85,8 +85,8 @@
           "label": "Lockheed S-3 Viking"
         },
         {
-          "id": "uh60",
-          "label": "Sikorsky UH-60 Black Hawk"
+          "id": "kawasaki-c1",
+          "label": "Kawasaki C-1"
         }
       ],
       "caption": "Airborne early warning and control aircraft based on Boeing 707 airframe. First flew 1972.",
@@ -102,16 +102,16 @@
           "label": "Tupolev Tu-22M"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "su17",
+          "label": "Sukhoi Su-17"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
         },
         {
-          "id": "il76",
-          "label": "Ilyushin Il-76"
+          "id": "ka25",
+          "label": "Kamov Ka-25"
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
@@ -131,8 +131,8 @@
           "label": "McDonnell Douglas F-15 Eagle"
         },
         {
-          "id": "mitsubishi-f1",
-          "label": "Mitsubishi F-1"
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
         },
         {
           "id": "c5",
@@ -156,12 +156,12 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "mig25",
-          "label": "Mikoyan-Gurevich MiG-25"
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
         }
       ],
       "caption": "Multirole and air superiority fighter family. First flew 1972.",
@@ -185,8 +185,8 @@
           "label": "General Dynamics F-16 Fighting Falcon"
         },
         {
-          "id": "viggen",
-          "label": "Saab 37 Viggen"
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         }
       ],
       "caption": "Carrier-based multi-role fighter aircraft family. First flew 1970.",
@@ -206,8 +206,8 @@
           "label": "Grumman F-14 Tomcat"
         },
         {
-          "id": "ea6b",
-          "label": "Grumman EA-6B Prowler"
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
         },
         {
           "id": "f16",
@@ -227,16 +227,16 @@
           "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
-        },
-        {
-          "id": "tu22m",
-          "label": "Tupolev Tu-22M"
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         },
         {
           "id": "f14",
           "label": "Grumman F-14 Tomcat"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
@@ -252,16 +252,16 @@
           "label": "Saab 37 Viggen"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
         },
         {
-          "id": "f14",
-          "label": "Grumman F-14 Tomcat"
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "su24",
+          "label": "Sukhoi Su-24"
         }
       ],
       "caption": "1967 Swedish fighter aircraft family. First flew 1967.",
@@ -285,8 +285,8 @@
           "label": "Aero L-39 Albatros"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
         }
       ],
       "caption": "Military training aircraft family. First flew 1974.",
@@ -310,8 +310,8 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "alpha-jet",
-          "label": "Dassault/Dornier Alpha Jet"
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
         }
       ],
       "caption": "Trainer aircraft family by Aero. First flew 1968.",
@@ -335,8 +335,8 @@
           "label": "BAE Systems Hawk"
         },
         {
-          "id": "l39",
-          "label": "Aero L-39 Albatros"
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
         }
       ],
       "caption": "French light attack fighter. First flew 1973.",
@@ -352,16 +352,16 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
-          "id": "f16",
-          "label": "General Dynamics F-16 Fighting Falcon"
+          "id": "bo105",
+          "label": "MBB Bo 105"
         },
         {
-          "id": "a10",
-          "label": "Fairchild Republic A-10 Thunderbolt II"
+          "id": "mi14",
+          "label": "Mil Mi-14"
         },
         {
-          "id": "f15",
-          "label": "McDonnell Douglas F-15 Eagle"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         }
       ],
       "caption": "Series of military utility transport helicopters. First flew 1974.",
@@ -456,8 +456,8 @@
           "label": "Boeing E-4"
         },
         {
-          "id": "mitsubishi-f1",
-          "label": "Mitsubishi F-1"
+          "id": "mitsubishi-t2",
+          "label": "Mitsubishi T-2"
         },
         {
           "id": "e3",
@@ -506,16 +506,241 @@
           "label": "Fairchild Republic A-10 Thunderbolt II"
         },
         {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        }
+      ],
+      "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
+      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-ka25",
+      "image": "ka25.jpg",
+      "answer": "ka25",
+      "options": [
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        }
+      ],
+      "caption": "Naval helicopter developed for the USSR. First flew 1961.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-mi14",
+      "image": "mi14.jpg",
+      "answer": "mi14",
+      "options": [
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Helicopter in the Soviet Union. First flew 1969.",
+      "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-an26",
+      "image": "an26.jpg",
+      "answer": "an26",
+      "options": [
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "c5",
+          "label": "Lockheed C-5 Galaxy"
+        },
+        {
+          "id": "s3",
+          "label": "Lockheed S-3 Viking"
+        }
+      ],
+      "caption": "Soviet turboprop transport aircraft. First flew 1969.",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-mig23",
+      "image": "mig23.jpg",
+      "answer": "mig23",
+      "options": [
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
           "id": "mig25",
           "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        }
+      ],
+      "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
+      "credit": "DoD photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-su17",
+      "image": "su17.jpg",
+      "answer": "su17",
+      "options": [
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "f15",
+          "label": "McDonnell Douglas F-15 Eagle"
+        }
+      ],
+      "caption": "Soviet variable-sweep wing fighter-bomber. First flew 1966.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-su24",
+      "image": "su24.jpg",
+      "answer": "su24",
+      "options": [
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "viggen",
+          "label": "Saab 37 Viggen"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        }
+      ],
+      "caption": "Family of Soviet strike aircraft. First flew 1970.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-yak38",
+      "image": "yak38.jpg",
+      "answer": "yak38",
+      "options": [
+        {
+          "id": "yak38",
+          "label": "Yakovlev Yak-38"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "mitsubishi-f1",
+          "label": "Mitsubishi F-1"
+        }
+      ],
+      "caption": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy. First flew 1971.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-yak52",
+      "image": "yak52.jpg",
+      "answer": "yak52",
+      "options": [
+        {
+          "id": "yak52",
+          "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "l39",
+          "label": "Aero L-39 Albatros"
+        },
+        {
+          "id": "hawk",
+          "label": "BAE Systems Hawk"
         },
         {
           "id": "mitsubishi-t2",
           "label": "Mitsubishi T-2"
         }
       ],
-      "caption": "Japanese supersonic strike/attack aircraft. First flew 1975.",
-      "credit": "Rob Schleiffert / CC BY-SA 2.0 / via Wikimedia Commons"
+      "caption": "Soviet military training aircraft. First flew 1976.",
+      "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-bo105",
+      "image": "bo105.jpg",
+      "answer": "bo105",
+      "options": [
+        {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Helicopter made by Bölkow. First flew 1967.",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
     }
   ]
 }

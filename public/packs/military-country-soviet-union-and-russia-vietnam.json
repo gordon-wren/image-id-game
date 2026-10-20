@@ -1,0 +1,447 @@
+{
+  "id": "military-country-soviet-union-and-russia-vietnam",
+  "title": "Soviet Union & Russia: Vietnam era",
+  "description": "Military aircraft from the Soviet Union & Russia that entered service 1960–1975.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Soviet Union & Russia"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-il76",
+      "image": "il76.jpg",
+      "answer": "il76",
+      "options": [
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        }
+      ],
+      "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
+      "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-mig25",
+      "image": "mig25.jpg",
+      "answer": "mig25",
+      "options": [
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        }
+      ],
+      "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
+      "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-mi24",
+      "image": "mi24.jpg",
+      "answer": "mi24",
+      "options": [
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        }
+      ],
+      "caption": "Family of assault and attack helicopters. First flew 1969.",
+      "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-mi8",
+      "image": "mi8.jpg",
+      "answer": "mi8",
+      "options": [
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        }
+      ],
+      "caption": "Family of transport helicopters. First flew 1961.",
+      "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-mi6",
+      "image": "mi6.jpg",
+      "answer": "mi6",
+      "options": [
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        }
+      ],
+      "caption": "Transport helicopter. First flew 1957.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-su7",
+      "image": "su7.jpg",
+      "answer": "su7",
+      "options": [
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        }
+      ],
+      "caption": "Soviet strike fighter aircraft. First flew 1955.",
+      "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-tu22",
+      "image": "tu22.jpg",
+      "answer": "tu22",
+      "options": [
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        }
+      ],
+      "caption": "Soviet supersonic heavy bomber. First flew 1958.",
+      "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-yak28",
+      "image": "yak28.jpg",
+      "answer": "yak28",
+      "options": [
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        },
+        {
+          "id": "tu22",
+          "label": "Tupolev Tu-22"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        }
+      ],
+      "caption": "Family of Soviet jet combat aircraft. First flew 1958.",
+      "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-su15",
+      "image": "su15.jpg",
+      "answer": "su15",
+      "options": [
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "yak28",
+          "label": "Yakovlev Yak-28"
+        }
+      ],
+      "caption": "Soviet interceptor aircraft. First flew 1962.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-be12",
+      "image": "be12.jpg",
+      "answer": "be12",
+      "options": [
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        }
+      ],
+      "caption": "Patrol aircraft. First flew 1960.",
+      "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-an22",
+      "image": "an22.jpg",
+      "answer": "an22",
+      "options": [
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        }
+      ],
+      "caption": "Soviet heavy military transport aircraft. First flew 1965.",
+      "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-ka25",
+      "image": "ka25.jpg",
+      "answer": "ka25",
+      "options": [
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "mi24",
+          "label": "Mil Mi-24"
+        },
+        {
+          "id": "mi6",
+          "label": "Mil Mi-6"
+        }
+      ],
+      "caption": "Naval helicopter developed for the USSR. First flew 1961.",
+      "credit": "US Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-il38",
+      "image": "il38.jpg",
+      "answer": "il38",
+      "options": [
+        {
+          "id": "il38",
+          "label": "Ilyushin Il-38"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        }
+      ],
+      "caption": "Soviet-Russian Maritime patrol & ASW aircraft. First flew 1961.",
+      "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-an26",
+      "image": "an26.jpg",
+      "answer": "an26",
+      "options": [
+        {
+          "id": "an26",
+          "label": "Antonov An-26"
+        },
+        {
+          "id": "an22",
+          "label": "Antonov An-22"
+        },
+        {
+          "id": "be12",
+          "label": "Beriev Be-12"
+        },
+        {
+          "id": "il76",
+          "label": "Ilyushin Il-76"
+        }
+      ],
+      "caption": "Soviet turboprop transport aircraft. First flew 1969.",
+      "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-mig23",
+      "image": "mig23.jpg",
+      "answer": "mig23",
+      "options": [
+        {
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        }
+      ],
+      "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
+      "credit": "DoD photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-su17",
+      "image": "su17.jpg",
+      "answer": "su17",
+      "options": [
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su15",
+          "label": "Sukhoi Su-15"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        }
+      ],
+      "caption": "Soviet variable-sweep wing fighter-bomber. First flew 1966.",
+      "credit": "SDASM / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-soviet-union-and-russia-vietnam-su24",
+      "image": "su24.jpg",
+      "answer": "su24",
+      "options": [
+        {
+          "id": "su24",
+          "label": "Sukhoi Su-24"
+        },
+        {
+          "id": "su17",
+          "label": "Sukhoi Su-17"
+        },
+        {
+          "id": "su7",
+          "label": "Sukhoi Su-7"
+        },
+        {
+          "id": "mig25",
+          "label": "Mikoyan-Gurevich MiG-25"
+        }
+      ],
+      "caption": "Family of Soviet strike aircraft. First flew 1970.",
+      "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    }
+  ]
+}
