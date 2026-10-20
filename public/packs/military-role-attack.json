@@ -185,8 +185,8 @@
           "label": "Douglas A-20 Havoc"
         },
         {
-          "id": "il2",
-          "label": "Ilyushin Il-2"
+          "id": "ju87",
+          "label": "Junkers Ju 87"
         }
       ],
       "caption": "US Navy dive bomber. First flew 1936.",
@@ -631,8 +631,8 @@
           "label": "Nakajima B5N"
         },
         {
-          "id": "sb2c",
-          "label": "Curtiss SB2C Helldiver"
+          "id": "tbd",
+          "label": "Douglas TBD Devastator"
         },
         {
           "id": "d3a",
@@ -866,6 +866,81 @@
       ],
       "caption": "Russian fighter-bomber aircraft. First flew 1990.",
       "credit": "Doomych / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-junkers-j1",
+      "image": "junkers-j1.jpg",
+      "answer": "junkers-j1",
+      "options": [
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "b6n",
+          "label": "Nakajima B6N Tenzan"
+        },
+        {
+          "id": "b5n",
+          "label": "Nakajima B5N"
+        }
+      ],
+      "caption": "1917 attack aircraft by Junkers. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "sb2u",
+          "label": "Vought SB2U Vindicator"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-attack-hs129",
+      "image": "hs129.jpg",
+      "answer": "hs129",
+      "options": [
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "a26",
+          "label": "Douglas A-26 Invader"
+        }
+      ],
+      "caption": "German twin engine WWII ground attack aircraft. First flew 1939.",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
     }
   ]
 }

@@ -77,6 +77,8 @@ function tidyAuthor(author) {
     .replace(/^[^:;]+\.(jpe?g|png|tiff?):\s*/i, "")
     .trim();
   if (/^(撮影者不明|неизвестен|no info|unknown)$/i.test(a)) return "Unknown author";
+  // A license notice pasted into the author field ("This image is in the public domain…").
+  if (/public domain|общественном достоянии/i.test(a)) return null;
   return a || null;
 }
 

@@ -277,16 +277,16 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "uh72",
-          "label": "Eurocopter UH-72 Lakota"
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "oh1",
+          "label": "Kawasaki OH-1"
         },
         {
           "id": "aw101",
           "label": "AgustaWestland AW101"
-        },
-        {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "European attack helicopter. First flew 1991.",
@@ -581,12 +581,12 @@
           "label": "Eurocopter Tiger"
         },
         {
-          "id": "ah1z",
-          "label": "Bell AH-1Z Viper"
+          "id": "bo105",
+          "label": "MBB Bo 105"
         },
         {
-          "id": "uh1y",
-          "label": "Bell UH-1Y Venom"
+          "id": "ah1z",
+          "label": "Bell AH-1Z Viper"
         }
       ],
       "caption": "Light utility multipurpose helicopter. First flew 2006.",
@@ -891,6 +891,31 @@
       ],
       "caption": "Russian attack helicopter. First flew 1982.",
       "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-helicopters-bo105",
+      "image": "bo105.jpg",
+      "answer": "bo105",
+      "options": [
+        {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "tiger",
+          "label": "Eurocopter Tiger"
+        },
+        {
+          "id": "ch54",
+          "label": "Sikorsky CH-54 Tarhe"
+        },
+        {
+          "id": "ch53e",
+          "label": "Sikorsky CH-53E Super Stallion"
+        }
+      ],
+      "caption": "Helicopter made by Bölkow. First flew 1967.",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
     }
   ]
 }

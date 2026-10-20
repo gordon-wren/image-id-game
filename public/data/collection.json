@@ -391,7 +391,37 @@
     "a50": 388,
     "mi28": 389,
     "su34": 390,
-    "yak130": 391
+    "yak130": 391,
+    "fokker-e3": 392,
+    "albatros-d3": 393,
+    "fokker-dr1": 394,
+    "fokker-d7": 395,
+    "junkers-j1": 396,
+    "gotha-g5": 397,
+    "he51": 398,
+    "ju52": 399,
+    "bu131": 400,
+    "fi156": 401,
+    "ju87": 402,
+    "he111": 403,
+    "do17": 404,
+    "fw200": 405,
+    "ar196": 406,
+    "bf110": 407,
+    "fw190": 408,
+    "ju88": 409,
+    "do217": 410,
+    "he177": 411,
+    "bv138": 412,
+    "fw189": 413,
+    "hs129": 414,
+    "me410": 415,
+    "he219": 416,
+    "me323": 417,
+    "me262": 418,
+    "he162": 419,
+    "ar234": 420,
+    "bo105": 421
   },
   "entries": {
     "jn4": {
@@ -504,6 +534,138 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Curtiss_Model_H"
       }
     },
+    "fokker-e3": {
+      "number": 392,
+      "name": "Fokker E.III",
+      "image": "assets/aircraft/fokker-e3.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "Fighter aircraft used in World War I",
+        "role": "Fighter",
+        "manufacturer": "Fokker",
+        "firstFlight": 1916,
+        "country": "Germany",
+        "about": "The Fokker E.III is the main variant of the Eindecker fighter aircraft of World War I. It entered service on the Western Front in December 1915 and was also supplied to Austria-Hungary and Turkey.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fokker_E.III"
+      }
+    },
+    "albatros-d3": {
+      "number": 393,
+      "name": "Albatros D.III",
+      "image": "assets/aircraft/albatros-d3.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "1916 fighter aircraft by Albatros",
+        "role": "Fighter",
+        "manufacturer": "Albatros",
+        "firstFlight": 1916,
+        "country": "Germany",
+        "about": "The Albatros D.III was a biplane fighter aircraft used by the Imperial German Army Air Service during World War I. A modified licensed version was built by Oeffag for the Austro-Hungarian Air Service (Luftfahrtruppen). The D.III was flown by many top German flying aces, including Wilhelm Frankl, Erich Löwenhardt,…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Albatros_D.III"
+      }
+    },
+    "fokker-dr1": {
+      "number": 394,
+      "name": "Fokker Dr.I",
+      "image": "assets/aircraft/fokker-dr1.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "WWI fighter aircraft",
+        "role": "Fighter",
+        "manufacturer": "Fokker",
+        "firstFlight": 1917,
+        "country": "Germany",
+        "about": "The Fokker Dr.I, often known simply as the Fokker Triplane, was a World War I fighter aircraft built by Fokker-Flugzeugwerke. The Dr.I saw widespread service in the spring of 1918.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fokker_Dr.I"
+      }
+    },
+    "fokker-d7": {
+      "number": 395,
+      "name": "Fokker D.VII",
+      "image": "assets/aircraft/fokker-d7.jpg",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "1918 fighter aircraft model by Fokker",
+        "role": "Fighter",
+        "manufacturer": "Fokker",
+        "firstFlight": 1918,
+        "country": "Germany",
+        "about": "The Fokker D.VII is a German World War I fighter aircraft designed by Reinhold Platz of the Fokker-Flugzeugwerke. Germany produced around 3,300 D.VII aircraft in the second half of 1918.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fokker_D.VII"
+      }
+    },
+    "junkers-j1": {
+      "number": 396,
+      "name": "Junkers J.I",
+      "image": "assets/aircraft/junkers-j1.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-attack",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "1917 attack aircraft by Junkers",
+        "role": "Observation and liaison aircraft",
+        "manufacturer": "Junkers Motorenbau und Junkers Flugzeugwerk",
+        "firstFlight": 1917,
+        "country": "Germany",
+        "about": "The Junkers J.I was a German \"J-class\" armored sesquiplane of World War I, developed for low-level ground attack, observation and army cooperation. It is especially noteworthy as being the first all-metal aircraft to enter mass production; the aircraft's metal construction and heavy armour was a shield against small…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Junkers_J.I"
+      }
+    },
+    "gotha-g5": {
+      "number": 397,
+      "name": "Gotha G.V",
+      "image": "assets/aircraft/gotha-g5.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwi",
+        "military-decade-1910s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-wwi"
+      ],
+      "facts": {
+        "description": "Heavy bomber aircraft",
+        "role": "Heavy bomber",
+        "manufacturer": "Gotha",
+        "firstFlight": 1917,
+        "country": "Germany",
+        "about": "The Gotha G.V was a heavy bomber used by the Luftstreitkräfte during World War I. Designed for long-range service and built by Gothaer Waggonfabrik AG, the Gotha G.V was used principally as a night bomber.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gotha_G.V"
+      }
+    },
     "spitfire": {
       "number": 143,
       "name": "Supermarine Spitfire",
@@ -554,7 +716,9 @@
       "packs": [
         "military-era-interwar",
         "military-decade-1930s",
-        "military-role-fighters"
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-interwar"
       ],
       "facts": {
         "description": "German single-engine fighter aircraft family",
@@ -1396,6 +1560,204 @@
         "country": "Soviet Union",
         "about": "The Tupolev TB-3, OKB designation ANT-6, was a monoplane heavy bomber deployed by the Soviet Air Force in the 1930s and used during the early years of World War II. It was one of the world's first cantilever wing four-engine heavy bombers.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_TB-3"
+      }
+    },
+    "he51": {
+      "number": 398,
+      "name": "Heinkel He 51",
+      "image": "assets/aircraft/he51.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "German single-seat biplane fighter aircraft",
+        "role": "Biplane fighter-bomber",
+        "manufacturer": "Heinkel",
+        "firstFlight": 1933,
+        "country": "Germany",
+        "about": "The Heinkel He 51 was a German single-seat biplane fighter aircraft. A seaplane variant and a ground-attack version were also developed.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Heinkel_He_51"
+      }
+    },
+    "ju52": {
+      "number": 399,
+      "name": "Junkers Ju 52",
+      "image": "assets/aircraft/ju52.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-transports",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "German transport aircraft",
+        "role": "Transport aircraft, medium bomber, airliner",
+        "manufacturer": "Junkers Motorenbau und Junkers Flugzeugwerk, Junkers",
+        "firstFlight": 1932,
+        "country": "Germany",
+        "about": "The Junkers Ju 52, best known in its Ju 52/3m form is a transport aircraft that was designed and manufactured by German aviation company Junkers. First introduced in 1930 as a civilian airliner, it was adapted into a military transport aircraft by Nazi Germany.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Junkers_Ju_52"
+      }
+    },
+    "bu131": {
+      "number": 400,
+      "name": "Bücker Bü 131 Jungmann",
+      "image": "assets/aircraft/bu131.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-trainers",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "Military training aircraft by Bücker of Germany",
+        "role": "Basic trainer",
+        "manufacturer": "Bücker Flugzeugbau",
+        "firstFlight": 1934,
+        "country": "Germany",
+        "about": "The Bücker Bü 131 Jungmann is a basic biplane trainer aircraft designed and produced by the German aircraft manufacturer Bücker Flugzeugbau. It was the company's first aircraft, as well as being the final biplane to be produced in Germany.",
+        "wikipedia": "https://en.wikipedia.org/wiki/B%C3%BCcker_B%C3%BC_131_Jungmann"
+      }
+    },
+    "fi156": {
+      "number": 401,
+      "name": "Fieseler Fi 156 Storch",
+      "image": "assets/aircraft/fi156.jpg",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-special-mission",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "German liaison aircraft",
+        "role": "Reconnaissance & communications",
+        "manufacturer": "Fieseler, Morane-Saulnier",
+        "firstFlight": 1936,
+        "country": "Germany",
+        "about": "The Fieseler Fi 156 Storch is a liaison aircraft designed and produced by the German aircraft manufacturer Fieseler. Its nickname of Storch was derived from the lengthy legs of its main landing gear, which gave the aircraft a similar appearance to that of the long-legged, big-winged bird.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fieseler_Fi_156_Storch"
+      }
+    },
+    "ju87": {
+      "number": 402,
+      "name": "Junkers Ju 87",
+      "image": "assets/aircraft/ju87.jpg",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-attack",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "1935 dive bomber aircraft family by Junkers",
+        "role": "Dive bomber and ground-attack aircraft",
+        "manufacturer": "Junkers, Junkers Motorenbau und Junkers Flugzeugwerk",
+        "firstFlight": 1935,
+        "country": "Germany",
+        "about": "The Junkers Ju 87, popularly known as the \"Stuka\", is a German dive bomber and ground-attack aircraft. Designed by Hermann Pohlmann, it first flew in 1935.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Junkers_Ju_87"
+      }
+    },
+    "he111": {
+      "number": 403,
+      "name": "Heinkel He 111",
+      "image": "assets/aircraft/he111.jpg",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "World War II German medium bomber",
+        "role": "Medium bomber",
+        "manufacturer": "Heinkel, Arado Flugzeugwerke",
+        "firstFlight": 1935,
+        "country": "Germany",
+        "about": "The Heinkel He 111 is a German airliner and medium bomber designed by Siegfried and Walter Günter at Heinkel Flugzeugwerke in 1934. Through development, it was described as a wolf in sheep's clothing.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Heinkel_He_111"
+      }
+    },
+    "do17": {
+      "number": 404,
+      "name": "Dornier Do 17",
+      "image": "assets/aircraft/do17.jpg",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "World War II German light bomber",
+        "role": "Light bomber, night fighter and reconnaissance aircraft",
+        "manufacturer": "Dornier",
+        "firstFlight": 1934,
+        "country": "Germany",
+        "about": "The Dornier Do 17 is a twin-engined light bomber designed and produced by the German aircraft manufacturer Dornier Flugzeugwerke. Large numbers were operated by the Luftwaffe throughout the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dornier_Do_17"
+      }
+    },
+    "fw200": {
+      "number": 405,
+      "name": "Focke-Wulf Fw 200 Condor",
+      "image": "assets/aircraft/fw200.jpg",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-special-mission",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "German prop-driven aircraft built 1937–1944",
+        "role": "Airliner, reconnaissance, bomber, transport aircraft and maritime patrol aircraft",
+        "manufacturer": "Focke-Wulf",
+        "firstFlight": 1937,
+        "country": "Germany",
+        "about": "The Focke-Wulf Fw 200 Condor, also known as Kurier to the Allies, is an all-metal four-engined monoplane designed and produced by the German aircraft manufacturer Focke-Wulf. It was the first heavier-than-air aircraft to fly nonstop between Berlin and New York City, about 4,000 miles (6,400 km), making the flight…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_200_Condor"
+      }
+    },
+    "ar196": {
+      "number": 406,
+      "name": "Arado Ar 196",
+      "image": "assets/aircraft/ar196.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-interwar",
+        "military-decade-1930s",
+        "military-role-special-mission",
+        "military-country-germany",
+        "military-country-germany-interwar"
+      ],
+      "facts": {
+        "description": "1936 maritime reconnaissance floatplane family by Arado",
+        "role": "Reconnaissance",
+        "manufacturer": "Arado Flugzeugwerke",
+        "firstFlight": 1937,
+        "country": "Germany",
+        "about": "The Arado Ar 196 is a shipboard reconnaissance low-wing monoplane aircraft designed and produced by the German aircraft manufacturer Arado. It was the standard observation floatplane of the Kriegsmarine throughout the Second World War, and was the only German seaplane to serve throughout the conflict.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Arado_Ar_196"
       }
     },
     "p51": {
@@ -2692,6 +3054,314 @@
         "country": "Soviet Union",
         "about": "The Petlyakov Pe-8 was a Soviet heavy bomber designed before World War II, and the only four-engine bomber the USSR built during the war. Produced in limited numbers, it was used to bomb Berlin in August 1941.",
         "wikipedia": "https://en.wikipedia.org/wiki/Petlyakov_Pe-8"
+      }
+    },
+    "bf110": {
+      "number": 407,
+      "name": "Messerschmitt Bf 110",
+      "image": "assets/aircraft/bf110.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1930s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "1936 heavy fighter family by Messerschmitt",
+        "role": "Heavy fighter; Fighter-bomber; Night fighter",
+        "manufacturer": "Messerschmitt, Augsburg",
+        "firstFlight": 1936,
+        "country": "Germany",
+        "about": "The Messerschmitt Bf 110, often known unofficially as the Me 110, is a twin-engined Zerstörer, fighter-bomber, and night fighter (Nachtjäger) designed by the German aircraft company Bayerische Flugzeugwerke (BFW) and produced by successor company Messerschmitt. It was primarily operated by the Luftwaffe and was…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_110"
+      }
+    },
+    "fw190": {
+      "number": 408,
+      "name": "Focke-Wulf Fw 190",
+      "image": "assets/aircraft/fw190.jpg",
+      "credit": "RAF / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "1939 fighter aircraft family by Focke-Wulf",
+        "role": "Fighter aircraft",
+        "manufacturer": "Focke-Wulf",
+        "firstFlight": 1939,
+        "country": "Germany",
+        "about": "The Focke-Wulf Fw 190, nicknamed Würger is a German single-seat, single-engined, fighter aircraft designed by Kurt Tank at Focke-Wulf in the late 1930s; it was widely used during World War II. Along with its well-known counterpart, the Messerschmitt Bf 109, the Fw 190 became the backbone of the Jagdwaffe of the…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_190"
+      }
+    },
+    "ju88": {
+      "number": 409,
+      "name": "Junkers Ju 88",
+      "image": "assets/aircraft/ju88.jpg",
+      "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1930s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German twin engine multirole combat aircraft",
+        "role": "Tactical / dive / torpedo bomber; Night / heavy fighter; Reconnaissance aircraft",
+        "manufacturer": "Junkers, Junkers Motorenbau und Junkers Flugzeugwerk",
+        "firstFlight": 1936,
+        "country": "Germany",
+        "about": "The Junkers Ju 88 is a twin-engined multirole combat aircraft designed and produced by the German aircraft manufacturer Junkers Aircraft and Motor Works. It was used extensively during the Second World War by the Luftwaffe and became one of the most versatile combat aircraft of the conflict.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Junkers_Ju_88"
+      }
+    },
+    "do217": {
+      "number": 410,
+      "name": "Dornier Do 217",
+      "image": "assets/aircraft/do217.jpg",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "1940 bomber aircraft family by Dornier",
+        "role": "Medium bomber; Heavy bomber; Night fighter; Reconnaissance aircraft",
+        "manufacturer": "Dornier",
+        "firstFlight": 1938,
+        "country": "Germany",
+        "about": "The Dornier Do 217 was a bomber used by the German Luftwaffe during World War II. It was a more powerful development of the Dornier Do 17, known as the Fliegender Bleistift.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dornier_Do_217"
+      }
+    },
+    "he177": {
+      "number": 411,
+      "name": "Heinkel He 177 Greif",
+      "image": "assets/aircraft/he177.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German heavy bomber during WW2",
+        "role": "Long-range heavy bomber",
+        "manufacturer": "Heinkel",
+        "firstFlight": 1939,
+        "country": "Germany",
+        "about": "The Heinkel He 177 Greif (Griffin) was a long-range heavy bomber flown by the Luftwaffe during World War II. The introduction of the He 177 to combat operations was significantly delayed by problems both with the development of its engines and frequent changes to its intended role.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Heinkel_He_177_Greif"
+      }
+    },
+    "bv138": {
+      "number": 412,
+      "name": "Blohm & Voss BV 138",
+      "image": "assets/aircraft/bv138.jpg",
+      "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-special-mission",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "1937 flying boat family by Blohm & Voss",
+        "role": "Maritime patrol; Long-Range Reconnaissance",
+        "manufacturer": "Blohm+Voss",
+        "firstFlight": 1937,
+        "country": "Germany",
+        "about": "The Blohm & Voss BV 138 Seedrache was a trimotor flying boat designed and built by the German aircraft manufacturer Blohm & Voss. It served as the Luftwaffe's primary seaborne long-range maritime patrol and naval reconnaissance aircraft operated by the Luftwaffe during the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_138"
+      }
+    },
+    "fw189": {
+      "number": 413,
+      "name": "Focke-Wulf Fw 189 Uhu",
+      "image": "assets/aircraft/fw189.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1930s",
+        "military-role-special-mission",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German twin-engine twin-boom reconnaissance aircraft",
+        "role": "Tactical reconnaissance and army cooperation aircraft, light bomber",
+        "manufacturer": "Focke-Wulf, Bremen",
+        "firstFlight": 1938,
+        "country": "Germany",
+        "about": "The Focke-Wulf Fw 189 Uhu is a twin-engine twin-boom tactical reconnaissance and army cooperation aircraft designed and produced by the German aircraft manufacturer Focke-Wulf. It was one of the Luftwaffe's most prominent short range reconnaissance aircraft during the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_189_Uhu"
+      }
+    },
+    "hs129": {
+      "number": 414,
+      "name": "Henschel Hs 129",
+      "image": "assets/aircraft/hs129.jpg",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-attack",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German twin engine WWII ground attack aircraft",
+        "role": "Attacker",
+        "manufacturer": "Henschel & Sohn",
+        "firstFlight": 1939,
+        "country": "Germany",
+        "about": "The Henschel Hs 129 was a ground-attack aircraft designed and produced by the German aircraft manufacturer Henschel Flugzeugwerke AG. Fielded by the Luftwaffe during the Second World War, it saw combat in Tunisia and on the Eastern Front.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Henschel_Hs_129"
+      }
+    },
+    "me410": {
+      "number": 415,
+      "name": "Messerschmitt Me 410 Hornisse",
+      "image": "assets/aircraft/me410.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German fighter-bomber",
+        "role": "Heavy fighter, fighter-bomber",
+        "manufacturer": "Messerschmitt",
+        "firstFlight": 1942,
+        "country": "Germany",
+        "about": "The Messerschmitt Me 410 Hornisse  (Hornet) is a heavy fighter and Schnellbomber designed and produced by the German aircraft manufacturer Messerschmitt. It was flown by the Luftwaffe during the latter half of the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Messerschmitt_Me_410_Hornisse"
+      }
+    },
+    "he219": {
+      "number": 416,
+      "name": "Heinkel He 219 Uhu",
+      "image": "assets/aircraft/he219.jpg",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German night fighter of World War II",
+        "role": "Night fighter",
+        "manufacturer": "Heinkel, Rostock",
+        "firstFlight": 1942,
+        "country": "Germany",
+        "about": "The Heinkel He 219 Uhu (\"Eagle-Owl\") is a night fighter designed and produced by the German aircraft manufacturer Heinkel. It primarily served with the Luftwaffe in the later stages of the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Heinkel_He_219_Uhu"
+      }
+    },
+    "me323": {
+      "number": 417,
+      "name": "Messerschmitt Me 323 Gigant",
+      "image": "assets/aircraft/me323.jpg",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-transports",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German military transport aircraft of World War II",
+        "role": "Heavy transport",
+        "manufacturer": "Messerschmitt",
+        "firstFlight": 1942,
+        "country": "Germany",
+        "about": "The Messerschmitt Me 323 Gigant (\"Giant\") was a German military transport aircraft of World War II. It was a powered variant of the Me 321 military glider and was the largest land-based transport aircraft to fly during the war.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Messerschmitt_Me_323_Gigant"
+      }
+    },
+    "me262": {
+      "number": 418,
+      "name": "Messerschmitt Me 262",
+      "image": "assets/aircraft/me262.jpg",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "First operational jet-powered fighter aircraft",
+        "role": "Fighter aircraft and fighter-bomber",
+        "manufacturer": "Messerschmitt",
+        "firstFlight": 1942,
+        "country": "Germany",
+        "about": "The Messerschmitt Me 262, nicknamed Schwalbe in fighter versions, or Sturmvogel in fighter-bomber versions, is a fighter aircraft and fighter-bomber that was designed and produced by the German aircraft manufacturer Messerschmitt. It was the world's first operational jet-powered fighter aircraft and one of two jet…",
+        "wikipedia": "https://en.wikipedia.org/wiki/Messerschmitt_Me_262"
+      }
+    },
+    "he162": {
+      "number": 419,
+      "name": "Heinkel He 162 Volksjäger",
+      "image": "assets/aircraft/he162.jpg",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-fighters",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "Interceptor jet aircraft, German, WW2",
+        "role": "Jet fighter",
+        "manufacturer": "Heinkel",
+        "firstFlight": 1944,
+        "country": "Germany",
+        "about": "The Heinkel He 162 Volksjäger is a German single-engine, jet-powered fighter aircraft used by the Luftwaffe late in World War II. Developed under the Emergency Fighter Program, it was designed and built quickly and made primarily of wood as metals were in very short supply and prioritised for other aircraft.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Heinkel_He_162_Volksj%C3%A4ger"
+      }
+    },
+    "ar234": {
+      "number": 420,
+      "name": "Arado Ar 234 Blitz",
+      "image": "assets/aircraft/ar234.jpg",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-wwii",
+        "military-decade-1940s",
+        "military-role-bombers",
+        "military-country-germany",
+        "military-country-germany-wwii"
+      ],
+      "facts": {
+        "description": "German jet-powered bomber",
+        "role": "Reconnaissance / bomber",
+        "manufacturer": "Arado Flugzeugwerke",
+        "firstFlight": 1943,
+        "country": "Germany",
+        "about": "The Arado Ar 234 Blitz (\"Lightning\") is a jet-powered bomber designed and produced by the German aircraft manufacturer Arado. It was the world's first operational turbojet-powered bomber, seeing service during the final months of the Second World War.",
+        "wikipedia": "https://en.wikipedia.org/wiki/Arado_Ar_234_Blitz"
       }
     },
     "c130": {
@@ -4751,6 +5421,27 @@
         "country": "Soviet Union",
         "about": "The Sukhoi Su-24 is a supersonic, all-weather tactical bomber developed in the Soviet Union. The aircraft has a variable-sweep wing, twin engines and a side-by-side seating arrangement for its crew of two.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-24"
+      }
+    },
+    "bo105": {
+      "number": 421,
+      "name": "MBB Bo 105",
+      "image": "assets/aircraft/bo105.jpg",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons",
+      "packs": [
+        "military-era-vietnam",
+        "military-decade-1970s",
+        "military-role-helicopters",
+        "military-country-germany"
+      ],
+      "facts": {
+        "description": "Helicopter made by Bölkow",
+        "role": "Light utility helicopter",
+        "manufacturer": "Airbus Helicopters, Messerschmitt-Bölkow-Blohm",
+        "firstFlight": 1967,
+        "country": "Germany",
+        "about": "The Messerschmitt-Bölkow-Blohm Bo 105 is a light, twin-engine, multi-purpose helicopter developed by Bölkow of Ottobrunn, West Germany. It was the first light twin-engine helicopter in the world, and the first rotorcraft that could perform aerobatic maneuvers such as inverted loops.",
+        "wikipedia": "https://en.wikipedia.org/wiki/MBB_Bo_105"
       }
     },
     "an124": {
@@ -8322,6 +9013,12 @@
     "military-era-wwi/martin-mb1": "martin-mb1",
     "military-era-wwi/dh4-us": "dh4-us",
     "military-era-wwi/curtiss-h16": "curtiss-h16",
+    "military-era-wwi/fokker-e3": "fokker-e3",
+    "military-era-wwi/albatros-d3": "albatros-d3",
+    "military-era-wwi/fokker-dr1": "fokker-dr1",
+    "military-era-wwi/fokker-d7": "fokker-d7",
+    "military-era-wwi/junkers-j1": "junkers-j1",
+    "military-era-wwi/gotha-g5": "gotha-g5",
     "military-era-interwar/spitfire": "spitfire",
     "military-era-interwar/hurricane": "hurricane",
     "military-era-interwar/bf109": "bf109",
@@ -8363,6 +9060,15 @@
     "military-era-interwar/i16": "i16",
     "military-era-interwar/po2": "po2",
     "military-era-interwar/tb3": "tb3",
+    "military-era-interwar/he51": "he51",
+    "military-era-interwar/ju52": "ju52",
+    "military-era-interwar/bu131": "bu131",
+    "military-era-interwar/fi156": "fi156",
+    "military-era-interwar/ju87": "ju87",
+    "military-era-interwar/he111": "he111",
+    "military-era-interwar/do17": "do17",
+    "military-era-interwar/fw200": "fw200",
+    "military-era-interwar/ar196": "ar196",
     "military-era-wwii/p51": "p51",
     "military-era-wwii/a6m": "a6m",
     "military-era-wwii/f4u": "f4u",
@@ -8422,6 +9128,20 @@
     "military-era-wwii/pe2": "pe2",
     "military-era-wwii/tu2": "tu2",
     "military-era-wwii/pe8": "pe8",
+    "military-era-wwii/bf110": "bf110",
+    "military-era-wwii/fw190": "fw190",
+    "military-era-wwii/ju88": "ju88",
+    "military-era-wwii/do217": "do217",
+    "military-era-wwii/he177": "he177",
+    "military-era-wwii/bv138": "bv138",
+    "military-era-wwii/fw189": "fw189",
+    "military-era-wwii/hs129": "hs129",
+    "military-era-wwii/me410": "me410",
+    "military-era-wwii/he219": "he219",
+    "military-era-wwii/me323": "me323",
+    "military-era-wwii/me262": "me262",
+    "military-era-wwii/he162": "he162",
+    "military-era-wwii/ar234": "ar234",
     "military-era-early-cold-war/c130": "c130",
     "military-era-early-cold-war/kc135": "kc135",
     "military-era-early-cold-war/u2": "u2",
@@ -8516,6 +9236,7 @@
     "military-era-vietnam/mig23": "mig23",
     "military-era-vietnam/su17": "su17",
     "military-era-vietnam/su24": "su24",
+    "military-era-vietnam/bo105": "bo105",
     "military-era-late-cold-war/an124": "an124",
     "military-era-late-cold-war/an225": "an225",
     "military-era-late-cold-war/e3": "e3",
@@ -8607,6 +9328,12 @@
     "military-decade-1910s/martin-mb1": "martin-mb1",
     "military-decade-1910s/dh4-us": "dh4-us",
     "military-decade-1910s/curtiss-h16": "curtiss-h16",
+    "military-decade-1910s/fokker-e3": "fokker-e3",
+    "military-decade-1910s/albatros-d3": "albatros-d3",
+    "military-decade-1910s/fokker-dr1": "fokker-dr1",
+    "military-decade-1910s/fokker-d7": "fokker-d7",
+    "military-decade-1910s/junkers-j1": "junkers-j1",
+    "military-decade-1910s/gotha-g5": "gotha-g5",
     "military-decade-1920s/martin-mb2": "martin-mb2",
     "military-decade-1920s/curtiss-p1": "curtiss-p1",
     "military-decade-1920s/boeing-pw9": "boeing-pw9",
@@ -8649,6 +9376,18 @@
     "military-decade-1930s/i15": "i15",
     "military-decade-1930s/i16": "i16",
     "military-decade-1930s/tb3": "tb3",
+    "military-decade-1930s/he51": "he51",
+    "military-decade-1930s/ju52": "ju52",
+    "military-decade-1930s/bu131": "bu131",
+    "military-decade-1930s/fi156": "fi156",
+    "military-decade-1930s/bf110": "bf110",
+    "military-decade-1930s/ju87": "ju87",
+    "military-decade-1930s/ju88": "ju88",
+    "military-decade-1930s/he111": "he111",
+    "military-decade-1930s/do17": "do17",
+    "military-decade-1930s/fw200": "fw200",
+    "military-decade-1930s/ar196": "ar196",
+    "military-decade-1930s/fw189": "fw189",
     "military-decade-1940s/p51": "p51",
     "military-decade-1940s/a6m": "a6m",
     "military-decade-1940s/f4u": "f4u",
@@ -8718,6 +9457,17 @@
     "military-decade-1940s/yak18": "yak18",
     "military-decade-1940s/an2": "an2",
     "military-decade-1940s/mig15": "mig15",
+    "military-decade-1940s/fw190": "fw190",
+    "military-decade-1940s/do217": "do217",
+    "military-decade-1940s/he177": "he177",
+    "military-decade-1940s/bv138": "bv138",
+    "military-decade-1940s/hs129": "hs129",
+    "military-decade-1940s/me410": "me410",
+    "military-decade-1940s/he219": "he219",
+    "military-decade-1940s/me323": "me323",
+    "military-decade-1940s/me262": "me262",
+    "military-decade-1940s/he162": "he162",
+    "military-decade-1940s/ar234": "ar234",
     "military-decade-1950s/c130": "c130",
     "military-decade-1950s/kc135": "kc135",
     "military-decade-1950s/u2": "u2",
@@ -8812,6 +9562,7 @@
     "military-decade-1970s/su24": "su24",
     "military-decade-1970s/yak38": "yak38",
     "military-decade-1970s/yak52": "yak52",
+    "military-decade-1970s/bo105": "bo105",
     "military-decade-1980s/an124": "an124",
     "military-decade-1980s/an225": "an225",
     "military-decade-1980s/b1": "b1",
@@ -8968,6 +9719,17 @@
     "military-role-fighters/mig19": "mig19",
     "military-role-fighters/su15": "su15",
     "military-role-fighters/mig23": "mig23",
+    "military-role-fighters/fokker-e3": "fokker-e3",
+    "military-role-fighters/albatros-d3": "albatros-d3",
+    "military-role-fighters/fokker-dr1": "fokker-dr1",
+    "military-role-fighters/fokker-d7": "fokker-d7",
+    "military-role-fighters/he51": "he51",
+    "military-role-fighters/bf110": "bf110",
+    "military-role-fighters/fw190": "fw190",
+    "military-role-fighters/me410": "me410",
+    "military-role-fighters/he219": "he219",
+    "military-role-fighters/me262": "me262",
+    "military-role-fighters/he162": "he162",
     "military-role-attack/a10": "a10",
     "military-role-attack/f117": "f117",
     "military-role-attack/harrier": "harrier",
@@ -9002,6 +9764,9 @@
     "military-role-attack/yak38": "yak38",
     "military-role-attack/su25": "su25",
     "military-role-attack/su34": "su34",
+    "military-role-attack/junkers-j1": "junkers-j1",
+    "military-role-attack/ju87": "ju87",
+    "military-role-attack/hs129": "hs129",
     "military-role-bombers/b52": "b52",
     "military-role-bombers/b1": "b1",
     "military-role-bombers/b2": "b2",
@@ -9043,6 +9808,13 @@
     "military-role-bombers/m4": "m4",
     "military-role-bombers/tu22": "tu22",
     "military-role-bombers/yak28": "yak28",
+    "military-role-bombers/gotha-g5": "gotha-g5",
+    "military-role-bombers/ju88": "ju88",
+    "military-role-bombers/he111": "he111",
+    "military-role-bombers/do17": "do17",
+    "military-role-bombers/do217": "do217",
+    "military-role-bombers/he177": "he177",
+    "military-role-bombers/ar234": "ar234",
     "military-role-transports/c130": "c130",
     "military-role-transports/c17": "c17",
     "military-role-transports/c5": "c5",
@@ -9069,6 +9841,8 @@
     "military-role-transports/an12": "an12",
     "military-role-transports/an22": "an22",
     "military-role-transports/an26": "an26",
+    "military-role-transports/ju52": "ju52",
+    "military-role-transports/me323": "me323",
     "military-role-special-mission/e3": "e3",
     "military-role-special-mission/p8": "p8",
     "military-role-special-mission/p3": "p3",
@@ -9104,6 +9878,11 @@
     "military-role-special-mission/be12": "be12",
     "military-role-special-mission/il38": "il38",
     "military-role-special-mission/a50": "a50",
+    "military-role-special-mission/fi156": "fi156",
+    "military-role-special-mission/fw200": "fw200",
+    "military-role-special-mission/ar196": "ar196",
+    "military-role-special-mission/bv138": "bv138",
+    "military-role-special-mission/fw189": "fw189",
     "military-role-drones/mq9": "mq9",
     "military-role-drones/rq4": "rq4",
     "military-role-drones/mq1": "mq1",
@@ -9134,6 +9913,7 @@
     "military-role-trainers/yak18": "yak18",
     "military-role-trainers/yak52": "yak52",
     "military-role-trainers/yak130": "yak130",
+    "military-role-trainers/bu131": "bu131",
     "military-role-helicopters/ah64": "ah64",
     "military-role-helicopters/uh1": "uh1",
     "military-role-helicopters/ch47": "ch47",
@@ -9169,6 +9949,7 @@
     "military-role-helicopters/mi14": "mi14",
     "military-role-helicopters/ka27": "ka27",
     "military-role-helicopters/mi28": "mi28",
+    "military-role-helicopters/bo105": "bo105",
     "military-country-united-states/c130": "c130",
     "military-country-united-states/c17": "c17",
     "military-country-united-states/c5": "c5",
@@ -9663,6 +10444,67 @@
     "military-country-japan-wwii/f1m": "f1m",
     "military-country-japan-wwii/h8k": "h8k",
     "military-country-japan-wwii/ki57": "ki57",
+    "military-country-germany/bf109": "bf109",
+    "military-country-germany/fokker-e3": "fokker-e3",
+    "military-country-germany/albatros-d3": "albatros-d3",
+    "military-country-germany/fokker-dr1": "fokker-dr1",
+    "military-country-germany/fokker-d7": "fokker-d7",
+    "military-country-germany/junkers-j1": "junkers-j1",
+    "military-country-germany/gotha-g5": "gotha-g5",
+    "military-country-germany/he51": "he51",
+    "military-country-germany/ju52": "ju52",
+    "military-country-germany/bu131": "bu131",
+    "military-country-germany/fi156": "fi156",
+    "military-country-germany/bf110": "bf110",
+    "military-country-germany/fw190": "fw190",
+    "military-country-germany/ju87": "ju87",
+    "military-country-germany/ju88": "ju88",
+    "military-country-germany/he111": "he111",
+    "military-country-germany/do17": "do17",
+    "military-country-germany/do217": "do217",
+    "military-country-germany/he177": "he177",
+    "military-country-germany/fw200": "fw200",
+    "military-country-germany/ar196": "ar196",
+    "military-country-germany/bv138": "bv138",
+    "military-country-germany/fw189": "fw189",
+    "military-country-germany/hs129": "hs129",
+    "military-country-germany/me410": "me410",
+    "military-country-germany/he219": "he219",
+    "military-country-germany/me323": "me323",
+    "military-country-germany/me262": "me262",
+    "military-country-germany/he162": "he162",
+    "military-country-germany/ar234": "ar234",
+    "military-country-germany/bo105": "bo105",
+    "military-country-germany-wwi/fokker-e3": "fokker-e3",
+    "military-country-germany-wwi/albatros-d3": "albatros-d3",
+    "military-country-germany-wwi/fokker-dr1": "fokker-dr1",
+    "military-country-germany-wwi/fokker-d7": "fokker-d7",
+    "military-country-germany-wwi/junkers-j1": "junkers-j1",
+    "military-country-germany-wwi/gotha-g5": "gotha-g5",
+    "military-country-germany-interwar/bf109": "bf109",
+    "military-country-germany-interwar/he51": "he51",
+    "military-country-germany-interwar/ju52": "ju52",
+    "military-country-germany-interwar/bu131": "bu131",
+    "military-country-germany-interwar/fi156": "fi156",
+    "military-country-germany-interwar/ju87": "ju87",
+    "military-country-germany-interwar/he111": "he111",
+    "military-country-germany-interwar/do17": "do17",
+    "military-country-germany-interwar/fw200": "fw200",
+    "military-country-germany-interwar/ar196": "ar196",
+    "military-country-germany-wwii/bf110": "bf110",
+    "military-country-germany-wwii/fw190": "fw190",
+    "military-country-germany-wwii/ju88": "ju88",
+    "military-country-germany-wwii/do217": "do217",
+    "military-country-germany-wwii/he177": "he177",
+    "military-country-germany-wwii/bv138": "bv138",
+    "military-country-germany-wwii/fw189": "fw189",
+    "military-country-germany-wwii/hs129": "hs129",
+    "military-country-germany-wwii/me410": "me410",
+    "military-country-germany-wwii/he219": "he219",
+    "military-country-germany-wwii/me323": "me323",
+    "military-country-germany-wwii/me262": "me262",
+    "military-country-germany-wwii/he162": "he162",
+    "military-country-germany-wwii/ar234": "ar234",
     "military-country-multinational/a400m": "a400m",
     "military-country-multinational/typhoon": "typhoon",
     "military-country-multinational/tornado": "tornado",

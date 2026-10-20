@@ -3982,5 +3982,428 @@
       ]
     },
     "photoAuthor": "Jno (Wikimedia Commons)"
+  },
+  {
+    "id": "fokker-e3",
+    "wikipediaTitle": "Fokker E.III",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker Eindecker takeoff profile view.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "albatros-d3",
+    "wikipediaTitle": "Albatros D.III",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Albad3.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fokker-dr1",
+    "wikipediaTitle": "Fokker Dr.I",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker Dr.I 160 17.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "introduced": "1917"
+    }
+  },
+  {
+    "id": "fokker-d7",
+    "wikipediaTitle": "Fokker D.VII",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fokker D. VII USAF.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ],
+      "introduced": "1918"
+    }
+  },
+  {
+    "id": "junkers-j1",
+    "wikipediaTitle": "Junkers J.I",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Junkers JI.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "gotha-g5",
+    "wikipediaTitle": "Gotha G.V",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:GothaG5.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he51",
+    "wikipediaTitle": "Heinkel He 51",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Истребитель Heinkel He-51B.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju52",
+    "wikipediaTitle": "Junkers Ju 52",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Junkers Ju 52 (BJ+Yx) '24' (1).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bu131",
+    "wikipediaTitle": "Bücker Bü 131 Jungmann",
+    "group": "trainer",
+    "use": "military",
+    "category": "trainer",
+    "engine": "piston",
+    "photo": "File:Bücker Bü 131 A Jungmann 'D-EXIR' ca. 1935 (a).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fi156",
+    "wikipediaTitle": "Fieseler Fi 156 Storch",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Air Vice Marshal Broadhurst in his Fi 156 Italy c1943.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bf110",
+    "wikipediaTitle": "Messerschmitt Bf 110",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Me110G4 2.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw190",
+    "wikipediaTitle": "Focke-Wulf Fw 190",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Fw 190A-3 JG 2 in Britain 1942.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju87",
+    "wikipediaTitle": "Junkers Ju 87",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Junkers JU-87 'Stuka' in-flight display side view.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ju88",
+    "wikipediaTitle": "Junkers Ju 88",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Junkers Ju 88 G-6 in Dübendorf (Ans 05035-258).jpg",
+    "photoAuthor": "ETH-Bibliothek Zürich, Bildarchiv",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he111",
+    "wikipediaTitle": "Heinkel He 111",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 101I-343-0694-21, Belgien-Frankreich, Flugzeug Heinkel He 111.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "do17",
+    "wikipediaTitle": "Dornier Do 17",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 101I-342-0603-25, Belgien-Frankreich, Flugzeuge Dornier Do 17.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "do217",
+    "wikipediaTitle": "Dornier Do 217",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Do 217E-2 NAN15Jul43.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he177",
+    "wikipediaTitle": "Heinkel He 177 Greif",
+    "group": "historic",
+    "use": "military",
+    "category": "bomber",
+    "engine": "piston",
+    "photo": "File:Heinkel He 177A-02 in flight 1942.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw200",
+    "wikipediaTitle": "Focke-Wulf Fw 200 Condor",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Bundesarchiv Bild 146-1978-043-02, Focke-Wulf Fw 200 C Condor.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ar196",
+    "wikipediaTitle": "Arado Ar 196",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Arado Ar 196A-2 taxiing 1940.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bv138",
+    "wikipediaTitle": "Blohm & Voss BV 138",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "patrol",
+    "engine": "piston",
+    "photo": "File:Blohm und Voss Bv138.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "fw189",
+    "wikipediaTitle": "Focke-Wulf Fw 189 Uhu",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "reconnaissance",
+    "engine": "piston",
+    "photo": "File:Focke Wulf Fw189 (2).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "hs129",
+    "wikipediaTitle": "Henschel Hs 129",
+    "group": "historic",
+    "use": "military",
+    "category": "attack",
+    "engine": "piston",
+    "photo": "File:Henschel Hs 129B.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me410",
+    "wikipediaTitle": "Messerschmitt Me 410 Hornisse",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Me 410.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he219",
+    "wikipediaTitle": "Heinkel He 219 Uhu",
+    "group": "historic",
+    "use": "military",
+    "category": "fighter",
+    "engine": "piston",
+    "photo": "File:Heinkel 219 2012.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me323",
+    "wikipediaTitle": "Messerschmitt Me 323 Gigant",
+    "group": "military-transport-special",
+    "use": "military",
+    "category": "transport",
+    "engine": "piston",
+    "photo": "File:Messerschmitt Me323.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "me262",
+    "wikipediaTitle": "Messerschmitt Me 262",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Messerschmitt Me 262A at the National Museum of the USAF (cropped).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "he162",
+    "wikipediaTitle": "Heinkel He 162 Volksjäger",
+    "group": "fighter-attack",
+    "use": "military",
+    "category": "fighter",
+    "engine": "jet",
+    "photo": "File:Heinkel, He 162, Spatz Volksjager (7585406720).jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "ar234",
+    "wikipediaTitle": "Arado Ar 234 Blitz",
+    "group": "bomber",
+    "use": "military",
+    "category": "bomber",
+    "engine": "jet",
+    "photo": "File:Arado Ar 234 on ground c1945.jpg",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
+  },
+  {
+    "id": "bo105",
+    "wikipediaTitle": "MBB Bo 105",
+    "group": "helicopter",
+    "use": "military",
+    "category": "utility-helicopter",
+    "engine": "turboshaft",
+    "photo": "File:MBB BO-105 Mexican Navy.JPEG",
+    "overrides": {
+      "countryOfOrigin": [
+        "Germany"
+      ]
+    }
   }
 ]

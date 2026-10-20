@@ -352,16 +352,16 @@
           "label": "Sikorsky UH-60 Black Hawk"
         },
         {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
           "id": "mi14",
           "label": "Mil Mi-14"
         },
         {
-          "id": "ka25",
-          "label": "Kamov Ka-25"
-        },
-        {
-          "id": "e4",
-          "label": "Boeing E-4"
+          "id": "f14",
+          "label": "Grumman F-14 Tomcat"
         }
       ],
       "caption": "Series of military utility transport helicopters. First flew 1974.",
@@ -531,12 +531,12 @@
           "label": "Mil Mi-14"
         },
         {
-          "id": "su17",
-          "label": "Sukhoi Su-17"
+          "id": "il76",
+          "label": "Ilyushin Il-76"
         },
         {
-          "id": "an26",
-          "label": "Antonov An-26"
+          "id": "mig23",
+          "label": "Mikoyan-Gurevich MiG-23"
         }
       ],
       "caption": "Naval helicopter developed for the USSR. First flew 1961.",
@@ -556,12 +556,12 @@
           "label": "Kamov Ka-25"
         },
         {
-          "id": "su24",
-          "label": "Sukhoi Su-24"
-        },
-        {
           "id": "yak52",
           "label": "Yakovlev Yak-52"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
         }
       ],
       "caption": "Helicopter in the Soviet Union. First flew 1969.",
@@ -716,6 +716,31 @@
       ],
       "caption": "Soviet military training aircraft. First flew 1976.",
       "credit": "Erik Coekelberghs / CC BY-SA 3.0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1970s-bo105",
+      "image": "bo105.jpg",
+      "answer": "bo105",
+      "options": [
+        {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "mi14",
+          "label": "Mil Mi-14"
+        },
+        {
+          "id": "ka25",
+          "label": "Kamov Ka-25"
+        },
+        {
+          "id": "uh60",
+          "label": "Sikorsky UH-60 Black Hawk"
+        }
+      ],
+      "caption": "Helicopter made by Bölkow. First flew 1967.",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
     }
   ]
 }

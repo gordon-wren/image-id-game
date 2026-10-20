@@ -77,7 +77,8 @@ async function photo(file) {
     const cc = String(m.Categories ?? "").match(/(?:^|\|)CC-(BY(?:-SA)?)-([\d.]+)/i);
     if (cc) license = `CC ${cc[1].toUpperCase()} ${cc[2]}`;
   }
-  let author = strip(m.Artist) || null;
+  // Some Commons templates repeat the name in a hidden span ("Unknown author" twice).
+  let author = strip(String(m.Artist ?? "").replace(/<span style="display: ?none;?">.*?<\/span>/gi, "")) || null;
   if (author && /^Q\d+$/.test(author)) author = (await wikidataLabels([author]))[0];
   return {
     file: `File:${file}`, sourcePage: ii.descriptionurl, thumbUrl: ii.thumburl, width: ii.width, height: ii.height,

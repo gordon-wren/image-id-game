@@ -1,0 +1,797 @@
+{
+  "id": "military-country-germany",
+  "title": "Germany: all eras",
+  "description": "Military aircraft from Germany.",
+  "path": [
+    "Aviation",
+    "Military",
+    "By Country",
+    "Germany"
+  ],
+  "theme": {
+    "accent": "#B23A3A"
+  },
+  "assetBase": "assets/aircraft/",
+  "roundSeconds": 7,
+  "shuffleOptions": true,
+  "shuffleQuestions": true,
+  "questionsPerRound": 20,
+  "generatedFrom": "scripts/packs/taxonomy.json",
+  "questions": [
+    {
+      "id": "military-country-germany-bf109",
+      "image": "bf109.jpg",
+      "answer": "bf109",
+      "options": [
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        }
+      ],
+      "caption": "German single-engine fighter aircraft family. First flew 1935.",
+      "credit": "Hebenstreit / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fokker-e3",
+      "image": "fokker-e3.jpg",
+      "answer": "fokker-e3",
+      "options": [
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        }
+      ],
+      "caption": "Fighter aircraft used in World War I. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-albatros-d3",
+      "image": "albatros-d3.jpg",
+      "answer": "albatros-d3",
+      "options": [
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        }
+      ],
+      "caption": "1916 fighter aircraft by Albatros. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fokker-dr1",
+      "image": "fokker-dr1.jpg",
+      "answer": "fokker-dr1",
+      "options": [
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "WWI fighter aircraft. First flew 1917.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fokker-d7",
+      "image": "fokker-d7.jpg",
+      "answer": "fokker-d7",
+      "options": [
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "1918 fighter aircraft model by Fokker. First flew 1918.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-junkers-j1",
+      "image": "junkers-j1.jpg",
+      "answer": "junkers-j1",
+      "options": [
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        }
+      ],
+      "caption": "1917 attack aircraft by Junkers. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-gotha-g5",
+      "image": "gotha-g5.jpg",
+      "answer": "gotha-g5",
+      "options": [
+        {
+          "id": "gotha-g5",
+          "label": "Gotha G.V"
+        },
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "Heavy bomber aircraft. First flew 1917.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fi156",
+      "image": "fi156.jpg",
+      "answer": "fi156",
+      "options": [
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        }
+      ],
+      "caption": "German liaison aircraft. First flew 1936.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-bf110",
+      "image": "bf110.jpg",
+      "answer": "bf110",
+      "options": [
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        }
+      ],
+      "caption": "1936 heavy fighter family by Messerschmitt. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fw190",
+      "image": "fw190.jpg",
+      "answer": "fw190",
+      "options": [
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        }
+      ],
+      "caption": "1939 fighter aircraft family by Focke-Wulf. First flew 1939.",
+      "credit": "RAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "junkers-j1",
+          "label": "Junkers J.I"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-ju88",
+      "image": "ju88.jpg",
+      "answer": "ju88",
+      "options": [
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "German twin engine multirole combat aircraft. First flew 1936.",
+      "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-he111",
+      "image": "he111.jpg",
+      "answer": "he111",
+      "options": [
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "World War II German medium bomber. First flew 1935.",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-do17",
+      "image": "do17.jpg",
+      "answer": "do17",
+      "options": [
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "World War II German light bomber. First flew 1934.",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-do217",
+      "image": "do217.jpg",
+      "answer": "do217",
+      "options": [
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        }
+      ],
+      "caption": "1940 bomber aircraft family by Dornier. First flew 1938.",
+      "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-he177",
+      "image": "he177.jpg",
+      "answer": "he177",
+      "options": [
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        }
+      ],
+      "caption": "German heavy bomber during WW2. First flew 1939.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fw200",
+      "image": "fw200.jpg",
+      "answer": "fw200",
+      "options": [
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        }
+      ],
+      "caption": "German prop-driven aircraft built 1937–1944. First flew 1937.",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-ar196",
+      "image": "ar196.jpg",
+      "answer": "ar196",
+      "options": [
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "1936 maritime reconnaissance floatplane family by Arado. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-bv138",
+      "image": "bv138.jpg",
+      "answer": "bv138",
+      "options": [
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        }
+      ],
+      "caption": "1937 flying boat family by Blohm & Voss. First flew 1937.",
+      "credit": "Ministry of Information photograph / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-fw189",
+      "image": "fw189.jpg",
+      "answer": "fw189",
+      "options": [
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        }
+      ],
+      "caption": "German twin-engine twin-boom reconnaissance aircraft. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-hs129",
+      "image": "hs129.jpg",
+      "answer": "hs129",
+      "options": [
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "German twin engine WWII ground attack aircraft. First flew 1939.",
+      "credit": "USAAF; original uploader to en.wikipedia was en:user:Maury Markowitz / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-me410",
+      "image": "me410.jpg",
+      "answer": "me410",
+      "options": [
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "do217",
+          "label": "Dornier Do 217"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        }
+      ],
+      "caption": "German fighter-bomber. First flew 1942.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-he219",
+      "image": "he219.jpg",
+      "answer": "he219",
+      "options": [
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "he177",
+          "label": "Heinkel He 177 Greif"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        }
+      ],
+      "caption": "German night fighter of World War II. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-me323",
+      "image": "me323.jpg",
+      "answer": "me323",
+      "options": [
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "bv138",
+          "label": "Blohm & Voss BV 138"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        }
+      ],
+      "caption": "German military transport aircraft of World War II. First flew 1942.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-me262",
+      "image": "me262.jpg",
+      "answer": "me262",
+      "options": [
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "hs129",
+          "label": "Henschel Hs 129"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        }
+      ],
+      "caption": "First operational jet-powered fighter aircraft. First flew 1942.",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-he162",
+      "image": "he162.jpg",
+      "answer": "he162",
+      "options": [
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "me323",
+          "label": "Messerschmitt Me 323 Gigant"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "Interceptor jet aircraft, German, WW2. First flew 1944.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-ar234",
+      "image": "ar234.jpg",
+      "answer": "ar234",
+      "options": [
+        {
+          "id": "ar234",
+          "label": "Arado Ar 234 Blitz"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        }
+      ],
+      "caption": "German jet-powered bomber. First flew 1943.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-country-germany-bo105",
+      "image": "bo105.jpg",
+      "answer": "bo105",
+      "options": [
+        {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        }
+      ],
+      "caption": "Helicopter made by Bölkow. First flew 1967.",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
+    }
+  ]
+}

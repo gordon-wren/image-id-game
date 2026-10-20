@@ -281,12 +281,12 @@
           "label": "Eurofighter Typhoon"
         },
         {
-          "id": "fa18",
-          "label": "McDonnell Douglas F/A-18 Hornet"
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
         },
         {
-          "id": "mig29",
-          "label": "Mikoyan MiG-29"
+          "id": "f16",
+          "label": "General Dynamics F-16 Fighting Falcon"
         }
       ],
       "caption": "Family of multi-role combat aircraft. First flew 1974.",
@@ -681,8 +681,8 @@
           "label": "Hawker Hurricane"
         },
         {
-          "id": "grumman-f3f",
-          "label": "Grumman F3F"
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
         },
         {
           "id": "j2m",
@@ -752,16 +752,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
-          "id": "mig3",
-          "label": "Mikoyan-Gurevich MiG-3"
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
         },
         {
-          "id": "ki100",
-          "label": "Kawasaki Ki-100"
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -1956,8 +1956,8 @@
           "label": "Polikarpov I-16"
         },
         {
-          "id": "f2a",
-          "label": "Brewster F2A Buffalo"
+          "id": "j1n",
+          "label": "Nakajima J1N Gekkō"
         },
         {
           "id": "mig3",
@@ -2191,6 +2191,281 @@
       ],
       "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
       "credit": "DoD photo / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-e3",
+      "image": "fokker-e3.jpg",
+      "answer": "fokker-e3",
+      "options": [
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "Fighter aircraft used in World War I. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-albatros-d3",
+      "image": "albatros-d3.jpg",
+      "answer": "albatros-d3",
+      "options": [
+        {
+          "id": "albatros-d3",
+          "label": "Albatros D.III"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "1916 fighter aircraft by Albatros. First flew 1916.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-dr1",
+      "image": "fokker-dr1.jpg",
+      "answer": "fokker-dr1",
+      "options": [
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "WWI fighter aircraft. First flew 1917.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fokker-d7",
+      "image": "fokker-d7.jpg",
+      "answer": "fokker-d7",
+      "options": [
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "1918 fighter aircraft model by Fokker. First flew 1918.",
+      "credit": "United States Air Force / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-bf110",
+      "image": "bf110.jpg",
+      "answer": "bf110",
+      "options": [
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "fokker-d7",
+          "label": "Fokker D.VII"
+        }
+      ],
+      "caption": "1936 heavy fighter family by Messerschmitt. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-fw190",
+      "image": "fw190.jpg",
+      "answer": "fw190",
+      "options": [
+        {
+          "id": "fw190",
+          "label": "Focke-Wulf Fw 190"
+        },
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "fokker-e3",
+          "label": "Fokker E.III"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        }
+      ],
+      "caption": "1939 fighter aircraft family by Focke-Wulf. First flew 1939.",
+      "credit": "RAF / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-me410",
+      "image": "me410.jpg",
+      "answer": "me410",
+      "options": [
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "fokker-dr1",
+          "label": "Fokker Dr.I"
+        },
+        {
+          "id": "p38",
+          "label": "Lockheed P-38 Lightning"
+        }
+      ],
+      "caption": "German fighter-bomber. First flew 1942.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he219",
+      "image": "he219.jpg",
+      "answer": "he219",
+      "options": [
+        {
+          "id": "he219",
+          "label": "Heinkel He 219 Uhu"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "German night fighter of World War II. First flew 1942.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-me262",
+      "image": "me262.jpg",
+      "answer": "me262",
+      "options": [
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me410",
+          "label": "Messerschmitt Me 410 Hornisse"
+        },
+        {
+          "id": "f9f",
+          "label": "Grumman F9F Panther"
+        }
+      ],
+      "caption": "First operational jet-powered fighter aircraft. First flew 1942.",
+      "credit": "USAF museum / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-fighters-he162",
+      "image": "he162.jpg",
+      "answer": "he162",
+      "options": [
+        {
+          "id": "he162",
+          "label": "Heinkel He 162 Volksjäger"
+        },
+        {
+          "id": "me262",
+          "label": "Messerschmitt Me 262"
+        },
+        {
+          "id": "mig15",
+          "label": "Mikoyan-Gurevich MiG-15"
+        },
+        {
+          "id": "f84",
+          "label": "Republic F-84 Thunderjet"
+        }
+      ],
+      "caption": "Interceptor jet aircraft, German, WW2. First flew 1944.",
+      "credit": "SDASM Archives / Public domain / via Wikimedia Commons"
     }
   ]
 }

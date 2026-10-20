@@ -406,12 +406,12 @@
           "label": "Fuji T-1"
         },
         {
-          "id": "fuji-t7",
-          "label": "Fuji T-7"
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "kawasaki-t4",
-          "label": "Kawasaki T-4"
+          "id": "fuji-t7",
+          "label": "Fuji T-7"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -531,12 +531,12 @@
           "label": "Yakovlev Yak-18"
         },
         {
-          "id": "yak52",
-          "label": "Yakovlev Yak-52"
+          "id": "t6",
+          "label": "North American T-6 Texan"
         },
         {
-          "id": "yak130",
-          "label": "Yakovlev Yak-130"
+          "id": "thomas-morse-s4",
+          "label": "Thomas-Morse S-4"
         }
       ],
       "caption": "All-weather multirole Soviet biplane. First flew 1927.",
@@ -616,6 +616,31 @@
       ],
       "caption": "Russian light combat aircraft. First flew 1996.",
       "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-role-trainers-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "po2",
+          "label": "Polikarpov Po-2"
+        },
+        {
+          "id": "yak18",
+          "label": "Yakovlev Yak-18"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }

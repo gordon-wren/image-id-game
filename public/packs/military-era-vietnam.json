@@ -335,8 +335,8 @@
           "label": "Boeing CH-47 Chinook"
         },
         {
-          "id": "mi6",
-          "label": "Mil Mi-6"
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
         }
       ],
       "caption": "1964 transport helicopter family by Sikorsky. First flew 1964.",
@@ -1216,6 +1216,31 @@
       ],
       "caption": "Family of Soviet strike aircraft. First flew 1970.",
       "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-era-vietnam-bo105",
+      "image": "bo105.jpg",
+      "answer": "bo105",
+      "options": [
+        {
+          "id": "bo105",
+          "label": "MBB Bo 105"
+        },
+        {
+          "id": "ah1",
+          "label": "Bell AH-1 Cobra"
+        },
+        {
+          "id": "mi8",
+          "label": "Mil Mi-8/17"
+        },
+        {
+          "id": "ch47",
+          "label": "Boeing CH-47 Chinook"
+        }
+      ],
+      "caption": "Helicopter made by Bölkow. First flew 1967.",
+      "credit": "PH1 MARTIN MADDOCK, USN / Public domain / via Wikimedia Commons"
     }
   ]
 }

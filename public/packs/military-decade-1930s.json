@@ -56,8 +56,8 @@
           "label": "Supermarine Spitfire"
         },
         {
-          "id": "a5m",
-          "label": "Mitsubishi A5M"
+          "id": "he111",
+          "label": "Heinkel He 111"
         },
         {
           "id": "ki27",
@@ -77,16 +77,16 @@
           "label": "Messerschmitt Bf 109"
         },
         {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
           "id": "a17",
           "label": "Northrop A-17"
-        },
-        {
-          "id": "g3m",
-          "label": "Mitsubishi G3M"
-        },
-        {
-          "id": "b5n",
-          "label": "Nakajima B5N"
         }
       ],
       "caption": "German single-engine fighter aircraft family. First flew 1935.",
@@ -427,16 +427,16 @@
           "label": "Consolidated PBY Catalina"
         },
         {
-          "id": "h6k",
-          "label": "Kawanishi H6K"
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
         },
         {
-          "id": "sb2u",
-          "label": "Vought SB2U Vindicator"
+          "id": "ar196",
+          "label": "Arado Ar 196"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
+          "id": "ju52",
+          "label": "Junkers Ju 52"
         }
       ],
       "caption": "American 1930s flying boat. First flew 1935.",
@@ -456,12 +456,12 @@
           "label": "North American T-6 Texan"
         },
         {
-          "id": "b17",
-          "label": "Boeing B-17 Flying Fortress"
-        },
-        {
           "id": "p35",
           "label": "Seversky P-35"
+        },
+        {
+          "id": "boeing-p12",
+          "label": "Boeing P-12"
         }
       ],
       "caption": "American biplane military training aircraft in use 1934 through WWII. First flew 1934.",
@@ -485,8 +485,8 @@
           "label": "Yokosuka K5Y"
         },
         {
-          "id": "boeing-p12",
-          "label": "Boeing P-12"
+          "id": "martin-b10",
+          "label": "Martin B-10"
         }
       ],
       "caption": "American single-engined advanced trainer aircraft. First flew 1935.",
@@ -606,8 +606,8 @@
           "label": "Mitsubishi A5M"
         },
         {
-          "id": "tbd",
-          "label": "Douglas TBD Devastator"
+          "id": "he51",
+          "label": "Heinkel He 51"
         },
         {
           "id": "ki27",
@@ -635,8 +635,8 @@
           "label": "Boeing-Stearman Model 75"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
+          "id": "h6k",
+          "label": "Kawanishi H6K"
         }
       ],
       "caption": "Japanese trainer aircraft. First flew 1933.",
@@ -677,16 +677,16 @@
           "label": "Kawanishi H6K"
         },
         {
-          "id": "pby",
-          "label": "Consolidated PBY Catalina"
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
         },
         {
           "id": "ki21",
           "label": "Mitsubishi Ki-21"
-        },
-        {
-          "id": "g3m",
-          "label": "Mitsubishi G3M"
         }
       ],
       "caption": "Imperial Japanese flying boat. First flew 1936.",
@@ -731,12 +731,12 @@
           "label": "Polikarpov I-16"
         },
         {
-          "id": "b5n",
-          "label": "Nakajima B5N"
-        },
-        {
           "id": "spitfire",
           "label": "Supermarine Spitfire"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
         }
       ],
       "caption": "Soviet fighter aircraft. First flew 1933.",
@@ -756,8 +756,8 @@
           "label": "Polikarpov I-15"
         },
         {
-          "id": "bf109",
-          "label": "Messerschmitt Bf 109"
+          "id": "p26",
+          "label": "Boeing P-26 Peashooter"
         },
         {
           "id": "tb3",
@@ -791,6 +791,306 @@
       ],
       "caption": "Soviet heavy bomber aircraft. First flew 1930.",
       "credit": "https://www.flickr.com/photos/sdasmarchives/ / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-he51",
+      "image": "he51.jpg",
+      "answer": "he51",
+      "options": [
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "German single-seat biplane fighter aircraft. First flew 1933.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ju52",
+      "image": "ju52.jpg",
+      "answer": "ju52",
+      "options": [
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        }
+      ],
+      "caption": "German transport aircraft. First flew 1932.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-bu131",
+      "image": "bu131.jpg",
+      "answer": "bu131",
+      "options": [
+        {
+          "id": "bu131",
+          "label": "Bücker Bü 131 Jungmann"
+        },
+        {
+          "id": "t6",
+          "label": "North American T-6 Texan"
+        },
+        {
+          "id": "stearman",
+          "label": "Boeing-Stearman Model 75"
+        },
+        {
+          "id": "k5y",
+          "label": "Yokosuka K5Y"
+        }
+      ],
+      "caption": "Military training aircraft by Bücker of Germany. First flew 1934.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-fi156",
+      "image": "fi156.jpg",
+      "answer": "fi156",
+      "options": [
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        }
+      ],
+      "caption": "German liaison aircraft. First flew 1936.",
+      "credit": "Royal Air Force official photographer / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-bf110",
+      "image": "bf110.jpg",
+      "answer": "bf110",
+      "options": [
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "martin-b10",
+          "label": "Martin B-10"
+        }
+      ],
+      "caption": "1936 heavy fighter family by Messerschmitt. First flew 1936.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ju87",
+      "image": "ju87.jpg",
+      "answer": "ju87",
+      "options": [
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "a17",
+          "label": "Northrop A-17"
+        }
+      ],
+      "caption": "1935 dive bomber aircraft family by Junkers. First flew 1935.",
+      "credit": "Pseudopanax at English Wikipedia / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ju88",
+      "image": "ju88.jpg",
+      "answer": "ju88",
+      "options": [
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "bf109",
+          "label": "Messerschmitt Bf 109"
+        },
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        }
+      ],
+      "caption": "German twin engine multirole combat aircraft. First flew 1936.",
+      "credit": "ETH-Bibliothek Zürich, Bildarchiv / CC0 / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-he111",
+      "image": "he111.jpg",
+      "answer": "he111",
+      "options": [
+        {
+          "id": "he111",
+          "label": "Heinkel He 111"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        },
+        {
+          "id": "ju87",
+          "label": "Junkers Ju 87"
+        },
+        {
+          "id": "bf110",
+          "label": "Messerschmitt Bf 110"
+        }
+      ],
+      "caption": "World War II German medium bomber. First flew 1935.",
+      "credit": "Schödl (e) / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-do17",
+      "image": "do17.jpg",
+      "answer": "do17",
+      "options": [
+        {
+          "id": "do17",
+          "label": "Dornier Do 17"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        },
+        {
+          "id": "hurricane",
+          "label": "Hawker Hurricane"
+        },
+        {
+          "id": "he51",
+          "label": "Heinkel He 51"
+        }
+      ],
+      "caption": "World War II German light bomber. First flew 1934.",
+      "credit": "Ketelhohn [Kettelhohn] / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-fw200",
+      "image": "fw200.jpg",
+      "answer": "fw200",
+      "options": [
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "pby",
+          "label": "Consolidated PBY Catalina"
+        },
+        {
+          "id": "h6k",
+          "label": "Kawanishi H6K"
+        }
+      ],
+      "caption": "German prop-driven aircraft built 1937–1944. First flew 1937.",
+      "credit": "Walter Frentz / CC BY-SA 3.0 de / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-ar196",
+      "image": "ar196.jpg",
+      "answer": "ar196",
+      "options": [
+        {
+          "id": "ar196",
+          "label": "Arado Ar 196"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ju88",
+          "label": "Junkers Ju 88"
+        }
+      ],
+      "caption": "1936 maritime reconnaissance floatplane family by Arado. First flew 1937.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
+    },
+    {
+      "id": "military-decade-1930s-fw189",
+      "image": "fw189.jpg",
+      "answer": "fw189",
+      "options": [
+        {
+          "id": "fw189",
+          "label": "Focke-Wulf Fw 189 Uhu"
+        },
+        {
+          "id": "fw200",
+          "label": "Focke-Wulf Fw 200 Condor"
+        },
+        {
+          "id": "fi156",
+          "label": "Fieseler Fi 156 Storch"
+        },
+        {
+          "id": "ju52",
+          "label": "Junkers Ju 52"
+        }
+      ],
+      "caption": "German twin-engine twin-boom reconnaissance aircraft. First flew 1938.",
+      "credit": "Unknown author / Public domain / via Wikimedia Commons"
     }
   ]
 }
