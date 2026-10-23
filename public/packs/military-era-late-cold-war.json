@@ -40,6 +40,7 @@
         }
       ],
       "caption": "Soviet military transport aircraft. First flew 1982.",
+      "natoName": "Condor",
       "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
@@ -65,6 +66,7 @@
         }
       ],
       "caption": "Soviet/Ukrainian heavy strategic cargo aircraft. First flew 1988.",
+      "natoName": "Cossack",
       "credit": "Myroslav Kaplun / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -140,6 +142,7 @@
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1981.",
+      "natoName": "Blackjack",
       "credit": "Alex Beltyukov / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
@@ -165,6 +168,7 @@
         }
       ],
       "caption": "Russian long-range supersonic strategic bomber. First flew 1969.",
+      "natoName": "Backfire",
       "credit": "Dmitry Terekhov from Odintsovo, Russian Federation / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
@@ -315,6 +319,7 @@
         }
       ],
       "caption": "Soviet 4th generation fighter aircraft. First flew 1977.",
+      "natoName": "Flanker-B",
       "credit": "Łukasz Golowanow & Maciek Hypś, Konflikty.pl / Attribution / via Wikimedia Commons"
     },
     {
@@ -340,6 +345,7 @@
         }
       ],
       "caption": "Soviet twin-engine jet fighter aircraft. First flew 1977.",
+      "natoName": "Fulcrum",
       "credit": "Artem Katranzhi from Bakashikha, Russia / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
@@ -365,6 +371,7 @@
         }
       ],
       "caption": "Interceptor aircraft. First flew 1975.",
+      "natoName": "Foxhound",
       "credit": "Сафаров, Марат Фаридович / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -540,6 +547,7 @@
         }
       ],
       "caption": "Soviet/Russian heavy transport helicopter. First flew 1977.",
+      "natoName": "Halo",
       "credit": "Vitaly V. Kuzmin / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -840,6 +848,7 @@
         }
       ],
       "caption": "Helicopter in the Soviet Union. First flew 1969.",
+      "natoName": "Haze",
       "credit": "Ministerstwo Obrony Narodowej / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -865,6 +874,7 @@
         }
       ],
       "caption": "VTOL strike aircraft; only operational VTOL strike aircraft of the Soviet Navy. First flew 1971.",
+      "natoName": "Forger",
       "credit": "US Navy / Public domain / via Wikimedia Commons"
     },
     {
@@ -915,6 +925,7 @@
         }
       ],
       "caption": "Soviet attack aircraft introduced 1978. First flew 1975.",
+      "natoName": "Frogfoot",
       "credit": "Original uploader was Dima Sergienko at en.wikipedia / Public domain / via Wikimedia Commons"
     },
     {
@@ -940,6 +951,7 @@
         }
       ],
       "caption": "Naval military helicopter. First flew 1973.",
+      "natoName": "Helix",
       "credit": "Jason R. Zalasky, U.S. Navy / Public domain / via Wikimedia Commons"
     },
     {
@@ -965,6 +977,7 @@
         }
       ],
       "caption": "Soviet airborne early warning and control (AEW&C) aircraft. First flew 1978.",
+      "natoName": "Mainstay",
       "credit": "Sergey Lutsenko, Timofey Nikishin / CC BY 4.0 / via Wikimedia Commons"
     }
   ]

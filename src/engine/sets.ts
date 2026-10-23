@@ -19,6 +19,8 @@ export interface SetAircraft {
   firstFlight: string | number | null;
   manufacturer: string[];
   description: string | null;
+  /** NATO reporting name, e.g. "Badger"; only some military aircraft have one. */
+  natoName?: string | null;
   photo: { file: string | null; credit: string } | null;
 }
 
@@ -140,6 +142,7 @@ export function buildQuestions<T extends SetAircraft>(setId: string, members: re
       answer: a.id,
       options: [a, ...wrong].map((o) => ({ id: o.id, label: o.label })),
       caption: caption(a),
+      ...(a.natoName ? { natoName: a.natoName } : {}),
       credit: a.photo?.credit,
     };
   });

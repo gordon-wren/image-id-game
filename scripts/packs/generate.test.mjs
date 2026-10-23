@@ -113,6 +113,13 @@ describe("buildPack", () => {
     expect(q.options[0]).toEqual({ id: "f15", label: "McDonnell Douglas F-15 Eagle" });
     expect(q.options).toHaveLength(4);
     expect(q.caption).toBe("McDonnell Douglas F-15 Eagle description. First flew 1972.");
+    expect(q).not.toHaveProperty("natoName");
+  });
+
+  it("carries the NATO reporting name onto the question", () => {
+    const named = fleet.map((a) => (a.id === "su27" ? { ...a, natoName: "Flanker-B" } : a));
+    const pack = buildPack(recipe, named);
+    expect(pack.questions.find((x) => x.answer === "su27").natoName).toBe("Flanker-B");
   });
 
   it("draws wrong answers only from the set's own aircraft", () => {

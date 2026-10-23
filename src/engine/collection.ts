@@ -14,6 +14,8 @@ export interface CatalogFacts {
   manufacturer: string | null;
   firstFlight: number | null;
   country: string | null;
+  /** NATO reporting name, e.g. "Badger". Absent in catalogs built before it existed. */
+  natoName?: string | null;
   /** First sentences of the Wikipedia summary (CC BY-SA: show with `wikipedia`). */
   about: string | null;
   wikipedia: string | null;

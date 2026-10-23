@@ -13,6 +13,7 @@ export function buildDeck(
     resolvedImage: resolveImage(pack, q),
     label: answerLabel(q, labels),
     caption: q.caption,
+    natoName: q.natoName,
     credit: q.credit,
     alt: q.alt,
   }));

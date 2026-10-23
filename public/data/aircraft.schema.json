@@ -106,6 +106,10 @@
           ],
           "description": "Engine type. Set in seed.json; e.g. the Fighter Jets pack only takes jet."
         },
+        "natoName": {
+          "type": "string",
+          "description": "NATO reporting name, e.g. \"Badger\" for the Tu-16. Set in seed.json; shown on the answer card."
+        },
         "packAnswerIds": {
           "type": "array",
           "items": {

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { QuestionPack } from "../engine/types";
+import { NatoName } from "./NatoName";
 import {
   buildDeck,
   currentCard,
@@ -112,6 +113,7 @@ export function Study({ pack, onRestart, onQuit }: StudyProps) {
           </div>
           <div className="flashcard-face flashcard-back" aria-live="polite">
             <p className="flashcard-label">{session.flipped ? card.label : ""}</p>
+            {session.flipped && card.natoName && <NatoName name={card.natoName} />}
             {session.flipped && card.caption && (
               <p className="result-credit">{card.caption}</p>
             )}

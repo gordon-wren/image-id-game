@@ -165,6 +165,7 @@
         }
       ],
       "caption": "Upgraded series of the Su-27 fighter aircraft. First flew 2008.",
+      "natoName": "Flanker-E",
       "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
@@ -190,6 +191,7 @@
         }
       ],
       "caption": "Russian stealth multirole fighter aircraft. First flew 2010.",
+      "natoName": "Felon",
       "credit": "Anna Zvereva from Tallinn, Estonia / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
@@ -340,6 +342,7 @@
         }
       ],
       "caption": "Russian fighter-bomber aircraft. First flew 1990.",
+      "natoName": "Fullback",
       "credit": "Doomych / Public domain / via Wikimedia Commons"
     },
     {
@@ -365,6 +368,7 @@
         }
       ],
       "caption": "Russian light combat aircraft. First flew 1996.",
+      "natoName": "Mitten",
       "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     }
   ]

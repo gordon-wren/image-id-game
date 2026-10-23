@@ -42,6 +42,9 @@ export interface Question {
   /** Optional caption shown after answering, e.g. "Cathay Pacific, 2019". */
   caption?: string;
 
+  /** NATO reporting name of the answer, e.g. "Badger", shown after answering. */
+  natoName?: string;
+
   /** Optional image attribution, shown small in the result state. Recommended for CC images. */
   credit?: string;
 
@@ -162,6 +165,7 @@ export interface Flashcard {
   /** Answer text for the back of the card, e.g. "Boeing 747-8". */
   label: string;
   caption?: string;
+  natoName?: string;
   credit?: string;
   alt?: string;
 }

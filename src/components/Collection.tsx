@@ -171,6 +171,7 @@ function DetailCard({
         ["Manufacturer", f.manufacturer],
         ["First flight", f.firstFlight],
         ["Country", f.country],
+        ["NATO name", f.natoName?.toUpperCase()],
       ]
     : [];
 
