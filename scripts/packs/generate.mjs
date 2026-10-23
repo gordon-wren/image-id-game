@@ -286,6 +286,7 @@ export function buildExplore(taxonomy, aircraft) {
       firstFlight: a.firstFlight,
       manufacturer: a.manufacturer,
       description: a.description,
+      ...(a.natoName ? { natoName: a.natoName } : {}),
       photo: { file: a.photo.file, credit: a.photo.credit },
       // Made by `npm run thumbs`; packs.test.mjs checks each one exists.
       thumb: `${THUMB_BASE}${a.id}.jpg`,
@@ -380,6 +381,7 @@ export function buildCatalog(packs, aircraft, previous) {
               manufacturer: manufacturers(a.manufacturer),
               firstFlight: a.firstFlight ? Number(String(a.firstFlight).slice(0, 4)) : null,
               country: a.countryOfOrigin.length ? a.countryOfOrigin.join(" / ") : null,
+              ...(a.natoName ? { natoName: a.natoName } : {}),
               // An aircraft sharing a relative's article (Ka-52 → Ka-50) would get the relative's summary.
               about: a.wikipedia?.title === a.name ? firstSentences(a.summary) : null,
               wikipedia: a.wikipedia?.url ?? null,

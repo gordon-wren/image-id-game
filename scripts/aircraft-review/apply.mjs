@@ -58,6 +58,7 @@ for (const a of approved) {
     use: "military",
     category: a.category,
     engine: a.engine,
+    ...(a.natoName ? { natoName: a.natoName } : {}),
     photo: a.photo.file,
     ...(a.photoAuthor ? { photoAuthor: a.photoAuthor } : {}),
     overrides,

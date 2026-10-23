@@ -41,6 +41,7 @@
         }
       ],
       "caption": "Russian heavy four-engined military transport jet aircraft. First flew 1971.",
+      "natoName": "Candid",
       "credit": "Ministry of Defence (Russia) / CC BY 4.0 / via Wikimedia Commons"
     },
     {
@@ -66,6 +67,7 @@
         }
       ],
       "caption": "Family of interceptor and reconnaissance aircraft. First flew 1964.",
+      "natoName": "Foxbat",
       "credit": "Peer.Gynt / CC BY-SA 2.0 / via Wikimedia Commons"
     },
     {
@@ -91,6 +93,7 @@
         }
       ],
       "caption": "Family of assault and attack helicopters. First flew 1969.",
+      "natoName": "Hind",
       "credit": "File:Mi24CP (modified).jpg: Cezary Piwowarski; modified by FOX 52 derivative work: Georgfotoart / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -116,6 +119,7 @@
         }
       ],
       "caption": "Family of transport helicopters. First flew 1961.",
+      "natoName": "Hip",
       "credit": "Igor Dvurekov / CC BY 3.0 / via Wikimedia Commons"
     },
     {
@@ -141,6 +145,7 @@
         }
       ],
       "caption": "Transport helicopter. First flew 1957.",
+      "natoName": "Hook",
       "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     },
     {
@@ -166,6 +171,7 @@
         }
       ],
       "caption": "Soviet strike fighter aircraft. First flew 1955.",
+      "natoName": "Fitter-A",
       "credit": "Original uploader was Victor12 at en.wikipedia derivative work: F l a n k e r / Public domain / via Wikimedia Commons"
     },
     {
@@ -191,6 +197,7 @@
         }
       ],
       "caption": "Soviet supersonic heavy bomber. First flew 1958.",
+      "natoName": "Blinder",
       "credit": "Зимин Василий / Public domain / via Wikimedia Commons"
     },
     {
@@ -216,6 +223,7 @@
         }
       ],
       "caption": "Family of Soviet jet combat aircraft. First flew 1958.",
+      "natoName": "Brewer",
       "credit": "U.S. Air Force / Public domain / via Wikimedia Commons"
     },
     {
@@ -241,6 +249,7 @@
         }
       ],
       "caption": "Soviet interceptor aircraft. First flew 1962.",
+      "natoName": "Flagon",
       "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
     },
     {
@@ -266,6 +275,7 @@
         }
       ],
       "caption": "Patrol aircraft. First flew 1960.",
+      "natoName": "Mail",
       "credit": "Jno (Wikimedia Commons) / Public domain / via Wikimedia Commons"
     },
     {
@@ -291,6 +301,7 @@
         }
       ],
       "caption": "Soviet heavy military transport aircraft. First flew 1965.",
+      "natoName": "Cock",
       "credit": "Rainer Haufschild Collection (via Neil Aird), original photographer unknown / Public domain / via Wikimedia Commons"
     },
     {
@@ -316,6 +327,7 @@
         }
       ],
       "caption": "Naval helicopter developed for the USSR. First flew 1961.",
+      "natoName": "Hormone",
       "credit": "US Navy / Public domain / via Wikimedia Commons"
     },
     {
@@ -341,6 +353,7 @@
         }
       ],
       "caption": "Soviet-Russian Maritime patrol & ASW aircraft. First flew 1961.",
+      "natoName": "May",
       "credit": "US Navy Employee / Public domain / via Wikimedia Commons"
     },
     {
@@ -366,6 +379,7 @@
         }
       ],
       "caption": "Soviet turboprop transport aircraft. First flew 1969.",
+      "natoName": "Curl",
       "credit": "Adrian Pingstone / Public domain / via Wikimedia Commons"
     },
     {
@@ -391,6 +405,7 @@
         }
       ],
       "caption": "Soviet fighter-interceptor aircraft introduced in 1970. First flew 1967.",
+      "natoName": "Flogger",
       "credit": "DoD photo / Public domain / via Wikimedia Commons"
     },
     {
@@ -416,6 +431,7 @@
         }
       ],
       "caption": "Soviet variable-sweep wing fighter-bomber. First flew 1966.",
+      "natoName": "Fitter",
       "credit": "SDASM / Public domain / via Wikimedia Commons"
     },
     {
@@ -441,6 +457,7 @@
         }
       ],
       "caption": "Family of Soviet strike aircraft. First flew 1970.",
+      "natoName": "Fencer",
       "credit": "U.S. Department of Defense / Public domain / via Wikimedia Commons"
     }
   ]

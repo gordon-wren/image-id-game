@@ -389,17 +389,18 @@ function fromSeed(seed, name) {
     use: seed.use,
     category: seed.category,
     engine: seed.engine,
+    ...(seed.natoName ? { natoName: seed.natoName } : {}),
     ...(seed.packAnswerIds ? { packAnswerIds: seed.packAnswerIds } : {}),
   };
 }
 
 /** A record that isn't re-fetched still takes the fields that come from the seed. */
 function reuse(record, seed) {
-  const { packAnswerIds, label, group, use, category, engine, ...rest } = record;
-  const { label: l, group: g, use: u, category: c, engine: e, packAnswerIds: p } = fromSeed(seed, record.name);
+  const { packAnswerIds, label, group, use, category, engine, natoName, ...rest } = record;
+  const { label: l, group: g, use: u, category: c, engine: e, natoName: n, packAnswerIds: p } = fromSeed(seed, record.name);
   // Keep the curated fields next to the name, where a fresh build puts them.
   const { id, name, ...facts } = rest;
-  return { id, name, label: l, group: g, use: u, category: c, engine: e, ...(p ? { packAnswerIds: p } : {}), ...facts };
+  return { id, name, label: l, group: g, use: u, category: c, engine: e, ...(n ? { natoName: n } : {}), ...(p ? { packAnswerIds: p } : {}), ...facts };
 }
 
 async function main() {

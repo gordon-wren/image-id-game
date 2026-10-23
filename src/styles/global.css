@@ -308,6 +308,8 @@ button { font-family: inherit; }
 .result.bad .result-text { color: var(--bad-text); }
 .result.neutral .result-text { color: var(--neutral-text); }
 .result-credit { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.nato-name { font-size: 12px; color: var(--text-muted); margin-top: 4px; letter-spacing: 0.02em; }
+.nato-name strong { color: var(--text); font-weight: 600; letter-spacing: 0.08em; margin-left: 4px; }
 .catch-badge {
   display: inline-block;
   margin-left: 8px;

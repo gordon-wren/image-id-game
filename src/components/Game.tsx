@@ -170,6 +170,7 @@ export function Game({ pack, timer, answerMode, names, onAnswered, onFinish, onQ
             result={roundResult}
             correctLabel={correctLabel}
             caption={q.caption}
+            natoName={q.natoName}
             credit={q.credit}
             newCatch={newCatch}
           />

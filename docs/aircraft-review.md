@@ -171,6 +171,10 @@ Every aircraft carries three curated fields, set in `seed.json` and validated by
 | `category` | `fighter`, `attack`, `bomber`, `transport`, `tanker`, `patrol`, `reconnaissance`, `airborne-early-warning`, `electronic-warfare`, `airborne-command`, `trainer`, `uav`, `attack-helicopter`, `utility-helicopter`, `cargo-helicopter`, plus civil `airliner`, `business`, `light`, `utility`, `experimental` |
 | `engine` | `piston`, `jet`, `turboprop`, `turboshaft` (helicopters and tiltrotors) |
 
+Optionally, `natoName` holds the NATO reporting name (`"Badger"` for the
+Tu-16), shown on the answer card. `fetch.mjs` fills it from Wikidata (P561);
+when Wikidata lists several, keep the name of the main production type.
+
 The decade of an aircraft comes from `introduced` (service entry), not a
 separate field.
 

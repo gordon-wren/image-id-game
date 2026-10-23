@@ -121,6 +121,9 @@ async function one({ id, title, category, engine }) {
     firstFlight: wikidataYear(entity, "P606") ?? infoboxYear(box, ["first flight"]),
     introduced: wikidataYear(entity, "P729") ?? infoboxYear(box, ["introduction", "introduced", "introduction date"]),
     introducedByHand: false,
+    // Wikidata lists prototype and trainer names too (MiG-21: Fishbed, Faceplate,
+    // Flipper); check the pick against the article.
+    natoName: claimValues(entity, "P561").find((v) => typeof v === "string") ?? null,
     inService: true,
     wikipedia: `https://en.wikipedia.org/wiki/${encodeURIComponent(s.title.replace(/ /g, "_"))}`,
     photo: chosen && { file: chosen.file, license: chosen.license, author: chosen.author, sourcePage: chosen.sourcePage, thumbUrl: chosen.thumbUrl, src },

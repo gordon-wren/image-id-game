@@ -1210,6 +1210,7 @@
         "manufacturer": "Consolidated Aircraft, Canadian Vickers",
         "firstFlight": 1935,
         "country": "United States",
+        "natoName": "Mop",
         "about": "The Consolidated Model 28, more commonly known as the PBY Catalina, is an American flying boat and amphibious aircraft designed by Consolidated Aircraft in the 1930s and 1940s. In U.S. Army service, it was designated as the OA-10 and in Canadian service as the Canso, and it later received the NATO reporting name Mop.",
         "wikipedia": "https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina"
       }
@@ -1537,6 +1538,7 @@
         "manufacturer": "Polikarpov",
         "firstFlight": 1927,
         "country": "Soviet Union",
+        "natoName": "Mule",
         "about": "The Polikarpov Po-2 is an all-weather multirole Soviet biplane, nicknamed Kukuruznik. The reliable, uncomplicated design of the Po-2 made it an ideal trainer aircraft, as well as doubling as a low-cost ground attack, aerial reconnaissance, psychological warfare and liaison aircraft during war, proving to be one of…",
         "wikipedia": "https://en.wikipedia.org/wiki/Polikarpov_Po-2"
       }
@@ -2128,6 +2130,7 @@
         "manufacturer": "North American Aviation",
         "firstFlight": 1940,
         "country": "United States",
+        "natoName": "Bank",
         "about": "The North American B-25 Mitchell is a twin-engined medium bomber designed and produced by the American aircraft manufacturer North American Aviation. It was named in honor of Brigadier General William \"Billy\" Mitchell, a pioneer of US military aviation.",
         "wikipedia": "https://en.wikipedia.org/wiki/North_American_B-25_Mitchell"
       }
@@ -2172,6 +2175,7 @@
         "manufacturer": "Douglas",
         "firstFlight": 1939,
         "country": "United States",
+        "natoName": "Box",
         "about": "The Douglas A-20 Havoc is an American light bomber, attack aircraft, night intruder, night fighter, and reconnaissance aircraft of World War II.",
         "wikipedia": "https://en.wikipedia.org/wiki/Douglas_A-20_Havoc"
       }
@@ -2942,6 +2946,7 @@
         "manufacturer": "Yakovlev, Tushino Machine-Building Plant",
         "firstFlight": 1942,
         "country": "Soviet Union",
+        "natoName": "Frank",
         "about": "The Yakovlev Yak-9 is a single-engine, single-seat multipurpose fighter aircraft used by the Soviet Union and its allies during World War II and the early Cold War. It was a development of the robust and successful Yak-7B fighter, which was based in turn on the tandem-seat advanced trainer known as the Yak-7UTI.",
         "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-9"
       }
@@ -2986,6 +2991,7 @@
         "manufacturer": "Ilyushin",
         "firstFlight": 1939,
         "country": "Soviet Union",
+        "natoName": "Bark",
         "about": "The Ilyushin Il-2 is a ground-attack plane that was produced by the Soviet Union in large numbers during the Second World War. The word shturmovík, the generic Russian term for a ground-attack aircraft, became a synecdoche for the Il-2 in English sources, where it is commonly rendered Shturmovik, Stormovik and…",
         "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-2"
       }
@@ -3008,6 +3014,7 @@
         "manufacturer": "Petlyakov, Kazan Aircraft Production Association",
         "firstFlight": 1939,
         "country": "Soviet Union",
+        "natoName": "Buck",
         "about": "The Petlyakov Pe-2 was a Soviet twin-engine dive bomber used during World War II. One of the outstanding tactical attack aircraft of the war, it also proved successful as a heavy fighter, as a night fighter and as a reconnaissance aircraft.",
         "wikipedia": "https://en.wikipedia.org/wiki/Petlyakov_Pe-2"
       }
@@ -3030,6 +3037,7 @@
         "manufacturer": "Tupolev",
         "firstFlight": 1941,
         "country": "Soviet Union",
+        "natoName": "Bat",
         "about": "The Tupolev Tu-2 is a twin-engined Soviet high-speed daylight and frontline bomber aircraft used during World War II. The Tu-2 was tailored to meet a requirement for a high-speed bomber or dive-bomber, with a large internal bomb load and speed similar to that of a single-seat fighter.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-2"
       }
@@ -3471,6 +3479,7 @@
         "manufacturer": "Tupolev, Aviakor",
         "firstFlight": 1952,
         "country": "Soviet Union",
+        "natoName": "Bear",
         "about": "The Tupolev Tu-95 is a large Soviet nuclear-capable, four-engine turboprop strategic bomber and missile launch platform. First flown in 1952, the Tu-95 entered service with the Long-Range Aviation of the Soviet Air Forces in 1956 and was first used in combat in 2015.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-95"
       }
@@ -3514,6 +3523,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
         "firstFlight": 1956,
         "country": "Soviet Union",
+        "natoName": "Fishbed",
         "about": "The Mikoyan-Gurevich MiG-21 is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union. Its nicknames include: \"Balalaika\", because its planform resembles the stringed musical instrument of the same name; \"Ołówek\", Polish for \"pencil\", due to the shape of…",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21"
       }
@@ -4174,6 +4184,7 @@
         "manufacturer": "Yakovlev",
         "firstFlight": 1946,
         "country": "Soviet Union",
+        "natoName": "Max",
         "about": "The Yakovlev Yak-18 is a tandem two-seat military primary trainer aircraft manufactured in the Soviet Union. Originally powered by one 119 kW (160 hp) Shvetsov M-11FR-1 radial piston engine, it entered service in 1946.",
         "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-18"
       }
@@ -4196,6 +4207,7 @@
         "manufacturer": "Hongdu",
         "firstFlight": 1947,
         "country": "Soviet Union",
+        "natoName": "Colt",
         "about": "The Antonov An-2  is a Soviet mass-produced single-engine biplane utility/agricultural aircraft designed and manufactured by the Antonov Design Bureau beginning in 1947. Its durability, lifting power, and ability to take off and land from poor runways have given it a long service life.",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-2"
       }
@@ -4218,6 +4230,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant",
         "firstFlight": 1952,
         "country": "Soviet Union",
+        "natoName": "Hound",
         "about": "The Mil Mi-4 is a Soviet transport helicopter that served in both military and civilian roles.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-4"
       }
@@ -4240,6 +4253,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Progress State Research and Production Rocket Space Center",
         "firstFlight": 1947,
         "country": "Soviet Union",
+        "natoName": "Fagot",
         "about": "The Mikoyan-Gurevich MiG-15 is a single-seat transonic jet fighter aircraft developed by Mikoyan-Gurevich for the Soviet Union. The MiG-15 was one of the first successful jet fighters to incorporate swept wings to perform near Mach 1.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15"
       }
@@ -4262,6 +4276,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Russian Soviet Federative Socialist Republic",
         "firstFlight": 1950,
         "country": "Soviet Union",
+        "natoName": "Fresco",
         "about": "The Mikoyan-Gurevich MiG-17 is a transonic fighter aircraft that was produced in the Soviet Union from 1952 and was operated by air forces internationally. The MiG-17 was license-built in China as the Shenyang J-5 and in Poland as the PZL-Mielec Lim-6.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-17"
       }
@@ -4284,6 +4299,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
         "firstFlight": 1953,
         "country": "Soviet Union",
+        "natoName": "Farmer",
         "about": "The Mikoyan-Gurevich MiG-19 is a Soviet second generation, single-seat, twinjet fighter aircraft. It was the first Soviet production aircraft capable of supersonic speeds in level flight.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19"
       }
@@ -4306,6 +4322,7 @@
         "manufacturer": "Знамя Труда (машиностроительный завод), Production Corporation Polyot",
         "firstFlight": 1948,
         "country": "Soviet Union",
+        "natoName": "Beagle",
         "about": "The Ilyushin Il-28 is a medium-range jet bomber, originally manufactured for the Soviet Air Forces, in service since 1950. It was the Soviet Union's first such aircraft to enter large-scale production.",
         "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-28"
       }
@@ -4328,6 +4345,7 @@
         "manufacturer": "Tupolev, Kazan Aircraft Production Association",
         "firstFlight": 1952,
         "country": "Soviet Union",
+        "natoName": "Badger",
         "about": "The Tupolev Tu-16 is a twin-engined jet strategic heavy bomber used by the Soviet Union. It has been flown for almost 70 years.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-16"
       }
@@ -4350,6 +4368,7 @@
         "manufacturer": "Myasishchev Design Bureau",
         "firstFlight": 1953,
         "country": "Soviet Union",
+        "natoName": "Bison",
         "about": "The Myasishchev M-4 Molot was a four-engined strategic bomber designed by Vladimir Mikhailovich Myasishchev and manufactured by the Soviet Union in the 1950s to provide a Long Range Aviation bomber capable of attacking targets in North America.",
         "wikipedia": "https://en.wikipedia.org/wiki/Myasishchev_M-4"
       }
@@ -4372,6 +4391,7 @@
         "manufacturer": "Antonov, Irkutsk Aviation Plant",
         "firstFlight": 1957,
         "country": "Soviet Union",
+        "natoName": "Cub",
         "about": "The Antonov An-12 is a four-engined turboprop cargo/military transport aircraft designed by Antonov and produced at the Irkutsk Aviation Plant and the Tashkent Mechanical Plant in the Soviet Union. It is a militarised version of the Antonov An-10 transport aircraft and was produced in many variants.",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-12"
       }
@@ -4416,6 +4436,7 @@
         "manufacturer": "Ilyushin, Tashkent Mechanical Plant",
         "firstFlight": 1971,
         "country": "Soviet Union",
+        "natoName": "Candid",
         "about": "The Ilyushin Il-76 is a multi-purpose, fixed-wing, four-engine turbofan strategic airlifter designed by the Soviet Union's Ilyushin design bureau as a commercial freighter in 1967, to replace the Antonov An-12. It was developed to deliver heavy machinery to remote and poorly served areas.",
         "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-76"
       }
@@ -4504,6 +4525,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
         "firstFlight": 1964,
         "country": "Soviet Union",
+        "natoName": "Foxbat",
         "about": "The Mikoyan-Gurevich MiG-25 is a supersonic interceptor and reconnaissance aircraft that is among the fastest military aircraft to enter service. Designed by the Soviet Union's Mikoyan-Gurevich bureau, it is an aircraft built primarily using a nickel-steel alloy.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-25"
       }
@@ -4697,6 +4719,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
         "firstFlight": 1969,
         "country": "Soviet Union",
+        "natoName": "Hind",
         "about": "The Mil Mi-24 is a large helicopter gunship, attack helicopter and low-capacity troop transport with room for eight passengers. It is produced by Mil Moscow Helicopter Plant and was introduced by the Soviet Air Force in 1972.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-24"
       }
@@ -4719,6 +4742,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Kazan Helicopters",
         "firstFlight": 1961,
         "country": "Soviet Union",
+        "natoName": "Hip",
         "about": "The Mil Mi-8 is a family of medium twin-turbine helicopters, originally designed by the Soviet Central Aerohydrodynamic Institute (TsAGI) in the 1960s and introduced into the Soviet Air Force in 1968. As of 2024, Russian production of the aircraft model continues.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-8"
       }
@@ -5155,6 +5179,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Khrunichev State Research and Production Space Center",
         "firstFlight": 1957,
         "country": "Soviet Union",
+        "natoName": "Hook",
         "about": "The Mil Mi-6, given the article number izdeliye 50 and company designation V-6, is a Soviet/Russian heavy transport helicopter that was designed by the Mil design bureau. It was built in large numbers for both military and civil use and was the largest helicopter in production until the Mil Mi-26 was put in…",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-6"
       }
@@ -5177,6 +5202,7 @@
         "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
         "firstFlight": 1955,
         "country": "Soviet Union",
+        "natoName": "Fitter-A",
         "about": "The Sukhoi Su-7 is a swept wing, supersonic fighter aircraft developed by the Soviet Union in 1955. Originally, it was designed as a tactical, low-level dogfighter, but was not successful in this role.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-7"
       }
@@ -5199,6 +5225,7 @@
         "manufacturer": "Tupolev, Kazan Aircraft Production Association",
         "firstFlight": 1958,
         "country": "Soviet Union",
+        "natoName": "Blinder",
         "about": "The Tupolev Tu-22 was the first supersonic bomber to enter production in the Soviet Union. Manufactured by Tupolev, the Tu-22 entered service with Long-Range Aviation and Soviet Naval Aviation in the 1960s.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-22"
       }
@@ -5221,6 +5248,7 @@
         "manufacturer": "Yakovlev, Saratov Aviation Plant",
         "firstFlight": 1958,
         "country": "Soviet Union",
+        "natoName": "Brewer",
         "about": "The Yakovlev Yak-28 is a swept wing, turbojet-powered combat aircraft used by the Soviet Union. Produced initially as a tactical medium bomber, it was also manufactured in reconnaissance, electronic warfare, interceptor, and trainer versions, known by the NATO reporting names Brewer, Brewer-E, Firebar, and Maestro…",
         "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-28"
       }
@@ -5243,6 +5271,7 @@
         "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
         "firstFlight": 1962,
         "country": "Soviet Union",
+        "natoName": "Flagon",
         "about": "The Sukhoi Su-15 is a twinjet supersonic interceptor aircraft developed by the Soviet Union. It entered service in 1965 and remained one of the front-line designs into the 1990s.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-15"
       }
@@ -5265,6 +5294,7 @@
         "manufacturer": "Beriev",
         "firstFlight": 1960,
         "country": "Soviet Union",
+        "natoName": "Mail",
         "about": "The Beriev Be-12 Chayka is a Soviet turboprop-powered amphibious aircraft designed in the 1950s for anti-submarine and maritime patrol duties.",
         "wikipedia": "https://en.wikipedia.org/wiki/Beriev_Be-12"
       }
@@ -5287,6 +5317,7 @@
         "manufacturer": "Antonov, Tashkent Mechanical Plant",
         "firstFlight": 1965,
         "country": "Soviet Union",
+        "natoName": "Cock",
         "about": "The Antonov An-22 \"Antei\" is a retired heavy turboprop military transport aircraft developed by the Antonov Design Bureau and produced by the Tashkent State Aircraft Factory in the Soviet Union. It was the first wide-body transport aircraft and has continued to possess the largest cargo deck for any turboprop-powered…",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-22"
       }
@@ -5309,6 +5340,7 @@
         "manufacturer": "Kamov, Ulan-Ude Aviation Plant",
         "firstFlight": 1961,
         "country": "Soviet Union",
+        "natoName": "Hormone",
         "about": "The Kamov Ka-25 is a coaxial rotor naval helicopter, developed for the Soviet Navy in the USSR from 1958, before being succeeded by the Ka-27. The Ka-25 filled a multitude of roles while it was in service with the Soviet Navy.",
         "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-25"
       }
@@ -5331,6 +5363,7 @@
         "manufacturer": "Ilyushin",
         "firstFlight": 1961,
         "country": "Soviet Union",
+        "natoName": "May",
         "about": "The Ilyushin Il-38 is a maritime patrol aircraft and anti-submarine warfare aircraft designed in the Soviet Union. It is a variant of the Ilyushin Il-18 turboprop airliner.",
         "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-38"
       }
@@ -5353,6 +5386,7 @@
         "manufacturer": "Antonov, Antonov Serial Production Plant",
         "firstFlight": 1969,
         "country": "Soviet Union",
+        "natoName": "Curl",
         "about": "The Antonov An-26 is a twin-engined turboprop regional airliner and military transport aircraft, designed and produced in the Soviet Union from 1969 to 1986. It is the third member of the Antonov An-24 family, coming after the An-24 and An-30, while preceding the An-32 and cancelled An-132.",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-26"
       }
@@ -5375,6 +5409,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG",
         "firstFlight": 1967,
         "country": "Soviet Union",
+        "natoName": "Flogger",
         "about": "The Mikoyan-Gurevich MiG-23 is a single-engined, supersonic, variable-sweep wing fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, alongside similar Soviet aircraft such as the Su-17 \"Fitter\".",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23"
       }
@@ -5397,6 +5432,7 @@
         "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
         "firstFlight": 1966,
         "country": "Soviet Union",
+        "natoName": "Fitter",
         "about": "The Sukhoi Su-17 is a variable-sweep wing fighter-bomber developed for the Soviet military. Developed from the Sukhoi Su-7, the Su-17 was the first variable-sweep wing aircraft to enter Soviet service and featured updated avionics.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-17"
       }
@@ -5419,6 +5455,7 @@
         "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
         "firstFlight": 1970,
         "country": "Soviet Union",
+        "natoName": "Fencer",
         "about": "The Sukhoi Su-24 is a supersonic, all-weather tactical bomber developed in the Soviet Union. The aircraft has a variable-sweep wing, twin engines and a side-by-side seating arrangement for its crew of two.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-24"
       }
@@ -5462,6 +5499,7 @@
         "manufacturer": "Aviastar-SP, Antonov Serial Production Plant",
         "firstFlight": 1982,
         "country": "Soviet Union",
+        "natoName": "Condor",
         "about": "The Antonov An-124 Ruslan is a large, strategic airlift, four-engined aircraft that was designed in the 1980s by the Antonov Design Bureau in the Ukrainian SSR of the Soviet Union (USSR). The An-124 is the world's second heaviest gross weight production cargo airplane and heaviest operating cargo aircraft, behind the…",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-124_Ruslan"
       }
@@ -5484,6 +5522,7 @@
         "manufacturer": "Antonov Serial Production Plant",
         "firstFlight": 1988,
         "country": "Soviet Union",
+        "natoName": "Cossack",
         "about": "The Antonov An-225 Mriya was a large strategic airlift cargo aircraft designed and produced by the Antonov Design Bureau in the Soviet Union.",
         "wikipedia": "https://en.wikipedia.org/wiki/Antonov_An-225_Mriya"
       }
@@ -5550,6 +5589,7 @@
         "manufacturer": "Kazan Aircraft Production Association, Tupolev",
         "firstFlight": 1981,
         "country": "Soviet Union / Russia",
+        "natoName": "Blackjack",
         "about": "The Tupolev Tu-160 is a Soviet/Russian nuclear-capable supersonic, variable-sweep wing heavy strategic bomber and airborne missile platform designed by the Tupolev Design Bureau in the 1970s. The aircraft is large, longer than a Boeing B-52 Stratofortress at 54 m, with wingspan 56 m when spread, 36 m when swept back.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-160"
       }
@@ -5572,6 +5612,7 @@
         "manufacturer": "Tupolev, Kazan Aircraft Production Association",
         "firstFlight": 1969,
         "country": "Soviet Union",
+        "natoName": "Backfire",
         "about": "The Tupolev Tu-22M is a Soviet nuclear capable, supersonic, variable-sweep wing, long-range strategic and maritime strike bomber developed by the Tupolev Design Bureau in the 1960s. The bomber was reported as being designated Tu-26 by Western intelligence at one time.",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M"
       }
@@ -5703,6 +5744,7 @@
         "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
         "firstFlight": 1977,
         "country": "Soviet Union / Russia",
+        "natoName": "Flanker-B",
         "about": "The Sukhoi Su-27 is a Soviet twin-engine supersonic supermaneuverable fighter aircraft designed by Sukhoi. It was intended as a direct competitor for the large US fourth-generation jet fighters such as the Grumman F-14 Tomcat and McDonnell Douglas F-15 Eagle, with 3,530-kilometre (1,910 nmi) range, heavy aircraft…",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-27"
       }
@@ -5725,6 +5767,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Dux Factory",
         "firstFlight": 1977,
         "country": "Soviet Union",
+        "natoName": "Fulcrum",
         "about": "The Mikoyan MiG-29 is a twin-engine fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter U.S. fighters such as the McDonnell Douglas F-15 Eagle and the General…",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29"
       }
@@ -5747,6 +5790,7 @@
         "manufacturer": "Russian Aircraft Corporation MiG, Sokol",
         "firstFlight": 1975,
         "country": "Soviet Union",
+        "natoName": "Foxhound",
         "about": "The Mikoyan MiG-31 is a supersonic interceptor aircraft developed for the Soviet Air Forces by the Mikoyan design bureau as a replacement for the MiG-25 \"Foxbat\", on which it is based and with which it shares design elements.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31"
       }
@@ -5897,6 +5941,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
         "firstFlight": 1977,
         "country": "Soviet Union / Russia",
+        "natoName": "Halo",
         "about": "The Mil Mi-26 is a Soviet/Russian heavy transport helicopter. Its product code is Izdeliye 90.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-26"
       }
@@ -6158,6 +6203,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Kazan Helicopters",
         "firstFlight": 1969,
         "country": "Soviet Union",
+        "natoName": "Haze",
         "about": "The Mil Mi-14 is a Soviet shore-based nuclear-capable amphibious anti-submarine helicopter derived from the earlier Mi-8.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-14"
       }
@@ -6180,6 +6226,7 @@
         "manufacturer": "Yakovlev, Saratov Aviation Plant",
         "firstFlight": 1971,
         "country": "Soviet Union",
+        "natoName": "Forger",
         "about": "The Yakovlev Yak-38 was Soviet Naval Aviation's only operational VTOL strike aircraft in addition to being its first operational carrier-based fixed-wing aircraft. It was developed specifically for, and served almost exclusively on, the Kiev-class aircraft carriers.",
         "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-38"
       }
@@ -6224,6 +6271,7 @@
         "manufacturer": "Sukhoi, Tbilisi Aircraft Manufacturing",
         "firstFlight": 1975,
         "country": "Soviet Union",
+        "natoName": "Frogfoot",
         "about": "The Sukhoi Su-25 Grach is a subsonic, single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi. It was designed to provide close air support for Soviet Ground Forces.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-25"
       }
@@ -6246,6 +6294,7 @@
         "manufacturer": "Kamov",
         "firstFlight": 1973,
         "country": "Soviet Union",
+        "natoName": "Helix",
         "about": "The Kamov Ka-27 is a coaxial rotor military helicopter developed for the Soviet Navy, and as of 2024 is in service in various countries including Russia, Ukraine, Vietnam, China, South Korea, and India. Variants include the Ka-29 assault transport, the Ka-28 downgraded export version, and the Ka-32 for civilian use.",
         "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-27"
       }
@@ -6268,6 +6317,7 @@
         "manufacturer": "Beriev, Tashkent Mechanical Plant",
         "firstFlight": 1978,
         "country": "Soviet Union",
+        "natoName": "Mainstay",
         "about": "The Beriev A-50 is a Soviet-origin airborne early warning and control (AEW&C) aircraft that is based on the Ilyushin Il-76 transport plane. Developed to replace the Tupolev Tu-126 \"Moss\", the A-50 first flew in 1978.",
         "wikipedia": "https://en.wikipedia.org/wiki/Beriev_A-50"
       }
@@ -6524,6 +6574,7 @@
         "manufacturer": "Kamov",
         "firstFlight": 1982,
         "country": "Soviet Union",
+        "natoName": "Hokum-A",
         "about": "The Kamov Ka-50 \"Black Shark\", NATO reporting name Hokum A, is a Soviet/Russian single-seat attack helicopter with the distinctive coaxial rotor system of the Kamov design bureau. It was designed in the 1980s and adopted for service in the Russian army in 1995.",
         "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-50"
       }
@@ -6545,6 +6596,7 @@
         "manufacturer": "Kamov, Progress (aviation plant, Arseniev)",
         "firstFlight": 1997,
         "country": "Russia",
+        "natoName": "Hokum-B",
         "about": null,
         "wikipedia": "https://en.wikipedia.org/wiki/Kamov_Ka-50"
       }
@@ -6888,6 +6940,7 @@
         "manufacturer": "Mil Moscow Helicopter Plant, Rostvertol",
         "firstFlight": 1982,
         "country": "Soviet Union",
+        "natoName": "Havoc",
         "about": "The Mil Mi-28 is a Soviet heavy-weight, all-weather, day-night, tandem-seat anti-armour military attack helicopter. It is an attack helicopter with no intended secondary transport capability and is better optimized for the role than the Mil Mi-24 gunship.",
         "wikipedia": "https://en.wikipedia.org/wiki/Mil_Mi-28"
       }
@@ -7015,6 +7068,7 @@
         "manufacturer": "Sukhoi, Komsomolsk-on-Amur Aircraft Production Association",
         "firstFlight": 2008,
         "country": "Soviet Union (Russia since 1991)",
+        "natoName": "Flanker-E",
         "about": "The Sukhoi Su-35 is the designation for two improved derivatives of the Russian Su-27 air superiority fighter. They are single-seat, twin-engine, supermaneuverable, 4.5 generation air superiority fighters, designed by the Sukhoi Design Bureau and built by Sukhoi.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-35"
       }
@@ -7036,6 +7090,7 @@
         "manufacturer": "Komsomolsk-on-Amur Aircraft Production Association",
         "firstFlight": 2010,
         "country": "Russia",
+        "natoName": "Felon",
         "about": "The Sukhoi Su-57 is a twin-engine stealth multirole fighter aircraft developed by Sukhoi. It is the product of the PAK FA programme, which was initiated in 1999 as a more modern and affordable alternative to the MFI.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-57"
       }
@@ -7243,6 +7298,7 @@
         "manufacturer": "Sukhoi, Novosibirsk Aircraft Production Association",
         "firstFlight": 1990,
         "country": "Russia",
+        "natoName": "Fullback",
         "about": "The Sukhoi Su-34 is a Soviet-origin Russian twin-engine, twin-seat, all-weather supersonic medium-range fighter-bomber/strike aircraft. It first flew in 1990, intended for the Soviet Air Forces, and it entered service in 2014 with the Russian Air Force.",
         "wikipedia": "https://en.wikipedia.org/wiki/Sukhoi_Su-34"
       }
@@ -7264,6 +7320,7 @@
         "manufacturer": "Yakovlev, Sokol",
         "firstFlight": 1996,
         "country": "Russia",
+        "natoName": "Mitten",
         "about": "The Yakovlev Yak-130 is a subsonic, two-seat, advanced jet trainer and light combat aircraft.",
         "wikipedia": "https://en.wikipedia.org/wiki/Yakovlev_Yak-130"
       }
@@ -7672,6 +7729,7 @@
         "manufacturer": "Ilyushin, Voronezh Aircraft Production Association",
         "firstFlight": 1976,
         "country": "Soviet Union",
+        "natoName": "Camber",
         "about": "The Ilyushin Il-86 is a retired short- to medium-range wide-body jet airliner that served as the USSR's first wide-bodied aircraft. Designed and tested by the Ilyushin design bureau in the 1970s, it was certified by the Soviet aircraft industry, manufactured and marketed by the USSR.",
         "wikipedia": "https://en.wikipedia.org/wiki/Ilyushin_Il-86"
       }
@@ -7980,6 +8038,7 @@
         "manufacturer": "Tupolev",
         "firstFlight": 1968,
         "country": "Soviet Union / Russia",
+        "natoName": "Careless",
         "about": "The Tupolev Tu-154 is a three-engined, medium-range, narrow-body airliner designed in the mid-1960s and manufactured by Tupolev. A workhorse of Soviet and (subsequently) Russian airlines for several decades, it carried half of all passengers flown by Aeroflot and its subsidiaries, remaining the standard…",
         "wikipedia": "https://en.wikipedia.org/wiki/Tupolev_Tu-154"
       }

@@ -189,6 +189,7 @@
     "use": "civil",
     "category": "airliner",
     "engine": "jet",
+    "natoName": "Camber",
     "packAnswerIds": [
       "il86"
     ],
@@ -342,6 +343,7 @@
     "use": "civil",
     "category": "airliner",
     "engine": "jet",
+    "natoName": "Careless",
     "photo": "File:EW-85748 Tupolev Tu-154M Belavia parking at MSQ (3).jpg"
   },
   {
@@ -658,7 +660,8 @@
     "group": "military-transport-special",
     "use": "military",
     "category": "transport",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Condor"
   },
   {
     "id": "an225",
@@ -666,7 +669,8 @@
     "group": "military-transport-special",
     "use": "military",
     "category": "transport",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Cossack"
   },
   {
     "id": "il76",
@@ -674,7 +678,8 @@
     "group": "military-transport-special",
     "use": "military",
     "category": "transport",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Candid"
   },
   {
     "id": "kc135",
@@ -803,7 +808,8 @@
     "group": "bomber",
     "use": "military",
     "category": "bomber",
-    "engine": "turboprop"
+    "engine": "turboprop",
+    "natoName": "Bear"
   },
   {
     "id": "tu160",
@@ -811,7 +817,8 @@
     "group": "bomber",
     "use": "military",
     "category": "bomber",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Blackjack"
   },
   {
     "id": "tu22m",
@@ -819,7 +826,8 @@
     "group": "bomber",
     "use": "military",
     "category": "bomber",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Backfire"
   },
   {
     "id": "vulcan",
@@ -966,6 +974,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Flanker-B",
     "packAnswerIds": [
       "su27"
     ],
@@ -977,7 +986,8 @@
     "group": "fighter-attack",
     "use": "military",
     "category": "fighter",
-    "engine": "jet"
+    "engine": "jet",
+    "natoName": "Flanker-E"
   },
   {
     "id": "su57",
@@ -986,6 +996,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Felon",
     "packAnswerIds": [
       "su57"
     ]
@@ -997,6 +1008,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Fulcrum",
     "packAnswerIds": [
       "mig29"
     ]
@@ -1008,6 +1020,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Fishbed",
     "packAnswerIds": [
       "mig21"
     ]
@@ -1019,6 +1032,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Foxbat",
     "photo": "File:Soviet Supersonic Interceptor Mikoyan-Gurevich MiG-25. Советский сверхзвуковой перехватчик МиГ-25.jpg"
   },
   {
@@ -1028,6 +1042,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Foxhound",
     "photo": "File:Авиамузей на аэродроме Караишево (4).JPG"
   },
   {
@@ -1332,6 +1347,7 @@
     "use": "military",
     "category": "attack-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hind",
     "packAnswerIds": [
       "mi24"
     ]
@@ -1344,6 +1360,7 @@
     "use": "military",
     "category": "utility-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hip",
     "packAnswerIds": [
       "mi8"
     ]
@@ -1355,6 +1372,7 @@
     "use": "military",
     "category": "attack-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hokum-A",
     "packAnswerIds": [
       "ka50"
     ],
@@ -1368,6 +1386,7 @@
     "use": "military",
     "category": "attack-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hokum-B",
     "packAnswerIds": [
       "ka52"
     ],
@@ -1538,7 +1557,8 @@
     "group": "helicopter",
     "use": "military",
     "category": "cargo-helicopter",
-    "engine": "turboshaft"
+    "engine": "turboshaft",
+    "natoName": "Halo"
   },
   {
     "id": "sh60",
@@ -1891,6 +1911,7 @@
     "use": "military",
     "category": "patrol",
     "engine": "piston",
+    "natoName": "Mop",
     "photo": "File:RIHB 2022 PBY Catalina.jpg"
   },
   {
@@ -2004,6 +2025,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "piston",
+    "natoName": "Bank",
     "photo": "File:B-25A Mitchell in flight c1941.jpg"
   },
   {
@@ -2022,6 +2044,7 @@
     "use": "military",
     "category": "attack",
     "engine": "piston",
+    "natoName": "Box",
     "photo": "File:Douglas A-20G Havoc.jpg"
   },
   {
@@ -3407,6 +3430,7 @@
     "use": "military",
     "category": "trainer",
     "engine": "piston",
+    "natoName": "Mule",
     "photo": "File:Polikarpov Po-2 at the MAKS-2013 (01).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3449,6 +3473,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "piston",
+    "natoName": "Frank",
     "photo": "File:Yak-9U at Central Air Force Museum Monino pic1.JPG",
     "overrides": {
       "countryOfOrigin": [
@@ -3477,6 +3502,7 @@
     "use": "military",
     "category": "attack",
     "engine": "piston",
+    "natoName": "Bark",
     "photo": "File:Il2 sturmovik.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3491,6 +3517,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "piston",
+    "natoName": "Buck",
     "photo": "File:Petlyakov Pe-2 at Poltava, Russia.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3505,6 +3532,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "piston",
+    "natoName": "Bat",
     "photo": "File:Soviet TU-2 Bomber (9871622634).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3533,6 +3561,7 @@
     "use": "military",
     "category": "trainer",
     "engine": "piston",
+    "natoName": "Max",
     "photo": "File:Yakovlev Yak-18A.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3547,6 +3576,7 @@
     "use": "military",
     "category": "transport",
     "engine": "piston",
+    "natoName": "Colt",
     "photo": "File:Antonov.an-2.ha-mkf.arp.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3561,6 +3591,7 @@
     "use": "military",
     "category": "utility-helicopter",
     "engine": "piston",
+    "natoName": "Hound",
     "photo": "File:Mi-4-JH01 (remix).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3575,6 +3606,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Fagot",
     "photo": "File:MiG-15 USAF.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3590,6 +3622,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Fresco",
     "photo": "File:MiG-17 Takes to the Sky (cropped).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3604,6 +3637,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Farmer",
     "photo": "File:Mikoyan-Gurevich MiG-19S Farmer USAF.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3618,6 +3652,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "jet",
+    "natoName": "Beagle",
     "photo": "File:Ił 28 (2).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3632,6 +3667,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "jet",
+    "natoName": "Badger",
     "photo": "File:Tupolev Tu-16 flies over USS Hewitt (DD-966) c1978.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3646,6 +3682,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "jet",
+    "natoName": "Bison",
     "photo": "File:Soviet M-4 Bison bomber in flight 1982.JPEG",
     "overrides": {
       "countryOfOrigin": [
@@ -3660,6 +3697,7 @@
     "use": "military",
     "category": "transport",
     "engine": "turboprop",
+    "natoName": "Cub",
     "photo": "File:Antonov An-12BK, Russia - Air Force AN1879625.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3674,6 +3712,7 @@
     "use": "military",
     "category": "cargo-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hook",
     "photo": "File:Mi-6.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3689,6 +3728,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Fitter-A",
     "photo": "File:Su-7B Fitter A.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3703,6 +3743,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "jet",
+    "natoName": "Blinder",
     "photo": "File:Энгельс Ту-22РДМ-18 фото 1.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3717,6 +3758,7 @@
     "use": "military",
     "category": "bomber",
     "engine": "jet",
+    "natoName": "Brewer",
     "photo": "File:YaK 28 \"Brewer C\".jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3731,6 +3773,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Flagon",
     "photo": "File:Su-15 Flagon.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3746,6 +3789,7 @@
     "use": "military",
     "category": "patrol",
     "engine": "turboprop",
+    "natoName": "Mail",
     "photo": "File:Be-12P-200.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3761,6 +3805,7 @@
     "use": "military",
     "category": "transport",
     "engine": "turboprop",
+    "natoName": "Cock",
     "photo": "File:Antonov An-22 Antei CCCP-67691.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3775,6 +3820,7 @@
     "use": "military",
     "category": "utility-helicopter",
     "engine": "turboshaft",
+    "natoName": "Hormone",
     "photo": "File:Soviet Ka-25 Hormone-C (cropped).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3789,6 +3835,7 @@
     "use": "military",
     "category": "patrol",
     "engine": "turboprop",
+    "natoName": "May",
     "photo": "File:Soviet Il-38 May passing low over USS Midway (CV-41).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3804,6 +3851,7 @@
     "use": "military",
     "category": "utility-helicopter",
     "engine": "turboshaft",
+    "natoName": "Haze",
     "photo": "File:Manewry NATO Noble Mariner (cropped).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3818,6 +3866,7 @@
     "use": "military",
     "category": "transport",
     "engine": "turboprop",
+    "natoName": "Curl",
     "photo": "File:Hungarian Air Force Antonov An-26 departs RIAT 14thJuly2014 arp.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3832,6 +3881,7 @@
     "use": "military",
     "category": "fighter",
     "engine": "jet",
+    "natoName": "Flogger",
     "photo": "File:Mig-23-DNST8908431 JPG.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3846,6 +3896,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Fitter",
     "photo": "File:Sukhoi Su-22 Fitter.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3860,6 +3911,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Fencer",
     "photo": "File:Su-24 Fencer left side.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3875,6 +3927,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Forger",
     "photo": "File:Yak-38 Forger Gear Down.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3905,6 +3958,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Frogfoot",
     "photo": "File:Ukrainian Air Force Su-25UB with two MiG-29s (9-13) in background.jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3919,6 +3973,7 @@
     "use": "military",
     "category": "utility-helicopter",
     "engine": "turboshaft",
+    "natoName": "Helix",
     "photo": "File:A Russian Helix KA-27 (cropped).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3933,6 +3988,7 @@
     "use": "military",
     "category": "airborne-early-warning",
     "engine": "jet",
+    "natoName": "Mainstay",
     "photo": "File:Airborne early warning and control aircraft A-50U (Red 41).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3947,6 +4003,7 @@
     "use": "military",
     "category": "attack-helicopter",
     "engine": "turboshaft",
+    "natoName": "Havoc",
     "photo": "File:Russian Air Force, RF-13489, Mil Mi-28NM (49581609382).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3961,6 +4018,7 @@
     "use": "military",
     "category": "attack",
     "engine": "jet",
+    "natoName": "Fullback",
     "photo": "File:Sukhoi Su-34 at the MAKS-2013 (03).jpg",
     "overrides": {
       "countryOfOrigin": [
@@ -3975,6 +4033,7 @@
     "use": "military",
     "category": "trainer",
     "engine": "jet",
+    "natoName": "Mitten",
     "photo": "File:Yak-130.jpg",
     "overrides": {
       "countryOfOrigin": [

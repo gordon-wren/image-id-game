@@ -140,6 +140,7 @@
         }
       ],
       "caption": "Russian strategic bomber aircraft. First flew 1952.",
+      "natoName": "Bear",
       "credit": "Sergey Kustov / CC BY-SA 3.0 / via Wikimedia Commons"
     },
     {
@@ -190,6 +191,7 @@
         }
       ],
       "caption": "1956 Soviet fighter aircraft family. First flew 1956.",
+      "natoName": "Fishbed",
       "credit": "Gojanovic123456789 / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -715,6 +717,7 @@
         }
       ],
       "caption": "Soviet transport helicopter. First flew 1952.",
+      "natoName": "Hound",
       "credit": "Jan Hrdonka / CC BY-SA 4.0 / via Wikimedia Commons"
     },
     {
@@ -740,6 +743,7 @@
         }
       ],
       "caption": "Soviet jet fighter aircraft family. First flew 1950.",
+      "natoName": "Fresco",
       "credit": "Balon Greyjoy / CC0 / via Wikimedia Commons"
     },
     {
@@ -765,6 +769,7 @@
         }
       ],
       "caption": "Air superiority fighter aircraft family. First flew 1953.",
+      "natoName": "Farmer",
       "credit": "U.S. Air Force photo / Public domain / via Wikimedia Commons"
     },
     {
@@ -790,6 +795,7 @@
         }
       ],
       "caption": "Soviet bomber aircraft family. First flew 1948.",
+      "natoName": "Beagle",
       "credit": "Wisnia6522 / Public domain / via Wikimedia Commons"
     },
     {
@@ -815,6 +821,7 @@
         }
       ],
       "caption": "Soviet heavy bomber. First flew 1952.",
+      "natoName": "Badger",
       "credit": "U.S. Navy / Public domain / via Wikimedia Commons"
     },
     {
@@ -840,6 +847,7 @@
         }
       ],
       "caption": "Soviet strategic bomber and tanker aircraft. First flew 1953.",
+      "natoName": "Bison",
       "credit": "Unknown author / Public domain / via Wikimedia Commons"
     },
     {
@@ -865,6 +873,7 @@
         }
       ],
       "caption": "Soviet medium-range transport aircraft. First flew 1957.",
+      "natoName": "Cub",
       "credit": "Igor Dvurekov / CC BY-SA 3.0 / via Wikimedia Commons"
     }
   ]

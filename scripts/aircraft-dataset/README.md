@@ -43,6 +43,7 @@ To add aircraft, use the review process in [`docs/aircraft-review.md`](../../doc
 | Field | Use |
 |---|---|
 | `use`, `category`, `engine` | Required. Military or civil, role, and engine type; packs filter on them (values in `public/data/aircraft.schema.json`). |
+| `natoName` | NATO reporting name, e.g. `"Badger"` for the Tu-16; shown on the answer card, the flashcard and in the Collection. |
 | `label` | Short name for answer buttons when the article title reads badly, e.g. `"Airbus A320"` for "Airbus A320 family". |
 | `photo` | A Commons file to use instead of picking one, e.g. `"File:S7 Il-86.jpg"`. Use it when the automatic pick is wrong, or has the type's name painted on it. |
 | `photoAuthor` | Who to credit when Commons leaves the author blank (US military photos, some "own work" uploads), e.g. `"U.S. Air Force"`. Ignored when Commons names one. |
