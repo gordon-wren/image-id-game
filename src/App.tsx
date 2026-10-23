@@ -5,7 +5,6 @@ import { buildCategoryTree, packPathIds } from "./engine/categories";
 import { useTheme } from "./engine/useTheme";
 import { useTimerSetting } from "./engine/useTimerSetting";
 import { useAnswerMode } from "./engine/useAnswerMode";
-import { usePlayMode } from "./engine/usePlayMode";
 import { buildNameCatalog } from "./engine/names";
 import { entryKey, loadCatalog, type Catalog } from "./engine/collection";
 import { useCollection } from "./engine/useCollection";
@@ -35,7 +34,6 @@ export default function App() {
   const { theme, toggle } = useTheme();
   const { timer, setTimer } = useTimerSetting();
   const { answerMode, toggle: toggleAnswerMode } = useAnswerMode();
-  const { playMode, toggle: togglePlayMode } = usePlayMode();
   const [packs, setPacks] = useState<QuestionPack[]>([]);
   const [screen, setScreen] = useState<Screen>({ name: "loading" });
   const [catalog, setCatalog] = useState<Catalog | null>(null);
@@ -122,22 +120,13 @@ export default function App() {
             {screen.name === "browse" && (
               <button
                 className="icon-btn"
-                onClick={togglePlayMode}
-                aria-label="Toggle between playing and studying with flashcards"
-              >
-                Mode: {playMode === "study" ? "Study" : "Play"}
-              </button>
-            )}
-            {screen.name === "browse" && playMode === "play" && (
-              <button
-                className="icon-btn"
                 onClick={toggleAnswerMode}
                 aria-label="Toggle answer mode"
               >
                 Answer: {answerMode === "typed" ? "Typed" : "Choices"}
               </button>
             )}
-            {screen.name === "browse" && playMode === "play" && (
+            {screen.name === "browse" && (
               <TimerPicker value={timer} onChange={setTimer} />
             )}
             <button className="icon-btn" onClick={toggle} aria-label="Toggle theme">
@@ -160,7 +149,6 @@ export default function App() {
           <Suspense fallback={<div className="state-msg">Loading…</div>}>
             <Explore
               data={explore}
-              mode={playMode}
               onPlay={(pack) => setScreen(play(pack))}
               onStudy={(pack) => setScreen({ name: "studying", pack, run: 0 })}
               onBrowse={() => setLanding("folders")}
@@ -173,14 +161,8 @@ export default function App() {
             root={tree}
             selection={screen.selection}
             onSelect={(selection) => setScreen({ name: "browse", selection })}
-            mode={playMode}
-            onStart={(pack) =>
-              setScreen(
-                playMode === "study"
-                  ? { name: "studying", pack, run: 0 }
-                  : play(pack),
-              )
-            }
+            onPlay={(pack) => setScreen(play(pack))}
+            onStudy={(pack) => setScreen({ name: "studying", pack, run: 0 })}
             timer={timer}
             answerMode={answerMode}
           />

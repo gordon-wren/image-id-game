@@ -14,7 +14,6 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { QuestionPack } from "../engine/types";
-import type { PlayMode } from "../engine/usePlayMode";
 import { isAbsoluteUrl, withBase } from "../engine/pack";
 import { sample } from "../engine/random";
 import { rngFor } from "../engine/sets";
@@ -35,7 +34,6 @@ import {
 
 interface ExploreProps {
   data: ExploreData;
-  mode: PlayMode;
   onPlay: (pack: QuestionPack) => void;
   onStudy: (pack: QuestionPack) => void;
   onBrowse: () => void;
@@ -90,7 +88,7 @@ function FitOnChange({ layout }: { layout: Layout }) {
 const nodeTypes = { bar: Bar, heading: Heading };
 const edgeTypes = { ribbon: Ribbon };
 
-export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps) {
+export function Explore({ data, onPlay, onStudy, onBrowse }: ExploreProps) {
   const [groupBy, setGroupBy] = useState<GroupBy>("nation");
   const [last, setLast] = useState<LastColumn>("role");
   const [picked, setPicked] = useState<string>("all");
@@ -273,10 +271,10 @@ export function Explore({ data, mode, onPlay, onStudy, onBrowse }: ExploreProps)
             {members.length > 8 && <li className="explore-more">and {members.length - 8} more</li>}
           </ul>
           <div className="preview-actions">
-            <button className={mode === "play" ? "next-btn" : "secondary-btn"} disabled={short} onClick={() => start(onPlay)}>
+            <button className="next-btn" disabled={short} onClick={() => start(onPlay)}>
               Play
             </button>
-            <button className={mode === "study" ? "next-btn" : "secondary-btn"} disabled={short} onClick={() => start(onStudy)}>
+            <button className="secondary-btn" disabled={short} onClick={() => start(onStudy)}>
               Study
             </button>
           </div>

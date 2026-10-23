@@ -10,7 +10,6 @@ import { getHighScore } from "../engine/highScores";
 import { roundLength } from "../engine/pack";
 import { formatSeconds, roundSeconds, type TimerSetting } from "../engine/timerSetting";
 import type { AnswerMode } from "../engine/useAnswerMode";
-import type { PlayMode } from "../engine/usePlayMode";
 
 /** What's selected: a chain of folder ids, plus optionally a pack in the last folder. */
 export interface BrowserSelection {
@@ -22,10 +21,10 @@ interface ColumnBrowserProps {
   root: CategoryNode;
   selection: BrowserSelection;
   onSelect: (selection: BrowserSelection) => void;
-  /** Whether opening a pack plays the game or studies it as flashcards. */
-  mode: PlayMode;
-  /** Opens the pack in the current mode (Play button, Enter or double-click). */
-  onStart: (pack: QuestionPack) => void;
+  /** Plays the pack (Play button, Enter or double-click). */
+  onPlay: (pack: QuestionPack) => void;
+  /** Studies the pack as flashcards (Study button). */
+  onStudy: (pack: QuestionPack) => void;
   /** Shown in the pack preview as the time per round. */
   timer: TimerSetting;
   answerMode: AnswerMode;
@@ -42,7 +41,7 @@ function entriesOf(node: CategoryNode): Entry[] {
   ];
 }
 
-export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer, answerMode }: ColumnBrowserProps) {
+export function ColumnBrowser({ root, selection, onSelect, onPlay, onStudy, timer, answerMode }: ColumnBrowserProps) {
   const chain = nodeChain(root, selection.path);
   // Ignore stale ids so the columns always reflect a real position in the tree.
   const path = chain.slice(1).map((n) => n.id);
@@ -119,7 +118,7 @@ export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer,
         break;
       }
       case "Enter":
-        if (pack) onStart(pack);
+        if (pack) onPlay(pack);
         else return;
         break;
       default:
@@ -177,7 +176,7 @@ export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer,
                   aria-selected={selected}
                   style={accent ? { ["--accent" as string]: accent } : undefined}
                   onClick={() => select(col, entry)}
-                  onDoubleClick={() => entry.kind === "pack" && onStart(entry.pack)}
+                  onDoubleClick={() => entry.kind === "pack" && onPlay(entry.pack)}
                 >
                   <span className="col-dot" aria-hidden />
                   <span className="col-label">
@@ -207,8 +206,8 @@ export function ColumnBrowser({ root, selection, onSelect, mode, onStart, timer,
           <PackPreview
             pack={pack}
             current={currentColumn === chain.length}
-            mode={mode}
-            onStart={onStart}
+            onPlay={onPlay}
+            onStudy={onStudy}
             perRound={timer === "off" ? "No limit" : formatSeconds(roundSeconds(pack, timer, answerMode))}
           />
         )}
@@ -226,14 +225,14 @@ function perRoundCount(pack: QuestionPack): string {
 function PackPreview({
   pack,
   current,
-  mode,
-  onStart,
+  onPlay,
+  onStudy,
   perRound,
 }: {
   pack: QuestionPack;
   current: boolean;
-  mode: PlayMode;
-  onStart: (pack: QuestionPack) => void;
+  onPlay: (pack: QuestionPack) => void;
+  onStudy: (pack: QuestionPack) => void;
   perRound: string;
 }) {
   const hs = getHighScore(pack.id);
@@ -247,25 +246,23 @@ function PackPreview({
         <p className="pack-title">{pack.title}</p>
       </div>
       {pack.description && <p className="pack-desc">{pack.description}</p>}
-      {mode === "study" ? (
-        <dl className="preview-meta">
-          <div><dt>Cards</dt><dd>{perRoundCount(pack)}</dd></div>
-          <div><dt>Timer</dt><dd>None</dd></div>
-        </dl>
-      ) : (
-        <dl className="preview-meta">
-          <div><dt>Questions</dt><dd>{perRoundCount(pack)}</dd></div>
-          <div><dt>Per round</dt><dd>{perRound}</dd></div>
-          <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
-        </dl>
-      )}
-      <button
-        className="next-btn"
-        onClick={() => onStart(pack)}
-        aria-label={mode === "study" ? `Study ${pack.title} with flashcards` : undefined}
-      >
-        {mode === "study" ? "Study" : "Play"}
-      </button>
+      <dl className="preview-meta">
+        <div><dt>Questions</dt><dd>{perRoundCount(pack)}</dd></div>
+        <div><dt>Per round</dt><dd>{perRound}</dd></div>
+        <div><dt>Best</dt><dd>{hs !== null ? `★ ${hs.toLocaleString()}` : "—"}</dd></div>
+      </dl>
+      <div className="preview-actions">
+        <button className="next-btn" onClick={() => onPlay(pack)}>
+          Play
+        </button>
+        <button
+          className="secondary-btn"
+          onClick={() => onStudy(pack)}
+          aria-label={`Study ${pack.title} with flashcards`}
+        >
+          Study
+        </button>
+      </div>
     </div>
   );
 }
